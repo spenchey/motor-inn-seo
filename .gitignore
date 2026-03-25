@@ -1,0 +1,4 @@
+config/.env
+config/*-credentials.json
+config/*.key
+.DS_Store
