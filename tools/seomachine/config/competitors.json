@@ -1,0 +1,90 @@
+{
+  "direct_competitors": [
+    "championfordcarroll.com",
+    "wittrockmotor.com",
+    "colemanauto.com",
+    "okobojitoyota.com"
+  ],
+  "content_competitors": [
+    "wilsontoyota.com",
+    "dealeron.com",
+    "ignitedigital.com"
+  ],
+  "bofu_keywords": [
+    "car dealership Carroll IA",
+    "used cars Carroll Iowa",
+    "new Chevy Carroll IA",
+    "new Toyota Carroll Iowa",
+    "Toyota dealer Carroll IA",
+    "Chevrolet dealer Carroll IA",
+    "GMC dealer Carroll Iowa",
+    "Buick dealer Carroll IA",
+    "used trucks Carroll IA",
+    "Motor Inn Auto Group",
+    "Motor Inn Carroll Iowa",
+    "Champion Ford Carroll alternatives",
+    "best car dealer Carroll Iowa"
+  ],
+  "mofu_keywords": [
+    "best trucks for farming Iowa",
+    "Toyota Tundra review Iowa",
+    "Silverado vs F-150",
+    "best family SUV Iowa",
+    "car buying tips Iowa",
+    "auto financing Carroll IA",
+    "trade in value Carroll Iowa",
+    "oil change Carroll IA",
+    "car service Carroll Iowa"
+  ],
+  "alternative_keywords": [
+    "Champion Ford Carroll alternatives",
+    "Wittrock CDJR alternatives",
+    "Coleman Auto Spirit Lake alternatives"
+  ],
+  "key_queries": [
+    "car dealership Carroll IA",
+    "used cars Carroll Iowa",
+    "new trucks Carroll IA",
+    "Toyota Carroll Iowa",
+    "Chevrolet Carroll Iowa",
+    "Motor Inn Auto Group"
+  ],
+  "relevant_terms": [
+    "car dealer",
+    "auto dealer",
+    "used cars",
+    "new cars",
+    "trucks",
+    "SUV",
+    "Toyota",
+    "Chevrolet",
+    "Buick",
+    "GMC",
+    "Carroll Iowa",
+    "Spirit Lake",
+    "Okoboji",
+    "service center",
+    "oil change",
+    "financing",
+    "trade in",
+    "test drive"
+  ],
+  "skip_terms": [
+    "celebrity",
+    "net worth",
+    "biography",
+    "dating",
+    "reddit",
+    "lawsuit",
+    "complaint"
+  ],
+  "topic_patterns": {
+    "Inventory": ["used", "new", "pre-owned", "certified", "inventory", "stock"],
+    "Service": ["service", "repair", "maintenance", "oil change", "tire", "brake"],
+    "Financing": ["finance", "financing", "loan", "credit", "payment", "lease"],
+    "Comparisons": ["vs", "versus", "compare", "comparison", "alternative", "best"],
+    "Local": ["Carroll", "Iowa", "Spirit Lake", "Okoboji", "near me", "local"],
+    "Trucks": ["truck", "pickup", "Silverado", "Tundra", "Sierra", "Tacoma"],
+    "SUVs": ["SUV", "Highlander", "4Runner", "Tahoe", "Traverse", "Equinox"]
+  }
+}

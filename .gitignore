@@ -2,3 +2,8 @@ config/.env
 config/*-credentials.json
 config/*.key
 .DS_Store
+.venv/
+tools/seomachine/data_sources/credentials/
+tools/seomachine/.env
+__pycache__/
+*.pyc
