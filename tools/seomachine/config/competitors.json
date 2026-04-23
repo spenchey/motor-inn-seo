@@ -3,8 +3,39 @@
     "championfordcarroll.com",
     "wittrockmotor.com",
     "colemanauto.com",
-    "okobojitoyota.com"
+    "okobojitoyota.com",
+    "mackemotors.com"
   ],
+  "regional_competitors": [
+    "wilsontoyota.com",
+    "okobojitoyota.com",
+    "rickcollinstoyota.com",
+    "toyotaofdesmoines.com",
+    "fortdodgeford.net",
+    "okobojigmtoyota.com"
+  ],
+  "direct_competitors_gbp": {
+    "championfordcarroll.com": "https://www.google.com/maps/search/?api=1&query=Champion+Ford+1114+US-30+Carroll+IA+51401",
+    "wittrockmotor.com": "https://www.google.com/maps/search/?api=1&query=Wittrock+Motor+Company,1019+W+US+Highway+30,Carroll,IA+51401",
+    "colemanauto.com": "[UNRESOLVED — share link unknown, Spencer to confirm]",
+    "okobojitoyota.com": "https://www.google.com/maps/search/?api=1&query=Okoboji+Toyota,2720+17th+Street,Spirit+Lake,IA+51360",
+    "mackemotors.com": "https://www.google.com/maps/search/?api=1&query=Macke+Motors+1201+W+Main+St+Lake+City+IA+51449",
+    "choice_auto_carroll": "https://www.google.com/maps/search/?api=1&query=Choice+Auto,329+East+6th+Street,Carroll,IA+51401",
+    "wilsontoyota.com": "https://www.google.com/maps/search/?api=1&query=Wilson+Toyota+of+Ames+2212+S+Duff+Ave,+Ames,+IA+50010",
+    "rickcollinstoyota.com": "https://www.google.com/maps/search/?api=1&query=Rick+Collins+Toyota,3131+Singing+Hills+Blvd,Sioux+City,IA+51106",
+    "toyotaofdesmoines.com": "https://www.google.com/maps/place/Toyota+of+Des+Moines/data=!4m2!3m1!1s0x0:0xc3d963985c1f6a31",
+    "fortdodgeford.net": "https://www.google.com/maps/search/?api=1&query=Fort+Dodge+Ford+Lincoln+Toyota+2723+5th+Ave+S+Fort+Dodge+IA+50501",
+    "okobojigmtoyota.com": "https://www.google.com/maps/search/?api=1&query=Okoboji+Motor+Company+2720+17th+St+Spirit+Lake+IA+51360"
+  },
+  "motor_inn_gbp": {
+    "chevy_buick_gmc": "https://www.google.com/maps/search/Motor+Inn+Chevrolet+Buick+GMC+Carroll+Iowa",
+    "combined_store": "https://www.google.com/maps/search/Motor+Inn+Toyota+and+Chevrolet+of+Carroll+Iowa",
+    "share_links": {
+      "chevy": "https://share.google/olqo8h1hGSi9mepzk",
+      "combined": "https://share.google/MYI84x4R5wq2JQYfX"
+    }
+  },
+  "all_competitors_gbp_note": "Fort Dodge Ford Lincoln Toyota and Okoboji Motor Company are separate, unrelated competitors. Okoboji Motor Company (okobojigmtoyota.com) and Okoboji Toyota (okobojitoyota.com) are separate entities despite sharing an address.",
   "content_competitors": [
     "wilsontoyota.com",
     "dealeron.com",
