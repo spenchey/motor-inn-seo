@@ -6,8 +6,8 @@
 
 ## Executive Summary
 
-- GA4 90-day sessions captured: **3,671**
-- GA4 90-day users captured: **3,395**
+- GA4 90-day sessions captured: **3,680**
+- GA4 90-day users captured: **3,404**
 - Sitemap URLs found: **180**
 - Draft pages created: **5**
 
@@ -38,8 +38,8 @@
 
 | Page | Views | Users | Recommended Push |
 |---|---:|---:|---|
-| /used-inventory | 14,916 | 4,134 | Add local-intent supporting copy and internal links |
-| / | 8,251 | 6,640 | Add local-intent supporting copy and internal links |
+| /used-inventory | 14,921 | 4,136 | Add local-intent supporting copy and internal links |
+| / | 8,254 | 6,641 | Add local-intent supporting copy and internal links |
 | /Contactus/Carroll | 3,268 | 2,148 | Add local-intent supporting copy and internal links |
 | /new-vehicles | 2,727 | 1,211 | Add local-intent supporting copy and internal links |
 | /Inventory/Results | 2,055 | 956 | Add local-intent supporting copy and internal links |
@@ -47,7 +47,7 @@
 | /used-suvs | 1,350 | 491 | Add local-intent supporting copy and internal links |
 | /under-20000 | 969 | 515 | Add local-intent supporting copy and internal links |
 | /hours-directions | 907 | 718 | Add local-intent supporting copy and internal links |
-| /searchnew.aspx | 847 | 452 | Add local-intent supporting copy and internal links |
+| /searchnew.aspx | 852 | 455 | Add local-intent supporting copy and internal links |
 
 ## Service x City Matrix
 
@@ -80,16 +80,16 @@
 
 | Event | Count |
 |---|---:|
-| page_view | 69,399 |
-| asc_pageview | 66,135 |
-| user_engagement | 35,315 |
-| session_start | 28,191 |
-| asc_element_configuration | 26,206 |
-| first_visit | 18,599 |
-| scroll | 17,986 |
+| page_view | 69,426 |
+| asc_pageview | 66,158 |
+| user_engagement | 35,318 |
+| session_start | 28,200 |
+| asc_element_configuration | 26,209 |
+| first_visit | 18,605 |
+| scroll | 17,990 |
 | used_vdp | 16,701 |
-| used_srp | 14,702 |
-| asc_media_interaction | 13,320 |
+| used_srp | 14,706 |
+| asc_media_interaction | 13,333 |
 
 ## Customer Language And Copy Direction
 
