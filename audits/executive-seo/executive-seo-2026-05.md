@@ -5,7 +5,7 @@ Primary period: April 2026 (2026-04-01 to 2026-04-30)
 
 ## Executive Summary
 
-Motor Inn recorded 3,770 sessions, 3,492 users, and 10,188 page views in April 2026. Organic search accounted for 1,389 sessions (36.8% of traffic), while tracked lead/contact actions totaled 4,017.
+Motor Inn recorded 6,624 sessions, 6,094 users, and 17,877 page views in April 2026. Organic search accounted for 1,389 sessions (21.0% of traffic), while tracked lead/contact actions totaled 4,017.
 
 The executive read is not just rankings. For an automotive group, the SEO report needs to show whether search demand is reaching inventory, VDPs, service pages, lead actions, local market coverage, and DealerOn publish decisions.
 
@@ -13,11 +13,11 @@ The executive read is not just rankings. For an automotive group, the SEO report
 
 | KPI | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Monthly sessions | 3,770 | 7,398 | -49.0% |
-| Monthly users | 3,492 | 6,791 | -48.6% |
-| Monthly page views | 10,188 | 19,164 | -46.8% |
+| Monthly sessions | 6,624 | 11,086 | -40.2% |
+| Monthly users | 6,094 | 10,189 | -40.2% |
+| Monthly page views | 17,877 | 27,703 | -35.5% |
 | Organic sessions | 1,389 | 1,641 | -15.4% |
-| Organic share of traffic | 36.8% | 22.2% | +66.1% |
+| Organic share of traffic | 21.0% | 14.8% | +41.7% |
 | Lead and contact actions | 4,017 | 6,400 | -37.2% |
 | VDP intent events | 6,230 | 10,433 | -40.3% |
 | SRP inventory events | 5,772 | 6,796 | -15.1% |
@@ -32,9 +32,9 @@ Comparing April 2026 to March 2026.
 
 | Metric | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Sessions | 3,770 | 7,398 | -49.0% |
-| Users | 3,492 | 6,791 | -48.6% |
-| Page views | 10,188 | 19,164 | -46.8% |
+| Sessions | 6,624 | 11,086 | -40.2% |
+| Users | 6,094 | 10,189 | -40.2% |
+| Page views | 17,877 | 27,703 | -35.5% |
 
 ### Quarter-over-Quarter
 
@@ -42,19 +42,19 @@ Comparing Q1 2026 to Q4 2025.
 
 | Metric | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Sessions | 7,398 | 5,419 | +36.5% |
-| Users | 6,791 | 4,792 | +41.7% |
-| Page views | 19,164 | 13,844 | +38.4% |
+| Sessions | 31,889 | 22,276 | +43.2% |
+| Users | 28,974 | 19,891 | +45.7% |
+| Page views | 75,169 | 53,957 | +39.3% |
 
 ### Year-over-Year / Trailing 12
 
-Comparing May-April 2026 to May-April 2025.
+Comparing May 2025-April 2026 to May 2024-April 2025.
 
 | Metric | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Sessions | 3,770 | 5,647 | -33.2% |
-| Users | 3,492 | 4,981 | -29.9% |
-| Page views | 10,188 | 13,940 | -26.9% |
+| Sessions | 95,726 | 127,812 | -25.1% |
+| Users | 86,004 | 114,314 | -24.8% |
+| Page views | 232,820 | 283,345 | -17.8% |
 
 ## Automotive Executive Focus
 
@@ -84,7 +84,7 @@ Why it matters: Page-2 local queries are often the fastest SEO wins for a dealer
 
 ### Content Production
 
-Finding: 0 review-ready gap pages are attached or referenced for publishing decisions.
+Finding: 5 review-ready gap pages are attached or referenced for publishing decisions.
 
 Why it matters: SEO work has to turn into publishable DealerOn changes, not only analysis.
 
@@ -125,11 +125,15 @@ Fixed ops page views: 47 (-56.1% vs prior month).
 
 | Page | Target Keyword | Priority | File |
 | --- | --- | --- | --- |
-| No current content package summary found |  |  |  |
+| Car Dealerships in Carroll, Iowa | car dealerships Carroll Iowa | high | /Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/car-dealerships-carroll-iowa.md |
+| Toyota Dealer in Carroll, Iowa | Toyota dealer Carroll Iowa | high | /Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/toyota-dealer-carroll-iowa.md |
+| Used Cars in Carroll, Iowa | used cars Carroll Iowa | high | /Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/used-cars-carroll-iowa.md |
+| Used Trucks in Carroll, Iowa | used trucks Carroll Iowa | medium | /Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/used-trucks-carroll-iowa.md |
+| Auto Service in Carroll, Iowa | auto service Carroll Iowa | medium | /Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/auto-service-carroll-iowa.md |
 
 ## Executive Decision Items
 
-1. Decide which local/service SEO pages should be drafted next, because no current content package summary was found.
+1. Approve, revise, or reject the 5 draft SEO pages from the monthly content package.
 2. Prioritize internal links and on-page updates for page-2 non-brand queries: carroll iowa car dealerships.
 3. Confirm whether DealerOn can publish city/service pages with clean URLs, unique title tags, and schema.
 4. Confirm GBP, website, and call/form tracking are using consistent URLs so source attribution is reliable.
