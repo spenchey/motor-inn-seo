@@ -1,0 +1,42 @@
+{
+  "@context": "https://schema.org",
+  "@type": "AutoDealer",
+  "name": "Motor Inn Auto Group",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "1526 Le Clark Road",
+    "addressLocality": "Carroll",
+    "addressRegion": "IA",
+    "postalCode": "51401",
+    "addressCountry": "US"
+  },
+  "telephone": "(712) 522-2526",
+  "url": "https://www.motorinnautogroup.com",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:00",
+      "closes": "18:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ],
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 42.0655,
+    "longitude": -94.8675
+  },
+  "areaServed": ["Carroll, IA", "Spirit Lake, IA", "Okoboji, IA"],
+  "brand": ["Chevrolet", "Buick", "GMC", "Toyota"],
+  "_TODO_aggregateRating": "Removed by Spencer (via Claude) on 2026-05-03. Nemotron originally hallucinated ratingValue=4.5 reviewCount=100. Pull real values from Google Business Profile + Cars.com + DealerRater before publishing.",
+  "_TODO_sundayHours": "Removed Sunday hours from openingHoursSpecification — Iowa dealers typically closed Sundays. Confirm before publishing.",
+  "sameAs": [
+    "https://www.facebook.com/MotorInnAutoGroup",
+    "https://www.instagram.com/motorinnautogroup/"
+  ]
+}

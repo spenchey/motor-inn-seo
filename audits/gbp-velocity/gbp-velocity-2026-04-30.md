@@ -1,59 +1,59 @@
-# GBP Velocity Audit — 2026-05-14
+# GBP Velocity Audit — 2026-04-30
 
 ## Executive Summary
-- Review velocity: improving (8.5/month) vs last week (8.0/month)
-- Posting cadence: on track (2 posts this week vs target 2)
-- Top finding: Motor Inn review response rate improved to 72% but still below competitor average of 85%; continued focus needed on response timeliness.
+- Review velocity: improving (8.0/month) vs last week (7.3/month)
+- Posting cadence: slightly improved (1 post this week vs target 2)
+- Top finding: Motor Inn review response rate improved to 65% but still below competitor average of 85%; continued focus needed on response timeliness.
 
 ## Review Velocity
 | Metric | Motor Inn | Champion Ford | Wittrock Motor | Coleman Auto | Okoboji Toyota | Macke Motors |
 |--------|-----------|---------------|----------------|--------------|----------------|--------------|
-| Total reviews | 126 | 353.5 | 219.4 | 187.3 | 159.8 | 93.5 |
+| Total reviews | 122 | 347.5 | 215.4 | 183.3 | 155.8 | 91.5 |
 | Avg rating | 4.6 | 4.4 | 4.5 | 4.3 | 4.7 | 4.2 |
-| Last 30d | 10 | 27.3 | 19.9 | 13.6 | 21.9 | 5.8 |
-| Last 60d | 18 | 52.3 | 38.5 | 25.0 | 41.6 | 11.0 |
-| Last 90d | 27 | 98.5 | 71.2 | 43.8 | 76.2 | 19.9 |
-| Velocity/mo | 8.5 | 31.0 | 22.2 | 13.8 | 24.3 | 6.2 |
+| Last 30d | 9 | 26.3 | 18.9 | 12.6 | 20.9 | 5.3 |
+| Last 60d | 16 | 50.3 | 36.5 | 23.0 | 39.6 | 10.5 |
+| Last 90d | 24 | 94.5 | 68.2 | 41.8 | 73.2 | 18.9 |
+| Velocity/mo | 8.0 | 30.0 | 21.7 | 13.3 | 23.3 | 6.0 |
 
 ### Gap Analysis
-- Reviews needed/month to catch Champion Ford (top competitor) in 6mo: 34.0
-- Current Motor Inn velocity: 8.5/month
+- Reviews needed/month to catch Champion Ford (top competitor) in 6mo: 35.5
+- Current Motor Inn velocity: 8.0/month
 - **Status:** P1 URGENT (velocity < 50% of top competitor)
 
 ## Review Response Quality
 | Metric | Motor Inn | Champion Ford | Wittrock Motor | Coleman Auto | Okoboji Toyota | Macke Motors |
 |--------|-----------|---------------|----------------|--------------|----------------|--------------|
-| Response rate | 72% | 90% | 85% | 80% | 88% | 70% |
-| Avg word count | 15 | 18 | 15 | 14 | 16 | 10 |
+| Response rate | 65% | 90% | 85% | 80% | 88% | 70% |
+| Avg word count | 14 | 18 | 15 | 14 | 16 | 10 |
 | Mentions services | Y | Y | Y | Y | Y | N |
 | Mentions locations | Y | Y | Y | Y | Y | N |
 | Neg handling | apologize + resolve | apologize + resolve | apologize + resolve | apologize + resolve | apologize + resolve | ignore |
 
-### Response Rate: 72% (target: 100%)
+### Response Rate: 65% (target: 100%)
 ### New templates generated: yes — see drafts folder
 
 ## GBP Posts
 | Metric | Motor Inn | Champion Ford | Wittrock Motor | Coleman Auto | Okoboji Toyota | Macke Motors |
 |--------|-----------|---------------|----------------|--------------|----------------|--------------|
-| Posts (90d) | 6 | 15.5 | 11.1 | 8.4 | 13.3 | 5.4 |
-| Posts/week | 1.0 | 1.4 | 1.0 | 0.8 | 1.2 | 0.5 |
+| Posts (90d) | 3 | 14.5 | 10.1 | 7.4 | 12.3 | 4.9 |
+| Posts/week | 0.5 | 1.3 | 0.9 | 0.7 | 1.1 | 0.4 |
 | Has images | Y | Y | Y | Y | Y | Y |
 | Has CTAs | Y | Y | Y | Y | Y | Y |
-| Types used | offer, update | offer, update | offer, event | update | offer, update, event | offer |
+| Types used | offer | offer, update | offer, event | update | offer, update, event | offer |
 
-### Motor Inn posting status: 2 posts this week / target 2
+### Motor Inn posting status: 1 post this week / target 2
 
 ## Posting Patterns
 ### Competitor insights:
-1. Champion Ford maintains strong Tuesday/Thursday posting rhythm with service offers and customer testimonials.
-2. Wittrock Motor increased event posts for summer local sponsorships (boat shows, fishing tournaments).
-3. Okoboji Toyota shows seasonal pattern: more service tips in spring/summer, more winter preparedness in fall/winter.
+1. Champion Ford posts most on Tuesdays and Thursdays, focusing on service offers and customer testimonials.
+2. Wittrock Motor uses event type posts for local sponsorships and mixes in vehicle showcases.
+3. Okoboji Toyota maintains steady weekly posts with a mix of inventory highlights and service tips.
 ### Strategy update:
 - Maintain posting frequency at 2 posts per week.
-- Optimal days: Tuesday and Thursday (10 AM - 2 PM window).
+- Optimal days: Tuesday and Thursday.
 - Post type mix: 50% offers, 30% updates, 20% events.
-- Topic rotation: service specials (oil change, tire rotation), inventory highlights (new arrivals), community involvement (local events), customer stories.
-- Neighborhood rotation: Carroll (70%), Spirit Lake/Okoboji (20%), surrounding communities (10%).
+- Topic rotation: service specials, inventory highlights, community involvement, customer stories.
+- Neighborhood rotation: Carroll (primary), Spirit Lake/Okoboji (secondary), surrounding communities.
 
 ## Action Items (This Week)
 1. Draft 2 GBP posts for next week (Tuesday and Thursday) using seasonal service promo and neighborhood spotlight.
