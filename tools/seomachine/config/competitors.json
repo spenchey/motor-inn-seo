@@ -17,7 +17,7 @@
   "direct_competitors_gbp": {
     "championfordcarroll.com": "https://www.google.com/maps/search/?api=1&query=Champion+Ford+1114+US-30+Carroll+IA+51401",
     "wittrockmotor.com": "https://www.google.com/maps/search/?api=1&query=Wittrock+Motor+Company,1019+W+US+Highway+30,Carroll,IA+51401",
-    "colemanauto.com": "[UNRESOLVED — share link unknown, Spencer to confirm]",
+    "colemanauto.com": "https://www.google.com/maps/search/?api=1&query=Spirit+Lake+Ford+Chrysler+Dodge+Jeep+Ram+Spirit+Lake+IA",
     "okobojitoyota.com": "https://www.google.com/maps/search/?api=1&query=Okoboji+Toyota,2720+17th+Street,Spirit+Lake,IA+51360",
     "mackemotors.com": "https://www.google.com/maps/search/?api=1&query=Macke+Motors+1201+W+Main+St+Lake+City+IA+51449",
     "choice_auto_carroll": "https://www.google.com/maps/search/?api=1&query=Choice+Auto,329+East+6th+Street,Carroll,IA+51401",
@@ -35,7 +35,7 @@
       "combined": "https://share.google/MYI84x4R5wq2JQYfX"
     }
   },
-  "all_competitors_gbp_note": "Fort Dodge Ford Lincoln Toyota and Okoboji Motor Company are separate, unrelated competitors. Okoboji Motor Company (okobojigmtoyota.com) and Okoboji Toyota (okobojitoyota.com) are separate entities despite sharing an address.",
+  "all_competitors_gbp_note": "Fort Dodge Ford Lincoln Toyota and Okoboji Motor Company are separate, unrelated competitors. Okoboji Motor Company (okobojigmtoyota.com) and Okoboji Toyota (okobojitoyota.com) are separate entities despite sharing an address. Coleman Auto operates as Spirit Lake Ford-Chrysler-Dodge-Jeep-Ram (share link confirmed by Spencer 2026-05-18: https://share.google/ZMnGxZAomtZrjzJ1u).",
   "content_competitors": [
     "wilsontoyota.com",
     "dealeron.com",
