@@ -8,12 +8,12 @@
 **Location:** Carroll
 
 **Copy:**
-After a harsh Iowa winter, we've been seeing more vehicles with road salt damage and pothole-related issues. This Chevrolet Silverado came in with significant undercarriage corrosion and suspension wear from winter driving conditions. Our team performed a thorough cleaning, applied rust inhibitor, replaced worn suspension components, and performed a full alignment. The before photos show the extent of winter wear, while after photos reveal a vehicle restored to safe, reliable condition. Winter takes its toll on vehicles, but proper maintenance and timely repairs can extend your truck's life significantly. If you've noticed unusual noises or handling changes after winter, bring your vehicle in for a free inspection - we'll give you an honest assessment of what needs attention.
+After a harsh Iowa winter, road salt, potholes, and rough roads can leave hidden wear underneath your vehicle. Our service team checks the areas customers cannot easily see: suspension components, alignment, brake hardware, tires, and early corrosion points. A before-and-after post like this should use an actual Motor Inn inspection or repair photo so customers can see what winter wear looks like and why a spring checkup matters. If you've noticed unusual noises, pulling, vibration, or handling changes after winter, bring your vehicle in for an inspection. We'll give you a clear explanation of what needs attention now, what can wait, and what helps protect your vehicle long term.
 
 **CTA button:** Call Now
 **CTA link:** tel:(712) 522-2526
 
-**Image:** Split-screen photo: left side showing winter-damaged undercarriage with visible rust and wear, right side showing repaired undercarriage with clean components and new suspension parts, taken in Motor Inn service bay with tools visible in background
+**Image:** Real Motor Inn service bay before/after photo from an actual approved inspection or repair. Use a vehicle on a lift with a close-up of the worn or repaired area. Do not use stock imagery or staged damage.
 
 ---
 
@@ -24,12 +24,12 @@ After a harsh Iowa winter, we've been seeing more vehicles with road salt damage
 **Location:** Spirit Lake
 
 **Copy:**
-Meet Mike, our lead service technician with over 15 years of experience keeping Carroll and Spirit Lake vehicles running smoothly. Mike specializes in diesel engine maintenance and has helped countless farmers, truckers, and families maintain their work vehicles through Iowa's challenging seasons. What sets Mike apart is his commitment to explaining repairs in plain language - no jargon, just honest assessments of what your vehicle needs and why. He's been with Motor Inn for 8 years and represents the depth of expertise you'll find throughout our service department. Whether you drive a gasoline-powered sedan or a heavy-duty diesel pickup, our team has the knowledge and experience to keep you safely on the road. Next time you visit, ask for Mike - he'll take the time to ensure you understand your vehicle's service needs completely.
+Our service department is built around clear communication and practical experience. Whether you drive a family SUV, a work truck, or a daily commuter, our technicians focus on explaining repairs in plain language: what is urgent, what is preventative, and what can safely wait. That matters for Carroll, Spirit Lake, and Okoboji drivers who depend on their vehicles through Iowa winters, lake-season travel, farm work, and daily commutes. If your vehicle needs maintenance, diagnostics, tires, brakes, or a second opinion, our team will walk you through the findings before any work is approved.
 
 **CTA button:** Learn More
 **CTA link:** https://www.motorinnautogroup.com/service
 
-**Image:** Photo of Mike in Motor Inn service uniform standing beside a lifted truck in the service bay, holding a diagnostic tablet, with Spirit Lake water visible through bay doors in background
+**Image:** Real photo of the Motor Inn service team or a technician with customer permission in the service bay. Show a diagnostic tablet, lift, or active inspection. Avoid invented staff names or locations.
 
 ---
 
@@ -56,12 +56,12 @@ As temperatures rise, so does the importance of proper tire maintenance. Hot Iow
 **Location:** Okoboji
 
 **Copy:**
-Summer lake season means more boats, more fishing gear, and more sandy, wet interiors. This family SUV came in after a weekend at Okoboji with sand tracked throughout, water stains on upholstery, and fishy odors from live bait storage. Our detailing team performed a deep extraction clean, treated all surfaces with protective coatings, and eliminated odors at the source. The transformation is remarkable - from lake-day mess to showroom clean. We don't just clean surfaces; we restore interiors to protect your investment and enhance your driving experience. Whether you've been camping, fishing, or just living life with kids and pets, our detailing services can make your vehicle feel new again. Protect your interior investment with regular detailing - it's especially valuable for lake season vehicles that see extra moisture and outdoor elements.
+Summer lake season means more boats, fishing gear, sports equipment, wet towels, sand, and busy family travel. A before-and-after interior post is a strong way to show how much regular cleaning and protection can improve a vehicle after a few hard weekends around Okoboji. Use a real Motor Inn-approved example: floor mats, cargo area, upholstery, or a truck cab before and after cleaning. Keeping the interior clean protects resale value, makes daily driving better, and helps remove moisture and odor before they become bigger problems.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/detailing
+**CTA link:** https://www.motorinnautogroup.com/service
 
-**Image:** Split-screen photo: left side showing sandy, wet interior with visible stains and clutter, right side showing pristine clean interior with protected surfaces, taken in Motor Inn detailing area with professional equipment visible
+**Image:** Real before/after interior cleaning photo from Motor Inn. Use customer-approved or internal vehicle photos only. Do not stage a fake customer story.
 
 ---
 
@@ -72,9 +72,9 @@ Summer lake season means more boats, more fishing gear, and more sandy, wet inte
 **Location:** Carroll
 
 **Copy:**
-Behind every successful repair is the right part, and that's where our parts department excels. Led by Sarah with 12 years of experience, our team ensures you get the correct OEM or quality aftermarket part the first time - no guesswork, no multiple trips. Sarah knows the intricacies of everything from engine sensors to body panels, and she's built relationships with suppliers that mean faster sourcing for hard-to-find items. What customers appreciate most is our commitment to explaining part options - we'll show you the differences between OEM, aftermarket, and remanufactured parts so you can make informed decisions about your vehicle repairs. Whether you're a DIY enthusiast needing a specific bolt or a professional shop requiring OEM components, our parts department has the knowledge and inventory to help. Next time you need a part, ask for Sarah - she'll make sure you leave with exactly what your vehicle needs.
+Behind every successful repair is the right part. Our parts department helps make sure customers and technicians get the correct OEM or quality replacement part the first time. That means checking fitment, explaining options, and helping avoid wasted time from ordering the wrong component. Whether you are a DIY customer looking for a specific part or a repair customer who wants to understand the difference between OEM, aftermarket, and remanufactured options, our team can help you make a practical decision for your vehicle and budget.
 
 **CTA button:** Learn More
 **CTA link:** https://www.motorinnautogroup.com/parts
 
-**Image:** Photo of Sarah in Motor Inn parts department uniform at parts counter, smiling and holding a boxed part, with shelves of organized inventory visible in background and dealership signage visible through windows
+**Image:** Real Motor Inn parts counter photo with an employee-approved team image, organized shelves, or a technician receiving the correct part for a repair. Avoid invented staff names.
