@@ -153,3 +153,19 @@ Fixed ops page views: 47 (-56.1% vs prior month).
 - /Users/spencerheywood/motor-inn-seo/content/drafts/build-summary-2026-05.md
 - /Users/spencerheywood/motor-inn-seo/research/sentiment-analysis-2026-05.md
 - /Users/spencerheywood/motor-inn-seo/audits/audit-latest.md
+
+<!-- google-ads-paid-search-signals:start -->
+## Paid Search Signals
+
+| Opportunity | Evidence | Recommended SEO Action | Owner |
+| --- | --- | --- | --- |
+| motor inn carroll iowa | 184 clicks, $181.09, 95.81 conversions, coverage=draft | Review city/dealer landing-page coverage and internal links. | Rory + Emily + Spencer approval |
+| motor inn carroll iowa | 82 clicks, $52.2, 60.83 conversions, coverage=draft | Review city/dealer landing-page coverage and internal links. | Rory + Emily + Spencer approval |
+| motor inn carroll | 52 clicks, $41.39, 38.44 conversions, coverage=draft | Review city/dealer landing-page coverage and internal links. | Rory + Emily + Spencer approval |
+| motor inn carroll iowa | 65 clicks, $93.24, 33.58 conversions, coverage=draft | Review fixed-ops page coverage, GBP service post, and service landing-page CTA. | Rory + Emily + Spencer approval |
+| motor inn carroll ia | 57 clicks, $41.3, 30.76 conversions, coverage=draft | Review city/dealer landing-page coverage and internal links. | Rory + Emily + Spencer approval |
+| motor inn | 42 clicks, $112.61, 26.3 conversions, coverage=draft | Review fixed-ops page coverage, GBP service post, and service landing-page CTA. | Rory + Emily + Spencer approval |
+| toyota carroll iowa | 20 clicks, $44.7, 9.82 conversions, coverage=draft | Review city/dealer landing-page coverage and internal links. | Rory + Emily + Spencer approval |
+| motor inn carroll ia | 18 clicks, $10.06, 10.7 conversions, coverage=draft | Review city/dealer landing-page coverage and internal links. | Rory + Emily + Spencer approval |
+
+<!-- google-ads-paid-search-signals:end -->

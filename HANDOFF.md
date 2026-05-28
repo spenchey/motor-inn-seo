@@ -10,6 +10,12 @@ Approved content ready for publishing lives in: `content/approved/`
 
 Each file is a markdown document with YAML frontmatter containing all the SEO metadata you need.
 
+Paid-search ideas from Google Ads API start in: `content/drafts/paid-search/`
+
+Those files are research-backed briefs only. They are not approved for DealerOn
+or sMedia handoff until Spencer reviews them and Rory moves them into
+`content/approved/`.
+
 ## What's in Each File
 
 | Field | Description |
@@ -42,6 +48,13 @@ For each page:
 - [ ] Publish
 - [ ] Move the source file from `content/approved/` to `content/published/` and commit
 - [ ] Note the live URL in the file's frontmatter as `live_url:`
+
+For paid-search-sourced drafts, also confirm:
+
+- [ ] `source: google_ads_api` is present
+- [ ] `approval_required: true` has been cleared only after Spencer approves
+- [ ] Any price, payment, incentive, inventory, or availability claim is backed by a current approved source
+- [ ] Negative-keyword, budget, bid, ad copy, and landing-page recommendations were not pushed into Google Ads from the SEO repo
 
 ## DealerOn-Specific Notes
 
