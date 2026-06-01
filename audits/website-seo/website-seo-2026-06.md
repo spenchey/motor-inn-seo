@@ -6,8 +6,8 @@
 
 ## Executive Summary
 
-- GA4 90-day sessions captured: **0**
-- GA4 90-day users captured: **0**
+- GA4 90-day sessions captured: **26,909**
+- GA4 90-day users captured: **18,445**
 - Sitemap URLs found: **202**
 - Draft pages created: **5**
 
@@ -23,31 +23,31 @@
 
 | Keyword | Clicks | Impressions | CTR | Position | Action |
 |---|---:|---:|---:|---:|---|
-| motor inn carroll iowa | 68 | 185 | 36.76% | 1 | Protect existing visibility |
-| motor inn carroll ia | 25 | 62 | 40.32% | 1 | Protect existing visibility |
-| motor inn carroll | 15 | 36 | 41.67% | 1.2 | Protect existing visibility |
-| motor inn | 14 | 59 | 23.73% | 1.8 | Protect existing visibility |
-| motor inn auto group | 14 | 22 | 63.64% | 1 | Protect existing visibility |
-| toyota carroll iowa | 9 | 44 | 20.45% | 6.6 | Create or strengthen local page |
-| carroll motor inn | 8 | 16 | 50.0% | 1.1 | Protect existing visibility |
-| motor inn carroll used cars | 7 | 12 | 58.33% | 1.1 | Protect existing visibility |
-| carroll iowa toyota | 6 | 24 | 25.0% | 10.5 | Create or strengthen local page |
-| carroll iowa car dealerships | 5 | 18 | 27.78% | 4.8 | Protect existing visibility |
+| motor inn carroll iowa | 61 | 182 | 33.52% | 1 | Protect existing visibility |
+| motor inn carroll ia | 16 | 31 | 51.61% | 1 | Protect existing visibility |
+| motor inn | 14 | 54 | 25.93% | 1.9 | Protect existing visibility |
+| motor inn carroll | 10 | 37 | 27.03% | 1.1 | Protect existing visibility |
+| toyota carroll iowa | 10 | 42 | 23.81% | 4.3 | Protect existing visibility |
+| motor inn carroll used cars | 8 | 11 | 72.73% | 1 | Protect existing visibility |
+| motor inn toyota of carroll | 7 | 19 | 36.84% | 1 | Protect existing visibility |
+| motor inn of carroll | 6 | 14 | 42.86% | 1.6 | Protect existing visibility |
+| toyota of carroll | 6 | 19 | 31.58% | 4.6 | Protect existing visibility |
+| carroll iowa toyota | 5 | 18 | 27.78% | 3 | Protect existing visibility |
 
 ## Money Pages
 
 | Page | Views | Users | Recommended Push |
 |---|---:|---:|---|
-| /used-inventory | 1,422 | 369 | Add local-intent supporting copy and internal links |
-| /searchnew.aspx | 520 | 261 | Add local-intent supporting copy and internal links |
-| / | 507 | 353 | Add local-intent supporting copy and internal links |
-| /contactus.aspx | 370 | 274 | Add local-intent supporting copy and internal links |
-| /new-toyota | 178 | 66 | Add local-intent supporting copy and internal links |
-| /used-suvs | 153 | 48 | Add local-intent supporting copy and internal links |
-| /used-Carroll-2020-Chevrolet-Silverado+1500-LTZ-3GCUYGEDXLG194499 | 110 | 86 | Add local-intent supporting copy and internal links |
-| /used-trucks | 97 | 50 | Add local-intent supporting copy and internal links |
-| /hours.aspx | 91 | 70 | Add local-intent supporting copy and internal links |
-| /used-Carroll-2012-Chevrolet-Equinox-LT+w2LT-2GNALPEK4C6199524 | 91 | 64 | Add local-intent supporting copy and internal links |
+| /used-inventory | 16,184 | 4,128 | Add local-intent supporting copy and internal links |
+| / | 6,675 | 5,077 | Add local-intent supporting copy and internal links |
+| /searchnew.aspx | 2,804 | 1,384 | Add local-intent supporting copy and internal links |
+| /contactus.aspx | 2,210 | 1,481 | Add local-intent supporting copy and internal links |
+| /Contactus/Carroll | 2,160 | 1,432 | Add local-intent supporting copy and internal links |
+| /new-toyota | 1,681 | 612 | Add local-intent supporting copy and internal links |
+| /new-vehicles | 1,651 | 648 | Add local-intent supporting copy and internal links |
+| /used-suvs | 1,534 | 514 | Add local-intent supporting copy and internal links |
+| /Inventory/Results | 1,325 | 604 | Add local-intent supporting copy and internal links |
+| /used-trucks | 868 | 479 | Add local-intent supporting copy and internal links |
 
 ## Service x City Matrix
 
@@ -80,7 +80,16 @@
 
 | Event | Count |
 |---|---:|
-| No event data captured | 0 |
+| page_view | 68,673 |
+| asc_pageview | 60,654 |
+| asc_media_interaction | 38,639 |
+| session_start | 26,887 |
+| asc_element_configuration | 26,536 |
+| user_engagement | 24,672 |
+| first_visit | 17,062 |
+| scroll | 16,373 |
+| used_srp | 15,512 |
+| asc_menu_interaction | 11,913 |
 
 ## Customer Language And Copy Direction
 
