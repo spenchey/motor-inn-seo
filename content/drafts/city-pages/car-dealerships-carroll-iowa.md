@@ -8,7 +8,7 @@ search_intent: transactional
 page_type: location-service
 priority: high
 status: draft
-created: 2026-05-04
+created: 2026-06-01
 author: rory
 url_slug: "/car-dealerships-carroll-iowa"
 ---
