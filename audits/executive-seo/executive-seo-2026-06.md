@@ -5,7 +5,7 @@ Primary period: May 2026 (2026-05-01 to 2026-05-31)
 
 ## Executive Summary
 
-Motor Inn recorded 0 sessions, 0 users, and 0 page views in May 2026. Organic search accounted for 0 sessions (0.0% of traffic), while tracked lead/contact actions totaled 0.
+Motor Inn recorded 9,619 sessions, 6,725 users, and 24,365 page views in May 2026. Organic search accounted for 1,945 sessions (20.2% of traffic), while tracked lead/contact actions totaled 6,466.
 
 The executive read is not just rankings. For an automotive group, the SEO report needs to show whether search demand is reaching inventory, VDPs, service pages, lead actions, local market coverage, and DealerOn publish decisions.
 
@@ -13,16 +13,16 @@ The executive read is not just rankings. For an automotive group, the SEO report
 
 | KPI | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Monthly sessions | 0 | 0 | 0.0% |
-| Monthly users | 0 | 0 | 0.0% |
-| Monthly page views | 0 | 0 | 0.0% |
-| Organic sessions | 0 | 0 | 0.0% |
-| Organic share of traffic | 0.0% | 0.0% | 0.0% |
-| Lead and contact actions | 0 | 0 | 0.0% |
-| VDP intent events | 0 | 0 | 0.0% |
-| SRP inventory events | 0 | 0 | 0.0% |
-| Inventory page views | 0 | 0 | 0.0% |
-| Fixed ops page views | 0 | 0 | 0.0% |
+| Monthly sessions | 9,619 | 6,633 | +45.0% |
+| Monthly users | 6,725 | 4,956 | +35.7% |
+| Monthly page views | 24,365 | 17,877 | +36.3% |
+| Organic sessions | 1,945 | 1,394 | +39.5% |
+| Organic share of traffic | 20.2% | 21.0% | -3.8% |
+| Lead and contact actions | 6,466 | 4,625 | +39.8% |
+| VDP intent events | 14,558 | 6,230 | +133.7% |
+| SRP inventory events | 6,883 | 5,772 | +19.2% |
+| Inventory page views | 14,464 | 10,193 | +41.9% |
+| Fixed ops page views | 87 | 47 | +85.1% |
 
 ## Performance Trends
 
@@ -32,9 +32,9 @@ Comparing May 2026 to April 2026.
 
 | Metric | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Sessions | 0 | 0 | 0.0% |
-| Users | 0 | 0 | 0.0% |
-| Page views | 0 | 0 | 0.0% |
+| Sessions | 9,619 | 6,633 | +45.0% |
+| Users | 6,725 | 4,956 | +35.7% |
+| Page views | 24,365 | 17,877 | +36.3% |
 
 ### Quarter-over-Quarter
 
@@ -42,9 +42,9 @@ Comparing Q1 2026 to Q4 2025.
 
 | Metric | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Sessions | 0 | 0 | 0.0% |
-| Users | 0 | 0 | 0.0% |
-| Page views | 0 | 0 | 0.0% |
+| Sessions | 32,340 | 22,501 | +43.7% |
+| Users | 22,062 | 14,206 | +55.3% |
+| Page views | 75,169 | 53,957 | +39.3% |
 
 ### Year-over-Year / Trailing 12
 
@@ -52,27 +52,27 @@ Comparing June 2025-May 2026 to June 2024-May 2025.
 
 | Metric | Current | Prior | Change |
 | --- | ---: | ---: | ---: |
-| Sessions | 0 | 0 | 0.0% |
-| Users | 0 | 0 | 0.0% |
-| Page views | 0 | 0 | 0.0% |
+| Sessions | 98,305 | 121,305 | -19.0% |
+| Users | 64,205 | 83,202 | -22.8% |
+| Page views | 241,220 | 270,651 | -10.9% |
 
 ## Automotive Executive Focus
 
 ### Inventory Demand
 
-Finding: 0 inventory page views and 0 VDP-intent events in May 2026.
+Finding: 14,464 inventory page views and 14,558 VDP-intent events in May 2026.
 
 Why it matters: Executives care whether SEO is helping shoppers reach SRPs/VDPs, not just whether rankings moved.
 
 ### Fixed Ops Demand
 
-Finding: 0 service, parts, schedule, or repair page views this month.
+Finding: 87 service, parts, schedule, or repair page views this month.
 
 Why it matters: Fixed ops SEO protects recurring gross and can expose service-page gaps before competitors capture the query.
 
 ### Lead Quality
 
-Finding: 0 tracked lead/contact actions from forms, CTA, calls, clicks, and submits.
+Finding: 6,466 tracked lead/contact actions from forms, CTA, calls, clicks, and submits.
 
 Why it matters: The report should separate visibility from money-moving intent.
 
@@ -102,20 +102,24 @@ Why it matters: Executives need to know when measurement or platform constraints
 
 ## Inventory and Fixed Ops Demand
 
-Inventory page views: 0 (0.0% vs prior month).
-Fixed ops page views: 0 (0.0% vs prior month).
+Inventory page views: 14,464 (+41.9% vs prior month).
+Fixed ops page views: 87 (+85.1% vs prior month).
 
 ### Top Inventory Pages
 
 | Page | Views | Users |
 | --- | ---: | ---: |
-| No inventory pages found | 0 | 0 |
+| /used-inventory | 5,733 | 1,397 |
+| /searchnew.aspx | 2,177 | 1,065 |
+| /used-suvs | 651 | 195 |
+| /used-trucks | 453 | 220 |
+| /new-toyota | 433 | 176 |
 
 ### Top Fixed Ops Pages
 
 | Page | Views | Users |
 | --- | ---: | ---: |
-| No fixed ops pages found | 0 | 0 |
+| /service-locations.html | 87 | 61 |
 
 ## Local Search Opportunities
 
