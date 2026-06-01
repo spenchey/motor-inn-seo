@@ -1,1 +1,1 @@
-executive-seo-2026-05.md
+executive-seo-2026-06.md
