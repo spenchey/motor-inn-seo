@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-01T23:46:09.728Z",
+  "generated_at": "2026-06-01T19:00:05.218Z",
   "window": {
-    "start": "2026-05-03",
-    "end": "2026-06-01",
-    "windowDays": 30,
-    "label": "2026-05-03..2026-06-01"
+    "start": "2026-05-01",
+    "end": "2026-05-31",
+    "windowDays": 31,
+    "label": "2026-05-01..2026-05-31"
   },
   "opportunities": [
     {
@@ -314,7 +314,7 @@
       ],
       "negative_keyword_candidate": false,
       "coverage_status": "draft",
-      "matched_file": "/Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/best-place-to-buy-used-car-carroll-iowa.md"
+      "matched_file": "/Users/spencerheywood/motor-inn-seo/content/drafts/gbp-posts/posts-week-of-2026-04-23.md"
     },
     {
       "search_term": "car dealerships carroll iowa",
