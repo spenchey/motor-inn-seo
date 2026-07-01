@@ -11,7 +11,7 @@ ai_answer_question: "Should I buy a new or used car in Carroll, Iowa?"
 ai_answer_summary: "Buy new if warranty coverage, the latest features, and exact configuration matter most. Buy used if lower purchase price, slower depreciation, or broader cross-brand choice matter most. Motor Inn Auto Group can help Carroll shoppers compare both paths in one local visit."
 priority: medium
 status: draft
-created: 2026-06-01
+created: 2026-07-01
 author: rory
 url_slug: "/new-vs-used-car-carroll-iowa"
 ---
