@@ -115,3 +115,32 @@ python research_performance_matrix.py
 
 ### Content Generation
 After identifying gaps, use the context templates in `tools/seomachine/context/` and the evaluation criteria in `tools/claude-seo/skills/` to generate draft pages that meet SEO best practices. Save drafts to `~/motor-inn-seo/content/drafts/`.
+
+---
+
+## 3. GEO/SEO analyzer toolkit (MOT-2431 — 2026-07-13)
+
+Vendor manifest + security sweep: `tools/PROVENANCE.md`. New pieces:
+
+- `tools/claude-seo/` refreshed to upstream v2 (25 skills, 48 analyzer
+  scripts). Paths used above (`fetch_page.py`, `parse_html.py`) unchanged.
+- `tools/geo-seo-claude/` — GEO analyzers: `fetch_page.py` (page/robots/llms/
+  sitemap modes), `llmstxt_generator.py`, `citability_scorer.py`,
+  `brand_scanner.py`.
+- `tools/skills-sh/` — checklist assets: `marketingskills-seo-audit/`,
+  `opc-seo-geo/` (prompt/checklist references for synthesis, not code).
+- `tools/.venv-toolkit/` — dedicated venv for the battery (gitignored).
+
+Scheduled entry points (deterministic, NO LLM):
+
+```bash
+~/motor-inn-seo/scripts/run-seo-toolkit.sh --weekly    # Mon via weekly-seo-audit.sh
+~/motor-inn-seo/scripts/run-seo-toolkit.sh --monthly   # 1st via monthly-seo-executive-report.sh
+```
+
+Output: `audits/toolkit/YYYY-MM-DD/` (analyzer JSON + `summary.json` +
+templated `findings.md`). Target URL: `config/seo-toolkit.env`.
+
+Optional inspector pass (LOCAL model, not cron): `scripts/rory-seo-inspect.sh`
+→ hermes profile `rory-seo` (qwen3.6 @ fa5a). Writes `inspector-synthesis.md`
++ `proposed-cards.json` next to the toolkit output.

@@ -7,3 +7,11 @@ tools/seomachine/data_sources/credentials/
 tools/seomachine/.env
 __pycache__/
 *.pyc
+
+# MOT-2431 toolkit
+tools/.venv-toolkit/
+audits/toolkit/*/homepage.html
+audits/toolkit/*/run.log
+audits/toolkit/*/inspector-prompt.txt
+audits/toolkit/*/inspector-raw.txt
+audits/toolkit/*/inspector-stderr.log
