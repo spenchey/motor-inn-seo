@@ -1,6 +1,6 @@
 # Rory Executive SEO Report - Motor Inn Auto Group - 2026-07
 
-Generated: 2026-07-01
+Generated: 2026-07-13
 Primary period: June 2026 (2026-06-01 to 2026-06-30)
 
 ## Executive Summary
@@ -78,7 +78,7 @@ Why it matters: The report should separate visibility from money-moving intent.
 
 ### Local Market Coverage
 
-Finding: 1 non-brand local queries are in striking distance from page 1.
+Finding: 2 non-brand local queries are in striking distance from page 1.
 
 Why it matters: Page-2 local queries are often the fastest SEO wins for a dealership with limited market radius.
 
@@ -120,7 +120,8 @@ Fixed ops page views: 229 (+163.2% vs prior month).
 
 | Query | Clicks | Impressions | CTR | Avg Position |
 | --- | ---: | ---: | ---: | ---: |
-| car dealerships carroll iowa | 6 | 53 | 11.32% | 18.8 |
+| carroll iowa car dealerships | 9 | 28 | 32.14% | 11.4 |
+| car dealerships in carroll iowa | 5 | 22 | 22.73% | 18.3 |
 
 ## Monthly Content Package
 
@@ -135,10 +136,32 @@ Fixed ops page views: 229 (+163.2% vs prior month).
 | New vs. Used Cars in Carroll, Iowa | should I buy new or used car Carroll Iowa | medium | /Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/new-vs-used-car-carroll-iowa.md |
 | Where to Service a Toyota in Carroll, Iowa | where to service Toyota Carroll Iowa | medium | /Users/spencerheywood/motor-inn-seo/content/drafts/city-pages/where-to-service-toyota-carroll-iowa.md |
 
+## Published-Page Performance
+
+Did the pages we published actually rank? Pages published in the last 60 days, measured in Google Search Console for the trailing 28 days (2026-06-15 to 2026-07-12).
+
+- WordPress: OK — 0 page(s) published in the last 60 days on motorinnconten.wpenginepowered.com; 8 draft(s) awaiting review in wp-admin.
+- Site local-seo routes: OK — 8 of 8 code-route local-seo pages (shipped 2026-07-01) fall inside the 60-day window.
+- Google Search Console: OK — property sc-domain:motorinnautogroup.com, per-page filters, trailing 28 days (2026-06-15 to 2026-07-12).
+- Semrush: NOT CONFIGURED: no Semrush API key (checked SEMRUSH_API_KEY env and /Users/spencerheywood/.config/openclaw/credentials/semrush.json). Semrush API access requires a Business subscription plus the paid API units add-on; once purchased, save {"api_key":"..."} to /Users/spencerheywood/.config/openclaw/credentials/semrush.json.
+
+| Page | Source | Published | Clicks | Impressions | Avg Position |
+| --- | --- | --- | ---: | ---: | ---: |
+| /car-dealerships-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+| /toyota-dealer-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+| /used-cars-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+| /used-trucks-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+| /auto-service-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+| /best-place-to-buy-used-car-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+| /new-vs-used-car-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+| /where-to-service-toyota-carroll-iowa | site local-seo route | 2026-07-01 | 0 | 0 | - |
+
+Pre-launch: no index data expected until DNS cutover — the new site is noindexed on the vercel.app domain, so zero clicks/impressions in Search Console is expected for these pages until motorinnautogroup.com points at it.
+
 ## Executive Decision Items
 
 1. Approve, revise, or reject the 8 draft SEO pages from the monthly content package.
-2. Prioritize internal links and on-page updates for page-2 non-brand queries: car dealerships carroll iowa.
+2. Prioritize internal links and on-page updates for page-2 non-brand queries: carroll iowa car dealerships, car dealerships in carroll iowa.
 3. Confirm whether DealerOn can publish city/service pages with clean URLs, unique title tags, and schema.
 4. Confirm GBP, website, and call/form tracking are using consistent URLs so source attribution is reliable.
 
@@ -157,11 +180,3 @@ Fixed ops page views: 229 (+163.2% vs prior month).
 - /Users/spencerheywood/motor-inn-seo/content/drafts/build-summary-2026-07.md
 - /Users/spencerheywood/motor-inn-seo/research/sentiment-analysis-2026-07.md
 - /Users/spencerheywood/motor-inn-seo/audits/audit-latest.md
-
-<!-- google-ads-paid-search-signals:start -->
-## Paid Search Signals
-
-| Opportunity | Evidence | Recommended SEO Action | Owner |
-| --- | --- | --- | --- |
-
-<!-- google-ads-paid-search-signals:end -->
