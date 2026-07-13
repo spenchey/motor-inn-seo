@@ -1,0 +1,154 @@
+{
+  "url": "https://motorinn-website.vercel.app",
+  "total_blocks_analyzed": 3,
+  "average_citability_score": 33.7,
+  "optimal_length_passages": 0,
+  "grade_distribution": {
+    "A": 0,
+    "B": 0,
+    "C": 0,
+    "D": 1,
+    "F": 2
+  },
+  "top_5_citable": [
+    {
+      "heading": "Common Questions About Buying at Motor Inn",
+      "word_count": 44,
+      "total_score": 46,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 17,
+        "self_containment": 17,
+        "structural_readability": 12,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Yes. Our one-stop financial services center works with 20+ lenders to find an approval for every credit situation \u2014 including first-time buyers, rebuilding credit, and customers who were turned away..."
+    },
+    {
+      "heading": "Visit Motor Inn Auto Group",
+      "word_count": 21,
+      "total_score": 30,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 10,
+        "self_containment": 15,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "1526 Le Clark Road, Carroll, IA 51401 Sales: Mon\u2013Fri 8:00 AM \u2013 5:30 PM \u00b7 Sat 8:00 AM \u2013 3:00 PM"
+    },
+    {
+      "heading": "Large new & used selection",
+      "word_count": 21,
+      "total_score": 25,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 12,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "New Toyotas & Chevrolets, plus a wide used inventory of every make \u2014 one of the widest selections in the area."
+    }
+  ],
+  "bottom_5_citable": [
+    {
+      "heading": "Large new & used selection",
+      "word_count": 21,
+      "total_score": 25,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 12,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "New Toyotas & Chevrolets, plus a wide used inventory of every make \u2014 one of the widest selections in the area."
+    },
+    {
+      "heading": "Visit Motor Inn Auto Group",
+      "word_count": 21,
+      "total_score": 30,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 10,
+        "self_containment": 15,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "1526 Le Clark Road, Carroll, IA 51401 Sales: Mon\u2013Fri 8:00 AM \u2013 5:30 PM \u00b7 Sat 8:00 AM \u2013 3:00 PM"
+    },
+    {
+      "heading": "Common Questions About Buying at Motor Inn",
+      "word_count": 44,
+      "total_score": 46,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 17,
+        "self_containment": 17,
+        "structural_readability": 12,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Yes. Our one-stop financial services center works with 20+ lenders to find an approval for every credit situation \u2014 including first-time buyers, rebuilding credit, and customers who were turned away..."
+    }
+  ],
+  "all_blocks": [
+    {
+      "heading": "Large new & used selection",
+      "word_count": 21,
+      "total_score": 25,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 5,
+        "self_containment": 12,
+        "structural_readability": 8,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "New Toyotas & Chevrolets, plus a wide used inventory of every make \u2014 one of the widest selections in the area."
+    },
+    {
+      "heading": "Visit Motor Inn Auto Group",
+      "word_count": 21,
+      "total_score": 30,
+      "grade": "F",
+      "label": "Poor Citability",
+      "breakdown": {
+        "answer_block_quality": 10,
+        "self_containment": 15,
+        "structural_readability": 5,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "1526 Le Clark Road, Carroll, IA 51401 Sales: Mon\u2013Fri 8:00 AM \u2013 5:30 PM \u00b7 Sat 8:00 AM \u2013 3:00 PM"
+    },
+    {
+      "heading": "Common Questions About Buying at Motor Inn",
+      "word_count": 44,
+      "total_score": 46,
+      "grade": "D",
+      "label": "Low Citability",
+      "breakdown": {
+        "answer_block_quality": 17,
+        "self_containment": 17,
+        "structural_readability": 12,
+        "statistical_density": 0,
+        "uniqueness_signals": 0
+      },
+      "preview": "Yes. Our one-stop financial services center works with 20+ lenders to find an approval for every credit situation \u2014 including first-time buyers, rebuilding credit, and customers who were turned away..."
+    }
+  ]
+}

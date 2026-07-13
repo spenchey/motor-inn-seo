@@ -1,6 +1,8 @@
 ---
 name: seo-performance
 description: Performance analyzer. Measures and evaluates Core Web Vitals and page load performance.
+model: sonnet
+maxTurns: 15
 tools: Read, Bash, Write
 ---
 
@@ -23,7 +25,7 @@ Google evaluates the **75th percentile** of page visits, 75% of visits must meet
 ## When Analyzing Performance
 
 1. Use PageSpeed Insights API if available
-2. Otherwise, analyze HTML source for common issues
+2. Use `python3 scripts/render_page.py <URL> --mode auto --json` before HTML/source inspection so SPA content is visible when needed
 3. Provide specific, actionable optimization recommendations
 4. Prioritize by expected impact
 
@@ -57,17 +59,29 @@ Google evaluates the **75th percentile** of page visits, 75% of visits must meet
 
 **CrUX Vis** replaced the CrUX Dashboard (November 2025). The old Looker Studio dashboard was deprecated. Use [CrUX Vis](https://cruxvis.withgoogle.com) or the CrUX API directly.
 
-**LCP subparts** (TTFB, resource load delay, resource load time, element render delay) are now available in CrUX data (February 2025). See `seo/references/cwv-thresholds.md` for details.
+**LCP subparts** (TTFB, resource load delay, resource load time, element render delay) are now available in CrUX data (February 2025). See `skills/seo/references/cwv-thresholds.md` for details.
 
 ## Tools
 
 ```bash
-# PageSpeed Insights API
-curl "https://www.googleapis.com/pagespeedonline/v5/runPagespeed?url=URL&key=API_KEY"
+# PageSpeed Insights API (uses header-based API key handling)
+python3 scripts/pagespeed_check.py URL --json
+
+# SPA-aware HTML/render inspection
+python3 scripts/render_page.py URL --mode auto --json
 
 # Lighthouse CLI
 npx lighthouse URL --output json
 ```
+
+## Google API Integration (Optional)
+
+If Google API credentials are configured, prefer CrUX field data over Lighthouse lab data for CWV assessment:
+```bash
+python3 scripts/pagespeed_check.py URL --json
+python3 scripts/crux_history.py URL --json
+```
+Field data (28-day Chrome user average) is more representative than lab data (single Lighthouse run). Use lab data as fallback when CrUX returns 404 (insufficient traffic).
 
 ## Output Format
 
@@ -76,3 +90,10 @@ Provide:
 - Core Web Vitals status (pass/fail per metric)
 - Specific bottlenecks identified
 - Prioritized recommendations with expected impact
+
+## Persistence Contract
+
+If `output_dir` is provided by the audit orchestrator, write:
+
+- `output_dir/findings/performance.md`: evidence, scores, bottlenecks, and recommendations
+- Structured JSON-compatible findings for `audit-data.json` under the Performance category
