@@ -157,3 +157,11 @@ Fixed ops page views: 229 (+163.2% vs prior month).
 - /Users/spencerheywood/motor-inn-seo/content/drafts/build-summary-2026-07.md
 - /Users/spencerheywood/motor-inn-seo/research/sentiment-analysis-2026-07.md
 - /Users/spencerheywood/motor-inn-seo/audits/audit-latest.md
+
+<!-- google-ads-paid-search-signals:start -->
+## Paid Search Signals
+
+| Opportunity | Evidence | Recommended SEO Action | Owner |
+| --- | --- | --- | --- |
+
+<!-- google-ads-paid-search-signals:end -->

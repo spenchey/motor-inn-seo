@@ -1,0 +1,3 @@
+I have returned to the overview tab. I see a "Write a review" button (e47), but no explicit "Reviews" tab or section with a review count. It seems Google Maps is not displaying the reviews directly on this page. I will state that the reviews are blocked.
+
+Blocked.
