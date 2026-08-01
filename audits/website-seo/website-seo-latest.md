@@ -1,1 +1,1 @@
-website-seo-2026-07.md
+website-seo-2026-08.md
