@@ -1,0 +1,20 @@
+{
+  "status": "ok",
+  "baseline_id": 3,
+  "url": "https://motorinn-website.vercel.app/",
+  "timestamp": "2026-07-20T16:20:31.328981+00:00",
+  "summary": {
+    "title": "New & Used Toyota & Chevrolet in Carroll, Iowa | Motor Inn Auto Group",
+    "meta_description": "Family owned in Carroll, Iowa since 1937 \u2014 honest pricing on new Toyota & Chevro...",
+    "canonical": "https://staging.motorinnautogroup.com",
+    "robots": "noindex, nofollow",
+    "h1": "Your hometown for Toyotas & Chevrolets \u2014 since 1937",
+    "h2_count": 7,
+    "h3_count": 20,
+    "schema_count": 3,
+    "og_tag_count": 9,
+    "cwv_captured": false,
+    "status_code": 200,
+    "html_hash": "6e15ccbeab54..."
+  }
+}

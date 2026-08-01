@@ -1,0 +1,166 @@
+{
+  "status": "ok",
+  "url": "https://motorinn-website.vercel.app/",
+  "baseline_id": 4,
+  "baseline_timestamp": "2026-07-27T16:20:26.331336+00:00",
+  "comparison_timestamp": "2026-08-01T16:46:11.099076+00:00",
+  "summary": {
+    "total_rules": 17,
+    "triggered": 1,
+    "critical": 0,
+    "warning": 0,
+    "info": 1
+  },
+  "triggered_findings": [
+    {
+      "rule": "content_hash_changed",
+      "severity": "INFO",
+      "triggered": true,
+      "old_value": "9d47acec2809...",
+      "new_value": "b67f2c4a6cf3...",
+      "message": "Page content has changed (HTML body hash differs from baseline)."
+    }
+  ],
+  "untriggered_findings": [
+    {
+      "rule": "schema_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "3 schema block(s)",
+      "new_value": "0 schema blocks",
+      "message": "Schema presence unchanged."
+    },
+    {
+      "rule": "canonical_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://staging.motorinnautogroup.com",
+      "new_value": "https://staging.motorinnautogroup.com",
+      "message": "Canonical URL unchanged."
+    },
+    {
+      "rule": "canonical_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "https://staging.motorinnautogroup.com",
+      "new_value": null,
+      "message": "Canonical tag presence unchanged."
+    },
+    {
+      "rule": "noindex_added",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "noindex, nofollow",
+      "new_value": "noindex, nofollow",
+      "message": "Robots directives unchanged regarding noindex."
+    },
+    {
+      "rule": "h1_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Your hometown for Toyotas & Chevrolets \u2014 since 1937",
+      "new_value": null,
+      "message": "H1 presence unchanged."
+    },
+    {
+      "rule": "h1_changed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "Your hometown for Toyotas & Chevrolets \u2014 since 1937",
+      "new_value": "Your hometown for Toyotas & Chevrolets \u2014 since 1937",
+      "message": "H1 text is similar enough (similarity: 100%)."
+    },
+    {
+      "rule": "title_removed",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": "New & Used Toyota & Chevrolet in Carroll, Iowa | Motor Inn Auto Group",
+      "new_value": null,
+      "message": "Title tag presence unchanged."
+    },
+    {
+      "rule": "status_code_error",
+      "severity": "CRITICAL",
+      "triggered": false,
+      "old_value": 200,
+      "new_value": 200,
+      "message": "Status code: 200 -> 200."
+    },
+    {
+      "rule": "title_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "New & Used Toyota & Chevrolet in Carroll, Iowa | Motor Inn Auto Group",
+      "new_value": "New & Used Toyota & Chevrolet in Carroll, Iowa | Motor Inn Auto Group",
+      "message": "Title text unchanged."
+    },
+    {
+      "rule": "meta_description_changed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "Family owned in Carroll, Iowa since 1937 \u2014 honest pricing on new Toyota & Chevrolet and quality used vehicles of every m...",
+      "new_value": "Family owned in Carroll, Iowa since 1937 \u2014 honest pricing on new Toyota & Chevrolet and quality used vehicles of every m...",
+      "message": "Meta description unchanged."
+    },
+    {
+      "rule": "cwv_regressed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "CWV comparison skipped (data unavailable)."
+    },
+    {
+      "rule": "perf_score_dropped",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": null,
+      "new_value": null,
+      "message": "Performance score comparison skipped."
+    },
+    {
+      "rule": "og_tags_removed",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": [
+        "og:title",
+        "og:description",
+        "og:url",
+        "og:site_name",
+        "og:image",
+        "og:image:width",
+        "og:image:height",
+        "og:image:alt",
+        "og:type"
+      ],
+      "new_value": [],
+      "message": "OG tags presence unchanged."
+    },
+    {
+      "rule": "schema_modified",
+      "severity": "WARNING",
+      "triggered": false,
+      "old_value": "744ae60f39af...",
+      "new_value": "744ae60f39af...",
+      "message": "Schema content hash unchanged."
+    },
+    {
+      "rule": "schema_added",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "0 schema blocks",
+      "new_value": "3 schema block(s)",
+      "message": "No new schema added."
+    },
+    {
+      "rule": "h2_structure_changed",
+      "severity": "INFO",
+      "triggered": false,
+      "old_value": "7 H2s",
+      "new_value": "7 H2s",
+      "message": "H2 structure unchanged."
+    }
+  ],
+  "current_status_code": 200,
+  "cwv_compared": false
+}

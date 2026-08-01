@@ -1,0 +1,16 @@
+{
+  "filler_score": 0,
+  "ai_pattern_score": 0,
+  "information_density": 1.0,
+  "repetition_score": 64,
+  "overall_quality": 90,
+  "flags": [
+    "repetitive"
+  ],
+  "matches": {
+    "filler": [],
+    "ai_patterns": []
+  },
+  "tokens": 28284,
+  "unique_tokens": 1301
+}

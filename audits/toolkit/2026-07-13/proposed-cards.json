@@ -1,0 +1,25 @@
+{
+  "proposed_cards": [
+    {
+      "title": "Fix 6 missing alt texts on dealer-sourced vehicle images",
+      "severity": "P2",
+      "evidence": "[onpage.json#images] \u2014 VIN-based dealer-hosted URLs (jywofirdogvecsftznfe.supabase.co) have empty alt=\"\"; affects Vehicle/Offer JSON-LD alt propagation and accessibility audit. Likely caused by blank VDP enrichment fields.",
+      "dedupe_of": "MOT-2441",
+      "body": "**Problem:** 6 of 12 vehicle images sourced from DealerOn (supabase CDN) have empty alt attributes.\n\n**VINs with missing alts:**\n- `1GNEVGKW9PJ178289`\n- `3GNAXWEX9JS508056`\n- `3GNAXKEG4RL116830`\n- `4T1F31AK0PU050516`\n- `1FTPX125X5FB10521`\n- `3GNAXUEG1PL229238`\n\n**Impact:** Vehicle JSON-LD Offer `image.alt` will be empty; ADA compliance gap.\n\n**Resolution:** Wire VDP spec/data fields (make, model, year) into image alt text. The same enrichment sync referenced in MOT-2441 should populate these alts."
+    },
+    {
+      "title": "llms.txt: Add `- [Title](url)` page links for format validation",
+      "severity": "P3",
+      "evidence": "[llmstxt.json#issues] \u2014 0 links found; tool reports 'No page links found (use \"- [Page Title](url): Description\")'. 23 Key pages exist but none are linked in the file.",
+      "dedupe_of": null,
+      "body": "**Problem:** llms.txt passes `has_title`, `has_description`, and `has_sections` checks but fails format validation because all page references use bullet (`-`) without `- [Title](url): Description` syntax, resulting in 0 recognized links.\n\n**Resolution:** Update llms.txt to use the `- [Page Title](url): Short description` format per the llms-spec (see https://llms-txt.org) for each of the 23 key pages and their sub-pages. Verify post-change with `format_valid: true`."
+    },
+    {
+      "title": "Staging cutover checklist: remove noindex/self-canonicalize all pages",
+      "severity": "P1",
+      "evidence": "[technical.json#meta_tags.robots] noindex,nofollow present; [technical.json#canonical] cross-host to staging.motorinnautogroup.com; [crawlers.json#sitemaps] sitemap points to www.motorinnautogroup.com",
+      "dedupe_of": "MOT-2437",
+      "body": "**Pre-cutover gating items** (all expected on staging, action required at cutover):\n\n1. Remove `robots=noindex,nofollow` from every page [technical.json#meta_tags.robots]\n2. Replace cross-host canonicals (`staging.motorinnautogroup.com`) with self-referencing canonicals on the live domain (motorinnautogroup.com)\n3. Ensure robots.txt Sitemap tag points to `https://www.motorinnautogroup.com/sitemap.xml` (already correct per [crawlers.json#sitemaps])\n4. Verify no .vercel.app URLs remain indexable in production."
+    }
+  ]
+}
