@@ -140,6 +140,10 @@ function isPendingQuotaResponse(probe) {
   );
 }
 
+function hasOAuthScope(scopeValue, requiredScope = SCOPE) {
+  return new Set(String(scopeValue || '').split(/\s+/).filter(Boolean)).has(requiredScope);
+}
+
 function reviewAge() {
   const submittedAt = new Date(`${APPLICATION_SUBMITTED_AT}T00:00:00-05:00`);
   if (Number.isNaN(submittedAt.getTime())) {
@@ -250,6 +254,12 @@ async function mintOwnerToken(oauth) {
   });
   if (!res.ok || !json?.access_token) {
     die(`owner OAuth refresh failed: HTTP ${res.status} ${text.slice(0, 300)}`);
+  }
+  if (!hasOAuthScope(json.scope)) {
+    die(
+      `owner OAuth refresh token is missing ${SCOPE}; rerun the owner OAuth bootstrap and ` +
+        'select the Business Profile permission.'
+    );
   }
   return json.access_token;
 }
@@ -610,4 +620,4 @@ async function main() {
 const isEntrypoint = process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname);
 if (isEntrypoint) main().catch((err) => die(err?.stack || String(err)));
 
-export { locationAddressMatches, normalizeText, selectExpectedLocation };
+export { hasOAuthScope, locationAddressMatches, normalizeText, selectExpectedLocation };
