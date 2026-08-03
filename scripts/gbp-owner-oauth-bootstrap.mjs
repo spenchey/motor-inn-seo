@@ -21,6 +21,7 @@ const SCOPES = [
   'email',
   'https://www.googleapis.com/auth/business.manage',
 ];
+const REQUIRED_SCOPE = 'https://www.googleapis.com/auth/business.manage';
 const TIMEOUT_MS = 5 * 60 * 1000;
 
 function die(message) {
@@ -166,6 +167,13 @@ async function main() {
   if (!tokenResult.json.refresh_token) {
     die('Google did not return a refresh token; revoke prior consent and run again with prompt=consent');
   }
+  const grantedScopes = new Set(String(tokenResult.json.scope || '').split(/\s+/).filter(Boolean));
+  if (!grantedScopes.has(REQUIRED_SCOPE)) {
+    die(
+      `Google authenticated the owner account but did not grant ${REQUIRED_SCOPE}; ` +
+        'select the Business Profile permission on the consent screen and run again. No file written.'
+    );
+  }
 
   const userResult = await fetchJson('https://openidconnect.googleapis.com/v1/userinfo', {
     headers: { Authorization: `Bearer ${tokenResult.json.access_token}` },
@@ -184,7 +192,7 @@ async function main() {
     client_secret: client.client_secret,
     refresh_token: tokenResult.json.refresh_token,
     token_uri: client.token_uri,
-    scopes: SCOPES,
+    scopes: [...grantedScopes].sort(),
     account_email: userResult.json.email,
     authorized_at: new Date().toISOString(),
   };

@@ -2,10 +2,22 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 
 import {
+  hasOAuthScope,
   locationAddressMatches,
   normalizeText,
   selectExpectedLocation,
 } from '../scripts/gbp-approval-watch.mjs';
+
+test('requires the Business Profile scope on refreshed owner tokens', () => {
+  assert.equal(
+    hasOAuthScope(
+      'openid https://www.googleapis.com/auth/userinfo.email ' +
+        'https://www.googleapis.com/auth/business.manage'
+    ),
+    true
+  );
+  assert.equal(hasOAuthScope('openid https://www.googleapis.com/auth/userinfo.email'), false);
+});
 
 function candidate(title, name = 'locations/123', account = 'accounts/456') {
   return {
