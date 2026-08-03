@@ -1,1 +1,1 @@
-monthly-report-2026-07.md
+monthly-report-2026-08.md
