@@ -14,7 +14,9 @@
  *   ~/.config/gcloud/ga4-service-account.json (project jeeves-485623) and GET
  *   https://mybusinessaccountmanagement.googleapis.com/v1/accounts.
  *     HTTP 200                -> APPROVED. Wire + notify + write state, ONCE.
- *     HTTP 429 / any non-200  -> still pending. Log quietly, exit 0. NO alert.
+ *     HTTP 429 quota error    -> still pending. Record status and review age.
+ *     HTTP 401/403/other 4xx  -> auth/config failure. Fail loud.
+ *     Network/5xx             -> retry, then fail loud.
  *   (Google grants quota=0 -> HTTP 429 until the access-request form is
  *   approved; the SA can always mint a token regardless, so a token-grant
  *   failure is a genuine error and fails loud.)
@@ -47,13 +49,19 @@ const SA_FILE =
 const GBP_DIR = path.join(HOME, '.config', 'google-business-profile');
 const CREDS_FILE = process.env.GBP_CREDS_FILE || path.join(GBP_DIR, 'credentials.json');
 const STATE_FILE = path.join(GBP_DIR, '.approved');
+const STATUS_FILE = path.join(GBP_DIR, 'approval-status.json');
+const OVERDUE_ALERT_FILE = path.join(GBP_DIR, '.approval-overdue-alerted');
 const CLAWD_ENV = path.join(HOME, 'clawd', '.env');
 const SLACK_CHANNEL = process.env.GBP_WATCH_SLACK_CHANNEL || 'C0AMAMSDCVC'; // #mission-control
+const APPLICATION_SUBMITTED_AT = process.env.GBP_APPLICATION_SUBMITTED_AT || '2026-07-27';
+const REVIEW_WINDOW_DAYS = Number(process.env.GBP_REVIEW_WINDOW_DAYS || 14);
 
 const SCOPE = 'https://www.googleapis.com/auth/business.manage';
 const ACCT_MGMT_BASE = 'https://mybusinessaccountmanagement.googleapis.com/v1';
 const BIZ_INFO_BASE = 'https://mybusinessbusinessinformation.googleapis.com/v1';
 const TIMEOUT_MS = 30000;
+const FETCH_ATTEMPTS = Number(process.env.GBP_WATCH_FETCH_ATTEMPTS || 3);
+const FETCH_RETRY_BASE_MS = Number(process.env.GBP_WATCH_RETRY_BASE_MS || 750);
 
 function ts() {
   return new Date().toISOString();
@@ -69,16 +77,69 @@ function b64url(buf) {
   return Buffer.from(buf).toString('base64url');
 }
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function shouldRetryStatus(status) {
+  return status === 408 || status === 500 || status === 502 || status === 503 || status === 504;
+}
+
 async function fetchRaw(url, init = {}) {
-  const res = await fetch(url, { ...init, signal: AbortSignal.timeout(TIMEOUT_MS) });
-  const text = await res.text();
-  let json = null;
-  try {
-    json = JSON.parse(text);
-  } catch {
-    /* non-JSON body — callers key off status */
+  let lastError = null;
+  for (let attempt = 1; attempt <= FETCH_ATTEMPTS; attempt += 1) {
+    try {
+      const res = await fetch(url, { ...init, signal: AbortSignal.timeout(TIMEOUT_MS) });
+      const text = await res.text();
+      let json = null;
+      try {
+        json = JSON.parse(text);
+      } catch {
+        /* non-JSON body — callers key off status */
+      }
+      if (!shouldRetryStatus(res.status) || attempt === FETCH_ATTEMPTS) {
+        return { res, json, text };
+      }
+      lastError = new Error(`HTTP ${res.status}: ${text.slice(0, 160)}`);
+    } catch (error) {
+      lastError = error;
+      if (attempt === FETCH_ATTEMPTS) break;
+    }
+    await sleep(FETCH_RETRY_BASE_MS * attempt);
   }
-  return { res, json, text };
+  throw new Error(`request failed after ${FETCH_ATTEMPTS} attempts: ${lastError?.message || 'unknown error'}`);
+}
+
+function isPendingQuotaResponse(probe) {
+  if (probe.res.status !== 429) return false;
+  const reason = String(probe.json?.error?.status || '').toUpperCase();
+  const message = String(probe.json?.error?.message || probe.text || '').toLowerCase();
+  return (
+    reason === 'RESOURCE_EXHAUSTED' ||
+    message.includes('quota exceeded') ||
+    message.includes('quota metric') ||
+    message.includes('requests per minute')
+  );
+}
+
+function reviewAge() {
+  const submittedAt = new Date(`${APPLICATION_SUBMITTED_AT}T00:00:00-05:00`);
+  if (Number.isNaN(submittedAt.getTime())) {
+    die(`invalid GBP_APPLICATION_SUBMITTED_AT: ${APPLICATION_SUBMITTED_AT}`);
+  }
+  const elapsedDays = Math.max(0, Math.floor((Date.now() - submittedAt.getTime()) / 86400000));
+  const deadline = new Date(submittedAt.getTime() + REVIEW_WINDOW_DAYS * 86400000);
+  return { elapsedDays, deadline: deadline.toISOString() };
+}
+
+function writeStatus(status) {
+  fs.mkdirSync(GBP_DIR, { recursive: true, mode: 0o700 });
+  const tmp = `${STATUS_FILE}.tmp-${process.pid}`;
+  fs.writeFileSync(tmp, JSON.stringify({ checkedAt: ts(), ...status }, null, 2) + '\n', {
+    mode: 0o600,
+  });
+  fs.renameSync(tmp, STATUS_FILE);
+  fs.chmodSync(STATUS_FILE, 0o600);
 }
 
 function loadServiceAccount() {
@@ -205,22 +266,69 @@ async function main() {
   const sa = loadServiceAccount();
   const token = await mintToken(sa);
 
-  // 2. Approval probe. Per contract: ONLY HTTP 200 means approved; 429 (quota=0)
-  //    and every other non-200 mean "still pending" -> quiet exit 0 (runs daily,
-  //    must never spam).
+  // 2. Approval probe. Only an explicit quota-exhausted 429 is pending. Other
+  //    statuses are auth/config/runtime failures and must not be hidden.
   const probe = await fetchRaw(`${ACCT_MGMT_BASE}/accounts`, {
     headers: { Authorization: `Bearer ${token}` },
   });
-  if (probe.res.status !== 200) {
-    const reason = probe.json?.error?.message
-      ? ` — ${String(probe.json.error.message).slice(0, 160)}`
-      : '';
-    log(`GBP still pending (HTTP ${probe.res.status})${reason} — no action, publisher not wired.`);
+  if (isPendingQuotaResponse(probe)) {
+    const reason = String(probe.json?.error?.message || probe.text || 'quota pending').slice(0, 300);
+    const age = reviewAge();
+    const overdue = age.elapsedDays >= REVIEW_WINDOW_DAYS;
+    writeStatus({
+      status: overdue ? 'approval_overdue' : 'approval_pending',
+      httpStatus: probe.res.status,
+      reason,
+      projectId: sa.project_id || null,
+      projectNumber: '53355027587',
+      applicationSubmittedAt: APPLICATION_SUBMITTED_AT,
+      reviewWindowDays: REVIEW_WINDOW_DAYS,
+      elapsedDays: age.elapsedDays,
+      reviewDeadline: age.deadline,
+      publisherWired: false,
+    });
+    log(
+      `GBP ${overdue ? 'approval overdue' : 'still pending'} (HTTP 429, ` +
+        `${age.elapsedDays}/${REVIEW_WINDOW_DAYS} review days elapsed) — publisher not wired.`
+    );
+    if (overdue && !fs.existsSync(OVERDUE_ALERT_FILE)) {
+      const notice =
+        `:warning: GBP API approval is overdue. Project jeeves-485623 / 53355027587 ` +
+        `still has zero quota ${age.elapsedDays} days after the ${APPLICATION_SUBMITTED_AT} ` +
+        `application. Reopen Google's Basic API Access case using a verified GBP manager ` +
+        `business email and confirm the project number.`;
+      const slack = await slackNotify(notice);
+      if (slack.ok) {
+        fs.writeFileSync(OVERDUE_ALERT_FILE, `${ts()}\n`, { mode: 0o600 });
+        log('posted one-time overdue approval notice to Slack #mission-control.');
+      } else {
+        log(`overdue approval notice was not posted (${slack.reason}); will retry next run.`);
+      }
+    }
     return;
+  }
+  if (probe.res.status !== 200) {
+    const reason = String(probe.json?.error?.message || probe.text || 'unknown response').slice(0, 300);
+    writeStatus({
+      status: 'auth_or_configuration_failure',
+      httpStatus: probe.res.status,
+      reason,
+      projectId: sa.project_id || null,
+      projectNumber: '53355027587',
+      publisherWired: false,
+    });
+    die(`GBP approval probe failed: HTTP ${probe.res.status} ${reason}`);
   }
 
   // 3. APPROVED. Resolve account + location(s), wire, notify, mark once.
   log('accounts.list returned HTTP 200 — GBP API access is APPROVED. Wiring the publisher.');
+  writeStatus({
+    status: 'api_approved_resolving_accounts',
+    httpStatus: 200,
+    projectId: sa.project_id || null,
+    projectNumber: '53355027587',
+    publisherWired: false,
+  });
   const accounts = (probe.json && probe.json.accounts) || [];
   if (accounts.length === 0) {
     // Approved quota, but the SA sees no Business Profile yet (Manager access
@@ -230,6 +338,14 @@ async function main() {
         'The SA email must be a Manager of the Motor Inn profile (or access has not ' +
         'propagated yet). Not wiring; will re-check on the next daily run.'
     );
+    writeStatus({
+      status: 'api_approved_manager_access_missing',
+      httpStatus: 200,
+      projectId: sa.project_id || null,
+      projectNumber: '53355027587',
+      serviceAccount: sa.client_email,
+      publisherWired: false,
+    });
     return;
   }
 
@@ -290,6 +406,15 @@ async function main() {
     accounts_seen: seen,
   };
   fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + '\n');
+  writeStatus({
+    status: 'approved_and_wired',
+    httpStatus: 200,
+    projectId: sa.project_id || null,
+    projectNumber: '53355027587',
+    accountId,
+    locationIds,
+    publisherWired: true,
+  });
   log(`wrote fire-once state file ${STATE_FILE} — watcher will not re-fire.`);
 }
 
