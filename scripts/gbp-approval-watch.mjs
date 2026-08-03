@@ -3,9 +3,9 @@
  * gbp-approval-watch.mjs
  *
  * Daily watcher: detects the moment Google approves Google Business Profile
- * (GBP) API access for the SEO service account, then AUTO-WIRES the existing
- * publisher (scripts/publish-gbp-posts.mjs) and notifies #mission-control so
- * nobody has to keep manually re-checking the access-request status.
+ * (GBP) API access for the SEO service account, stages publisher credentials,
+ * and notifies #mission-control. Staging access must not enable live posting;
+ * live GBP actions require separate Spencer Slack approval evidence.
  *
  * Deterministic, node stdlib only, fail-loud, fire-once (idempotent).
  *
@@ -21,18 +21,17 @@
  *   approved; the SA can always mint a token regardless, so a token-grant
  *   failure is a genuine error and fails loud.)
  *
- * On approval it writes the creds file publish-gbp-posts.mjs expects (verified
- * against that script's loadConfig/getAccessToken/normalizeParent):
- *   ~/.config/google-business-profile/credentials.json   (chmod 600)
+ * On approval it writes a staged credentials file (chmod 600):
+ *   ~/.config/google-business-profile/credentials.pending-live-approval.json
  *     {
  *       "credentials":  <full service-account JSON>,
  *       "account_id":   "accounts/<id>",
  *       "location_ids": ["locations/<id>", ...]
  *     }
- * posts to Slack #mission-control (chat.postMessage, SLACK_BOT_TOKEN from
- * ~/clawd/.env — the fleet's slack-notify.mjs pattern), and writes a fire-once
+ * It does NOT write the canonical credentials.json file consumed by the live
+ * publisher. It posts to Slack #mission-control and writes a fire-once access
  * state file so it never re-fires:
- *   ~/.config/google-business-profile/.approved
+ *   ~/.config/google-business-profile/.api-approved
  *
  * Scheduled daily 08:05 America/Chicago on the Mac mini. MOT-2445.
  */
@@ -47,8 +46,11 @@ const SA_FILE =
   process.env.GBP_SA_FILE ||
   path.join(HOME, '.config', 'gcloud', 'ga4-service-account.json');
 const GBP_DIR = path.join(HOME, '.config', 'google-business-profile');
-const CREDS_FILE = process.env.GBP_CREDS_FILE || path.join(GBP_DIR, 'credentials.json');
+const STAGED_CREDS_FILE =
+  process.env.GBP_STAGED_CREDS_FILE ||
+  path.join(GBP_DIR, 'credentials.pending-live-approval.json');
 const STATE_FILE = path.join(GBP_DIR, '.approved');
+const ACCESS_STATE_FILE = path.join(GBP_DIR, '.api-approved');
 const STATUS_FILE = path.join(GBP_DIR, 'approval-status.json');
 const OVERDUE_ALERT_FILE = path.join(GBP_DIR, '.approval-overdue-alerted');
 const CLAWD_ENV = path.join(HOME, 'clawd', '.env');
@@ -241,7 +243,7 @@ async function gbpGet(token, url, context) {
   return json;
 }
 
-function writeCredsFile(sa, accountId, locationIds) {
+function writeCredsFile(sa, accountId, locationIds, destination) {
   fs.mkdirSync(GBP_DIR, { recursive: true, mode: 0o700 });
   try {
     fs.chmodSync(GBP_DIR, 0o700);
@@ -249,17 +251,25 @@ function writeCredsFile(sa, accountId, locationIds) {
     /* best effort */
   }
   const creds = { credentials: sa, account_id: accountId, location_ids: locationIds };
-  const tmp = `${CREDS_FILE}.tmp-${process.pid}`;
+  const tmp = `${destination}.tmp-${process.pid}`;
   fs.writeFileSync(tmp, JSON.stringify(creds, null, 2) + '\n', { mode: 0o600 });
   fs.chmodSync(tmp, 0o600);
-  fs.renameSync(tmp, CREDS_FILE); // atomic swap into place
-  fs.chmodSync(CREDS_FILE, 0o600);
+  fs.renameSync(tmp, destination); // atomic swap into place
+  fs.chmodSync(destination, 0o600);
 }
 
 async function main() {
-  // 1. Fire-once guard: already wired -> exit immediately, no network calls.
+  // 1. Fire-once guards: a legacy/live wire or a completed access staging run
+  //    means there is no reason to probe Google again.
   if (fs.existsSync(STATE_FILE)) {
     log(`already wired (state file ${STATE_FILE} exists) — nothing to do.`);
+    return;
+  }
+  if (fs.existsSync(ACCESS_STATE_FILE)) {
+    log(
+      `API access already approved and credentials staged at ${STAGED_CREDS_FILE}; ` +
+        'live publisher remains blocked pending Spencer Slack approval.'
+    );
     return;
   }
 
@@ -375,47 +385,55 @@ async function main() {
   const accountId = chosen.account; // "accounts/<id>"
   const locationIds = chosen.locations; // ["locations/<id>", ...]
 
-  // 4. Write the creds file in the EXACT shape publish-gbp-posts.mjs expects.
-  writeCredsFile(sa, accountId, locationIds);
+  // 4. Stage credentials in the exact publisher shape, but deliberately do
+  //    not create the canonical credentials.json live-action trigger.
+  writeCredsFile(sa, accountId, locationIds, STAGED_CREDS_FILE);
   log(
-    `wrote GBP credentials -> ${CREDS_FILE} (mode 600); account ${accountId}, ` +
-      `location(s) ${locationIds.join(', ')}.`
+    `staged GBP credentials -> ${STAGED_CREDS_FILE} (mode 600); account ${accountId}, ` +
+      `location(s) ${locationIds.join(', ')}. Live publisher remains blocked.`
   );
 
-  // 5. Notify #mission-control (best-effort; wiring already done).
+  // 5. Notify #mission-control (best-effort; access staging already done).
   const msg =
-    `:white_check_mark: GBP API APPROVED + publisher wired. Account ${accountId}, ` +
-    `location(s) ${locationIds.join(', ')}. Rory's weekly GBP posts will begin on the Monday cron.`;
+    `:white_check_mark: GBP API APPROVED and access credentials staged. Account ${accountId}, ` +
+    `location(s) ${locationIds.join(', ')}. Live GBP publishing is still BLOCKED. ` +
+    `Spencer Slack approval and per-post approval enforcement are required before activation.`;
   const slack = await slackNotify(msg);
   if (slack.ok) {
     log('posted approval notice to Slack #mission-control.');
   } else {
     log(
-      `Slack notice NOT posted (${slack.reason}). Publisher is wired regardless; the ` +
-        `state file below records the approval and this cron log has the details.`
+      `Slack notice NOT posted (${slack.reason}). Access is staged and live publishing is still blocked; the ` +
+        `access state below records approval and this cron log has the details.`
     );
   }
 
-  // 6. Fire-once state file, written last (after a successful wire).
+  // 6. Fire-once access state, written last. This is intentionally distinct
+  //    from .approved, which historically meant the live publisher was wired.
   const state = {
     approvedAt: ts(),
     account_id: accountId,
     location_ids: locationIds,
-    creds_file: CREDS_FILE,
+    staged_creds_file: STAGED_CREDS_FILE,
     slack_notified: slack.ok,
     accounts_seen: seen,
+    publisher_wired: false,
+    approval_needed: 'Spencer Slack live-action approval plus per-post gate',
   };
-  fs.writeFileSync(STATE_FILE, JSON.stringify(state, null, 2) + '\n');
+  fs.writeFileSync(ACCESS_STATE_FILE, JSON.stringify(state, null, 2) + '\n', { mode: 0o600 });
+  fs.chmodSync(ACCESS_STATE_FILE, 0o600);
   writeStatus({
-    status: 'approved_and_wired',
+    status: 'api_approved_access_staged_live_action_blocked',
     httpStatus: 200,
     projectId: sa.project_id || null,
     projectNumber: '53355027587',
     accountId,
     locationIds,
-    publisherWired: true,
+    stagedCredentialsFile: STAGED_CREDS_FILE,
+    publisherWired: false,
+    approvalNeeded: true,
   });
-  log(`wrote fire-once state file ${STATE_FILE} — watcher will not re-fire.`);
+  log(`wrote fire-once access state ${ACCESS_STATE_FILE} — watcher will not re-fire.`);
 }
 
 main().catch((err) => die(err?.stack || String(err)));
