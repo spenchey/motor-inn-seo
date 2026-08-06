@@ -1,0 +1,588 @@
+{
+  "url": "https://motorinn-website.vercel.app",
+  "status_code": 200,
+  "redirect_chain": [],
+  "headers": {
+    "Age": "144677",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "Date": "Sat, 01 Aug 2026 16:46:09 GMT",
+    "Etag": "W/\"ockhy8nubt5fjc\"",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "Vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Matched-Path": "/",
+    "X-Nextjs-Prerender": "1",
+    "X-Nextjs-Stale-Time": "300",
+    "X-Powered-By": "Next.js",
+    "X-Vercel-Cache": "STALE",
+    "X-Vercel-Id": "cle1::iad1::65n6v-1785774117112-84f2afab9a88",
+    "Transfer-Encoding": "chunked"
+  },
+  "meta_tags": {
+    "viewport": "width=device-width, initial-scale=1",
+    "description": "Family owned in Carroll, Iowa since 1937 \u2014 honest pricing on new Toyota & Chevrolet and quality used vehicles of every make. 20+ lenders and award-winning, certified service. Let our family take care of yours.",
+    "robots": "noindex, nofollow",
+    "og:title": "Toyota & Chevrolet Dealer in Carroll, Iowa | Motor Inn Auto Group",
+    "og:description": "Motor Inn Auto Group has served Iowa for over 80 years. Shop new Toyota & Chevrolet or browse used vehicles of every make from a family owned Iowa dealer you can trust.",
+    "og:url": "https://staging.motorinnautogroup.com",
+    "og:site_name": "Motor Inn Auto Group",
+    "og:image": "https://staging.motorinnautogroup.com/brand/storefront-hero.webp",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "Motor Inn Auto Group",
+    "og:type": "website",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Toyota & Chevrolet Dealer in Carroll, Iowa | Motor Inn Auto Group",
+    "twitter:description": "Motor Inn Auto Group has served Iowa for over 80 years. Shop new Toyota & Chevrolet or browse used vehicles of every make from a family owned Iowa dealer you can trust.",
+    "twitter:image": "https://staging.motorinnautogroup.com/brand/storefront-hero.webp"
+  },
+  "title": "New & Used Toyota & Chevrolet in Carroll, Iowa | Motor Inn Auto Group",
+  "description": "Family owned in Carroll, Iowa since 1937 \u2014 honest pricing on new Toyota & Chevrolet and quality used vehicles of every make. 20+ lenders and award-winning, certified service. Let our family take care of yours.",
+  "canonical": "https://staging.motorinnautogroup.com",
+  "h1_tags": [
+    "Your hometown for Toyotas & Chevrolets \u2014 since 1937"
+  ],
+  "heading_structure": [
+    {
+      "level": 1,
+      "text": "Your hometown for Toyotas & Chevrolets \u2014 since 1937"
+    },
+    {
+      "level": 2,
+      "text": "Manager's Picks\u2014Featured New"
+    },
+    {
+      "level": 2,
+      "text": "Featured Used Inventory"
+    },
+    {
+      "level": 2,
+      "text": "Why Customers Choose Motor Inn"
+    },
+    {
+      "level": 2,
+      "text": "Motor Inn by the numbers"
+    },
+    {
+      "level": 2,
+      "text": "What our customers say"
+    },
+    {
+      "level": 2,
+      "text": "Visit Motor Inn Auto Group"
+    },
+    {
+      "level": 2,
+      "text": "Common Questions About Buying at Motor Inn"
+    },
+    {
+      "level": 3,
+      "text": "2017 Jeep Compass"
+    },
+    {
+      "level": 3,
+      "text": "2024 Chevrolet Equinox"
+    },
+    {
+      "level": 3,
+      "text": "2023 Toyota Camry"
+    },
+    {
+      "level": 3,
+      "text": "2025 Jeep Grand Cherokee"
+    },
+    {
+      "level": 3,
+      "text": "2019 Jeep Compass"
+    },
+    {
+      "level": 3,
+      "text": "2025 Ford Escape"
+    },
+    {
+      "level": 3,
+      "text": "In business since 1937"
+    },
+    {
+      "level": 3,
+      "text": "Large new & used selection"
+    },
+    {
+      "level": 3,
+      "text": "One-stop financial services center"
+    },
+    {
+      "level": 3,
+      "text": "Toyota & Chevrolet Certified service"
+    },
+    {
+      "level": 3,
+      "text": "Honest, no-pressure pricing"
+    },
+    {
+      "level": 3,
+      "text": "Client concierge service"
+    },
+    {
+      "level": 3,
+      "text": "Shop"
+    },
+    {
+      "level": 3,
+      "text": "Research"
+    },
+    {
+      "level": 3,
+      "text": "Finance"
+    },
+    {
+      "level": 3,
+      "text": "Service"
+    },
+    {
+      "level": 3,
+      "text": "Company"
+    },
+    {
+      "level": 3,
+      "text": "Legal"
+    },
+    {
+      "level": 3,
+      "text": "Visit Us"
+    },
+    {
+      "level": 3,
+      "text": "Hours"
+    }
+  ],
+  "word_count": 1343,
+  "text_content": "New & Used Toyota & Chevrolet in Carroll, Iowa | Motor Inn Auto Group Skip to main content Family owned since 1937 \u00b7 Honest pricing \u00b7 No pressure Your hometown for Toyotas & Chevrolets \u2014 since 1937 Find your next vehicle in Carroll, Iowa \u2014 generations of straight-shooting deals and a service team you can trust. Condition Any condition New ( 39 ) Used ( 32 ) Make Any make Toyota ( 35 ) Chevrolet ( 23 ) Ford ( 4 ) Jeep ( 3 ) Chrysler ( 1 ) GMC ( 1 ) Honda ( 1 ) Hyundai ( 1 ) Lincoln ( 1 ) Mercedes-Ben ( 1 ) Model Any model RAV4 ( 9 ) Equinox ( 5 ) Tacoma ( 5 ) Tundra ( 4 ) Camry ( 3 ) Crown Signia ( 3 ) Highlander ( 3 ) Silverado 1500 ( 3 ) Silverado 2500 ( 3 ) Trailblazer ( 3 ) Traverse ( 3 ) Trax ( 3 ) Compass ( 2 ) Corolla ( 2 ) Grand Highlander ( 2 ) Silverado ( 2 ) 4Runner ( 1 ) Acadia ( 1 ) Blazer ( 1 ) Bronco Outer Ba ( 1 ) bZ4X ( 1 ) C-Class ( 1 ) CR-V ( 1 ) Escape ( 1 ) Explorer ( 1 ) Grand Cherokee ( 1 ) Maverick ( 1 ) Mks ( 1 ) Pacifica ( 1 ) Sienna ( 1 ) Sonata ( 1 ) Wagon 4 Door ( 1 ) Max price Any price Under $ 10,000 ( 3 ) Under $ 15,000 ( 5 ) Under $ 20,000 ( 9 ) Under $ 25,000 ( 17 ) Under $ 30,000 ( 24 ) Under $ 40,000 ( 34 ) Under $ 50,000 ( 53 ) Under $ 75,000 ( 69 ) Search Inventory Shop New Toyota & Chevrolet \u2192 \u00b7 Value My Trade \u2192 New Toyotas Used SUVs Used Trucks Financing 4.7-Star Rating 68 verified reviews Family Owned Since 1937 Four generations in Iowa Toyota & Chevrolet New and used inventory Carroll, Iowa Local dealership roots Browse New Browse Used Value My Trade Schedule Service Manager's Picks \u2014 Featured New Featured 2026 Toyota Tacoma New $44,479 Featured 2026 Chevrolet Trailblazer New $32,477 Featured 2026 Chevrolet Trailblazer New $33,673 Featured Used Inventory View all \u2192 Used Price Drop 2017 Jeep Compass 95,162 mi \u00b7 Wagon 4 Door Stock # TT906B $12,167 Est. $210/mo est. View Details Used Price Drop 2024 Chevrolet Equinox 35,252 mi \u00b7 Wagon 4 Door Stock # TT949 $22,178 Est. $383/mo est. View Details Used Price Drop 2023 Toyota Camry 66,995 mi \u00b7 Sedan Stock # TTT6794A $26,939 Est. $466/mo est. View Details Used Price Drop 2025 Jeep Grand Cherokee 17,102 mi \u00b7 Wagon 4 Door Stock # TT954 $33,255 Est. $575/mo est. View Details Used Price Drop 2019 Jeep Compass 66,732 mi \u00b7 Wagon 4 Door Stock # TTT6745B $16,080 Est. $278/mo est. View Details Used Price Drop 2025 Ford Escape 24,809 mi \u00b7 Wagon 4 Door Stock # TT953 $23,936 Est. $414/mo est. View Details The Motor Inn Difference Why Customers Choose Motor Inn Let our family take care of yours. Here are a few reasons drivers across Iowa keep coming back. Since 1937 In business since 1937 Most of our new business comes from taking great care of old business. Family owned for over 85 years. Super selection Large new & used selection New Toyotas & Chevrolets, plus a wide used inventory of every make \u2014 one of the widest selections in the area. 20+ lenders One-stop financial services center We work with 20+ lenders to find financing that fits your budget \u2014 for every credit situation. Certified service Toyota & Chevrolet Certified service Award-winning parts & service with certified technicians and express service during extended hours. No pressure Honest, no-pressure pricing Straightforward pricing and a relaxed, no-pressure experience from the first hello to the keys in your hand. Concierge Client concierge service We pick up and deliver your vehicle within the Carroll area \u2014 service that comes to you. Browse Inventory Explore Financing Motor Inn by the numbers 1937 Family Owned Since 4th Generation Leadership 2 New Franchises \u2014 Toyota & Chevrolet Top Rated Local Service Team Reviews What our customers say 4.7 68 verified reviews \u00b7 CARFAX Verified Reviews \u201c Made me feel like I was the most important customer they were helping every time I contacted them. Very good communication with how work was coming along, and they dealt with my insurance quickly and successfully. Always had answers for my questions without delay, and the workmanship was high quality. \u201d 2017 GMC Acadia Denali Owner \u00b7 Feb 2026 \u201c Kevin was great to work with and they advised me on exactly what I needed. I would recommend Motor Inn 10 times out of 10! \u201d 2019 Nissan Murano Owner \u00b7 Mar 2025 \u201c My front brake hose broke 6 hours from home. Motor Inn was a great choice \u2014 very nice, and honest, people. They did a fantastic job and I would not hesitate to have my vehicle worked on there. \u201d 2019 Nissan Maxima Owner \u00b7 Nov 2021 \u201c Kevin in service and Kyle in sales went above and beyond to solve our concern! \u201d 2024 Toyota Sienna Owner \u00b7 Jun 2025 \u201c Great service \u2014 they picked up my vehicle, serviced it, and delivered it back to me. \u201d 2024 Toyota Sequoia Owner \u00b7 Nov 2025 \u201c Very friendly and efficient. They even gave me a vehicle to use while I was waiting! \u201d 2024 Toyota RAV4 XSE Owner \u00b7 Oct 2025 Visit Motor Inn Auto Group Motor Inn Auto Group 1526 Le Clark Road, Carroll, IA 51401 Sales: Mon\u2013Fri 8:00 AM \u2013 5:30 PM \u00b7 Sat 8:00 AM \u2013 3:00 PM \u00b7 Sun Closed Call (712) 792-5000 Get Directions Common Questions About Buying at Motor Inn Can I get financing if I have bad credit or no credit? + Yes. Our one-stop financial services center works with 20+ lenders to find an approval for every credit situation \u2014 including first-time buyers, rebuilding credit, and customers who were turned away elsewhere. Get pre-qualified before you shop and we'll match you to the right lender. Do you take trade-ins, and can I trade in a vehicle you don't sell? + Absolutely. We accept trades of any make or model, and a trade-in can lower the amount you finance and, in many cases, your Iowa sales tax. Use our online Value My Trade tool for a quick estimate, or bring it in and we'll appraise it on the spot. I don't live in Carroll \u2014 do you serve my town? + Yes. Motor Inn has been a regional dealer since 1937 and regularly works with drivers across Iowa, South Dakota, Minnesota and Nebraska. Many customers drive in from out of town for the price and the no-pressure experience; we'll get paperwork ready ahead of time so your visit is quick. What's the difference between the new Toyota and new Chevrolet lineups you carry? + We're a new-car franchise for both Toyota and Chevrolet. Toyota brings the RAV4, Camry, Tacoma, Highlander and Sienna, with strong reputations for reliability and resale. Chevrolet covers the Silverado, Equinox, Traverse and Trailblazer, plus heavier trucks and great value. Tell us how you'll use the vehicle and we'll cross-shop both brands honestly. Are your used vehicles inspected, and do they come with a warranty? + Every used vehicle is inspected by our certified service technicians before it's offered for sale, and we provide the vehicle history. Many units still carry remaining factory or certified pre-owned coverage, and we offer extended service-contract options through our finance center so you can drive with confidence. What is the buying process like \u2014 is it high-pressure? + No. Honest, no-pressure pricing is how we've stayed family owned since 1937 \u2014 most of our business comes from repeat customers and referrals. We give you a straightforward price, answer every question, and let you take the time you need. No games, no surprises at the desk.",
+  "internal_links": [
+    {
+      "url": "https://motorinn-website.vercel.app#main",
+      "text": "Skip to main content"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/new",
+      "text": "Shop New Toyota & Chevrolet \u2192"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/trade-in",
+      "text": "Value My Trade \u2192"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/new?make=Toyota",
+      "text": "New Toyotas"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used/suvs",
+      "text": "Used SUVs"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used/trucks",
+      "text": "Used Trucks"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/finance",
+      "text": "Financing"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/new",
+      "text": "Browse New"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used",
+      "text": "Browse Used"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/trade-in",
+      "text": "Value My Trade"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/service/schedule",
+      "text": "Schedule Service"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/new-carroll-ia-2026-toyota-tacoma-3tmlb5jn3tm233709",
+      "text": "Featured2026ToyotaTacomaNew$44,479"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/new-carroll-ia-2026-chevrolet-trailblazer-kl79musl0tb107176",
+      "text": "Featured2026ChevroletTrailblazerNew$32,477"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/new-carroll-ia-2026-chevrolet-trailblazer-kl79mssl0tb162604",
+      "text": "Featured2026ChevroletTrailblazerNew$33,673"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used",
+      "text": "View all\u2192"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2017-jeep-compass-3c4njdbb5ht500646",
+      "text": ""
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2017-jeep-compass-3c4njdbb5ht500646",
+      "text": "2017 Jeep Compass"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2017-jeep-compass-3c4njdbb5ht500646",
+      "text": "View Details"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2024-chevrolet-equinox-3gnaxkeg4rl116830",
+      "text": ""
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2024-chevrolet-equinox-3gnaxkeg4rl116830",
+      "text": "2024 Chevrolet Equinox"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2024-chevrolet-equinox-3gnaxkeg4rl116830",
+      "text": "View Details"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2023-toyota-camry-4t1f31ak0pu050516",
+      "text": ""
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2023-toyota-camry-4t1f31ak0pu050516",
+      "text": "2023 Toyota Camry"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2023-toyota-camry-4t1f31ak0pu050516",
+      "text": "View Details"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2025-jeep-grand-cherokee-1c4rjhag5s8699337",
+      "text": ""
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2025-jeep-grand-cherokee-1c4rjhag5s8699337",
+      "text": "2025 Jeep Grand Cherokee"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2025-jeep-grand-cherokee-1c4rjhag5s8699337",
+      "text": "View Details"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2019-jeep-compass-3c4njdcb2kt775509",
+      "text": ""
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2019-jeep-compass-3c4njdcb2kt775509",
+      "text": "2019 Jeep Compass"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2019-jeep-compass-3c4njdcb2kt775509",
+      "text": "View Details"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2025-ford-escape-1fmcu9mn0sub18164",
+      "text": ""
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2025-ford-escape-1fmcu9mn0sub18164",
+      "text": "2025 Ford Escape"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/used-carroll-ia-2025-ford-escape-1fmcu9mn0sub18164",
+      "text": "View Details"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/inventory/new",
+      "text": "Browse Inventory"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/finance",
+      "text": "Explore Financing"
+    },
+    {
+      "url": "https://motorinn-website.vercel.app/locations",
+      "text": "Get Directions"
+    }
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "src": "/_next/image?url=%2Fbrand%2Fstorefront-hero.webp&w=3840&q=75",
+      "alt": "Motor Inn Auto Group storefront in Carroll, Iowa",
+      "width": null,
+      "height": null,
+      "loading": null
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2F3TMLB5JN3TM233709%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2026 Toyota Tacoma",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2FKL79MUSL0TB107176%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2026 Chevrolet Trailblazer",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2FKL79MSSL0TB162604%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2026 Chevrolet Trailblazer",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2F3C4NJDBB5HT500646%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2017 Jeep Compass",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2F3GNAXKEG4RL116830%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2024 Chevrolet Equinox",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2F4T1F31AK0PU050516%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2023 Toyota Camry",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2F1C4RJHAG5S8699337%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2025 Jeep Grand Cherokee",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2F3C4NJDCB2KT775509%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2019 Jeep Compass",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=https%3A%2F%2Fjywofirdogvecsftznfe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fvehicle-photos%2F1FMCU9MN0SUB18164%2Fdealeron-1.jpg&w=3840&q=75",
+      "alt": "2025 Ford Escape",
+      "width": null,
+      "height": null,
+      "loading": "lazy"
+    },
+    {
+      "src": "/_next/image?url=%2Fimages%2Fdealership%2Fmotor-inn-storefront.jpg&w=3840&q=75",
+      "alt": "Motor Inn of Carroll storefront",
+      "width": "1200",
+      "height": "700",
+      "loading": "lazy"
+    }
+  ],
+  "structured_data": [
+    {
+      "@context": "https://schema.org",
+      "@type": "AutoDealer",
+      "@id": "https://staging.motorinnautogroup.com/#dealer",
+      "name": "Motor Inn Auto Group",
+      "url": "https://staging.motorinnautogroup.com",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.7",
+        "reviewCount": "68",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "2017 GMC Acadia Denali Owner"
+          },
+          "reviewBody": "Made me feel like I was the most important customer they were helping every time I contacted them. Very good communication with how work was coming along, and they dealt with my insurance quickly and successfully. Always had answers for my questions without delay, and the workmanship was high quality.",
+          "datePublished": "2026-02-14"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "2019 Nissan Murano Owner"
+          },
+          "reviewBody": "Kevin was great to work with and they advised me on exactly what I needed. I would recommend Motor Inn 10 times out of 10!",
+          "datePublished": "2025-03-03"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "2019 Nissan Maxima Owner"
+          },
+          "reviewBody": "My front brake hose broke 6 hours from home. Motor Inn was a great choice \u2014 very nice, and honest, people. They did a fantastic job and I would not hesitate to have my vehicle worked on there.",
+          "datePublished": "2021-11-20"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "2024 Toyota Sienna Owner"
+          },
+          "reviewBody": "Kevin in service and Kyle in sales went above and beyond to solve our concern!",
+          "datePublished": "2025-06-25"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "2024 Toyota Sequoia Owner"
+          },
+          "reviewBody": "Great service \u2014 they picked up my vehicle, serviced it, and delivered it back to me.",
+          "datePublished": "2025-11-04"
+        },
+        {
+          "@type": "Review",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5",
+            "bestRating": "5"
+          },
+          "author": {
+            "@type": "Person",
+            "name": "2024 Toyota RAV4 XSE Owner"
+          },
+          "reviewBody": "Very friendly and efficient. They even gave me a vehicle to use while I was waiting!",
+          "datePublished": "2025-10-07"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I get financing if I have bad credit or no credit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our one-stop financial services center works with 20+ lenders to find an approval for every credit situation \u2014 including first-time buyers, rebuilding credit, and customers who were turned away elsewhere. Get pre-qualified before you shop and we'll match you to the right lender."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you take trade-ins, and can I trade in a vehicle you don't sell?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. We accept trades of any make or model, and a trade-in can lower the amount you finance and, in many cases, your Iowa sales tax. Use our online Value My Trade tool for a quick estimate, or bring it in and we'll appraise it on the spot."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "I don't live in Carroll \u2014 do you serve my town?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn has been a regional dealer since 1937 and regularly works with drivers across Iowa, South Dakota, Minnesota and Nebraska. Many customers drive in from out of town for the price and the no-pressure experience; we'll get paperwork ready ahead of time so your visit is quick."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What's the difference between the new Toyota and new Chevrolet lineups you carry?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We're a new-car franchise for both Toyota and Chevrolet. Toyota brings the RAV4, Camry, Tacoma, Highlander and Sienna, with strong reputations for reliability and resale. Chevrolet covers the Silverado, Equinox, Traverse and Trailblazer, plus heavier trucks and great value. Tell us how you'll use the vehicle and we'll cross-shop both brands honestly."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your used vehicles inspected, and do they come with a warranty?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Every used vehicle is inspected by our certified service technicians before it's offered for sale, and we provide the vehicle history. Many units still carry remaining factory or certified pre-owned coverage, and we offer extended service-contract options through our finance center so you can drive with confidence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the buying process like \u2014 is it high-pressure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Honest, no-pressure pricing is how we've stayed family owned since 1937 \u2014 most of our business comes from repeat customers and referrals. We give you a straightforward price, answer every question, and let you take the time you need. No games, no surprises at the desk."
+          }
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": [
+        "AutoDealer",
+        "LocalBusiness"
+      ],
+      "@id": "https://staging.motorinnautogroup.com/#dealer",
+      "name": "Motor Inn Auto Group",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1526 Le Clark Road",
+        "addressLocality": "Carroll",
+        "addressRegion": "IA",
+        "postalCode": "51401"
+      },
+      "telephone": "+17127925000",
+      "url": "https://staging.motorinnautogroup.com",
+      "openingHours": [
+        "Mo-Fr 08:00-17:30",
+        "Sa 08:00-15:00"
+      ],
+      "hasMap": "https://maps.google.com/?q=1526+Le+Clark+Road+Carroll+IA+51401",
+      "sameAs": [
+        "https://www.facebook.com/MotorInnAutoGroup",
+        "https://www.youtube.com/c/MotorInnAutoGroup",
+        "https://www.instagram.com/motorinnauto",
+        "https://www.linkedin.com/company/motor-inn-auto-group"
+      ]
+    }
+  ],
+  "has_ssr_content": true,
+  "security_headers": {
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains",
+    "Content-Security-Policy": null,
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+  },
+  "errors": []
+}

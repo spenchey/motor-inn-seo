@@ -1,0 +1,15 @@
+{
+  "generated_at": "2026-07-27T19:00:05.897Z",
+  "window": {
+    "start": "2026-07-21",
+    "end": "2026-07-27",
+    "windowDays": 7,
+    "label": "2026-07-21..2026-07-27"
+  },
+  "opportunities": [],
+  "counts": {
+    "total": 0,
+    "gaps": 0,
+    "negative_keyword_candidates": 0
+  }
+}

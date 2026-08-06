@@ -6,15 +6,13 @@ description: >
   thin content safeguards, and index bloat prevention. Use when user says
   "programmatic SEO", "pages at scale", "dynamic pages", "template pages",
   "generated pages", or "data-driven SEO".
-user-invokable: true
+user-invocable: true
 argument-hint: "[url or plan]"
-allowed-tools:
-  - Read
-  - Grep
-  - Glob
-  - Bash
-  - WebFetch
-  - Write
+license: MIT
+metadata:
+  author: AgriciDaniel
+  version: "2.2.0"
+  category: seo
 ---
 
 # Programmatic SEO Analysis & Planning
