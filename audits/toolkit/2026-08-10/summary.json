@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-10",
+  "scope": "weekly",
+  "target_url": "https://motorinn-website.vercel.app",
+  "analyzers": {
+    "technical": "ok",
+    "crawlers": "ok",
+    "llmstxt": "ok",
+    "homepage-fetch": "ok",
+    "onpage": "ok",
+    "drift": "ok"
+  },
+  "failed": []
+}
