@@ -1,0 +1,25 @@
+{
+  "url": "https://motorinn-website.vercel.app/robots.txt",
+  "exists": true,
+  "content": "User-agent: *\nAllow: /\n\n# AI answer-engine crawlers are explicitly welcome (GEO).\nUser-agent: GPTBot\nAllow: /\n\nUser-agent: OAI-SearchBot\nAllow: /\n\nUser-agent: ClaudeBot\nAllow: /\n\nUser-agent: Claude-Web\nAllow: /\n\nUser-agent: PerplexityBot\nAllow: /\n\nUser-agent: Google-Extended\nAllow: /\n\nSitemap: https://www.motorinnautogroup.com/sitemap.xml\n",
+  "ai_crawler_status": {
+    "GPTBot": "ALLOWED",
+    "OAI-SearchBot": "ALLOWED",
+    "ChatGPT-User": "ALLOWED_BY_DEFAULT",
+    "ClaudeBot": "ALLOWED",
+    "anthropic-ai": "ALLOWED_BY_DEFAULT",
+    "PerplexityBot": "ALLOWED",
+    "CCBot": "ALLOWED_BY_DEFAULT",
+    "Bytespider": "ALLOWED_BY_DEFAULT",
+    "cohere-ai": "ALLOWED_BY_DEFAULT",
+    "Google-Extended": "ALLOWED",
+    "GoogleOther": "ALLOWED_BY_DEFAULT",
+    "Applebot-Extended": "ALLOWED_BY_DEFAULT",
+    "FacebookBot": "ALLOWED_BY_DEFAULT",
+    "Amazonbot": "ALLOWED_BY_DEFAULT"
+  },
+  "sitemaps": [
+    "https://www.motorinnautogroup.com/sitemap.xml"
+  ],
+  "errors": []
+}
