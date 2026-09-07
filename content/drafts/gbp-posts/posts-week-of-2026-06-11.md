@@ -29,7 +29,7 @@ By late June, a lot of Iowa miles start piling up fast. Between ball tournaments
 If your weekends point toward Okoboji, the right truck usually proves itself before you ever hook up a trailer. Bed space, towing setup, brake feel, tire condition, and how the cab works for everyday driving matter more than a flashy badge. We talk with a lot of shoppers who want a truck that can handle lake gear, home projects, and weekday commuting without feeling like a compromise in any one direction. That is why we keep practical pickups in the mix and walk through the differences in plain English. If you are comparing used trucks around Carroll and Okoboji, stop in and we will help you sort through the options that actually fit your summer and your budget.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real lot photo of a Silverado or Sierra angled from the front corner with the hitch visible and dealership signage in the background.
 
@@ -45,7 +45,7 @@ If your weekends point toward Okoboji, the right truck usually proves itself bef
 More shoppers from Denison and the surrounding area are asking the same thing right now: how do you get solid value without stepping into somebody else's problem? That is where a carefully selected certified or late-model pre-owned vehicle starts to separate itself. A good used vehicle should come with a clear story, honest condition, and a conversation that makes sense around trade value, payment range, and what you actually need it to do. We are seeing strong interest from drivers who want reliability without stretching to brand new pricing. If you have been comparing used cars in Carroll Iowa, we can help you narrow it down fast and keep the process straightforward from the first walkaround.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real row shot of clean pre-owned SUVs and sedans on the Motor Inn lot with windshield tags visible and no graphic overlays.
 

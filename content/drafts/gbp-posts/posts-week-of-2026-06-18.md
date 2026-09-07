@@ -29,7 +29,7 @@ The week before a long holiday drive is when small vehicle issues start showing 
 When weekends start pointing toward Okoboji, a truck earns its keep long before you ever hook up a trailer. Bed space, towing setup, brake feel, back-seat room, and how it handles everyday errands all matter more than a flashy badge. We talk with a lot of shoppers who want one pickup that can pull lake gear, handle home-project duty, and still feel comfortable the rest of the week. That is why we keep practical used trucks in the mix and walk through the differences in plain language. If you are comparing used trucks near Carroll and planning plenty of time around the lakes this summer, stop in and let us help you narrow the list to the trucks that actually fit how you drive.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real lot photo of a Silverado or Sierra from the front-corner angle with the hitch visible and summer sky in the background.
 
@@ -45,7 +45,7 @@ When weekends start pointing toward Okoboji, a truck earns its keep long before 
 Shoppers coming in from Denison and the surrounding area are asking a smart question right now: how do you get solid value without stepping into someone else’s headache? A good used vehicle should come with a clear story, honest condition, and a conversation that makes sense around trade value, payment range, and what you actually need it to do. That is where a carefully selected certified or late-model pre-owned vehicle starts to separate itself. We will show you the options, answer the hard questions directly, and help you compare without making the process feel like a maze. If you have been weighing used cars in Carroll Iowa, this is a good time to take a closer look.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real row shot of clean pre-owned SUVs and sedans on the Motor Inn lot with windshield tags visible and no graphic overlays.
 

@@ -27,7 +27,7 @@ Summer driving in western Iowa gets busy fast. Before the long weekend trips sta
 For a lot of Iowa drivers, June means coolers, tow straps, weekends at the lake, and making sure the truck is ready before the trailer ever leaves the driveway. If you are comparing used trucks around Carroll, Spirit Lake, or Okoboji, look beyond the badge and pay attention to what actually matters for summer use: towing setup, bed condition, tire life, brake feel, and how the cab fits your day-to-day life when you are not pulling anything. We keep practical trucks in the mix because that is what our customers use. If you want to compare a few options without the runaround, stop in and we will show you what makes sense.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real lot photo of a clean Silverado or Sierra angled three-quarters from the front, with a trailer hitch visible and dealership signage in frame.
 
@@ -43,7 +43,7 @@ For a lot of Iowa drivers, June means coolers, tow straps, weekends at the lake,
 Not every shopper wants brand new, but nobody wants surprises either. That is why certified and carefully selected pre-owned vehicles keep getting attention from Carroll-area buyers who want a strong balance of price, condition, and long-term confidence. A good used vehicle should feel straightforward from the first walkaround: clear history, honest condition, and a realistic conversation about payment, trade value, and what fits your life. We are seeing solid interest from drivers who want more value without giving up reliability. If you have been comparing used cars in Carroll Iowa and want to narrow the field fast, come in and let us help you sort the practical options from the noise.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real row shot of late-model pre-owned SUVs or sedans on the Motor Inn lot with windshield tags visible and no stock overlays.
 

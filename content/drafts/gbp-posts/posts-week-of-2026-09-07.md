@@ -47,7 +47,7 @@ When harvest starts, the trucks that carry the load do not get time off, and nei
 Once the school year is fully underway, the daily routine has a way of getting more expensive and more complicated. If your vehicle is getting older or your needs have changed, now is a sensible time to look at a late-model used car that fits the commute without pushing the budget further than it needs to. We keep the search grounded here in Carroll. We will talk about real fuel economy, dependable miles, and what a vehicle will actually cost to own and insure month after month, not just the sticker. If you are coming over from Spencer or nearby and want a straight comparison of used cars in Carroll Iowa without pressure, we are happy to walk you through what is on the lot and what fits the way you actually drive.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real front-row lot photo of a late-model fuel-efficient commuter sedan at Motor Inn with the windshield sticker visible and clean sightlines, morning light, no overlay.
 
@@ -63,7 +63,7 @@ Once the school year is fully underway, the daily routine has a way of getting m
 A lot of shoppers put off the conversation about financing because it feels like the part they understand the least. It does not have to be that way. When you walk into a car dealership in Carroll IA and ask us to run real numbers, we start with how much you are comfortable putting down, what you hope the payment to be, and what you plan to do with your trade. From there, we show you the options plainly and let you sit with them. No pressure, no surprise fees slipped in at the end. If you have been wondering what you can actually afford and want a clear, honest look at the numbers before you commit to anything, come talk to us. We will keep the whole conversation as direct as you would expect from neighbors.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real photo of a Motor Inn sales desk with a customer and salesperson reviewing a printed numbers sheet together, natural light, no flash or promotional overlay.
 

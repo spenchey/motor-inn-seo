@@ -29,7 +29,7 @@ Holiday travel has a way of making the small things easier to notice. Maybe the 
 The best SUV for a Northwest Iowa family usually is not the flashiest one on the lot. It is the one that gives you useful cargo room, an easy second row, a ride that stays comfortable on longer drives, and enough flexibility to handle everything from grocery trips to weekends around Spirit Lake. We talk through those tradeoffs in plain language because most people do not need every option package under the sun. They need something that fits real life and still feels like a smart value a year from now. If you have been comparing used cars in Carroll Iowa and want to sort the practical choices from the noisy ones, we can help narrow the field quickly.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real lot photo of a midsize SUV with the rear hatch open, showing usable cargo space with no graphic overlay and a clean summer sky.
 
@@ -45,7 +45,7 @@ The best SUV for a Northwest Iowa family usually is not the flashiest one on the
 Some shoppers want new. Others want the right balance between price, condition, and confidence. That is where certified and late-model pre-owned vehicles tend to make a lot of sense. You get a clearer picture of what you are buying, a vehicle that still feels current, and a conversation that stays focused on real fit instead of pressure. For drivers coming over from Lake City or nearby communities, that matters because nobody wants to spend half a day chasing vague information. If you are weighing your options at a Toyota dealer in Carroll IA or comparing practical used choices side by side, we can show you the ones worth serious attention and skip the filler.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real front-row photo of certified or late-model pre-owned Toyotas lined up on the lot with windshield labels visible and no promotional graphics.
 
@@ -61,7 +61,7 @@ Some shoppers want new. Others want the right balance between price, condition, 
 The truck that makes sense for this part of Iowa usually has to do more than one job well. It might need bed space for projects, towing confidence for weekend plans near Okoboji, and enough cabin comfort that longer drives do not feel like a chore. That is why we keep coming back to the practical questions first: what are you pulling, how often are people riding with you, and what feels worth paying for once the excitement wears off? A good truck earns its keep by fitting the way you actually live. If you are comparing used trucks near Carroll and want a shortlist built around usefulness instead of hype, we can help with that.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real three-quarter lot photo of a Silverado, Sierra, or Tacoma with hitch setup visible and enough background to show a true Motor Inn lot shot.
 

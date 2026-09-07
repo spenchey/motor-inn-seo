@@ -13,7 +13,7 @@ This draft uses the July 16 velocity audit, the required EXA research run comple
 Back-to-school vehicle shopping usually gets easier when the conversation stays grounded in daily life. Maybe you need room for sports gear, maybe you want something easier on fuel for the weekly drive, or maybe you just want a used vehicle that still feels solid every morning. We keep that process practical in Carroll. We will talk through cargo space, comfort, visibility, and the kind of value that still makes sense after the first week of excitement wears off. If you are comparing used cars in Carroll Iowa and want help narrowing the list without a lot of noise, we are here for that. Stop in, call, or start browsing when it works for you.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real front-row lot photo of two family-size SUVs parked side by side with enough space to see the rear cargo area and school-season summer light on the Carroll lot.
 
@@ -45,7 +45,7 @@ By mid-August, a lot of Iowa vehicles have already done plenty of work. Longer d
 A truck earns its place by being useful more than it is flashy. For some drivers that means towing confidence, for others it means back-seat room, bed length, or just a ride that still feels comfortable after a longer drive from Storm Lake. When people ask us about used trucks in Carroll IA, we start with those real-life details first. What are you hauling, how often is the cab full, and what features will still matter after the first month? That usually leads to a better decision than chasing specs that sound good but do not fit the way you actually drive. If you want help comparing the right truck choices without filler, we can keep that conversation direct.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real three-quarter lot photo of a late-model Silverado, Sierra, or Tundra with the bed, hitch area, and side profile visible in one frame.
 
@@ -77,6 +77,6 @@ Trade-in conversations usually go better when everyone stays clear about the num
 Some shoppers already know they want new. Others want the balance that comes from a late-model or certified vehicle that still feels current without stretching the budget more than it needs to. That is why we keep the conversation practical. At a Toyota dealer in Carroll IA, the useful part is not loading you up with every option on the lot. It is showing you the vehicles that make real sense for how you drive, what condition looks like up close, and where the better long-term value usually sits. If you are coming over from Lake City or nearby and want help comparing used and certified choices without pressure, we are happy to walk through it with you.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/used-vehicles/
+**CTA link:** https://www.motorinnautogroup.com/used-cars
 
 **Image:** Real front-row lot photo of late-model Toyota inventory with clean sightlines across the windshield stickers and enough detail to show this is an actual Motor Inn lot shot.
