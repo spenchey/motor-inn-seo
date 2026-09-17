@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "note": "Research candidates, not verified live routes or approved factual content. Relevance 0.5 means availability remains unconfirmed.",
+  "candidates": [
+    {
+      "cluster": "Used vehicles",
+      "slug": "used-trucks-carroll",
+      "title": "Used Trucks in Carroll: Shopping Guide",
+      "target_query": "used trucks carroll iowa",
+      "owner_host": "www.motorinnautogroup.com",
+      "target_url": "https://www.motorinnautogroup.com/used-trucks-carroll/",
+      "gsc_property": "sc-domain:motorinnautogroup.com",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q02",
+        "Q20"
+      ]
+    },
+    {
+      "cluster": "Used vehicles",
+      "slug": "used-suvs-carroll",
+      "title": "Used SUVs in Carroll: Shopping Guide",
+      "target_query": "used suv carroll iowa",
+      "owner_host": "www.motorinnautogroup.com",
+      "target_url": "https://www.motorinnautogroup.com/used-suvs-carroll/",
+      "gsc_property": "sc-domain:motorinnautogroup.com",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q03",
+        "Q16"
+      ]
+    },
+    {
+      "cluster": "New Toyota",
+      "slug": "toyota-tundra-carroll",
+      "title": "Toyota Tundra in Carroll: Buyer Guide",
+      "target_query": "toyota tundra carroll iowa",
+      "owner_host": "www.motorinntoyotaofcarroll.com",
+      "target_url": "https://www.motorinntoyotaofcarroll.com/toyota-tundra-carroll/",
+      "gsc_property": "https://www.motorinntoyotaofcarroll.com/",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q11"
+      ]
+    },
+    {
+      "cluster": "New Toyota",
+      "slug": "toyota-rav4-carroll",
+      "title": "Toyota RAV4 in Carroll: Buyer Guide",
+      "target_query": "toyota rav4 carroll iowa",
+      "owner_host": "www.motorinntoyotaofcarroll.com",
+      "target_url": "https://www.motorinntoyotaofcarroll.com/toyota-rav4-carroll/",
+      "gsc_property": "https://www.motorinntoyotaofcarroll.com/",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q10"
+      ]
+    },
+    {
+      "cluster": "New Chevrolet",
+      "slug": "chevrolet-silverado-carroll",
+      "title": "Chevrolet Silverado in Carroll Guide",
+      "target_query": "chevrolet silverado carroll iowa",
+      "owner_host": "www.motorinnofcarroll.com",
+      "target_url": "https://www.motorinnofcarroll.com/chevrolet-silverado-carroll/",
+      "gsc_property": "https://www.motorinnofcarroll.com/",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q05",
+        "Q09"
+      ]
+    },
+    {
+      "cluster": "New Chevrolet",
+      "slug": "chevrolet-equinox-carroll",
+      "title": "Chevrolet Equinox in Carroll Guide",
+      "target_query": "chevrolet equinox carroll iowa",
+      "owner_host": "www.motorinnofcarroll.com",
+      "target_url": "https://www.motorinnofcarroll.com/chevrolet-equinox-carroll/",
+      "gsc_property": "https://www.motorinnofcarroll.com/",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q12"
+      ]
+    },
+    {
+      "cluster": "Trade-in",
+      "slug": "trade-in-process-carroll",
+      "title": "Trade-In Process in Carroll: A Guide",
+      "target_query": "car trade in carroll iowa",
+      "owner_host": "www.motorinnautogroup.com",
+      "target_url": "https://www.motorinnautogroup.com/trade-in-process-carroll/",
+      "gsc_property": "sc-domain:motorinnautogroup.com",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q13"
+      ]
+    },
+    {
+      "cluster": "Financing",
+      "slug": "auto-financing-carroll",
+      "title": "Auto Financing in Carroll: A Guide",
+      "target_query": "auto financing carroll iowa",
+      "owner_host": "www.motorinnautogroup.com",
+      "target_url": "https://www.motorinnautogroup.com/auto-financing-carroll/",
+      "gsc_property": "sc-domain:motorinnautogroup.com",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q15"
+      ]
+    },
+    {
+      "cluster": "Service/tires",
+      "slug": "toyota-service-carroll",
+      "title": "Toyota Service in Carroll: A Guide",
+      "target_query": "toyota service carroll iowa",
+      "owner_host": "www.motorinntoyotaofcarroll.com",
+      "target_url": "https://www.motorinntoyotaofcarroll.com/toyota-service-carroll/",
+      "gsc_property": "https://www.motorinntoyotaofcarroll.com/",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q06",
+        "Q17"
+      ]
+    },
+    {
+      "cluster": "Service/tires",
+      "slug": "chevrolet-service-carroll",
+      "title": "Chevrolet Service in Carroll: A Guide",
+      "target_query": "chevrolet service carroll iowa",
+      "owner_host": "www.motorinnofcarroll.com",
+      "target_url": "https://www.motorinnofcarroll.com/chevrolet-service-carroll/",
+      "gsc_property": "https://www.motorinnofcarroll.com/",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q07",
+        "Q08"
+      ]
+    },
+    {
+      "cluster": "Sell to us",
+      "slug": "sell-my-car-carroll",
+      "title": "Selling Your Car in Carroll: A Guide",
+      "target_query": "sell my car carroll iowa",
+      "owner_host": "www.motorinnautogroup.com",
+      "target_url": "https://www.motorinnautogroup.com/sell-my-car-carroll/",
+      "gsc_property": "sc-domain:motorinnautogroup.com",
+      "destination": "dealeron",
+      "outline": [
+        "Your next steps",
+        "Related dealership resources"
+      ],
+      "estimated_hours": 4,
+      "relevance": 0.5,
+      "market_segment": "core",
+      "ai_question_ids": [
+        "Q14"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "jobs_per_week": 3,
+  "runbook_directory": "/Users/spencerheywood/motor-inn-seo/agents",
+  "candidate_path": "/Users/spencerheywood/motor-inn-seo/automation/config/candidates.json",
+  "verified_content_path": "/Users/spencerheywood/motor-inn-seo/pipeline/inputs/verified-content.json",
+  "dataforseo": {
+    "credentials_path": "/Users/spencerheywood/.config/motorinn/dataforseo.env",
+    "policy_path": "/Users/spencerheywood/motor-inn-seo/automation/config/dataforseo-cost-policy.json",
+    "location_name": "Iowa,United States",
+    "language_code": "en"
+  },
+  "gsc": {
+    "ssh_host": "codex-mac-mini",
+    "requested_alias": "nada-mini (does not resolve on this host)",
+    "python": "python3",
+    "credential_path": "/Users/spencerheywood/.config/gcloud/ga4-service-account.json",
+    "properties": [
+      "sc-domain:motorinnautogroup.com",
+      "https://www.motorinntoyotaofcarroll.com/",
+      "https://www.motorinnofcarroll.com/"
+    ]
+  },
+  "approval": {
+    "spencer_slack_user_id": "",
+    "slack_channel_id": "",
+    "receipt_key_path": "",
+    "slack_signing_secret_path": ""
+  },
+  "dealeron": {
+    "support_email": ""
+  },
+  "ai_proxy": {
+    "repo_path": "",
+    "remote": "origin",
+    "base_branch": "main",
+    "content_directory": "",
+    "allowed_hosts": [
+      "ai.motorinnautogroup.com",
+      "ai.motorinntoyotaofcarroll.com",
+      "ai.motorinnofcarroll.com"
+    ]
+  },
+  "content_posts": {
+    "worktree": "/Users/spencerheywood/Worktrees/motorinn-month-ahead-content-holmes-v3"
+  }
+}

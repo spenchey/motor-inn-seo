@@ -1,0 +1,29 @@
+{
+  "version": "motorinn-dataforseo-cost-policy.v2-local-pipeline",
+  "currency": "USD",
+  "dailyAutoApproveUsd": 2.0,
+  "dailyHardCapUsd": 2.0,
+  "defaultUnknownEndpointUsd": 0.1,
+  "endpointEstimatesUsd": {
+    "serp_organic_live_advanced": 0.05,
+    "kw_data_google_ads_search_volume": 0.2,
+    "dataforseo_labs_bulk_keyword_difficulty": 0.05,
+    "dataforseo_labs_search_intent": 0.05,
+    "ai_optimization": 0.1,
+    "serp_screenshot": 0.02
+  },
+  "rules": {
+    "maxKeywordBatchSize": 1000,
+    "maxSerpDepth": 10,
+    "forbidSearchOperators": true,
+    "forbidBacklinkCrawlsWithoutApproval": true,
+    "forbidUnboundedDomainCrawls": true
+  },
+  "cacheDays": 7,
+  "provenance": {
+    "mirrored_from": "/Users/spencerheywood/.codex/worktrees/seo-team-foundation/config/dataforseo-cost-policy.json",
+    "requested_runtime": "dataforseo-rory-seo-runtime (not found locally)",
+    "override_authority": "/tmp/codex_task_brief.md explicit $2/day cap",
+    "note": "Conservative per-call reservations; only allowlisted endpoints; lower actual cost never refunds reservation."
+  }
+}

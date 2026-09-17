@@ -1,0 +1,21 @@
+{
+  "version": "motorinn-dataforseo-cost-policy.v1",
+  "currency": "USD",
+  "dailyAutoApproveUsd": 0.25,
+  "dailyHardCapUsd": 1.0,
+  "defaultUnknownEndpointUsd": 0.1,
+  "endpointEstimatesUsd": {
+    "serp_organic_live_advanced": 0.01,
+    "kw_data_google_ads_search_volume": 0.1,
+    "dataforseo_labs_bulk_keyword_difficulty": 0.05,
+    "dataforseo_labs_search_intent": 0.05,
+    "ai_optimization": 0.1
+  },
+  "rules": {
+    "maxKeywordBatchSize": 1000,
+    "maxSerpDepth": 10,
+    "forbidSearchOperators": true,
+    "forbidBacklinkCrawlsWithoutApproval": true,
+    "forbidUnboundedDomainCrawls": true
+  }
+}
