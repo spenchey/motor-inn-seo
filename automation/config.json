@@ -22,9 +22,9 @@
     ]
   },
   "approval": {
-    "spencer_slack_user_id": "",
-    "slack_channel_id": "",
-    "receipt_key_path": "",
+    "spencer_slack_user_id": "U0ABQ7W4PTQ",
+    "slack_channel_id": "C0AC3BP5XPF",
+    "receipt_key_path": "/Users/spencerheywood/.config/motorinn/seo-approval-receipt.key",
     "slack_signing_secret_path": ""
   },
   "dealeron": {
