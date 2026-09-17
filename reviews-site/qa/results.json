@@ -1,0 +1,127 @@
+{
+  "checks": [
+    {
+      "check": "Exact SEO title",
+      "passed": true
+    },
+    {
+      "check": "All five platform rows",
+      "passed": true
+    },
+    {
+      "check": "Missing ratings stay unknown",
+      "passed": true
+    },
+    {
+      "check": "Unavailable Google/Cars review actions disabled",
+      "passed": true
+    },
+    {
+      "check": "Default Organization schema only",
+      "passed": true
+    },
+    {
+      "check": "No preview aggregate or quoted reviews",
+      "passed": true
+    },
+    {
+      "check": "No horizontal overflow at 320px",
+      "passed": true
+    },
+    {
+      "check": "No horizontal overflow at 390px",
+      "passed": true
+    },
+    {
+      "check": "No horizontal overflow at 768px",
+      "passed": true
+    },
+    {
+      "check": "No horizontal overflow at 1440px",
+      "passed": true
+    },
+    {
+      "check": "Keyboard skip link focus",
+      "passed": true
+    },
+    {
+      "check": "Contrast ink/bg: 16.84:1",
+      "passed": true
+    },
+    {
+      "check": "Contrast muted/bg: 7.36:1",
+      "passed": true
+    },
+    {
+      "check": "Contrast muted/surface: 6.77:1",
+      "passed": true
+    },
+    {
+      "check": "Contrast white/primary: 8.76:1",
+      "passed": true
+    },
+    {
+      "check": "Contrast primary/bg: 8.76:1",
+      "passed": true
+    },
+    {
+      "check": "Contrast ink/accent: 12.88:1",
+      "passed": true
+    },
+    {
+      "check": "Verified summary displays supplied values",
+      "passed": true
+    },
+    {
+      "check": "Untrusted review text stays text",
+      "passed": true
+    },
+    {
+      "check": "Third-party values excluded from schema",
+      "passed": true
+    },
+    {
+      "check": "Verified first-party AggregateRating supported",
+      "passed": true
+    },
+    {
+      "check": "Verified first-party Review supported",
+      "passed": true
+    },
+    {
+      "check": "Schema aggregate visible to readers",
+      "passed": true
+    },
+    {
+      "check": "Out-of-range platform score rejected",
+      "passed": true
+    },
+    {
+      "check": "Third-party aggregate rejected even when enabled",
+      "passed": true
+    },
+    {
+      "check": "Rejected aggregate removed visibly",
+      "passed": true
+    },
+    {
+      "check": "No JavaScript errors",
+      "passed": true
+    },
+    {
+      "check": "Zero external requests on load and render",
+      "passed": true
+    },
+    {
+      "check": "Preview remains noindex",
+      "passed": true
+    },
+    {
+      "check": "No-JavaScript fallback is usable",
+      "passed": true
+    }
+  ],
+  "passed": 30,
+  "errors": [],
+  "external_requests": []
+}
