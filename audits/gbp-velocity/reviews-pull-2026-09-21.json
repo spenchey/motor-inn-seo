@@ -1,0 +1,2029 @@
+{
+ "locations": [
+  {
+   "location": "locations/14730652758503817758",
+   "totalReviewCount": 224,
+   "averageRating": 4.5,
+   "auth": "configured_fallback",
+   "fetched": 224,
+   "reviews": [
+    {
+     "author": "Anthony Stelmach",
+     "rating": 5,
+     "text": "Great dealership!\nVery friendly people and the service was very good.\nI work all over Iowa and I will come to this dealership again when I am back in the area.",
+     "create_time": "2026-09-18T23:31:06.373263Z",
+     "has_reply": true,
+     "reply_text": "Anthony, I would like to thank you for taking the time to put in a great 5 star review of Motor Inn and the kind words regarding our store!  We appreciate you and your business!  We also look forward to seeing you back at our dealership the next time your in the area! David Bremser-General Manager",
+     "reply_update_time": "2026-09-19T15:50:03.402361Z"
+    },
+    {
+     "author": "Don Herrig",
+     "rating": 4,
+     "text": null,
+     "create_time": "2026-09-16T16:39:39.703989Z",
+     "has_reply": true,
+     "reply_text": "Don, Thank you for taking the time to leave a 5 Star review for Motor Inn! We appreciate you!",
+     "reply_update_time": "2026-09-17T14:12:52.025668Z"
+    },
+    {
+     "author": "Jack Cue",
+     "rating": 5,
+     "text": "Great",
+     "create_time": "2026-09-16T14:09:49.042806Z",
+     "has_reply": true,
+     "reply_text": "Thanks for the 5 star review!  We appreciate the business!",
+     "reply_update_time": "2026-09-17T14:13:20.952037Z"
+    },
+    {
+     "author": "Sarah Spiker",
+     "rating": 5,
+     "text": "The people at Motor Inn are Fantastic. I have never had any issues and they’re always helpful.",
+     "create_time": "2026-09-16T11:57:41.555958Z",
+     "has_reply": true,
+     "reply_text": "Thanks Sarah for taking time out of your busy day to leave a great 5 star review!  We appreciate your continued loyalty to Motor Inn!",
+     "reply_update_time": "2026-09-17T14:14:50.485840Z"
+    },
+    {
+     "author": "Scott Plendl",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-09-16T04:32:03.459208Z",
+     "has_reply": true,
+     "reply_text": "Thank you Scott for the 5 star review of Motor Inn!  We appreciate the business and we hope you are enjoying your new Camry! ",
+     "reply_update_time": "2026-09-17T14:16:09.446451Z"
+    },
+    {
+     "author": "Geneva Rajski",
+     "rating": 4,
+     "text": null,
+     "create_time": "2026-09-16T04:18:12.601828Z",
+     "has_reply": true,
+     "reply_text": "Thank you for taking the time to leave us a review!  We appreciate the business! ",
+     "reply_update_time": "2026-09-17T14:18:39.014311Z"
+    },
+    {
+     "author": "Chris Goodwin",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-09-15T14:53:42.671182Z",
+     "has_reply": true,
+     "reply_text": "Chris, Thank you for the 5 star review!  We do appreciate it!",
+     "reply_update_time": "2026-09-15T15:33:05.496714Z"
+    },
+    {
+     "author": "Denise meyer",
+     "rating": 5,
+     "text": "It is really great that they have the service of picking up the vehicle and returning it!!!😘🥰",
+     "create_time": "2026-09-10T15:03:40.059493Z",
+     "has_reply": true,
+     "reply_text": "Thank you for leaving a great 5 star review!  We appreciate you and your business!",
+     "reply_update_time": "2026-09-10T20:12:48.212995Z"
+    },
+    {
+     "author": "Cynthia Vokt",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-09-09T14:07:46.560495Z",
+     "has_reply": true,
+     "reply_text": "Thanks Cynthia for the 5 star review!  We truly appreciate you!",
+     "reply_update_time": "2026-09-10T20:13:23.891788Z"
+    },
+    {
+     "author": "Lisa Vaughn",
+     "rating": 5,
+     "text": "I recently bought a used 2025 Ford Escape from Motor Inn. Rick was fantastic! He and Lisa guided me through every step of the car-buying process. Whether you're looking for a new or used car, Motor Inn is your go-to place!",
+     "create_time": "2026-09-08T22:43:12.131677Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the great 5star review!  I will pass along this information to Rick and Lisa!  We appreciate the opportunity to assist you!",
+     "reply_update_time": "2026-09-10T20:10:02.836714Z"
+    },
+    {
+     "author": "Arlis Bahnsen",
+     "rating": 5,
+     "text": "We recently purchased a new vehicle at Motor Inn of Carroll. We've always had great service there.  The staff was knowledgeable and friendly. Highly recommend.",
+     "create_time": "2026-09-06T13:00:29.768241Z",
+     "has_reply": true,
+     "reply_text": "A huge thank you to you and John for your continued loyalty to our Motor Inn family!  We appreciate you both very much!  Hope your enjoying the new ride~!",
+     "reply_update_time": "2026-09-08T14:51:46.132385Z"
+    },
+    {
+     "author": "Bill Bush",
+     "rating": 5,
+     "text": "Very professional. Polite excellent service",
+     "create_time": "2026-08-27T14:59:37.447367Z",
+     "has_reply": true,
+     "reply_text": "Thank you Bill for the great 5 star review!  We appreciate you and your loyalty to Motor Inn!",
+     "reply_update_time": "2026-08-28T13:56:52.415762Z"
+    },
+    {
+     "author": "Jedd Hagen",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-09-05T15:13:17.318632Z",
+     "has_reply": true,
+     "reply_text": "Thanks for the 5 star review!",
+     "reply_update_time": "2026-09-08T14:52:11.794865Z"
+    },
+    {
+     "author": "Elaine Palmer",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-09-05T15:02:52.760970Z",
+     "has_reply": true,
+     "reply_text": "Thank you Elaine!  We appreciate your continued support!",
+     "reply_update_time": "2026-09-08T14:52:42.192903Z"
+    },
+    {
+     "author": "David Bilsten",
+     "rating": 5,
+     "text": "Fast and excellent work",
+     "create_time": "2026-09-05T14:56:22.924932Z",
+     "has_reply": true,
+     "reply_text": "Thanks to you and Mary for your continued support of Motor Inn!",
+     "reply_update_time": "2026-09-08T14:53:33.081763Z"
+    },
+    {
+     "author": "carman hammes",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-09-05T14:03:38.735099Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the 5 star review!  WE appreciate you!",
+     "reply_update_time": "2026-09-08T14:54:08.049497Z"
+    },
+    {
+     "author": "Jonna Willadsen",
+     "rating": 5,
+     "text": "Very friendly and helpful. Thanks",
+     "create_time": "2026-09-03T19:29:00.265296Z",
+     "has_reply": true,
+     "reply_text": "Thank you Jonna, we appreciate you and your continued loyalty to Motor Inn!",
+     "reply_update_time": "2026-09-04T15:58:42.470476Z"
+    },
+    {
+     "author": "chris naylor",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-09-02T23:29:12.012216Z",
+     "has_reply": true,
+     "reply_text": "Thanks for the 5 star!!!",
+     "reply_update_time": "2026-09-03T15:45:36.937554Z"
+    },
+    {
+     "author": "Amy Buelt",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-27T15:34:49.968831Z",
+     "has_reply": true,
+     "reply_text": "Thank you Amy! We appreciate you!",
+     "reply_update_time": "2026-08-28T13:55:07.501784Z"
+    },
+    {
+     "author": "SmalltownGRC",
+     "rating": 5,
+     "text": "Had my 2026 GR Corolla Premium Plus serviced there yesterday. Was extremely impressed with the staff and attention to detail. Top tier experience. Will return.",
+     "create_time": "2026-09-02T18:52:31.437391Z",
+     "has_reply": true,
+     "reply_text": "Thank you for your trust in Motor Inn and we are super excited to have you as a customer!  By the way I saw your car here and it is a beauty!",
+     "reply_update_time": "2026-09-03T15:45:15.846566Z"
+    },
+    {
+     "author": "Lisa Jenkins",
+     "rating": 5,
+     "text": "They were great. Had to have my SUV repaired from some body damage. Matt at the collision center terminal was awesome to work with. He went above and beyond. They even delivered my SUV back to me, washed! Thanks guys!",
+     "create_time": "2026-09-01T18:48:47.970718Z",
+     "has_reply": true,
+     "reply_text": "Lisa, we appreciate you and your business!  We know you have many choices and we glad you chose us!  ",
+     "reply_update_time": "2026-09-03T15:46:33.708874Z"
+    },
+    {
+     "author": "gary launderville",
+     "rating": 5,
+     "text": "Got my vehicle in right on time and was ready to go within half an hour. Very polite, courteous and professional.",
+     "create_time": "2026-08-25T15:41:49.134066Z",
+     "has_reply": true,
+     "reply_text": "Gary, we appreciate your feedback but even more we appreciate your business! Thank you",
+     "reply_update_time": "2026-08-26T12:48:53.799273Z"
+    },
+    {
+     "author": "Lois Shook",
+     "rating": 5,
+     "text": "They got me in on time and did the necessary service.",
+     "create_time": "2026-09-01T16:52:41.844742Z",
+     "has_reply": true,
+     "reply_text": "Thank you for you continued loyalty to Motor Inn!",
+     "reply_update_time": "2026-09-03T15:47:03.021164Z"
+    },
+    {
+     "author": "Kathryn Mahlberg",
+     "rating": 5,
+     "text": "Very good service. They explained what was needed and gave me the cost upfront.",
+     "create_time": "2026-09-01T14:11:45.013831Z",
+     "has_reply": true,
+     "reply_text": "Thank you Kathryn for leaving Motor Inn a great review!  We really appreciate you and your business!",
+     "reply_update_time": "2026-09-01T15:06:47.565676Z"
+    },
+    {
+     "author": "Julie Nadrchal",
+     "rating": 5,
+     "text": "Kept us updated on the work and asked permission to complete additional work (issues that came up while working on the car).  Very friendly staff 😀",
+     "create_time": "2026-08-27T16:27:51.176913Z",
+     "has_reply": true,
+     "reply_text": "Julie, thank you so much for the great review!  We appreciate you and your business!",
+     "reply_update_time": "2026-08-28T13:48:17.350348Z"
+    },
+    {
+     "author": "Bob Stessman",
+     "rating": 5,
+     "text": "My service on my vehicles is always great, the sale team is very helpful and professional.  I would say they are way to happy to sell me a car. This way my 10th vehicle since 2009. I am very happy to do business with Motor Inn of Carroll",
+     "create_time": "2025-09-30T18:37:17.585793Z",
+     "has_reply": true,
+     "reply_text": "That's a great looking vehicle! Thanks so much for your business and your kind review. Enjoy!",
+     "reply_update_time": "2026-02-20T21:07:32.660861Z"
+    },
+    {
+     "author": "Connie & Dee Schoessler",
+     "rating": 5,
+     "text": "Courteous service...timely appointment... called me when the service was finished....perfect.  thanks Nathan!",
+     "create_time": "2026-08-27T15:49:59.661118Z",
+     "has_reply": true,
+     "reply_text": "Thanks Connie and Dee,  We always love hearing from you both!  We appreciate your kind words about Nathan!",
+     "reply_update_time": "2026-08-28T13:54:50.467989Z"
+    },
+    {
+     "author": "Yanelis Gracias peralta",
+     "rating": 5,
+     "text": "(Translated by Google) Excellent service, very professional\n\n(Original)\nexcelente servicio,muy profesionales",
+     "create_time": "2026-08-27T15:23:00.459985Z",
+     "has_reply": true,
+     "reply_text": "Thank you very much for the 5 star review!",
+     "reply_update_time": "2026-08-28T13:56:10.411970Z"
+    },
+    {
+     "author": "Dale Bellinghausen",
+     "rating": 5,
+     "text": "Great 👍",
+     "create_time": "2026-08-25T16:42:58.233415Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the 5 Stars!  We appreciate you're continued loyalty!",
+     "reply_update_time": "2026-08-26T12:49:40.733766Z"
+    },
+    {
+     "author": "Sara Schulte",
+     "rating": 5,
+     "text": "Matt was great to work with. He kept me updated on the process and ensured everything was repaired properly and quickly. Thanks Matt!",
+     "create_time": "2026-08-25T14:38:04.216868Z",
+     "has_reply": true,
+     "reply_text": "Sara, We appreciate the kind words regarding your Motor Inn body shop experience!  Thank you for the business and the 5 Star review!",
+     "reply_update_time": "2026-08-26T12:51:09.086936Z"
+    },
+    {
+     "author": "Richard Heim",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-03-11T15:06:07.219509Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the 5Star Review!",
+     "reply_update_time": "2026-05-08T21:31:51.981156Z"
+    },
+    {
+     "author": "David McCool",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-20T16:56:09.760053Z",
+     "has_reply": true,
+     "reply_text": "Thanks David, We appreciate your business",
+     "reply_update_time": "2026-08-21T13:32:30.605122Z"
+    },
+    {
+     "author": "Lori Johannsen",
+     "rating": 5,
+     "text": "Friendly and great service.",
+     "create_time": "2026-08-20T15:42:39.020387Z",
+     "has_reply": true,
+     "reply_text": "Lori, we thank you for the 5 star and kind words",
+     "reply_update_time": "2026-08-21T13:33:09.248620Z"
+    },
+    {
+     "author": "Robert Peters",
+     "rating": 5,
+     "text": "A very professional, caring and detail oriented sales team in the Motor Inn of Carroll that pleased us and exceeded our expectations in purchasing our new cherry red suburban.  Well done!",
+     "create_time": "2021-02-10T14:52:50.804565Z",
+     "has_reply": true,
+     "reply_text": "Thank you as well for being a vey loyal customer to Motor Inn for many years.  We truly appreciate you!",
+     "reply_update_time": "2026-08-20T12:27:58.130309Z"
+    },
+    {
+     "author": "Kevin Eischeid",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-18T17:59:08.106320Z",
+     "has_reply": true,
+     "reply_text": "Thank you Kevin, we appreciate your continued loyalty!",
+     "reply_update_time": "2026-08-19T16:25:46.233106Z"
+    },
+    {
+     "author": "R Beard",
+     "rating": 4,
+     "text": "Many of these reviews are pertaining to Sales at Motor Inn of Carroll. Unfortunately, mine is regarding the service department.\nIowa does not have a good variety of Toyota Dealerships in the Des Moines Metro area. Living roughly an hour away from Carroll & Des Moines, and being jerked around with the Large Corporation of Toyota of Des Moines, I decided to take my business to a small town and small town dealership in hopes of a much better experience.\n\nCliff Note Version:\nCalled in, Spoke with Nathan Pudenz to get a quote for a series of fluid services, spark plugs, and serpentine belt. Quote received, and noticed an item was missing. Emailed back immediately, no acknowledgement. Called the next day, \"I'll send that over\". Still no email. Called the day before the appointment, provided a price over the phone. Day of appointment, called me to inform need new brakes, pads are low, I agree. 45 minutes before they close, I call to check status, says Belt had to be ordered, it'll be ready tomorrow. Was no one going to call me to inform? Next day, Spouse picks up vehicle, and bill was much larger than quoted price. Nathan removed labor for the missing brake fluid exchange on the quote, and applied 100.00 \"Coupon\". Still isn't adding up. I review the quote to the revised invoice. Charged higher than quote for Front/Rear Diff Service, and Transfer Case that was quoted over the phone.\n\nFound Dave Bremser is the new GM as of 3 weeks ago, Nate Sporrer is the Service Manager, and included the Service Assistant, Amy, on an email regarding my recent experience with Nathan Pudenz.\n\nItems that definitely need worked on, is communication, and better customer service skills (Phone and in Person), along with being sure the pricing is matching or very near the quoted price.\n\nFor future Consumers, Get all Quotes in Writing, so you're not surprised when picking up, and a completely different price. Some items were within a few dollars, which in my opinion, is acceptable. Some minor shop supplies could've happened.\n\nAgain, we elected a small town, small business owner to do business with versus the big corporation. However, this experience has left us with a bad impression. I look forward to the email response from the Service Manager and/or General Manager in order to rectify this situation and for me to update this review to show other consumers that this type of service, was a one off issue, and small town business wants to draw in consumers from excellent service within their service department.\n\n8:30am on 8/13 - GM Called to acknowledge email and will be conducting review on their side. Will reach back out after review completed.\n\n5pm on 8/13, Service Manager,  Nate called. Thanked for the detailed email and wanted to make the experience right. Due to the errors, offered gift certificate or a refund check. Opted for refund. Said will go out tomorrow. Once refund received, will update star rating.\n\nAppreciate the prompt response and review of what had transpired. Hopefully no one will have to experience this in the future and again, Thank you Dave and Nate.\n\n8/17- Refund received. Thank you to Nate and Dave for making this situation right.\n\nAny future consumers, get all quotes in writing first before service is done!",
+     "create_time": "2026-08-13T12:57:59.355568Z",
+     "has_reply": true,
+     "reply_text": "Richard, we are disappointed that our performance has not only met our expectations and standards, but did not meet yours as well. This has been taken as direct feed back to the employees and management involved. We appreciate the time you have taken to provide us with feedback to ensure our standards and expectation of our customers are met and held. ",
+     "reply_update_time": "2026-08-13T13:46:07.648297Z"
+    },
+    {
+     "author": "Teri Scharfenkamp",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-17T18:05:55.360703Z",
+     "has_reply": true,
+     "reply_text": "Thanks for the 5 Star!",
+     "reply_update_time": "2026-08-20T12:28:20.583440Z"
+    },
+    {
+     "author": "Cynthia Schwarzkopf",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-17T14:07:32.741180Z",
+     "has_reply": true,
+     "reply_text": "Thank you for giving us a 5 star nod!",
+     "reply_update_time": "2026-08-20T12:28:36.933674Z"
+    },
+    {
+     "author": "Patrick Staiert",
+     "rating": 5,
+     "text": "Oil change was completed in a timely manner at a fair price.\nStaff were efficient and friendly.\nService writer Nate solved and explained, my rear hatch push button lift issue. I had inadvertently turned the assist off at switch.",
+     "create_time": "2026-08-15T22:55:50.979561Z",
+     "has_reply": true,
+     "reply_text": "Thank you Patrick for giving Motor Inn a 5 star review! We appreciate you and your continued business with us!",
+     "reply_update_time": "2026-08-20T12:29:45.077221Z"
+    },
+    {
+     "author": "larry greteman",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-15T14:42:24.000455Z",
+     "has_reply": true,
+     "reply_text": "Thanks Larry for the 5 star review!",
+     "reply_update_time": "2026-08-20T12:30:17.446590Z"
+    },
+    {
+     "author": "Dixie H",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-13T21:37:21.718791Z",
+     "has_reply": true,
+     "reply_text": "Thank you Dixie!",
+     "reply_update_time": "2026-08-20T12:30:29.941976Z"
+    },
+    {
+     "author": "Monica Schiltz",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-08-13T15:53:33.701126Z",
+     "has_reply": true,
+     "reply_text": "We appreciate your 5 star!",
+     "reply_update_time": "2026-08-20T12:30:52.735253Z"
+    },
+    {
+     "author": "Jackie Kalkhoff",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-07-13T14:44:34.406983Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the 5 stars!  We appreciate you!",
+     "reply_update_time": "2026-07-14T12:49:27.915498Z"
+    },
+    {
+     "author": "Curt M",
+     "rating": 5,
+     "text": "Service was on time. They did a good job on service on my vehicle.",
+     "create_time": "2026-07-11T14:55:14.880334Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the 5 star!  We appreciate you trusting our service department!",
+     "reply_update_time": "2026-07-14T12:50:07.022629Z"
+    },
+    {
+     "author": "Carol Onken",
+     "rating": 5,
+     "text": "Routine maintenance at Motor Inn is so much better than at the out-of-town dealer I used previously. I can usually schedule an appointment within a week, and sometimes even just a few days ahead. My wait time for routine service is typically about an hour, without the extra drive time. It’s also nice to see the same one or two people each time I come in—they’re friendly, familiar, and make the experience easy and efficient.",
+     "create_time": "2026-07-08T00:53:05.630871Z",
+     "has_reply": true,
+     "reply_text": "Thank you Carol!  We appreciate the kind words!  ",
+     "reply_update_time": "2026-07-09T12:47:26.633062Z"
+    },
+    {
+     "author": "Ithilwyn",
+     "rating": 5,
+     "text": "Motor Inn in Carroll, Iowa is a stellar dealership with people who are kind and knowledgeable. If I could rate more stars I would!",
+     "create_time": "2026-07-07T14:11:48.823354Z",
+     "has_reply": true,
+     "reply_text": "Thank you for great review!  We appreciate you!",
+     "reply_update_time": "2026-07-09T12:48:16.639816Z"
+    },
+    {
+     "author": "Marilyn Dopheide",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-07-07T14:11:07.082664Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the 5 star review!  We appreciate you!",
+     "reply_update_time": "2026-07-14T12:50:29.372017Z"
+    },
+    {
+     "author": "Molly Riedell",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-06-25T11:40:24.973446Z",
+     "has_reply": true,
+     "reply_text": "Thank you the 5 star review!  We appreciate you!",
+     "reply_update_time": "2026-07-14T12:50:53.478224Z"
+    },
+    {
+     "author": "Scott Volquartsen",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-06-22T14:18:39.541615Z",
+     "has_reply": true,
+     "reply_text": "Thank you for Scott for leaving us a 5 star review!  We appreciate the business!",
+     "reply_update_time": "2026-07-14T12:51:22.912122Z"
+    },
+    {
+     "author": "Peggy Vermillion",
+     "rating": 5,
+     "text": "Motor Inn Toyota has always been excellent to work with. They get us in quickly and communicate any concerns they have and are receptive to hearing about any issues we are having. Darn glad we purchased our vehicle from them.",
+     "create_time": "2026-06-15T12:47:31.686066Z",
+     "has_reply": true,
+     "reply_text": "Thank you so much for the kind words, Peggy! We are thrilled to hear that you’ve had such excellent experiences with our service team. We truly value your business and are proud to count you as a loyal customer and friend of the Motor Inn family. We look forward to seeing you again!",
+     "reply_update_time": "2026-07-14T12:53:43.857060Z"
+    },
+    {
+     "author": "Emike",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-06-12T17:39:03.825683Z",
+     "has_reply": true,
+     "reply_text": "Thank you so much for the 5-star review! We truly appreciate your support and are thrilled to have had the opportunity to serve you.",
+     "reply_update_time": "2026-07-14T12:54:30.431299Z"
+    },
+    {
+     "author": "Anne Buck-Kemp",
+     "rating": 5,
+     "text": "Thanks Kyle, we love our new Tundra!!\nThanks Kyle, we love our used RAV4 Hybrid!!",
+     "create_time": "2022-04-12T07:07:45.487385Z",
+     "has_reply": true,
+     "reply_text": "Thank you so much for your kind words! We are thrilled to hear that you love your new Tundra and RAV4 Hybrid. Kyle is a fantastic part of our team, and we truly appreciate you choosing Motor Inn as your preferred dealer. We are honored to have you as part of the Motor Inn family!",
+     "reply_update_time": "2026-07-14T12:56:07.267237Z"
+    },
+    {
+     "author": "Glenn Wiltgen",
+     "rating": 5,
+     "text": "The salesman Kellt Spiker was exceptional. He was very professional and friendly during and after the purchase of my vehicle. I won’t hesitate to recommend him to all my friends and family. Cheers to good service Kelly!",
+     "create_time": "2026-05-24T18:43:53.802491Z",
+     "has_reply": true,
+     "reply_text": "Thank you for your kind words regarding Kelly Spiker!  He is a great addition to our team here at Motor Inn! We also appreciate you for choosing Motor Inn to purchase your Crown Signia from.  You drove a bit to come and see us!  That alone takes a lot of trust so thank you!!!!",
+     "reply_update_time": "2026-07-14T12:48:57.783660Z"
+    },
+    {
+     "author": "Joel Grimm",
+     "rating": 2,
+     "text": "Overall, not a great experience, especially with the financing agent Lisa. Besides the normal pushy sales approach without listening to what we wanted, they also neglected to tell us that they didn't accept electronic payments (even though there was a Point of Sale device right there on her desk). We then had to try to take out enough cash out of different ATM's and make numerous phone calls to our bank. When we said that we'd have to either cancel the purchase of the vehicle or come back another day, they were suddenly able to take electronic payments. When I mentioned that had that it would have saved a long of time and headache if she started with this, she just laughed and ignored us. When I asked why it was suddenly OK, she also just laughed. No apologies, no attempts at even trying to appear sorry. We could have been spared some unnecessary transaction fees if they had told us any of this before we made a several hour trip to them. Very unprofessional and inconsiderate to customers. Only getting 2 stars because the mechanic was quick and friendly.",
+     "create_time": "2026-04-26T20:57:47.954343Z",
+     "has_reply": true,
+     "reply_text": "Joel, \nThank you for leaving a review. We are really sorry your experience in finance wasn't smoother. We strive for 100% customer satisfaction. \nWe know dealing with credit card fees can be annoying, especially when you're excited about a new vehicle!  Our finance team follows those guidelines because credit card fees can get pretty hefty.  We should have explained that better from the start. \nPlease accept our apology for your experience, and know that we will strive to do better!",
+     "reply_update_time": "2026-05-08T21:17:55.728485Z"
+    },
+    {
+     "author": "Felicia Price",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-04-08T19:13:33.697467Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the 5 STAR review!  We truly appreciate you!",
+     "reply_update_time": "2026-04-08T22:06:41.442474Z"
+    },
+    {
+     "author": "hand solo",
+     "rating": 5,
+     "text": "Firstly, do yourself a favor a get a Toyota, even if you have to hold your nose and ask John Wayne for forgiveness. They're just better. With that out of the way, If scientists and philosophers worked together to turn a Toyota into a human, you would get Kelly Spiker. Unassuming and dependable, genuine and honest. Toyota sold me on the car. A guy like Kelly makes me want to buy the rest of my cars from him.",
+     "create_time": "2026-03-31T23:34:47.343094Z",
+     "has_reply": true,
+     "reply_text": "Thank you for your 5 Star!  We truly appreciate you taking the time to hop online and giving Kelly a GLOWING review!!   He is always striving for complete customer satisfaction!!!!",
+     "reply_update_time": "2026-04-08T22:10:26.252761Z"
+    },
+    {
+     "author": "Kerry Noethe",
+     "rating": 5,
+     "text": "I’m always happy with the service I receive at Motor Inn in Carroll. They listen to my questions and answer clearly, keep me up-to-date on possible issues in the future, but are never aggressive.",
+     "create_time": "2026-03-18T20:13:05.243126Z",
+     "has_reply": true,
+     "reply_text": "Thank you Kerry for taking the time out of your busy day to leave a fantastic review!  We find it to be very helpful and we appreciate so very much!",
+     "reply_update_time": "2026-04-08T22:11:33.949353Z"
+    },
+    {
+     "author": "Marilyn Willis",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-03-18T14:50:08.058920Z",
+     "has_reply": true,
+     "reply_text": "Thank you Marilyn for taking the time to leave us 5 STARS!    ",
+     "reply_update_time": "2026-04-08T22:12:05.765707Z"
+    },
+    {
+     "author": "Ronald Harter",
+     "rating": 5,
+     "text": "We had a very good experience with Kyle nice man and very helpful",
+     "create_time": "2025-08-30T21:08:28.131205Z",
+     "has_reply": true,
+     "reply_text": "Ronald, thank you for your review of Kyle! We appreciate your business.",
+     "reply_update_time": "2026-02-20T21:07:48.733462Z"
+    },
+    {
+     "author": "cliff jensen",
+     "rating": 5,
+     "text": "Great experience.  People are very friendly.  I stop and visit with then often.",
+     "create_time": "2026-03-09T14:50:56.693114Z",
+     "has_reply": true,
+     "reply_text": "Thank you Cliff and Ruth for your continued support!  We appreciate you more than you know!  We love you stopping in as well!",
+     "reply_update_time": "2026-03-09T17:23:00.708780Z"
+    },
+    {
+     "author": "Shawn Zanders",
+     "rating": 5,
+     "text": "The Motor Inn Carroll team has helped keep my \"experienced\" Tacoma in great shape. Recently, they investigated a strange noise, skillfully diagnosed it and then addressed the issue with the least possible cost - how refreshing! Not every dealership does that, as we all know. Thanks, Motor Inn!",
+     "create_time": "2026-02-02T17:09:48.633563Z",
+     "has_reply": true,
+     "reply_text": "Shawn that is great to hear!  We take pride in being a top notch service center as well as our sales team!",
+     "reply_update_time": "2026-03-09T17:21:54.886650Z"
+    },
+    {
+     "author": "Deb Lakner",
+     "rating": 5,
+     "text": "What a good experience we had when purchasing our 2026 grand highlander hybrid.  Dave was so helpful and knowledgeable from start to finish. Was one of the easiest car purchase we’ve ever had.  Thanks!!",
+     "create_time": "2026-02-01T19:14:47.733580Z",
+     "has_reply": true,
+     "reply_text": "Thank your very much for the kind words!  We appreciate you very much!",
+     "reply_update_time": "2026-03-09T17:19:00.494436Z"
+    },
+    {
+     "author": "Jeff Storjohann",
+     "rating": 5,
+     "text": "Great sales staff; good to work with. Highly recommend doing (and keeping) business at my local dealership.",
+     "create_time": "2026-01-17T16:52:37.920334Z",
+     "has_reply": true,
+     "reply_text": "Thank You Jeff for your continued loyalty with Motor inn of Carroll!",
+     "reply_update_time": "2026-03-09T17:19:34.171811Z"
+    },
+    {
+     "author": "Keith Hilgenberg",
+     "rating": 5,
+     "text": null,
+     "create_time": "2026-01-13T00:17:30.531669Z",
+     "has_reply": true,
+     "reply_text": "Thank you for your review, Keith!",
+     "reply_update_time": "2026-02-20T21:01:08.828633Z"
+    },
+    {
+     "author": "Janee Boever",
+     "rating": 5,
+     "text": "I couldn't have asked for a better Sales Manager than Dave Bremser. He was personable, patient, attentive to my questions and concerns and never made me feel like I was just another customer being pushed into a sale. His sincerity to help me find just what I was looking for, even though it wasn't the initial car I was going to purchase did not go unnoticed. Even after the sale was made, he encouraged me to contact him with any questions and has already proven he is as good as his word. I would highly recommend him if anyone is looking for a vehicle!",
+     "create_time": "2025-12-21T21:30:30.273136Z",
+     "has_reply": true,
+     "reply_text": "Janee, we're grateful for your kind words about Dave. We are so pleased you received attentive service and that you found a vehicle that works for you. We appreciate your thorough review and recommendation for Dave. Thank you!",
+     "reply_update_time": "2026-02-20T21:03:29.667988Z"
+    },
+    {
+     "author": "Linda Wonder",
+     "rating": 5,
+     "text": "Kyle our salesman. He worked to get us exactly what we wanted!  He's been there many times after with questions also.  We would recommend Kyle to help you also!",
+     "create_time": "2025-12-08T19:40:49.168561Z",
+     "has_reply": true,
+     "reply_text": "Yes! Linda, we're so glad you found what you were looking for. We love seeing photos from customers showing off their vehicles! Thank you so much for your kind words about Kyle and for coming in to see us. We appreciate your review, and hope you enjoy your Toyota!",
+     "reply_update_time": "2026-02-20T21:05:57.185046Z"
+    },
+    {
+     "author": "Tom Kasperbauer",
+     "rating": 5,
+     "text": "We worked with Kyle Gallagher on the purchase of our Traverse. He was great to work with and very helpful in showing us all the “bells and whistles” that the vehicle has.\nWould definitely purchase another vehicle from Motor Inn!",
+     "create_time": "2025-11-21T23:03:28.829078Z",
+     "has_reply": true,
+     "reply_text": "Thank you for trusting in Kyle to help you with another vehicle purchase!",
+     "reply_update_time": "2026-03-09T17:20:36.496555Z"
+    },
+    {
+     "author": "Paul D. Shook",
+     "rating": 5,
+     "text": null,
+     "create_time": "2025-11-16T01:29:41.637977Z",
+     "has_reply": true,
+     "reply_text": "Thanks for your 5-star review, Paul!",
+     "reply_update_time": "2026-02-20T21:06:12.534806Z"
+    },
+    {
+     "author": "Jammy Thornock",
+     "rating": 5,
+     "text": "Amazing group to deal with. Dave and Lisa were very helpful in finding what I wanted",
+     "create_time": "2025-10-24T13:56:58.620042Z",
+     "has_reply": true,
+     "reply_text": "Jammy, we're so pleased that Dave and Lisa helped you find what you were looking for! Thanks for your review and your business!",
+     "reply_update_time": "2026-02-20T21:06:42.826300Z"
+    },
+    {
+     "author": "Mark Bienhoff",
+     "rating": 5,
+     "text": "Dave Bremser and the entire dealership always provide us excellent service.",
+     "create_time": "2025-10-01T02:51:00.941832Z",
+     "has_reply": true,
+     "reply_text": "We appreciate you, Mark. Thanks for your review!",
+     "reply_update_time": "2026-02-20T21:06:55.957870Z"
+    },
+    {
+     "author": "lisa hicks",
+     "rating": 5,
+     "text": "David Bremser made purchasing my vehicle so painless! This is my second vehicle I have bought three him and Motor inn in the last 2 years.",
+     "create_time": "2025-08-07T22:50:11.022758Z",
+     "has_reply": true,
+     "reply_text": "Lisa, thank you for your loyal business! We are so pleased you've partnered with David in your car-buying experiences and that you chose Motor Inn. We appreciate your review!",
+     "reply_update_time": "2026-02-20T21:08:28.471919Z"
+    },
+    {
+     "author": "Nick Lucas",
+     "rating": 1,
+     "text": "Was given a verbal price for my trade in that I was told would be good for 14 days. Go back 3 days later to trade my car and they tell me the price is no longer valid and attempt to low ball me. If you give a customer a price then you should honor it. 0/10 recommend doing business with them.",
+     "create_time": "2025-08-02T14:28:14.584893Z",
+     "has_reply": true,
+     "reply_text": "Our apoligies a miss understanding happened when you switched from trading to selling the car outright.  The used car MGR did not match the vin number with the correct vehicle in question, deeply regret the mistake.  Hope to gain your business in the future.",
+     "reply_update_time": "2025-08-04T16:18:47.879881Z"
+    },
+    {
+     "author": "Stacy Agnitsch",
+     "rating": 5,
+     "text": "Dave was great. Traded another dealership for the exact Rav I wanted. Very happy!",
+     "create_time": "2025-07-26T17:53:18.414812Z",
+     "has_reply": true,
+     "reply_text": "Thankyou for taking time to share your experience at Motot Inn.  We go to great lengths to help find the right vehicle for the right customer.  We apprieciate your business!  Enjoy your new Rav4!",
+     "reply_update_time": "2025-07-28T15:00:19.184922Z"
+    },
+    {
+     "author": "Cory Bates",
+     "rating": 5,
+     "text": null,
+     "create_time": "2025-06-23T21:14:25.454269Z",
+     "has_reply": true,
+     "reply_text": "Thank you, Cory!",
+     "reply_update_time": "2026-02-20T21:08:36.801534Z"
+    },
+    {
+     "author": "Annette Cooperk",
+     "rating": 5,
+     "text": null,
+     "create_time": "2025-05-10T17:10:13.157361Z",
+     "has_reply": true,
+     "reply_text": "Thank you, Annette!",
+     "reply_update_time": "2026-02-20T21:08:45.867245Z"
+    },
+    {
+     "author": "deborah meister",
+     "rating": 5,
+     "text": "I would send anyone to Anthony. Very good to work with. Very Pleasant",
+     "create_time": "2025-05-03T18:20:20.851456Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jessie Beeson",
+     "rating": 5,
+     "text": "Pure luck came across Dave’s post in facebook marketplace. Usually hate having to go through a dealership but Dave made it super easy. Daughter will be attending Kansas State this fall and now I won’t have to worry about her on the road. Thank you again Dave. Will definitely be there again for the rest of my kids future purchases.",
+     "create_time": "2025-05-03T00:46:36.511505Z",
+     "has_reply": true,
+     "reply_text": "Jessie,  thank you for the great review!  apologies for the amount of time that has gone by before getting this reply!  We appreciate you and your business!",
+     "reply_update_time": "2026-09-03T15:48:28.953093Z"
+    },
+    {
+     "author": "James H",
+     "rating": 4,
+     "text": "Bought a Jeep from them they stayed late and took care of me. Would definitely buy another car from them.",
+     "create_time": "2025-04-28T16:24:34.122744Z",
+     "has_reply": true,
+     "reply_text": "Thank you James and sorry for the late response!  Hope the Jeep is still doing well!",
+     "reply_update_time": "2026-09-03T15:49:45.909716Z"
+    },
+    {
+     "author": "Jared O'Connor",
+     "rating": 5,
+     "text": "Found the vehicle online via CarGurus and purchased through the dealership and had it shipped with transport company to Idaho. Great buying experience, kudos to Dave and Lisa for making the experience great, thanks guys!",
+     "create_time": "2025-04-17T11:43:47.370796Z",
+     "has_reply": true,
+     "reply_text": "Awesome! Thanks for sharing your photo with us, Jared. We appreciate your review and your business. Glad the experience was so positive and that Dave and Lisa helped you get what you wanted.",
+     "reply_update_time": "2026-02-20T21:09:55.252026Z"
+    },
+    {
+     "author": "Charles Hansen",
+     "rating": 5,
+     "text": null,
+     "create_time": "2025-02-28T16:42:03.824311Z",
+     "has_reply": true,
+     "reply_text": "Thank you, Charles!",
+     "reply_update_time": "2026-02-20T21:10:02.392795Z"
+    },
+    {
+     "author": "Nancy Danner",
+     "rating": 5,
+     "text": "Kyle is a great guy to buy a vehicle from.  Everything went very smoothly.  Very knowledgeable about his product.",
+     "create_time": "2025-01-11T08:49:01.686467Z",
+     "has_reply": true,
+     "reply_text": "Nancy, thank you for your review! We agree that Kyle is really great. Thanks for coming to see him and trust you are enjoying your vehicle. We appreciate your business.",
+     "reply_update_time": "2026-02-20T21:10:47.805168Z"
+    },
+    {
+     "author": "Nataliya L.",
+     "rating": 5,
+     "text": "Kyle was super nice and helpful - I was not even buying the car from them!!  the customer service was very impressive!",
+     "create_time": "2024-12-02T19:42:07.013918Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ambiant",
+     "rating": 5,
+     "text": "Great communication and fast process from Kyle and the team! I drove from out of state and they made everything easy and seamless.",
+     "create_time": "2024-11-22T15:47:47.828606Z",
+     "has_reply": true,
+     "reply_text": "Thanks for making the long trip to come see us! We appreciate your review and your business. ",
+     "reply_update_time": "2026-02-20T21:11:51.753035Z"
+    },
+    {
+     "author": "Kelly Schmidt",
+     "rating": 5,
+     "text": "We had a great experience with Motor Inn.  Kyle was great to work with, as was the rest of the staff who assisted when he was busy with a previous customer. We’re loving our Toyota Highlander and are grateful for the great deal they gave us on our used vehicle. Thanks for everything, Motor Inn - Carroll!",
+     "create_time": "2024-11-07T19:24:07.591707Z",
+     "has_reply": true,
+     "reply_text": "Kelly, thank you for your kind review and your business! We love Kyle too, and appreciate your feedback and your business.",
+     "reply_update_time": "2026-02-20T21:11:24.527336Z"
+    },
+    {
+     "author": "Eric Nelson",
+     "rating": 5,
+     "text": "I call him KONG!!!  Thank you Dave Bremser for locating this 2024 Sequoia TRD Pro Ice Cap/Cockpit Red Interior!  Been wanting this Bad Boy for a while.  When I started looking I first reached out to ALL Omaha Dealers and ALL gave me the run around and not fitting my needs.   Dave treated me with Respect that went above and beyond my Expectations.  Dave listened to what I wanted to every detail, happy about our trade number on Jeep Wrangler given to us and the Delivery of KONG was detailed in explaining controls/Technology.  I am Super Stoked about KONG!  Going 1.5 hours away from Omaha was worth every Penny!  HIGHLY RECOMMEND Dave and the Team at Motor Inn of Carroll!",
+     "create_time": "2024-10-07T20:04:38.364234Z",
+     "has_reply": true,
+     "reply_text": "Thank you for the kind words, we appreciate your business!  As a small town dealership we take pride in helping every customer out.  Enjoy your new Sequoia (KONG)",
+     "reply_update_time": "2025-07-28T15:09:28.634032Z"
+    },
+    {
+     "author": "Jesse Coltrain",
+     "rating": 5,
+     "text": "Dave Bremser took great care of us when we had some specific requests on color, trim and options. He located the vehicle and had it brought to Motor Inn of Carroll in a very timely manner. We are absolutely in love with our new 2024 Barcelona Red Toyota 4Runner TRD off-road premium! Dave did a great job of keeping us informed on every step of the process and Lisa Pille did a wonderful job walking us through the paperwork and explaining everything as we went. Over all the entire transaction went great and we are looking forward to doing more business with Motor Inn Toyota of Carroll in the future!",
+     "create_time": "2024-05-01T13:11:09.704459Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Immortal Timp",
+     "rating": 1,
+     "text": "Save yourself the headache and go to a dealership with a better warranty. Neither the dealership or their warranty company cover a blown cylinder head which is part of the power train. $6500 in repairs later, another dealership said they don't have issues with warranties like this from other places.",
+     "create_time": "2024-04-23T21:43:03.334731Z",
+     "has_reply": true,
+     "reply_text": "Unfortunately it was the Head Gasket Seal & in our warranty, seals & gaskets are not part of the Powertrain warranty, now if was a bumper to bumper warranty then seal & gaskets are covered! We don't have issues either with our warranty company! Regretably the mechanical failure was not covered on the power train warranty! Motor Inn provides every customer every opportunity to protect their investment.",
+     "reply_update_time": "2024-04-24T21:46:51.543914Z"
+    },
+    {
+     "author": "Mark Schwery",
+     "rating": 5,
+     "text": "I purchased a new Toyota Tacoma TRD Off-Road and\nLOVE it!!! David Bremser and the staff at Motor Inn were exceptional!!",
+     "create_time": "2023-12-17T04:00:32.353843Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Adam Bellinghausen",
+     "rating": 5,
+     "text": "Motor inn was great to work with. I was in search of a new daily driver for a good price and I found exactly what I was looking for at motor inn in Carroll. Sam was a very professional salesman who was a dream to work with. Looking for any new or used vehicle, call in and ask for Sam.",
+     "create_time": "2023-11-27T23:04:09.391216Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "James Fishback",
+     "rating": 5,
+     "text": "Dave  Bremser  Very professional very likai enjoyed working with him definitely 5 stars",
+     "create_time": "2023-11-27T13:52:25.839667Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Eli Kirlin",
+     "rating": 1,
+     "text": "I bought a 2014 Toyota Prius here a couple months back.\n\nWithin 400 miles of purchasing, a check engine light came on. I put my reader in the vehicle and got the code. After informing the salesman of the situation, he said it was a common issue with this year and all I needed to do was replace the gas cap.\n\nAfter replacing the old gas cap with a brand new one, I was still left with the check engine light on and some even more worry some issues - revving up when idling and shaking.\n\nI texted the salesman back once more to let him know his ‘fix’ didn’t 3work. I did not receive a response.\n\nI understand that when buying a used vehicle it is ‘as is’. However, I find it a little odd that WITHIN 400 miles off the lot I am left with roughly a $1,000 fix.\n\nI truly hope they did not use their authority as a dealership to erase the code thinking ‘it wasn’t a big deal’.\n\nI hate leaving negative reviews, but am left with a bad taste in my mouth and no further communication with them.\n\nBesides the above, I had talked with the salesman on over the phone and when asked if there was anything cosmetically wrong he replied ‘no, other than maybe a few scratches and door dings’. I found the door dings and scratches when I arrived and was still happy enough with the price point that I deemed the purchase still worth it.\n\nAfter a 3 hour drive back and a few days worth of driving it and getting in and out, I noticed a portion of the side mirrors plastic casing was broken off, the drivers wheel well cover missing and the passenger’s wheel well cover broke. This bothers me mostly because of the fact that when you’re a certified dealer I’d assume some level of trustworthiness, which I was not given.\n\nOverall, the cosmetic issues wouldn’t have made me give a negative review, but everything piled together created a very poor experience for me.",
+     "create_time": "2023-11-02T12:27:55.247196Z",
+     "has_reply": true,
+     "reply_text": "Motor Inn is a President Award Winning Dealership.  We believe in transparency & fair dealing.  Motor Inn was transperent in bringing to your attention the door dings & scratches prior to arriving.\nWe are aware that mechanical things have failure. They can be in perfect working condition one day & bad the next.  Just as you experienced with the check engine light coming on.  This vehicle was drivin by other employees & customers with no issues from a check engine light.  It is unfortunate that you experienced mechanical issues, but on an \"as is\" vehicle, Motor Inn changes the oil & checks for breaks & tops off all fluids.\nPlease  understand Motor Inn tries to avoid situations like this, and unfortunatly things happen out of our control after the fact.\nThank you",
+     "reply_update_time": "2023-11-02T21:24:24.377011Z"
+    },
+    {
+     "author": "jesus rivas",
+     "rating": 5,
+     "text": "Sam Spender is the man. 5 stars goes above and beyond .",
+     "create_time": "2023-09-27T22:39:19.391543Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Caleb B",
+     "rating": 5,
+     "text": "Sam Spencer is a very friendly and experience expert on finding you the perfect ride that fits your budget! Highly recommend Sam Spencer for any vehicle needs",
+     "create_time": "2023-09-26T14:30:53.137170Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Tyler Schneidmiller",
+     "rating": 5,
+     "text": "Shopped around but Sam Spencer with Carrol Inn was beyond friendly and helped me find the exact make and model I was searching for. Better yet the price he got me was beyond all the other places I had searched. Definitely will use Sam Spencer with Carroll Inn again 🙏🏼 thank you!",
+     "create_time": "2023-09-26T00:46:54.281895Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Kurt Musfeldt",
+     "rating": 5,
+     "text": "Kudos to Kyle, Tony and Doug with Motor Inn!  I was searching for a new Chevy Equinox for my mother and she knew exactly what she wanted...   The team at Motor Inn literally delivered...  Originally spoke to Doug in Estherville where they had the car and Carroll manager Tony made arrangements to get the car to Carroll on the same day!  WOW!  Talk about superior customer service!  And Kyle, he is the best!  So accommodating, friendly and super knowledgeable!  It was a very pleasant hassle-free and convenient experience.  I bought my first new car at the same spot 30 years ago and it was nice to come back to Carroll and drive a beautiful new SUV off the lot.",
+     "create_time": "2023-09-02T12:05:27.276241Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Morgan",
+     "rating": 5,
+     "text": "My husband and I recently bought a new vehicle here. We highly recommend this dealership. All of the staff are very helpful and kind! The car was beautiful and they gave it excellent care. We worked with Kyle and he was a joy to work with! He was so professional, patient, and was happy to answer all of our questions. He went above and beyond in every aspect! We definitely will be coming back again to buy our next vehicle here and hope to get the pleasure of working with Kyle again!",
+     "create_time": "2023-07-25T01:54:38.723225Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Cheryl Owens",
+     "rating": 5,
+     "text": "Bought a new Toyota Tacoma from Motor Inn in Carroll.  What a great experience.  The staff was friendly, helpful and willing to go the extra mile to help us make a deal.  Thank you all!",
+     "create_time": "2023-07-23T03:42:00.938659Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ron Nelson",
+     "rating": 5,
+     "text": "We had a great experience buying a new car from Motor Inn of Carroll. The staff was friendly, efficient, and professional. They gave us a good deal on our trade-in.",
+     "create_time": "2023-07-19T17:39:10.155469Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "TJ Bell",
+     "rating": 5,
+     "text": "First time we purchased a vehicle at Motor Inn in Carroll.  We had a great experience.  Courteous, friendly, and professional staff.",
+     "create_time": "2023-06-23T02:35:01.889457Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Bonnie Appel",
+     "rating": 1,
+     "text": "This dealership took advantage of my elderly parents. They charged my dad over $3,000 for a 3 week rental. Total crooks!",
+     "create_time": "2023-06-13T04:11:04.640123Z",
+     "has_reply": true,
+     "reply_text": "Hi Bonnie, we think you may have mistaken us for another business. We have no rental business of any type. ",
+     "reply_update_time": "2023-06-13T12:55:13.759199Z"
+    },
+    {
+     "author": "Dylan Betts",
+     "rating": 5,
+     "text": "Need a license plate holder riveted to my front bumper and they did it free of charge. Only took 10 min but they didn’t need to give it to me for free. Great local business",
+     "create_time": "2023-05-19T16:54:14.320747Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "S Fans",
+     "rating": 1,
+     "text": "Worst car dealer I've ever dealt with. They're offer to buy my car was insulting, far lower than any other dealer. They also lied to me on several factors.",
+     "create_time": "2023-05-19T00:04:43.214209Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Kari Krajicek",
+     "rating": 5,
+     "text": "I dont get to Carroll or close to there anymore so I no longer get my service here but I so miss these guys.  Top notch from front end in sales to back end in finance and  the after purchase transition with service too.  Trustworthy and helpful but not pushy.   They went above and beyond always.   They are worth the drive if i had the time but i dont.   Miss you Motor Inn Toyota of Carroll.   Every place else sucks so far.  I have yet to find a consistent and trustworthy home for our vehicles.",
+     "create_time": "2023-03-28T21:07:14.107139Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "E BV",
+     "rating": 1,
+     "text": "Worst car dealer I've dealt with. When we were looking to trade in a vehicle this place offered us almost half what other places were offering. The owner lied to us. When doing paperwork to buy a vehicle with the business manager she kept telling us information that contradicted what was in the contract, when we pointed it out to her she told us to believe her, not the paperwork. There were other issues. I won't go here again.",
+     "create_time": "2022-11-25T23:39:50.488672Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Joel Hoegh",
+     "rating": 1,
+     "text": "I would say it was easily the strangest experience in trying to trade vehicles.\nI wanted to get ball park numbers to trade over the phone before I took the time to get an appointment and go to Carroll but that was refused.  They explained that they needed to see the vehicle even though it was one year old with 6000 miles.  I agreed and drove to Carroll and the vehicle was never examined or driven.  The only request was for the registration.  They took copies of it and I requested to talk business.  Reluctantly they offered me 8000 below KBB trade in Value and tried to sell me a used Vehicle for 2000 more than an equivalent new one.  Obviously I was disgusted and chose to leave.  Since then I have literally been laughing about the experience because the staff and management will be all new in a couple weeks anyway and I won’t be back anyway.  It’s kinda sad because I bought a new vehicle from that location in 2014 and it was actually a pretty good experience.  If I could award 0 stars in this circumstance I certainly would but it won’t let me so 1 will have to do. The only thing they really wanted was to get my name on a waiting list for a vehicle and not guarantee me any pricing.  Sounds like fancy Car dealer tricks.  All the risk on me and none on them.",
+     "create_time": "2022-09-01T02:06:35.366346Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "bob kamin",
+     "rating": 5,
+     "text": "We had a great experience with Kyle and Motor inn of Carroll. Very responsive, no hidden add-ones and great service from Kyle. Thanks!",
+     "create_time": "2022-09-01T02:32:14.610964Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Suzi Andersen",
+     "rating": 5,
+     "text": "We drove 2 hrs to look at an SUV..they stayed open well beyond closing to accommodate us..Great service. thx Kyle!",
+     "create_time": "2022-08-19T05:04:42.777925Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Edward Chase",
+     "rating": 4,
+     "text": null,
+     "create_time": "2022-08-04T20:16:01.256647Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Tom Snyder",
+     "rating": 4,
+     "text": "Just had an oil change. But there was a recall. I didn't know about. Took care of that also",
+     "create_time": "2022-08-03T18:19:31.114289Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Russell Scott",
+     "rating": 5,
+     "text": "Great service",
+     "create_time": "2022-08-02T22:30:16.350240Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Chelsie Hutchinson",
+     "rating": 5,
+     "text": "Purchased my last vehicle from them. I won't do business anywhere else!  Great customer service.",
+     "create_time": "2022-07-13T19:15:49.186209Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Tricia",
+     "rating": 5,
+     "text": "I'm so glad that not only did I purchase my vehicle at Motor Inn but I use them for maintenance. Their service department is outstanding. Making appointments are breeze and staff is extremely helpful when I have any issues. The whole staff is very friendly and accommodating",
+     "create_time": "2022-06-28T15:00:09.992774Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Doug Haase",
+     "rating": 4,
+     "text": "Have always had our oil changed here since we bought our car new 10 years ago. Always timely service on their part and done properly.",
+     "create_time": "2020-06-15T19:41:04.012358Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Nicole B",
+     "rating": 5,
+     "text": "I had a great experience buying my new Toyota. The entire staff was helpful and knowledge throughout the entire process. Thank you for making is very enjoyable.",
+     "create_time": "2022-06-06T20:04:38.566497Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Matt Vogler",
+     "rating": 5,
+     "text": "Great dealership, helpful staff, would recommend them to anyone shopping for a vehicle!",
+     "create_time": "2022-06-06T11:17:58.540368Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ali & Dan Breuer",
+     "rating": 5,
+     "text": "We purchased a new Toyota RAV4 Hybrid from Kyle at Motor Inn Toyota of Carroll. We were satisfied with the purchase and the process. The aspects we appreciated were at MSRP pricing , a refundable deposit process, no problems with outside financing, and no required add-ons.\n\nThis was the first time we purchased a vehicle not in dealer stock. There were some uncertainties on the Toyota transport  timing of our vehicle, and Kyle was super patient and professional while I explored other options beyond my reserved vehicle. In the end the timing turned out fine, and my wife loves the RAV4!! My wife and family that came along for the purchase commented on Kyle’s pleasant demeanor and knowledgeable orientation of the vehicle. We recommend Kyle and Motor Inn of Carroll!",
+     "create_time": "2022-05-21T02:43:30.676128Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Janna Klug Schaefer",
+     "rating": 5,
+     "text": "This place ROCKS!  We've been looking for a specific car since December with no luck, but we ran across these people and we drove away in our dream car 1 day after the car arrived on their lot. David was an incredible person to work with!  He kept us informed on the ETA of the car. Heck! He even did the detailing before we picked it up!\nJust look at what we got...",
+     "create_time": "2022-05-12T19:59:11.661720Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Amanda T",
+     "rating": 5,
+     "text": "Great experience when getting my vehicle serviced.",
+     "create_time": "2022-05-12T20:14:44.817813Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "James Garrett",
+     "rating": 5,
+     "text": null,
+     "create_time": "2022-05-10T17:44:46.036274Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ashley K",
+     "rating": 5,
+     "text": null,
+     "create_time": "2022-05-05T21:31:27.752328Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Guy Schaefer",
+     "rating": 5,
+     "text": null,
+     "create_time": "2022-05-01T14:27:56.375754Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Justin Shockey",
+     "rating": 2,
+     "text": "Talked to them about the listOmg 2 times. Confirmed carfax details and mileage. Drove 5 hours and the truck listed had the wrong price/ wrong pic. Truck jumped 10k in price. Dirty car lot move, avoid this place. Thought there’d be honest people this far out.....",
+     "create_time": "2022-03-22T18:09:08.013540Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Sarah Kalas",
+     "rating": 5,
+     "text": "We drove up from Des Moines and purchased from Kyle. He was wonderful to work with on the phone and in person. Lisa, the finance manager, was also a pleasure to work with.",
+     "create_time": "2022-03-07T18:51:28.882947Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Holly Meister-Kohn",
+     "rating": 5,
+     "text": "We loved working with Carrie, she is a wonderful sales associate! She worked with us and found us 2 wonderful vehicles. We are happy with the way she worked with us and took time explaining the features the vehicle had and how they worked Thanks for helping us out!!",
+     "create_time": "2022-02-08T02:30:06.855017Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Steve Nettleton",
+     "rating": 5,
+     "text": "I rated the dealership based on our experience dealing with a professional salesperson “Carrie”. Carrie was instrumental in finding a 4Runner TRD Pro for my wife. During the entire process Carrie’s communication and professionalism exceeded our expectations. We like to keep our business local in Sioux City, however given our experience at Motor Inn, specifically with Carrie, we sealed the deal with zero regrets. Well done Carrie and looking forward to our next purchase.",
+     "create_time": "2022-02-07T18:37:24.704170Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "leon carroll",
+     "rating": 5,
+     "text": "BUY A CAR AND WAS GREAT DEAL",
+     "create_time": "2022-01-26T03:54:07.568465Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "JAOS 5267",
+     "rating": 3,
+     "text": "(Translated by Google) I went in for maintenance, and they're supposed to check the entire vehicle, from the brakes to tire rotation, but they only changed the oil. Hmm... I'd give maintenance one star. The parts department treated me very well when I went back for some parts, and they were very friendly. I'd give them four stars; sales remains to be seen.\n\n(Original)\nFui por mantenimiento y estan supuestos a revisar el vehiculo en su totalidad desde frenos, rotacion de las gomas pero unicamente le cambiaton el aceite al carro. Mmm... le daria a mantenimiento una estre. En partes me trataron muy bien ya que regrese por unas piezas y fueron muy amables.  Les daria 4 estrellas en ventas esta por verse.",
+     "create_time": "2022-01-09T02:32:23.496085Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Matthew John Crouse",
+     "rating": 4,
+     "text": null,
+     "create_time": "2021-11-26T02:31:56.166774Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Gary Babe",
+     "rating": 5,
+     "text": "This is my second purchase at motor inn for a reason. The staff is courteous and experienced. They gave me top dollar for my trade-in.",
+     "create_time": "2021-11-11T18:56:46.771144Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Collib Hodne",
+     "rating": 5,
+     "text": "They took great care of my truck.",
+     "create_time": "2021-10-21T15:54:36.168103Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Bill Albright",
+     "rating": 5,
+     "text": null,
+     "create_time": "2021-10-13T18:41:18.425538Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "AngelEyes",
+     "rating": 1,
+     "text": "IF you are buying a used vehicle have your mechanic look it over, bought a 2008 chevy tahoe and have already put in over $3000 in a little over 3 to 4 months. Not very honest with customers when they say nothing is wrong with it that they know of. Contacting BBB and filing a complaint",
+     "create_time": "2021-10-06T02:43:19.666124Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "chris parkis",
+     "rating": 4,
+     "text": "It was great this time around.",
+     "create_time": "2021-09-24T01:09:40.482149Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Kurt Baumhover",
+     "rating": 5,
+     "text": "Got me right in! Great service !!",
+     "create_time": "2021-09-16T13:05:47.478784Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Lori Thibodeau",
+     "rating": 5,
+     "text": "I bought a Buick enclave in des Moines in June it was not running right long story short Motor Inn got it late July thought they had problem fixed. Unfortunately I didn't make it home. They towed it back and fixed it at no further cost to me.  They are the greatest!!",
+     "create_time": "2021-09-10T03:45:19.923230Z",
+     "has_reply": true,
+     "reply_text": "Thank you Lori, we are happy to help and thank you for your patience.",
+     "reply_update_time": "2021-09-10T12:54:57.890156Z"
+    },
+    {
+     "author": "Tim Gavin",
+     "rating": 5,
+     "text": "Friendly and honest!!",
+     "create_time": "2021-09-09T21:24:55.711767Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Joe Bechler",
+     "rating": 1,
+     "text": "Horrible road side assistance. Called Toyota Care, they scheduled this location to tow my brand new truck. Waited two hours and now can’t get ahold of anyone at this location and Toyota Care is trying to find the next closest location for me. Horrible service overall.",
+     "create_time": "2021-08-14T19:12:17.613826Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "James Miller",
+     "rating": 4,
+     "text": null,
+     "create_time": "2021-08-07T15:21:09.104253Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Justin Weller",
+     "rating": 5,
+     "text": null,
+     "create_time": "2021-07-26T17:10:39.566957Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Alison Dorhout",
+     "rating": 5,
+     "text": "Dave Bremser is the best!   The rest of the staff was also very friendly!!",
+     "create_time": "2021-06-16T18:58:53.361911Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "anthony gordon",
+     "rating": 4,
+     "text": "Great place to buy a vehicle for the right price. Every place else that I went to were a joke",
+     "create_time": "2021-06-13T21:53:38.664874Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "kenneth Hardman",
+     "rating": 5,
+     "text": null,
+     "create_time": "2021-05-31T00:33:52.988339Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ashlee Daniels",
+     "rating": 1,
+     "text": "HORRIBLE SERVICE DEPARTMENT. over 2000 dollars later and the issue they \"fixed\" is broken again less than a week later. I'm livid. I do not have $2000 to just throw around. They won't even fix their mistake. Never going again. I am having to take my car elsewhere to pay for the same repair again.",
+     "create_time": "2021-05-19T14:09:39.898634Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Duane & Barb Thielen",
+     "rating": 5,
+     "text": "Had oil and filter change and inspection .Everything went well as usual.Great service!",
+     "create_time": "2021-04-22T01:51:14.685978Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Rebecca Isidoro",
+     "rating": 5,
+     "text": "I seen a Pacifica on the website and credit stinks but Carrie and team were able to finance interest high but they were wonderful! Timely and went out of their way to ensure that the deal went through..! We love it",
+     "create_time": "2021-04-19T17:44:28.894614Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Colby Ellis",
+     "rating": 5,
+     "text": "Worked on my truck and had it to me in no time. Great place to sit and watch tv and they have plenty of things to make you feel at home!",
+     "create_time": "2021-04-07T15:11:19.039269Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Britt D",
+     "rating": 3,
+     "text": "No covid protocols were followed. Not a single worker wore a mask, there were no signs to help with social distancing, I was very uncomfortable with the lack of covid procedures. My work was completed and was fairly timely so that was good",
+     "create_time": "2021-02-20T16:32:34.509952Z",
+     "has_reply": true,
+     "reply_text": "Hello Britt. Thank you for sharing your thoughts about our dealership. We are sorry that you did not feel 100% comfortable. We strive to make everyone feel safe and comfortable with our service. Earning your trust is extremely important to us. With our Governor removing masks mandates, we have settled on a mirror policy. When interacting with a customer, we will wear a mask if they are doing so. I hope this makes you feel more comfortable with visiting our dealership.",
+     "reply_update_time": "2021-02-21T02:23:15.425576Z"
+    },
+    {
+     "author": "Tammy Leiting",
+     "rating": 5,
+     "text": "They are polite and friendly to work with.",
+     "create_time": "2021-02-12T18:36:16.927265Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Betty Jensen",
+     "rating": 4,
+     "text": "We feel that the price was too high.  All we had done was the oil changed...nothing else.  We checked with another dealership, and it would have been at least $25 less.",
+     "create_time": "2021-02-03T15:38:16.447606Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Wade Adams",
+     "rating": 5,
+     "text": "Treated with respect and not pushed.  Great staff would recommend",
+     "create_time": "2021-02-02T18:07:22.036772Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Randy Theulen",
+     "rating": 5,
+     "text": "At the dealership I was greeted by Amy at the desk, went to customer lounge, the service work was done in a timely matter. I appreciate going to Motor Inn for service, work is always done right, Kevin and Amy are always very friendly.",
+     "create_time": "2021-01-28T16:01:43.844771Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Justin Hoffman",
+     "rating": 5,
+     "text": "Good Service Dept",
+     "create_time": "2021-01-08T21:41:15.650786Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Deanna Sharkey",
+     "rating": 3,
+     "text": "People where very nice and noligable",
+     "create_time": "2020-12-31T20:03:41.874986Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Mike Goecke",
+     "rating": 5,
+     "text": "I run my own company. The starter went out on my truck, I had to have it towed from a half hour away. Kevin wasn’t sure they would be able to get it in and fixed that week, but they had it done a day and a half later. I greatly appreciate it. It only put me 2 days behind instead of a full week. Thank you very much to Kevin and the guys at Motor Inn",
+     "create_time": "2020-12-19T17:53:47.420217Z",
+     "has_reply": true,
+     "reply_text": "Thank you for recognizing the effort Kevin and the staff put forth to get you out on the job as quickly as possible. We appreciate you and thank you for expressing your gratitude Mike!",
+     "reply_update_time": "2021-01-25T01:25:48.670835Z"
+    },
+    {
+     "author": "John Werden",
+     "rating": 5,
+     "text": "did the job right the first time as scheduled",
+     "create_time": "2020-12-07T18:02:27.048587Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Carl Janssen",
+     "rating": 4,
+     "text": null,
+     "create_time": "2020-12-06T06:43:49.793411Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Paul “Kerz” Kersey",
+     "rating": 4,
+     "text": "Went in for a service and tire rotation. Noticed that my brakes are getting close for replacement. They just don’t drop the oil they will look over it to make sure that it’s safe for the road.",
+     "create_time": "2020-11-10T14:13:28.046277Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Carla Campbell",
+     "rating": 4,
+     "text": null,
+     "create_time": "2020-10-29T10:14:02.240493Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jacki Streck",
+     "rating": 5,
+     "text": "You got my car done in a timely manner and couldn't be any more thankful!!!! Awesome job!!!!!",
+     "create_time": "2020-10-06T15:24:55.846125Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Darren Clayton",
+     "rating": 5,
+     "text": "Amy and Kevin are great",
+     "create_time": "2020-08-24T21:49:27.090204Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Mark Uhlenkamp",
+     "rating": 5,
+     "text": null,
+     "create_time": "2020-08-14T01:12:39.983747Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jerry DeVore",
+     "rating": 5,
+     "text": "They were great..",
+     "create_time": "2020-06-14T02:46:39.330581Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Andrew Eissens",
+     "rating": 5,
+     "text": null,
+     "create_time": "2020-04-22T13:18:55.846690Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Cindy Heim",
+     "rating": 5,
+     "text": "Amazing job Mike Dave's! Thank you for your kindness & all your great help! I'm glad we decided to stop & take a look. Getting to work with you made buying a car a breeze!!!",
+     "create_time": "2020-04-22T03:14:24.655081Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Amber Liechti",
+     "rating": 5,
+     "text": "I had a quick honest sale on a used vehicle!",
+     "create_time": "2020-03-03T19:31:23.510477Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Nathan Wentzel",
+     "rating": 5,
+     "text": "Worked with Michael Heard on buying a 2016 Honda Civic.  He was awesome to work with.  I was coming from 3 hours away and not only did he take the time to meet me halfway to show me the car, he also met me half way to deliver the car after the purchase.  They worked with me on the price and the car itself was as advertised!  I would highly recommend working with Micheal!  Thanks again!",
+     "create_time": "2020-02-06T18:17:41.138450Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Fr. Patrick Behm",
+     "rating": 5,
+     "text": "The employees treated me very fairly and honestly. I was very pleased!",
+     "create_time": "2020-01-31T21:14:27.507111Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jessie Johnson",
+     "rating": 3,
+     "text": "Didn’t have the best experience with the sales department, but the service department was great.",
+     "create_time": "2019-11-30T18:55:14.241316Z",
+     "has_reply": true,
+     "reply_text": "Thank you for your review Jessie.  Motor Inn is a local business that supports local schools, businesses as well as charities.  We believe in transparency and we regret the misunderstanding.  Most importantly it was corrected.",
+     "reply_update_time": "2019-11-30T21:24:58.137278Z"
+    },
+    {
+     "author": "Sammy Haars",
+     "rating": 5,
+     "text": null,
+     "create_time": "2019-11-27T02:54:57.764323Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jonni Rose Luke",
+     "rating": 5,
+     "text": "Brandon in Parts made an error in ordering due to poor photos in the catelog and immediately reordered carefully so that I could get it installed closer to home.",
+     "create_time": "2019-11-14T16:06:26.458096Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Janet Hoffman",
+     "rating": 5,
+     "text": null,
+     "create_time": "2019-08-23T01:37:02.062376Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Darlene Wiese",
+     "rating": 5,
+     "text": null,
+     "create_time": "2019-08-14T21:23:26.782467Z",
+     "has_reply": true,
+     "reply_text": "Thank you Darlene! We really appreciate the review.",
+     "reply_update_time": "2018-10-24T14:28:31.474807Z"
+    },
+    {
+     "author": "John Popp",
+     "rating": 1,
+     "text": "ABSOLUTELY HORRIBLE SERVICE DEPARTMENT!  I brought my vehicle in to the service department in which we bought the vehicle used at motor inn they charged us $128 for diagnostics test being a $27.99 part (purge valve solenoid) that I bought from carquest and put in myself in 10min they wanted to charge us $240 for the part not including labor!  My friends , family and I will no longer be giving you our business. Not to mention another vehicle we were over charged on for a simple fuel filter job. Shame on you!",
+     "create_time": "2019-08-09T21:06:41.371251Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "john doe",
+     "rating": 2,
+     "text": "This is towards bodyshop....made mistake on my first vehicle, gave them second chance and made another mistake on my second vehicle....quality of work and care of   your vehicle is just subpar...will not be returning",
+     "create_time": "2019-07-15T20:50:19.134039Z",
+     "has_reply": true,
+     "reply_text": "I would like to apologize for your recent, less than satisfactory experience with our collision center. Known for great customer service, this comes as a surprise and would would like to make things right. Please contact me, Tony Franklin, General Manager at 712-792-5000. Thank you.",
+     "reply_update_time": "2019-07-16T20:03:03.753305Z"
+    },
+    {
+     "author": "neil lundgren",
+     "rating": 3,
+     "text": null,
+     "create_time": "2019-07-13T09:00:58.813694Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Tom Herbers",
+     "rating": 5,
+     "text": null,
+     "create_time": "2019-06-29T18:52:53.164212Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Russell Quandt",
+     "rating": 4,
+     "text": null,
+     "create_time": "2019-06-26T20:26:00.216042Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Budget Slider",
+     "rating": 4,
+     "text": null,
+     "create_time": "2019-06-23T13:26:22.032369Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ace Bro",
+     "rating": 5,
+     "text": null,
+     "create_time": "2019-03-25T18:44:55.591916Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Brandon Gable",
+     "rating": 5,
+     "text": "They were great to deal with. They are super nice and very inviting. Tony was great to work with and I would go back again!",
+     "create_time": "2019-03-10T03:56:03.282326Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jeanette Bream",
+     "rating": 5,
+     "text": "Always a pleasant experience!! Kevin and Amy are great at what they do!!!",
+     "create_time": "2019-02-12T22:12:42.866882Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ron",
+     "rating": 5,
+     "text": null,
+     "create_time": "2019-02-03T21:19:15.903175Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Carrie Clausen",
+     "rating": 5,
+     "text": "Fantastic service during a sale. Nothing but respect!",
+     "create_time": "2019-01-19T21:33:46.276047Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Kevin Moore",
+     "rating": 5,
+     "text": "Service above and beyond what you would expect from a car dealership!  Thank you Mark Thomsen for all you did to help me find another car. --Kevin M.",
+     "create_time": "2018-11-20T02:34:54.326612Z",
+     "has_reply": true,
+     "reply_text": "Kevin thank you for the review.  We truly appreciate your business and were happy to help you replace your car after the accident.  Thanks again!",
+     "reply_update_time": "2018-11-20T14:12:40.760303Z"
+    },
+    {
+     "author": "david blair",
+     "rating": 1,
+     "text": null,
+     "create_time": "2018-08-13T11:20:51.058Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Brenda Bengard",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-07-29T12:11:39.832Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Mark Thomsen",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-07-10T15:45:43.297Z",
+     "has_reply": true,
+     "reply_text": "Thank you Mark.  We appreciate the 5 stars!",
+     "reply_update_time": "2018-07-10T15:59:03.097801Z"
+    },
+    {
+     "author": "Pat Kult",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-07-09T19:36:51.871Z",
+     "has_reply": true,
+     "reply_text": "Pat - I just wanted to say thank you for the 5 star review!  We appreciate this very much - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-07-09T20:12:24.401740Z"
+    },
+    {
+     "author": "Chrissy “Mama” Booher",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-06-28T20:47:37.423Z",
+     "has_reply": true,
+     "reply_text": "Chrissy - Thank you very much for the 5 star rating!  That's awesome!  If you need anything in the future feel free to call me directly - Todd Long, General Manager 712-790-1935",
+     "reply_update_time": "2018-06-28T21:29:51.775606Z"
+    },
+    {
+     "author": "Ann Walker",
+     "rating": 5,
+     "text": "Great service great people",
+     "create_time": "2018-05-27T23:31:24.310Z",
+     "has_reply": true,
+     "reply_text": "Ann - Thank you very much for taking the time to post this review!  We are always willing to do our best for you. - Todd Long,  General Manager,  712-790-1935",
+     "reply_update_time": "2018-05-27T23:43:31.372254Z"
+    },
+    {
+     "author": "Zack Smith",
+     "rating": 5,
+     "text": "I called from 4hrs away and was given honest details about the used car I wanted to purchase.  Jamie was very helpful, and even responded to my questions from her personal number while off the clock.  Overall, it was a phenomenal experience and I would highly recommend stopping by to see them.  Needless to say, I purchased the vehicle I was interested in and they met me 2hrs away with it.  I couldn't be more pleased with the honesty and service I received!!",
+     "create_time": "2018-05-23T19:43:27.806Z",
+     "has_reply": true,
+     "reply_text": "Zack - that's awesome news! Thank you so much for your business and for the review. Remember,  any referrals pays you $100 a piece.   Hope to see you again soon. - Todd Long,  General Manager,  712-790-1935",
+     "reply_update_time": "2018-05-23T20:55:45.977036Z"
+    },
+    {
+     "author": "Adam Darr",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-05-09T17:14:41.582Z",
+     "has_reply": true,
+     "reply_text": "Adam - Thank you very much for the review!  I hope you're enjoying the Terrain as well! - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-05-09T18:37:04.491344Z"
+    },
+    {
+     "author": "Nick",
+     "rating": 5,
+     "text": "Great dealer, solid people.",
+     "create_time": "2018-05-08T18:57:02.611Z",
+     "has_reply": true,
+     "reply_text": "Nick - I just wanted to thank you for taking the time to post this review for us!  I appreciate your very kind words - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-05-08T19:14:19.334190Z"
+    },
+    {
+     "author": "Patty Aldana",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-05-04T00:48:42.720Z",
+     "has_reply": true,
+     "reply_text": "Patty - Thank you very much for your review.   If you ever need anything please call me at 712-790-1935, Todd Long",
+     "reply_update_time": "2018-05-04T01:56:23.104090Z"
+    },
+    {
+     "author": "Todd Long",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-05-01T18:48:44.622Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jacquelin Dunbar",
+     "rating": 5,
+     "text": "People need to worry more about themselves than other people’s personal lives. As It is only one's work ethic and ability to do their job well that has anything to do with motor inn and its clients. Having said that, Hally seems to have been a fantastic asset to this company in the short time she’s been there. I will not only return but definitely recommend others check out this business due to her great service. Keep it up Hally!",
+     "create_time": "2018-04-11T01:30:57.719Z",
+     "has_reply": true,
+     "reply_text": "We're very happy to have Hally on our Team and in our Family.  Thank you for taking the time to post this review - Todd Long, General Manager 712-790-1935",
+     "reply_update_time": "2018-04-13T13:40:29.698230Z"
+    },
+    {
+     "author": "Christine Bergren",
+     "rating": 5,
+     "text": "Wonderful customer service person.",
+     "create_time": "2018-04-11T00:46:28.808Z",
+     "has_reply": true,
+     "reply_text": "Christine - Thank you for the kind words.  We do our best to take great care of our clients - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-04-13T13:41:20.860690Z"
+    },
+    {
+     "author": "Alexander",
+     "rating": 5,
+     "text": "This dealership deserves more than 5 stars. The service was great. I was a out of town buyer. I spoke with Todd, General Manager, and he handled most of my deal. He was honest, professional, and easy to work with. I am a very picky buyer when it comes to cars and Todd was happy to look over the car and let me know exactly the condition of it. This is a big deal especially when coming from 6 hours away to get the car. My deal was handed off to Dustin for the final paperwork to get the deal done. Awesome guy. Fast, efficient, and handled my needs. Before I headed to get the car, Hally, a member of dealership, reached out to make sure I didn't have any last minute questions. She was happy to get some addition (specific) pictures I had requested. On my way to get the car I felt more than confident with the deal. Hally also checked in to make sure I was safely on my way. Once I put my eyes on the car it was exactly as they stated if not better. I wouldn't hesitate to buy from this dealer again. Whether coming in from close or far, this dealer and team can be trusted to the highest regard.",
+     "create_time": "2018-04-10T23:21:40.259Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Holly Crabb",
+     "rating": 5,
+     "text": "Hally was very informative and answered any questions I had.  She made feel welcome and was smiling and very friendly.  I recommend booking an appointment with her.",
+     "create_time": "2018-04-10T23:42:27.739Z",
+     "has_reply": true,
+     "reply_text": "Holly - Great to hear that Hally was able to help you.  She's fun and energetic and we're glad she's here. - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-04-13T13:42:23.932990Z"
+    },
+    {
+     "author": "Sara Weltzheimer",
+     "rating": 5,
+     "text": "Hally is very helpful and knowledgeable with any questions I had! Great asset to the Motor Inn team!",
+     "create_time": "2018-04-10T23:19:12.783Z",
+     "has_reply": true,
+     "reply_text": "Sara - Hally is a great asset to our Team, you're exactly right!  Thanks for the review - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-04-13T13:43:06.966564Z"
+    },
+    {
+     "author": "Tina Weishaar",
+     "rating": 4,
+     "text": "Has been awhile since we have had a new vehicle.  Hally was very helpful, we will be back soon :)",
+     "create_time": "2018-04-10T23:00:50.594Z",
+     "has_reply": true,
+     "reply_text": "Tina - Thank you for taking your time to post this review for us!  We're glad that you had a great experience - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-04-13T13:44:03.171321Z"
+    },
+    {
+     "author": "Aaron McDonald",
+     "rating": 5,
+     "text": "Was just shopping around,  Hally was a great help,  very personable.. will definitely be back",
+     "create_time": "2018-04-10T22:58:23.800Z",
+     "has_reply": true,
+     "reply_text": "Aaron - Thank you for the review.  Hally has been awesome to have in the Family.  We hope to see you again very soon! - Todd Long, General Manager, 480-217-5176",
+     "reply_update_time": "2018-04-13T13:45:00.851012Z"
+    },
+    {
+     "author": "Rachele Crimmins",
+     "rating": 5,
+     "text": "When we came in to look around Hally was very helpful. She was very friendly and very accommodating. We will be back to purchase a vehicle.",
+     "create_time": "2018-04-10T22:50:19.634Z",
+     "has_reply": true,
+     "reply_text": "Rachele - I just wanted to thank you for the great review!  I'm happy to hear that Hally took great care of you - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-04-13T13:46:16.073294Z"
+    },
+    {
+     "author": "Susie",
+     "rating": 5,
+     "text": "Great people. Would do business there a again",
+     "create_time": "2018-04-10T22:01:18.732Z",
+     "has_reply": true,
+     "reply_text": "Susie - Thanks for taking the time to post this review for us!  We really appreciate the very kind words - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-04-13T13:47:11.753474Z"
+    },
+    {
+     "author": "Jesse Osorio Outdoors",
+     "rating": 5,
+     "text": "Very pleasant experience. I didn't feel like I was being pressured to look at anything I wasn't interested in. Hally was a big help, very surprised that she hasn't been there very long, she seemed really knowledgeable and personable. I look forward to returning.",
+     "create_time": "2018-04-10T21:58:47.297Z",
+     "has_reply": true,
+     "reply_text": "Thanks for the great review!  Hally has been a great addition to our Family and we're happy to have her - Todd Long, General Manager, 712-790-1935",
+     "reply_update_time": "2018-04-13T13:48:13.314537Z"
+    },
+    {
+     "author": "Todd Long",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-04-06T20:20:07.180Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Madison Carey",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-04-06T00:27:03.717Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Kailyn McCoskey",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-04-05T19:29:18.606Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ashley Vaala",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-04-02T23:23:31.851Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "John Clayburg",
+     "rating": 5,
+     "text": null,
+     "create_time": "2018-02-07T13:21:52.774Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "jim hubers",
+     "rating": 4,
+     "text": null,
+     "create_time": "2018-01-25T13:12:30.923Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Carol Zwicky",
+     "rating": 5,
+     "text": "Excellent service.",
+     "create_time": "2017-12-09T14:24:21.473Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Lance Coon",
+     "rating": 5,
+     "text": null,
+     "create_time": "2017-12-07T04:08:07.186Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Megan Ackerman",
+     "rating": 4,
+     "text": null,
+     "create_time": "2017-11-05T22:02:27.568Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jerry Holloway",
+     "rating": 1,
+     "text": null,
+     "create_time": "2017-04-04T21:55:14.914Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Kimberly Kelly",
+     "rating": 5,
+     "text": null,
+     "create_time": "2017-09-08T11:01:03.014Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Marie Irlmeier",
+     "rating": 3,
+     "text": null,
+     "create_time": "2017-08-28T16:31:44.892Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Ramie Peplinski",
+     "rating": 4,
+     "text": null,
+     "create_time": "2017-08-01T15:59:08.778Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Scott Boekenoogen",
+     "rating": 2,
+     "text": "Good sales staff, would like to have done business with them. Unfortunately they have an unprofessional and unreasonable service department. Test drive of possible trade vehicle was done completely unreasonably and unsafe.",
+     "create_time": "2017-07-18T18:11:48.419Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Rev Bill Caughey",
+     "rating": 5,
+     "text": "Great place, honest",
+     "create_time": "2017-06-27T01:35:33.024Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Jake Schade",
+     "rating": 5,
+     "text": null,
+     "create_time": "2017-06-17T03:01:52.262Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Deb Smouse",
+     "rating": 1,
+     "text": null,
+     "create_time": "2016-12-13T22:37:30.503Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Shaun Anderson",
+     "rating": 5,
+     "text": "Pretty much done with the shenanigans of Des Moines auto dealers. The wife and I thought we'd try a Toyota Venza this time, and we found one at Motor Inn of Carroll. I spoke with Lauren on the phone and he was SO VERY accommodating. Even though the car we went up and test drove was VERY nice, we're not so sure we want a Venza now - but when we do figure out what to get, we'll probably wait (as long as we can)(no big hurry for us really) until they get one on the lot at Motor Inn :)",
+     "create_time": "2015-01-30T15:12:52.317Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    },
+    {
+     "author": "Kevin Griffin",
+     "rating": 5,
+     "text": "I had been looking for a quality used Tahoe and found one on the internet at Motor Inn in Carroll, Iowa.  I called and spoke with Mark, the dealership manager about the vehicle.  He was very accommodating, so I decided to drive 200 miles to see the vehicle.  Upon arrival Mark put me in touch with Lorren, one of the salesmen at Motor Inn.  He already had the vehicle prepared for me to test drive and left my dad and I to ourselves to inspect and test drive the vehicle.  The quality of the vehicle was superior, they gave me a good price for my trade, and we were able to negotiate a good price without any confrontation.  All of the staff were very polite and helpful, including Dustin, the credit manager.  I highly recommend this dealership.",
+     "create_time": "2014-06-03T13:30:56.882Z",
+     "has_reply": false,
+     "reply_text": null,
+     "reply_update_time": null
+    }
+   ]
+  }
+ ]
+}

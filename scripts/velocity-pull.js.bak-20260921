@@ -1,0 +1,56 @@
+#!/usr/bin/env node
+'use strict';
+/* Read-only GBP review fetch using the fallback_credentials (authorized_user OAuth)
+   plus the primary owner_oauth candidate. Dumps normalized reviews JSON. */
+const path = require('path');
+const os = require('os');
+const fs = require('fs');
+const clientPath = path.join(os.homedir(), 'clawd/scripts/no-model/google-reviews/gbp-client.js');
+const { loadConfig, loadCredentialCandidates, mintAccessToken, starRating } = require(clientPath);
+
+const V4_BASE = 'https://mybusiness.googleapis.com/v4';
+
+async function main() {
+  const config = loadConfig({});
+  let token = null;
+  for (const candidate of loadCredentialCandidates(config, {})) {
+    try { token = await mintAccessToken(candidate.credentials, {}); console.error(`auth: ${candidate.name}`); break; }
+    catch (e) { console.error(`cred ${candidate.name}: ${e.message}`); }
+  }
+  if (!token) { console.error('ERROR no credential worked'); process.exit(1); }
+  const out = { locations: [] };
+  for (const locationId of config.location_ids) {
+    const reviews = [];
+    let pageToken = '';
+    let total = null;
+    let avg = null;
+    do {
+      const q = new URLSearchParams({ pageSize: '50', orderBy: 'updateTime desc' });
+      if (pageToken) q.set('pageToken', pageToken);
+      const url = `${V4_BASE}/${config.account_id}/${locationId}/reviews?${q}`;
+      const res = await fetch(url, { headers: { Authorization: `Bearer ${token}` } });
+      if (!res.ok) { console.error(`WARN ${locationId}: HTTP ${res.status}`); break; }
+      const page = await res.json();
+      if (page.totalReviewCount === undefined && !(Array.isArray(page.reviews) && page.reviews.length)) {
+        console.error(`WARN ${locationId}: empty reviews body - account/location mismatch or wrong credential. Check accounts.list for the minted token.`);
+      }
+      total = page.totalReviewCount ?? total;
+      avg = page.averageRating ?? avg;
+      reviews.push(...(Array.isArray(page.reviews) ? page.reviews : []));
+      pageToken = page.nextPageToken || '';
+    } while (pageToken);
+    const norm = reviews.map((r) => ({
+      author: r.reviewer?.displayName || null,
+      rating: starRating(r.starRating),
+      text: r.comment || null,
+      create_time: r.createTime || null,
+      has_reply: Boolean(r.reviewReply?.comment),
+      reply_text: r.reviewReply?.comment || null,
+      reply_update_time: r.reviewReply?.updateTime || null,
+    }));
+    out.locations.push({ location: locationId, totalReviewCount: total, averageRating: avg, fetched: norm.length, reviews: norm });
+  }
+  process.stdout.write(JSON.stringify(out, null, 1));
+}
+
+main().catch((e) => { console.error('ERROR', e.message); process.exit(1); });
