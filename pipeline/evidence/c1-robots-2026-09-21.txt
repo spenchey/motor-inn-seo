@@ -1,0 +1,49 @@
+
+
+User-Agent: *
+Crawl-delay: 10
+Disallow: /rss-newinventory.aspx
+Disallow: /rss-usedinventory.aspx
+Disallow: /vehicle-ajax.aspx
+Disallow: /home-ajax.aspx
+Disallow: /dealeron-js.aspx
+Disallow: /print-email-vehicledetails.aspx
+Disallow: /print-email-vehicledetailsvin.aspx
+Disallow: /rebates.aspx
+Disallow: /iframespecials.aspx
+Allow: /*.js?*
+Allow: /*.css?*
+Allow: /quote.aspx?*
+Allow: /testdrive.aspx?*
+Allow: /findmycar.aspx?*
+Disallow: /thankyou.aspx
+Disallow: /ScriptResource.axd
+Disallow: /WebResource.axd
+Disallow: /*.axd$
+Disallow: /fdcampaign-do.aspx
+Disallow: /iframevideodisplay.aspx
+Allow: /*.jpg?*
+Allow: /*.png?*
+Allow: /*.gif?*
+Allow: /*.svg?*
+Allow: /*.ico?*
+Allow: /*.pdf?*
+
+User-Agent: ChatGPT-User
+Allow: *
+
+User-Agent: Claude-SearchBot
+Allow: *
+
+User-Agent: ClaudeBot
+Allow: *
+
+User-Agent: GPTBot
+Allow: *
+
+User-Agent: OAI-SearchBot
+Allow: *
+
+User-Agent: PerplexityBot
+Allow: *
+Sitemap: https://www.motorinnautogroup.com/sitemap.xml
