@@ -52,3 +52,15 @@ Used computer control in Chrome, signed in as `spencer.heywood@motorinnmail.com`
 DealerOn case **01919856**, contact Melanie Stila, recipient `help@dealeron.com`, Gmail thread `1a0b525811343bf6`. The local `/opt/homebrew/bin/gog` exists, but the read-only thread lookup returned `No auth for gmail spencer.heywood@motorinnmail.com.` Saved the authorized fallback [email draft](chevy-gsc-verification-email-draft.md), containing the exact tag and the request to install it in the site `<head>` alongside the existing verification tags, preserve those tags, and confirm when live. **No email was sent.**
 
 **Ownership remains unverified.** DealerOn must install the tag and confirm; then return to the HTML tag verification method in GSC and click Verify. The tag capture and draft are complete; installation and successful ownership verification are not claimed.
+
+## Retry — September 21, 2026
+
+At approximately 9:49 a.m. America/Chicago, opened URL Inspection for property `https://www.motorinntoyotaofcarroll.com/` in Chrome, signed in as `spencer.heywood@motorinnmail.com`. Spencer pre-approved these three indexing requests. Dismissed the retained September 20 quota dialog and refreshed the inspection before making a new Request Indexing attempt for the military-rebate URL.
+
+| URL path | Retry outcome |
+|---|---|
+| `/toyota-military-rebate-kansas-city` | Clicked Request Indexing; Google ran “Testing if live URL can be indexed,” then returned **Quota Exceeded**. No request acceptance was confirmed. |
+| `/testdrive.aspx` | Not submitted: stopped when the military-rebate retry exceeded quota. |
+| `/findmycar.aspx` | Not submitted: stopped when the military-rebate retry exceeded quota. |
+
+Google's fresh response stated: “Sorry--we couldn't process this request because you've exceeded your daily quota. Please try submitting this again tomorrow.” Stopped further indexing attempts as instructed. **Zero requests accepted in this retry; all three URLs remain pending.** The existing total remains 11 of 14 accepted requests; acceptance does not confirm indexing.
