@@ -2,3 +2,5 @@
 !.gitignore
 !BUILD-REPORT.md
 !README.md
+!dealeron-emails/
+!dealeron-emails/**
