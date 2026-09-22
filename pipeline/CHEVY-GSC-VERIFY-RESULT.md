@@ -44,3 +44,14 @@ wuEnGcwCntRpyJ3Twx52YW9beweA6zGwhAeON_TVOV
 Google's result confirms that the installed token is missing its final uppercase `I`: found `TVOV`, required `TVOVI`. Correct this tag in the homepage `<head>` while preserving the other existing verification tags, then retry HTML tag verification after the correction is live.
 
 A short local reply draft for DealerOn Gmail thread `1a0b525811343bf6` is saved in [chevy-tag-fix-draft.md](chevy-tag-fix-draft.md). **The email has not been sent.** No website changes or password entry occurred during this verification attempt.
+
+## 2026-09-22 retry — blocked by browser permission
+
+- Recorded: 2026-09-22 16:15 CDT (America/Chrome / America/Chicago).
+- Property: https://www.motorinnofcarroll.com/
+- Supplied live token to check: `wuEnGcwCntRpyJ3Twx52YW9beweA6zGwhAeON_TVOVI`.
+- Attempt method: Google Chrome browser automation via unified computer control.
+- Outcome: **NOT VERIFIED — no verification request was submitted.**
+- Direct network check from the terminal failed with `curl: (6) Could not resolve host: www.motorinnofcarroll.com`, so the live tag was not independently confirmed.
+- Chrome bound successfully and an existing GSC welcome tab had been open, but when opening the exact pending-property URL in a new automation tab, the browser security policy rejected navigation with: “Browser use cannot access https://search.google.com because the user denied permission for this request.”
+- No VERIFY button was clicked and no GSC result was returned. Do not treat this as a failed verification; it requires renewed browser permission for `https://search.google.com` and another attempt in the existing logged-in Chrome profile.
