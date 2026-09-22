@@ -1,0 +1,5 @@
+# C6 evidence — Chevy GSC live meta tag, 2026-09-21 22:20 CT
+Command: curl -s --compressed https://www.motorinnofcarroll.com/ | grep -o 'wuEnGcw[^" ]*'
+Output: wuEnGcwCntRpyJ3Twx52YW9beweA6zGwhAeON_TVOVI
+=> tag ends _TVOVI (correct, non-truncated). DealerOn case 01919856 tag fix confirmed live.
+Remaining for C6: GSC 'Verify' click (codex CC / human step) — verification status in GSC UI still unconfirmed.
