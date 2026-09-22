@@ -55,3 +55,8 @@ A short local reply draft for DealerOn Gmail thread `1a0b525811343bf6` is saved 
 - Direct network check from the terminal failed with `curl: (6) Could not resolve host: www.motorinnofcarroll.com`, so the live tag was not independently confirmed.
 - Chrome bound successfully and an existing GSC welcome tab had been open, but when opening the exact pending-property URL in a new automation tab, the browser security policy rejected navigation with: “Browser use cannot access https://search.google.com because the user denied permission for this request.”
 - No VERIFY button was clicked and no GSC result was returned. Do not treat this as a failed verification; it requires renewed browser permission for `https://search.google.com` and another attempt in the existing logged-in Chrome profile.
+
+## UPDATE 2026-09-22
+- DealerOn fixed the truncated tag (live tag now ends TVOVI, curl-verified).
+- Spencer reports clicking VERIFY in GSC — verification believed complete.
+- Pending: automated confirmation probe + service-account delegated-owner invite.
