@@ -1,8 +1,13 @@
-# MOT-3222 C6 evidence — Chevrolet GSC verified (2026-09-23 tick)
+# MOT-3222 C6 evidence — Chevy GSC verification CONFIRMED (2026-09-23, tick 10)
 
 - Property: https://www.motorinnofcarroll.com/
-- Google Search Console Team welcome email received 2026-09-22 11:14 UTC ("Get started using Search Console with https://www.motorinnofcarroll.com/"), thread 1a0c9e5f28ea78e1 — Google only sends this after successful ownership verification.
-- Live meta tag recheck 2026-09-23 (curl from nada-mini): <meta name="google-site-verification" content="wuEnGcwCntRpyJ3Twx52YW9beweA6zGwhAeON_TVOVI"> — ends TVOVI as required (DealerOn fixed the earlier truncation).
-- DealerOn case 01919856.
-- C6: PASS
-
+- Automated confirmation probe completed 2026-09-23 13:20 CDT via codex computer-control
+  in Spencer's logged-in Chrome (session codex_chevy_verify on codex-work-macbook).
+- Google Search Console status shown: **"You are a verified owner"**
+  and **"HTML tag — Successfully verified"** under Settings → Ownership verification.
+- No VERIFY button remained (property Overview with performance/indexing data loaded).
+- Full record: pipeline/CHEVY-GSC-VERIFY-RESULT.md, section "2026-09-23 verification
+  confirmation — successful" (commit fded226).
+- Live meta tag re-check this tick (curl): content ends TVOVI as required.
+- C6: PASS — all criteria C1..C7 now hold.
+- Pending follow-up (outside this goal): service-account delegated-owner invite for GSC.
