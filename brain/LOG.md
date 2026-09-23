@@ -53,3 +53,11 @@ https://www.motorinnofcarroll.com/. Spencer's 09-22 click did it. C6 = DONE.
 All 3 dealerships in GSC. Remaining SA access: share Chevy property with
 ga4-service-account (siteUnverifiedUser -> siteFullUser) — one click in
 Settings -> Property access management, add jeeves SA email as Full user.
+
+
+## GOAL COMPLETE 2026-09-23 (tick 10)
+C1-C6 all verified live; C6 Chevy GSC confirmed by automated probe (GSC "You are a
+verified owner / HTML tag — Successfully verified", codex CC, commit fded226).
+MOT-3222 + MOT-3223..3227 all moved to Done. Loop closed; cron job to be removed.
+Follow-ups parked (not part of this goal): SA delegated-owner invite for Chevy GSC;
+Chevy-store GBP listing verification + GBP hours (open item from NAP check).
