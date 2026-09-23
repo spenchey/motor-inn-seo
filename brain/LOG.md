@@ -20,6 +20,15 @@ Open item: 'Motor Inn Chevrolet Carroll' and 'Motor Inn of Carroll Iowa' queries
 NONE -> the Chevy store has no distinct GBP listing surfaced by name; hours null on GBP.
 Action queued: verify Chevy-store GBP existence + add hours to GBP.
 
+## Chevy GBP check 2026-09-23 (DFS my_business_info/live, item 3)
+Observed requests: `Motor Inn Chevrolet Carroll` and `Motor Inn of Carroll Iowa`; both
+returned no GBP items. The Toyota query surfaced `Motor Inn Toyota and Chevrolet of Carroll`
+with phone +1712-792-5000, address 1526 Le Clark Rd, Carroll, IA 51401, category Toyota
+dealer, 4.6 stars / 225 reviews, `work_hours: null`, and place ID
+`ChIJlyzqdds57YcRbJmePnyLFYM`. The user-confirmed Chevy GBP exists, but these queries did
+not surface it; hours remain not captured. Source: DataForSEO
+`/v3/business_data/google/my_business_info/live` responses run via /tmp/nap_full.py.
+
 
 ## GAP CLOSURE 2026-09-23 (all EXM7777 gaps addressed)
 1. GA4xGSC killer-page join: DONE (brain/killer_pages.py, first run in STATE.md)
@@ -36,3 +45,11 @@ REMAINING OPERATOR DECISIONS:
   deserves the strongest model) — needs Spencer's model choice
 - Free Google API key for PageSpeed (or accept Lighthouse CLI locally)
 - Chevy-store GBP listing verification (may need Spencer's Google login)
+
+## C6 CLOSED 2026-09-23 13:20 CT
+Codex computer-control confirmed in GSC UI (Settings -> Ownership verification):
+'You are a verified owner' — HTML tag successfully verified for
+https://www.motorinnofcarroll.com/. Spencer's 09-22 click did it. C6 = DONE.
+All 3 dealerships in GSC. Remaining SA access: share Chevy property with
+ga4-service-account (siteUnverifiedUser -> siteFullUser) — one click in
+Settings -> Property access management, add jeeves SA email as Full user.
