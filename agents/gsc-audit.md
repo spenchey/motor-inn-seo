@@ -38,3 +38,19 @@ CSV: `property,period,start_date,end_date,page,normalized_page,query,page_group,
 - [ ] Current BLOCKED state overrides stale connected audit.
 
 References: [User permissions](https://support.google.com/webmasters/answer/7687615), [Search Analytics API](https://developers.google.com/webmaster-tools/v1/searchanalytics/query).
+
+
+## EXM7777 four-pass integration (added 2026-09-23)
+For the selected page's main query, run the full competitor read:
+1. DataForSEO SERP live top-10 (POST /v3/serp/google/organic/live/regular, $0.002).
+2. Scrape each competitor page FULL TEXT: free HTTP+HTMLParser first (brain/competitor_scrape.py
+   on nada-mini), Firecrawl /v1/scrape fallback for 403/JS sites (key in workMac ~/.zshrc,
+   ~10 credits, resets monthly).
+3. Side-by-side: what winners cover that we don't, questions they answer that we skip,
+   what we say better. EVERY claim cites its URL; missing data stated as missing.
+4. AI-Mode citation check: POST /v3/serp/google/ai_mode/live/advanced ($0.004) — read
+   ai_overview.references; note our rank vs competitors in the answer.
+5. NAP consistency: POST /v3/business_data/google/my_business_info/live — GBP phone/address
+   must match site footer exactly; flag hours=null or missing store listings.
+6. Convert-verdicts: keep / keep-after-fix / drop, one change recommended per week.
+
