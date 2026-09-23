@@ -19,3 +19,20 @@ Website footer: 1526 Le Clark Rd / 712-792-5000 -> MATCH.
 Open item: 'Motor Inn Chevrolet Carroll' and 'Motor Inn of Carroll Iowa' queries return
 NONE -> the Chevy store has no distinct GBP listing surfaced by name; hours null on GBP.
 Action queued: verify Chevy-store GBP existence + add hours to GBP.
+
+
+## GAP CLOSURE 2026-09-23 (all EXM7777 gaps addressed)
+1. GA4xGSC killer-page join: DONE (brain/killer_pages.py, first run in STATE.md)
+2. brief/state/log trio: DONE (brain/BRIEF.md, STATE.md, LOG.md)
+3. Competitor full-text scrape: DONE — free scraper + Firecrawl fallback, reusable
+   brain/competitor_scrape.py; first read: brain/competitor-read-2026-09-23.md (7/7 pages)
+4. AI-Mode citation check: DONE ($0.004) — Motor Inn cited 2 of 12 refs on
+   'best used truck dealer near carroll iowa'; Choice Auto leads
+5. NAP consistency: DONE — GBP matches site footer (1526 Le Clark Rd / 712-792-5000);
+   OPEN: no distinct Chevy-store GBP surfaced; GBP hours null
+6. One-change-per-tick + 2-week wobble rule + search+business judging: encoded in goal function STEP 0
+REMAINING OPERATOR DECISIONS:
+- Strongest-model pinning for weekly judgment runs (GLM-Flash now; his rule says judgment
+  deserves the strongest model) — needs Spencer's model choice
+- Free Google API key for PageSpeed (or accept Lighthouse CLI locally)
+- Chevy-store GBP listing verification (may need Spencer's Google login)
