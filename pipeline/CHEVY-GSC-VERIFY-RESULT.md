@@ -60,3 +60,15 @@ A short local reply draft for DealerOn Gmail thread `1a0b525811343bf6` is saved 
 - DealerOn fixed the truncated tag (live tag now ends TVOVI, curl-verified).
 - Spencer reports clicking VERIFY in GSC — verification believed complete.
 - Pending: automated confirmation probe + service-account delegated-owner invite.
+
+## 2026-09-23 verification confirmation — successful
+
+- Recorded: 2026-09-23 13:20 CDT (America/Chicago).
+- Property: https://www.motorinnofcarroll.com/
+- Account: spencer.heywood@motorinnmail.com.
+- Outcome: **VERIFIED — ownership confirmed.**
+- Method: Google Search Console HTML tag verification, confirmed with computer control in Chrome.
+- Google Search Console status: **You are a verified owner.**
+- Verification method shown by Google: **HTML tag — Successfully verified.**
+
+Opened the exact URL-prefix property in Chrome. Search Console loaded the property Overview with performance and indexing data instead of an ownership prompt, so no **VERIFY** button remained to click. Under **Settings → Ownership verification**, Google explicitly showed “You are a verified owner” and listed “HTML tag — Successfully verified.” No password was entered.
