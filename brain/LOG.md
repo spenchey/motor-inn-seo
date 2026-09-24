@@ -70,3 +70,14 @@ Verified via Firecrawl-rendered DOM on 3 LIVE VDPs (URL pattern /used-Carroll-<y
 NOTE: earlier confusion was from DEAD VIN-URL pattern (/used/<VIN> 301s to /used-inventory
 after vehicle rotation) — old URLs are not the template's live state.
 VERDICT: fix is correct and complete. Safe for Spencer to click Confirmed.
+
+## Case 01921720 (301 redirects, 4 legacy paths) — VERIFIED 2026-09-24
+Requested (MOT-3224): 301 each legacy 404 to its live successor.
+Live results (curl + http.client, both methods agree):
+- /inventory          -> 301 -> /used-inventory      [200, self-canonical confirmed]
+- /used-vehicles      -> 301 -> /used-cars           [200]
+- /specials           -> 301 -> /newspecials.html    [200]
+- /service-department -> 301 -> /service-locations.html [200]
+All permanent 301s, single hop (no chains), targets live 200s, /used-inventory carries
+self-referencing canonical (no soft-404 template). VERDICT: correct — safe to Confirm.
+Matches goal-loop C2 PASS evidence from 2026-09-23 tick.
