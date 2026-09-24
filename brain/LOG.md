@@ -61,3 +61,12 @@ verified owner / HTML tag — Successfully verified", codex CC, commit fded226).
 MOT-3222 + MOT-3223..3227 all moved to Done. Loop closed; cron job to be removed.
 Follow-ups parked (not part of this goal): SA delegated-owner invite for Chevy GSC;
 Chevy-store GBP listing verification + GBP hours (open item from NAP check).
+
+## Case 01921765 (single H1 vehicle title on used VDP template) — VERIFIED 2026-09-24
+Requested: exactly one <h1> per used-VDP, containing the vehicle year/make/model/trim.
+Verified via Firecrawl-rendered DOM on 3 LIVE VDPs (URL pattern /used-Carroll-<y-m-m-t>-<VIN>):
+- 2009 Ford Escape Hybrid -> h1 count 1, h1 '2009 Ford Escape Hybrid'
+- 2018 Chevrolet Silverado 1500 LT (x2 VINs) -> h1 count 1, h1 = vehicle title
+NOTE: earlier confusion was from DEAD VIN-URL pattern (/used/<VIN> 301s to /used-inventory
+after vehicle rotation) — old URLs are not the template's live state.
+VERDICT: fix is correct and complete. Safe for Spencer to click Confirmed.
