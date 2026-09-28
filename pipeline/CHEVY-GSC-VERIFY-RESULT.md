@@ -72,3 +72,13 @@ A short local reply draft for DealerOn Gmail thread `1a0b525811343bf6` is saved 
 - Verification method shown by Google: **HTML tag — Successfully verified.**
 
 Opened the exact URL-prefix property in Chrome. Search Console loaded the property Overview with performance and indexing data instead of an ownership prompt, so no **VERIFY** button remained to click. Under **Settings → Ownership verification**, Google explicitly showed “You are a verified owner” and listed “HTML tag — Successfully verified.” No password was entered.
+
+## 2026-09-28 verification — successful
+
+- Recorded: 2026-09-28 CDT (America/Chicago).
+- Property: https://www.motorinnofcarroll.com/
+- Account: spencer.heywood@motorinnmail.com.
+- Outcome: **VERIFIED — ownership confirmed.**
+- Method: HTML tag.
+
+Search Console's property flow checked the live tag and displayed **Ownership auto verified** with **Verification method: HTML tag**. The property then opened successfully at the Overview URL, confirming access to the verified property. Because Google auto-verified immediately, no separate manual **VERIFY** button was presented in this flow.
