@@ -232,3 +232,11 @@ _Deterministic analyzer battery (MOT-2431): vendored claude-seo + geo-seo-claude
 | sitemap | URLs discovered via sitemap | 50 |
 
 Machine output: `audits/toolkit/2026-09-01/` (JSON per analyzer + summary.json).
+
+<!-- google-ads-paid-search-signals:start -->
+## Paid Search Signals
+
+| Opportunity | Evidence | Recommended SEO Action | Owner |
+| --- | --- | --- | --- |
+
+<!-- google-ads-paid-search-signals:end -->
