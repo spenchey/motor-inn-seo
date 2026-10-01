@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinnautogroup.com/new-vs-used-car-carroll-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I compare new and used vehicles at the same dealership?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Auto Group lets Carroll shoppers compare new Toyota, Chevrolet, Buick, and GMC options with used inventory in one local dealership visit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the fastest way to decide between new and used?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Start with budget, expected ownership length, warranty preference, mileage needs, and must-have features. Then compare a new option and a used option side by side."
+          }
+        }
+      ]
+    }
+  ]
+}

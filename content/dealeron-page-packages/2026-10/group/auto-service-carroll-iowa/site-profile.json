@@ -1,0 +1,19 @@
+{
+  "id": "group",
+  "property": "Motor Inn Auto Group",
+  "domain": "https://www.motorinnautogroup.com",
+  "dealeronTemplate": "711",
+  "style": {
+    "bodyFont": "Arial, Helvetica, sans-serif",
+    "headingFont": "proxima-nova, Arial, sans-serif",
+    "main": "#222222",
+    "cta": "#0060e3",
+    "ctaHover": "#0083f2"
+  },
+  "paths": {
+    "inventory": "/used-inventory",
+    "service": "/serviceappmt.aspx",
+    "testDrive": "/testdrive.aspx",
+    "contact": "/contactus.aspx"
+  }
+}

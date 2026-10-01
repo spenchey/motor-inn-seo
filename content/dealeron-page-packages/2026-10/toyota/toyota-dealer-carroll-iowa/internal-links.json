@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Explore Toyota Inventory",
+    "href": "https://www.motorinntoyotaofcarroll.com/searchnew.aspx",
+    "role": "primary-cta"
+  },
+  {
+    "label": "Browse Available Inventory",
+    "href": "https://www.motorinntoyotaofcarroll.com/searchnew.aspx",
+    "role": "supporting-link"
+  },
+  {
+    "label": "Contact Our Team",
+    "href": "https://www.motorinntoyotaofcarroll.com/contactus.aspx",
+    "role": "supporting-link"
+  }
+]

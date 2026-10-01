@@ -1,1 +1,1 @@
-briefs-2026-08.md
+briefs-2026-10.md

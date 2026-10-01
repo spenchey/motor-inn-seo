@@ -1,0 +1,17 @@
+[
+  {
+    "label": "Schedule a Test Drive",
+    "href": "https://www.motorinnautogroup.com/testdrive.aspx",
+    "role": "primary-cta"
+  },
+  {
+    "label": "Browse Available Inventory",
+    "href": "https://www.motorinnautogroup.com/used-inventory",
+    "role": "supporting-link"
+  },
+  {
+    "label": "Contact Our Team",
+    "href": "https://www.motorinnautogroup.com/contactus.aspx",
+    "role": "supporting-link"
+  }
+]

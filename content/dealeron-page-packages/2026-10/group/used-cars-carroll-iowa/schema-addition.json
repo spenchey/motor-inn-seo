@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinnautogroup.com/used-cars-carroll-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I compare new and used vehicles in one visit?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn carries new Toyota, Chevrolet, Buick, and GMC vehicles, along with used inventory across multiple brands."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I bring if I am shopping or trading?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bring your driver's license, insurance information, current vehicle details, payoff information if applicable, and any must-have features or payment range you already have in mind."
+          }
+        }
+      ]
+    }
+  ]
+}

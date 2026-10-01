@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinnautogroup.com/best-place-to-buy-used-car-carroll-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I compare different used vehicle brands at Motor Inn?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Auto Group carries used vehicles across multiple brands in addition to Toyota, Chevrolet, Buick, and GMC franchise support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I check before buying a used car in Carroll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the vehicle history, mileage, condition, service needs, payment fit, trade value, and whether the dealership can support service after the sale."
+          }
+        }
+      ]
+    }
+  ]
+}

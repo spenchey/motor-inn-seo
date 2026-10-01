@@ -1,0 +1,19 @@
+{
+  "id": "toyota",
+  "property": "Motor Inn Toyota of Carroll",
+  "domain": "https://www.motorinntoyotaofcarroll.com",
+  "dealeronTemplate": "699",
+  "style": {
+    "bodyFont": "ToyotaType-Book, Arial, sans-serif",
+    "headingFont": "ToyotaType-Semibold, Arial, sans-serif",
+    "main": "#333333",
+    "cta": "#EB0A1E",
+    "ctaHover": "#c4161c"
+  },
+  "paths": {
+    "inventory": "/searchnew.aspx",
+    "service": "/serviceappmt.aspx",
+    "testDrive": "/testdrive.aspx",
+    "contact": "/contactus.aspx"
+  }
+}

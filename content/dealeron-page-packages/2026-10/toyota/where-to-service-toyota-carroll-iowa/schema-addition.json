@@ -1,0 +1,27 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinntoyotaofcarroll.com/where-to-service-toyota-carroll-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What information should I provide when scheduling Toyota service?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Have the model, year, mileage, symptom or requested maintenance, preferred appointment time, and contact information ready."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why use a local Toyota service option?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A local Toyota service option can reduce travel time, keep maintenance convenient, and give Carroll drivers a direct contact for follow-up questions."
+          }
+        }
+      ]
+    }
+  ]
+}

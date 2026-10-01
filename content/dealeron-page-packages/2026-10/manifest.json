@@ -1,0 +1,101 @@
+{
+  "contract": "motorinn-dealeron-page-package.v1",
+  "month": "2026-10",
+  "generated_at": "2026-10-01T18:37:58.777Z",
+  "delivery": "proof-and-vendor-handoff-only",
+  "live_publish": false,
+  "packages": [
+    {
+      "site_id": "group",
+      "property": "Motor Inn Auto Group",
+      "slug": "/auto-service-carroll-iowa",
+      "title": "Auto Service in Carroll, Iowa",
+      "path": "group/auto-service-carroll-iowa",
+      "review_preview": "group/auto-service-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    },
+    {
+      "site_id": "group",
+      "property": "Motor Inn Auto Group",
+      "slug": "/best-place-to-buy-used-car-carroll-iowa",
+      "title": "Best Place to Buy a Used Car in Carroll, Iowa",
+      "path": "group/best-place-to-buy-used-car-carroll-iowa",
+      "review_preview": "group/best-place-to-buy-used-car-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    },
+    {
+      "site_id": "group",
+      "property": "Motor Inn Auto Group",
+      "slug": "/car-dealerships-carroll-iowa",
+      "title": "Car Dealerships in Carroll, Iowa",
+      "path": "group/car-dealerships-carroll-iowa",
+      "review_preview": "group/car-dealerships-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    },
+    {
+      "site_id": "group",
+      "property": "Motor Inn Auto Group",
+      "slug": "/new-vs-used-car-carroll-iowa",
+      "title": "New vs. Used Cars in Carroll, Iowa",
+      "path": "group/new-vs-used-car-carroll-iowa",
+      "review_preview": "group/new-vs-used-car-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    },
+    {
+      "site_id": "toyota",
+      "property": "Motor Inn Toyota of Carroll",
+      "slug": "/toyota-dealer-carroll-iowa",
+      "title": "Toyota Dealer in Carroll, Iowa",
+      "path": "toyota/toyota-dealer-carroll-iowa",
+      "review_preview": "toyota/toyota-dealer-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    },
+    {
+      "site_id": "group",
+      "property": "Motor Inn Auto Group",
+      "slug": "/used-cars-carroll-iowa",
+      "title": "Used Cars in Carroll, Iowa",
+      "path": "group/used-cars-carroll-iowa",
+      "review_preview": "group/used-cars-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    },
+    {
+      "site_id": "group",
+      "property": "Motor Inn Auto Group",
+      "slug": "/used-trucks-carroll-iowa",
+      "title": "Used Trucks in Carroll, Iowa",
+      "path": "group/used-trucks-carroll-iowa",
+      "review_preview": "group/used-trucks-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    },
+    {
+      "site_id": "toyota",
+      "property": "Motor Inn Toyota of Carroll",
+      "slug": "/where-to-service-toyota-carroll-iowa",
+      "title": "Where to Service a Toyota in Carroll, Iowa",
+      "path": "toyota/where-to-service-toyota-carroll-iowa",
+      "review_preview": "toyota/where-to-service-toyota-carroll-iowa/review-preview.html",
+      "qa": "passed"
+    }
+  ],
+  "site_profiles": [
+    {
+      "id": "group",
+      "property": "Motor Inn Auto Group",
+      "domain": "https://www.motorinnautogroup.com",
+      "dealeron_template": "711"
+    },
+    {
+      "id": "chevrolet",
+      "property": "Motor Inn of Carroll Chevrolet",
+      "domain": "https://www.motorinnofcarroll.com",
+      "dealeron_template": "737"
+    },
+    {
+      "id": "toyota",
+      "property": "Motor Inn Toyota of Carroll",
+      "domain": "https://www.motorinntoyotaofcarroll.com",
+      "dealeron_template": "699"
+    }
+  ]
+}
