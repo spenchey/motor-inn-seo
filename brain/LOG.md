@@ -103,3 +103,13 @@ pipeline/drafts/2026-10-07-gsc-sitemap-x2b-draft.md
 - Same placeholder 200 on motorinnautogroup.com and motorinntoyotaofcarroll.com.
 - Diagnosis: DealerOn window-sticker component serves "not found" placeholder PDF at 200 instead of 404/410.
 - Deliverables: brain/soft404-chevy-2026-10-07.md + pipeline/drafts/soft404-fix-draft.md (email to help@dealeron.com — draft only, not sent).
+
+## DEAL BADGES case 01923978 -> new case 01940814 (2026-10-07)
+DealerOn (Josh Meyer) asked for: (1) badge images list, (2) tag verbiage per image.
+REPLIED with spec (1a117b25de9bb456, acked as case 01940814):
+- feed field badge_code: GREAT_DEAL | GOOD_DEAL | FAIR_DEAL | PRICE_ANALYSIS | blank
+- ribbon mapping + placement (card overlay + VDP hero), blank = no badge
+- source: nightly vAuto market rating; staged verification before go-live
+Also note: sitemap x2B case 01940542 = only acks so far (no fix yet).
+Pending DealerOn: sitemap generator fix; badge feed field; soft-404 404/410 change
+(draft staged, NOT sent - pipeline/drafts/soft404-fix-draft.md).
