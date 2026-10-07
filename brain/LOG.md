@@ -81,3 +81,19 @@ Live results (curl + http.client, both methods agree):
 All permanent 301s, single hop (no chains), targets live 200s, /used-inventory carries
 self-referencing canonical (no soft-404 template). VERDICT: correct — safe to Confirm.
 Matches goal-loop C2 PASS evidence from 2026-09-23 tick.
+
+## GSC ALERTS 2026-10-07 (both = Chevy motorinnofcarroll.com)
+Alert 1: 'Not found (404)' — pages listed IN A SITEMAP.
+Alert 2: 'Soft 404' — separate batch, pages returning 200 w/ thin/no-result content.
+
+ROOT CAUSE (verified live): sitemap generator double-escapes spaces in vehicle URLs —
+emits literal '&#x2B;' instead of '+', e.g.
+/new-Lake&#x2B;City-2027-Chevrolet-Equinox-ACTIV-<VIN> -> Googlebot 404.
+51/164 Chevy sitemap URLs affected. SAME BUG on Toyota (97/225) + Auto Group (59/235)
+sitemaps — expect identical alerts there.
+The un-escaped variants return 200 (pages exist; only the sitemap syntax is broken).
+Soft 404s: separate, needs GSC UI export to enumerate (SA lacks delegated access on
+Chevy property — Spencer must add ga4-service-account as user, 1 click).
+
+DRAFT EMAIL (one issue: sitemap entity escaping) saved:
+pipeline/drafts/2026-10-07-gsc-sitemap-x2b-draft.md
