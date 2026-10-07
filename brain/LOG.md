@@ -113,3 +113,9 @@ REPLIED with spec (1a117b25de9bb456, acked as case 01940814):
 Also note: sitemap x2B case 01940542 = only acks so far (no fix yet).
 Pending DealerOn: sitemap generator fix; badge feed field; soft-404 404/410 change
 (draft staged, NOT sent - pipeline/drafts/soft404-fix-draft.md).
+
+## CORRECTION 2026-10-07: case 01940542 subject entity issue
+Original subject contained literal HTML entity -> DealerOn ticket title rendered escaped
+('&amp;#x2B;'). Follow-up sent with clean subject + plain-English bug restatement
+(no entities in subject/body), same fix request. 1a117ba4008ea7ac.
+Lesson: never put HTML entities in email subjects to ticketing systems.
