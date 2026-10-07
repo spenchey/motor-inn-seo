@@ -97,3 +97,9 @@ Chevy property — Spencer must add ga4-service-account as user, 1 click).
 
 DRAFT EMAIL (one issue: sitemap entity escaping) saved:
 pipeline/drafts/2026-10-07-gsc-sitemap-x2b-draft.md
+## 2026-10-07 — soft404-chevy
+- GSC URL-prefix property motorinnofcarroll.com (spencer.heywood@motorinnmail.com): soft-404 count 1, example URL windowstickernotfound.pdf, first detected 3/25/23.
+- Curl: placeholder served HTTP 200 as 65KB PDF; pdftotext yields blank page (no vehicle info).
+- Same placeholder 200 on motorinnautogroup.com and motorinntoyotaofcarroll.com.
+- Diagnosis: DealerOn window-sticker component serves "not found" placeholder PDF at 200 instead of 404/410.
+- Deliverables: brain/soft404-chevy-2026-10-07.md + pipeline/drafts/soft404-fix-draft.md (email to help@dealeron.com — draft only, not sent).
