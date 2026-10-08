@@ -33,5 +33,19 @@
     "searchUrl": "https://local.google.com/place?id=977580488967559643&use=posts&lpsid=CIHM0ogKEOup9tXr-MznUA",
     "state": "PROCESSING",
     "publishDate": "2026-09-20"
+  },
+  "posts-week-of-2026-10-05::The Battery Test Before The First Hard Freeze::locations/1983269944339166584": {
+    "publishedAt": "2026-10-08T20:05:19.362Z",
+    "name": "accounts/103311538387100102575/locations/1983269944339166584/localPosts/4971170654196734841",
+    "searchUrl": "https://local.google.com/place?id=977580488967559643&use=posts&lpsid=CIHM0ogKEMj86taIgPKQUg",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-06"
+  },
+  "posts-week-of-2026-10-05::Winter Prep For The Family Hauler::locations/1983269944339166584": {
+    "publishedAt": "2026-10-08T20:05:19.740Z",
+    "name": "accounts/103311538387100102575/locations/1983269944339166584/localPosts/7220492112286940576",
+    "searchUrl": "https://local.google.com/place?id=977580488967559643&use=posts&lpsid=CIHM0ogKEPjJ-46p3Z7z9QE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-08"
   }
 }

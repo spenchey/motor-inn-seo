@@ -1,0 +1,22 @@
+{
+  "approved_by": "Spencer Heywood",
+  "approval_channel": "slack:C0AGB08UY9W (automated-marketing)",
+  "approval_message": "Approval all",
+  "approval_date": "2026-10-01",
+  "approved_by_proxy": "jeeves (verbatim Slack message relayed; full message: 'Approval all' — approving all 8 pages in the 2026-10 local-page package)",
+  "package": "content/page-packages/2026-10/designed/",
+  "note": "Designed DealerOn-style versions approved verbatim; bare-bones drafts superseded. 6/8 slugs already live on motorinnautogroup.com (2026-08 refresh) — those 6 are CONTENT REFRESHES; 2 slugs (toyota-dealer-carroll-iowa, where-to-service-toyota-carroll-iowa) verified 404 live = NEW pages.",
+  "pages": [
+    {"slug": "auto-service-carroll-iowa.html", "sha256": "f7d4ddcfa0d87f461f502a8c308b99ae864f5afabb11444af4bb3947d99fe344", "status_live": "refresh"},
+    {"slug": "best-place-to-buy-used-car-carroll-iowa.html", "sha256": "3f0f0a2685e2e8846319bcb030ad2092e76751c44545991d143669a891a16a24", "status_live": "refresh"},
+    {"slug": "car-dealerships-carroll-iowa.html", "sha256": "9457c68987619769da86ae1c1476a324ba0445a37f59d501ac31269fea30bad8", "status_live": "refresh"},
+    {"slug": "new-vs-used-car-carroll-iowa.html", "sha256": "7a2ddfe5fd6ddc180f9963ee380039cfaa4ef1345f5ef87c9546c322addac102", "status_live": "refresh"},
+    {"slug": "toyota-dealer-carroll-iowa.html", "sha256": "620ee6e5fe29d2c9dae7dc3fe61a344c96d30350c2724e597a47dfd9d33add24", "status_live": "new"},
+    {"slug": "used-cars-carroll-iowa.html", "sha256": "c25986fd303b91eaf34b7cb70454067b361a4601e2a557447bd00f34d858482b", "status_live": "refresh"},
+    {"slug": "used-trucks-carroll-iowa.html", "sha256": "55139e888b26f6136dedc5048200a8b119a502bfec3055c094a20cfb8912c201", "status_live": "refresh"},
+    {"slug": "where-to-service-toyota-carroll-iowa.html", "sha256": "5889aaa6b4795a417560c255e249d892c48aaf0ea45b0ab1ba603ce41b6ef0d3", "status_live": "new"}
+  ],
+  "digest_scope_note": "full sha256 digests of the designed files on Studio; Mini copies md5-verified identical by Emily run 2",
+  "brand_corrections_applied": ["Buick/GMC removed from all pages per Spencer 2026-10-01"],
+  "handoff_target": "DealerOn copy/paste package (dealer handoff); publication performed by DealerOn/SEO vendor, not by agent"
+}
