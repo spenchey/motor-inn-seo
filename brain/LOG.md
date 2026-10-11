@@ -119,3 +119,13 @@ Original subject contained literal HTML entity -> DealerOn ticket title rendered
 ('&amp;#x2B;'). Follow-up sent with clean subject + plain-English bug restatement
 (no entities in subject/body), same fix request. 1a117ba4008ea7ac.
 Lesson: never put HTML entities in email subjects to ticketing systems.
+
+## BING WEBMASTER SUBMISSION 2026-10-11
+Attempted full automation: AppleScript blocked (JS-from-AppleEvents off, GUI toggle flaky),
+CDP found hermes-workspace chrome on :19222 (wrong profile), playwright+Default profile works.
+BWT login required: Google chooser shows remembered bingwebmaster17@gmail.com but session
+stale -> password entry needed (agent must not type passwords per rule).
+NEEDS SPENCER (10s): sign in at bing.com/webmasters with Google -> bingwebmaster17@gmail.com
+in Chrome. Then rerun /tmp/bing_pwJ successor to submit 3 sitemaps (script ready).
+Alternative: BWT API key from that account -> creds to ~/.config/motorinn/bing.env for
+repeatable API submissions (preferred long-term; enables ping + submission cron).
