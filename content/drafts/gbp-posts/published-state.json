@@ -47,5 +47,33 @@
     "searchUrl": "https://local.google.com/place?id=977580488967559643&use=posts&lpsid=CIHM0ogKEPjJ-46p3Z7z9QE",
     "state": "PROCESSING",
     "publishDate": "2026-10-08"
+  },
+  "posts-week-of-2026-10-05::The Battery Test Before The First Hard Freeze::locations/14730652758503817758": {
+    "publishedAt": "2026-10-12T16:20:56.314Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/7637686505314264824",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEIGQ1er6ksDtRg",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-06"
+  },
+  "posts-week-of-2026-10-05::The Battery Test Before The First Hard Freeze::locations/2099693230539902964": {
+    "publishedAt": "2026-10-12T16:20:56.724Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/67230189693168397",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEMH-o53K6J-tgAE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-06"
+  },
+  "posts-week-of-2026-10-05::Winter Prep For The Family Hauler::locations/14730652758503817758": {
+    "publishedAt": "2026-10-12T16:20:57.020Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/3491957131773693466",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEMm85u2PnczQiwE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-08"
+  },
+  "posts-week-of-2026-10-05::Winter Prep For The Family Hauler::locations/2099693230539902964": {
+    "publishedAt": "2026-10-12T16:20:57.296Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/3603668008328109153",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEPiLk4PG9tT6aw",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-08"
   }
 }

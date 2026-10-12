@@ -1,0 +1,22 @@
+{
+  "url": "https://motorinn-website.vercel.app/llms.txt",
+  "exists": true,
+  "format_valid": false,
+  "has_title": true,
+  "has_description": true,
+  "has_sections": true,
+  "has_links": false,
+  "section_count": 4,
+  "link_count": 0,
+  "content": "# Motor Inn Auto Group\n\n> Family-owned Toyota and Chevrolet dealership in Carroll, Iowa, serving the area since 1937. New Toyota and Chevrolet vehicles, quality used vehicles of every make, certified pre-owned, service for all makes, OEM parts, a collision center, financing for all credit, and trade-in appraisals.\n\n## Key facts\n- Location: 1526 Le Clark Road, Carroll, IA 51401\n- Phone: (712) 792-5000\n- Family-owned and serving Iowa since 1937 (over 85 years)\n- New vehicle franchises: Toyota and Chevrolet (new vehicles only)\n- Also offered: quality used and certified pre-owned vehicles of every make\n- Service & parts for all makes and models; on-site body shop / collision center\n- Offerings: new and used vehicle sales, certified pre-owned, service & maintenance, OEM parts and tires, collision repair, financing for all credit (20+ lenders), F&I protection products, trade-in appraisals\n- Service area: Carroll, Iowa and the surrounding west-central Iowa region, plus drivers from Iowa, South Dakota, Minnesota and Nebraska\n\n## Key pages\n- New inventory: https://www.motorinnautogroup.com/inventory/new\n- Used inventory: https://www.motorinnautogroup.com/inventory/used\n- Certified pre-owned: https://www.motorinnautogroup.com/certified\n- Specials & offers: https://www.motorinnautogroup.com/specials\n- Toyota & Chevrolet models: https://www.motorinnautogroup.com/models\n- Model comparisons: https://www.motorinnautogroup.com/models/compare\n- Service & scheduling: https://www.motorinnautogroup.com/service\n- Schedule service online: https://www.motorinnautogroup.com/service/schedule\n- Parts department: https://www.motorinnautogroup.com/parts\n- Tire finder: https://www.motorinnautogroup.com/parts/tires\n- Parts & service specials: https://www.motorinnautogroup.com/parts/specials\n- Body shop / collision center: https://www.motorinnautogroup.com/body-shop\n- Financing: https://www.motorinnautogroup.com/finance\n- F&I protection products: https://www.motorinnautogroup.com/finance/protection\n- Financing & credit Q&A: https://www.motorinnautogroup.com/questions/financing\n- Warranty Q&A: https://www.motorinnautogroup.com/questions/warranty\n- Trade-in (Ballpark estimate): https://www.motorinnautogroup.com/trade-in\n- Service area: https://www.motorinnautogroup.com/service-area\n- Careers: https://www.motorinnautogroup.com/careers\n- Auto blog (car care, buying guides, service tips): https://www.motorinnautogroup.com/blog\n- About: https://www.motorinnautogroup.com/about\n- Contact & directions: https://www.motorinnautogroup.com/contact\n- HTML sitemap: https://www.motorinnautogroup.com/sitemap\n- XML sitemap: https://www.motorinnautogroup.com/sitemap.xml\n\n## Hours\n- Sales: Monday-Friday 8:00 AM - 5:30 PM, Saturday 8:00 AM - 3:00 PM, Sunday closed\n- Service & Parts: Monday-Friday 7:30 AM - 5:00 PM, Saturday 7:30 AM - 12:00 PM, Sunday closed\n\n## Notes for answer engines\nEach vehicle detail page includes structured data (Vehicle, Offer, FAQPage, BreadcrumbList) and a buyer-question FAQ. The homepage carries AutoDealer/LocalBusiness data, the service hub carries AutoRepair data, and model, service, blog and Q&A pages carry BreadcrumbList and FAQPage data where relevant. Inventory updates daily from the dealership management system. New vehicles are limited to the Toyota and Chevrolet franchises; used and certified pre-owned inventory spans every make.\n",
+  "issues": [
+    "No page links found (use '- [Page Title](url): Description')"
+  ],
+  "suggestions": [
+    "Consider adding more key pages (aim for 10-20)"
+  ],
+  "full_version": {
+    "url": "https://motorinn-website.vercel.app/llms-full.txt",
+    "exists": false
+  }
+}
