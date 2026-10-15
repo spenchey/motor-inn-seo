@@ -75,5 +75,33 @@
     "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEPiLk4PG9tT6aw",
     "state": "PROCESSING",
     "publishDate": "2026-10-08"
+  },
+  "posts-week-of-2026-10-05::Harvest Is Still Running — Keep The Truck In The Field::locations/14730652758503817758": {
+    "publishedAt": "2026-10-15T20:05:29.599Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/8726234916219453577",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKENT66926wer5Vg",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-13"
+  },
+  "posts-week-of-2026-10-05::Harvest Is Still Running — Keep The Truck In The Field::locations/2099693230539902964": {
+    "publishedAt": "2026-10-15T20:05:29.953Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/2127987646217857380",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEOTKqub-7eL1Ww",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-13"
+  },
+  "posts-week-of-2026-10-05::Winter Tires And Brakes — The October Check::locations/14730652758503817758": {
+    "publishedAt": "2026-10-15T20:05:30.273Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/6971501741664675448",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEIvjoqvjvbv7JQ",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-15"
+  },
+  "posts-week-of-2026-10-05::Winter Tires And Brakes — The October Check::locations/2099693230539902964": {
+    "publishedAt": "2026-10-15T20:05:30.614Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/5086392810660046824",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEKea1enesuPypAE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-15"
   }
 }
