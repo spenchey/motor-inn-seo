@@ -1,180 +1,154 @@
-# GBP Structural Audit — 2026-10-12
+# GBP Structural Audit — 2026-10-19
 
 ## Executive Summary
-- The phone NAP question from August is now settled in the data: the live public listings carry **(712) 792-5000** on the Toyota+Chevrolet store and the service/parts listings, and **(712) 882-7802** on the Chevrolet store, while the internal context file still documents **(712) 522-2526**. The website footer and sales header also show 712-792-5000. The old 522-2526 number appears nowhere on live surfaces; it should be removed or corrected in the internal context file, and any secondary GBP phone fields reconciled — but it is no longer a live-listing emergency.
-- **Motor Inn is now posting.** The Oct 8 owner post ("Winter Prep For The Family Hauler") is live on the combined listing, published 35 minutes before this scrape, and the posting queue runs through Oct 18. The August finding "no owner post, no freshness" is closed on posts; photo freshness is the remaining gap.
-- **The biggest risk is the Buick listing:** "Buick at MOTOR INN OF CARROLL, L.L.C." shows **Permanently closed** in public view, yet Buick remains a documented primary search theme. Buick intent has no live branded listing to land on.
-- **The biggest opportunity is photo freshness:** every competitor checked shows gallery photos dated 2025–2026; the newest Motor Inn gallery label visible is **Oct 2020**. The 9-photos/week plan from the last two audits has not visibly landed.
-- **Spencer does not need to decide anything urgent this week.** The one decision worth making: whether to reopen/replace the Buick listing or fold Buick into the two main listings categories.
+- **The weekly cadence is holding and the data is stable week-over-week.** The structural picture is the same as 10-12 with one meaningful improvement: the review engine is still running hot (**+8 reviews since 10-12 on the primary listing, 13 since Oct 5, 246 total**), reply discipline remains near-perfect, and the Oct 8 winter-readiness owner post is live and visible on the combined listing.
+- **The biggest risk is unchanged: photo freshness.** The newest dated image in the Motor Inn public gallery is still **Oct 2020** (combined) / **May 2023** (Chevrolet), while every active competitor now shows 2025–2026 gallery labels — Coleman Sep 2026, Wilson May 2026, Choice Auto Nov 2025, Rick Collins Oct 2025, Toyota of Des Moines Oct 2025, Fort Dodge Aug 2025. The Week 1 photo batch (due Fri Oct 17) has **not visibly landed**; zero new gallery images appear since the 10-12 audit.
+- **The second standing gap is also unchanged: no Book online CTA** on either sales listing, while Okoboji and Macke both carry one.
+- **Spencer does not need to decide anything urgent.** The two decisions carried from 10-12 remain open and cheap: (1) Buick listing — reopen it or merge it and add a Buick secondary category; (2) the duplicate "Motor Inn Auto Group" shell listing (Toyota dealer, no reviews, (888) 698-6447) still sits unreclaimed next to the 5.0-rated service listing.
+- **What should be done next:** upload the Week 1 photo batch this week (9 photos, plan below), add the Book online link in GBP admin, and answer the two open review replies (both 5★, Oct 17) to keep the reply streak at 100% for 2026.
 
 ## Data Collection Status
 | Source | Status | Notes |
 |---|---|---|
-| EXA research | Yes | `gbp-research-2026-10-12.json` (33,028 bytes) |
-| GBP API reviews pull | Yes | `reviews-pull-2026-10-12.json` — both review-bearing locations, 10-12 |
-| Motor Inn combined public GBP | Yes | Live scrape: 4.6 stars, Toyota dealer |
-| Motor Inn Chevrolet public GBP | Yes | Live scrape: 4.8 stars, Chevrolet dealer |
-| Motor Inn Auto Group (service) GBP | Yes | Live scrape: 5.0, auto repair shop; plus an unreclaimed "Motor Inn Auto Group" Toyota-dealer shell listing (no reviews, (888) 698-6447) |
-| Champion Ford public GBP | Yes | 4.2, Ford dealer |
-| Wittrock Motor Company public GBP | Yes | 4.6, Car dealer |
-| Spirit Lake Ford CDJR (Coleman) public GBP | Yes | 4.4, Car dealer; owner lease offer post Oct 5 |
-| Okoboji Motor Company public GBP | Yes | 4.5, Car dealer; Book online CTA |
-| Macke Motors public GBP | Yes | 3.8, Chevrolet dealer; Book online on service listing |
-| Choice Auto Carroll public GBP | Yes | 4.4, Used car dealer |
-| Wilson Toyota of Ames public GBP | Yes | 4.7; veteran-/women-owned badges; owner post |
-| Rick Collins Toyota public GBP | Yes | 4.8, Toyota dealer |
-| Toyota of Des Moines public GBP | Yes | 4.6; owner offer post 7 days ago |
-| Fort Dodge Ford Lincoln Toyota public GBP | Yes | 4.6; owner post Sep 30 |
-| Local Spark (qwen3.6:35b-a3b) | No | Skipped: outputs kept factual/sourced; no generation step required this run |
+| EXA research | Yes | `gbp-research-2026-10-19.json` (33,713 bytes, 10 results) |
+| GBP API reviews pull | Yes | `reviews-pull-2026-10-19.json` — both review-bearing locations, 10-19 |
+| Motor Inn combined public GBP | Yes | Live scrape: 4.6 (246), Toyota dealer, owner post visible |
+| Motor Inn Chevrolet public GBP | Yes | Live scrape: 4.8 (37), Chevrolet dealer |
+| Motor Inn Auto Group (service) GBP | Yes | 5.0 (1), auto repair shop; plus unreclaimed shell listing (0 reviews, (888) 698-6447) |
+| Chevrolet Parts / Service sub-listings | Yes | Parts: 0 reviews, (712) 882-7492; Service: 0 reviews, (712) 882-7925 |
+| Buick listing | Yes | Still **Permanently closed**, (712) 792-6275, "Claim this business" showing |
+| Competitor public GBPs (10) | Yes | Champion, Wittrock, Coleman/SL Ford CDJR, Okoboji Motor Co., Macke (×2 geos), Choice Auto, Wilson, Rick Collins, Toyota DSM, Fort Dodge |
+| Gallery date probes (viewer-level) | Yes | First/last visible capture dates per listing (signed-out floor) |
+| Local Spark (qwen3.6:35b-a3b) | Skipped | Same as 10-12: no generation step required; all output sourced to scrapes/API |
 
-**Scope note:** signed-out Google Maps hides review counts, full attribute sets, services lists, and exact photo totals. Review counts below come from the GBP API pull (authoritative); the rest from visible public signals.
+**Scope note:** signed-out Maps hides full attribute sets, services lists, and complete photo inventories. Review counts come from the GBP API (authoritative); gallery dates are viewer-visible floors, not totals.
 
 ## Categories
 
-### Visible Category Comparison
+### Visible Category Comparison (2026-10-19)
 | Category | Motor Inn | Champion Ford | Wittrock | Coleman (SL Ford CDJR) | Okoboji Motor Co. | Macke Motors |
 |---|---|---|---|---|---|---|
 | Toyota dealer | **Primary** (combined) | — | — | — | — | — |
-| Chevrolet dealer | Separate listing, 4.8 | — | — | — | — | **Primary** |
-| Buick dealer | **Listing marked Permanently closed** | — | — | — | — | Separate live Buick listing |
-| Auto parts store | Live sub-listing (Chevrolet Parts) | — | — | — | — | — |
-| Auto repair shop | Live sub-listing (Motor Inn Auto Group, 5.0) | — | — | — | — | Live service listing w/ Book online |
-| Ford dealer | — | **Primary** | — | — | — | — |
-| Car dealer | — | — | **Primary** | **Primary** | **Primary** | — |
-| Used car dealer | — | — | — | — | — | — (Choice Auto: primary) |
+| Chevrolet dealer | Separate listing 4.8 | — | — | — | — | **Primary** |
+| Buick dealer | **Listing Permanently closed** | — | — | — | — | Separate live Buick listing (5.0) |
+| Auto parts store | Live (Chevrolet Parts) | — | — | — | — | — |
+| Auto repair shop | Live (Motor Inn Auto Group 5.0) | — | — | — | — | Live service + body shop listings |
+| Ford dealer | — | **Primary** | — | **Primary** | — | — |
+| Car dealer | — | — | **Primary** | — | **Primary** | — |
 
-### What Matters
-- Motor Inn's multi-listing structure (sales, service, parts) matches the Macke pattern and is correct for a multi-franchise store.
-- **The Buick listing is the one broken category surface.** Public view shows "Permanently closed" at 1526 Le Clark Rd with phone (712) 792-6275. Buick shoppers searching Maps get a closed storefront.
-- A stray **"Motor Inn Auto Group"** listing (Toyota dealer, no reviews, (888) 698-6447) duplicates the brand name at the same address — a canonical-name risk for the entity.
-- Wilson Toyota carries **veteran-owned and women-owned badges**; no Motor Inn ownership badge is visible.
+### What changed since 10-12
+- Nothing structural. The same three entity issues stand: Buick closed-listing, duplicate Motor Inn Auto Group shell, and no ownership badges.
 
-### Missing Categories (Prioritized)
-- `P1`: Reconcile the **Buick listing** in GBP admin — either reopen it or merge it and confirm a Buick dealer secondary category on both sales listings. Buick is a documented search theme with no live branded surface.
-- `P2`: Claim/clean the duplicate **"Motor Inn Auto Group"** shell listing (no reviews, 888 number) so the brand entity resolves to one canonical profile.
-- `P2`: Confirm service-led secondary categories in admin (Used Car Dealer, Auto Repair Shop, Oil Change Service, Tire Shop, Car Finance and Loan Company, Truck Dealer) per the EXA benchmark — public view cannot verify these.
-- `P3`: Keep only categories matching real on-site functions.
+### Missing Categories (Prioritized) — carried
+- `P1`: Buick listing reconciliation in admin (reopen, or merge + secondary category on both sales listings).
+- `P2`: Claim/clean the duplicate **Motor Inn Auto Group** shell (Toyota dealer, no reviews, 888 number).
+- `P2`: Confirm service-led secondary categories in admin (per EXA/GP benchmark: Used Car Dealer, Auto Repair Shop, Oil Change Service, Tire Shop, Car Finance and Loan Company, Truck Dealer).
 
 ## Attributes
 
-### Visible Attribute / Action Comparison
-| Attribute / signal | Motor Inn | Champion | Wittrock | Coleman | Okoboji Motor | Macke | Wilson Toyota |
+### Visible Attribute / Action Comparison (2026-10-19)
+| Attribute / signal | Motor Inn | Champion | Wittrock | Coleman | Okoboji | Macke | Wilson |
 |---|---|---|---|---|---|---|---|
-| Book online CTA | No | No | No | No | **Yes** | **Yes (service)** | No |
-| Owner post visible | **Yes (Oct 8, new)** | No | No | **Yes (Oct 5 lease offer)** | No | No | **Yes** |
-| Fresh gallery photos | No (newest label Oct 2020) | No (Oct 2018 label) | **Yes (2023+)** | **Yes (Sep 2026)** | Yes (2022+) | Yes (2021+) | **Yes (2026)** |
-| Ownership badge | No | LGBTQ+ friendly | No | No | No | No | **Veteran- + women-owned** |
-| Accessibility badges | Entrance + parking | Entrance + parking | — | — | — | — | — |
-| Videos tab | No | No | No | No | Yes (prior audit) | No | — |
+| Book online CTA | **No** | No | No | No | **Yes** | **Yes (service)** | No |
+| Owner post visible | **Yes (Oct 8 winter pkg, "4 days ago")** | No | No | **Yes (Oct 5 lease offer + gallery)** | No | No | **Yes (Oct 15 Tacoma offer)** |
+| Newest gallery label | **Oct 2020 (combined) / May 2023 (Chevy)** | Oct 2018 | Jan 2023 | **Sep 2026** | Dec 2022 | Nov 2021 | **May 2026** |
+| Ownership/community badge | None | LGBTQ+ friendly | — | — | — | — | **Veteran- + women-owned** |
+| Accessibility badges | Entrance + parking | Entrance + parking | — | — | Entrance+restroom+seating | — | Entrance + parking |
 
-### Review posture (GBP API, 2026-10-12)
+### Review posture (GBP API, 2026-10-19)
 | Metric | Toyota+Chevrolet of Carroll | Chevrolet of Carroll |
 |---|---|---|
-| Total reviews | **238** (+2 since 10-08) | 37 (flat) |
+| Total reviews | **246** (+8 since 10-12; +13 since Oct 5) | 37 (flat since Aug) |
 | Avg rating | 4.6 | 4.8 |
-| Last 7 days | 5 reviews, all replied (incl. Joyce Dickinson 4★ correctly answered) | 0 |
-| 2026 monthly cadence | Jan–Jun 2–5/mo → Jul 5, Aug 18, Sep 26, Oct 8 so far | — |
-| Unanswered 2024+ | **0** | 0 |
+| Last 7 days | **+8** | 0 |
+| Unanswered 2026 | **2** (both 5★, Oct 17: Troy Kluender, Paula Cross) | 0 |
+| Reply lag (last 30) | 28/30 replied, median ~1.1 days | — |
 
-- Reply discipline stays perfect on 2024+ reviews; the Oct 10 review was answered same weekend.
-- Star-count mismatch flagged in the 10-08 velocity audit (replies saying "5 Star" on 4★ reviews) — the Oct 7 Joyce Dickinson reply should be checked when the next velocity run lands.
+- **Reply streak: 28 of last 30 primary reviews answered, median lag ~1.1 days — healthy. The only 2026 gaps are the two Oct 17 5★ reviews; answer both this week to hold 100% on the year.**
+- Chevrolet listing flat at 37 since late August — no new reviews in 7+ weeks. The 4.8 listing is an asset going stale; any review-request push should route Chevrolet customers there. (Same finding as 10-12; now 7 weeks confirmed.)
 
 ### Missing Attributes (Prioritized)
-- `Table stakes`: **Photo freshness.** Newest visible Motor Inn gallery label is Oct 2020; Coleman shows Sep 2026, Wilson 2026. Execute the 9/week plan below.
-- `Strong rec`: **Book online action** — Okoboji and Macke both surface one; Motor Inn still does not. A booking link to the existing Schedule Service page is a config change, not a build.
-- `Strong rec`: Ownership/community badges (veteran-, women-owned) if factually applicable — Wilson wears both and they render directly in the panel.
-- `Table stakes (done)`: Owner posts — now live; keep the Tue/Thu queue through Oct 18.
+- `Table stakes`: **Photo freshness** — the Week 1 batch did not land. Plan reissued below, dates moved.
+- `Strong rec`: **Book online CTA** on both sales listings → existing Schedule Service flow. Okoboji/Macke carry it; we still do not. Config change, not a build.
+- `Carried`: ownership badges if factually applicable (Wilson wears veteran- + women-owned).
 
 ## Services
 
-### Website vs Public GBP
-| Service / offer | Motor Inn website (verified today) | Public GBP surface |
+### Website vs Public GBP (website re-verified 2026-10-19)
+| Service / offer | motorinnautogroup.com (live check today) | Public GBP surface |
 |---|---|---|
-| Schedule Service | `service-locations.html` + direct schedule links, both stores | **Not surfaced** — no booking CTA on either listing |
-| Service Center / Parts Center | Both stores linked from service-locations | Parts sub-listing live; service sub-listing live (Motor Inn Auto Group 5.0) |
-| Schedule Test Drive | `testdrive.aspx` (+ used variant) | Not surfaced |
-| Trade Appraisal | `trade.aspx` | Not surfaced |
-| Finance | `finance-locations.html` | Not surfaced |
-| Service & Parts Specials | `service-parts-specials.html` | Not surfaced |
-| Recall checks | Toyota recall link in footer | Not applicable |
+| Schedule Service | `service-locations.html` — present | **Not surfaced** — no booking CTA on either listing |
+| Service / Parts Center | linked from service-locations | Parts sub-listing live; service sub-listing live (5.0) |
+| Schedule Test Drive | present | Not surfaced |
+| Trade Appraisal | present | Not surfaced |
+| Finance | 18 refs on service page; finance pages live | Not surfaced |
+| Service & Parts Specials | present | Not surfaced |
 
-### Services Missing From Public GBP
-- Booking/appointment action (service + test drive)
+### Services Missing From Public GBP — unchanged
+- Booking/appointment actions (service + test drive)
 - Finance / trade-in descriptions
 - Service and parts descriptions on the sales listings
 
-### Services Needing Better Descriptions
-- All of the above; the dated drafts from 08-17 remain usable and pre-approved in structure (`content/drafts/gbp-services/services-2026-08-17.md`).
-
-### Draft Output
-- No new services draft this run: the 08-17 services set still matches the live website exactly (same six surfaces, nothing added or removed). Reusing it avoids duplicate near-identical drafts; dated copy below only where facts changed.
+### Draft status
+- The **2026-08-17 services and description drafts remain factually current** (website surfaces unchanged; phone resolution 792-5000/882-7802 already reflected). No new drafts written this run; reuse `content/drafts/gbp-services/services-2026-08-17.md` and `content/drafts/gbp-description/description-2026-08-17.md` (Version 2) at admin time.
 
 ## Description
 
-### Comparison
-| Business | Public description visible | Category signal | Trust/action signal |
-|---|---|---|---|
-| Motor Inn (combined) | Not exposed signed-out | Toyota dealer + linked Chevy/parts/service | Owner post Oct 8; 4.6/238 |
-| Motor Inn Chevrolet | Not exposed | Chevrolet dealer | 4.8/37 |
-| Champion Ford | No | Ford dealer | Attribute badge |
-| Wittrock | No | Car dealer | Fresh photos |
-| Coleman / SL Ford CDJR | No | Car dealer | Lease-offer owner post Oct 5 |
-| Okoboji Motor Co. | No | Car dealer | Book online CTA |
-| Macke Motors | No | Chevrolet dealer + Buick + service + body | Book online |
-| Wilson Toyota | No | Toyota dealer | Veteran-/women-owned, owner post |
+### Public description signal (2026-10-19)
+| Business | Public description visible | Note |
+|---|---|---|
+| Motor Inn (combined) | Not exposed signed-out | Owner post Oct 8 visible instead |
+| Motor Inn Chevrolet | Not exposed | 4.8/37 |
+| Competitors (all checked) | Not exposed signed-out | — |
 
-### Current Motor Inn Description Signal
-- Full GBP description still does not render signed-out; website hero/about copy remains the strongest source (family-owned 80+ years, Chevrolet and Toyota, serving IA/SD/MN/NE).
-- The Aug 17 three-version description drafts stand; the phone caveat in them (792-5000 vs 522-2526) is now resolved in favor of **792-5000 live / context file stale**.
-
-### Recommendation
-- Publish the Version 2 (conversion-focused) description from `content/drafts/gbp-description/description-2026-08-17.md` once the Buick listing question is answered — one admin pass, both fixes.
-- No new description draft written this run; facts unchanged from the approved set.
+- Signed-out Maps does not render the business description for any listing in this set — unchanged from both prior audits. The description check is admin-side only; the approved Version 2 draft stands ready.
 
 ## Photos
 
-### Visible Public Photo Signals
-| Business | Newest dated gallery label | Freshness read |
-|---|---|---|
-| **Motor Inn (combined)** | **Oct 2020** | **Weakest in set** |
-| Motor Inn Chevrolet | (module present, no newer label surfaced) | Weak |
-| Champion Ford | Oct 2018 | Weakest label seen |
-| Wittrock | Jan 2023 | Moderate |
-| Coleman / SL Ford CDJR | **Sep 2026** | **Best this week** |
-| Okoboji Motor Co. | Dec 2022 | Moderate |
-| Macke Motors | Nov 2021 | Aging |
-| Choice Auto | Nov 2025 | Strong |
-| Wilson Toyota | May 2026 | Strong |
-| Rick Collins | Oct 2025 | Strong |
-| Toyota of Des Moines | Oct 2025 | Strong |
-| Fort Dodge Ford Lincoln | Aug 2025 | Strong |
+### Visible gallery floors (photo-viewer probe, 2026-10-19)
+| Business | Photo count (public) | First visible dated label | Freshness read |
+|---|---|---|---|
+| **Motor Inn combined** | **67** | **Oct 2020** | **Weakest active** |
+| Motor Inn Chevrolet | (module, viewer probe) | **May 2023** | Weak |
+| Chevrolet Parts sub-listing | 8 | Feb 2022 | Weak |
+| Champion Ford | 13 | Oct 2018 | Weakest label seen |
+| Wittrock | 32 | Jan 2023 | Moderate |
+| Coleman / SL Ford CDJR | 89 | **Sep 2026** | **Best in set** |
+| Okoboji Motor Co. | 67 | Dec 2022 | Moderate |
+| Macke Motors | (service-led) | Nov 2021 | Aging |
+| Choice Auto | 21 | Nov 2025 | Strong |
+| Wilson Toyota | 388 | May 2026 | Strong |
+| Rick Collins Toyota | 89 | Oct 2025 | Strong |
+| Toyota of Des Moines | 278 | Oct 2025 | Strong |
+| Fort Dodge Ford Lincoln | 1184 | Aug 2025 | Strong |
 
-### What Matters
-- Signed-out Maps caps the visible filmstrip (~6 thumbs), so these are floor labels, not totals — but the gap direction is unambiguous: five competitors show 2025–2026 gallery labels; Motor Inn's newest visible is 2020.
-- Coleman went from "owner post + fresh photos" in August to a Sep 2026 gallery label now — the bar keeps moving.
+### What matters
+- **Zero gallery movement on Motor Inn since 10-12** — the Week 1 upload did not happen. Five competitors sit at 2025–2026 labels; our sales-listing floors are 2020/2023.
+- Chevrolet listing photo module dates to May 2023; parts sub-listing Feb 2022. The 4.8-rated store deserves current imagery too.
 
-### Upload Plan (4 weeks, unchanged cadence, refreshed themes)
-**9 photos per week, 36 total** — naming `motorinn-[subject]-[location]-YYYY-MM-DD.jpg`, geotagged Carroll (plus Spirit Lake/Okoboji where real).
+### Upload Plan (4 weeks, 9/week, 36 total) — reissued, dates moved
+Naming `motorinn-[subject]-[location]-YYYY-MM-DD.jpg`, geotag Carroll (Spirit Lake/Okoboji only where real).
 
-- **Week 1 — Fall inventory, front of house:** 3 exterior/signage shots at 1526 Le Clark Rd; 4 current used SUV/truck photos (front 3/4 + rear, lot context); 2 sales-desk/team shots.
-- **Week 2 — Service & parts proof:** 3 service bays with technicians working; 2 parts counter; 2 waiting-area amenities; 2 vehicle-intake/inspection shots.
-- **Week 3 — Winter readiness (ties to the live post theme):** 3 wiper/battery/tread service closeups; 2 4WD/AWD inventory shots; 2 staff-with-customer shots; 2 entrance/hours shots.
-- **Week 4 — Category reinforcement:** 2 Chevrolet-badged shots (feeds the 4.8 Chevy listing); 2 Toyota-badged shots; 2 Buick-adjacent shots if the Buick question resolves; 3 community/exterior dusk shots.
+- **Week 1 — Fall inventory, front of house (upload by Fri 2026-10-23):** 3 exterior/signage at 1526 Le Clark Rd; 4 current used SUV/truck photos (front 3/4 + rear, lot context); 2 sales-desk/team shots.
+- **Week 2 — Service & parts proof (by Fri 2026-10-30):** 3 service bays working; 2 parts counter; 2 waiting-area; 2 intake/inspection.
+- **Week 3 — Winter readiness (by Fri 2026-11-06):** 3 battery/wiper/tread closeups; 2 4WD/AWD inventory; 2 staff-with-customer; 2 entrance/hours.
+- **Week 4 — Category reinforcement (by Fri 2026-11-13):** 2 Chevrolet-badged; 2 Toyota-badged; 2 Buick-adjacent if resolved; 3 community/dusk.
 
 ## Action Items (This Week)
-1. **Decide the Buick listing:** reopen "Buick at MOTOR INN OF CARROLL, L.L.C." or merge it and add a Buick dealer secondary category to both sales listings (Spencer decision, admin action).
-2. **Start the photo cadence:** Week 1 batch (9 photos) uploaded this week; schedule Weeks 2–4.
-3. **Add a Book online CTA** to both sales listings pointing at the existing Schedule Service flow.
-4. **Claim/fix the duplicate "Motor Inn Auto Group" shell listing** (no reviews, 888 number) — merge or correct its phone so the brand entity stays canonical.
-5. **Update `~/.agents/product-marketing-context.md` phone:** live numbers are 792-5000 (Toyota+Chevrolet, service, parts) and 882-7802 (Chevrolet store); 522-2526 appears nowhere live. Also verify the Buick listing phone 792-6275 while in admin.
-6. **Keep the post queue:** Oct 13/15/17 publishes land per the velocity plan; OFFER-type winter post is queued Oct 15.
-7. **Next velocity run:** confirm the Oct 7 4★ reply wording (star-count mismatch pattern) and the +2 review week.
+1. **Upload Week 1 photos (9) by Fri 2026-10-23** — the carried Week 1 set, two weeks late. This is the single highest-leverage structural fix left.
+2. **Reply to the two Oct 17 5★ reviews** (Troy Kluender, Paula Cross) — keeps 2026 reply coverage at 100%.
+3. **Add Book online CTA** to both sales listings → Schedule Service. Config change in admin.
+4. **Buick decision (Spencer, admin):** reopen `Buick at MOTOR INN OF CARROLL, L.L.C.` (still showing Permanently closed + Claim this business) or merge it and set Buick dealer as a secondary category on both sales listings.
+5. **Duplicate shell:** claim/merge the review-less `Motor Inn Auto Group` Toyota-dealer listing (888 number) so the brand entity resolves canonically.
+6. **Chevrolet review nudge:** 7 weeks flat at 37 on the 4.8 listing — add a review ask to the Chevrolet delivery/checkout flow.
+7. **Posts queue:** next posts per the velocity plan; the Oct 8 winter pkg stays live through the 31st.
 
 ## Sources
-- `~/motor-inn-seo/audits/gbp-structural/gbp-research-2026-10-12.json` (EXA, 10 results, GBP best practices 2026)
-- `~/motor-inn-seo/audits/gbp-structural/reviews-pull-2026-10-12.json` (GBP API v4 via `velocity-pull.js`, both review-bearing locations)
-- Live Google Maps scrapes 2026-10-12 (Motor Inn x4 surfaces + 12 competitor/regional listings via headless browser)
-- `~/motor-inn-seo/content/drafts/gbp-posts/posts-week-of-2026-10-05.md` and `published-state.json` (post ledger)
-- `~/motor-inn-seo/audits/gbp-velocity/gbp-velocity-2026-10-08.md` (review velocity baseline)
+- `~/motor-inn-seo/audits/gbp-structural/gbp-research-2026-10-19.json` (EXA, 10 results)
+- `~/motor-inn-seo/audits/gbp-structural/reviews-pull-2026-10-19.json` (GBP API v4, both review-bearing locations, 2026-10-19)
+- Live Google Maps scrapes 2026-10-19: `scrapes-2026-10-19/` (Motor Inn ×5 surfaces + 10 competitor listings + About-tab probes + photo-viewer date probes)
+- `~/motor-inn-seo/content/drafts/gbp-posts/published-state.json` (15-post ledger; newest publish 2026-10-15)
+- `~/motor-inn-seo/content/drafts/gbp-services/services-2026-08-17.md`, `content/drafts/gbp-description/description-2026-08-17.md`, `content/drafts/gbp-photos/photo-plan-2026-10-12.md`
+- `~/motor-inn-seo/audits/gbp-velocity/gbp-velocity-latest.md` (review-velocity baseline + reply-lag method)
 - `~/.agents/product-marketing-context.md`, `~/motor-inn-seo/tools/seomachine/config/competitors.json`
-- `motorinnautogroup.com` homepage, service-locations, about pages (live checks today)
+- `motorinnautogroup.com` service-locations page (live curl check 2026-10-19)
