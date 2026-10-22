@@ -1,0 +1,45 @@
+# REVIEW: highlander-vs-grand-highlander
+date: 2026-10-22
+research_sha: b3cf3b8
+## Draft
+<aside class="cta-box">
+<p><strong>Want to see both in person?</strong> Our Carroll lot (51401) usually has Highlanders and Grand Highlanders side by side. <a href="https://www.motorinnautogroup.com">Browse live inventory</a> or call the store.</p>
+</aside>
+
+<h1>Highlander vs. Grand Highlander</h1>
+
+<h2>Which is bigger, the Highlander or the Grand Highlander?</h2>
+<p>The Grand Highlander is bigger — it's a stretched, three-row family hauler with real room behind the third row, while the standard Highlander is the more compact three-row SUV. That size gap is the whole reason Toyota built both.</p>
+<p>Shoppers searching "2024 Grand Highlander length" and "curb weight" (per our search data) are asking exactly this. Exact inch-by-inch numbers come straight from Toyota's spec sheets, and we verify each figure before it goes live: <a href="https://www.toyota.com/highlander/">toyota.com Highlander specs</a> and <a href="https://www.toyota.com/grandhighlander/">toyota.com Grand Highlander specs</a> [NEEDS-VERIFY exact length, wheelbase, and cargo figures from those pages before publish].</p>
+
+<h2>What's the size difference between the Highlander and Grand Highlander?</h2>
+<p>The Grand Highlander runs on a longer wheelbase and a longer body, which translates into more third-row legroom and more cargo space behind that third row.</p>
+<p>The practical difference shows up in daily use. Load a stroller and a cooler behind the third row of a standard Highlander and it's snug. Do the same in a Grand Highlander and there's room to spare. Adults can ride in the Grand Highlander's third row without their knees in the seatback in front. Full dimensions and cargo volumes: <a href="https://www.toyota.com/grandhighlander/">toyota.com Grand Highlander specs</a> [NEEDS-VERIFY].</p>
+
+<h2>Do both the Highlander and Grand Highlander come as hybrids?</h2>
+<p>Yes — both offer Toyota's hybrid, and the Grand Highlander adds a hybrid max option for more power.</p>
+<p>That means you don't give up fuel economy by sizing up. Check current hybrid lineup details at <a href="https://www.toyota.com/highlander/">toyota.com Highlander</a> and <a href="https://www.toyota.com/grandhighlander/">toyota.com Grand Highlander</a> [NEEDS-VERIFY trim-level hybrid availability for model year in stock].</p>
+
+<h2>Which SUV should my family buy, Highlander or Grand Highlander?</h2>
+<p>If three rows are occasional seats for kids, the standard Highlander is enough SUV. If the third row carries adults every week — carpool, grandparents, sports team — the Grand Highlander is worth the step up in size and price.</p>
+<p>Ask yourself one question: how often is the third row actually occupied? A couple times a month? Highlander. Every day? Grand Highlander. The cargo-behind-third-row difference matters just as much for families hauling gear to Storm Lake or Denison weekends.</p>
+
+<h2>How much can the Highlander and Grand Highlander tow?</h2>
+<p>Both are rated to tow, with the Grand Highlander's maximum generally higher — but exact poundage varies by engine and drivetrain, so we check Toyota's official numbers per configuration.</p>
+<p>Planning to tow a boat to Storm Lake or a trailer to the fields outside Carroll? Get the exact rating for the trim you're considering: <a href="https://www.toyota.com/towing-guide/">Toyota's official towing guide</a> [NEEDS-VERIFY per-trim tow ratings before publish].</p>
+
+<h2>Where can I see both the Highlander and Grand Highlander near Carroll, Iowa?</h2>
+<p>At Motor Inn Auto Group in Carroll — we stock both models, often side by side on the lot.</p>
+<p>Serving Carroll (51401), Lake City, Denison, Audubon, Storm Lake, and Sac City. Sit in both third rows back to back. That comparison settles it faster than any spec sheet.</p>
+
+<aside class="cta-box">
+<p><strong>Want to compare them in person?</strong> <a href="https://www.motorinnautogroup.com">See our live Highlander and Grand Highlander inventory</a> or call the store. No pressure — bring the whole family and climb in both.</p>
+</aside>
+## Sources (from research)
+see brain/research/highlander-vs-grand-highlander/research.md
+## Needs-verify items
+(flagged inline above)
+## Questions for Spencer
+1. Voice OK?
+2. Any claim to soften?
+3. CTA right?

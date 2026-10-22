@@ -1,0 +1,54 @@
+# REVIEW: testdrive-page
+date: 2026-10-22
+research_sha: b3cf3b8
+## Draft
+<code><h1>Schedule a Test Drive in Carroll, Iowa</h1>
+
+<p>Fill out the form below or call the store, and we'll have the keys ready. It takes about a minute to book.</p>
+
+<p>Motor Inn Auto Group sells Toyota and Chevrolet under one roof at 1741 N. US Highway 71, Carroll, IA 51401. <a href="https://www.motorinnautogroup.com/testdrive.aspx">[NEEDS-VERIFY: street address]</a> You can drive both brands in one trip.</p>
+
+<figure>
+  <a href="https://www.motorinnautogroup.com/testdrive.aspx" class="btn">Book Your Test Drive</a>
+</figure>
+
+<h2>What should I bring to a test drive?</h2>
+
+<p>Bring your driver's license. If you plan to drive alone, that's the main thing.</p>
+
+<p>Our team confirms your license when you arrive. If you want to talk numbers after the drive, bringing proof of insurance and your trade-in title speeds that up. Neither is required just to drive. <a href="https://www.motorinnautogroup.com/testdrive.aspx">[NEEDS-VERIFY: dealer policy]</a></p>
+
+<h2>How long does a test drive take?</h2>
+
+<p>Plan on about 30 minutes, start to finish.</p>
+
+<p>That covers a quick walk-around, the drive itself, and time for your questions. If you're comparing a Toyota and a Chevy back to back, ask for both keys. <a href="https://www.motorinnautogroup.com/testdrive.aspx">[NEEDS-VERIFY: 30-minute figure]</a></p>
+
+<h2>Can I test drive without buying?</h2>
+
+<p>Yes. A test drive never obligates you to buy.</p>
+
+<p>People drive with us to compare trucks before hunting season, to check how a SUV fits car seats, or just to learn what they like. Tell our team what you're shopping for. They'll show you options and step back.</p>
+
+<h2>Which vehicles can I test drive?</h2>
+
+<p>Any vehicle in stock, including both Toyota and Chevrolet models.</p>
+
+<p>That covers Silverado 1500 and 2500HD, Tahoe, Suburban, Equinox, Camaro, Corolla, Camry, RAV4, Highlander, Tacoma, and Tundra, plus our used inventory across every brand. If it's on the lot, you can drive it. <a href="https://www.motorinnautogroup.com/testdrive.aspx">[NEEDS-VERIFY: current stock]</a></p>
+
+<h2>How do I schedule my test drive?</h2>
+
+<p>Use the form on this page or call the store directly.</p>
+
+<p>Tell us the model, the day, and the time. We'll confirm and have it pulled up front. Prefer to talk first? Call <a href="tel:+17127929470">712-792-9470</a>. <a href="https://www.motorinnautogroup.com/testdrive.aspx">[NEEDS-VERIFY: phone number]</a></p>
+
+<p><a href="https://www.motorinnautogroup.com/testdrive.aspx" class="btn">Book Your Test Drive</a></p>
+</code>
+## Sources (from research)
+see brain/research/testdrive-page/research.md
+## Needs-verify items
+(flagged inline above)
+## Questions for Spencer
+1. Voice OK?
+2. Any claim to soften?
+3. CTA right?

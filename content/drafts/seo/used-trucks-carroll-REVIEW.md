@@ -1,0 +1,50 @@
+# REVIEW: used-trucks-carroll
+date: 2026-10-22
+research_sha: b3cf3b8
+## Draft
+<p>Used trucks for sale in Carroll, Iowa sit on one lot at Motor Inn Auto Group — Toyota and Chevrolet, side by side, at 114 N. Grant Road. You can walk it today or browse every truck below before you drive in. Our team keeps the inventory feed current, so what you see online is what's on the ground in Carroll 51401.</p>
+
+<h2 id="work-truck">Which used truck fits my work?</h2>
+
+<p>Match the truck to the job: light duty for daily driving and lighter loads, heavy duty for regular towing. A half-ton Silverado 1500 handles a stock trailer or a weekend camper. A Silverado 2500HD or 3500HD pulls heavier equipment without working hard. Gravel roads wear trucks faster than pavement — check the undercarriage and service history on any used truck before you commit. Our team can pull the history on any truck on the lot.</p>
+
+<p>Ask yourself three questions: What do I tow, how often, and how far? A Denison farmer hauling grain twice a year needs different gearing than a contractor towing every day. Tell our team the real answer, not the best-case answer.</p>
+
+<h2 id="compare">Silverado vs F-150 vs Ram vs Toyota trucks: which should I buy?</h2>
+
+<p>Buy the truck that fits your work, not the badge on the grille. Here's the honest version:</p>
+
+<ul>
+<li><strong>Chevrolet Silverado 1500</strong> — Strong towing numbers and multiple engine choices. Good fit if you want a gas V8 work truck. [NEEDS-VERIFY: current model-year spec range]</li>
+<li><strong>Ford F-150</strong> — The most common truck in Iowa for a reason. Wide parts availability. We don't sell them new, but used ones cross our lot. [NEEDS-VERIFY: inventory-dependent]</li>
+<li><strong>Ram 1500</strong> — Coil-spring rear ride quality stands out on gravel. [NEEDS-VERIFY: generation-specific]</li>
+<li><strong>Toyota Tundra and Tacoma</strong> — The Tundra tows like a full-size should. The Tacoma fits smaller jobs and lasts. Toyota service happens here, in Carroll, for the life of the truck.</li>
+</ul>
+
+<p>Every used truck on our lot gets inspected before it's listed. Want the details on a specific one? Ask.</p>
+
+<h2 id="towing-numbers">Towing: what do the numbers actually mean?</h2>
+
+<p>Towing capacity is what the truck pulls. Payload is what the truck carries — and the two come out of the same budget.</p>
+
+<p>Payload covers passengers, toolbox, fifth-wheel hitch, the dog, everything in the bed. Fill the bed and your remaining towing capacity drops. A camper heavy in the bed plus a boat behind the bumper adds up faster than most people think.</p>
+
+<p>Check the exact rating for the exact truck: year, engine, axle ratio, cab config. The sticker inside the driver's door jamb lists payload. The owner's manual lists towing. OEM spec pages list both by VIN configuration. Our team will walk the numbers with you on any truck we sell — bring your trailer weight and we'll do the math together.</p>
+
+<h2 id="browse">See today's used truck inventory in Carroll</h2>
+
+<p>Every truck on the lot is listed below, updated daily from our inventory feed.</p>
+
+<p>Questions on any truck — towing, history, what it can pull to Storm Lake — call our team at <a href="tel:+17127922266">712-792-2266</a> or stop by 114 N. Grant Road in Carroll. Need a closer look? <a href="/contactus">Request a test drive</a> and we'll have it ready.</p>
+
+<div id="inventory-widget">[Live inventory widget — feeds from motorinnautogroup.com inventory API]</div>
+
+<p style="font-size:0.85em;">Sources: Chevrolet and Toyota OEM towing guides (chevrolet.com, toyota.com); Motor Inn Auto Group live inventory feed. Specs vary by year, engine, and configuration — verify against the specific VIN.</p>
+## Sources (from research)
+see brain/research/used-trucks-carroll/research.md
+## Needs-verify items
+(flagged inline above)
+## Questions for Spencer
+1. Voice OK?
+2. Any claim to soften?
+3. CTA right?
