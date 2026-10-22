@@ -130,3 +130,13 @@ in Chrome. Then rerun /tmp/bing_pwJ successor to submit 3 sitemaps (script ready
 Alternative: BWT API key from that account -> creds to ~/.config/motorinn/bing.env for
 repeatable API submissions (preferred long-term; enables ping + submission cron).
 ## TARGETS 2026-10-22 set; Monday cycle takes #1 contactus
+
+
+## HOLMBERG SPRINT 2026-10-22: all 5 targets drafted
+Writer = our own llama-class server GLM-5.3-Flash-EXL3 @ spark-a664:100.67.25.103:8888
+(only live local gen model; Emily's spark down, studio down). Voice DNA + anti-slop +
+NEEDS-VERIFY flags enforced via prompt; phone entity post-fixed.
+Drafts+reviews: content/drafts/seo/{contactus-money-page,trim-levels-explained,
+highlander-vs-grand-highlander,used-trucks-carroll,testdrive-page}-draft.html (+-REVIEW.md).
+NEXT: Spencer reviews 5 packages; on approve -> publish path per page ownership
+(DealerOn cases for .aspx pages; direct for static if editable).
