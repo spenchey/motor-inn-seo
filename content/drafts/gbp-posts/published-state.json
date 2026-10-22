@@ -103,5 +103,33 @@
     "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEKea1enesuPypAE",
     "state": "PROCESSING",
     "publishDate": "2026-10-15"
+  },
+  "posts-week-of-2026-10-15::The First Freeze Is A Vehicle Audit You Do Not Have To Fail::locations/14730652758503817758": {
+    "publishedAt": "2026-10-22T20:05:45.452Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/2824522844809549617",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEJLukuH8hp_M6gE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-20"
+  },
+  "posts-week-of-2026-10-15::The First Freeze Is A Vehicle Audit You Do Not Have To Fail::locations/2099693230539902964": {
+    "publishedAt": "2026-10-22T20:05:45.769Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/2836324655045965304",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEKvt2Ir_1v7Gbw",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-20"
+  },
+  "posts-week-of-2026-10-15::What Your Tires Are Telling You At Every Stoplight::locations/14730652758503817758": {
+    "publishedAt": "2026-10-22T20:05:46.240Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/1843660693450715507",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEMz4pO7ZpbyfyAE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-22"
+  },
+  "posts-week-of-2026-10-15::What Your Tires Are Telling You At Every Stoplight::locations/2099693230539902964": {
+    "publishedAt": "2026-10-22T20:05:46.583Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/759457210007734595",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKENK_9OyIqPvlYw",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-22"
   }
 }

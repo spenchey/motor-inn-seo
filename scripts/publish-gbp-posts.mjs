@@ -69,6 +69,7 @@ const CTA_MAP = {
   'call now': { actionType: 'CALL', needsUrl: false },
   'learn more': { actionType: 'LEARN_MORE', needsUrl: true },
   'book now': { actionType: 'BOOK', needsUrl: true },
+  'book appointment': { actionType: 'BOOK', needsUrl: true },
   'browse inventory': { actionType: 'SHOP', needsUrl: true },
   'shop now': { actionType: 'SHOP', needsUrl: true },
   'sign up': { actionType: 'SIGN_UP', needsUrl: true },
