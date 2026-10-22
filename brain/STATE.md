@@ -46,3 +46,35 @@ Website footer: 1526 Le Clark Rd / 712-792-5000 -> MATCH.
 Open item: 'Motor Inn Chevrolet Carroll' and 'Motor Inn of Carroll Iowa' queries return
 NONE -> the Chevy store has no distinct GBP listing surfaced by name; hours null on GBP.
 Action queued: verify Chevy-store GBP existence + add hours to GBP.
+
+## TARGET QUEUE 2026-10-22 (per Holmberg step 1: leads x rankability x our right to answer)
+Ranked. Monday cycle takes #1.
+
+1. /contactus.aspx + /contactus/carroll (THE money page)
+   8,450 imp / pos 4.7-7.4 / 7,166 keyEvents. Wins: 'carroll iowa car dealerships'
+   (88 imp, pos 12.9), 'car dealerships carroll iowa' (169 imp, pos 26.1!),
+   'car dealerships near me' (49, 4.1). Fix = page content answering dealership-choice
+   questions + the dealer-comparison trust section. Zero new page needed.
+
+2. /vehicle-trim-levels-explained (top-funnel, ranks 12.6-44)
+   5,811 imp, 2 clicks, pos 12.8. Queries: 'car trim levels' 87, 'car trim level
+   comparison' 47 pos 44! Rewrite H2s to the exact queries, add comparison table +
+   'which trim' decision helper, tie to live inventory by trim. Pure content play,
+   no DealerOn dependency (static page we can edit? VERIFY ownership).
+
+3. /highlander-vs-grand-highlander (vs-pattern, pos 24 on 'vs' intent)
+   840 imp pos 24.2. His exact '[A] vs [B]' pattern. Expand to full comparison
+   (dimensions, hybrid, price band w/ live units).
+
+4. /used-trucks (money list, pos 33)
+   575 imp pos 33 on dealer terms. Needs internal links from trim/maintenance pages
+   + truck-buying FAQ.
+
+5. /testdrive.aspx pos 24.8, 882 imp - CTA page invisible. Quick win likely.
+
+TRAPS (do NOT invest): /searchused.aspx (1.4k imp, ZERO leads), /service-area,
+blog posts w/o leads.
+
+Also: 'car dealerships carroll iowa' cluster (169+88+36 imp, pos 12-26) is THE local
+comparison battle - Choice Auto leads AI citations (per competitor-read). The contact-us
+rewrite + outreach to whoever's 'best dealers' list ranks = the play.

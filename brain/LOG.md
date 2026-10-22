@@ -129,3 +129,4 @@ NEEDS SPENCER (10s): sign in at bing.com/webmasters with Google -> bingwebmaster
 in Chrome. Then rerun /tmp/bing_pwJ successor to submit 3 sitemaps (script ready).
 Alternative: BWT API key from that account -> creds to ~/.config/motorinn/bing.env for
 repeatable API submissions (preferred long-term; enables ping + submission cron).
+## TARGETS 2026-10-22 set; Monday cycle takes #1 contactus
