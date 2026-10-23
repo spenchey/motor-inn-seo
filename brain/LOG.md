@@ -140,3 +140,5 @@ Drafts+reviews: content/drafts/seo/{contactus-money-page,trim-levels-explained,
 highlander-vs-grand-highlander,used-trucks-carroll,testdrive-page}-draft.html (+-REVIEW.md).
 NEXT: Spencer reviews 5 packages; on approve -> publish path per page ownership
 (DealerOn cases for .aspx pages; direct for static if editable).
+
+## 2026-10-22: all 5 drafts emailed to Spencer for review (1a166a12bab9acbb)
