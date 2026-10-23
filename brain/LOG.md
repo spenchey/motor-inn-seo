@@ -180,3 +180,12 @@ Contact + testdrive drafts remain with Spencer (not yet approved for publish).
 - Growth Hacker: 91 | Ruthlessly prioritized, data-backed queue with honest traps and a clear money-page focus; only soft spot is unverified page ownership and a 
 - Operations Expert: 88 | Strong, data-backed queue with real GSC numbers and correct 51401 focus, but the "VERIFY ownership" on #2 and the Choice Auto outreach are u
 - ROI Calculator: 91 | Rare queue where every item cites real GSC counts, names the exact fix, and ties to lead events — the weakest link is the unverified page ow
+
+## WIRE-UP COMPLETE 2026-10-23 (codex audit items 1-3)
+1. keyword-gap: brain/gap_run.py v2 (correct DFS element semantics); FIRST RUN = 138 gaps
+   (choiceauto 25, wittrock 22, proautosales 13, billionauto 82). Weekly Mon 7am launchd
+   com.motorinn.seo.weekly-intel. NOTE: geo-tightening (metro terms) = next iteration.
+2. ai-visibility: FIRST RUN baseline saved (brain/ai-visibility/). Key insight: 'best dealer'
+   queries = 0% ours (local pack), brand/service = 100%. Fix = outreach/listings play.
+3. weekly report #1: brain/reports/week-2026-10-23.md.
+All three wired into launchd; goal loop consumes artifacts.
