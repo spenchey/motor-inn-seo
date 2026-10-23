@@ -142,3 +142,9 @@ NEXT: Spencer reviews 5 packages; on approve -> publish path per page ownership
 (DealerOn cases for .aspx pages; direct for static if editable).
 
 ## 2026-10-22: all 5 drafts emailed to Spencer for review (1a166a12bab9acbb)
+
+REMAINING FACTS I COULD NOT VERIFY (only 3, all optional-to-publish):
+1. Trade appraisal walk-in policy (draft says 'no appointment needed' - TRUE?)
+2. Financing structure: in-house dept vs lender network only; 'bad credit ok' wording
+3. Test drive: license/insurance requirement + is 30 min the honest duration?
+(Emily will design around these; final wording can be locked at DealerOn case stage.)
