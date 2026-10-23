@@ -168,3 +168,15 @@ NEXT: Spencer go/change per page -> DealerOn cases (aspx) + publish path (static
 - used-trucks-carroll: 1a1697567d479e20
 Each: replace body content of existing URL, final HTML attached, verify step included.
 Contact + testdrive drafts remain with Spencer (not yet approved for publish).
+
+## PANEL 2026-10-23T12:28 target=/tmp/plan_under_test.md mean=90
+- Technical SEO Specialist: 91 | Data-backed, correctly prioritized queue with honest traps and a clear money-page focus; minor verification gaps keep it from 95+.
+- Content Strategist: 91 | Rare queue that leads with the money page and cites real GSC numbers per item, but the verification gaps (page ownership, AI-citation play) 
+- Conversion Rate Optimizer: 91 | Rare plan that leads with the money page and names exact queries, positions, and event counts — but the conversion path from #2's traffic is
+- Revenue Attribution Expert: 91 | Rare queue where every item cites real GSC numbers, ties to a named conversion event, and names its traps — the weakest link is the unverifi
+- Competitive Analyst: 88 | Strong data-backed queue with clear lead logic, but the competitive play against Choice Auto's AI-citation lead is asserted, not evidenced, 
+- AI/AEO Specialist: 91 | Data-grounded, conversion-tied queue with correct lead-first prioritization; only soft spot is the AI-citation outreach play being named but
+- Data Scientist: 84 | Strong data-backed queue with clear lead logic, but several claims lack verification and the statistical windows/n-sizes are unstated.
+- Growth Hacker: 91 | Ruthlessly prioritized, data-backed queue with honest traps and a clear money-page focus; only soft spot is unverified page ownership and a 
+- Operations Expert: 88 | Strong, data-backed queue with real GSC numbers and correct 51401 focus, but the "VERIFY ownership" on #2 and the Choice Auto outreach are u
+- ROI Calculator: 91 | Rare queue where every item cites real GSC counts, names the exact fix, and ties to lead events — the weakest link is the unverified page ow
