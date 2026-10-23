@@ -148,3 +148,10 @@ REMAINING FACTS I COULD NOT VERIFY (only 3, all optional-to-publish):
 2. Financing structure: in-house dept vs lender network only; 'bad credit ok' wording
 3. Test drive: license/insurance requirement + is 30 min the honest duration?
 (Emily will design around these; final wording can be locked at DealerOn case stage.)
+
+## OWNER ANSWERS APPLIED 2026-10-23 (bbcf03f)
+1. Trade walk-in: confirmed -> kept
+2. Financing: lender-network only; 'bad credit' references stripped
+3. Test drive: no license/insurance mention; 'at your convenience' framing
+All NEEDS-VERIFY converted to BUILD-NOTE (Emily resolves OEM specs/inventory at build).
+Kanban t_92537575 commented w/ final copy constraints. Copy LOCKED; Emily designing.
