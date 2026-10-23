@@ -161,3 +161,10 @@ Kanban t_92537575 commented w/ final copy constraints. Copy LOCKED; Emily design
 Patched: phone added to highlander CTA. Installed repo content/ready-design/ commit 2e2e3f9.
 Emailed zip+summary to Spencer for visual review (1a16903e23a7b2f6).
 NEXT: Spencer go/change per page -> DealerOn cases (aspx) + publish path (static).
+
+## DEALERON PUBLISH REQUESTS SENT 2026-10-23 (3 pages, one issue per email)
+- trim-levels-explained: 1a169755d4d452ac
+- highlander-vs-grand-highlander: 1a169756282f92c0
+- used-trucks-carroll: 1a1697567d479e20
+Each: replace body content of existing URL, final HTML attached, verify step included.
+Contact + testdrive drafts remain with Spencer (not yet approved for publish).
