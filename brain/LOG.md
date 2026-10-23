@@ -155,3 +155,9 @@ REMAINING FACTS I COULD NOT VERIFY (only 3, all optional-to-publish):
 3. Test drive: no license/insurance mention; 'at your convenience' framing
 All NEEDS-VERIFY converted to BUILD-NOTE (Emily resolves OEM specs/inventory at build).
 Kanban t_92537575 commented w/ final copy constraints. Copy LOCKED; Emily designing.
+
+## DESIGNS IN 2026-10-23 (Emily t_92537575 complete)
+5 self-contained DealerOn-matched pages verified on disk (1 H1 each, 0 flags, CTAs OK).
+Patched: phone added to highlander CTA. Installed repo content/ready-design/ commit 2e2e3f9.
+Emailed zip+summary to Spencer for visual review (1a16903e23a7b2f6).
+NEXT: Spencer go/change per page -> DealerOn cases (aspx) + publish path (static).
