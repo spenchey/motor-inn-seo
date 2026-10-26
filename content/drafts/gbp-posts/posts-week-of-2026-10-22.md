@@ -90,7 +90,7 @@ Every winter the pattern repeats in our lot: the AWD and 4WD inventory moves fir
 Wipers, a cabin filter, floor mats, the right bulb for a trailer connector — the small parts counter at Motor Inn sees more winter traffic than the showroom, and for good reason: it is the five-minute version of vehicle care. Bring the year, make, and model, or just the old part in a bag, and the counter will match it and hand you the correct one. If you would rather have it installed, service takes it from there, same building. Carroll does not need another online order with a two-week arrival window when the part is on the shelf in town.
 
 **CTA button:** Call Now
-**CTA link:** tel:7128827802
+**CTA link:** tel:7127925000
 
 **Image:** Parts counter with a parts pro handing a boxed wiper set across the counter, catalog screen visible, winter floor mats stacked to the side.
 

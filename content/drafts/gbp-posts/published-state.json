@@ -131,5 +131,75 @@
     "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKENK_9OyIqPvlYw",
     "state": "PROCESSING",
     "publishDate": "2026-10-22"
+  },
+  "posts-week-of-2026-10-22::The Trade-In Question Worth Asking Before Year-End *(already drafted Oct 15 — Sunday flex, publish Oct 25)*::locations/14730652758503817758": {
+    "publishedAt": "2026-10-22T20:20:38.469Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/6832187338240388184",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKENjF09KlsKvTywE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-25"
+  },
+  "posts-week-of-2026-10-22::The Trade-In Question Worth Asking Before Year-End *(already drafted Oct 15 — Sunday flex, publish Oct 25)*::locations/2099693230539902964": {
+    "publishedAt": "2026-10-22T20:20:38.864Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/3096810743997084554",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEOre8KqE68KiMQ",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-25"
+  },
+  "posts-week-of-2026-10-22::What Twenty Dollars Of Preheat Saves You In January::locations/14730652758503817758": {
+    "publishedAt": "2026-10-22T20:20:39.148Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/9240929882036741",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEIj1tuTXkOPJ5gE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-27"
+  },
+  "posts-week-of-2026-10-22::What Twenty Dollars Of Preheat Saves You In January::locations/2099693230539902964": {
+    "publishedAt": "2026-10-22T20:20:39.472Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/1432818174659511909",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEM-B18XA__HZMQ",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-27"
+  },
+  "posts-week-of-2026-10-22::Deer Season Is Traffic Season Out Here::locations/14730652758503817758": {
+    "publishedAt": "2026-10-22T20:20:39.743Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/8528230964936812890",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEIP46di2irOr7QE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-29"
+  },
+  "posts-week-of-2026-10-22::Deer Season Is Traffic Season Out Here::locations/2099693230539902964": {
+    "publishedAt": "2026-10-22T20:20:40.033Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/5693388562472084305",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEM_no5-ZvsL49gE",
+    "state": "PROCESSING",
+    "publishDate": "2026-10-29"
+  },
+  "posts-week-of-2026-10-22::Winter Is When The Right Vehicle Picks You::locations/14730652758503817758": {
+    "publishedAt": "2026-10-22T20:20:40.436Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/2232927015231044177",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEL24mvSb0PCObg",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-03"
+  },
+  "posts-week-of-2026-10-22::Winter Is When The Right Vehicle Picks You::locations/2099693230539902964": {
+    "publishedAt": "2026-10-22T20:20:40.755Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/3036975517670649208",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEOWfoNC_sa64dw",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-03"
+  },
+  "posts-week-of-2026-10-22::The Parts Counter Question You Should Just Ask::locations/14730652758503817758": {
+    "publishedAt": "2026-10-22T20:33:45.926Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/3404149894321653632",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEKaLr6eSu6GDHg",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-05"
+  },
+  "posts-week-of-2026-10-22::The Parts Counter Question You Should Just Ask::locations/2099693230539902964": {
+    "publishedAt": "2026-10-22T20:33:46.350Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/3421658310693431292",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEPr06_SLo8-TswE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-05"
   }
 }
