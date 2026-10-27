@@ -195,3 +195,12 @@ All three wired into launchd; goal loop consumes artifacts.
 - mini: repo pulled current; creds copied to ~/.config/motorinn/dataforseo.env;
   launchd com.motorinn.seo.weekly-intel LOADED + kickstart VERIFIED (own run, own commit bf0da85)
 - schedule: Mondays 7am CT on mini. Gap+AI-vis artifacts & commits now originate on mini.
+
+## CODEX 3-TASK RUN COMPLETE 2026-10-27 (Brooks thread gaps)
+1. feed.json: proxy branch feed-json (commit ce0ff09, 65 tests pass). NOT deployed - awaiting
+   Spencer approval. Spec: brain/FEED-API.md. Deploy = merge + EC2 redeploy.
+2. datestamp: content/ready-datestamp.html + amendment draft
+   pipeline/drafts/datestamp-amendment-draft.md (NOT sent).
+3. AI referrals: brain/ai-referrals.md (segment def + API call) + working brain/ai_referrals.py
+   -> chatgpt.com 7 sessions/28d BASELINE. Hooked into weekly-report runbook?
+   (verify grep above). Weekly report will carry the section.
