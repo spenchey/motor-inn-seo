@@ -10,7 +10,7 @@ Spencer's chat by the existing goal-loop cron (no approvals needed to REPORT).
 - AI visibility: DataForSEO AI-Mode spot-check on 3 money queries ($0.006/wk cap)
 - Bing WMT AI Performance report (once access granted; skip until then)
 - Pipeline: drafts awaiting approval; pages published; research files opened
-- DealerOn cases: open items from brain/LOG.md
+- AI referrals: run `python3 brain/ai_referrals.py` (read-only GA4; prints counts per source).
 
 ## Format (strict, <=25 lines)
 WEEK OF <date>
@@ -21,6 +21,9 @@ WEEK OF <date>
 5. Blocked on DealerOn: <case, days>
 6. Needs Spencer: <approvals, logins - max 2 items>
 7. Next week plan: <one change per active page; new targets>
+
+## AI referrals
+Run `python3 brain/ai_referrals.py` (read-only GA4; prints counts per source) and append the output line to the weekly digest.
 
 ## Delivery
 Append to brain/reports/week-YYYY-MM-DD.md AND push summary via goal-loop cron channel.
