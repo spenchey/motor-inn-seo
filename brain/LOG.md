@@ -189,3 +189,9 @@ Contact + testdrive drafts remain with Spencer (not yet approved for publish).
    queries = 0% ours (local pack), brand/service = 100%. Fix = outreach/listings play.
 3. weekly report #1: brain/reports/week-2026-10-23.md.
 All three wired into launchd; goal loop consumes artifacts.
+
+## MIGRATION 2026-10-23: weekly-intel -> Mac Mini 2 (per Spencer)
+- workMac: 41 commits pushed (rebase over mini GBP history), launchd job UNLOADED
+- mini: repo pulled current; creds copied to ~/.config/motorinn/dataforseo.env;
+  launchd com.motorinn.seo.weekly-intel LOADED + kickstart VERIFIED (own run, own commit bf0da85)
+- schedule: Mondays 7am CT on mini. Gap+AI-vis artifacts & commits now originate on mini.

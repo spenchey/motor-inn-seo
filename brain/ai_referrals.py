@@ -2,6 +2,7 @@
 """AI referral traffic counts from GA4 property 364125348 (read-only)."""
 import json, re
 from pathlib import Path
+import sys; sys.path.insert(0, "/Users/spencerheywood/Documents/motorinn-ga4")
 from ga4_common import mint_sa, run_report
 
 MATCH = re.compile(r"(?i)(chatgpt|openai|perplexity|copilot|gemini|edgeservices)")

@@ -6,6 +6,7 @@ PYTHON=/Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13
 export TZ=America/Chicago
 cd "$ROOT" || exit 1
 status=0
+$PYTHON $ROOT/automation/intake/linear_brief_intake.py || status=1  # MOT-3170 approved Grok briefs into pipeline
 "$PYTHON" "$ROOT/automation/collect_inventory_evidence.py" || status=1
 "$PYTHON" "$ROOT/automation/content_builder.py" || status=1
 "$PYTHON" "$ROOT/automation/orchestrator.py" "$@" || status=1
