@@ -126,3 +126,95 @@ Playbook source: competitor-teardown/ADAPTATION-PLAYBOOK.md.
 
 Preview index rebuilt at root with ALL 16 entries (8 core + 6 batch1 + sections).
 Batch1 live under /2026-11-05/ path prefix; core at root. 14/14 URLs verified 200.
+
+## DEAL BADGES case 01923978 -> new case 01940814 (2026-10-07)
+DealerOn (Josh Meyer) asked for: (1) badge images list, (2) tag verbiage per image.
+REPLIED with spec (1a117b25de9bb456, acked as case 01940814):
+- feed field badge_code: GREAT_DEAL | GOOD_DEAL | FAIR_DEAL | PRICE_ANALYSIS | blank
+- ribbon mapping + placement (card overlay + VDP hero), blank = no badge
+- source: nightly vAuto market rating; staged verification before go-live
+Also note: sitemap x2B case 01940542 = only acks so far (no fix yet).
+Pending DealerOn: sitemap generator fix; badge feed field; soft-404 404/410 change
+(draft staged, NOT sent - pipeline/drafts/soft404-fix-draft.md).
+
+## CORRECTION 2026-10-07: case 01940542 subject entity issue
+Original subject contained literal HTML entity -> DealerOn ticket title rendered escaped
+('&amp;#x2B;'). Follow-up sent with clean subject + plain-English bug restatement
+(no entities in subject/body), same fix request. 1a117ba4008ea7ac.
+Lesson: never put HTML entities in email subjects to ticketing systems.
+
+## BING WEBMASTER SUBMISSION 2026-10-11
+Attempted full automation: AppleScript blocked (JS-from-AppleEvents off, GUI toggle flaky),
+CDP found hermes-workspace chrome on :19222 (wrong profile), playwright+Default profile works.
+BWT login required: Google chooser shows remembered bingwebmaster17@gmail.com but session
+stale -> password entry needed (agent must not type passwords per rule).
+NEEDS SPENCER (10s): sign in at bing.com/webmasters with Google -> bingwebmaster17@gmail.com
+in Chrome. Then rerun /tmp/bing_pwJ successor to submit 3 sitemaps (script ready).
+Alternative: BWT API key from that account -> creds to ~/.config/motorinn/bing.env for
+repeatable API submissions (preferred long-term; enables ping + submission cron).
+## TARGETS 2026-10-22 set; Monday cycle takes #1 contactus
+
+
+## HOLMBERG SPRINT 2026-10-22: all 5 targets drafted
+Writer = our own llama-class server GLM-5.3-Flash-EXL3 @ spark-a664:100.67.25.103:8888
+(only live local gen model; Emily's spark down, studio down). Voice DNA + anti-slop +
+NEEDS-VERIFY flags enforced via prompt; phone entity post-fixed.
+Drafts+reviews: content/drafts/seo/{contactus-money-page,trim-levels-explained,
+highlander-vs-grand-highlander,used-trucks-carroll,testdrive-page}-draft.html (+-REVIEW.md).
+NEXT: Spencer reviews 5 packages; on approve -> publish path per page ownership
+(DealerOn cases for .aspx pages; direct for static if editable).
+
+## 2026-10-22: all 5 drafts emailed to Spencer for review (1a166a12bab9acbb)
+
+REMAINING FACTS I COULD NOT VERIFY (only 3, all optional-to-publish):
+1. Trade appraisal walk-in policy (draft says 'no appointment needed' - TRUE?)
+2. Financing structure: in-house dept vs lender network only; 'bad credit ok' wording
+3. Test drive: license/insurance requirement + is 30 min the honest duration?
+(Emily will design around these; final wording can be locked at DealerOn case stage.)
+
+## OWNER ANSWERS APPLIED 2026-10-23 (bbcf03f)
+1. Trade walk-in: confirmed -> kept
+2. Financing: lender-network only; 'bad credit' references stripped
+3. Test drive: no license/insurance mention; 'at your convenience' framing
+All NEEDS-VERIFY converted to BUILD-NOTE (Emily resolves OEM specs/inventory at build).
+Kanban t_92537575 commented w/ final copy constraints. Copy LOCKED; Emily designing.
+
+## DESIGNS IN 2026-10-23 (Emily t_92537575 complete)
+5 self-contained DealerOn-matched pages verified on disk (1 H1 each, 0 flags, CTAs OK).
+Patched: phone added to highlander CTA. Installed repo content/ready-design/ commit 2e2e3f9.
+Emailed zip+summary to Spencer for visual review (1a16903e23a7b2f6).
+NEXT: Spencer go/change per page -> DealerOn cases (aspx) + publish path (static).
+
+## DEALERON PUBLISH REQUESTS SENT 2026-10-23 (3 pages, one issue per email)
+- trim-levels-explained: 1a169755d4d452ac
+- highlander-vs-grand-highlander: 1a169756282f92c0
+- used-trucks-carroll: 1a1697567d479e20
+Each: replace body content of existing URL, final HTML attached, verify step included.
+Contact + testdrive drafts remain with Spencer (not yet approved for publish).
+
+## PANEL 2026-10-23T12:28 target=/tmp/plan_under_test.md mean=90
+- Technical SEO Specialist: 91 | Data-backed, correctly prioritized queue with honest traps and a clear money-page focus; minor verification gaps keep it from 95+.
+- Content Strategist: 91 | Rare queue that leads with the money page and cites real GSC numbers per item, but the verification gaps (page ownership, AI-citation play) 
+- Conversion Rate Optimizer: 91 | Rare plan that leads with the money page and names exact queries, positions, and event counts — but the conversion path from #2's traffic is
+- Revenue Attribution Expert: 91 | Rare queue where every item cites real GSC numbers, ties to a named conversion event, and names its traps — the weakest link is the unverifi
+- Competitive Analyst: 88 | Strong data-backed queue with clear lead logic, but the competitive play against Choice Auto's AI-citation lead is asserted, not evidenced, 
+- AI/AEO Specialist: 91 | Data-grounded, conversion-tied queue with correct lead-first prioritization; only soft spot is the AI-citation outreach play being named but
+- Data Scientist: 84 | Strong data-backed queue with clear lead logic, but several claims lack verification and the statistical windows/n-sizes are unstated.
+- Growth Hacker: 91 | Ruthlessly prioritized, data-backed queue with honest traps and a clear money-page focus; only soft spot is unverified page ownership and a 
+- Operations Expert: 88 | Strong, data-backed queue with real GSC numbers and correct 51401 focus, but the "VERIFY ownership" on #2 and the Choice Auto outreach are u
+- ROI Calculator: 91 | Rare queue where every item cites real GSC counts, names the exact fix, and ties to lead events — the weakest link is the unverified page ow
+
+## WIRE-UP COMPLETE 2026-10-23 (codex audit items 1-3)
+1. keyword-gap: brain/gap_run.py v2 (correct DFS element semantics); FIRST RUN = 138 gaps
+   (choiceauto 25, wittrock 22, proautosales 13, billionauto 82). Weekly Mon 7am launchd
+   com.motorinn.seo.weekly-intel. NOTE: geo-tightening (metro terms) = next iteration.
+2. ai-visibility: FIRST RUN baseline saved (brain/ai-visibility/). Key insight: 'best dealer'
+   queries = 0% ours (local pack), brand/service = 100%. Fix = outreach/listings play.
+3. weekly report #1: brain/reports/week-2026-10-23.md.
+All three wired into launchd; goal loop consumes artifacts.
+
+## STATUS 2026-10-27 09:50 (live-checked)
+- trim-levels-explained: NEW copy LIVE
+- highlander-vs-grand-highlander: NEW copy LIVE
+- used-trucks-carroll-iowa: still OLD copy; no DealerOn reply on 1a1697567d479e20. Spencer: do NOT nudge DealerOn (said no 10-27).
+- contact + testdrive: drafts with Spencer (resent 10-27 9:43 thread 1a17dd13274d890e), awaiting go/change; NOT sent to DealerOn.
