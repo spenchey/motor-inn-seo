@@ -37,9 +37,17 @@ from `/Users/spencerheywood/Documents/motorinn-ga4/ga4_common.py`
 
 Note: Data API match type is `PARTIAL_REGEXP`, not `REGEX`.
 
+## Weekly dashboard
+`brain/ai_referrals.py` now also generates `brain/reports/ai-visits-latest.html` with a per-source sessions, users, and trend table. The existing weekly-intel launchd on this Mac calls the script each Monday; replicate the same call in `brain/weekly_intel_mini.sh` if that job is enabled on nada-mini.
+
 ## Reporting hook
 `brain/ai_referrals.py` prints one `source<TAB>count` row per matched source. Add its
 output to the weekly SEO/AI visibility digest in `agents/weekly-report.md`.
+
+## Weekly per-source report
+Current script produces:
+- Console: `source<TAB>sessions<TAB>users<TAB>delta<TAB>trend`
+- HTML: `brain/reports/ai-visits-latest.html` (no JS dependencies)
 
 ## Verification
 Runbook has been tested live, read-only. Latest local run (2026-10-27) returned:
