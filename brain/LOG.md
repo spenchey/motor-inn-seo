@@ -216,3 +216,9 @@ C. Answer-page factory: brain/ANSWER-PAGES.md (3 ranked patterns + panel gate + 
 D. Crawlability audit: 0 JS-only vehicle URLs on all 3 sites - no DealerOn case needed;
    artifact brain/reports/inventory-crawlability-audit.md.
 Vinindex note: paid syndication service - skipped; our proxy+feed covers the same surface.
+
+## DEPLOYED 2026-10-28 (codex): feed.json + inventory.md LIVE on all 3 ai. mirrors.
+Verified: 200s across the matrix. Fixes during deploy: chevy 502 (container), feed route.
+Also merged feed-json branch to codex/feed-json-main (40ab716). Email w/ preview links +
+zip of 5 final designs sent (1a184101e4bd7c9f). Pending Spencer: contact/testdrive go;
+DealerOn 3 publishes in flight; datestamp amendment rides next contact.
