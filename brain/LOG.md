@@ -216,3 +216,18 @@ C. Answer-page factory: brain/ANSWER-PAGES.md (3 ranked patterns + panel gate + 
 D. Crawlability audit: 0 JS-only vehicle URLs on all 3 sites - no DealerOn case needed;
    artifact brain/reports/inventory-crawlability-audit.md.
 Vinindex note: paid syndication service - skipped; our proxy+feed covers the same surface.
+## STATUS 2026-10-27 09:50 (live-checked)
+- trim-levels-explained: NEW copy LIVE
+- highlander-vs-grand-highlander: NEW copy LIVE
+- used-trucks-carroll-iowa: still OLD copy; no DealerOn reply on 1a1697567d479e20. Spencer: do NOT nudge DealerOn (said no 10-27).
+- contact + testdrive: drafts with Spencer (resent 10-27 9:43 thread 1a17dd13274d890e), awaiting go/change; NOT sent to DealerOn.
+
+## AI-BUILDERS THREAD: FULLY DEPLOYED 2026-10-28 (codex 4 features, all verified)
+A. /inventory.md live-inventory markdown endpoint (proxy feed-json bbb1d35) - the vinindex
+   killer; deploy w/ feed-json on your go
+B. AI-visits dashboard: brain/reports/ai-visits-latest.html - per-source ChatGPT/Gemini/
+   Perplexity/Copilot table, Mondays
+C. answer-page factory spec + 3 ownership drafts (silverado-towing, tahoe-family,
+   highland-roadtrip) in approval queue
+D. crawlability audit: 0 JS-only vehicle URLs - no DealerOn case needed
+All repos synced @9f04702 (mini/workMac/github). weekly-intel launchd on mini intact.
