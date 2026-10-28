@@ -222,3 +222,13 @@ Verified: 200s across the matrix. Fixes during deploy: chevy 502 (container), fe
 Also merged feed-json branch to codex/feed-json-main (40ab716). Email w/ preview links +
 zip of 5 final designs sent (1a184101e4bd7c9f). Pending Spencer: contact/testdrive go;
 DealerOn 3 publishes in flight; datestamp amendment rides next contact.
+
+## ANSWERS to Spencer 2026-10-28 (inventory freshness + no DealerOn email)
+Q1 freshness: AUTOMATIC. Chain = DealerVault(DMS) -> S3 motorinn-dealervault-raw/
+  normalized/current_inventory_market/latest -> proxy reads w/ 5-min cache.
+  Live proof: page header 'DealerVault last updated 2026-10-28T11:23:54Z' (today),
+  114 units. Stale>36h = proxy shows unavailable, never wrong data.
+  => NOTHING to maintain. .ai mirrors can't go stale >36h by design.
+Q2 DealerOn email for datestamp: CORRECT - not needed. Datestamp embedded directly in
+  all 5 ready-design pages (commit) - it ships WITH the copy when DealerOn mounts them.
+  The separate amendment draft is retired (kept in pipeline/drafts for record).
