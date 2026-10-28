@@ -56,7 +56,7 @@ def reachable_vehicle_urls(site: str, urls: Iterable[str]) -> set[str]:
 def audit_site(site: str) -> list[str]:
     xml = fetch(f"{site}/sitemap.xml")
     vehicle_urls = sitemap_vehicle_urls(BeautifulSoup(xml, "xml"))
-    static_urls = urlparse_reachable(site)
+    static_urls = reachable_vehicle_urls(site, [site, f"{site}/searchnew.aspx", f"{site}/searchused.aspx"])
     return js_only_pages((u.split("?")[0] for u in vehicle_urls), static_urls)
 
 
