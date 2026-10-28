@@ -204,3 +204,15 @@ All three wired into launchd; goal loop consumes artifacts.
 3. AI referrals: brain/ai-referrals.md (segment def + API call) + working brain/ai_referrals.py
    -> chatgpt.com 7 sessions/28d BASELINE. Hooked into weekly-report runbook?
    (verify grep above). Weekly report will carry the section.
+
+## AI-BUILDERS BATCH COMPLETE 2026-10-28 (codex, 4 features)
+A. /inventory.md per-site endpoint on proxy feed-json branch (bbb1d35) - live inventory as
+   markdown, daily cache; sitemap+llms linked. Deploy w/ feed-json (pending Spencer).
+B. AI-visits dashboard: brain/reports/ai-visits-latest.html (per-source table+sparkle css),
+   generator wired into weekly intel.
+C. Answer-page factory: brain/ANSWER-PAGES.md (3 ranked patterns + panel gate + link rules);
+   first 3 ownership drafts: silverado-towing, tahoe-family, highland-roadtrip
+   (content/drafts/seo/) - approval queue next.
+D. Crawlability audit: 0 JS-only vehicle URLs on all 3 sites - no DealerOn case needed;
+   artifact brain/reports/inventory-crawlability-audit.md.
+Vinindex note: paid syndication service - skipped; our proxy+feed covers the same surface.
