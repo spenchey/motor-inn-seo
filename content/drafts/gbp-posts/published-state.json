@@ -201,5 +201,89 @@
     "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEPr06_SLo8-TswE",
     "state": "PROCESSING",
     "publishDate": "2026-11-05"
+  },
+  "posts-week-of-2026-10-29::The First Snow Is A Driving Test Most People Take Unprepared::locations/14730652758503817758": {
+    "publishedAt": "2026-10-29T20:57:39.301Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/298935941642008409",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEOGHwKCIs770owE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-10"
+  },
+  "posts-week-of-2026-10-29::The First Snow Is A Driving Test Most People Take Unprepared::locations/2099693230539902964": {
+    "publishedAt": "2026-10-29T20:57:39.622Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/7289879259719994163",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKENSI6ZXnhNXo8QE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-10"
+  },
+  "posts-week-of-2026-10-29::Thanksgiving Week Is Here — The Car Comes First::locations/14730652758503817758": {
+    "publishedAt": "2026-10-29T20:57:39.864Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/8638121844601723059",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKELy8yYamq_vmcQ",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-24"
+  },
+  "posts-week-of-2026-10-29::Thanksgiving Week Is Here — The Car Comes First::locations/2099693230539902964": {
+    "publishedAt": "2026-10-29T20:57:40.140Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/26792293246252168",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKELPS_YrQtZLKsgE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-24"
+  },
+  "posts-week-of-2026-10-29::The Year-End Trade Window Opens This Month::locations/14730652758503817758": {
+    "publishedAt": "2026-10-29T20:57:40.411Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/1586661851649123912",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEMKNj4_-1f3XhgE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-17"
+  },
+  "posts-week-of-2026-10-29::The Year-End Trade Window Opens This Month::locations/2099693230539902964": {
+    "publishedAt": "2026-10-29T20:57:40.727Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/223591598205597870",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEJqOs7z48OPuogE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-17"
+  },
+  "posts-week-of-2026-10-29::Deer Season Is Not Over Until Thanksgiving::locations/14730652758503817758": {
+    "publishedAt": "2026-10-29T20:57:41.022Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/8065488482850609615",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKENqi_7Dtv_7GHg",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-22"
+  },
+  "posts-week-of-2026-10-29::Deer Season Is Not Over Until Thanksgiving::locations/2099693230539902964": {
+    "publishedAt": "2026-10-29T20:57:41.335Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/163006510680912328",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEJ2b8eWkxuWzgwE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-22"
+  },
+  "posts-week-of-2026-10-29::Black Friday Week — Skip The Line, Test The Thing That Matters::locations/14730652758503817758": {
+    "publishedAt": "2026-10-29T20:57:41.593Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/7785693274940949903",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEIGq8avkgIiVzwE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-27"
+  },
+  "posts-week-of-2026-10-29::Black Friday Week — Skip The Line, Test The Thing That Matters::locations/2099693230539902964": {
+    "publishedAt": "2026-10-29T20:57:41.905Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/2850790900252085540",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEKSAzveVsanpCQ",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-27"
+  },
+  "posts-week-of-2026-10-29::Family Arrives This Week — The Guest Room And The Garage Both Need To Be Ready::locations/14730652758503817758": {
+    "publishedAt": "2026-10-29T20:57:42.176Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/175982955639138933",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CIHM0ogKEK_Pm9mE4rOm3AE",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-25"
+  },
+  "posts-week-of-2026-10-29::Family Arrives This Week — The Guest Room And The Garage Both Need To Be Ready::locations/2099693230539902964": {
+    "publishedAt": "2026-10-29T20:57:42.487Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/3801639229526337029",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEL7AvuPHktuVXg",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-25"
   }
 }
