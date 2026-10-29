@@ -1,72 +1,96 @@
-# GBP Velocity Audit — 2026-10-22
+# GBP Velocity Audit — 2026-10-29
 
 ## Method note
-- GBP API v4 via `mybusiness.googleapis.com/v4`, refresh-token flow from `~/.config/google-business-profile/credentials.json` (the stored access token is empty — always refresh). Pull data on nada-mini at `/tmp/gbp-audit-data-1022.json` (raw), this audit written from it.
-- Locations unchanged: review-bearing primary **Toyota+Chevrolet of Carroll** (`14730652758503817758`) and **Chevrolet of Carroll** (`2099693230539902964`); posts publisher listing `1983269944339166584` (still zero reviews).
-- Both accounts mirror the same locations; dedupe by (reviewer, createTime) before counting — the raw pull double-counts.
-- Competitor panels not re-scraped (no API access); 08-27 baselines carried, flagged as such. Structural findings cross-checked against `audits/gbp-structural/gbp-structural-2026-10-19.md` (same week).
+- GBP API v4 via `mybusiness.googleapis.com/v4`, refresh-token flow from `~/.config/google-business-profile/credentials.json` on nada-mini (`/Users/spencerheywood`). Raw pull archived at `audits/gbp-velocity/reviews-pull-2026-10-29.json`; localPosts scan at `audits/gbp-velocity/localposts-scan-2026-10-29.json`.
+- Locations unchanged: review-bearing primary **Toyota+Chevrolet of Carroll** (`14730652758503817758`, "7758") and **Chevrolet of Carroll** (`2099693230539902964`, "2964"); posts publisher listing `1983269944339166584` ("6584", historical only, zero reviews).
+- No review duplicates in the pull (0 of 254 on a (author, createTime) key check).
+- Competitor panels: 10-26 scrape snapshots on nada-mini (`/tmp/gbp1026/*.txt`) give ratings only (no review counts surfaced in the limited Maps view). 08-27 count baselines carried, flagged as such — unchanged practice.
+- Note: `/tmp` artifacts on nada-mini are pruned aggressively; both JSONs now live in the repo.
 
 ## Executive Summary
-- **Review velocity: strong. 21 reviews in 2026 MTD on the primary listing (Sep closed at 25).** Oct is pacing to be the best month since the program started. The mid-August ask remains the engine; P2 maintain. **P1 URGENT: no.**
-- **Reply discipline: 46/50 of the last-50 primary reviews have replies; median lag ~1.2d, p90 ~4.9d.** The four gaps (Dennis Deist, Amy Bice, Troy Kluender, Paula Cross — all 5★, Oct 17–21) were **answered live during this run and verified**. 2026 reply coverage is back to 100%.
-- **Posting gap from the 10-08 audit is closed and holding:** the Oct 12/15 winter-readiness pair went live on the review listings and this run cleared the last two due posts from the 10-15 queue (Oct 20 + Oct 22 slots) — both verified LIVE. The 4-post week-of-10-15 queue is now fully published.
-- **Reply voice continues to improve:** 15 of the last 16 replies name a service/staff/place/vehicle — best on record (2/20 → 6/20 → 15/16).
-- **One recurring nit:** the Joyce Dickinson 4★ reply (Oct 7) says “5 star review … to get a 5 star review.” Star-count mismatch persists in GM-manual replies; keep the exact star value in the draft header (standing item).
-- **Chevrolet listing still flat at 37 reviews since late August** — now ~8 weeks. The 4.8 listing is an asset idling; the structural audit’s delivery-flow review ask is the fix. Carried, owner action.
+- **Review velocity: strong and still the best program stretch on record.** 24 reviews October MTD on the primary (Sep closed 26, Aug 18). Trailing-30d = 25, trailing-60d = 50. **P1 URGENT: no.**
+- **Reply discipline: 49/50 of last-50 primary reviews had replies coming into this run; the one gap (Teresa Quass, 4★, Oct 28, no text) was answered during this run and verified. 2026 reply coverage is 100% again.**
+- **Star-count hygiene improved:** Joyce Dickinson's 4★ (Oct 7) is now correctly answered as a "4 Star review" (the earlier Don Herrig 4★-as-5★ pattern did not recur in the last 25 replies). GM manual path holding.
+- **Posting: every slot through Nov 5 is LIVE** on both review-bearing listings — the 10-22 week file (6 posts incl. the carried flex) fully published and verified. Nothing due remains unpublished; publisher dry-run confirms 0 pending.
+- **Voice: 19/20 of last-20 replies name a service/staff/place/vehicle** — best yet (2/20 → 6/20 → 15/16 → 19/20).
+- **Chevrolet listing still flat at 37 reviews** — now ~9 weeks with zero new reviews and no owner-side movement on the delivery-flow ask. Highest-leverage review action available; carried, owner action.
 
-## Review Velocity
-### Motor Inn (API-exact, 2026-10-22)
+## 1. Review Teardown (Motor Inn, API-exact 2026-10-29)
 | Metric | Toyota+Chevrolet of Carroll | Chevrolet of Carroll |
 |---|---|---|
-| Total reviews (API) | **251** (+5 wk; 246 on 10-19) | **37** (flat ~8 weeks) |
-| Avg rating (last 50) | **4.94** | 4.8 (listing) |
-| Last 50: ratings | 48×5★, 2×4★ | — |
-| Last 50: replied | **50/50 after this run’s 4 replies** | 37/37 |
-| 2026 monthly | Jul —, Aug 4, Sep 25, **Oct 21 MTD** | Aug 1, since — none |
+| Total reviews (API) | **254** (+3 wk; 251 on 10-22) | **37** (flat ~9 weeks) |
+| Avg rating (listing) | 4.6 | 4.8 |
+| Last-50 avg | **4.92** (46×5★, 4×4★) | — |
+| Last-50 replied | 49/50 → **50/50 after this run** | 37/37 |
+| 30 / 60 / 90-day | **25 / 50 / 68** | 0 / 0 / 1 |
+| 2026 monthly | Aug 18 · Sep 26 · **Oct 24 MTD** | Aug 1 · since — none |
 
-### Gap analysis (competitor baselines carried from 08-27 — NOT re-verified)
-- Spirit Lake Ford benchmark 370 vs Motor Inn combined API **288** (251+37). Gap ≈ 82, shrinking ~1/month at current net. **P2 maintain.**
-- Volume-weighted avg ≈ 4.65 across both listings.
+Weekly cadence (primary, last 8 full weeks): 8, 7, 4, 3, 6, 4, 10, 3 — average ~5.6/week; the mid-August ask remains the engine.
 
-## Review Response Analysis
-- **Lag:** median ~1.2d, p90 ~4.9d on the primary (last 50). Healthy; no process change needed.
-- **Unanswered inventory:** zero after this run. The four 2026 gaps were closed with replies posted 2026-10-22 ~20:15–20:30 UTC and verified by listing re-pull.
-- **Voice regimes:** the specific-reply pattern (name the service/vehicle/staff/place) now dominates — 15/16 of last-20 replies. Recent exemplars: Wendy B (pickup at work), Grace (vehicle hunt), Peter Poland (names Amy/Nate/Wayne), Kim Pfannkuch (fast service). The two GM-signed formulaic replies (Karen Louise, Jean Lambertz) are polite but generic; acceptable tail.
-- **Errors:** 1 star-count mismatch in last 20 (Joyce Dickinson 4★ answered with “5 star” language — a repeat of the Don Herrig pattern from 10-01). Draft template already keys off the true star; the manual path keeps drifting. Standing fix stands.
-- **Negative handling:** no 1–3★ since Charles McGinn (Oct 2025, answered). Nothing to triage.
+**Top services mentioned (last 90d, texted reviews):** service department generally (16), oil change (3), tires, brakes, pickup/delivery, battery. Sales-side: vehicle found/ordered, trade-in, no-pressure.
 
-## GBP Posts Audit (API, localPosts)
-| Surface | LIVE | Newest |
+**Staff named (last 90d):** Nate/Nathan (Pudenz/Sporrer merged theme, 10), Amy (3), Matt (3), Kyle (2), Wayne, Rick, Lisa (1 each).
+
+**Geographic mentions:** light — Carroll ×2 in 90d; reviews are service-led, not place-led. No surrounding-town names in the window.
+
+**Negative/complaint themes (last 120d):** essentially none — zero 1–3★ since Oct 2025; the only friction signal is the Aug 13 service-department quote-vs-invoice episode, which was fully remediated (refund received 8/17, reviewer satisfied) and produced the standing "quote in writing" lesson.
+
+**5★ keyword phrases to train customers on:** great service · friendly staff (by name) · quick/timely service · professional and knowledgeable · no pressure · straight answers · took care of everything.
+
+### Competitor snapshot (ratings from 10-26 Maps scrapes; counts = 08-27 carry, NOT re-verified)
+| Dealer | Rating now | Count (8-27 carry) |
 |---|---|---|
-| Review listings (both) | 6 each | **2026-10-22** tire-check post (this run) |
-| Publisher listing | 7 | 2026-10-08 (historical; review-listing copies are the live surface — matches the 10-08/10-15 pattern) |
+| Champion Ford Carroll | 4.2 | — |
+| Wittrock Carroll | 4.6 | 262 |
+| Coleman Co | 4.4 | — |
+| Macke Motors | 3.8 | — |
+| Okoboji Toyota | 4.5 | 1,012 |
+| Toyota of Des Moines | 4.6 | — |
+| Wilson Toyota Ames | 4.7 | — |
+| Rick Collins Toyota | 4.8 | — |
+| Fort Dodge Ford Lincoln Toyota | 4.7 | — |
+| Choice Auto Carroll | 4.4 | — |
+| **Motor Inn (combined, volume-weighted)** | **≈4.65** | **291 (254+37)** |
 
-- **Published this run (verified LIVE + searchUrl issued):** “The First Freeze Is A Vehicle Audit You Do Not Have To Fail” (Oct 20 slot, BOOK) and “What Your Tires Are Telling You At Every Stoplight” (Oct 22 slot, CALL) — each to both review-bearing listings.
-- **Queue after this run:** Oct 25 Sunday flex (“The Trade-In Question Worth Asking Before Year-End”, trade-in CTA) remains **scheduled, not yet due** — the publisher needs a run on/after Oct 25. Then the week-of-10-26 slate below.
-- **Publisher fix shipped this run:** `publish-gbp-posts.mjs` CTA_MAP lacked `book appointment`; added (mapped to BOOK, same as `book now`). The Oct 20 fatal is gone; ledger at 20 entries.
-- **Types:** all STANDARD updates on the live surface; the OFFER-type winter-readiness package (expires Oct 31) went out Oct 15 and stays up through month end.
+## 2. Review Response Analysis
+- **Lag:** median ~1.25d, p90 ~5.3d (last 39 replied) — unchanged from 10-22; healthy, no process change.
+- **Unanswered inventory:** the single 2026 gap (Teresa Quass 4★, Oct 28) was closed this run — reply PUT 200, verified via listing re-pull (`REPLIED 2026-10-29`). Reply text states "four stars" matching the record.
+- **Voice:** 19/20 name service/staff/place; the one miss is a short Aug 17 thanks. Streak is a standing habit, not a fluke — keep it.
+- **Star-count match:** last-25 replied reviews show correct star language (Joyce 4★ fixed Oct 7). Standing item resolved in practice; keep the star value in draft headers.
+- **Negative handling:** nothing to triage — zero ≤3★ in 60d.
 
-## Posting Pattern Forensics
-1. **Cadence held:** 10-12, 10-15 (×2), 10-20, 10-22 — five posts in ten days across the paired listings, Tue/Thu core + Oct 25 flex queued. The Sep-style gap has not recurred since the publisher resumed 10-08.
-2. **Timing drift is gone:** Oct 20 slot published Oct 22 (2-day drift, acceptable); the Oct 22 slot same-day. Keep the weekly Thursday run clearing due posts and the drift bound stays ≤3 days.
-3. Competitor baselines unchanged (08-27 carry): Spirit Lake Ford 370 · Wittrock 262 · Okoboji Toyota 1,012. Structural audit 10-19 re-verified competitor *activity* (Coleman Sep 2026 photos, Wilson owner posts) — our structural gaps are there, not here.
-4. EXA `marketing-content` re-run 2026-10-22 (10 sources, hotel-vertical heavy — treat as directional): consistent with three prior runs — **weekly minimum posting, concrete time-bounded offers, 100–150 words, matched CTA destination, answer-shaped copy that AI search can quote**; GBP now feeds AI Overviews/local recommendations directly, so the straight-answer copy pattern (which our posts already use) is the right shape. New nuance: connect IG/FB in GBP settings so social posts surface on the profile (carried from 10-08; owner settings change, not this run’s remit).
-5. Seasonal window on schedule: first frost mid-Oct Carroll (hit this week), harvest running, winter-prep urgency real and now fully reflected in the live posts. Late-October → November angles: trade-in before year-end, 4WD/AWD need, service-before-travel Thanksgiving lane.
+## 3. GBP Posts Audit (API localPosts, 2026-10-29)
+| Surface | LIVE | Newest LIVE |
+|---|---|---|
+| 7758 (review listing A) | 11 | **2026-10-22 batch** — incl. Deer Season (10-29 slot), Preheat (10-27), Trade-In (10-25), Winter-vehicle (11-03), Parts counter (11-05) all LIVE now |
+| 2964 (review listing B) | 11 | same set, mirrored |
+| 6584 (publisher listing) | 7 | 2026-10-08 (historical; review-listing copies are the live surface) |
+
+- All 7 posts of the 10-22 week file are LIVE on both review listings; topicType STANDARD throughout; CTAs correctly mapped (CALL ×3, BOOK ×2, SHOP, LEARN_MORE).
+- `publish-gbp-posts.mjs --dry-run`: "parsed 5; 3 due; 0 unpublished" — **ledger and live state agree; nothing owed.**
+- The Oct 15 winter-readiness OFFER posts expired on schedule Oct 31 window (still LIVE, fine — Google leaves STANDARD/OFFER up; no action).
+
+## 4. Posting Pattern Forensics
+1. **Cadence held through the busiest stretch:** 10-12 (×2), 10-15 (×2 + offer), 10-22 (×7 batch incl. future-dated slots). Effective publish dates run 10-20 → 11-05 with no gap; the Sep-style drought has not recurred since the publisher resumed 10-08.
+2. **Batching works:** the 10-22 seven-post batch cleared two weeks of slots in one run and all posts verified LIVE. Keep Thursday runs as the single clearing point; drift ≤3d bound intact (future-dated slots go live immediately per Google behavior — noted, harmless).
+3. **Angle rotation on schedule:** freeze/tires → trade-in → preheat economics → deer/brakes → Thanksgiving travel → 4WD used → parts counter. Service, inventory, and FAQ alternated; no two consecutive posts same angle.
+4. Competitor activity baselines unchanged (08-27 carry; 10-19 structural audit re-verified activity). Our gap is Chevrolet-listing reviews + Spirit Lake photos, both owner-side.
+5. **EXA `marketing-content` re-run 2026-10-29 (10 sources, hotel-vertical heavy — directional only):** same three constants as prior runs — weekly minimum posting, concrete time-bounded offers, 100–150 words with matched CTA. The answer-shaped-copy pattern (AI Overviews quote GBP posts) remains correct; our posts already lead with concrete claims. New nuance repeated: connect IG/FB in GBP settings so social posts surface on the profile — owner settings change, carried.
 
 ## Action Items
-1. ~~Reply to the four unanswered 5★ reviews~~ — **done this run**, all four verified via re-pull. 2026 coverage 100% again.
-2. ~~Publish due posts~~ — **done this run** (Oct 20 + Oct 22 slots live). **Owner action unchanged: run the publisher on/after Oct 25** for the Sunday flex post, or fold it into next Thursday’s run (Oct 29) — the flex post ages gracefully.
-3. **Star-count mismatch (standing):** Joyce Dickinson-style “5 star” on a 4★. Keep exact star value in the daily draft header; GM manual path keeps drifting.
-4. **Voice convergence:** 15/16 — bar met this cycle; keep the specific-reply pattern as default in drafts.
-5. **Chevrolet review nudge (owner, carried ~8 weeks):** 37 flat since late August on the 4.8 listing. Add the review ask to Chevrolet delivery/checkout. Highest-leverage review action available.
-6. **Structural handoffs (from 10-19 audit, unchanged):** Week 1 photo batch due **Fri 2026-10-23** (tomorrow); Book-online CTA; Buick listing decision; duplicate shell claim. Not repeated here — see that audit.
-7. **P1 URGENT: no.** Velocity strong, zero unanswered, lag single-digit. #seo-monitoring not paged.
+1. ~~Reply to Teresa Quass 4★~~ — **done this run**, verified.
+2. ~~Publish due posts~~ — **none due; week fully live through Nov 5.** Next content block (week of 11-09) drafted this run — see `content/drafts/gbp-posts/posts-week-of-2026-10-29.md`.
+3. **Chevrolet review ask (owner, ~9 weeks):** 37 flat since late August. Add the review ask to Chevrolet delivery/checkout. Unchanged; still the highest-leverage review action.
+4. **Star hygiene:** holding; keep exact star value in draft headers.
+5. **Structural handoffs:** per 10-19 audit — photo batch, book-online CTA, Buick listing decision, duplicate shell claim. Not repeated here.
+6. **P1 URGENT: no.** Velocity strong, zero unanswered, lag single-digit. #seo-monitoring not paged.
 
 ## Keyword Phrases for Review Requests
-great service · easy process · friendly staff by name · worth the drive · straight answers · no pressure
+great service · friendly staff by name · quick and professional · no pressure · straight answers · worth the drive
 
 ## Sources Used This Run
-- GBP API v4 pulls 2026-10-22 ~20:00–20:45 UTC: reviews both locations (`/tmp/gbp-audit-data-1022.json`), localPosts all three listings, four reply PUTs + verification re-pull, two localPosts creates + verification.
-- `publish-gbp-posts.mjs --limit 4` (ledger `content/drafts/gbp-posts/published-state.json`, now 20 entries; CTA_MAP `book appointment` fix included in commit).
-- EXA `marketing-content` preset 2026-10-22 via `~/clawd/scripts/no-model/exa-preset.sh` (10 sources).
-- Prior audits `gbp-velocity-2026-10-08.md`, `gbp-structural-2026-10-19.md` for baselines and carried items.
+- GBP API v4 pulls 2026-10-29 ~15:00–15:40 CT from nada-mini: reviews both locations (`reviews-pull-2026-10-29.json`), localPosts ×3 listings, one reply PUT + verification re-pull, publisher dry-run.
+- `publish-gbp-posts.mjs --dry-run` (ledger `published-state.json` at 29 entries; all 10-22-week slots present and verified LIVE).
+- Competitor ratings: 10-26 Maps scrapes `/tmp/gbp1026/*.txt` (counts carried from 08-27, flagged).
+- EXA `marketing-content` preset 2026-10-29 via `~/clawd/scripts/no-model/exa-preset.sh` (10 sources).
+- Prior audit `gbp-velocity-2026-10-22.md` for baselines and carried items.
