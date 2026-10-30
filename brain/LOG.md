@@ -232,3 +232,11 @@ Q1 freshness: AUTOMATIC. Chain = DealerVault(DMS) -> S3 motorinn-dealervault-raw
 Q2 DealerOn email for datestamp: CORRECT - not needed. Datestamp embedded directly in
   all 5 ready-design pages (commit) - it ships WITH the copy when DealerOn mounts them.
   The separate amendment draft is retired (kept in pipeline/drafts for record).
+
+## AGENT-READY + NAP BATCH DONE 2026-10-29 (codex, per nicklaunches + seo_bint_ejamil threads)
+- Agent surfaces LIVE 15/15 on all 3 ai. mirrors: /ai.txt /api /.well-known/agents.json
+  /skills.txt /.well-known/mcp.json + Link headers + Content-Signals robots. PR#6 merged+c0815cf.
+- NAP audit: 23 sources, 9 mismatched (Yelp/FB/BBB/YPages worst), 13 missing, 1 canonical.
+  CSVs: motor-inn-seo/audits/citations/{nap-audit,citation-plan}-2026-10-29.csv
+- Human tasks (claim/login walls): fix 9 wrong listings, claim 3 aggregators (Data Axle,
+  Localeze, Foursquare) which propagate. Emailed punch list+CSVs (1a18ab5016deed8d).

@@ -1,0 +1,20 @@
+[
+  {
+    "host": "ai.motorinnautogroup.com",
+    "level": "1/5",
+    "passings": 7,
+    "failings": 7
+  },
+  {
+    "host": "ai.motorinnofcarroll.com",
+    "level": "1/5",
+    "passings": 7,
+    "failings": 9
+  },
+  {
+    "host": "ai.motorinntoyotaofcarroll.com",
+    "level": "1/5",
+    "passings": 7,
+    "failings": 9
+  }
+]
