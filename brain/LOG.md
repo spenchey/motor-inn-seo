@@ -260,3 +260,9 @@ Q2 DealerOn email for datestamp: CORRECT - not needed. Datestamp embedded direct
   (carroll, autogroup, toyota) - all HTTP 200 ok+ref.
 - skills.txt lists submit_lead; agent-connection.md + openapi updated by codex.
 - Leads land in DealerOn CRM as 'Website - Contact Us' with AI Agent marker in comments.
+
+## LEAD TAGGING 2026-10-30: every lead now carries AI-MIRROR:<ai-host> as the FIRST thing
+in Comments (e.g. 'AI-MIRROR:ai.motorinntoyotaofcarroll.com | AI Agent (...) | msg').
+EntryUrl also differs per store. Verified live: 58446811/58446819/58446820 all 200.
+OPTIONAL upgrade (needs Spencer in DealerOn admin): create 3 custom Lead Sources
+('AI Website - <store>'), send ids, map them -> CRM-native filterable source field.

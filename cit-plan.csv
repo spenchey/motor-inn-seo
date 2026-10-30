@@ -1,0 +1,24 @@
+source,url,status,priority,notes
+Google Business Profile,https://www.google.com/maps/place/Motor+Inn+Toyota+and+Chevrolet+of+Carroll,canonical,P1,Canonical NAP source.
+Yelp,https://www.yelp.com/biz/motor-inn-of-carroll-service-carroll,mismatched,P1,Name/address/phone mismatch; prepare owner correction.
+Facebook,https://www.facebook.com/MotorInnofCarroll/,mismatched,P1,Name/address/phone mismatch; prepare owner correction.
+BBB,https://www.bbb.org/us/ia/carroll/profile/used-car-dealers/motor-inn-toyota-of-carroll-0664-32053421,mismatched,P1,Name/phone mismatch; prepare owner correction.
+Yellow Pages,https://www.yellowpages.com/carroll-ia/mip/motor-inn-of-carroll-481777343,mismatched,P1,"Name, address, phone, website mismatched."
+MapQuest,https://www.mapquest.com/directions/to/us/iowa/motor-inn-toyota-of-carroll-service-369177746,mismatched,P2,Indirect listing; prepare owner claim/normalize.
+CarGurus,https://www.cargurus.com,not_found,P2,No exact current owner-authoritative listing surfaced.
+DealerRater,https://www.dealerrater.com,not_found,P2,Prepare owner claim; do not auto-submit.
+Cars.com,https://www.cars.com,not_found,P2,No exact current owner-authoritative listing surfaced.
+Autotrader,https://www.autotrader.com,not_found,P2,No exact current owner-authoritative listing surfaced.
+Edmunds,https://www.edmunds.com,mismatched,P2,Use exact GBP NAP.
+TrueCar,https://www.truecar.com,not_found,P3,No exact profile surfaced.
+Apple Business Connect,https://businessconnect.apple.com,not_found,P3,No exact profile surfaced.
+Bing Places,https://www.bingplaces.com,not_found,P3,No exact profile surfaced.
+Foursquare,https://business.foursquare.com,not_found,P1,Aggregator; verify ownership then submit.
+Data Axle,https://express.data-axle.com,not_found,P1,Aggregator; verify ownership then submit.
+Neustar Localeze,https://www.localeze.com,not_found,P1,Aggregator; verify ownership then submit.
+Superpages,https://www.superpages.com,mismatched,P3,Legacy name/phone; prepare correction.
+Citysearch,https://www.citysearch.com,not_found,P3,No exact profile surfaced.
+Manta,https://www.manta.com,not_found,P3,No exact profile surfaced.
+Local.com,https://www.local.com,not_found,P3,No exact profile surfaced.
+Iowa Auto Dealers Association,https://iada.com,mismatched,P3,Align public mention to canonical NAP.
+Carroll Chamber of Commerce,https://www.carrolliowa.com,mismatched,P3,Current listing uses legacy name; prepare correction.

@@ -1,0 +1,358 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link [ref=e9] [cursor=pointer]:
+                - /url: /
+                - img "Motor Inn Auto Carroll, IA" [ref=e10]
+          - list [ref=e12]:
+            - listitem
+            - listitem [ref=e13]: Sales 712-792-5000
+            - listitem [ref=e14]:
+              - list [ref=e15]:
+                - listitem
+                - listitem
+            - text:      
+            - listitem [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Search" [ref=e23] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e24]: 
+                    - text: Search
+                - listitem [ref=e25]:
+                  - link " Service" [ref=e26] [cursor=pointer]:
+                    - /url: "#schedule-service"
+                    - generic [ref=e27]:
+                      - generic [ref=e28]: 
+                      - text: Service
+                - text: 
+                - listitem [ref=e29]:
+                  - link " Contact" [ref=e30] [cursor=pointer]:
+                    - /url: /contactus.aspx
+                    - generic [ref=e31]:
+                      - generic [ref=e32]: 
+                      - text: Contact
+                - listitem [ref=e33]:
+                  - link "My Saved Vehicles" [ref=e35] [cursor=pointer]:
+                    - /url: /mysavedvehicles
+                    - generic [ref=e36]:
+                      - generic [aria-hidden] [ref=e37]: 
+                      - text: Saved
+            - text:  
+        - text:    
+    - navigation [ref=e38]:
+      - navigation "Main" [ref=e39]:
+        - generic [ref=e41]:
+          - generic: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: /
+                - generic [aria-hidden] [ref=e46]: 
+            - listitem [ref=e47]:
+              - button "New Vehicles" [ref=e48] [cursor=pointer]
+            - listitem [ref=e49]:
+              - button "Pre-Owned Vehicles" [ref=e50] [cursor=pointer]
+            - listitem [ref=e51]:
+              - button "Finance" [ref=e52] [cursor=pointer]
+            - listitem [ref=e53]:
+              - button "Service & Parts" [ref=e54] [cursor=pointer]
+            - listitem [ref=e55]:
+              - link "Contact Us" [ref=e56] [cursor=pointer]:
+                - /url: /contactus.aspx
+            - listitem [ref=e57]:
+              - button "About Us" [ref=e58] [cursor=pointer]
+  - text: 
+  - generic [ref=e59]:
+    - generic [ref=e62]:
+      - generic [ref=e66]:
+        - heading "Used Cars, SUVs and Trucks in Carroll, IA" [level=1] [ref=e67]
+        - paragraph [ref=e69]: Find your next used vehicle at Motor Inn Auto in Carroll. Start with the current listings below, then narrow your search by body style or ask our team to help you compare the vehicles that fit your needs.
+        - paragraph [ref=e70]: Inventory, pricing, mileage and availability can change throughout the day. The vehicle cards below are the current source for those details.
+        - link "Browse Current Used Inventory" [ref=e71] [cursor=pointer]:
+          - /url: "#motorinn-used-inventory"
+      - generic [ref=e73]:
+        - dialog "Compare Vehicles"
+        - region [ref=e75]:
+          - generic [ref=e76]:
+            - button "Vehicle Condition Vehicle Condition" [ref=e78] [cursor=pointer]:
+              - generic [ref=e79]: Vehicle Condition
+              - generic "Vehicle Condition" [ref=e80]
+            - button "Availability Availability" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]: Availability
+              - generic "Availability" [ref=e86]
+            - button "Year Year" [ref=e90] [cursor=pointer]:
+              - generic [ref=e91]: Year
+              - generic "Year" [ref=e92]
+            - button "Make Make" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]: Make
+              - generic "Make" [ref=e98]
+            - button "Model & Trim Model & Trim" [ref=e102] [cursor=pointer]:
+              - generic [ref=e103]: Model & Trim
+              - generic "Model & Trim" [ref=e104]
+            - button "Price Price" [ref=e108] [cursor=pointer]:
+              - generic [ref=e109]: Price
+              - generic "Price" [ref=e110]
+            - button "Location Location" [ref=e114] [cursor=pointer]:
+              - generic [ref=e115]: Location
+              - generic "Location" [ref=e116]
+            - button "Dealership Dealership" [ref=e120] [cursor=pointer]:
+              - generic [ref=e121]: Dealership
+              - generic "Dealership" [ref=e122]
+            - button "Body Style Body Style" [ref=e126] [cursor=pointer]:
+              - generic [ref=e127]: Body Style
+              - generic "Body Style" [ref=e128]
+            - button "Color Color" [ref=e132] [cursor=pointer]:
+              - generic [ref=e133]: Color
+              - generic "Color" [ref=e134]
+            - button "Fuel Type Fuel Type" [ref=e138] [cursor=pointer]:
+              - generic [ref=e139]: Fuel Type
+              - generic "Fuel Type" [ref=e140]
+            - button "Cylinder Cylinder" [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]: Cylinder
+              - generic "Cylinder" [ref=e146]
+            - button "Features Features" [ref=e150] [cursor=pointer]:
+              - generic [ref=e151]: Features
+              - generic "Features" [ref=e152]
+            - button "Drivetrain Drivetrain" [ref=e156] [cursor=pointer]:
+              - generic [ref=e157]: Drivetrain
+              - generic "Drivetrain" [ref=e158]
+            - button "Body Type Body Type" [ref=e162] [cursor=pointer]:
+              - generic [ref=e163]: Body Type
+              - generic "Body Type" [ref=e164]
+        - generic:
+          - generic [ref=e170]:
+            - form "Search by Make, Model, or Keyword" [ref=e177]:
+              - searchbox "Search by Make, Model, or Keyword" [ref=e179]
+            - button "Search" [ref=e181] [cursor=pointer]
+          - generic [ref=e184]:
+            - heading "Showing all 28 vehicles" [level=2] [ref=e187]
+            - generic [ref=e190]:
+              - button "Select sort value" [ref=e192] [cursor=pointer]:
+                - generic [ref=e193]: Sort
+              - generic [ref=e197]:
+                - button "Grid View" [ref=e198] [cursor=pointer]:
+                  - generic [ref=e201]: Grid
+                - button "List View" [ref=e202] [cursor=pointer]:
+                  - generic [ref=e205]: List
+        - generic [ref=e208]:
+          - generic [ref=e209]:
+            - generic [ref=e210]:
+              - generic [ref=e213]:
+                - generic [ref=e217]:
+                  - generic "2022 Toyota Highlander XLE" [ref=e219]:
+                    - link "2022 Toyota Highlander XLE 2022 Toyota Highlander XLE":
+                      - /url: https://www.motorinnautogroup.com/used-Carroll-2022-Toyota-Highlander-XLE-5TDHZRBH1NS243448
+                      - generic:
+                        - generic:
+                          - img "2022 Toyota Highlander XLE"
+                        - generic:
+                          - img "2022 Toyota Highlander XLE"
+                  - button "Next image" [ref=e220] [cursor=pointer]:
+                    - generic [ref=e221]: 
+                - generic [ref=e223]:
+                  - link [ref=e225] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/used-Carroll-2022-Toyota-Highlander-XLE-5TDHZRBH1NS243448
+                    - heading "2022 Toyota Highlander XLE" [level=3] [ref=e226]
+                  - generic [ref=e232] [cursor=pointer]:
+                    - checkbox "Save this vehicle" [ref=e233]
+                    - generic [aria-hidden] [ref=e234]: 
+                  - button "Actions" [ref=e237] [cursor=pointer]:
+                    - img "dropdown dots" [ref=e238]:
+                      - generic [ref=e239]: 
+                      - generic [ref=e240]: 
+                      - generic [ref=e241]: 
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: Motor Inn Auto
+                    - generic [ref=e247]:
+                      - generic [ref=e248]: "VIN: 5TDHZRBH1NS243448"
+                      - generic [ref=e249]: "Stock: TTT6920A"
+                      - generic [ref=e250]: "Model: 6953"
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: 93,154 mi
+                    - generic [ref=e254]:
+                      - generic [ref=e255]:
+                        - img "Celestial Silver Metallic" [ref=e256]
+                        - generic [ref=e257]: Ext.
+                      - generic [ref=e258]:
+                        - img "Graphite" [ref=e259]
+                        - generic [ref=e260]: Int.
+                - generic [ref=e262]:
+                  - generic [ref=e264]:
+                    - list [ref=e265]:
+                      - listitem [ref=e266]:
+                        - button [ref=e267] [cursor=pointer]:
+                          - img "Adaptive Cruise Control" [ref=e268]
+                      - listitem [ref=e269]:
+                        - button [ref=e270] [cursor=pointer]:
+                          - img "Bluetooth®" [ref=e271]
+                      - listitem [ref=e272]:
+                        - button [ref=e273] [cursor=pointer]:
+                          - img "Remote Start" [ref=e274]
+                      - listitem [ref=e275]:
+                        - button [ref=e276] [cursor=pointer]:
+                          - img "3rd Row Seating" [ref=e277]
+                    - button "View Disclaimer" [ref=e279] [cursor=pointer]
+                  - button "Comments" [ref=e284] [cursor=pointer]:
+                    - img "Comments"
+                - generic [ref=e293]:
+                  - list [ref=e296]:
+                    - listitem [ref=e297]:
+                      - generic [ref=e298]:
+                        - generic [ref=e299]: $31,680
+                        - generic [ref=e300]: MARKET PRICE
+                  - generic [ref=e302]:
+                    - button "Less " [expanded] [ref=e304] [cursor=pointer]:
+                      - text: Less
+                      - generic [ref=e305]: 
+                    - region [ref=e306]:
+                      - list [ref=e307]:
+                        - listitem [ref=e308]:
+                          - generic [ref=e309]: "Retail Price:"
+                          - generic [ref=e310]: $31,500
+                        - listitem [ref=e311]:
+                          - generic [ref=e312]: "Doc Fee:"
+                          - generic [ref=e313]: +$180
+                        - listitem [ref=e314]:
+                          - generic [ref=e315]: Market Price
+                          - generic [ref=e316]: $31,680
+                        - listitem [ref=e317]
+                  - list [ref=e320]:
+                    - listitem [ref=e321]:
+                      - button "Unlock Your Best Price" [ref=e322] [cursor=pointer]
+                - link "View CARFAX report" [ref=e328] [cursor=pointer]:
+                  - /url: https://www.carfax.com/vehiclehistory/ar20/yYyeZp754hF-c_oJ1Jf2B5BUdY0AY3piReGwjHVjAoXHiFcldL6fNoVYL9EPO0jstte3WoosBqWRdZl4d9snPHEnMdH0YS9-oqk
+                  - img "View CARFAX report"
+                - generic [ref=e329]: Compare Vehicle
+              - text:   
+            - generic [ref=e335]:
+              - list [ref=e336]:
+                - listitem:
+                  - link "First Page" [ref=e337]:
+                    - /url: "#"
+                    - text:  First
+                - listitem:
+                  - link "Prev Page" [ref=e338]:
+                    - /url: "#"
+                    - text:  Prev
+                - listitem:
+                  - link "page 1" [ref=e339]:
+                    - /url: "#"
+                    - text: "1"
+                - listitem:
+                  - link "page 2" [ref=e340] [cursor=pointer]:
+                    - /url: "#"
+                    - text: "2"
+                - listitem:
+                  - link "page 3" [ref=e341] [cursor=pointer]:
+                    - /url: "#"
+                    - text: "3"
+                - listitem:
+                  - link "Next Page" [ref=e342] [cursor=pointer]:
+                    - /url: "#"
+                    - text: Next 
+                - listitem:
+                  - link "Last Page" [ref=e343] [cursor=pointer]:
+                    - /url: "#"
+                    - text: Last 
+              - text:  
+              - button "Select number of vehicles per page" [ref=e344] [cursor=pointer]:
+                - generic [ref=e345]: "Show: 12"
+            - generic [ref=e350]:
+              - separator [ref=e351]
+              - paragraph
+              - paragraph [ref=e352]: Although every reasonable effort has been made to ensure the accuracy of the information contained on this site, absolute accuracy cannot be guaranteed. This site, and all information and materials appearing on it, are presented to the user "as is" without warranty of any kind, either express or implied. All vehicles are subject to prior sale. Price does not include applicable tax, title, license, processing and/or documentation fees, and destination charges. *Prices do not include costs of closing, including government fees and taxes, any finance charges, or any emissions testing fees. All prices, specifications and availability subject to change without notice. Contact dealer for most current information.
+              - paragraph
+          - text:     
+      - text:  
+      - generic [ref=e356]:
+        - heading "Shop by body style" [level=2] [ref=e358]
+        - paragraph [ref=e359]:
+          - text: Looking for an efficient daily driver? Start with
+          - link "used cars in Carroll" [ref=e360] [cursor=pointer]:
+            - /url: /used-cars
+          - text: . Need more passenger or cargo room? Compare
+          - link "used SUVs" [ref=e361] [cursor=pointer]:
+            - /url: /used-suvs
+          - text: . For work, towing or weekend projects, browse
+          - link "used trucks" [ref=e362] [cursor=pointer]:
+            - /url: /used-trucks
+          - text: .
+        - paragraph [ref=e363]: Each category keeps the current vehicle listings front and center, so you can compare the details that matter on the individual vehicle page.
+        - separator [ref=e364]
+        - heading "Plan the next step" [level=2] [ref=e365]
+        - paragraph [ref=e366]:
+          - text: When a vehicle stands out, you can
+          - link "schedule a used-vehicle test drive" [ref=e367] [cursor=pointer]:
+            - /url: /testdrive.aspx?type=Used
+          - text: ", review"
+          - link "financing options" [ref=e368] [cursor=pointer]:
+            - /url: /finance-locations.html
+          - text: ", or"
+          - link "start a trade-in appraisal" [ref=e369] [cursor=pointer]:
+            - /url: /trade.aspx
+          - text: .
+        - paragraph [ref=e370]:
+          - text: Questions about a listing or help choosing between vehicles? Call Motor Inn Auto Group at
+          - link "712-792-5000" [ref=e371] [cursor=pointer]:
+            - /url: tel:+17127925000
+          - text: .
+        - separator [ref=e372]
+        - heading "Visit Motor Inn Auto Group" [level=2] [ref=e373]
+        - paragraph [ref=e374]:
+          - text: Use our
+          - link "hours and directions" [ref=e375] [cursor=pointer]:
+            - /url: /hours.aspx
+          - text: to plan your visit. You can also
+          - link "contact Motor Inn Auto Group" [ref=e376] [cursor=pointer]:
+            - /url: /contactus.aspx
+          - text: before you arrive and tell us which vehicles you want ready to compare.
+        - separator [ref=e377]
+        - heading "Need help before you continue?" [level=2] [ref=e378]
+        - paragraph [ref=e379]:
+          - text: Call Motor Inn Auto Group at
+          - link "712-792-5000" [ref=e380] [cursor=pointer]:
+            - /url: tel:+17127925000
+          - text: and tell us which vehicle or next step you are considering.
+    - contentinfo [ref=e381]:
+      - list [ref=e385]:
+        - listitem [ref=e386]:
+          - link "DealerOn" [ref=e387] [cursor=pointer]:
+            - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+            - img "DealerOn Logo" [ref=e388]
+        - listitem [ref=e389]:
+          - generic [ref=e390]:
+            - text: Copyright © 2026
+            - generic [ref=e391]:
+              - text: by
+              - link "DealerOn Home Page" [ref=e392] [cursor=pointer]:
+                - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+                - text: DealerOn
+            - generic [ref=e393]:
+              - text: "|"
+              - link "Sitemap" [ref=e394] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/sitemap.aspx
+            - generic [ref=e395]:
+              - text: "|"
+              - link "Privacy" [ref=e396] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/privacy.aspx
+            - generic [ref=e397]:
+              - text: "|"
+              - link "AI-readable dealership information" [ref=e398] [cursor=pointer]:
+                - /url: https://ai.motorinnautogroup.com/llms.txt
+            - generic [ref=e399]:
+              - text: "|"
+              - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e400] [cursor=pointer]:
+                - /url: https://www.toyota.com/recall/
+                - text: Safety Recalls & Service Campaigns
+            - generic [ref=e401]:
+              - text: "| Motor Inn Auto"
+              - generic [ref=e402]: "| 1526 Le Clark Road, Carroll, IA 51401"
+              - generic [ref=e403]:
+                - text: "| Sales:"
+                - link "712-792-5000" [ref=e404] [cursor=pointer]:
+                  - /url: tel:712-792-5000
+        - listitem
