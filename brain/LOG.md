@@ -273,3 +273,10 @@ stores) via probe leads. No AI source exists natively => labels now sent on EVER
 Comments line 1 AI-MIRROR:<ai-host> + LeadSourceName AI-MIRROR:<ai-host> (API-accepted).
 Verified live: 58448874 et al. Native dropdown source needs admin-created entry - staged
 email draft + full map in proxy docs/lead-sources.md.
+
+## CAMPAIGN/UTM ATTRIBUTION LIVE 2026-10-30 (Spencer: source=internet, campaign=AI?)
+DealerOn lead API accepts Campaign + UTM fields (probe-verified 200s). Every AI lead now
+sends: Campaign='AI-MIRROR', UtmSource=<ai-host>, UtmMedium='ai-agent',
+UtmCampaign='ai-mirror-<store-key>' + LeadSource 32 (Website family = internet bucket)
++ LeadSourceName/Comments AI-MIRROR markers. Live verify 58449517 HTTP 200.
+CRM attribution reporting can now group by Campaign=AI-MIRROR or UTM fields.
