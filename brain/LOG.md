@@ -240,3 +240,12 @@ Q2 DealerOn email for datestamp: CORRECT - not needed. Datestamp embedded direct
   CSVs: motor-inn-seo/audits/citations/{nap-audit,citation-plan}-2026-10-29.csv
 - Human tasks (claim/login walls): fix 9 wrong listings, claim 3 aggregators (Data Axle,
   Localeze, Foursquare) which propagate. Emailed punch list+CSVs (1a18ab5016deed8d).
+
+## INTERNAL LINKS DEPLOYED TO MIRRORS 2026-10-30 (Spencer: 'fix them in the .ai sites')
+- Proxy commits 766b185 + 615f218: related-links layer from audit data
+  (audit_data/<host>/links.csv top20 + hubs). 'Related pages' block injected on proxied
+  pages; hub pages get 'Explore' block; /links/<host>.html index (50 links each);
+  combined cross-store set. www untouched.
+- Verified live: 3x links index 200 w/ 50 links; injection confirmed on
+  ai.motorinnofcarroll.com/2024-chevrolet-blazer; inv/feed/ai.txt all 200 (no regressions).
+- Audit repo: ~/internal-links-audit (9b9619f). DealerOn-side links remain a case for later.
