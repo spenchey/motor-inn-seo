@@ -266,3 +266,10 @@ in Comments (e.g. 'AI-MIRROR:ai.motorinntoyotaofcarroll.com | AI Agent (...) | m
 EntryUrl also differs per store. Verified live: 58446811/58446819/58446820 all 200.
 OPTIONAL upgrade (needs Spencer in DealerOn admin): create 3 custom Lead Sources
 ('AI Website - <store>'), send ids, map them -> CRM-native filterable source field.
+
+## LEAD LABELING IN CRM (post 'bullshit' push) 2026-10-30
+Empirically mapped ALL valid LeadSource ids (1,2,3,22-26,29-32,35,36; identical across 3
+stores) via probe leads. No AI source exists natively => labels now sent on EVERY lead:
+Comments line 1 AI-MIRROR:<ai-host> + LeadSourceName AI-MIRROR:<ai-host> (API-accepted).
+Verified live: 58448874 et al. Native dropdown source needs admin-created entry - staged
+email draft + full map in proxy docs/lead-sources.md.
