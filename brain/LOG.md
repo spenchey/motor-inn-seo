@@ -249,3 +249,14 @@ Q2 DealerOn email for datestamp: CORRECT - not needed. Datestamp embedded direct
 - Verified live: 3x links index 200 w/ 50 links; injection confirmed on
   ai.motorinnofcarroll.com/2024-chevrolet-blazer; inv/feed/ai.txt all 200 (no regressions).
 - Audit repo: ~/internal-links-audit (9b9619f). DealerOn-side links remain a case for later.
+
+## LEAD PATH LIVE + E2E PROVEN 2026-10-30 (Spencer: 'test if a lead on .ai sites reaches CRM')
+- Built POST /lead + /api/v1/lead on mirrors: validates, rate-limits 10/min, forwards to
+  DealerOn's own lead API (/api/lead/new token -> /api/lead/save/<token>) with
+  LeadSource 32 'Website - Contact Us', Comments prefixed 'AI Agent (<source>)'.
+  Per-host upstream (9b9be36) + lastname default. 92 tests green. Deployed.
+- E2E VERIFIED with real DealerOn leadIds (CRM pipeline = same as www forms):
+  chevy 58446418 (codex), then independent: 58446670 / 58446671 / 58446672
+  (carroll, autogroup, toyota) - all HTTP 200 ok+ref.
+- skills.txt lists submit_lead; agent-connection.md + openapi updated by codex.
+- Leads land in DealerOn CRM as 'Website - Contact Us' with AI Agent marker in comments.
