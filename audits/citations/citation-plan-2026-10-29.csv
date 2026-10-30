@@ -1,47 +1,24 @@
 source,url,status,priority,notes
-"Data Axle","https://express.data-axle.com",not_found,P1,"Current owner lookup unavailable. Prepare only; human must verify and submit."
-"Neustar Localeze","https://www.localeze.com",not_found,P1,"Current owner lookup unavailable. Prepare only; human must verify and submit."
-"Foursquare","https://business.foursquare.com",not_found,P1,"Current search did not confirm an owner-editable profile. Human must verify account and listing."
-"Yelp","https://www.yelp.com/biz/motor-inn-of-carroll-service-carroll",mismatched,P1,"Service listing name/address/phone mismatched. Do not auto-submit; claim/merge and correct."
-"Bing Places","https://www.bingplaces.com",not_found,P1,"Current public search did not show a usable Bing Places profile."
-"Apple Business Connect","https://businessconnect.apple.com",not_found,P2,"No confirmable Apple Business profile surfaced in automated search."
-"Facebook","https://www.facebook.com/MotorInnofCarroll/",mismatched,P2,"Name/address/phone inconsistent with GBP canonical."
-"BBB","https://www.bbb.org/us/ia/carroll/profile/used-car-dealers/motor-inn-toyota-of-carroll-0664-32053421",mismatched,P2,"Name mismatched; phone/address/website do not match GBP canonical."
-"Yellow Pages","https://www.yellowpages.com/carroll-ia/mip/motor-inn-of-carroll-481777343",mismatched,P2,"Name, address, phone, and website differ from GBP."
-"MapQuest","https://www.mapquest.com",mismatched,P2,"Search resolved an indirect/weak listing, not a clean brand entity."
-"Nextdoor","https://business.nextdoor.com",not_found,P3,"No useful Motor Inn profile surfaced in automated search."
-"Manta","https://www.manta.com",not_found,P3,"No usable Motor Inn profile surfaced in automated search."
-"Carroll Chamber","https://www.carrolliowa.com",mismatched,P3,"Current page uses legacy name/phone; no owner submission performed."
-"CarGurus","https://www.cargurus.com",not_found,P3,"No confirmable exact Motor Inn profile surfaced in automated search."
-"Cars.com","https://www.cars.com",not_found,P3,"No confirmable exact Motor Inn profile surfaced in automated search."
-"DealerRater","https://www.dealerrater.com",not_found,P3,"No confirmable exact Motor Inn profile surfaced in automated search."
-"Autotrader","https://www.autotrader.com",not_found,P3,"No confirmable exact Motor Inn profile surfaced in automated search."
-"Edmunds","https://www.edmunds.com",not_found,P3,"No confirmable exact Motor Inn profile surfaced in automated search."
-"MerchantCircle","https://www.merchantcircle.com",not_found,P3,"No confirmable exact Motor Inn profile surfaced in automated search."
-"Superpages","https://www.superpages.com",mismatched,P3,"Name/address/phone mismatched from current GBP records."
-"DexKnows","https://www.dexknows.com",not_found,P3,"No useful Motor Inn profile surfaced in automated search."
-"Yellowbook","https://www.yellowbook.com",mismatched,P3,"Current search shows legacy Toyota name/phone, not GBP canonical."
-"Hotfrog","https://www.hotfrog.com",not_found,P3,"No useful Motor Inn profile surfaced in automated search."
-"Brownbook","https://www.brownbook.net",not_found,P3,"No useful Motor Inn profile surfaced in automated search."
-"EZlocal","https://www.ezlocal.com",not_found,P3,"No useful Motor Inn profile surfaced in automated search."
-"Citysearch","https://www.citysearch.com",not_found,P3,"No useful Motor Inn profile surfaced in automated search."
-"Local.com","https://www.local.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"CitySquares","https://www.citysquares.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"ShowMeLocal","https://www.showmelocal.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Cylex","https://www.cylex.us.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Infobel","https://www.infobel.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Cybo","https://www.cybo.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Tupalo","https://www.tupalo.co",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"YellowBot","https://www.yellowbot.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Alignable","https://www.alignable.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Angi","https://www.angi.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Thumbtack","https://www.thumbtack.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Houzz","https://www.houzz.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"TripAdvisor","https://www.tripadvisor.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Trustpilot","https://www.trustpilot.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Sitejabber","https://www.sitejabber.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"LinkedIn","https://www.linkedin.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"HERE","https://developer.here.com",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"OpenStreetMap","https://www.openstreetmap.org",not_found,P4,"No useful Motor Inn profile surfaced in automated search."
-"Auto-industry directories","https://www.dealerreputation.com",not_found,P4,"Need exact current owner-approved partner list before submissions."
-"Google Business Profile","https://www.google.com/maps/place/Motor+Inn+Toyota+and+Chevrolet+of+Carroll",canonical,P1,"Canonical GBP record: Motor Inn Toyota and Chevrolet of Carroll, 1526 Le Clark Rd, Carroll, IA 51401, +17127925000."
+Google Business Profile,https://www.google.com/maps/place/Motor+Inn+Toyota+and+Chevrolet+of+Carroll,canonical,P1,Canonical NAP source.
+Data Axle,https://express.data-axle.com,unknown,P1,Aggregator; verify ownership then submit.
+Neustar Localeze,https://www.localeze.com,unknown,P1,Aggregator; verify ownership then submit.
+Foursquare,https://business.foursquare.com,unknown,P1,Aggregator; verify ownership then submit.
+Yelp,https://www.yelp.com/biz/motor-inn-of-carroll-service-carroll,mismatched,P1,Name/address/phone mismatch; prepare owner correction.
+Facebook,https://www.facebook.com/MotorInnofCarroll/,mismatched,P1,Name/address/phone mismatch; prepare owner correction.
+BBB,https://www.bbb.org/us/ia/carroll/profile/used-car-dealers/motor-inn-toyota-of-carroll-0664-32053421,mismatched,P1,Name/phone mismatch; prepare owner correction.
+Yellow Pages,https://www.yellowpages.com/carroll-ia/mip/motor-inn-of-carroll-481777343,mismatched,P1,"Name, address, phone, website mismatched."
+MapQuest,https://www.mapquest.com/directions/to/us/iowa/motor-inn-toyota-of-carroll-service-369177746,mismatched,P2,Indirect listing; prepare owner claim/normalize.
+CarGurus,https://www.cargurus.com,unknown,P2,No exact current owner-authoritative listing surfaced.
+DealerRater,https://www.dealerrater.com,unknown,P2,Prepare owner claim; do not auto-submit.
+Cars.com,https://www.cars.com,unknown,P2,No exact current owner-authoritative listing surfaced.
+Autotrader,https://www.autotrader.com,unknown,P2,No exact current owner-authoritative listing surfaced.
+Edmunds,https://www.edmunds.com,mismatched,P2,Use exact GBP NAP.
+TrueCar,https://www.truecar.com,unknown,P3,No exact profile surfaced.
+Apple Business Connect,https://businessconnect.apple.com,unknown,P3,No exact profile surfaced.
+Bing Places,https://www.bingplaces.com,unknown,P3,No exact profile surfaced.
+Superpages,https://www.superpages.com,mismatched,P3,Legacy name/phone; prepare correction.
+Citysearch,https://www.citysearch.com,unknown,P3,No exact profile surfaced.
+Local.com,https://www.local.com,unknown,P3,No exact profile surfaced.
+Manta,https://www.manta.com,unknown,P3,No exact profile surfaced.
+Iowa Auto Dealers Association,https://iada.com,mismatched,P3,Align public mention to canonical NAP.
+Carroll Chamber of Commerce,https://www.carrolliowa.com,mismatched,P3,Current listing uses legacy name; prepare correction.
