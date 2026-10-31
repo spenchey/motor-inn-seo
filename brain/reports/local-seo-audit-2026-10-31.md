@@ -10,6 +10,7 @@
 - **Fail:** 12
 - **Partial / requires access:** 5
 - **Not applicable / not directly testable:** 3
+- **Live mirror proof:** `/sitemap.html`, `/terms` and `/privacy` returned 200 on all three mirrors; `/` contains `AutoDealer` and `knowsAbout` evidence on all three.
 - **Committed safe fixes:** human sitemap, `AutoDealer` + `knowsAbout` + `sameAs`, policy links, Toyota mirror alt text.
 - **No www pages were modified.**
 
