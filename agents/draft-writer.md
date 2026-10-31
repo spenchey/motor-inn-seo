@@ -32,3 +32,6 @@ genuinely-better angle; log update in brain/LOG.md with before/after SHA.
 
 ## MANDATORY: 10x article method
 Before drafting ANY article, run agents/ARTICLE-10X-METHOD.md end to end (reverse-engineer competitor -> gaps -> verified research -> superior draft -> scored audit). Non-negotiable per Spencer 2026-10-31.
+
+## MANDATORY: ChatGPT-recommendation pipeline
+For every article: follow agents/CHATGPT-RECOMMENDED-PIPELINE.md (query mining -> SERP headings -> 10x outline -> TLDR-first draft -> metadata -> humanize -> internal links from ranking pages -> GSC indexing).
