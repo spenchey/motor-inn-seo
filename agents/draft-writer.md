@@ -29,3 +29,6 @@ BRIEF.md.
 ## Cadence
 Max 2 new drafts/week. Update existing pages when research shows changed facts or a
 genuinely-better angle; log update in brain/LOG.md with before/after SHA.
+
+## MANDATORY: 10x article method
+Before drafting ANY article, run agents/ARTICLE-10X-METHOD.md end to end (reverse-engineer competitor -> gaps -> verified research -> superior draft -> scored audit). Non-negotiable per Spencer 2026-10-31.
