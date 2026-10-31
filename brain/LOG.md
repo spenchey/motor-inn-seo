@@ -280,3 +280,13 @@ sends: Campaign='AI-MIRROR', UtmSource=<ai-host>, UtmMedium='ai-agent',
 UtmCampaign='ai-mirror-<store-key>' + LeadSource 32 (Website family = internet bucket)
 + LeadSourceName/Comments AI-MIRROR markers. Live verify 58449517 HTTP 200.
 CRM attribution reporting can now group by Campaign=AI-MIRROR or UTM fields.
+
+## GOOGLE CONNECTED APPS PREP + 10X ARTICLE MANDATE 2026-10-31
+- Connected Apps listing prep DONE (eb3bff0): /terms /privacy /assets/icon-512.png live
+  on all 3 mirrors; listing copy docs/connected-app-listing.txt; MCP hygiene (serverInstructions,
+  annotations); google-verification routes ready. Remaining = MANUAL: connected.google.com/console
+  signin -> create app x3 (Automotive, MCP server, endpoints ai.<host>/mcp, auth none,
+  upload icon, paste listing copy, sync tools, domain verify via GOOGLE_SITE_VERIFICATION
+  env + /.well-known/google-connected-apps, submit for review). Checklist captured.
+- 10x article method (2whazzuup 2116314327905136842): agents/ARTICLE-10X-METHOD.md created
+  + wired as MANDATORY pre-step in agents/draft-writer.md. Committed.
