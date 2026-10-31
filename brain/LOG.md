@@ -290,3 +290,13 @@ CRM attribution reporting can now group by Campaign=AI-MIRROR or UTM fields.
   env + /.well-known/google-connected-apps, submit for review). Checklist captured.
 - 10x article method (2whazzuup 2116314327905136842): agents/ARTICLE-10X-METHOD.md created
   + wired as MANDATORY pre-step in agents/draft-writer.md. Committed.
+
+## STURM PIPELINE DEPLOYED + FIRST ARTICLE 2026-10-31
+- agents/CHATGPT-RECOMMENDED-PIPELINE.md created + mandatory in draft-writer (760379c).
+- First article via full pipeline: used-trucks-towing-iowa (a1ce8c0, merged 9eca2e4).
+  Query 'used trucks for towing iowa': SERP=thin listicles -> our gap = real tow-rating
+  guidance (Silverado/F-150/Ram ranges, VIN-check advice, winter rules iowadot).
+  TLDR-style hero, 3 internal links w/ anchors (used-trucks, trim-levels, contact),
+  OEM+IowaDOT sources,DealerOn-format draft, status draft-needs-owner-approval.
+  REVIEW packet: content/drafts/seo/used-trucks-towing-iowa-REVIEW.md.
+- Awaiting Spencer: publish go -> DealerOn + GSC indexing + internal links live.
