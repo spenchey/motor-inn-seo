@@ -51,7 +51,7 @@ Ask anyone who drives county roads at dusk: the deer are moving, and they are mo
 
 ---
 
-### Post 4 (Sunday flex): Thanksgiving Week Starts With A Full Car
+### Post 4: Thanksgiving Week Starts With A Full Car
 **Type:** update
 **Publish date:** 2026-11-01
 **Target keyword:** pre travel vehicle check Carroll
