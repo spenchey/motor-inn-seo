@@ -307,3 +307,11 @@ in sitemap.xml + llms/ai.txt + links index). Commits c59a1a7, 49ab3d5, 7645876.
 Internal links per review packet; www version still staged for DealerOn (approval).
 GSC indexing: ai.* subdomains not yet in GSC - add property + submit, or wait for www
 publication; noted.
+
+## LOCAL-SEO AUDIT (Chris Simpson checklist) 2026-10-31
+Scorecard: brain/reports/local-seo-audit-2026-10-31.md. 6 pass / 12 fail / 5 partial / 3 n-a.
+Agent-safe mirror fixes LIVE: /sitemap.html, AutoDealer+knowsAbout+sameAs schema, policy
+links, alt-text patch (commit 651251e et al). www untouched; DealerOn fix list staged in
+scorecard (H5/H6 ladders, 404 paths->301, terms pages Toyota/Chevy, hub layer, NAP pass,
+cannibalization via GSC, GBP private audit needs access).
+Top priorities: 1) www 404 paths->301 2) terms pages 3) html sitemap 4) H-ladder 5) knowsAbout www.
