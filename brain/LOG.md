@@ -300,3 +300,10 @@ CRM attribution reporting can now group by Campaign=AI-MIRROR or UTM fields.
   OEM+IowaDOT sources,DealerOn-format draft, status draft-needs-owner-approval.
   REVIEW packet: content/drafts/seo/used-trucks-towing-iowa-REVIEW.md.
 - Awaiting Spencer: publish go -> DealerOn + GSC indexing + internal links live.
+
+## ARTICLE PUBLISHED ON MIRRORS 2026-10-31 (Sturm loop closed)
+/articles/used-trucks-towing-iowa LIVE on all 3 hosts (200, Article JSON-LD, canonical,
+in sitemap.xml + llms/ai.txt + links index). Commits c59a1a7, 49ab3d5, 7645876.
+Internal links per review packet; www version still staged for DealerOn (approval).
+GSC indexing: ai.* subdomains not yet in GSC - add property + submit, or wait for www
+publication; noted.
