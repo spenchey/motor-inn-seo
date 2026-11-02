@@ -315,3 +315,7 @@ links, alt-text patch (commit 651251e et al). www untouched; DealerOn fix list s
 scorecard (H5/H6 ladders, 404 paths->301, terms pages Toyota/Chevy, hub layer, NAP pass,
 cannibalization via GSC, GBP private audit needs access).
 Top priorities: 1) www 404 paths->301 2) terms pages 3) html sitemap 4) H-ladder 5) knowsAbout www.
+
+## DEALERON EMAIL HOLD - 2026-11-02
+Spencer: do NOT email DealerOn the www fix tickets (404->301, terms, H-ladder etc).
+Www-side fixes wait for his go or another route. Mirror-side work continues regardless.
