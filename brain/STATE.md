@@ -40,7 +40,7 @@ Next: consistency hunt on the exact business details AI reads (hours/address/pho
 
 
 ## NAP consistency check 2026-09-23 (DFS my_business_info, gap closed)
-GBP (what AI Mode reads): 'Motor Inn Toyota and Chevrolet of Carroll' | +1712-792-5000 |
+GBP (what AI Mode reads): 'Motor Inn Toyota and Chevrolet of Carroll' | +1712-792-5000 | CUSTOMER-FACING RULING (Spencer 2026-11-02): 792-5000 is THE customer number; 522-2526 is NOT canonical; CarGurus 980-480-8309 = tracking number (leave). |
 1526 Le Clark Rd, Carroll, IA 51401 | 4.6 stars / 225 reviews | category: Toyota dealer
 Website footer: 1526 Le Clark Rd / 712-792-5000 -> MATCH.
 Open item: 'Motor Inn Chevrolet Carroll' and 'Motor Inn of Carroll Iowa' queries return
