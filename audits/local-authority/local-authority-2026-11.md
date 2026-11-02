@@ -184,3 +184,7 @@ All four: 1526 Le Clark Rd, (712) 792-5000. **Finding:** the group-name entity i
 
 ---
 Generated 2026-11-02 (cron, Mac Mini 2 path) — direct fetches + signed-out browser; gstack-browse unavailable-as-documented pattern repeated.
+
+## Decisions
+- 2026-11-02 Spencer ruled: customer-facing phone = **(712) 792-5000** (Carroll combined line). 522-2526 is NOT canonical.
+- 2026-11-02 Spencer confirmed: CarGurus sales (980) 480-8309 is a tracking number — leave in place, not an error.
