@@ -55,18 +55,18 @@
 
 ## Mirror execution record — 2026-11-02 (jeeves, Spencer direction: "do our dealer ai domain sites")
 
-All remaining checklist items now implemented **on the ai. mirrors** (no DealerOn contact). Commits  on  main; deployed to EC2  (image rebuild + container recreate, health OK).
+All remaining checklist items now implemented **on the ai. mirrors** (no DealerOn contact). Commits b0b97bf..25360e9 on spenchey/ai-markdown-proxy main; deployed to EC2 i-0cf5041ecb2a0045b (image rebuild + container recreate, health OK).
 
 What shipped on every mirror HTML page (home, used/new inventory, service, contact):
 - Full H1–H6 ladder: content-bearing H1/H2/H5/H6 backfilled only where the page lacks them
--  +  +  entity schema on every page (id ), not just roots
+- AutoDealer + knowsAbout + sameAs entity schema on every page (id motorinn-entity), not just roots
 - Hub nav on every page → sitemap.html, article, terms, privacy, related-sites index
 - Money pages now served on the mirror (200 HTML) instead of bare 302 to www; per-store upstream alias map (contactus / service pages); graceful fallback to the old redirect if upstream fails
 - Discovery fallback root (Chevy) also carries schema, hub nav and full ladder
 
 Live verification 2026-11-02: 15/15 store×page checks green (H1–H6 complete, entity schema, hub nav). Agent surfaces re-checked 200: llms.txt, /api/v1/vehicles, mcp.json, feed.json, used-inventory.md, __health/full, sitemap.html, terms, article.
 
-Tests: 99 passed + 22 subtests () on the repo venv.
+Tests: 99 passed + 22 subtests (pytest tests/) on the repo venv.
 
 Still owned elsewhere (unchanged): www-side fixes (DealerOn), GSC cannibalization run, GBP internals.
 
