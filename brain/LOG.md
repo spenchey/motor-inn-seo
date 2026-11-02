@@ -319,3 +319,10 @@ Top priorities: 1) www 404 paths->301 2) terms pages 3) html sitemap 4) H-ladder
 ## DEALERON EMAIL HOLD - 2026-11-02
 Spencer: do NOT email DealerOn the www fix tickets (404->301, terms, H-ladder etc).
 Www-side fixes wait for his go or another route. Mirror-side work continues regardless.
+
+## PUBLISH used-trucks-towing-iowa - 2026-11-02 (Spencer: "publish")
+1. WP draft created (id 119) via publish-to-wordpress.mjs from content/page-packages/2026-11/, then flipped to publish via REST -> live at motorinnconten.wpenginepowered.com/?page_id=119 (SEO-company WP; plain permalinks).
+2. NOTE: www.motorinnautogroup.com/<slug> 404s - www is DealerOn; WP pages do NOT auto-appear there (script header overstates). www publication needs a DealerOn page build (held per no-email rule).
+3. ai mirror: https://ai.motorinnautogroup.com/articles/used-trucks-towing-iowa 200 (live since 10-31).
+4. GSC: urlInspection on mirror = "URL unknown to Google" (expected); ai.* sitemap NOT submitted to GSC (only www sitemap is). robots.txt references mirror sitemap so discovery is passive. Submitting needs webmasters write scope - add ga4-reader svc acct as Owner in GSC, or wait for crawl.
+DRAFT-META status flipped: draft-needs-owner-approval -> published (wp + mirror).
