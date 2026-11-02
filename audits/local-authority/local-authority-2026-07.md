@@ -1,544 +1,186 @@
-# Local Authority Audit — July 2026
+# Local Authority Audit — November 2026
 
-## Executive Summary
+**Run date:** 2026-11-02 · **Method:** direct fetches + signed-out browser checks (gstack-browse) + Google Maps public data + GBP API pull of 2026-10-29. No paid tools.
+**Exa seed research:** the deep-research helper was not runnable inside this cron window; the July 2026 standards snapshot (relevance / distance / prominence; citation consistency > count; entity consistency for AI answers) remains the working standard and was re-confirmed structurally this run. Flagged as a process gap, not a data gap.
 
-- **Overall status:** Motor Inn's entity is still fragmented across citations. The canonical NAP is stable on the main site, but major third-party listings continue to use legacy sub-brand names and non-canonical phone numbers.
-- **Most urgent issues:** Google Business Profile duplication/fragmentation, Facebook phone/name mismatch, Yelp service listing mismatch, BBB mismatch, Yellow Pages mismatch.
-- **Biggest wins this month:** The live site now exposes the correct canonical NAP and geo coordinates, and the homepage already ships JSON-LD. The next lift is normalization, not starting from zero.
-- **Method note:** The runbook called for `gstack-browse`, but that surface is not available in this environment. This audit used Firecrawl, direct site fetches, and the provided source-of-truth files instead.
-
-## Current Local SEO Standards Snapshot
-
-Source research run first:
-
-- https://a3brands.com/blog/how-google-ranks-car-dealerships/
-- https://cfmgrowth.com/blog/local-seo-auto-businesses-google-map-pack/
-- https://xsquareseo.com/automotive-seo/google-business-profile-seo-for-automotive-dealers-in-2026/
-- https://a3brands.com/blog/rank-for-dealer-near-me/
-
-Current consensus from the July 2, 2026 research pass:
-
-1. Google still weights **relevance, distance, and prominence** for local automotive rankings.
-2. For dealers, **prominence** is the controllable lever: review velocity, citation consistency, backlinks, and GBP completeness.
-3. **Citation consistency matters more than raw citation count.** A smaller set of exact-match, high-authority profiles beats a large set of inconsistent listings.
-4. **Exact NAP and brand consistency now matter for AI visibility too**, not just map-pack trust.
-5. **FAQ / schema / entity consistency** are increasingly part of answer-engine visibility, especially for local dealership queries.
-
-## Canonical NAP
+## Canonical NAP (source of truth)
 
 - **Name:** Motor Inn Auto Group
 - **Address:** 1526 Le Clark Road, Carroll, IA 51401
-- **Phone:** (712) 522-2526
+- **Phone (canonical per runbook):** (712) 522-2526
 - **Website:** https://www.motorinnautogroup.com
 
-Any deviation from the above is wrong for this audit.
+**Operating-phone note (verified via GBP API 2026-10-15, still current):** Carroll combined line is **(712) 792-5000**; Carroll Chevrolet **(712) 882-7802**; Spirit Lake **(712) 336-2701**. The 522-2526 line does **not appear anywhere on the live site** (0 occurrences, verified 2026-11-02). Until Spencer rules which number is customer-facing truth, every phone delta below is recorded against **both** references, not "fixed" unilaterally.
 
-## Section 1: Citation Audit
+## Executive summary
 
-| Platform | Listed? | Name Match | Address Match | Phone Match | Website Match | Duplicates? | Rating | Reviews |
-|---|---|---|---|---|---|---|---|---|
-| Google Business Profile | Yes | No | Unknown | No | Yes | Yes | 4.5 | 182 Google reviews on combined profile |
-| Yelp | Yes | No | No | No | Unknown | Yes | 5.0 | 1 review on service listing |
-| Bing Places | No | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| Apple Maps | No | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| Facebook Business Page | Yes | No | Unknown | No | Unknown | No | — | 1.3K+ followers |
-| BBB | Yes | No | Yes | No | No | No | Not BBB Accredited | — |
-| Cars.com | No indexed result found | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| CarGurus | Yes | No | No | No | Unknown | No | — | 2 reviews |
-| Autotrader | No indexed result found | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| DealerRater | Yes | No | Unknown | Unknown | Unknown | No | N/A | Not enough recent reviews for overall rating |
-| Edmunds | Yes | No | Unknown | Unknown | Unknown | No | — | Dealer surfaced inside vehicle result |
-| TrueCar | No indexed result found | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| Yellow Pages | Yes | No | No | No | No | No | — | — |
-| Manta | No indexed result found | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| Foursquare | No indexed result found | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| Superpages | Yes | No | No | Unknown | Unknown | No | — | — |
-| Citysearch | No indexed result found | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| MapQuest | Yes | No | No | Unknown | Unknown | Yes / indirect | — | — |
-| Iowa Auto Dealers Association directory | Mention only | No | Unknown | Unknown | Unknown | No | — | — |
-| Carroll Chamber of Commerce | Yes | No | No | No | Unknown | No | — | — |
-| Spirit Lake / Okoboji Chamber of Commerce | No indexed result found | Unknown | Unknown | Unknown | Unknown | Unknown | — | — |
-| Carroll Times Herald business directory | No structured directory found; news mention only | No | Yes | Unknown | Unknown | No | — | — |
+- **Citation health:** 3 of 22 platforms fully consistent; 12 carry a phone/name/website mismatch; 3 confirmed missing; 4 unverifiable this run (DataDome/captcha walls).
+- **Entity status:** Google surfaces **four** separate local entities at one address; the group brand has no consolidated panel. No Wikidata entry. Homepage schema still says "Motor Inn Auto" / AutomotiveBusiness with a **literal-masked phone** (`+171****5000`) — a real bug shipped to crawlers.
+- **Worst finding (P1):** the homepage JSON-LD `telephone` value is the literal string `+171****5000`. Every consumer of that schema — including AI answer engines — reads a masked phone.
+- **Second (P1):** live schema name is `Motor Inn Auto` and type `AutomotiveBusiness`; the corrected `AutoDealer` draft has sat in drafts since July, unshipped.
 
-### Evidence Notes by Platform
+## Section 1 — Citation audit
 
-- **Google Business Profile**
-  - Two live Google entities surfaced: `Motor Inn Toyota and Chevrolet of Carroll` and `Motor Inn Chevrolet of Carroll`.
-  - Combined Toyota/Chevrolet profile showed `4.5` stars and `182 Google reviews`.
-  - Combined profile exposed `Call +1 712-792-5000`, not the canonical `(712) 522-2526`.
-  - This is the clearest entity-fragmentation issue in the stack.
+| # | Platform | Listed | Name | Address | Phone | Website | Notes |
+|---|----------|--------|------|---------|-------|---------|-------|
+| 1 | Google Business Profile | Yes | ❌ 4 variants | ✅ 1526 Le Clark Rd | ❌ (712) 792-5000 on all | ✅ | 4 entities at one address (see §4). Toyota entity 254 rev / 4.6; Chevy 37 / 4.8 (GBP API 10-29). |
+| 2 | Yelp | Yes | ❌ "Motor Inn Toyota of Carroll" | ❌ "Le Clark Rd" abbrev. | ❌ service listing (866) 772-1687 (July; re-verify) | ? | **DataDome captcha blocked re-verification this run** — July findings carried, flagged stale. |
+| 3 | Bing Places | Unverified | — | — | — | — | Maps UI requires WebGL (disabled in headless); organic SERP gave no panel. Re-check manually. |
+| 4 | Apple Maps | Yes | ❌ "Motor Inn Toyota of Carroll" | ❌ "1526 Le Clark Rd" | ❌ +1 (866) 804-3714 | ❌ motorinntoyotaofcarroll.com | 1 rating. Place-id IAACB9ED6DF52F9A5. |
+| 5 | Facebook | Yes | ✅ "Motor Inn Auto Group" | not public w/o login | not public w/o login | ✅ motorinnautogroup.com | 1K followers; 66% recommend (6 reviews). About page hides phone/address from logged-out view. |
+| 6 | BBB | Carry | ❌ "Motor Inn Toyota of Carroll" | ✅ | ❌ (866) 804-3714 + (712) 790-1935 | ❌ motorinntoyotaofcarroll.com | July data carried; BBB 403'd curl and served interstitial to headless. |
+| 7 | Cars.com | Unverified | — | — | — | — | no indexed result surfaced (July + this run) |
+| 8 | CarGurus | Yes | ❌ "Motor Inn of Carroll" | ❌ "1526 Le Clark Rd" | ⚠️ Sales **(980) 480-8309** (out-of-area!); Service (712) 792-5000 | indirect | **88 cars listed.** 2 reviews. Sales line is a North Carolina area code — near-certainly a tracking number. |
+| 9 | Autotrader | Unverified | — | — | — | — | no result surfaced |
+| 10 | DealerRater | Carry | ❌ sub-brand (July) | ? | ? | ? | not re-verified this run |
+| 11 | Edmunds | Carry | ❌ sub-brand (July) | ? | ? | ? | not re-verified |
+| 12 | TrueCar | Unverified | — | — | — | — | no result surfaced |
+| 13 | Yellow Pages | Carry | ❌ "Motor Inn of Carroll" | ❌ | ❌ (866) 804-3714 | ❌ gmpsdealer.com | Cloudflare blocked re-pull; July data carried. |
+| 14 | Manta | Unverified | — | — | — | — | |
+| 15 | Foursquare | Unverified | — | — | — | — | |
+| 16 | Superpages | Carry | ❌ (July) | ❌ | ? | ? | |
+| 17 | Citysearch | Unverified | — | — | — | — | |
+| 18 | MapQuest | Carry | ❌ Toyota Rent-A-Car primary (July) | ✅ | ? | ? | weak/indirect |
+| 19 | Iowa ADA | Partial | ❌ "Motor Inn of Carroll" (July) | — | — | — | **Changed:** legacy milestone-anniversary URL now redirects to news; member directory moved online-only (IADA news 2025-09-22). Re-claim path changed. |
+| 20 | Carroll Chamber | Yes | ❌ **"Motor Inn of Carroll"** | ⚠️ "1526 Le Clark Rd" | ❌ **712.792.5000** | — | Verified live 2026-11-02 on carrolliowa.com dining-and-retail page. |
+| 21 | Okoboji Chamber | Yes(dir) | ? | ? | ? | ? | Directory lives at members.okobojichamber.com/directory (CF-gated); Motor Inn presence unconfirmed this run. |
+| 22 | Carroll Times Herald | News only | "Motor Inn" (news) | — | — | — | Nov 2026: President's Award coverage names sub-brand `Motor Inn Toyota of Carroll` in headlines. No structured business directory found. |
 
-- **Yelp**
-  - Search surfaced both `Motor Inn Toyota of Carroll` and `Motor Inn of Carroll, Service`.
-  - The live service page was unclaimed and used `1526 Le Clark Rd` plus `(866) 772-1687`.
-  - That creates both a name mismatch and a phone mismatch, plus duplicate-profile risk.
+**Verified-consistent count: 3** (Facebook name+website; Toyota GBP address; homepage schema address/geo). Everything else deviates on at least one field.
 
-- **Facebook**
-  - Facebook surfaced `Motor Inn of Carroll, LLC`.
-  - Public snippet used `(712) 792-5000`, not the canonical line.
+### Inconsistencies found: 12 confirmed (plus 6 unverified)
 
-- **BBB**
-  - BBB profile is for `Motor Inn Toyota of Carroll`.
-  - Address matches the canonical address.
-  - Primary phone shown: `(866) 804-3714`.
-  - Additional phone shown: `(712) 790-1935`.
-  - Website shown: `https://www.motorinntoyotaofcarroll.com/`.
+### Priority fix list
 
-- **CarGurus**
-  - Listed as `Motor Inn of Carroll`.
-  - Address shown as `1526 Le Clark Rd`.
-  - Service phone shown as `(712) 792-5000`.
+**P1 — wrong phone / broken schema (trust-setting surfaces)**
+1. **Homepage schema telephone is literally `+171****5000`** — asterisks are in the served JSON-LD. Fix in DealerOn template: set `telephone` to the ruling customer line. *Blocking decision: 792-5000 vs 522-2526 (see note above).*
+2. **CarGurus sales phone (980) 480-8309** — out-of-state area code on a Carroll dealer profile. Verify whether it's a call-tracking number Spencer recognizes; if not, correct to the Carroll line.
+3. **BBB + Apple Maps + Yelp still publish (866) 804-3714 / (866) 772-1687** and the `motorinntoyotaofcarroll.com` micro-site as primary — three Tier-1 adjacent surfaces disagree with the main site.
+4. **Facebook about-page contact fields empty for logged-out viewers** (email + website only). Add the ruling phone + full address in Page info; it is a knowledge-panel input.
 
-- **Yellow Pages**
-  - Listed as `Motor Inn of Carroll`.
-  - Website shown as `http://www.motor-carroll.gmpsdealer.com/`.
-  - Phone shown as `(866) 804-3714`.
+**P2 — missing from Tier 1/2**
+5. Bing Places — unverified/likely unclaimed; Apple Maps place is claimable ("Claim This Place" shown) and carries wrong phone.
+6. Cars.com / Autotrader / TrueCar dealer profiles — none surfaced; inventory syndication likely exists via vendor, but profiles need claiming for NAP control.
 
-- **MapQuest**
-  - Search surfaced `TOYOTA Rent-A-Car` as the primary entity at the dealership address with `Motor Inn Toyota of Carroll` secondary.
-  - This is a weak / indirect citation and not a clean brand entity.
+**P3 — name variants**
+7. Carroll Chamber: "Motor Inn of Carroll" → "Motor Inn Auto Group" (live-verified diff).
+8. CarGurus: "Motor Inn of Carroll" → group name; address abbreviation `Rd` → `Road`.
+9. IADA: naming normalization request must route through the **new** online member directory, not the dead milestone page.
 
-### Priority Fix List
+**P4**
+10. MapQuest entity is still "Toyota Rent-A-Car"-adjacent; Manta/Foursquare/Citysearch unclaimed.
 
-#### P1 Critical
+## Section 2 — Backlink profile
 
-1. **Google Business Profile fragmentation**
-   - URLs:
-     - https://share.google/MYI84x4R5wq2JQYfX
-     - https://share.google/olqo8h1hGSi9mepzk
-   - What's wrong:
-     - Two separate profiles are surfacing under franchise-specific names.
-     - Combined profile call CTA uses `(712) 792-5000`, not canonical `(712) 522-2526`.
-   - What it should say:
-     - Canonical brand + canonical phone must align with the approved NAP source of truth.
-   - How to fix:
-     - Review GBP strategy for dual-franchise vs group entity.
-     - Confirm which profile is primary for map-pack trust.
-     - Normalize phone and landing URL rules before any edits go live.
+**Method note:** Bing/DDG/Google SERPs bot-wall-locked this run (Google captcha; DDG anomaly loop; Bing served generic unquoted results to headless UA). Link discovery is **qualitative + carried baselines**; no count claims.
 
-2. **Facebook page mismatch**
-   - URL: https://www.facebook.com/MotorInnofCarroll/
-   - What's wrong:
-     - Page name uses `Motor Inn of Carroll, LLC`.
-     - Public snippet uses `(712) 792-5000`.
-   - What it should say:
-     - `Motor Inn Auto Group`
-     - `(712) 522-2526`
-   - How to fix:
-     - Claim/update the business profile fields inside Meta Business Suite.
+| Domain | Motor Inn? | Champion? | Wittrock? | Coleman? | Type | Status |
+|---|---|---|---|---|---|---|
+| carrolliowa.com (Chamber) | ✅ listing | ✅ | ✅ | ? | chamber | name+phone need fix (P1-adjacent) |
+| iada.com | ⚠️ legacy mention | ? | ✅ (July) | ? | association | directory moved online — re-engage |
+| carrollspaper.com | ✅ news (President's Award, Nov 2026) | ✅ | ✅ | ? | news | **fresh earned mention this month — leverage it** |
+| facebook.com | ✅ | ✅ | ✅ | ✅ | social | consistent name — good |
+| okobojichamber.com | ? unconfirmed | ? | ? | ? | chamber | CF-gated; verify membership listing |
+| vinindex.ai | ✅ (badge/MCP links on site) | ? | ? | ? | vendor | new since July — vendor profile page exists |
 
-3. **Yelp mismatch + duplicate pattern**
-   - URL: https://www.yelp.com/biz/motor-inn-of-carroll-service-carroll
-   - What's wrong:
-     - Unclaimed service listing.
-     - Name mismatch.
-     - Address uses `Rd`, not `Road`.
-     - Phone shows `(866) 772-1687`.
-   - What it should say:
-     - `Motor Inn Auto Group`
-     - `1526 Le Clark Road, Carroll, IA 51401`
-     - `(712) 522-2526`
-   - How to fix:
-     - Claim the profile, merge duplicates if Yelp support confirms both live entities remain indexed.
+**New since July:** carrollspaper.com President's Award story (3rd straight year) is live and names the sub-brand. Highest-value ask this month: get the **group name** into the follow-up. Also new: vinindex vendor profile.
 
-4. **BBB mismatch**
-   - URL: https://www.bbb.org/us/ia/carroll/profile/used-car-dealers/motor-inn-toyota-of-carroll-0664-32053421
-   - What's wrong:
-     - Name mismatch.
-     - Primary and additional phone numbers do not match canonical NAP.
-     - Website points to legacy Toyota microsite.
-   - What it should say:
-     - `Motor Inn Auto Group`
-     - `(712) 522-2526`
-     - `https://www.motorinnautogroup.com`
-   - How to fix:
-     - Update the BBB business profile after login / ownership verification.
+### 90-day link plan (unchanged priorities, updated targets)
 
-5. **Yellow Pages mismatch**
-   - URL: https://www.yellowpages.com/carroll-ia/mip/motor-inn-of-carroll-481777343
-   - What's wrong:
-     - Name mismatch.
-     - Address abbreviation mismatch.
-     - Phone mismatch `(866) 804-3714`.
-     - Website mismatch `motor-carroll.gmpsdealer.com`.
-   - What it should say:
-     - Canonical NAP and main domain.
-   - How to fix:
-     - Claim/update YP profile or request correction through profile support.
+- **Month 1 (easy):** 1) Carroll Chamber listing correction (name+phone) · 2) IADA online-member-directory re-claim · 3) BBB phone correction · 4) Apple Maps claim + phone fix · 5) Bing Places claim.
+- **Month 2 (medium):** 1) Okoboji chamber membership-listing verification via members portal · 2) Pitch a follow-up to the Times Herald President's Award story under the group name · 3) DealerRater claim/cleanup · 4) CarGurus profile normalization (incl. sales-phone fix) · 5) MapQuest entity cleanup.
+- **Month 3 (authority):** 1) IADA normalized member profile live · 2) lakes-area news feature · 3) one community-sponsorship mention · 4) Spirit Lake partnership mention · 5) re-audit after fixes.
 
-#### P2 High
+## Section 3 — Search intent mapping
 
-1. **Missing Bing Places**
-2. **Missing Apple Maps**
-3. **Missing indexed result for TrueCar**
-4. **Missing indexed result for Autotrader**
-5. **Missing indexed result for Cars.com**
-6. **CarGurus name/phone mismatch**
-7. **Carroll Chamber profile mismatch**
+Keyword universe unchanged from July (13 BoFu + 9 MoFu + 5 alternatives; no new keyword source this run — GSC export not in cron scope).
 
-#### P3 Medium
+| Stage | Count | Est. monthly demand | Coverage |
+|---|---|---|---|
+| 1 problem-unaware | 0 | 0–10 | none targeted |
+| 2 problem-aware | 8 | 80–220 | partial (blog/service) |
+| 3 solution-aware | 5 | 30–90 | drafts exist, partially live |
+| 4 ready-to-hire | 13 | 200–500 | **city pages now LIVE** (verified in sitemap 2026-11-02: `/car-dealerships-carroll-iowa`, `/toyota-dealer-carroll-iowa`, `/used-cars-carroll-iowa`, `/used-trucks-carroll-iowa`, `/auto-service-carroll-iowa`) |
 
-1. DealerRater name mismatch.
-2. IADA mention uses `Motor Inn of Carroll`, not canonical group name.
-3. MapQuest entity is indirect and should be normalized if claimable.
-4. Superpages entry appears present but still under the legacy name.
+**Delta vs July: the five draft page packages are published.** That closes the July "publish the package" action item. Remaining Stage-4 work is internal-linking + citation reinforcement, not creation.
 
-#### P4 Low
+### Stage-4 priorities (next 90 days)
 
-1. No indexed Manta listing.
-2. No indexed Foursquare listing.
-3. No indexed Citysearch listing.
-4. No indexed Spirit Lake / Okoboji Chamber listing.
+1. **car dealerships Carroll Iowa** — live; add homepage + used-inventory links; align title/H1 (verify shipped copy).
+2. **Toyota dealer Carroll Iowa** — live; link from `/new-toyota` + service; fix Toyota-franchise citations (Apple/BBB/Yelp still sub-brand).
+3. **used cars Carroll Iowa** — live; link from `/used-inventory`; CarGurus/YP normalization feeds this.
+4. **auto service Carroll Iowa** — live; link from hours/contact; Yelp service-listing cleanup is the off-page blocker.
+5. **used trucks Carroll IA** — live; rural-proof-point copy check; chamber/citation normalization.
 
-## Section 2: Backlink Profile Analysis
+## Section 4 — Entity optimization
 
-### Observed Local Authority Sources
+### Knowledge panel / entity state (Google Maps, verified 2026-11-02)
 
-| Domain | Links / Mentions Motor Inn? | Links / Mentions Champion Ford? | Links / Mentions Wittrock? | Links / Mentions Coleman? | Type |
+Four co-located entities:
+1. **Motor Inn Toyota and Chevrolet of Carroll** — Toyota dealer
+2. **Motor Inn Chevrolet of Carroll** — Chevrolet dealer
+3. **Motor Inn Auto Group** — *Auto repair shop* category (!), 5.0
+4. **Motor Inn Auto Group** — Toyota dealer, **no reviews**, phone **(888) 698-6447**
+
+All four: 1526 Le Clark Rd, (712) 792-5000. **Finding:** the group-name entity is categorized as a repair shop, and a second group-name shell exists with an 888 number and zero reviews — duplication inside the brand itself. This is the fragmentation Spencer was warned about in July, now with a cleaner map.
+
+**Wikidata:** still no entry (`wbsearchentities` = 0 hits, verified 2026-11-02). Defer per July ruling — after citation cleanup.
+
+### Schema audit (live, 2026-11-02)
+
+| Check | Home | City page | /used-inventory | /hours | VDP |
 |---|---|---|---|---|---|
-| carrolliowa.com | Yes | Yes | Yes | No evidence found | Chamber / directory |
-| iada.com | Yes | No evidence found | Yes | No evidence found | Industry association |
-| carrollspaper.com | Yes | Yes | Yes | No evidence found | Local news |
-| facebook.com | Yes | Yes | Yes | Yes | Social / entity reference |
-| caredge.com | Yes | Not checked | Not checked | Not checked | Dealer profile / marketplace |
-
-### Backlink Read
-
-- Motor Inn is **not invisible** locally. It already appears on the Carroll Chamber, IADA, Carroll paper, and multiple social/entity sites.
-- The bigger problem is **brand inconsistency**, not total absence.
-- The cleanest remaining local-authority gap is **secondary market coverage** for the Spirit Lake / Okoboji service area. No clean Motor Inn citation or chamber result surfaced there.
-
-### Priority Link / Mention Opportunities
-
-#### Tier 1
-
-1. **Spirit Lake / Okoboji Chamber presence**
-   - Site: Spirit Lake / Okoboji chamber ecosystem
-   - Type: chamber / community authority
-   - Why it matters:
-     - Spirit Lake and Okoboji are declared service areas, but no clear Motor Inn chamber citation surfaced.
-   - Suggested approach:
-     - Request either a member listing or supporting business profile that clearly connects Motor Inn Auto Group to the regional service market.
-   - Draft outreach:
-     - `Hi there — I’m reaching out for Motor Inn Auto Group in Carroll. We serve customers across Carroll and the Iowa Great Lakes area, and we’d like to confirm whether there’s a member or business listing option that includes our dealership details and website. If so, we can send the exact business information in your preferred format.`
-
-2. **Normalize IADA naming**
-   - Site: https://iada.com/milestone-anniversaries/
-   - Type: association / industry entity source
-   - Why it matters:
-     - IADA currently shows `Motor Inn of Carroll`, not the canonical group name.
-   - Suggested approach:
-     - Request a profile/name normalization wherever IADA publishes dealer member information.
-   - Draft outreach:
-     - `Hi — we noticed our Iowa dealer mention is published under "Motor Inn of Carroll." Our approved business name for local SEO and directory consistency is "Motor Inn Auto Group." Could you point us to the right contact or workflow for updating that member display name?`
-
-#### Tier 2
-
-3. **Carroll Chamber cleanup**
-   - Site: https://www.carrolliowa.com/dining-and-retail-in-carroll
-   - Type: chamber / local directory
-   - Why it matters:
-     - The listing exists, but it still uses `Motor Inn of Carroll` and `(712) 792-5000`.
-   - Suggested approach:
-     - Keep the chamber link, but normalize the business presentation.
-   - Draft outreach:
-     - `Hi — we’re updating our business listings for consistency and noticed our chamber listing is still using "Motor Inn of Carroll" with an older phone number. Could we update it to "Motor Inn Auto Group" with (712) 522-2526 and our main site, motorinnautogroup.com?`
-
-4. **Regional lake-market editorial coverage**
-   - Site type: Spirit Lake / Okoboji regional news and business publications
-   - Why it matters:
-     - Competitors in the lakes market naturally accumulate local mentions; Motor Inn has weaker surfaced authority there.
-   - Suggested approach:
-     - Pitch community sponsorships, customer-service stories, dealership anniversaries, or local event support.
-   - Draft outreach:
-     - `Hi — Motor Inn Auto Group serves drivers from Carroll through the Iowa Great Lakes region, and we’d love to share any community partnership, event sponsorship, or customer-service milestones that fit your local business coverage. If helpful, we can send a short summary and approved details for review.`
-
-#### Tier 3
-
-5. **Dealer-profile cleanup on marketplaces**
-   - Sites: CarGurus, DealerRater, Yellow Pages, MapQuest
-   - Type: marketplace / citation / trust layer
-   - Why it matters:
-     - These are not premium editorial links, but they are still part of the prominence stack Google cross-references.
-   - Suggested approach:
-     - Treat them as authority hygiene, not vanity directory work.
-
-### 90-Day Link Plan
-
-#### Month 1: Easiest
-
-1. Carroll Chamber listing correction
-   - https://www.carrolliowa.com/dining-and-retail-in-carroll
-2. IADA member naming correction
-   - https://iada.com/
-3. Yelp claim / merge workflow
-   - https://biz.yelp.com/
-4. Yellow Pages claim / correction
-   - https://www.yellowpages.com/
-5. BBB profile correction
-   - https://www.bbb.org/
-
-#### Month 2: Medium
-
-1. Spirit Lake / Okoboji chamber listing request
-   - Chamber/contact path to be confirmed during manual outreach
-2. Regional lakes-market publication pitch
-3. DealerRater profile claim / cleanup
-4. CarGurus dealer profile normalization
-5. MapQuest / Apple Maps / Bing Places entity cleanup
-
-#### Month 3: Higher Authority
-
-1. Secure a normalized IADA member mention/profile
-2. Publish a local-newsworthy milestone story in Carroll or the lakes market
-3. Add one community sponsorship page / recap that earns a local mention
-4. Build one regional partnership mention in Spirit Lake / Okoboji
-5. Re-audit search results after citation normalization to measure carryover
-
-## Section 3: Search Intent Mapping
-
-### Method
-
-- Source keywords: `bofu_keywords` and `mofu_keywords` from `competitors.json`
-- Added from prior July SEO planning: `car dealerships Carroll Iowa`, `auto service Carroll Iowa`, `best place to buy a used car in Carroll Iowa`, `should I buy new or used car Carroll Iowa`, `where to service Toyota Carroll Iowa`
-- Coverage status based on current live sitemap plus July draft/page-package inventory
-- Volume note:
-  - No paid keyword tool was used.
-  - Demand estimates below are **rough bands** derived from GSC visibility, internal priority tiers, and local commercial intent.
-
-### Stage Summary
-
-| Stage | Description | Keyword Count | Estimated Monthly Demand | Current Motor Inn Coverage |
-|---|---|---:|---|---|
-| 1 | Problem-unaware | 0 | 0-10 | No active target set in current competitor list |
-| 2 | Problem-aware | 8 | 80-220 | Partial via blog/service content; several gaps remain |
-| 3 | Solution-aware | 5 | 30-90 | Drafts exist for comparison / decision queries, not all live |
-| 4 | Ready to hire | 13 | 200-500 | Strong partial coverage; July city/service packages directly address this cluster |
-
-### Keyword Mapping
-
-#### Stage 2: Problem-aware
-
-- best trucks for farming Iowa
-- Toyota Tundra review Iowa
-- best family SUV Iowa
-- car buying tips Iowa
-- auto financing Carroll IA
-- trade in value Carroll Iowa
-- oil change Carroll IA
-- car service Carroll Iowa
-
-Coverage read:
-
-- Live partial coverage exists via inventory, service, financing, and evergreen content.
-- Better answer-first pages are already drafted in July packages for service and new-vs-used decision support.
-
-#### Stage 3: Solution-aware
-
-- Silverado vs F-150
-- Champion Ford Carroll alternatives
-- best car dealer Carroll Iowa
-- should I buy new or used car Carroll Iowa
-- best place to buy a used car in Carroll Iowa
-
-Coverage read:
-
-- `Silverado vs F-150` has partial live comparison-style support in older site content.
-- July draft packages already target the strongest local decision queries.
-
-#### Stage 4: Ready to hire
-
-- car dealership Carroll IA
-- car dealerships Carroll Iowa
-- used cars Carroll Iowa
-- new Chevy Carroll IA
-- new Toyota Carroll Iowa
-- Toyota dealer Carroll IA
-- Chevrolet dealer Carroll IA
-- GMC dealer Carroll Iowa
-- Buick dealer Carroll IA
-- used trucks Carroll IA
-- Motor Inn Auto Group
-- Motor Inn Carroll Iowa
-- auto service Carroll Iowa
-
-Coverage read:
-
-- Live:
-  - homepage
-  - `/searchnew.aspx`
-  - `/new-toyota`
-  - `/new-chevrolets.html`
-  - `/used-inventory`
-  - `/used-trucks`
-  - `/hours.aspx`
-- Drafted / ready package:
-  - `/car-dealerships-carroll-iowa`
-  - `/toyota-dealer-carroll-iowa`
-  - `/used-cars-carroll-iowa`
-  - `/used-trucks-carroll-iowa`
-  - `/auto-service-carroll-iowa`
-
-### Top 10 High-Value Keywords by Intent
-
-1. car dealerships Carroll Iowa
-2. used cars Carroll Iowa
-3. Toyota dealer Carroll Iowa
-4. car dealership Carroll IA
-5. auto service Carroll Iowa
-6. used trucks Carroll IA
-7. Chevrolet dealer Carroll IA
-8. new Toyota Carroll Iowa
-9. new Chevy Carroll IA
-10. best place to buy a used car in Carroll Iowa
-
-### Top 5 Stage 4 Keywords for the Next 90 Days
-
-1. **car dealerships Carroll Iowa**
-   - Target page: `/car-dealerships-carroll-iowa` (draft/package ready)
-   - On-page changes:
-     - Publish the July page package
-     - Add homepage and used-inventory internal links
-     - Align title/H1/meta to exact local-commercial phrasing
-   - Off-page actions:
-     - Chamber profile normalization
-     - GBP name/phone alignment
-     - Yellow Pages / BBB cleanup
-
-2. **Toyota dealer Carroll Iowa**
-   - Target page: `/toyota-dealer-carroll-iowa` (draft/package ready)
-   - On-page changes:
-     - Publish the July package
-     - Link from `/new-toyota`, homepage, and service pages
-     - Add FAQ support tied to Carroll buying/service questions
-   - Off-page actions:
-     - Fix Toyota-franchise citations now using legacy sub-brand names and non-canonical numbers
-
-3. **used cars Carroll Iowa**
-   - Target page: `/used-cars-carroll-iowa` (draft/package ready)
-   - On-page changes:
-     - Publish the July package
-     - Link from `/used-inventory` and homepage
-     - Add stronger Carroll-specific proof and CTA language
-   - Off-page actions:
-     - Normalize CarGurus, Yelp, and YP references
-
-4. **auto service Carroll Iowa**
-   - Target page: `/auto-service-carroll-iowa` (draft/package ready)
-   - On-page changes:
-     - Publish the July package
-     - Link from service-area and hours pages
-     - Add service FAQ + direct scheduling CTA
-   - Off-page actions:
-     - Clean Yelp service listing first
-     - Normalize MapQuest / Apple Maps / Bing once claimed
-
-5. **used trucks Carroll IA**
-   - Target page: `/used-trucks-carroll-iowa` (draft/package ready)
-   - On-page changes:
-     - Publish the July package
-     - Link from `/used-trucks` and high-traffic used inventory paths
-     - Add rural-use proof points and Carroll-area relevance
-   - Off-page actions:
-     - Citation normalization across CarGurus / YP / chamber sources
-
-## Section 4: Entity Optimization
-
-### Knowledge Panel / Google Entity Read
-
-- Google is surfacing local entity cards for:
-  - `Motor Inn Toyota and Chevrolet of Carroll`
-  - `Motor Inn Chevrolet of Carroll`
-- The canonical brand `Motor Inn Auto Group` does **not** appear to own a single, consolidated local entity in Google.
-- Current Google-visible signals are still franchise-specific and phone-fragmented.
-
-### Wikidata Check
-
-- No indexed Wikidata result surfaced for `Motor Inn Auto Group`.
-- Recommendation: treat Wikidata as a future authority enhancement, not this month’s top priority.
-
-### Homepage Schema Audit
-
-Live site findings from `/tmp/motorinn-home.html`:
-
-- Existing JSON-LD is present.
-- Existing types include:
-  - `AutomotiveBusiness`
-  - `WebSite`
-- Existing schema strengths:
-  - correct main domain
-  - correct canonical phone
-  - correct full address
-  - geo coordinates present
-  - opening hours present
-- Existing schema problems:
-  1. **Name is `Motor Inn Auto`, not `Motor Inn Auto Group`.**
-  2. **Primary type is `AutomotiveBusiness`, not `AutoDealer`.**
-  3. **Description is Toyota-only** even though the business is Chevrolet + Toyota + Buick + GMC.
-  4. `sameAs` currently includes citation URLs that are themselves inconsistent (`Yelp`, `CarGurus`) and may reinforce the wrong entity naming.
-
-### Brand Consistency Check
-
-Observed live naming variants in search:
-
-- `Motor Inn Auto Group`
-- `Motor Inn of Carroll`
-- `Motor Inn Toyota of Carroll`
-- `Motor Inn Toyota and Chevrolet of Carroll`
-- `Motor Inn Chevrolet of Carroll`
-- `Motor Inn of Carroll, LLC`
-- `Motor Inn Auto`
-
-Observed live phone variants:
-
-- `(712) 522-2526` — canonical site/hours schema
-- `(712) 792-5000` — GBP/Facebook/CarGurus snippets
-- `(866) 804-3714` — BBB / Yellow Pages
-- `(866) 772-1687` — Yelp service listing
-- `(712) 790-1935` — BBB additional number
-
-### Entity Optimization Plan
-
-1. **Normalize first-party naming**
-   - Keep `Motor Inn Auto Group` as the master brand.
-   - Decide which franchise sub-brand names must remain public vs which should be retired from directory surfaces.
-
-2. **Correct existing homepage schema**
-   - Change main type to `AutoDealer`
-   - Change `name` to `Motor Inn Auto Group`
-   - Rewrite description for Toyota + Chevrolet + Buick + GMC
-   - Remove inconsistent third-party `sameAs` references until their listings are corrected
-
-3. **Use the corrected JSON-LD draft in**:
-   - homepage
-   - contact/hours page
-   - Carroll city/service landing pages as they publish
-
-4. **Defer aggregateRating markup**
-   - Google rating data exists publicly, but it is not clearly stable on-page first-party content.
-   - Safer to omit review schema until the implementation source is explicitly approved.
-
-5. **Wikidata**
-   - Nice-to-have, not urgent.
-   - Only pursue after citation/name cleanup reduces entity ambiguity.
-
-## Recommended Fix Order
-
-1. Google Business Profile naming / phone / duplication review
-2. Facebook correction
-3. Yelp claim + merge
-4. BBB correction
-5. Yellow Pages correction
-6. Carroll Chamber correction
-7. Bing Places + Apple Maps creation/claim
-8. CarGurus / DealerRater cleanup
-9. Replace homepage schema with corrected `AutoDealer` version
-
-## Outputs Created
-
-- Report: `/Users/spencerheywood/motor-inn-seo/audits/local-authority/local-authority-2026-07.md`
-- Schema draft: `/Users/spencerheywood/motor-inn-seo/content/drafts/schema/schema-2026-07.json`
+| LocalBusiness/AutoDealer | ⚠️ AutomotiveBusiness, name "Motor Inn Auto", tel `+171****5000` | same | same | same | — |
+| WebSite + SearchAction | ✅ | ✅ | ✅ | ✅ | — |
+| FAQPage | — | ✅ (2 graphs) | — | — | — |
+| ItemList (inventory) | — | — | ✅ | — | — |
+| Vehicle + offers | — | — | — | — | ✅ but `offers.availability` **empty string** |
+| BreadcrumbList | ❌ | ❌ | ❌ | ❌ | ❌ |
+| AggregateRating | ❌ everywhere (correct per July ruling: defer) | | | | |
+
+**Schema bugs to ship (all in the corrected draft):**
+1. `telephone: "+171****5000"` → real number (literal asterisks in production JSON-LD).
+2. `name: "Motor Inn Auto"` → `Motor Inn Auto Group`; `@type` → `AutoDealer`.
+3. Description Toyota-only → four-brand (draft copy ready since July).
+4. VDP `offers.availability` empty → `InStock`/`InStoreOnly` per live status.
+5. No BreadcrumbList anywhere — add on city + inventory templates.
+6. `sameAs` still carries the inconsistent Yelp/CarGurus URLs — keep only after those listings are fixed, per July plan (draft already trimmed these).
+
+**Corrected JSON-LD:** `content/drafts/schema/schema-2026-11.json` (unshipped; Spencer/Dev implements).
+
+### Brand consistency (live observations)
+
+- Names in the wild: `Motor Inn Auto Group` ✅ (site, FB, LI) · `Motor Inn Toyota and Chevrolet of Carroll` · `Motor Inn Chevrolet of Carroll` · `Motor Inn of Carroll` (chamber, CarGurus, IADA legacy, Times Herald photo captions) · `Motor Inn Toyota of Carroll` (Apple, BBB, Times Herald headline) · `Motor Inn Auto` (own schema!).
+- Phones: 792-5000 (GBP/FB-adjacent/CarGurus-service/chamber) · 522-2526 (canonical per runbook; **absent from live site**) · 882-7802 (Chevrolet line) · 866-804-3714 (BBB/Apple) · 866-772-1687 (Yelp svc, July) · 790-1935 (BBB add'l) · 980-480-8309 (CarGurus sales) · 888-698-6447 (duplicate GBP shell). **Eight phone variants across surfaces.**
+
+### Authoritative profiles
+
+- LinkedIn ✅ (89 followers, name correct). Instagram/Pinterest/YouTube referenced in schema — not audited this run.
+- Iowa SOS: JS/CF-gated; entity status unverified (P4).
+
+## Action items (next 30 days)
+
+1. **Decide the customer-facing phone** (792-5000 vs 522-2526) — every fix keys off this. *Spencer decision.*
+2. Ship schema-2026-11 (fixes masked phone, name, type, availability; adds nothing risky).
+3. Facebook: add phone + address to public About.
+4. CarGurus: verify/replace the (980) sales line; normalize name/address.
+5. Apple Maps: claim place IAACB9ED6DF52F9A5; correct phone/website.
+6. BBB: phone correction request.
+7. Carroll Chamber: name/phone correction request (draft in July report §Month-1).
+8. Merge/kill the review-less `(888) 698-6447` GBP shell or repurpose it as the canonical group entity — needs a ruling, not an agent edit.
+9. Re-run Yelp/Bing/SOS checks from a non-headless session (captcha-limited this run).
+
+## Escalation check (per runbook)
+
+- 3+ Tier-1 wrong-phone surfaces? **Yes** (BBB, Apple, Yelp-carry) → flagged above, not silent.
+- Knowledge panel wrong info? **Yes** — group entity filed under "auto repair shop" + duplicate shell.
+- Competitor 5+ link gap? No new evidence (SERP tools down); carried July read.
+
+## Method / data-quality notes
+
+- Live-checked this run: motorinnautogroup.com (home/city/inventory/hours/VDP/sitemap), Google Maps entities, Apple Maps place, CarGurus profile, Facebook page+about, carrolliowa.com, carrollspaper.com search, IADA news/milestone, LinkedIn, Wikidata API, GBP review totals (10-29 pull: 254/4.6 + 37/4.8).
+- Captcha/bot-wall blocked (recorded, not guessed): Yelp (DataDome), BBB (interstitial), YellowPages (CF), Bing Places (WebGL), Iowa SOS (CF), members.okobojichamber.com (CF). Google SERP captcha; DDG anomaly loop; Bing quoted-query failure on headless UA. **July values for these are carried and marked.**
+- No citation was edited; no listing claimed; documentation only, per runbook.
 
 ---
-
-Generated July 2, 2026 using Firecrawl + direct fetches in place of unavailable `gstack-browse`.
+Generated 2026-11-02 (cron, Mac Mini 2 path) — direct fetches + signed-out browser; gstack-browse unavailable-as-documented pattern repeated.
