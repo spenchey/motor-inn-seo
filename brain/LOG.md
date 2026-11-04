@@ -54,3 +54,8 @@ Index page links all 7 packages + toyota variant. Served by launchd
 com.motorinn.seo-preview on nada-mini (KeepAlive), dir ~/seo-previews/2026-11-04.
 Refresh procedure: re-tar deliveries/site-packages/<date> -> scp mini -> extract to new
 dated dir -> update plist path or add dated index links.
+
+## REDESIGN DEPLOYED TO PREVIEWS 2026-11-04 (commit 3826bc8)
+Pages rebuilt inside verbatim DealerOn chrome (header 13KB + nav 35KB + footer + 256KB
+inline design system + typekit/Roboto). Header match 95.9% normalized vs live site.
+Preview server restaged; same URLs. ~318KB/page incl. full chrome; dealerOnTrack present.
