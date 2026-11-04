@@ -47,3 +47,10 @@ Fixes fd29c48+d41(?): FAQPage JSON-LD now on 8/8 pages (derived from question-H2
 Internal links: cross-page + www targets + mirrors article; anchors keyword-variant.
 NEW page: car-dealership-carroll-iowa (the #26 volume query) w/ 32-Q FAQ.
 Status: packages READY for Spencer review -> then DealerOn handoff per page.
+
+## PREVIEW HOST LIVE 2026-11-04
+URL (tailnet only): http://100.112.147.69:8899/
+Index page links all 7 packages + toyota variant. Served by launchd
+com.motorinn.seo-preview on nada-mini (KeepAlive), dir ~/seo-previews/2026-11-04.
+Refresh procedure: re-tar deliveries/site-packages/<date> -> scp mini -> extract to new
+dated dir -> update plist path or add dated index links.
