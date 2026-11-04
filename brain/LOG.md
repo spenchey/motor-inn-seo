@@ -14,3 +14,10 @@ TREG LOGIN - PARKED STATE (2026-11-03)
 Everything automated except ONE phone tap (Google 2FA).
 RESUME ANYTIME: ssh workMac; bash ~/treg-finisher.sh  (5-min window, tap Yes when phone buzzes)
 NOTE: GSC work complete via service account; treg = future tool-catalog convenience only.
+
+## TREG AUTHENTICATED 2026-11-04 (codex micro-task loop)
+- treg v0.29 on workMac (~/.local/bin/treg), org 'motor-inn' owner, email linked.
+- Email-code loop closed by codex: login --email -> gog inbox poll -> 6-digit -> stdin. 
+- Verified: treg whoami OK; google-search-console.sites => all 3 properties siteOwner.
+- GSC via treg now agent-runnable WITHOUT service account/keychain (server-side creds).
+- Note: prior cannibalization audit used the SA path; both routes live.
