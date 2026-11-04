@@ -34,3 +34,16 @@ Delivered (commits 14b4f41, 1791983):
 - Full opportunity table: brain/reports/gsc-faq-opportunities... via /tmp/faq-opp.md data
   (saved in repo? verify next pass).
 Recurring: this query now part of monthly SEO audit (cron picks up pattern).
+
+## MASTER BUILD COMPLETE 2026-11-04 (3 phases + 2 schema fixes)
+Phase1 cabe884 adversarial pass (report: brain/reports/adversarial-pass-2026-11.md) + fixes
+Phase2 a3b5968 rewrite x7 pages per ALL agents/*.md rules (answer-first, VOICE-DNA,
+  entities, cannibalization-resolved, no orphans)
+Phase3 01bf68b DealerOn-naive packages @ deliveries/site-packages/2026-11-04/
+  motorinnautogroup/{7 pages + toyota variant} each: index.html + metadata.json
+  (slug/title/meta/canonical/owner_host) + README-HANDOFF.md
+Fixes fd29c48+d41(?): FAQPage JSON-LD now on 8/8 pages (derived from question-H2s and
+  visible accordions).
+Internal links: cross-page + www targets + mirrors article; anchors keyword-variant.
+NEW page: car-dealership-carroll-iowa (the #26 volume query) w/ 32-Q FAQ.
+Status: packages READY for Spencer review -> then DealerOn handoff per page.
