@@ -21,3 +21,16 @@ NOTE: GSC work complete via service account; treg = future tool-catalog convenie
 - Verified: treg whoami OK; google-search-console.sites => all 3 properties siteOwner.
 - GSC via treg now agent-runnable WITHOUT service account/keychain (server-side creds).
 - Note: prior cannibalization audit used the SA path; both routes live.
+
+## ASKOKARA FAQ HACK EXECUTED 2026-11-04
+GSC question-regex (6mo) -> 847 rows -> opportunity scoring (impr>=50, CTR-weighted).
+Top: trim-levels page = 2761 question-impressions ~0% CTR (12 variants!); rav4 blog 330;
+heavy-duty blog 243; highlander comparison 231.
+Delivered (commits 14b4f41, 1791983):
+- FAQ blocks (visible accordion + FAQPage JSON-LD) INSERTED into ready-design
+  trim-levels-explained + highlander-vs-grand-highlander drafts.
+- Staged DealerOne...DealerOn case draft: pipeline/faqs-2026-11-04.md (rav4 + heavy-duty
+  live-page FAQ blocks) - NOT sent, awaiting go per rule.
+- Full opportunity table: brain/reports/gsc-faq-opportunities... via /tmp/faq-opp.md data
+  (saved in repo? verify next pass).
+Recurring: this query now part of monthly SEO audit (cron picks up pattern).
