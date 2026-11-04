@@ -1,63 +1,36 @@
 # GSC FAQ opportunities 2026-11-04
-Data: question-demand GSC export (query / impressions / clicks), 11/04.
-Source: /Users/spencerheywood/faq-task.md (`opportUNITY data` section).
 
-## Page A — /vehicle-trim-levels-explained — 2,761 question impressions; ~12 variants; ~0% CTR
-Variants used to shape 5 FAQs:
-- what is car trim
-- what is a vehicle trim
-- what is the trim of a car
-- what is a trim level on a car
-- what is trim level on a car
-- what is vehicle trim level
-- what are the trim levels
-- what does trim mean on a truck
-- what does vehicle trim mean
-- what is sel in cars
-- which vehicle features a trim level that utilizes the synthetic upholstery material (two variants)
-Ready-design: `content/ready-design/trim-levels-explained.html` — 5 FAQs inserted.
+Data: question-demand GSC export (query / impressions / clicks), 11/04. Source brief: `/Users/spencerheywood/faq-task.md`.
+
+## Page A — /vehicle-trim-levels-explained — 2,761 question impressions
+The ~12 variants were consolidated into six natural questions covering trim meaning, model versus trim, SEL, synthetic seating material, towing/rough-road use, and family use. The FAQ block is inserted in `content/ready-design/trim-levels-explained.html`.
 
 ## Page B — /blog/toyota-rav4-dominates-suv-market — 330 impressions
-Observed:
-- 330 total question impressions.
-- Natural questions: What factors explain RAV4 market dominance? Why are RAV4s coveted as used cars?
-Staged exact block in `pipeline/faqs-2026-11-04.md`.
+Live HTTP 200. A six-question block is staged in `pipeline/faqs-2026-11-04.md`.
 
 ## Page C — /blog/heavy-duty-vs-light-duty-trucks — 243 impressions
-Observed:
-- 243 total question impressions.
-- Natural questions: How do the real-world capability differences compare? What is a light truck? Light vs heavy-duty for everyday use?
-Staged exact block in `pipeline/faqs-2026-11-04.md`.
+Live HTTP 200. A five-question block is staged in `pipeline/faqs-2026-11-04.md`.
 
 ## Page D — /highlander-vs-grand-highlander — 231 impressions
-Observed:
-- 231 total question impressions.
-- Natural questions: How much bigger is the Grand Highlander? Is the Grand Highlander bigger (overall)?
-Ready-design: `content/ready-design/highlander-vs-grand-highlander.html` — 5 FAQs inserted.
+The four demand variants were consolidated into six family, towing, hybrid, and dealership questions. The FAQ block is inserted in `content/ready-design/highlander-vs-grand-highlander.html`.
 
-## Verification notes
-- RAV4 sales figure: 479,288 U.S. deliveries in 2025, the highest annual total on the GoodCarBadCar RAV4 chart.
-- Highlander dimensions: 194.9 in. vs 201.4 in. overall length; 84.3 cu. ft. vs 97.5 cu. ft. max cargo (Toyota.com specs).
-- Trims: manufacturer trim examples cited from Toyota and Chevrolet model pages.
-- The live blog pages B and C currently return HTTP 200; they are separate live pages and no content was published from here.
+## Verification
+- Toyota official specs: Highlander 194.9 in. long, 112.2 in. wheelbase, 84.3/48.4/16.0 cu ft cargo; Grand Highlander 201.4 in. long, 116.1 in. wheelbase, 97.5/57.9/20.6 cu ft cargo. Max towing is listed at 5,000 lb with lower configurations possible.
+- RAV4 2025: GoodCarBadCar records 479,288 U.S. deliveries, highest annual total on its chart.
+- Live truck article: light-duty commonly tows to about 12,000 lb and carries 1,500–3,000 lb; heavy-duty tows 20,000+ lb and carries 6,000+ lb.
+- Page A uses Toyota RAV4 SofTex/synthetic-seating evidence and Hyundai Santa Cruz trim lineup as a neutral SEL example.
+- Live blog pages B and C return HTTP 200; both staged blocks are draft-only.
 
 ## FAQ counts
-- Page A — vehicle-trim-levels-explained: 5
+- Page A — vehicle-trim-levels-explained: 6
 - Page B — RAV4 market article: 6
 - Page C — heavy-duty-vs-light-duty-trucks: 5
-- Page D — highlander-vs-grand-highlander: 5
-- Total: 21
+- Page D — highlander-vs-grand-highlander: 6
+- Total: 23
 
-## FAQ counts
-- Page A — vehicle-trim-levels-explained: 5
-- Page B — RAV4 market article: 6
-- Page C — heavy-duty-vs-light-duty-trucks: 5
-- Page D — highlander-vs-grand-highlander: 5
-- Total: 21
+Drafts updated:
+- `content/ready-design/trim-levels-explained.html`
+- `content/ready-design/highlander-vs-grand-highlander.html`
 
-## FAQ counts
-- Page A — vehicle-trim-levels-explained: 5
-- Page B — RAV4 market article: 6
-- Page C — heavy-duty-vs-light-duty-trucks: 5
-- Page D — highlander-vs-grand-highlander: 5
-- Total: 21
+DealerOn case draft staged but not sent:
+- `pipeline/faqs-2026-11-04.md`
