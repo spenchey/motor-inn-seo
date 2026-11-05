@@ -123,3 +123,6 @@ Backlog quantified: 37 high-value pages. Batch 1 of 6 now BUILT+LIVE on previews
 chevy-trucks, used-suv-carroll. Remaining 31 queued in 5 batches (~2.5mo at 2/wk, or
 faster w/ approval).
 Playbook source: competitor-teardown/ADAPTATION-PLAYBOOK.md.
+
+Preview index rebuilt at root with ALL 16 entries (8 core + 6 batch1 + sections).
+Batch1 live under /2026-11-05/ path prefix; core at root. 14/14 URLs verified 200.
