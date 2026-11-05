@@ -114,3 +114,12 @@ Each: question H2s, TLDR on 3 hubs, single FAQPage JSON-LD, live DealerOn routes
 390/1280 QA PASS (0 overflow, chrome present, no duplicate IDs).
 Paths: content/ready-design/*.html + deliveries/site-packages/2026-11-05/**.
 Next: Spencer review + DealerOn handoff. Nothing live or published.
+
+## BATCH 1 (6 expansion pages) LIVE 2026-11-05 + answer to 'more pages?'
+Existing 10: all went through the identical rewrite/QA (per-page notes in
+rewrite-notes-2026-11-05.md) - nothing was skipped.
+Backlog quantified: 37 high-value pages. Batch 1 of 6 now BUILT+LIVE on previews
+(/2026-11-05/ path): denison + storm-lake service, lake-city used, toyota-suvs,
+chevy-trucks, used-suv-carroll. Remaining 31 queued in 5 batches (~2.5mo at 2/wk, or
+faster w/ approval).
+Playbook source: competitor-teardown/ADAPTATION-PLAYBOOK.md.
