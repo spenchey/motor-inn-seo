@@ -1,0 +1,1574 @@
+{
+ "when": "2026-11-05T21:02:45.410Z",
+ "locations": [
+  {
+   "acct": "115596490921363748880",
+   "loc": "14730652758503817758",
+   "total": 256,
+   "avg": 4.599999904632568,
+   "n": 50,
+   "reviews": [
+    {
+     "reviewId": "AbFvOqmwudfPY32MzPAPxxeBKs-MZbAdIuE8a2GVxCzxNFoUoNMWQ05YYsLuZjHeVclRvrde_nm9iA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJs72EQkF3WMrOVwgcUhdJcVSgiZ1ZWV1v648J4HZ66GYYOEA=s120-c-rp-mo-br100",
+      "displayName": "cliff jensen"
+     },
+     "starRating": "FIVE",
+     "comment": "Great experience.  People are very friendly.  I stop and visit with then often.",
+     "createTime": "2026-03-09T14:50:56.693114Z",
+     "updateTime": "2026-10-31T12:00:34.998611Z",
+     "reviewReply": {
+      "comment": "Thank you Cliff and Ruth for your continued support!  We appreciate you more than you know!  We love you stopping in as well!",
+      "updateTime": "2026-03-09T17:23:00.708780Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmwudfPY32MzPAPxxeBKs-MZbAdIuE8a2GVxCzxNFoUoNMWQ05YYsLuZjHeVclRvrde_nm9iA",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT25ZeWVFcFBWSGQ1VlhKcE0xcE1SRmt0YXpGSFUyYxAB"
+    },
+    {
+     "reviewId": "AbFvOqmmC-OJOjZtm0gY-93stBb5J9ZGEUcAWWCTmWkF5hsGqKRzd7u9GHVgQrmVi7cs1wKhbkYWnw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI2vmMH340DmqxdbGw2oRaZrQrwD_5kwIID0vFezJpThOcmUA=s120-c-rp-mo-br100",
+      "displayName": "Sandy Trent"
+     },
+     "starRating": "FIVE",
+     "comment": "Rick did a great job!!!",
+     "createTime": "2026-10-30T22:12:57.684777Z",
+     "updateTime": "2026-10-30T22:14:30.660484Z",
+     "reviewReply": {
+      "comment": "Sandy, thanks so much for the five stars! Rick will be glad to hear he took good care of you. Come see us whenever you need anything next. —Spencer and the Motor Inn team",
+      "updateTime": "2026-10-31T17:05:03.956009Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmmC-OJOjZtm0gY-93stBb5J9ZGEUcAWWCTmWkF5hsGqKRzd7u9GHVgQrmVi7cs1wKhbkYWnw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xSWVNWWXdTWFJLU2xWWWVGVkNMV1J5ZFhWb1gxRRAB"
+    },
+    {
+     "reviewId": "AbFvOqmPckkxUtv4jR8CNDdnLUOjwzRcDkIkswAaMjzh2iqaEmO3-lj5V6IYOiYrNvLVimdsBv0wYw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocICSL8OZoQZoMqIlZsChyjhPt1ZcoeoWyIQpGg-MsWTypRBtg=s120-c-rp-mo-br100",
+      "displayName": "Trey Kluender"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-30T14:26:27.555938Z",
+     "updateTime": "2026-10-30T14:26:27.555938Z",
+     "reviewReply": {
+      "comment": "Trey, glad we could get you taken care of at Motor Inn Toyota and Chevrolet of Carroll. Stop by and see us again whenever you're ready for your next vehicle. — Spencer",
+      "updateTime": "2026-11-05T16:56:22.892197Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmPckkxUtv4jR8CNDdnLUOjwzRcDkIkswAaMjzh2iqaEmO3-lj5V6IYOiYrNvLVimdsBv0wYw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xKTmQzWkVTMHhwYkZsS09YbDZWbDl6T0c1U01uYxAB"
+    },
+    {
+     "reviewId": "AbFvOqmQ22RqPIfRNg8AOwBaLUkdiwXrtDOXeeOOlHrux-_IV9nsdZrUqquqgHF17XHH98VTmL0q",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLuykWwPfcChu_j4Xs-Ojh8yoVPDKGedP0HXoupr0mwJ_UOjA=s120-c-rp-mo-br100",
+      "displayName": "Teresa Quass"
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-10-28T15:49:00.266808Z",
+     "updateTime": "2026-10-28T15:49:00.266808Z",
+     "reviewReply": {
+      "comment": "Teresa, thanks for the four stars! Sorry we missed the chance to earn the fifth this time — if anything about the visit fell short, the desk at the Carroll store would genuinely like to hear it and fix it. Safe travels, and stop back anytime. —Spencer and the Motor Inn team",
+      "updateTime": "2026-10-29T20:13:16.303402Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmQ22RqPIfRNg8AOwBaLUkdiwXrtDOXeeOOlHrux-_IV9nsdZrUqquqgHF17XHH98VTmL0q",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xGVU1YSlpiVkl6VFdkTFdWVjNYM05wY1ZWNGFuYxAB"
+    },
+    {
+     "reviewId": "AbFvOqnd9CRpf68OXiUE8SY-E9kcSWsnpnzRAuVe-LaHWs3K9OPurJulwl2vaq1A-yGGQPzoiHlzfg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV5ddNOXa1cwJYUe90tEv4N_-bNqdwA2ROyXsWfbOef8FszCiQ=s120-c-rp-mo-br100",
+      "displayName": "Jamie North"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-27T14:09:12.276664Z",
+     "updateTime": "2026-10-27T14:09:12.276664Z",
+     "reviewReply": {
+      "comment": "Jamie, Thank you so much for leaving a 5 Star rating for the Motor Inn of Carroll.  It is much appreciated and we value your business very much!  Sincerely David Bremser-General Manager",
+      "updateTime": "2026-10-27T14:50:29.528821Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqnd9CRpf68OXiUE8SY-E9kcSWsnpnzRAuVe-LaHWs3K9OPurJulwl2vaq1A-yGGQPzoiHlzfg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xKdFJtWkpNMWc0YWtGbWJqTmlkRUZsYUU4emRsRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlb-Uq7FAHsbHcz8Vp4l9oYWMBLdQmN2lnaHWXVkMxenz6rXp8IixkJYOKQCb1j0izanlpGbQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIpCF8KFkUTeheNZqnlEyTVCbaShEOohTOekiwf9wJiFsNvqQ=s120-c-rp-mo-br100",
+      "displayName": "Kathy Stipe"
+     },
+     "starRating": "FIVE",
+     "comment": "Good customer experience at a local dealership. It was what we were hoping for!",
+     "createTime": "2026-10-24T15:51:50.348182Z",
+     "updateTime": "2026-10-24T15:51:50.348182Z",
+     "reviewReply": {
+      "comment": "Kathy, thanks for the kind words! We're glad your visit to our Carroll dealership went the way you hoped it would. Stop back anytime you're in the neighborhood. -Spencer and the Motor Inn team",
+      "updateTime": "2026-10-26T17:06:00.698928Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlb-Uq7FAHsbHcz8Vp4l9oYWMBLdQmN2lnaHWXVkMxenz6rXp8IixkJYOKQCb1j0izanlpGbQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT21oTE1rNXpORnBUTTBsMVkwdEhNR05VUWpCTmNGRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlYygoWqiIEN2Fdy2CC6-eCmJjjBt3iCFRRa6HN8UYtJXk0oGBHaB8mwYu3FkhaQlWljkz5oQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJsBjKZZ_ZOZTbTh2Y_OK8kLYaQ403BxMw55uOd7_lnNO_21Q=s120-c-rp-mo-br100",
+      "displayName": "Ashlee Daniels"
+     },
+     "starRating": "FIVE",
+     "comment": "Very quick and reliable. Matt was very nice and knowledgeable. Highly recommend for body service of vehicles",
+     "createTime": "2021-05-19T14:09:39.898634Z",
+     "updateTime": "2026-10-23T23:58:43.209731Z",
+     "reviewReply": {
+      "comment": "Thanks for the kind words, Ashlee! Glad Matt and the body shop took good care of you and got you back on the road quickly. Next time your vehicle needs anything, we're here. -The Motor Inn team",
+      "updateTime": "2026-10-26T17:06:01.818789Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlYygoWqiIEN2Fdy2CC6-eCmJjjBt3iCFRRa6HN8UYtJXk0oGBHaB8mwYu3FkhaQlWljkz5oQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/ChdDSUhNMG9nS0VJQ0FnSURLMTRHOTdnRRAB"
+    },
+    {
+     "reviewId": "AbFvOqmfyPPMptMtHSxiatOCTbwfa9yBOAregCoz9LOLGOGBTr2NqS5u7D2osun2-WrzkJVAR8hQaw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKrTi1GUqQY4knWFDZ3HgVUp-uHZHZBm9dwMhTfG7DLXffJMg=s120-c-rp-mo-br100",
+      "displayName": "Karen Louise"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-22T02:26:46.937570Z",
+     "updateTime": "2026-10-22T02:26:46.937570Z",
+     "reviewReply": {
+      "comment": "Karen, Thank you for taking the time to leave a 5 star review of Motor Inn.  We appreciate that very much! Sincerely David Bremser -General Manager",
+      "updateTime": "2026-10-22T19:39:45.021243Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmfyPPMptMtHSxiatOCTbwfa9yBOAregCoz9LOLGOGBTr2NqS5u7D2osun2-WrzkJVAR8hQaw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xaSVduSTNMWFphYkZGdlMzaFdXbHA2TUdSVGRXYxAB"
+    },
+    {
+     "reviewId": "AbFvOqkiqi-KiHXziUO1RpPhDJtkP3kC2oSAcW-ZA64yrOc5V-SXUJxVOSiLweYAAmfpFPPvU6alhg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJwIRLUGQVLJ-xxjcte6IcUTt7b3h1xPYXUw67SuhOEJyLyjQ=s120-c-rp-mo-br100",
+      "displayName": "Gwen Detlefsen"
+     },
+     "starRating": "FIVE",
+     "comment": "Professional and knowledgeable as well as understanding and kind!",
+     "createTime": "2026-10-21T15:21:34.419142Z",
+     "updateTime": "2026-10-21T15:21:34.419142Z",
+     "reviewReply": {
+      "comment": "Thank you Gwen for taking the time to leave us at Motor Inn a great 5 Star review!  We truly appreciate you and your business! Sincerely David Bremser-General Manager",
+      "updateTime": "2026-10-22T19:41:00.962234Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqkiqi-KiHXziUO1RpPhDJtkP3kC2oSAcW-ZA64yrOc5V-SXUJxVOSiLweYAAmfpFPPvU6alhg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xBNE9FbHlWV0l5WHpSdFlVbE5hM0pLT0VnM01sRRAB"
+    },
+    {
+     "reviewId": "AbFvOqm_REdLLjOlNREzSj_lFPM_ORXcz5ll7DDRvR7ucebxmgSAMdsHUxXefaSM-xHO2dM94tSz",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI8dJLweGRwXgeoJF_Q-Hf24aQ3rpYUnxAbdBvqzSBRzDIPQQ=s120-c-rp-mo-br100",
+      "displayName": "Jean Lambertz"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-21T14:06:46.148307Z",
+     "updateTime": "2026-10-21T14:58:37.896285Z",
+     "reviewReply": {
+      "comment": "Jean, Thank you for leaving Motor Inn a great 5 Star review!  We appreciate you taking the time to do that for us!  We appreciate you very much! David Bremser-General Manager",
+      "updateTime": "2026-10-22T19:42:28.338269Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqm_REdLLjOlNREzSj_lFPM_ORXcz5ll7DDRvR7ucebxmgSAMdsHUxXefaSM-xHO2dM94tSz",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2paRVdXcEpiMDF3T0d0T1kyZG1kVU5MVkhGNVJuYxAB"
+    },
+    {
+     "reviewId": "AbFvOqkw9D0lupKxf4FE4bQN7mnfVE-Z0ICHjl_BXHL-z6x7B_YP5s2hvsyVE3aGoBPe9ht3MsCTUg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUmq5GRs4cv5WVCPGcriNvnrdeq02QGv9epmXG7en5GlkZh4Q2r=s120-c-rp-mo-br100",
+      "displayName": "Dennis Deist"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-21T14:12:07.857140Z",
+     "updateTime": "2026-10-21T14:12:07.857140Z",
+     "reviewReply": {
+      "comment": "Dennis, thanks for the five stars. That is exactly the stop-in experience we want every trip to be. See you next time you are through Carroll. -The Motor Inn team",
+      "updateTime": "2026-10-22T20:06:56.279401Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqkw9D0lupKxf4FE4bQN7mnfVE-Z0ICHjl_BXHL-z6x7B_YP5s2hvsyVE3aGoBPe9ht3MsCTUg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pSS00xWjBRMmxKU0U1UE4xWjZiVUpXVFRsbGJsRRAB"
+    },
+    {
+     "reviewId": "AbFvOqmiU1S_kFE8ZYAJqzmZoNtCbfYju3OwXGuXPqDHPgpnAQrZh8i9mh9YnXMaqHyCc4087TpWfA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIFZjk_0Uw7Hns-HWKW7DXF-Sa8Jd7dVTWgHHeTwSWdiXY2Aw=s120-c-rp-mo-br100",
+      "displayName": "David Beyerink"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-06T19:32:19.545167Z",
+     "updateTime": "2026-10-21T11:38:45.530035Z",
+     "reviewReply": {
+      "comment": "David, I thank you for taking time out of your busy day to leave a 5 Star review!  It is helpful and very much appreciated!  David Bremser -General Manager",
+      "updateTime": "2026-10-07T15:04:45.638884Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmiU1S_kFE8ZYAJqzmZoNtCbfYju3OwXGuXPqDHPgpnAQrZh8i9mh9YnXMaqHyCc4087TpWfA",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2paeFlraElWWEJTUzJkelZEUk9iR2xtZDFFek0wRRAB"
+    },
+    {
+     "reviewId": "AbFvOqkFruas23HwYZFvPwUkyrfHDa9AidUswahy5TuYMngSZhHFjpt5dxHMjRc0dUyUIfe5vTyY",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIFx55bAnAKw6rezmT_qV6UexzwDQFH2ZRaxDx-jzluWR9z_A=s120-c-rp-mo-br100",
+      "displayName": "Amy Bice"
+     },
+     "starRating": "FIVE",
+     "comment": "I was greeted upon arrival to get the keys from me and get my appointment started.",
+     "createTime": "2026-10-20T15:21:08.108945Z",
+     "updateTime": "2026-10-20T15:21:08.108945Z",
+     "reviewReply": {
+      "comment": "Amy, thank you for the five stars. Glad the greeting set the tone and the keys were ready when you were. See you next service. -The Motor Inn team",
+      "updateTime": "2026-10-22T20:06:56.818114Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqkFruas23HwYZFvPwUkyrfHDa9AidUswahy5TuYMngSZhHFjpt5dxHMjRc0dUyUIfe5vTyY",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xaSmVFTklaVVE1VlV3ellWVkJiSGRLUVZoNlpGRRAB"
+    },
+    {
+     "reviewId": "AbFvOqmNEHGzRc6LQErj8al9dlczY8I7zsSB34u-ICtkLuXo008UA9gYGE07WeW8y9pxMTxhG4UOew",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIHRAtkfwMhWgjyQ5SD63W_muDeOrNi1_GQNBZ5mYMwlpCcHw=s120-c-rp-mo-br100",
+      "displayName": "Troy Kluender"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-17T14:24:25.467141Z",
+     "updateTime": "2026-10-17T14:24:25.467141Z",
+     "reviewReply": {
+      "comment": "Troy, thanks for the five stars. Glad the visit was worth the trip, and that we could make the drive easy. If anything ever needs a second look, that is what we are here for. See you next time. -The Motor Inn team",
+      "updateTime": "2026-10-22T20:06:23.263571Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmNEHGzRc6LQErj8al9dlczY8I7zsSB34u-ICtkLuXo008UA9gYGE07WeW8y9pxMTxhG4UOew",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tSME5tUXROVUpmUldkMmMwWldkVzR3YVdoVFMyYxAB"
+    },
+    {
+     "reviewId": "AbFvOqmABQKgYWtumVMHZypQjerozg5422fEjhSokWAp3drhXjlxhHi0lHPxn_JEaW5HSLhVQ4pQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLoi-IZnkmbeB1juIZRMMCU4Mll1h5IA5_4uO_fBC-tCKeTtA=s120-c-rp-mo-br100",
+      "displayName": "Wendy B"
+     },
+     "starRating": "FIVE",
+     "comment": "Picked pickup at my work. And returned it when they said they would. Thanks",
+     "createTime": "2026-10-17T14:08:29.264987Z",
+     "updateTime": "2026-10-17T14:08:29.264987Z",
+     "reviewReply": {
+      "comment": "Wendy, glad we could get your pickup to you at work and back on schedule—that's how it should be. Thanks for the trust. -The Motor Inn team",
+      "updateTime": "2026-10-18T17:05:05.294295Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmABQKgYWtumVMHZypQjerozg5422fEjhSokWAp3drhXjlxhHi0lHPxn_JEaW5HSLhVQ4pQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tSVmVYYzFORXBrUjB0b1pIaGtla1I1T0V4aFFrRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlUl3RRfPgK0qOXNCBa7v-FVQ-ae3pLPAES4t3Hb4fPUCCdwnUmoKp_7TR6vmvoEb3NXUoE",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJQqT5EiEHPCFU8HtvHaPZImC9dGohe0C8GdzfPHVYY1UP2Og=s120-c-rp-mo-br100",
+      "displayName": "Paula Cross"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-17T12:39:44.039266Z",
+     "updateTime": "2026-10-17T12:39:44.039266Z",
+     "reviewReply": {
+      "comment": "Paula, thank you for the five stars and for trusting us with the visit. We will keep it that straightforward every time you stop in. See you next time. -The Motor Inn team",
+      "updateTime": "2026-10-22T20:06:39.032938Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlUl3RRfPgK0qOXNCBa7v-FVQ-ae3pLPAES4t3Hb4fPUCCdwnUmoKp_7TR6vmvoEb3NXUoE",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pSalFrMDBUalJvYW1OYU1WY3RZa1pyTmtWNVprRRAB"
+    },
+    {
+     "reviewId": "AbFvOqkB8LfMRWudBF75ywJUJpfjyJtO4q2-wVkZA2tZIsGMNNcYwPfzxEal7av1kSnUdpY2Z9_Gyg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLQ_Grs4lYd6uYcSABM2t7e4wcmhFRu8YzgxApAzFIfyFrI2g=s120-c-rp-mo-br100",
+      "displayName": "Grace"
+     },
+     "starRating": "FIVE",
+     "comment": "Exceptional experience.   I called looking for a specific vehicle and they didn't have it but found it for me and got it to their dealership.  Gave me an unbeatable price and we're great at communication.   Thank you for everything!",
+     "createTime": "2026-10-16T14:55:16.444522Z",
+     "updateTime": "2026-10-16T14:55:16.444522Z",
+     "reviewReply": {
+      "comment": "Grace, it made our week to hear the hunt for your specific vehicle paid off—glad we could track it down and get it to Carroll for you. Enjoy every mile, and come see us next time you're in the market. -Spencer and the Motor Inn team",
+      "updateTime": "2026-10-18T17:05:06.346750Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqkB8LfMRWudBF75ywJUJpfjyJtO4q2-wVkZA2tZIsGMNNcYwPfzxEal7av1kSnUdpY2Z9_Gyg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pkR1gxUkdNbmRxTTE4elpscFBiVzQwUWtWU1NrRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlw2B-p10Nvjgxg5q_Fm84vRjlwlkOcO48s6TmZuS8HYw3MzPrDAj4sKXp1wyZfzAQbuJuPEQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKBeze7TbD8_ClVkecqf4L5ba0sJ3MfjKaIhlchLsHFGSGoYg=s120-c-rp-mo-br100",
+      "displayName": "Cynthia Schwarzkopf"
+     },
+     "starRating": "FIVE",
+     "comment": "Quick service. Very friendly",
+     "createTime": "2026-08-17T14:07:32.741180Z",
+     "updateTime": "2026-10-16T14:04:32.505881Z",
+     "reviewReply": {
+      "comment": "Thank you for giving us a 5 star nod!",
+      "updateTime": "2026-08-20T12:28:36.933674Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlw2B-p10Nvjgxg5q_Fm84vRjlwlkOcO48s6TmZuS8HYw3MzPrDAj4sKXp1wyZfzAQbuJuPEQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xKTE1UQnNUMHgxZDNBeVpHdG5ZM1pQYUhVNWJsRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlajPHRPnE8ybrPqxmUhR9cBLhM0gGZrFFZBT50gWjRTpg4F4pHHLRi0ZlCcd8oQiXn8ZC0Vg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKC5YK3fsD7s-b78VYTgfzKW5qTrqxE6lQA4xFo92UJ-xuyeA=s120-c-rp-mo-br100",
+      "displayName": "Kim Pfannkuch"
+     },
+     "starRating": "FIVE",
+     "comment": "Got the work done quickly",
+     "createTime": "2026-10-15T16:47:35.964892Z",
+     "updateTime": "2026-10-15T16:47:35.964892Z",
+     "reviewReply": {
+      "comment": "Thanks for taking a moment to leave this, Kim! Glad we could get you in and out quickly—those service visits shouldn't eat up your whole day. See you next time you need us.\n\n-Spencer and the Motor Inn team",
+      "updateTime": "2026-10-18T17:05:07.767819Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlajPHRPnE8ybrPqxmUhR9cBLhM0gGZrFFZBT50gWjRTpg4F4pHHLRi0ZlCcd8oQiXn8ZC0Vg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pOM1lteHRSRmhwWmw5QlZURm9jSEF5ZFRsV2RYYxAB"
+    },
+    {
+     "reviewId": "AbFvOqmeRzh1f2xRZZEpj8kPr_GjIyGRldIvLMtZRwQj3_mR2NXK0iy_XGqnZEZ7oaaDmbynvqW8Qw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWXjg4gBMporYLvGMqedu1pwjF1iqSn0ovat7lq_18nYFBgzt6u=s120-c-rp-mo-br100",
+      "displayName": "Peter Poland"
+     },
+     "starRating": "FIVE",
+     "comment": "Always a friendly, helpful, staff. They take care of any questions I might have.\nAmy, Nate, and Wayne are a pleasure to work with.",
+     "createTime": "2026-10-14T14:15:17.327593Z",
+     "updateTime": "2026-10-14T14:15:17.327593Z",
+     "reviewReply": {
+      "comment": "Peter, thanks for the kind words — Amy, Nate, and Wayne will be glad to hear they made your visit a good one. That's the kind of crew we're proud to have. Stop back anytime you need anything. -The Motor Inn team",
+      "updateTime": "2026-10-15T17:05:18.471215Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmeRzh1f2xRZZEpj8kPr_GjIyGRldIvLMtZRwQj3_mR2NXK0iy_XGqnZEZ7oaaDmbynvqW8Qw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pOM1pWVktaUzEyVmtFeWN6VnNPSEJsYTAxcGVXYxAB"
+    },
+    {
+     "reviewId": "AbFvOqlMmAe3cqB4Bn3l_tSHZB2vc6XtZpccGlPXcGzr_NDMkW5Q98oFExIFhWCEZZ9ZHzMQ-eMjdg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXFAfkATHOhiMu_eO8FhqEdSolxX6_P5KcbLgcMvAj3QkUMDj4=s120-c-rp-mo-br100",
+      "displayName": "Paula Behrens"
+     },
+     "starRating": "FIVE",
+     "comment": "I experienced no issues during my last visit.",
+     "createTime": "2026-10-13T15:58:13.400579Z",
+     "updateTime": "2026-10-13T15:58:13.400579Z",
+     "reviewReply": {
+      "comment": "Paula, thanks for taking the time to share those five stars—glad your last visit went off without a hitch. That's exactly the experience we want for you every time. See you next time you're in!\n\n-Spencer and the Motor Inn team",
+      "updateTime": "2026-10-15T17:05:19.242699Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlMmAe3cqB4Bn3l_tSHZB2vc6XtZpccGlPXcGzr_NDMkW5Q98oFExIFhWCEZZ9ZHzMQ-eMjdg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2toblYxWnlaa2xuT1ZGbmR6RkRhbHBZU0hsdlQyYxAB"
+    },
+    {
+     "reviewId": "AbFvOqm2gBZ5SL5S2ACMWaHfPGcyEsErPXiXlS_4rGE-ZfhiA7jN1i3X5FhbjnaT66Ip0NGJDQdK8A",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIkhJ6EoNAoRuC_3QPLCuaUDTYS57O0EjahMNwlA4gNyYifMQ=s120-c-rp-mo-br100",
+      "displayName": "Jennifer Roose"
+     },
+     "starRating": "FIVE",
+     "comment": "The service at this dealership is top notch!  Everyone is so friendly, the staff is kind, and I always leave happy.  I recommend to everyone!",
+     "createTime": "2026-10-13T15:22:28.804932Z",
+     "updateTime": "2026-10-13T15:22:28.804932Z",
+     "reviewReply": {
+      "comment": "Jennifer, reviews like this make our day—thank you for trusting us with your service needs. We're glad the friendly folks here keep you leaving happy every time. See you at your next visit!\n\n-Spencer and the Motor Inn team",
+      "updateTime": "2026-10-15T17:05:20.411120Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqm2gBZ5SL5S2ACMWaHfPGcyEsErPXiXlS_4rGE-ZfhiA7jN1i3X5FhbjnaT66Ip0NGJDQdK8A",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT25kd1ZVUXhiekEzY0RGTFpIVmxUa3h0UWxaWGJVRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlZ15St31G7_nkbA7Igfvpqqiy2-952gcEYXgpbeU9O22KST6IJr-f2Kip-xi4s5FipwF0b",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjW8PVzRfnHMp6zi8e-GqfB3OitUxeTrtHbsYXg5kFY5oeKTw7GTLw=s120-c-rp-mo-br100",
+      "displayName": "Ambur Ebner"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-10T15:26:55.121833Z",
+     "updateTime": "2026-10-10T15:26:55.121833Z",
+     "reviewReply": {
+      "comment": "Ambur, thank you for taking the time to leave us five stars. We appreciate you choosing us and hope your vehicle is serving you well. Stop in anytime you need anything — Spencer",
+      "updateTime": "2026-10-12T13:00:06.690046Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlZ15St31G7_nkbA7Igfvpqqiy2-952gcEYXgpbeU9O22KST6IJr-f2Kip-xi4s5FipwF0b",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT25aWlVHNTJVSEpVUm1ONU1GUmZibFV4V0ZSd0xVRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlzBzKVx-TARr_XcEcBU7JSOn-JdS2fKwYyCJgV45W59xChcZgJ_Fg9D5VIIV8-egAU83vSZA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKLmEs-BzF18XbUAFhaFcguVRMWgXDYS04nS0NNAfiTIJeOGUo=s120-c-rp-mo-br100",
+      "displayName": "Joyce Dickinson"
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-10-07T14:04:45.545098Z",
+     "updateTime": "2026-10-07T14:04:45.545098Z",
+     "reviewReply": {
+      "comment": "Joyce, I would like to thank you for taking time to give Motor Inn a 4 Star review.  I would like to know if there is anything we could try to improve on in order to get a 5 star review from you?  Please let me know!  David Bremser-General Manager",
+      "updateTime": "2026-10-08T15:08:19.752741Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlzBzKVx-TARr_XcEcBU7JSOn-JdS2fKwYyCJgV45W59xChcZgJ_Fg9D5VIIV8-egAU83vSZA",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2s1YVprVnRTbmx4VlRkQlFYZEtSVEZPV1hadlVtYxAB"
+    },
+    {
+     "reviewId": "AbFvOqmK9jpbJiHwzkABog5cYQitPudY2dSUg9iVwoftySFy1YprXfV8yfNUJtiDjoSOEEXs1tGIcg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKoc7nNYBiymRrE-CjeLzt632RlDKiBO6XXUH0Wzskxsdb8kQ=s120-c-rp-mo-br100",
+      "displayName": "Nate Sporrer"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-06T14:10:18.680675Z",
+     "updateTime": "2026-10-06T14:10:18.680675Z",
+     "reviewReply": {
+      "comment": "Thanks Nate for the 5 Star review!  It is much appreciated!  David Bremser-General Manager",
+      "updateTime": "2026-10-07T15:05:21.430937Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmK9jpbJiHwzkABog5cYQitPudY2dSUg9iVwoftySFy1YprXfV8yfNUJtiDjoSOEEXs1tGIcg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT21wUlJFOTZOamgzUmtWdFJHTkdSSFUyUTFCRlMyYxAB"
+    },
+    {
+     "reviewId": "AbFvOqmFQfqYey7TuoKHTE3LAx0L0t2TEPS2D2B7Hj6OHNFGc1oTAiJjfWky2M-s3TeCT5GZQ4EC8w",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUBVIGu6ekQqp1sL3DZVV1IwofNaiZBkg4GnjqxkCIaV32pdNE=s120-c-rp-mo-br100",
+      "displayName": "Stephaine Hopkins"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-10-06T14:05:59.431870Z",
+     "updateTime": "2026-10-06T14:05:59.431870Z",
+     "reviewReply": {
+      "comment": "Stephanie, Thank you so much for taking time to give Motor Inn a 5 star!  We appreciate you very much! David Bremser-General Manager",
+      "updateTime": "2026-10-07T15:08:19.657064Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmFQfqYey7TuoKHTE3LAx0L0t2TEPS2D2B7Hj6OHNFGc1oTAiJjfWky2M-s3TeCT5GZQ4EC8w",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pSMU5WSm5jMlk1VFUxV1N6WmlZalYzVG1WSWRHYxAB"
+    },
+    {
+     "reviewId": "AbFvOqmZwqzDbZYjl3fPr8GxZfRyYLeXnO3Y0IvJ5Ax3n5E3GpWLmMBWYADTzocsTgutv_P1O2eN3w",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL9S6JYmZq63O2UTBVX6dgqTLJpNVT5fmbd-LShy-0j3U7oHg=s120-c-rp-mo-br100",
+      "displayName": "Shelby Baumeister"
+     },
+     "starRating": "FIVE",
+     "comment": "Kyle was very knowledgeable.  He listened to our needs and was a no pressure for the sale.   His communication was quick in answering all our questions and honestly.  He made the purchase of our 2025 Chevy Traverse very smooth.  He walked us through all the vehicle features and made sure we were comfortable when we left.  If you are in the market for a new or used car and want a stress free buying experience go see Kyle Gallagher!",
+     "createTime": "2026-10-04T13:42:34.551661Z",
+     "updateTime": "2026-10-04T13:42:34.551661Z",
+     "reviewReply": {
+      "comment": "Thank you Shelby, Motor Inn and Kyle appreciates you leaving him a great 5 Star review!  He strives hard to make the customer experience a top notch one and it shows!  We also appreciate the fact that you chose to buy from us at Motor Inn!   David Bremser-General Manager",
+      "updateTime": "2026-10-07T15:11:55.379812Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmZwqzDbZYjl3fPr8GxZfRyYLeXnO3Y0IvJ5Ax3n5E3GpWLmMBWYADTzocsTgutv_P1O2eN3w",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT25CaWVsOTRRVTlVVG00eFFURmpkV2xZWkU1UmVGRRAB"
+    },
+    {
+     "reviewId": "AbFvOqk_laOASge3N2F2TY_GSdTg85Qk9FeRriGqHaAHnEnbYWxBmG-l5tLZrx6vkFESWYcad4-6",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjV5vGRO1tI7s5NczYqHb1xUr2ojp3VxrjTUCDLH-Vo3W9ocJ4ta=s120-c-rp-mo-br100",
+      "displayName": "Brad Benton"
+     },
+     "starRating": "FIVE",
+     "comment": "Very prompt on giving me a ride to St. Anthony's when I dropped off my car and let me know right away with a phone call when the oil change was completed.",
+     "createTime": "2026-10-02T17:10:36.153994Z",
+     "updateTime": "2026-10-02T17:10:36.153994Z",
+     "reviewReply": {
+      "comment": "Brad, Thank you the kind words! We appreciate your great 5 Star review of Motor Inn and we hope to take care of your service needs again soon!  David Bremser-General Manager",
+      "updateTime": "2026-10-07T15:14:07.742319Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqk_laOASge3N2F2TY_GSdTg85Qk9FeRriGqHaAHnEnbYWxBmG-l5tLZrx6vkFESWYcad4-6",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT25GVVJWQmtkSEl6WkhKWlYzcHVhbkYxZWtKelVIYxAB"
+    },
+    {
+     "reviewId": "AbFvOqm-_98OxBqOCb1H_dPQopVz3WWMQrX8La6lx97FtlFDkjRW5czY-zo5pVkx25iBExBtjF3fDQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKjIThmKYYf-FhoGG7CKtSPpIJcxh0hOpg_i-l28flU8Be5IQ=s120-c-rp-mo-br100",
+      "displayName": "Jerry Rupiper"
+     },
+     "starRating": "FIVE",
+     "comment": "nathan pudenz. get customer service  n Amy always smiling",
+     "createTime": "2026-10-01T14:48:17.699894Z",
+     "updateTime": "2026-10-01T14:48:17.699894Z",
+     "reviewReply": {
+      "comment": "Jerry, thanks a ton for the five stars! Nathan and Amy will be glad to hear their customer service stood out — and yes, Amy's smile is hard to miss around here. Stop back in and see us again soon!\n\n-Spencer and the Motor Inn team",
+      "updateTime": "2026-10-12T20:37:36.249455Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqm-_98OxBqOCb1H_dPQopVz3WWMQrX8La6lx97FtlFDkjRW5czY-zo5pVkx25iBExBtjF3fDQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xKT2FHcEtXRTF2ZVZSMVVHVk9hVVp3TFRsd2MwRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlCNbiDfFE-9UzWEluHL7X8ZKKCBpIFgakJ1jd5qvqxRYi_R1-6oNOTJM6Ev4e1-niE7qh11w",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKhMOGbtfmAL4mv8I1NLUztu_4RhlWwr7AzQ3xjqxVvVIJ_GQ=s120-c-rp-mo-br100",
+      "displayName": "Sue England"
+     },
+     "starRating": "FIVE",
+     "comment": "I have full confidence in Motor Inn for all my servicing needs. I know they will always do what is right and have my best interest in mind.",
+     "createTime": "2026-09-30T16:31:52.322118Z",
+     "updateTime": "2026-09-30T16:31:52.322118Z",
+     "reviewReply": {
+      "comment": "Thank you Sue for taking time out of your busy day to give us a great 5 star review!  We appreciate you and your business very much!  David Bremser-General Manager",
+      "updateTime": "2026-09-30T17:58:58.778319Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlCNbiDfFE-9UzWEluHL7X8ZKKCBpIFgakJ1jd5qvqxRYi_R1-6oNOTJM6Ev4e1-niE7qh11w",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pJeVJtNWhjMDF1YUdKTlZFMTZSM2xTTFVGNGRFRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlq9pzHXNmTO5kVk1mIMqqXDmpVsbXS8N31l_9o8Ay2ePjjEK0QR7uMLvNEcjnSFDck43YIrA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKdT5iSBSKqYNVXV0zDUm7eUhjmh2-e-RCeLts-am_jmh9n0A=s120-c-rp-mo-br100",
+      "displayName": "Arlis Bahnsen"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-26T00:09:21.705492Z",
+     "updateTime": "2026-09-26T00:09:21.705492Z",
+     "reviewReply": {
+      "comment": "Thank you to the Bahnsen's for the 5 star review!  We appreciate your continued loyalty at Motor Inn of Carroll.  David Bremser General Manager",
+      "updateTime": "2026-09-26T16:31:37.693114Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlq9pzHXNmTO5kVk1mIMqqXDmpVsbXS8N31l_9o8Ay2ePjjEK0QR7uMLvNEcjnSFDck43YIrA",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT20xeVozRmhaR3hIZURGV2FIRmhWSEZrUlZCS2JIYxAB"
+    },
+    {
+     "reviewId": "AbFvOql-eziFadg0_PVUlE87yQPFSwYulfL4pZhP8w8IC6JSRM7yJV809LqvNKYr3pEMksyaVyfFpA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIQNN4RDOHYfy5GvIdoFveFiRpOV9hBWZWDB9ArwhwThn54Tw=s120-c-rp-mo-br100",
+      "displayName": "Steve Dvorak"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-23T14:09:53.364990Z",
+     "updateTime": "2026-09-23T14:09:53.364990Z",
+     "reviewReply": {
+      "comment": "Thank you Steve for taking the time to give us a 5 Star review!  It is much appreciated!  David Bremser General Manager",
+      "updateTime": "2026-09-23T14:35:38.627498Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOql-eziFadg0_PVUlE87yQPFSwYulfL4pZhP8w8IC6JSRM7yJV809LqvNKYr3pEMksyaVyfFpA",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xSM2VrMVhOR3RYUVd4MU1GWk1lazFhY0dVelUwRRAB"
+    },
+    {
+     "reviewId": "AbFvOqnwWClCvOj_CipWeyxiw8WYzXktpod8MWszDnkz9raa3ehCNjyg827pj3tA964c-p154Tr6nw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXHsw5ILCVUaaU0SAEa5uBJvC1aR5oRJtpvtt-6Hj0hvpDAZ6k=s120-c-rp-mo-ba12-br100",
+      "displayName": "Chas chas"
+     },
+     "starRating": "FIVE",
+     "comment": "All good! Thank you.",
+     "createTime": "2026-09-19T22:14:32.754629Z",
+     "updateTime": "2026-09-19T22:14:32.754629Z",
+     "reviewReply": {
+      "comment": "Chas, thanks for the kind words — glad everything went smoothly for you. Whatever you need next, whether it's service or another look at the lot, we're here. -The Motor Inn team",
+      "updateTime": "2026-09-25T17:05:25.117719Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqnwWClCvOj_CipWeyxiw8WYzXktpod8MWszDnkz9raa3ehCNjyg827pj3tA964c-p154Tr6nw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2psVGNsVnRNRXd0TTA1TmRGOVlVMmx4UVU1cFQyYxAB"
+    },
+    {
+     "reviewId": "AbFvOqlHw44YYUTY97cc2IS_TTjLCqhAIitgI9DmYFIS-Cg9ksg26o5l5wNoMyDcfLPvB_gBOzSk",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIRe_k8nEDzM84yQ9VTLWk6ShzLla6yKFwe5rBGn48al8mqrw=s120-c-rp-mo-ba12-br100",
+      "displayName": "Ron Sitzmann"
+     },
+     "starRating": "FIVE",
+     "comment": "I had my oil changed,and tires rotated.They got me in on time,and was done when promised.Excellent service!",
+     "createTime": "2026-09-19T15:38:52.110516Z",
+     "updateTime": "2026-09-19T15:38:52.110516Z",
+     "reviewReply": {
+      "comment": "Ron, thanks for trusting us with your oil change and tire rotation — and for noticing that we got you in on time and out when promised. That's how it should work every visit. Come see us again when the next service rolls around. -The Motor Inn team",
+      "updateTime": "2026-09-25T17:05:26.049839Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlHw44YYUTY97cc2IS_TTjLCqhAIitgI9DmYFIS-Cg9ksg26o5l5wNoMyDcfLPvB_gBOzSk",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2t0S1NFMWthVnBJUzNGM01VbFlOMDFhUzNrMWIyYxAB"
+    },
+    {
+     "reviewId": "AbFvOqkomlGmory2jAtGzQMRHAkP0ctiEdCNYYOjS_ji2tHgppi1bF9HgPkwsVrjbRuIY6viHl9Znw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKC-m_d-t9rcdr_uh1zHLc5WL0pMKm_9IahQE82mzs0QPuveQ=s120-c-rp-mo-br100",
+      "displayName": "Anthony Stelmach"
+     },
+     "starRating": "FIVE",
+     "comment": "Great dealership!\nVery friendly people and the service was very good.\nI work all over Iowa and I will come to this dealership again when I am back in the area.",
+     "createTime": "2026-09-18T23:31:06.373263Z",
+     "updateTime": "2026-09-18T23:31:06.373263Z",
+     "reviewReply": {
+      "comment": "Anthony, I would like to thank you for taking the time to put in a great 5 star review of Motor Inn and the kind words regarding our store!  We appreciate you and your business!  We also look forward to seeing you back at our dealership the next time your in the area! David Bremser-General Manager",
+      "updateTime": "2026-09-19T15:50:03.402361Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqkomlGmory2jAtGzQMRHAkP0ctiEdCNYYOjS_ji2tHgppi1bF9HgPkwsVrjbRuIY6viHl9Znw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT20xc2RtSTBMWFkwT0MxMlducFdUWEp6VWs1cmRHYxAB"
+    },
+    {
+     "reviewId": "AbFvOqnWyPSDlYsYSDkw_ENQuCPO3QFyyJ_FPIaPx-q5PDwSf-ya32u1Tk5uiAxLPZAVq-I7ZZ43WQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVND6wLYYW3q-uIWrpzzuReawB9TiGivsMeFPfD0zzcYvdFsyY=s120-c-rp-mo-br100",
+      "displayName": "Don Herrig"
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-09-16T16:39:39.703989Z",
+     "updateTime": "2026-09-16T16:39:39.703989Z",
+     "reviewReply": {
+      "comment": "Don, Thank you for taking the time to leave a 5 Star review for Motor Inn! We appreciate you!",
+      "updateTime": "2026-09-17T14:12:52.025668Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqnWyPSDlYsYSDkw_ENQuCPO3QFyyJ_FPIaPx-q5PDwSf-ya32u1Tk5uiAxLPZAVq-I7ZZ43WQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT21sME5HczVOR053V1ZWelJUaFpRWEk0UzNOZlFrRRAB"
+    },
+    {
+     "reviewId": "AbFvOqmg0tEnyDE8hlQAQHxf9xoUUGgwYgiHOu_jvb_0VY4gXXylaiSldRd_acjRrX4AaCdarhjC",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWFy3uFiARB23W_W7KnVHa3DZkeQHBOoaDSZA29Xj4EJ7XIOMZP=s120-c-rp-mo-br100",
+      "displayName": "Jack Cue"
+     },
+     "starRating": "FIVE",
+     "comment": "Great",
+     "createTime": "2026-09-16T14:09:49.042806Z",
+     "updateTime": "2026-09-16T14:09:49.042806Z",
+     "reviewReply": {
+      "comment": "Thanks for the 5 star review!  We appreciate the business!",
+      "updateTime": "2026-09-17T14:13:20.952037Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmg0tEnyDE8hlQAQHxf9xoUUGgwYgiHOu_jvb_0VY4gXXylaiSldRd_acjRrX4AaCdarhjC",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pkNVVHNWplR1JPUzNVd1VVY3dTbTFYY0ZwaWMzYxAB"
+    },
+    {
+     "reviewId": "AbFvOqk60NJBpjiDhOyS8TCpV4ENjrv8VeQMIVk7XdmIfCNbhGZg5l7hkmkhZohnOov7WceeEd9_7w",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLcolEXoM19r6nMP_QKmGNaQqJr-wbZYq1vcMIlclTA0kNVLQ=s120-c-rp-mo-br100",
+      "displayName": "Sarah Spiker"
+     },
+     "starRating": "FIVE",
+     "comment": "The people at Motor Inn are Fantastic. I have never had any issues and they’re always helpful.",
+     "createTime": "2026-09-16T11:57:41.555958Z",
+     "updateTime": "2026-09-16T11:57:41.555958Z",
+     "reviewReply": {
+      "comment": "Thanks Sarah for taking time out of your busy day to leave a great 5 star review!  We appreciate your continued loyalty to Motor Inn!",
+      "updateTime": "2026-09-17T14:14:50.485840Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqk60NJBpjiDhOyS8TCpV4ENjrv8VeQMIVk7XdmIfCNbhGZg5l7hkmkhZohnOov7WceeEd9_7w",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pkUmNVbGZkV05hUkVaa1EzbEVhek5ZYkhkNFoxRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlSAX8e9eYqKk9NDXVO1jd68xXF3Lcg9oKbVUjnZoM6NZhshy0lTZaUnD9uGp-_GxhZiTKU7A",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJeHQz0Em_2-x_Qw3DhjGNLdTEmBxzReDFredaf0KHy7wLC-Q=s120-c-rp-mo-br100",
+      "displayName": "Scott Plendl"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-16T04:32:03.459208Z",
+     "updateTime": "2026-09-16T04:32:03.459208Z",
+     "reviewReply": {
+      "comment": "Thank you Scott for the 5 star review of Motor Inn!  We appreciate the business and we hope you are enjoying your new Camry! ",
+      "updateTime": "2026-09-17T14:16:09.446451Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlSAX8e9eYqKk9NDXVO1jd68xXF3Lcg9oKbVUjnZoM6NZhshy0lTZaUnD9uGp-_GxhZiTKU7A",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xGZlNuZHRjeTF6TkMxa1VucENkVzVJTldsWE1tYxAB"
+    },
+    {
+     "reviewId": "AbFvOqkwlXrVZdNeWU_vtl54tkb_TELp1p7F-0r7MdkecLl0t0N1PR0n63qR2YHI5Ojr5T_njikSoQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKxgqzfOQOGyR3WhTvQWGs5guFq5ZWjfWKu-iXnzkaodujK4Q=s120-c-rp-mo-ba12-br100",
+      "displayName": "Geneva Rajski"
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-09-16T04:18:12.601828Z",
+     "updateTime": "2026-09-16T04:18:12.601828Z",
+     "reviewReply": {
+      "comment": "Thank you for taking the time to leave us a review!  We appreciate the business! ",
+      "updateTime": "2026-09-17T14:18:39.014311Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqkwlXrVZdNeWU_vtl54tkb_TELp1p7F-0r7MdkecLl0t0N1PR0n63qR2YHI5Ojr5T_njikSoQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT21Sd1pYbFZRa3hRVTFsNmN6UlpMVzU0WlZGeGFGRRAB"
+    },
+    {
+     "reviewId": "AbFvOqkAZ4TrMfNZGZ-uWdnwEbjc-pIqA6H_KkMJt13AII-mBPUOt_1RpjJ6hSawZiwsyFdt3plheQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJwipT4NRH_B33TBSHWxsgWSDzkh1Lxj2Q8s9O1dH0isF2njA=s120-c-rp-mo-br100",
+      "displayName": "Chris Goodwin"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-15T14:53:42.671182Z",
+     "updateTime": "2026-09-15T14:53:42.671182Z",
+     "reviewReply": {
+      "comment": "Chris, Thank you for the 5 star review!  We do appreciate it!",
+      "updateTime": "2026-09-15T15:33:05.496714Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqkAZ4TrMfNZGZ-uWdnwEbjc-pIqA6H_KkMJt13AII-mBPUOt_1RpjJ6hSawZiwsyFdt3plheQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xOUU9FbG1TSGt6VmxaNFVFTnFORGczVmpSVk1YYxAB"
+    },
+    {
+     "reviewId": "AbFvOqlVBDUIg6meHrprnpOdDI_1rJr4Si4n5OFKCoQeDwoJIFXyXTTW3nV5Fjf6PKDhiKkgj1mm",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJ_71ogUUCx0WuhqEOudeX1We1pjmzAc1K5haJ49t4ItNO3HA=s120-c-rp-mo-br100",
+      "displayName": "Denise meyer"
+     },
+     "starRating": "FIVE",
+     "comment": "It is really great that they have the service of picking up the vehicle and returning it!!!😘🥰",
+     "createTime": "2026-09-10T15:03:40.059493Z",
+     "updateTime": "2026-09-10T15:03:40.059493Z",
+     "reviewReply": {
+      "comment": "Thank you for leaving a great 5 star review!  We appreciate you and your business!",
+      "updateTime": "2026-09-10T20:12:48.212995Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlVBDUIg6meHrprnpOdDI_1rJr4Si4n5OFKCoQeDwoJIFXyXTTW3nV5Fjf6PKDhiKkgj1mm",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT25sMlgyNHpkRWR3Tm5SRU1USmpVM0ZHZEZaNVpIYxAB"
+    },
+    {
+     "reviewId": "AbFvOqlV1aSiMQK1W1kxfOUvFIwOvXH6eiq_e85ZvEKa1jZjKkUSmd2rcT2oFjuNdnQrzaWnMDOzbg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJI4XFbhxAk7ilenQV90KCQsBk_BtjSGiu84zirmwGC3wkM=s120-c-rp-mo-br100",
+      "displayName": "Cynthia Vokt"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-09T14:07:46.560495Z",
+     "updateTime": "2026-09-09T14:07:46.560495Z",
+     "reviewReply": {
+      "comment": "Thanks Cynthia for the 5 star review!  We truly appreciate you!",
+      "updateTime": "2026-09-10T20:13:23.891788Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlV1aSiMQK1W1kxfOUvFIwOvXH6eiq_e85ZvEKa1jZjKkUSmd2rcT2oFjuNdnQrzaWnMDOzbg",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pGcVFrUTFRV2haY1VGTVlrNWZSRlUxV210S1FVRRAB"
+    },
+    {
+     "reviewId": "AbFvOqn0pxbaF-XncvewCrFBC_K_mnTsSTu0TRYXqv9uvAzurt9q-4fephKmM0YS2xNcRcttW3T9",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWYhJTCnkiX2htNhN-06JDZ2FsC6r8IDVG9ohrw2UAPS3gN9PNPXQ=s120-c-rp-mo-br100",
+      "displayName": "Lisa Vaughn"
+     },
+     "starRating": "FIVE",
+     "comment": "I recently bought a used 2025 Ford Escape from Motor Inn. Rick was fantastic! He and Lisa guided me through every step of the car-buying process. Whether you're looking for a new or used car, Motor Inn is your go-to place!",
+     "createTime": "2026-09-08T22:43:12.131677Z",
+     "updateTime": "2026-09-08T22:43:12.131677Z",
+     "reviewReply": {
+      "comment": "Thank you for the great 5star review!  I will pass along this information to Rick and Lisa!  We appreciate the opportunity to assist you!",
+      "updateTime": "2026-09-10T20:10:02.836714Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqn0pxbaF-XncvewCrFBC_K_mnTsSTu0TRYXqv9uvAzurt9q-4fephKmM0YS2xNcRcttW3T9",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT214alNIbDZkbU4xVXpCRWEybDFRMjVvVVZkcU5GRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlllwEqfBqYVTihjPKt_Z3zCVECH5uH9qeGNA5qOA88FiDO8nkWPAK2ASZycCH1XsPEB7VR6g",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocI7ti_PVbwNpZLgL7dIM6gPC4ZaRaOn0wbqRZqt_K4QQqfHhQ=s120-c-rp-mo-br100",
+      "displayName": "Arlis Bahnsen"
+     },
+     "starRating": "FIVE",
+     "comment": "We recently purchased a new vehicle at Motor Inn of Carroll. We've always had great service there.  The staff was knowledgeable and friendly. Highly recommend.",
+     "createTime": "2026-09-06T13:00:29.768241Z",
+     "updateTime": "2026-09-06T13:00:29.768241Z",
+     "reviewReply": {
+      "comment": "A huge thank you to you and John for your continued loyalty to our Motor Inn family!  We appreciate you both very much!  Hope your enjoying the new ride~!",
+      "updateTime": "2026-09-08T14:51:46.132385Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqlllwEqfBqYVTihjPKt_Z3zCVECH5uH9qeGNA5qOA88FiDO8nkWPAK2ASZycCH1XsPEB7VR6g",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2psbmVEaHZkekF0Vm5sNVNFdGlOek40U0MwMVYyYxAB"
+    },
+    {
+     "reviewId": "AbFvOqk0QKhGGfLOut2_Qg9s9LjMIkn3bjDDaO-3nvSF3MAQ6H0Xqvb0EFLMDUkJ7ycWw535-nxatA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIwrjvqZdjuiNZwFch8GxAz_El-D2cdA3333b2PJgYevg13KA=s120-c-rp-mo-br100",
+      "displayName": "Bill Bush"
+     },
+     "starRating": "FIVE",
+     "comment": "Very professional. Polite excellent service",
+     "createTime": "2026-08-27T14:59:37.447367Z",
+     "updateTime": "2026-09-05T15:30:26.963856Z",
+     "reviewReply": {
+      "comment": "Thank you Bill for the great 5 star review!  We appreciate you and your loyalty to Motor Inn!",
+      "updateTime": "2026-08-28T13:56:52.415762Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqk0QKhGGfLOut2_Qg9s9LjMIkn3bjDDaO-3nvSF3MAQ6H0Xqvb0EFLMDUkJ7ycWw535-nxatA",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xKVVdHVlBibWQyU1V4YVRUUlVVVmx3Wms5R1dXYxAB"
+    },
+    {
+     "reviewId": "AbFvOql2nSJZQG3hEKhXZtcRTNgTXTr23leTAXWjiOCJouGjO-SlvN3xoAg3EtGxdtlQnX6gg7lmaw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJw7nAeTKqIqllsG65HvOAndWU8sQ13QV5KUeRdIuOl62rS5Q=s120-c-rp-mo-br100",
+      "displayName": "Jedd Hagen"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-05T15:13:17.318632Z",
+     "updateTime": "2026-09-05T15:13:17.318632Z",
+     "reviewReply": {
+      "comment": "Thanks for the 5 star review!",
+      "updateTime": "2026-09-08T14:52:11.794865Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOql2nSJZQG3hEKhXZtcRTNgTXTr23leTAXWjiOCJouGjO-SlvN3xoAg3EtGxdtlQnX6gg7lmaw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT21KemVGVnhZV2xoY25GaVJsZDBWa2h1UlVOR2JGRRAB"
+    },
+    {
+     "reviewId": "AbFvOqmh2lNdgJ0WeiFRMc24EGJhoDki3_-_KGxcKFRpNTerbGm1oOj2c1e0xiw8mKkFfpv8JTr9wQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJw1skvySas0aYqZpZ2NrYXR4Ma8SSWIW9AXv4eX9a44BR9yw=s120-c-rp-mo-br100",
+      "displayName": "Elaine Palmer"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-05T15:02:52.760970Z",
+     "updateTime": "2026-09-05T15:02:52.760970Z",
+     "reviewReply": {
+      "comment": "Thank you Elaine!  We appreciate your continued support!",
+      "updateTime": "2026-09-08T14:52:42.192903Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqmh2lNdgJ0WeiFRMc24EGJhoDki3_-_KGxcKFRpNTerbGm1oOj2c1e0xiw8mKkFfpv8JTr9wQ",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT25SQlRHbHVVbFExT0hGdU1ITTFUemw2T1ZSSE4wRRAB"
+    },
+    {
+     "reviewId": "AbFvOqm2Cb885YyTdYiSTbDbGncNcpjW_W9fB-jVvAe0biplFo8UvNatwG81gph_itq5jWTm-EYwKw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK4szmzZSg1C4qIJ22iG9I-4TLLjosRuHYfseWqa4dKJ9eWMw=s120-c-rp-mo-br100",
+      "displayName": "David Bilsten"
+     },
+     "starRating": "FIVE",
+     "comment": "Fast and excellent work",
+     "createTime": "2026-09-05T14:56:22.924932Z",
+     "updateTime": "2026-09-05T14:56:22.924932Z",
+     "reviewReply": {
+      "comment": "Thanks to you and Mary for your continued support of Motor Inn!",
+      "updateTime": "2026-09-08T14:53:33.081763Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqm2Cb885YyTdYiSTbDbGncNcpjW_W9fB-jVvAe0biplFo8UvNatwG81gph_itq5jWTm-EYwKw",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2xCa016ZFBkbGRsWTNoaFIxZGhVbk5WT1VkMk9WRRAB"
+    },
+    {
+     "reviewId": "AbFvOqke1Qx_zx6txFbuvRIfeIE9yo78CaAxiufFJj0JB7lAsZ0Bruz8icC3TCfZgCvfE4rYQadU4A",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLVtmlI1yI-FkOxwXX6tmkln2zVYX24Iv8wD2wABQPOfLWuGA=s120-c-rp-mo-br100",
+      "displayName": "carman hammes"
+     },
+     "starRating": "FIVE",
+     "createTime": "2026-09-05T14:03:38.735099Z",
+     "updateTime": "2026-09-05T14:03:38.735099Z",
+     "reviewReply": {
+      "comment": "Thank you for the 5 star review!  WE appreciate you!",
+      "updateTime": "2026-09-08T14:54:08.049497Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/14730652758503817758/reviews/AbFvOqke1Qx_zx6txFbuvRIfeIE9yo78CaAxiufFJj0JB7lAsZ0Bruz8icC3TCfZgCvfE4rYQadU4A",
+     "reviewReplyUrl": "https://business.google.com/n/14730652758503817758/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pWd1ZGUmlOMTlQTWxBek0ybHlPVGN4WVRoTmNtYxAB"
+    }
+   ]
+  },
+  {
+   "acct": "115596490921363748880",
+   "loc": "2099693230539902964",
+   "total": 37,
+   "avg": 4.800000190734863,
+   "n": 37,
+   "reviews": [
+    {
+     "reviewId": "AbFvOqmHKiMedvr-ZHECYCE8iT3FNNbms-4U_ey7e1LHXMFp3sDFeOISe0idp9gsxmZHSsZ2lMLA4g",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKKf9khgO3aBsasyaXtiz7ocDYqHPVk8pgCyGR4CEosQkxX4w=s120-c-rp-mo-br100",
+      "displayName": "john ross"
+     },
+     "starRating": "FOUR",
+     "createTime": "2026-08-28T19:17:50.663083Z",
+     "updateTime": "2026-08-28T19:17:50.663083Z",
+     "reviewReply": {
+      "comment": "Thanks for the four stars, John. If there was anything that kept you from a five-star visit, we would genuinely like to hear it — a quick note or a call to the store works. And if we can help with your next vehicle or service visit, ask for us by name. The Motor Inn team, Carroll",
+      "updateTime": "2026-10-08T20:05:53.514290Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqmHKiMedvr-ZHECYCE8iT3FNNbms-4U_ey7e1LHXMFp3sDFeOISe0idp9gsxmZHSsZ2lMLA4g",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/Ci9DQUlRQUNvZENodHljRjlvT2pSbU5tVllVM2x2WjJ0UVptNXJTelZmTjBOVU5rRRAB"
+    },
+    {
+     "reviewId": "AbFvOqnVf0qIIr_vYY5PswBFj-nt9T9HSEdf9uhCD0gX1eluyHwiaNHNypw5lhnU1BoszxnNdLydhA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUUCOwFk_sJnanqmALrHcgTbOCDEVTa3gEjxPzIcyPu2BzxzEO_=s120-c-rp-mo-ba12-br100",
+      "displayName": "Charles McGinn"
+     },
+     "starRating": "TWO",
+     "createTime": "2025-10-12T03:42:09.748612Z",
+     "updateTime": "2025-10-12T03:42:09.748612Z",
+     "reviewReply": {
+      "comment": "We are very sorry to hear that your experience did not meet expectations. Providing excellent service is extremely important to us, and we’re disappointed to learn that we fell short in your case.\n\nWe would truly appreciate the opportunity to learn more about what happened and how we can make this right. Please reach out to Tony directly at 712-792-5000 at your convenience so we can discuss your concerns and work toward improving your experience.",
+      "updateTime": "2026-03-03T18:31:45.856985Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqnVf0qIIr_vYY5PswBFj-nt9T9HSEdf9uhCD0gX1eluyHwiaNHNypw5lhnU1BoszxnNdLydhA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/Ci9DQUlRQUNvZENodHljRjlvT2tob1JGQTNlR3Q0U0ZOMk1GaERVMk5SWkhoRFNIYxAB"
+    },
+    {
+     "reviewId": "AbFvOqnolMi_IrwwNwtTOhhbeRdQRO8D2k_veax3uksA30LCVB0irKmBQQtai8BVtn6pFMcCimvRZQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVKJg8srRtgE2NwI6Q5gFtzzi3XnipvMr6X-RfU97WEFcbtFviC=s120-c-rp-mo-ba12-br100",
+      "displayName": "Tim and Colleen"
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-03-29T22:04:48.401118Z",
+     "updateTime": "2025-03-29T22:04:48.401118Z",
+     "reviewReply": {
+      "comment": "Thank you for the review, Tim and Colleen!",
+      "updateTime": "2025-05-15T22:05:14.062290Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqnolMi_IrwwNwtTOhhbeRdQRO8D2k_veax3uksA30LCVB0irKmBQQtai8BVtn6pFMcCimvRZQ",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnTUNJcUxfUDRnRRAB"
+    },
+    {
+     "reviewId": "AbFvOqk-EPf71wfTWroQrCF4Y2r2DKzcE3DwXarbf92rmqvQwRi0_cg6N26WdphLLlfB2tmFmchyzw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjX-cfx5zVbighpyA97-sOkxMzBeLBpbDA5sLsoWON6iaDLwQipD=s120-c-rp-mo-ba12-br100",
+      "displayName": "Jerrod Wax"
+     },
+     "starRating": "FIVE",
+     "createTime": "2025-01-25T13:29:12.430890Z",
+     "updateTime": "2025-01-25T13:29:12.430890Z",
+     "reviewReply": {
+      "comment": "Thanks for the review, Jerrod!",
+      "updateTime": "2025-05-15T22:05:04.015242Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqk-EPf71wfTWroQrCF4Y2r2DKzcE3DwXarbf92rmqvQwRi0_cg6N26WdphLLlfB2tmFmchyzw",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSURfLWNDRUxREAE"
+    },
+    {
+     "reviewId": "AbFvOqliXzobrjeMxDz77UNmIUuqMV5IaPBGUZhjTJEahcV8cWxNJoFUKLdeuIYV7w4Y5ilxV34zSw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocImb06xe7kfk6DCQc1DVmTLnTqnra2gM8Txs32lxuVvLF-fXw=s120-c-rp-mo-br100",
+      "displayName": "Becky Sexton"
+     },
+     "starRating": "FIVE",
+     "comment": "Kyle Gallagher was a great salesperson. Very easy to work with, talk to and ask questions of!  I truly enjoyed working with him!",
+     "createTime": "2025-01-06T21:34:32.520224Z",
+     "updateTime": "2025-01-06T21:34:32.520224Z",
+     "reviewReply": {
+      "comment": "Becky, thank you so much for your review. We appreciate your business!",
+      "updateTime": "2025-05-15T22:05:44.877670Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqliXzobrjeMxDz77UNmIUuqMV5IaPBGUZhjTJEahcV8cWxNJoFUKLdeuIYV7w4Y5ilxV34zSw",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURmbnQtdV9RRRAB"
+    },
+    {
+     "reviewId": "AbFvOqkQPxQXtjweZJ6TykcdvvWZyYonAIqocVsE2VcSoVaq-e1UKkkDEntpIsErnaGscOOUD-SNrg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLNCQ324GJH2t88HVCUbRkZmJP4aNUjdtg4TyAGMk9WYnNneA=s120-c-rp-mo-ba12-br100",
+      "displayName": "KHAOS TTILL"
+     },
+     "starRating": "FIVE",
+     "comment": "Quick service and friendly staff.",
+     "createTime": "2024-12-11T19:55:15.493324Z",
+     "updateTime": "2024-12-11T19:55:15.493324Z",
+     "reviewReply": {
+      "comment": "Thank you so much for your review!",
+      "updateTime": "2025-05-15T22:05:56.722549Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqkQPxQXtjweZJ6TykcdvvWZyYonAIqocVsE2VcSoVaq-e1UKkkDEntpIsErnaGscOOUD-SNrg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUN2b2Uzc2J3EAE"
+    },
+    {
+     "reviewId": "AbFvOqmRI7be-LOKCex_Yv_K3zmYcnYEWGIq-mOA0HFd1ffxqfdi23ktIyA6s-X6xMN8qb0MQOU8Rw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLLp-qdn8E57hZ0FTLQ5WkMYL1AqU2o1yw3RVStax3oNT60OQ=s120-c-rp-mo-ba12-br100",
+      "displayName": "Doug Haase"
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-10-07T16:18:08.762188Z",
+     "updateTime": "2024-10-07T16:18:08.762188Z",
+     "reviewReply": {
+      "comment": "Thanks for your review, Doug!",
+      "updateTime": "2025-05-15T22:06:08.100975Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqmRI7be-LOKCex_Yv_K3zmYcnYEWGIq-mOA0HFd1ffxqfdi23ktIyA6s-X6xMN8qb0MQOU8Rw",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURudWJhRGdRRRAB"
+    },
+    {
+     "reviewId": "AbFvOql3TMGqiypFsVCM7ZnM1jdkeUh9KFH6Np1sMvuO_wJFZz0lNlbcCNUihd7pwMEcAfAKo86a7g",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJyldw8U43TbuGzxoy6oEV9Wb1O-wv81Pw6pBTRF78tBIhCoQ=s120-c-rp-mo-br100",
+      "displayName": "Micah Hamson"
+     },
+     "starRating": "FIVE",
+     "comment": "David Bremser was quick to answer any questions that I had.",
+     "createTime": "2024-09-09T13:42:52.653003Z",
+     "updateTime": "2024-09-09T13:42:52.653003Z",
+     "reviewReply": {
+      "comment": "Glad to hear your questions were answered, Micah. Thanks for your review!",
+      "updateTime": "2025-05-15T22:06:28.996208Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOql3TMGqiypFsVCM7ZnM1jdkeUh9KFH6Np1sMvuO_wJFZz0lNlbcCNUihd7pwMEcAfAKo86a7g",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUNIaDhxUG9nRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlZXIfJRPE4JRkZPXspccJyBL2-j55cCr8_cuJ8kzqZFCniOLlSok1fzhpTaS1NsEaXke9wlg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKtIBVi47oC14AcVtQ8s1ed0qFQvhU0-dbC8KCJr4DkVm1lHQ=s120-c-rp-mo-br100",
+      "displayName": "Josie Schultz"
+     },
+     "starRating": "FIVE",
+     "comment": "Dave helped us out when we needed a car earlier we this summer! He made the process so easy in a stressful situation! We will be back for sure!",
+     "createTime": "2024-07-21T19:47:59.751643Z",
+     "updateTime": "2024-07-21T19:47:59.751643Z",
+     "reviewReply": {
+      "comment": "Josie, thank you so much for your review and your business. We're so glad to hear that Dave was able to help you. See you next time!",
+      "updateTime": "2025-05-15T22:07:17.030312Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlZXIfJRPE4JRkZPXspccJyBL2-j55cCr8_cuJ8kzqZFCniOLlSok1fzhpTaS1NsEaXke9wlg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSURydl9yWmZBEAE"
+    },
+    {
+     "reviewId": "AbFvOqmjJc_8NKzGDdfv9IOV0KNcYQYvZOYwPN4xgM1Y3IQcQNDTuF8PYIjwrZal7aQRrG1l0PO_Dg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjUB2A2vYZOqZGbi7v6Vpy6-iP9U5hZ_ZnAsNdQo-e03yPYV5_2S=s120-c-rp-mo-br100",
+      "displayName": "Julie Woodhouse"
+     },
+     "starRating": "FIVE",
+     "comment": "Awesome customer service and sales!  Sam S helped me buy the car I needed!",
+     "createTime": "2024-07-16T15:11:03.940949Z",
+     "updateTime": "2024-07-16T15:11:03.940949Z",
+     "reviewReply": {
+      "comment": "This is great news, Julie -- thank you for your business and your review! Enjoy your car!",
+      "updateTime": "2025-05-15T22:07:38.190033Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqmjJc_8NKzGDdfv9IOV0KNcYQYvZOYwPN4xgM1Y3IQcQNDTuF8PYIjwrZal7aQRrG1l0PO_Dg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURyOG92eHR3RRAB"
+    },
+    {
+     "reviewId": "AbFvOqlCLiVy3UykWZLeySwgySK0bjEpFAvUTu3hywc3XV1mNQMG6IuK_zOfz2bl8FjVnCEyqOCaXA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKElmMhhbl3TyvntUd7syPyxbDRuQsFLBfZwq-PtsQ_XZfqEA=s120-c-rp-mo-br100",
+      "displayName": "Kristi Valentine"
+     },
+     "starRating": "FOUR",
+     "comment": "David is a very hands on attentive salesman who actually contacts you back & keeps in touch thru the whole process.",
+     "createTime": "2024-07-03T18:39:16.788134Z",
+     "updateTime": "2024-07-03T18:39:16.788134Z",
+     "reviewReply": {
+      "comment": "Kristi, we're so glad to hear that David was responsive and followed up with you through the process. We appreciate your feedback!",
+      "updateTime": "2025-05-15T22:08:15.452496Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlCLiVy3UykWZLeySwgySK0bjEpFAvUTu3hywc3XV1mNQMG6IuK_zOfz2bl8FjVnCEyqOCaXA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUNyNkpLMDZRRRAB"
+    },
+    {
+     "reviewId": "AbFvOqlgKRJS3LINgwJB7JVFSpnvDD7fU8Mbx8DYIr2kdTMF3gAAwnwO7nG5XEokweGkRjy1tLeaxw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXtPb6wvUY0Qyl74PxJdP8ZHS4AMWXgCICFpGKeKVY1KngHkcBB=s120-c-rp-mo-br100",
+      "displayName": "Brandon Hersom"
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-06-16T12:04:56.588922Z",
+     "updateTime": "2024-06-16T12:04:56.588922Z",
+     "reviewReply": {
+      "comment": "Thanks, Brandon!",
+      "updateTime": "2025-05-15T22:08:22.657145Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlgKRJS3LINgwJB7JVFSpnvDD7fU8Mbx8DYIr2kdTMF3gAAwnwO7nG5XEokweGkRjy1tLeaxw",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUNMbkp6TXpBRRAB"
+    },
+    {
+     "reviewId": "AbFvOqltwhZnt6Zx37JQKo8ymVGMATcOm3Fbtk2dnjT8qjztHlE5UMDAytG-4Ra1XpCknHunC0w8dw",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVXgNaDmVFfSkc4w-LZHcVEo-7p2cMgBRVAz2i95H1Kx9sogUHG7Q=s120-c-rp-mo-br100",
+      "displayName": "Shari Sitzmann"
+     },
+     "starRating": "FIVE",
+     "comment": "thanks to Kyle, we were very happy to get our 2025 Toyota Camry Hybrid!  what great knowledge he has !!  If you are looking for someone who will help you understand your NEW vehicle nuances and negotiate a great deal for you, Kyle is your man!!!! Thanks Kyle!",
+     "createTime": "2024-06-11T17:29:58.310241Z",
+     "updateTime": "2024-06-11T17:29:58.310241Z",
+     "reviewReply": {
+      "comment": "Shari, thank you for highlighting Kyle's service! We appreciate your business and your review!",
+      "updateTime": "2025-05-15T22:08:58.590074Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqltwhZnt6Zx37JQKo8ymVGMATcOm3Fbtk2dnjT8qjztHlE5UMDAytG-4Ra1XpCknHunC0w8dw",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUR6bmViSFV3EAE"
+    },
+    {
+     "reviewId": "AbFvOqnKmzPnLRRqxEKi_EGBTWS9iiza0vbvSLins8N_7NOkmUL-3q99p_mXe_sAomGzlnsmfSgtMA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLUfG0s2dBpjt1d36VUoO-6Ef7wWNmojq2wUbAb4tshqggD=s120-c-rp-mo-br100",
+      "displayName": "Adam Ries"
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-05-24T16:50:04.751651Z",
+     "updateTime": "2024-05-24T16:50:04.751651Z",
+     "reviewReply": {
+      "comment": "Thank you, Adam!",
+      "updateTime": "2025-05-15T22:09:06.469231Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqnKmzPnLRRqxEKi_EGBTWS9iiza0vbvSLins8N_7NOkmUL-3q99p_mXe_sAomGzlnsmfSgtMA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURUanZPWGhRRRAB"
+    },
+    {
+     "reviewId": "AbFvOqnpAKwX25DVnEFxNN28lO6AwkaVYgnp1Sn20PQf_14ySgMiKM34r1hJOJC-MnBiovIXDTww",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjULbUwiyDDJA4QanaN1AnKnHetimyou933YCAB69AsreoZPTVY8Ew=s120-c-rp-mo-br100",
+      "displayName": "Richard Francis"
+     },
+     "starRating": "FIVE",
+     "comment": "We have purchased three vehicles from Motor Inn and have been satisfied with the experience every time.",
+     "createTime": "2024-05-23T17:52:15.191094Z",
+     "updateTime": "2024-05-23T17:52:15.191094Z",
+     "reviewReply": {
+      "comment": "Richard, thank you for your loyal business! We're so glad that your experience with us has been positive each time. We appreciate your feedback!",
+      "updateTime": "2025-05-15T22:09:42.486756Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqnpAKwX25DVnEFxNN28lO6AwkaVYgnp1Sn20PQf_14ySgMiKM34r1hJOJC-MnBiovIXDTww",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURUMHMtZ3FBRRAB"
+    },
+    {
+     "reviewId": "AbFvOqml_8Bra2YhHtPrVe22tnJTF7z5VhJhLj5XyxAo2U7LegAHfx4D-fbG4-5FHejz-vERLe_H",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJvqSKBSx7iLTgfF2NN6Y_oo9azWywtRCxAmVBKsKMDtKziXA=s120-c-rp-mo-br100",
+      "displayName": "Cindy Pinegar"
+     },
+     "starRating": "FIVE",
+     "comment": "We would recommend Motor Inn Chevrolet of Carroll to anyone wanting a vehicle. They are very polite and work very hard to get you what you want. They took the time to explain everything about your vehicle and how it works.",
+     "createTime": "2024-04-09T15:39:52.206219Z",
+     "updateTime": "2024-04-09T15:39:52.206219Z",
+     "reviewReply": {
+      "comment": "Thank you, Cindy! We appreciate your recommendation and your feedback!",
+      "updateTime": "2025-05-15T22:10:42.000990Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqml_8Bra2YhHtPrVe22tnJTF7z5VhJhLj5XyxAo2U7LegAHfx4D-fbG4-5FHejz-vERLe_H",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUREcnJ6YjhnRRAB"
+    },
+    {
+     "reviewId": "AbFvOqm0pDosMO9gdWveu11dogUC-GHyoJLPPGcLuBqQYD8nEPlL4BTqPDCBv8rgqrDSq7fUD7_JNg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLDNNz2pRIJ67v-sArIK8nIRaY1tC9e50di4Evh36lMWpY-RA=s120-c-rp-mo-br100",
+      "displayName": "Amanda Veenstra"
+     },
+     "starRating": "FIVE",
+     "comment": "Sam Spencer will find the perfect fit for you!",
+     "createTime": "2024-03-23T23:56:30.887513Z",
+     "updateTime": "2024-03-23T23:56:30.887513Z",
+     "reviewReply": {
+      "comment": "Thanks for your comment and review, Amanda!",
+      "updateTime": "2025-05-15T22:10:56.290236Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqm0pDosMO9gdWveu11dogUC-GHyoJLPPGcLuBqQYD8nEPlL4BTqPDCBv8rgqrDSq7fUD7_JNg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUNEcU0tckhBEAE"
+    },
+    {
+     "reviewId": "AbFvOqlY1X8y_IbgOvX5GwLiJmQphlvM_E4jeSoiCSKBWXUKZccEJHFDsLOKJg2knJPEPSRmOhAL",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjXYj1h6tGj64Qt8iOnTzFPh0kN8zwxFjTg700FggmZzrRHL8sFFZw=s120-c-rp-mo-br100",
+      "displayName": "Bobbie Sue Onken"
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-03-22T18:06:42.142007Z",
+     "updateTime": "2024-03-22T18:06:42.142007Z",
+     "reviewReply": {
+      "comment": "Thanks for your review!",
+      "updateTime": "2025-05-15T22:11:10.011435Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlY1X8y_IbgOvX5GwLiJmQphlvM_E4jeSoiCSKBWXUKZccEJHFDsLOKJg2knJPEPSRmOhAL",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUQ5bl82cDVBRRAB"
+    },
+    {
+     "reviewId": "AbFvOqllJ1vFpjjRhcqNx3RAFnipXVq0B5mOPyONsL1fhEfGEuco8CB-SdgvmVe7_SWiR547lWXWjA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocK43kIkdIbPd7h1A6Q2SiedH2DasHM7UJbvgUl5_wXQpL6XTjo=s120-c-rp-mo-br100",
+      "displayName": "David Swank"
+     },
+     "starRating": "FIVE",
+     "comment": "5th Toyota purchased from Motor Inn in 6 years. Always a deal I can live with. Thanks Kyle!",
+     "createTime": "2024-03-16T15:40:16.446407Z",
+     "updateTime": "2024-03-16T15:40:16.446407Z",
+     "reviewReply": {
+      "comment": "David, we appreciate your loyal business! Thank you for your feedback and great to hear you're experience with us has been a great one.",
+      "updateTime": "2025-05-15T22:11:46.250739Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqllJ1vFpjjRhcqNx3RAFnipXVq0B5mOPyONsL1fhEfGEuco8CB-SdgvmVe7_SWiR547lWXWjA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ5OXNIb0x3EAE"
+    },
+    {
+     "reviewId": "AbFvOqmzEHAIHA-C3uLlyzj68D2fCD4gEgCCseiE7X6T8q9lE1c7p-fUsGXx1QHE6KZtFQGVLxH40Q",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKP7Pa3-1vHIP2THfegvh4yGQqCkPy3AOz3d1epZ9rsqVUoLA=s120-c-rp-mo-br100",
+      "displayName": "Gina Benton"
+     },
+     "starRating": "FIVE",
+     "comment": "My visit and eventual purchase of a new Toyota Tacoma was very good. Dave and staff were easy to work with and the entire process went very smoothly. Love my new truck.\nTom Benton",
+     "createTime": "2024-01-31T13:34:47.593669Z",
+     "updateTime": "2024-01-31T13:37:20.042652Z",
+     "reviewReply": {
+      "comment": "Tom (& Gina), so glad to hear you love your new Toyota Tacoma! We appreciate your business and your feedback.",
+      "updateTime": "2025-05-15T22:12:30.106880Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqmzEHAIHA-C3uLlyzj68D2fCD4gEgCCseiE7X6T8q9lE1c7p-fUsGXx1QHE6KZtFQGVLxH40Q",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUN0M1pyeWN3EAE"
+    },
+    {
+     "reviewId": "AbFvOqnhP38f6ZfbZAu6QmX60qVLxgjJxqqVMGIMTVFxo6XKI8dV20fTLwMlGj1l9ruyqGUXw62uDg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIzdnsNKLFcFYJUR22gWZSdBLRBy7LOLTpzIy4AdlUyU8UEog=s120-c-rp-mo-br100",
+      "displayName": "Kathy Hanson"
+     },
+     "starRating": "FIVE",
+     "comment": "Kyle is a real asset to this dealership.  He was very knowledgeable and professional!!! Since buying vehicles in Carroll, I have owned a Cutlas, a Rivera,  3 Monte Carlos, 2 Rav4s, and now my 2nd Equinox. Buying cars as a single woman  has sometimes been challenging. He is the best salesman I've ever worked with. He searched for just exactly the car I've been wanting for several years. I would highly recommend him to anyone looking to buy a new vehicle. He was very patient teaching me how to adjust to a FOB instead of a key and also helping teach me\nabout my new car. Thank you Kyle!",
+     "createTime": "2024-01-30T20:19:17.851665Z",
+     "updateTime": "2024-01-30T20:19:17.851665Z",
+     "reviewReply": {
+      "comment": "Kathy, we're so glad you found Kyle to be an asset to you! We appreciate your business and your thorough review.",
+      "updateTime": "2025-05-15T22:13:09.136190Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqnhP38f6ZfbZAu6QmX60qVLxgjJxqqVMGIMTVFxo6XKI8dV20fTLwMlGj1l9ruyqGUXw62uDg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUN0aVpfYzhBRRAB"
+    },
+    {
+     "reviewId": "AbFvOqnOidc1hunuZgfbnrgWbnw4a9W_RVwe5JnaVBD8BIuMziOISFpAKR0zKVA6gWdEwxLvMOQWrQ",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKMv0tXU_eR7Yt5fV6-FRpz7VhlUaG2MY7Mp-LI7KmUhsdp_w=s120-c-rp-mo-br100",
+      "displayName": "Judy Bechen"
+     },
+     "starRating": "FOUR",
+     "createTime": "2024-01-27T15:54:40.712611Z",
+     "updateTime": "2024-01-27T15:54:40.712611Z",
+     "reviewReply": {
+      "comment": "Thanks for the review, Judy!",
+      "updateTime": "2025-05-15T22:13:15.930815Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqnOidc1hunuZgfbnrgWbnw4a9W_RVwe5JnaVBD8BIuMziOISFpAKR0zKVA6gWdEwxLvMOQWrQ",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUROMzZmWHp3RRAB"
+    },
+    {
+     "reviewId": "AbFvOqmGDqs91jXCwzJf3Co1L6LXmwEe4qCeF4obALcair-zNzYf4HEtlG57sAfeHZ5fI7-zYrHhtg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLKYmSO6Ei_xXCAYyRGgpHhyF9-5fU0MCgCFA7e836Pj72O6w=s120-c-rp-mo-br100",
+      "displayName": "Joshua Gunderson"
+     },
+     "starRating": "FIVE",
+     "createTime": "2024-01-23T16:15:54.945117Z",
+     "updateTime": "2024-01-23T16:15:54.945117Z",
+     "reviewReply": {
+      "comment": "Thanks for your review, Joshua!",
+      "updateTime": "2025-05-15T22:13:25.284332Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqmGDqs91jXCwzJf3Co1L6LXmwEe4qCeF4obALcair-zNzYf4HEtlG57sAfeHZ5fI7-zYrHhtg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUROeWRyZWp3RRAB"
+    },
+    {
+     "reviewId": "AbFvOqkTCRloeTjGz8jgQVsuoEbAgEYaAnMQTv-_yW3tOrcWPxqGeJrvh9cSIG6zyWxXq64KELO5",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWJIZB8HDx-R6NfyJ8X2tNXYS-ByK4ITQQvqLlEOGL3fQKuAik=s120-c-rp-mo-br100",
+      "displayName": "Kurt Baumhover"
+     },
+     "starRating": "FIVE",
+     "comment": "The transactions with Kyle went great! He listened to our needs and delivered quickly!!",
+     "createTime": "2024-01-14T04:23:04.094484Z",
+     "updateTime": "2024-01-14T04:23:04.094484Z",
+     "reviewReply": {
+      "comment": "Kurt, we're so happy to hear this -- thank you for your business and feedback!",
+      "updateTime": "2025-05-15T22:13:41.347783Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqkTCRloeTjGz8jgQVsuoEbAgEYaAnMQTv-_yW3tOrcWPxqGeJrvh9cSIG6zyWxXq64KELO5",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUNOcHRyNWV3EAE"
+    },
+    {
+     "reviewId": "AbFvOqndGAhoZz12fMfR6121574aShk57RY3AxlC2e217IAaaTJ5M1_-TIules3dHL0FmNc7cs_Few",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVTUkmYGhKPyj_aaoyeUz5Q0Lbx2BaWekGMoaqQhsoV0OfIbU-O=s120-c-rp-mo-br100",
+      "displayName": "jenna Hausman"
+     },
+     "starRating": "FIVE",
+     "comment": "Motor Inn of Carroll IA is the place to go for great service and great vehicles! Kyle Gallagher was awesome to work with and I am very pleased with the vehicle he found me :)",
+     "createTime": "2023-12-14T19:36:08.438439Z",
+     "updateTime": "2023-12-14T19:36:08.438439Z",
+     "reviewReply": {
+      "comment": "Thanks for your review and feedback, Jenna!",
+      "updateTime": "2025-05-15T22:13:52.518417Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqndGAhoZz12fMfR6121574aShk57RY3AxlC2e217IAaaTJ5M1_-TIules3dHL0FmNc7cs_Few",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURWalluMDZRRRAB"
+    },
+    {
+     "reviewId": "AbFvOqm4nXS3nev6zfTMQUjn-l9gIpxNYZ1KIt73SPUwFVkfEJbBx-xZwL1bJQ0e8rjnaayJUBQc1g",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVJBOFjJ1ax9krh7vHKdzJs6TfQ3rrC2etK1c-3snDlwz8-RFlvEA=s120-c-rp-mo-ba12-br100",
+      "displayName": "Sheryl A"
+     },
+     "starRating": "FIVE",
+     "comment": "Dave B is a great salesman! They followup with any issues or questions you may have! I recommend this place for sure!",
+     "createTime": "2023-12-11T21:48:56.413581Z",
+     "updateTime": "2023-12-11T21:48:56.413581Z",
+     "reviewReply": {
+      "comment": "Sheryl, we appreciate your recommendation and your feedback!",
+      "updateTime": "2025-05-15T22:14:08.441516Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqm4nXS3nev6zfTMQUjn-l9gIpxNYZ1KIt73SPUwFVkfEJbBx-xZwL1bJQ0e8rjnaayJUBQc1g",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURWb3ZfVjJnRRAB"
+    },
+    {
+     "reviewId": "AbFvOqkW-7Y_J6WFkeNtmHqxuYboe91KVF01KNA4DTikuHf199HJlXWdXiBSJEQ_QV96nrki37N8sg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJeKsJAbkm2HP4ybV5qnIgP1nItl84s4RC_SsQDkXCAn_gleA=s120-c-rp-mo-br100",
+      "displayName": "Beth Taylor"
+     },
+     "starRating": "FIVE",
+     "comment": "We were so happy with how Dave and Lisa helped us with our new car purchase! I can’t say enough about their customer service and helpfulness. We will absolutely be back.",
+     "createTime": "2023-12-02T16:00:25.446909Z",
+     "updateTime": "2023-12-02T16:00:25.446909Z",
+     "reviewReply": {
+      "comment": "This is so great to hear, Beth -- thank you for your business and your review!",
+      "updateTime": "2025-05-15T22:14:24.489877Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqkW-7Y_J6WFkeNtmHqxuYboe91KVF01KNA4DTikuHf199HJlXWdXiBSJEQ_QV96nrki37N8sg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSURsNmNqUFBREAE"
+    },
+    {
+     "reviewId": "AbFvOqk6Sp3tsT8q2RV0-zlX5wno8AG9NX66PcoNvvp34EF26zqqYadXJ8_KpUfVYDAMdP-HnQEN",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocL91wmjwSzPQfZ_dgCTnAQigdJpH3UP0Z4yLgXT563Yx72GUA=s120-c-rp-mo-br100",
+      "displayName": "Roger Clayburg"
+     },
+     "starRating": "FIVE",
+     "createTime": "2023-12-01T02:07:41.197709Z",
+     "updateTime": "2023-12-01T02:07:41.197709Z",
+     "reviewReply": {
+      "comment": "Thanks, Roger!",
+      "updateTime": "2025-05-15T22:14:31.429061Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqk6Sp3tsT8q2RV0-zlX5wno8AG9NX66PcoNvvp34EF26zqqYadXJ8_KpUfVYDAMdP-HnQEN",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURsb3Blcnd3RRAB"
+    },
+    {
+     "reviewId": "AbFvOqlj_rb9HdX4VwHNgQGjEu7xzqDcZ6Nvcdd2jHT5b1H4S8Bwp5IZPNan7Gy0baf-J_P46Q-OLA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjWWXjm4vsz24B8vDUD5u3EtITwBrhfdnS2T0L52pq2s822US1o=s120-c-rp-mo-br100",
+      "displayName": "Andrea Pearson"
+     },
+     "starRating": "FIVE",
+     "comment": "We worked with a great salesman, Sam, who was very friendly and knowledgeable. We’re very content!",
+     "createTime": "2023-10-17T01:20:46.772146Z",
+     "updateTime": "2023-10-17T01:20:46.772146Z",
+     "reviewReply": {
+      "comment": "Thanks for your review, Andrea!",
+      "updateTime": "2025-05-15T22:16:23.718695Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlj_rb9HdX4VwHNgQGjEu7xzqDcZ6Nvcdd2jHT5b1H4S8Bwp5IZPNan7Gy0baf-J_P46Q-OLA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUM1MDQybWN3EAE"
+    },
+    {
+     "reviewId": "AbFvOqkavNg2V2FKCR3c7MeRZZ8iSGuuynWACoGTZRD_euaN4wycUEbMDiURcUJhA9e1xeG3tz41qA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJlEfzm2fYgtAq-m7ccRfh6-_vqyfyqbDlXpUfvd5jReu9Hog=s120-c-rp-mo-br100",
+      "displayName": "Lindy Pierce"
+     },
+     "starRating": "FIVE",
+     "comment": "Kyle was terrific from start to finish…helpful communication thru out (almost a year process to secure a Rav4Prime),  took the time to explain features and technology and seemed like he cared that we were happy. No surprises and would purchase from him again.",
+     "createTime": "2023-10-17T01:05:26.837623Z",
+     "updateTime": "2023-10-17T01:05:26.837623Z",
+     "reviewReply": {
+      "comment": "Lindy, we're so glad to hear this -- thanks for your business and feedback!",
+      "updateTime": "2025-05-15T22:16:15.341443Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqkavNg2V2FKCR3c7MeRZZ8iSGuuynWACoGTZRD_euaN4wycUEbMDiURcUJhA9e1xeG3tz41qA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUM1MDlHaE9nEAE"
+    },
+    {
+     "reviewId": "AbFvOqkMPlBMaHfZBig5rJMLgE5QTHpDVl28PPLpI62ZlDiPaz13yjAWtWv7_cOMN8Pvcvyp9_B7_w",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a-/ALV-UjVR-e8wE1w2IZPjl7QRHmicCo4qXGqxlQZlJHVzhzeSrMSvl0l8=s120-c-rp-mo-br100",
+      "displayName": "Yaniel Naranjo"
+     },
+     "starRating": "FIVE",
+     "comment": "Thank you 🙏🏻",
+     "createTime": "2023-10-06T07:19:28.984450Z",
+     "updateTime": "2023-10-06T07:19:28.984450Z",
+     "reviewReply": {
+      "comment": "Love the photo - thanks for your review and your business, Yaniel!",
+      "updateTime": "2025-05-15T22:15:55.221878Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqkMPlBMaHfZBig5rJMLgE5QTHpDVl28PPLpI62ZlDiPaz13yjAWtWv7_cOMN8Pvcvyp9_B7_w",
+     "reviewMediaItems": [
+      {
+       "thumbnailUrl": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfn2_7kay4gatHF3HKWpA9VxxPRp4yhXblITXyf5sH-CwMbpo1CcY0IocedjV6jzaMTQyQc3g204-6sp7hRc9ptCtl7CETa5fn5xePX_6RjOaDL2RlTjaahcNkCO_LaEpbSoc=k-no"
+      }
+     ],
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURaalpfNjV3RRAB"
+    },
+    {
+     "reviewId": "AbFvOqlgoRqB3BaNBGJyzsa06_uEaivGK4ZdmoCCp562SGAEbpmkg33Hn36IS4EjaKNDs7Ncslrx",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocJeZsO-xWFWR-1IeUJRJs_0XFZlt4r16Cm2zRQsWcWt-oLraQ=s120-c-rp-mo-br100",
+      "displayName": "Allen Pooler"
+     },
+     "starRating": "FIVE",
+     "comment": "Sam Spencer Is the bomb. Will get you down the road in whatever your heart desires!!",
+     "createTime": "2023-09-25T21:05:45.236697Z",
+     "updateTime": "2023-09-25T21:05:45.236697Z",
+     "reviewReply": {
+      "comment": "Thanks so much for your review, Allen!",
+      "updateTime": "2025-05-15T22:15:40.877216Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlgoRqB3BaNBGJyzsa06_uEaivGK4ZdmoCCp562SGAEbpmkg33Hn36IS4EjaKNDs7Ncslrx",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSURaek96MkpREAE"
+    },
+    {
+     "reviewId": "AbFvOqlwSMl3pb2Y9Av0wkrcEawZS0d0xFa3WBJSr3Pchk_jyhPfkPVxjHYI_Q-PeX5LoZaHCcLgAg",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKYzHUiQeOwLnaCorTq3ajKh-aM9-CqVDl2IDfHqAC5CCM2jw=s120-c-rp-mo-br100",
+      "displayName": "Steve Hodges"
+     },
+     "starRating": "FIVE",
+     "comment": "Best dealership I have ever dealt with!",
+     "createTime": "2023-08-24T18:27:09.309319Z",
+     "updateTime": "2023-08-24T18:27:09.309319Z",
+     "reviewReply": {
+      "comment": "Steve, thank you! We are grateful for your feedback!",
+      "updateTime": "2025-05-15T22:15:31.224170Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlwSMl3pb2Y9Av0wkrcEawZS0d0xFa3WBJSr3Pchk_jyhPfkPVxjHYI_Q-PeX5LoZaHCcLgAg",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURwNmRtaDVRRRAB"
+    },
+    {
+     "reviewId": "AbFvOqnB5-4haWyQc7MgmUVaDGUK_YD7Xj_bLCWJGnPvNEpdNmTQ-eltjd13c3wgR1CVJ5HOWAB-sA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKYwAiiO6vtFjJZ9Yd-tnhcb_M6Piabhdhk8q2Fv7Tx1fFiCA=s120-c-rp-mo-br100",
+      "displayName": "David Kilburn"
+     },
+     "starRating": "FIVE",
+     "comment": "Excellent service and prices and very helpful staff\n10/10",
+     "createTime": "2023-07-15T18:53:40.752494Z",
+     "updateTime": "2023-07-15T18:53:40.752494Z",
+     "reviewReply": {
+      "comment": "We appreciate your thoughtful feedback, David!",
+      "updateTime": "2025-05-15T22:15:14.244489Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqnB5-4haWyQc7MgmUVaDGUK_YD7Xj_bLCWJGnPvNEpdNmTQ-eltjd13c3wgR1CVJ5HOWAB-sA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSURKaHBIcXZBRRAB"
+    },
+    {
+     "reviewId": "AbFvOqmpJpxMaZfdlXsTZ-HKhDIxfMMqAnMMHRz6-yfOmTanUiMkjosmX_-bX3FlbRWCiYlXQW-W",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocIR5JptDVtWHQjVctlesRAaJczE4VRnQCTPvPGJZhqmQAFf0Q=s120-c-rp-mo-br100",
+      "displayName": "Tylor Audino"
+     },
+     "starRating": "FIVE",
+     "comment": "Kyle G. and team make the car buying process so easy. Thank you for continuing great customer service!",
+     "createTime": "2023-06-27T13:47:55.076355Z",
+     "updateTime": "2023-06-27T13:47:55.076355Z",
+     "reviewReply": {
+      "comment": "Tylor, thanks for your business and your review!",
+      "updateTime": "2025-05-15T22:15:00.887524Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqmpJpxMaZfdlXsTZ-HKhDIxfMMqAnMMHRz6-yfOmTanUiMkjosmX_-bX3FlbRWCiYlXQW-W",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKcnFiQXp3RRAB"
+    },
+    {
+     "reviewId": "AbFvOqlYloAKPfnX5AEa9_Zo_qWoOFIpdabp1vWPy79ci12dh7LE9eR2g-hHO3XRelFlDNsLd7H7bA",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocLUW0QhFDw5M5enTdpbqlE8DDto6ggSI3qpeUUg6xHsFfR7=s120-c-rp-mo-br100",
+      "displayName": "marshall sherwood"
+     },
+     "starRating": "FIVE",
+     "comment": "Great place and great people at motor inn!!",
+     "createTime": "2023-06-22T19:22:26.271998Z",
+     "updateTime": "2023-06-22T19:22:26.271998Z",
+     "reviewReply": {
+      "comment": "Thank you, Marshall!",
+      "updateTime": "2025-05-15T22:14:49.370864Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqlYloAKPfnX5AEa9_Zo_qWoOFIpdabp1vWPy79ci12dh7LE9eR2g-hHO3XRelFlDNsLd7H7bA",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChdDSUhNMG9nS0VJQ0FnSUNKbkt2RHhRRRAB"
+    },
+    {
+     "reviewId": "AbFvOqkDdr0ZRsc8Raw1Lm-GIZFxUIhC1LuKLeFEfpkM2pGD0y7SXcDRt9LN-wRpq7xYTYY-e5tv6g",
+     "reviewer": {
+      "profilePhotoUrl": "https://lh3.googleusercontent.com/a/ACg8ocKl6vu9_v1RPc2PjZK7yn-zyblP63ugFnu1PzL5EtAVkAitdA=s120-c-rp-mo-br100",
+      "displayName": "Tanner Walter"
+     },
+     "starRating": "FIVE",
+     "comment": "Dave at Motor Inn was great to deal with. Would highly recommend him and his team.",
+     "createTime": "2023-06-21T16:32:13.359970Z",
+     "updateTime": "2023-06-21T16:32:13.359970Z",
+     "reviewReply": {
+      "comment": "Thanks, Tanner!",
+      "updateTime": "2025-05-15T22:14:43.361263Z",
+      "reviewReplyState": "APPROVED"
+     },
+     "name": "accounts/115596490921363748880/locations/2099693230539902964/reviews/AbFvOqkDdr0ZRsc8Raw1Lm-GIZFxUIhC1LuKLeFEfpkM2pGD0y7SXcDRt9LN-wRpq7xYTYY-e5tv6g",
+     "reviewReplyUrl": "https://business.google.com/n/2099693230539902964/reviews/ChZDSUhNMG9nS0VJQ0FnSUNKMUs3d0ZBEAE"
+    }
+   ]
+  }
+ ],
+ "posts": [
+  {
+   "loc": "14730652758503817758",
+   "live": 17,
+   "all": 17,
+   "newest": "2026-10-29T20:57:42.189549Z"
+  },
+  {
+   "loc": "2099693230539902964",
+   "live": 17,
+   "all": 17,
+   "newest": "2026-10-29T20:57:42.501469Z"
+  }
+ ]
+}
