@@ -83,3 +83,10 @@ B: competitor-teardown project: 450-page crawl (champion/wittrock/billion), per-
    brand/body-style inventory pages; Wittrock nearby-town pages; offer-path mirror).
    git repo initialized, all committed.
 Next: Spencer picks playbook items -> article queue; pages 1-2 enter approval flow.
+
+## GAP-FIX COMPLETE 2026-11-05 (commit 1201d84)
+The 2 rory pages (f-150-vs-silverado-1500-carroll, car-dealer-comparison-carroll-iowa)
+were missing from packages + chrome + one schema. Now: full DealerOn chrome (dealerOnTrack,
+header/nav/footer, inline design system) + FAQPage schema + packages + previews restaged.
+ALL 10 pages / 10 packages now uniform: chrome, schema, metadata, interlinks.
+Previews: same URLs, hard-refresh.
