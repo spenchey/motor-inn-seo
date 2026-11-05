@@ -101,3 +101,16 @@ P3 bd6a79a+e5e9378: re-rendered DealerOn chrome, QA 0-overflow/1 schema/ids clea
 Previews restaged (v2 copy live at same URLs).
 Model note: Gemma tested per Spencer; lost to GPT-6.1-Sol on house-voice fit. Future
 creative drafts default GPT-6.1-Sol via codex runtime; fallback GLM.
+
+## BATCH 1 EXPANSION x6 COMPLETE - 2026-11-05 (commit 0323347)
+Built 6 new ready-design pages + DealerOn-chrome packages + QA:
+1 car-service-denison-iowa
+2 car-service-storm-lake-iowa
+3 used-car-dealer-lake-city-iowa
+4 toyota-suvs-carroll-iowa
+5 chevy-trucks-carroll-iowa
+6 used-suv-carroll-iowa
+Each: question H2s, TLDR on 3 hubs, single FAQPage JSON-LD, live DealerOn routes,
+390/1280 QA PASS (0 overflow, chrome present, no duplicate IDs).
+Paths: content/ready-design/*.html + deliveries/site-packages/2026-11-05/**.
+Next: Spencer review + DealerOn handoff. Nothing live or published.
