@@ -1,0 +1,90 @@
+{
+ "Champion Ford Carroll": {
+  "hidden_paths": [],
+  "sitemap_urls": [
+   0
+  ],
+  "compare_pages": [],
+  "subdomain_candidates": [
+   "https://go.championfordofcarroll.com",
+   "https://info.championfordofcarroll.com",
+   "https://pages.championfordofcarroll.com",
+   "https://lp.championfordofcarroll.com",
+   "https://offers.championfordofcarroll.com"
+  ],
+  "repeated_headlines": []
+ },
+ "Wittrock Motor": {
+  "hidden_paths": [],
+  "sitemap_urls": [
+   0
+  ],
+  "compare_pages": [],
+  "subdomain_candidates": [
+   "https://go.wittrockmotor.com",
+   "https://info.wittrockmotor.com",
+   "https://pages.wittrockmotor.com",
+   "https://lp.wittrockmotor.com",
+   "https://offers.wittrockmotor.com"
+  ],
+  "repeated_headlines": []
+ },
+ "Billion Auto": {
+  "hidden_paths": [],
+  "sitemap_urls": [
+   6775
+  ],
+  "compare_pages": [
+   "https://www.billionauto.com/new-suvs-for-sale?make=Chevrolet",
+   "https://www.billionauto.com/new-suvs-for-sale?make=GMC",
+   "https://www.billionauto.com/new-suvs-for-sale?make=Jeep",
+   "https://www.billionauto.com/new-suvs-for-sale",
+   "https://www.billionauto.com/used-suvs-for-sale?make=Chevrolet",
+   "https://www.billionauto.com/used-suvs-for-sale?make=GMC",
+   "https://www.billionauto.com/used-suvs-for-sale?make=Jeep",
+   "https://www.billionauto.com/used-suvs-for-sale"
+  ],
+  "subdomain_candidates": [
+   "https://go.billionauto.com",
+   "https://info.billionauto.com",
+   "https://pages.billionauto.com",
+   "https://lp.billionauto.com",
+   "https://offers.billionauto.com"
+  ],
+  "repeated_headlines": [
+   "New Chevrolet Suvs  for Sale",
+   "New GMC Suvs  for Sale",
+   "New Jeep Suvs  for Sale"
+  ]
+ },
+ "Pro Auto Sales": {
+  "hidden_paths": [],
+  "sitemap_urls": [
+   37
+  ],
+  "compare_pages": [],
+  "subdomain_candidates": [
+   "https://go.net",
+   "https://info.net",
+   "https://pages.net",
+   "https://lp.net",
+   "https://offers.net"
+  ],
+  "repeated_headlines": []
+ },
+ "Choice Auto": {
+  "hidden_paths": [],
+  "sitemap_urls": [
+   125
+  ],
+  "compare_pages": [],
+  "subdomain_candidates": [
+   "https://go.choiceauto.biz",
+   "https://info.choiceauto.biz",
+   "https://pages.choiceauto.biz",
+   "https://lp.choiceauto.biz",
+   "https://offers.choiceauto.biz"
+  ],
+  "repeated_headlines": []
+ }
+}
