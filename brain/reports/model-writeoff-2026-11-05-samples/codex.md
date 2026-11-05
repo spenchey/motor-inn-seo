@@ -1,0 +1,1 @@
+A trim level is a version of the same truck model. Base trims cover the basics; higher trims may add comfort features, technology, or equipment that adds capability. The real question: will those extras earn their keep in your day-to-day driving?
