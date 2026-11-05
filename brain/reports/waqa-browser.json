@@ -1,0 +1,62 @@
+{
+ "Champion": {
+  "disallow": [
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/*.js",
+   "/*.css",
+   "/*.json",
+   "/api/",
+   "/apis/",
+   "/pixall/",
+   "*/pixall/",
+   "/*.js",
+   "/*.css",
+   "/*.json",
+   "/api/",
+   "/apis/"
+  ],
+  "sitemaps": [
+   "https://www.championfordofcarroll.com/sitemap.xml"
+  ],
+  "url_count": 190,
+  "vs": [
+   "https://www.championfordofcarroll.com/2025-ford-f-150-vs-chevy-silverado-1500.htm"
+  ]
+ },
+ "Wittrock": {
+  "disallow": [
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/",
+   "/*.js",
+   "/*.css",
+   "/*.json",
+   "/api/",
+   "/apis/",
+   "/pixall/",
+   "*/pixall/",
+   "/*.js",
+   "/*.css",
+   "/*.json",
+   "/api/",
+   "/apis/"
+  ],
+  "sitemaps": [
+   "https://www.wittrockmotor.com/sitemap.xml"
+  ],
+  "url_count": 180,
+  "vs": []
+ }
+}
