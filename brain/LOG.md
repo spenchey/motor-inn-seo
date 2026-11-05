@@ -59,3 +59,10 @@ dated dir -> update plist path or add dated index links.
 Pages rebuilt inside verbatim DealerOn chrome (header 13KB + nav 35KB + footer + 256KB
 inline design system + typekit/Roboto). Header match 95.9% normalized vs live site.
 Preview server restaged; same URLs. ~318KB/page incl. full chrome; dealerOnTrack present.
+
+## FORMAT FIX VERIFIED 2026-11-04 (ad74945)
+Root cause: homepage chrome + CSS on inner pages, duplicate IDs, homepage-only css.
+Fix: inner-page chrome from real inner-page layout, dedup IDs, homepage css dropped.
+QA (playwright, 390+1280px, all 7 pages): 0px overflow, header 68/37px, nav 10-11 links,
+content full-width. Evidence PNGs + qa-results.md in deliveries/.../_qa/.
+Previews restaged - same URLs. Commit ad74945 pushed.
