@@ -66,3 +66,11 @@ Fix: inner-page chrome from real inner-page layout, dedup IDs, homepage css drop
 QA (playwright, 390+1280px, all 7 pages): 0px overflow, header 68/37px, nav 10-11 links,
 content full-width. Evidence PNGs + qa-results.md in deliveries/.../_qa/.
 Previews restaged - same URLs. Commit ad74945 pushed.
+
+## WAQAS COMPETITIVE INTEL SCAN 2026-11-04
+Ran the 4-layer recon (robots hidden paths / sitemap vs-pages / subdomains / repeated
+headlines) on 5 Carroll-market competitors + self.
+Headlines: Champion's f150-vs-silver1500 page targets us; Wittrock has ZERO comparison
+content (open lane); Billion = 6775-url benchmark; our own vs-pages healthy (9).
+Report: brain/reports/waqa-intel-2026-11-04.md. Raw: waqa-browser.json.
+Queued: f-150-vs-silverado page + wittrock-lane pages -> next article batch (2/wk cap).
