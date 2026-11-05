@@ -90,3 +90,14 @@ were missing from packages + chrome + one schema. Now: full DealerOn chrome (dea
 header/nav/footer, inline design system) + FAQPage schema + packages + previews restaged.
 ALL 10 pages / 10 packages now uniform: chrome, schema, metadata, interlinks.
 Previews: same URLs, hard-refresh.
+
+## WRITING OVERHAUL COMPLETE 2026-11-05 (3 phases, 6 commits)
+P1 eb199de: 10 writing skills adopted (skills.sh: marketingskills copywriting/copy-editing,
+anthropics writing/brand-guidelines, anti-slop x2, humanizer, storytelling, writing-beats)
++ blind 3-model writeoff: winner Codex GPT-6.1-Sol 7/10 > Gemma3-12b 6/10 > GLM 5/10.
+P2 c07fef9+73a2652: all 10 pages rewritten w/ winning model+skills; read-aloud QA notes;
+0 banned AI patterns.
+P3 bd6a79a+e5e9378: re-rendered DealerOn chrome, QA 0-overflow/1 schema/ids clean.
+Previews restaged (v2 copy live at same URLs).
+Model note: Gemma tested per Spencer; lost to GPT-6.1-Sol on house-voice fit. Future
+creative drafts default GPT-6.1-Sol via codex runtime; fallback GLM.
