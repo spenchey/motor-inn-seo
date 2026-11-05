@@ -74,3 +74,12 @@ Headlines: Champion's f150-vs-silver1500 page targets us; Wittrock has ZERO comp
 content (open lane); Billion = 6775-url benchmark; our own vs-pages healthy (9).
 Report: brain/reports/waqa-intel-2026-11-04.md. Raw: waqa-browser.json.
 Queued: f-150-vs-silverado page + wittrock-lane pages -> next article batch (2/wk cap).
+
+## RORY WORK ORDERS A+B COMPLETE 2026-11-04
+A: f-150-vs-silverado-1500-carroll + car-dealer-comparison-carroll-iowa (commit 89ab102)
+   full pipeline, REVIEW packets incl gap tables/link plans. Awaiting Spencer approval.
+B: competitor-teardown project: 450-page crawl (champion/wittrock/billion), per-competitor
+   ANALYSIS.md x3 + COMBINED + ADAPTATION-PLAYBOOK.md ranked effort-impact (top: Billion
+   brand/body-style inventory pages; Wittrock nearby-town pages; offer-path mirror).
+   git repo initialized, all committed.
+Next: Spencer picks playbook items -> article queue; pages 1-2 enter approval flow.
