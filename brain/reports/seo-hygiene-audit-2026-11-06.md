@@ -21,4 +21,6 @@
 | 2026-11-05 / used-car-dealer-lake-city-iowa | PASS (59) | PASS (154) |
 | 2026-11-05 / used-suv-carroll-iowa | PASS (57) | PASS (124) |
 
-**Fixes from this pass:** raised both Highlander descriptions from 119 to 129 characters and synchronized 5 metadata records to the packaged page titles/descriptions.
+**Fixes from this pass:** raised both Highlander descriptions from 119 to 129 characters and synchronized 4 metadata records to the packaged page titles/descriptions.
+
+**One-line summary:** 16 pages verified; 3 title-length failures remain (testdrive-page, trim-levels-explained, toyota-suvs-carroll-iowa); all description lengths pass.
