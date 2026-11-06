@@ -1,21 +1,17 @@
 from __future__ import annotations
 import json, pathlib
 from urllib.parse import quote
-
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'content/ready-design'
-
 def link(make, model, condition):
     base = 'searchnew.aspx' if condition == 'new' else 'searchused.aspx'
     return f'https://www.motorinnautogroup.com/{base}?Make={quote(make)}&Model={quote(model)}'
-
 def inv_links(make, model):
     return [
         ('See new inventory', link(make, model, 'new')),
         ('See used listings', link(make, model, 'used')),
         ('Browse used inventory', 'https://www.motorinnautogroup.com/used-inventory'),
     ]
-
 def body_spec(specs, local_angle, inventory):
     rows = '\n'.join(f'<tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>' for a,b,c in specs)
     links = '\n'.join(f'<p><a href="{u}">{t}</a></p>' for t,u in inventory)
@@ -28,16 +24,14 @@ def body_spec(specs, local_angle, inventory):
 <div class="mi-invslot">
 {links}
 </div>'''
-
 def faq(faqs):
     html = '\n'.join(f'<details><summary>{q}</summary><p>{a}</p></details>' for q,a in faqs)
     data = {'@context': 'https://schema.org', '@type': 'FAQPage', 'mainEntity': [
         {'@type': 'Question', 'name': q, 'acceptedAnswer': {'@type': 'Answer', 'text': a}} for q,a in faqs]}
     return html, json.dumps(data, separators=(',', ':'))
-
 def build():
     specs = [
-        ('Toyota Grand Highlander', 'Toyota Grand Highlander in Carroll, Iowa', 'Three rows, cargo space, and towing for school runs, sports, and road trips.', [
+        ('Toyota Grand Highlander', 'Toyota Grand Highlander Near Carroll, IA', 'Three rows, cargo space, and towing for school runs, sports, and road trips.', [
             ('Cargo space', 'Up to 97.5 cu. ft. [1]', 'Fits suitcases, coolers, sports gear, and the usual family load.'),
             ('Towing', 'Up to 5,000 lb [1]', 'Check the actual trailer and hitch setup.'),
             ('Seating', 'Up to 8 [1]', 'Confirm the exact seat layout.'),
@@ -52,7 +46,7 @@ def build():
             ('Performance', 'Up to 232 net combined horsepower [1]', 'Verify the chosen engine setup.'),
             ('Drivetrain', 'Available FWD or AWD [1]', 'Match winter-road confidence to your route.'),
         ], 'A low-stress commuter and road-trip car. Good for Carroll-to-Des Moines runs and everyday errands.', inv_links('Toyota','Camry')),
-        ('Chevrolet Silverado 1500', 'Chevrolet Silverado 1500 in Carroll, Iowa', 'A full-size truck for towing, hauling, and Carroll-area work.', [
+        ('Chevrolet Silverado 1500', 'Chevy Silverado 1500 Near Carroll, IA', 'A full-size truck for towing, hauling, and Carroll-area work.', [
             ('Towing', 'Up to 13,700 lb [1]', 'Confirm the tow package and axle.'),
             ('Payload', 'Up to 2,340 lb [1]', 'Check the payload sticker on the exact truck.'),
             ('Engine', 'Available V8 with 481 horsepower and 501 lb-ft torque [1]', 'Match engine to fuel and towing needs.'),
@@ -126,6 +120,5 @@ def build():
         path = OUT / f'{slug.html}'
         path.write_text(html, encoding='utf8')
         print(path.name)
-
 if __name__ == '__main__':
     build()
