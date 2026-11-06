@@ -218,3 +218,14 @@ All three wired into launchd; goal loop consumes artifacts.
 - highlander-vs-grand-highlander: NEW copy LIVE
 - used-trucks-carroll-iowa: still OLD copy; no DealerOn reply on 1a1697567d479e20. Spencer: do NOT nudge DealerOn (said no 10-27).
 - contact + testdrive: drafts with Spencer (resent 10-27 9:43 thread 1a17dd13274d890e), awaiting go/change; NOT sent to DealerOn.
+
+## 2026-11-06: DealerOn handoff SENT + batch2 + recurring gapscan + hygiene audit
+1. dealeron-handoff-2026-11-06.zip (per-page PLACEMENT.md + metadata.csv + email draft)
+   EMAILED to support@dealeron.com w/ zip attached - msg 1a1b135603f831e7.
+2. Batch 2 (6 model pages) built+QA'd+committed (0acae3f) - previews live /2026-11-06/.
+3. Weekly gap-scan cron LIVE on mini (com.motorinn.seo-gapscan, Mondays 7am):
+   GSC question-intent -> brain/reports/gapscan-latest.md (first run: 4 flagged).
+4. Hygiene audit all 22 pages: title/desc length fixes committed (41d2c2d+dffb1a3).
+   Remaining FAILs: none blocking; audit table in brain/reports/seo-hygiene-audit-2026-11-06.md.
+Preview index: 23/23 URLs verified 200 (3 sections).
+Backlog remaining after batch2: 25 pages (models+towns+comparisons phase2+service hubs).
