@@ -38,3 +38,9 @@
 - WHEN SPENCER TYPES THE PASSWORD in that tab (or any Chrome signed in as work acct): run `nohup /opt/homebrew/bin/python3.13 /tmp/finish_gsc.py` on workMac - it waits for sign-in, adds sc-domain:motorinnofcarroll.com, picks GoDaddy verification. Then jeeves: mint full-scope SA JWT, PUT sites/sc-domain%3Amotorinnofcarroll.com/sitemaps/https%3A%2F%2Fai.motorinnofcarroll.com%2Fsitemap.xml + www variant, readback list.
 - FALLBACK (no password): email draft prepared - support@dealeron.com, ONE issue (add google-site-verification meta to head), per DealerOn case rules; route via approvals Slack C0AC3BP5XPF prepared_not_sent. Token TBD from GSC UI at property-add time.
 - NOTE: xtime direct scheduler (webKey xtm20260814115234xx1 shared by all 3 stores) can be added to service.md on the mirrors - agent-doable follow-up for in-chat booking links.
+
+
+## 2026-11-06 later (jeeves): XTime link LIVE
+- Direct scheduler link (shared webKey xtm20260814115234xx1, VARIANT=SERVICETAB) added to all 3 mirrors service.md above the DealerOn wrapper link. Commit d3c3b04, deployed, verified xtime.com count=1 per mirror. In-chat BOOKING (real slot pick) still needs the XTime API build - next tier.
+- Lead POST verified live again: leadId 58542037 path OK. mcp.json self-description says read-only/never transacts while /api/v1/lead writes - consider updating the card description next touch.
+- GSC Carroll: STILL waiting on password (tab D76B1CA... staged at challenge; finisher /tmp/finish_gsc.py on workMac auto-drives the rest). Fallback draft to support@dealeron.com ready for approvals channel.
