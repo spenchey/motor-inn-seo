@@ -30,3 +30,11 @@
 - Writer: gemma3:12b via ollama on workMac (100.69.77.97:11434, ssh tunnel localhost:11434), temp 0.4, house-style prompt w/ facts-only constraint + disclosure line.
 - GSC sitemaps submitted+verified by readback: sc-domain(motorinnautogroup) now carries www + ai.motorinnautogroup; www.motorinntoyotaofcarroll carries its sitemap. BLOCKER for Spencer: www.motorinnofcarroll.com is siteUnverifiedUser - needs his 30-s verification (Search Console -> Add property or verify existing), then submit ai.motorinnofcarroll.com/sitemap.xml the same way.
 - Weekly panel: mini cron Mondays 08:00 Central, ~/Library/Application Support/MotorInn/AiVisibility/panel.sh; 3 questions x engines via treg (perplexity x2, chatgpt x1), summary-<date>.json w/ motorinn_cited trend; cost ~1.5c/wk, promo credit $0.6875 left.
+
+
+## GSC Carroll verification - STAGED 2026-11-06 (jeeves)
+- Blocker: password challenge for spencer.heywood@motorinnmail in workMac relay Chrome (headless, CDP 19222), tab D76B1CA567338C8892D7486B2086EDD2. Google session cookies for BOTH his accounts are Signed out in that profile; vault has no work-Google password (only jimfrank413 google item). gog keyring tokens = gmail/drive/sheets scopes only, NO webmasters - refresh token cannot grant new scopes.
+- Site already carries 3 google-site-verification metas (pZSUgoq..., n-yUnBZ..., 6Pu_nZW...) = 3 existing verified owners; the www.motorinnofcarroll.com GSC property exists but is unverified for our SA.
+- WHEN SPENCER TYPES THE PASSWORD in that tab (or any Chrome signed in as work acct): run `nohup /opt/homebrew/bin/python3.13 /tmp/finish_gsc.py` on workMac - it waits for sign-in, adds sc-domain:motorinnofcarroll.com, picks GoDaddy verification. Then jeeves: mint full-scope SA JWT, PUT sites/sc-domain%3Amotorinnofcarroll.com/sitemaps/https%3A%2F%2Fai.motorinnofcarroll.com%2Fsitemap.xml + www variant, readback list.
+- FALLBACK (no password): email draft prepared - support@dealeron.com, ONE issue (add google-site-verification meta to head), per DealerOn case rules; route via approvals Slack C0AC3BP5XPF prepared_not_sent. Token TBD from GSC UI at property-add time.
+- NOTE: xtime direct scheduler (webKey xtm20260814115234xx1 shared by all 3 stores) can be added to service.md on the mirrors - agent-doable follow-up for in-chat booking links.

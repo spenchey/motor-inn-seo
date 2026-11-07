@@ -1,0 +1,7 @@
+Rewrite this one section for a skeptical Carroll, Iowa truck shopper.
+Keep it plain, warm, a little wry, and specific.
+Do not invent claims.
+Section target: "What does car trim level mean?"
+Current sentence:
+A trim level is the version a buyer selects within the model. A base trim gets the essentials; higher trims add comfort, capability, or technology.
+Return only the rewritten section text, no preamble.
