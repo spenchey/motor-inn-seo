@@ -77,3 +77,16 @@ Combined 297 now exceeds Wittrock 262 on the same basis as last run; single-list
 - Prior audits `gbp-velocity-2026-11-05.md` / `2026-10-29.md` for baselines/carries.
 - Competitor ratings: 10-26 scrape + 08-27 counts, carried flagged (headless restrictions per skill notes — not re-attempted, per cron-runtime gotchas).
 - EXA `marketing-content`: silent exit (1 line stdout) — same as 10-29/11-05; angles carried. Not blocking.
+
+## Addendum — EXA content research (ran successfully post-audit; 10 sources)
+
+Cross-vertical (GBP/hotel-vertical weighted) signals this week, mapped to our lanes:
+
+1. **GBP "Social Media Updates" carousel (vizergy 05-27):** Google now pulls IG/FB posts directly into the profile. Reinforces the standing owner action: connect social accounts in GBP settings — still not done, still owner-side.
+2. **48-hour review response as AI signal (Webb + UKHospitality):** response speed feeds AI local recommendations directly. Our median ~30h is inside the bar; p90 ~5.8d weekend drift is the only gap. Carried as action #5.
+3. **Review content = AI seed data (UKHospitality):** detailed reviews name attributes AI matches. Supports the GM-path voice rule — our replies model the attribute language (service/staff/place) we want reviewers to adopt.
+4. **Answer-shaped 100–150 char lead + strict CTA/UTM discipline (Google GBP SOP):** our 100–150 word posts and CTA_MAP conform; UTM tagging on post links is the one element our publisher does NOT currently add — candidate improvement, needs Spencer OK before touching publisher.
+5. **Offer posts = strongest conversion format; rotate types (Google playbook):** our cadence is 100% STANDARD since Oct 15. One OFFER post per month is within policy and our CTA_MAP; flag for the December/January block decision — needs a real offer with terms from Spencer, never invented.
+6. **GEO/FAQ-style copy (multi-source):** standing practice, already reflected in answer-shaped posts.
+
+No changes made to the queued December block on this basis; items 4–5 are decisions for Spencer, not cron unilateral changes.
