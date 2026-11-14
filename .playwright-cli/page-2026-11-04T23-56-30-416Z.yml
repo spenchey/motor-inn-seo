@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - list [ref=e6]:
+          - listitem [ref=e7]:
+            - link [ref=e8] [cursor=pointer]:
+              - /url: /
+              - img "Motor Inn Auto Carroll, IA" [ref=e9]
+        - list [ref=e11]:
+          - listitem
+          - listitem [ref=e12]: Sales 712-792-5000
+          - listitem [ref=e13]:
+            - list [ref=e14]:
+              - listitem
+              - listitem
+          - text:      
+          - listitem [ref=e15]:
+            - list [ref=e16]:
+              - listitem [ref=e17]
+              - listitem [ref=e18]:
+                - link " Service" [ref=e19] [cursor=pointer]:
+                  - /url: /serviceappmt.aspx
+                  - generic [ref=e20]:
+                    - generic [ref=e21]: 
+                    - text: Service
+              - text: 
+              - listitem [ref=e22]:
+                - link " Contact" [ref=e23] [cursor=pointer]:
+                  - /url: /contactus.aspx
+                  - generic [ref=e24]:
+                    - generic [ref=e25]: 
+                    - text: Contact
+              - listitem [ref=e26]:
+                - link "My Saved Vehicles" [ref=e28] [cursor=pointer]:
+                  - /url: /mysavedvehicles
+                  - generic [ref=e29]:
+                    - generic [aria-hidden] [ref=e30]: 
+                    - text: Saved
+          - text: 
+      - text:   
+  - listitem [ref=e31]:
+    - link " Service" [ref=e32] [cursor=pointer]:
+      - /url: /serviceappmt.aspx
+      - generic [ref=e33]:
+        - generic [ref=e34]: 
+        - text: Service
+  - text: 
+  - listitem [ref=e35]:
+    - link " Contact" [ref=e36] [cursor=pointer]:
+      - /url: /contactus.aspx
+      - generic [ref=e37]:
+        - generic [ref=e38]: 
+        - text: Contact
+  - listitem [ref=e39]:
+    - link "My Saved Vehicles" [ref=e41] [cursor=pointer]:
+      - /url: /mysavedvehicles
+      - generic [ref=e42]:
+        - generic [aria-hidden] [ref=e43]: 
+        - text: Saved
+  - text:    
+  - navigation [ref=e44]:
+    - navigation "Main" [ref=e45]:
+      - generic [ref=e47]:
+        - generic: 
+        - list [ref=e49]:
+          - listitem [ref=e50]:
+            - link "Home" [ref=e51] [cursor=pointer]:
+              - /url: /
+              - generic [aria-hidden] [ref=e52]: 
+          - listitem [ref=e53]:
+            - button "New Vehicles" [ref=e54] [cursor=pointer]
+          - listitem [ref=e55]:
+            - button "Pre-Owned Vehicles" [ref=e56] [cursor=pointer]
+          - listitem [ref=e57]:
+            - button "Finance" [ref=e58] [cursor=pointer]
+          - listitem [ref=e59]:
+            - button "Service & Parts" [ref=e60] [cursor=pointer]
+          - listitem [ref=e61]:
+            - link "Contact Us" [ref=e62] [cursor=pointer]:
+              - /url: /contactus.aspx
+          - listitem [ref=e63]:
+            - button "About Us" [ref=e64] [cursor=pointer]
+    - main [ref=e65]:
+      - generic [ref=e68]:
+        - complementary [ref=e69]:
+          - heading "Car Dealerships in Carroll, Iowa" [level=1] [ref=e70]
+          - paragraph [ref=e71]: Motor Inn Auto Group sells and services Toyota and Chevrolet vehicles in Carroll, Iowa — one location, two brands, one local team.
+        - generic "Why Motor Inn" [ref=e72]:
+          - generic [ref=e73]: Two Brands, One RoofToyota & Chevrolet under one set of keys
+          - generic [ref=e74]: Local ServiceCarroll, Lake City, Denison, Audubon, Storm Lake, Sac City
+          - generic [ref=e75]: Clear Next StepBrowse inventory, schedule service, or get a trade answer
+        - heading "What can I get at Motor Inn Auto Group?" [level=2] [ref=e76]
+        - paragraph [ref=e77]: You get new Toyota and Chevrolet vehicles, used cars, trucks, SUVs, service, parts, financing, and trade values, all in one local dealership in Carroll.
+        - paragraph [ref=e79]:
+          - text: Browse
+          - link "used inventory" [ref=e80] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/used-inventory
+          - text: ","
+          - link "new Toyota & Chevrolet inventory" [ref=e81] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/searchnew.aspx
+          - text: ","
+          - link "schedule service" [ref=e82] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/service.aspx
+          - text: ", or"
+          - link "book a test drive" [ref=e83] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/testdrive.aspx
+          - text: .
+        - heading "What should I choose?" [level=2] [ref=e84]
+        - paragraph [ref=e85]: Yes. Compare a Silverado for gravel and towing, a Highlander or Grand Highlander for family cargo, or an Equinox for daily driving.
+        - heading "Where is Motor Inn Auto Group located in Carroll, Iowa?" [level=2] [ref=e86]
+        - paragraph [ref=e87]:
+          - text: Motor Inn Auto Group is at 1526 Le Clark Rd, Carroll, IA 51401. Call
+          - link "(712) 792-5000" [ref=e88] [cursor=pointer]:
+            - /url: tel:+17127925000
+          - text: or stop in.
+        - generic [ref=e89]:
+          - heading "Motor Inn Auto Group" [level=3] [ref=e90]
+          - generic [ref=e91]:
+            - text: "1526 Le Clark Rd, Carroll, IA 51401 Sales and service:"
+            - link "(712) 792-5000" [ref=e92] [cursor=pointer]:
+              - /url: tel:+17127925000
+        - generic [ref=e93]:
+          - iframe [ref=e94]:
+            - link "Maps (opens in new tab)" [ref=f1e4] [cursor=pointer]:
+              - /url: about:invalid#zClosurez
+              - text: Maps
+          - paragraph [ref=e95]:
+            - link "Call (712) 792-5000" [ref=e96] [cursor=pointer]:
+              - /url: tel:+17127925000
+            - link "Get directions in one tap" [ref=e97] [cursor=pointer]:
+              - /url: https://www.google.com/maps/dir/?api=1&destination=1526+Le+Clark+Rd+Carroll+IA+51401
+        - generic [ref=e98]:
+          - heading "Related pages and mirrors" [level=2] [ref=e99]
+          - list [ref=e100]:
+            - listitem [ref=e101]:
+              - link "Car dealership in Carroll, Iowa" [ref=e102] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/car-dealership-carroll-iowa
+            - listitem [ref=e103]:
+              - link "Test drive in Carroll, Iowa" [ref=e104] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/testdrive.aspx
+            - listitem [ref=e105]:
+              - link "Trim levels explained" [ref=e106] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/vehicle-trim-levels-explained
+            - listitem [ref=e107]:
+              - link "Highlander vs. Grand Highlander" [ref=e108] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/highlander-vs-grand-highlander
+            - listitem [ref=e109]:
+              - link "Used trucks in Carroll, Iowa" [ref=e110] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks
+            - listitem [ref=e111]:
+              - link "Used trucks for towing in Iowa" [ref=e112] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks-towing-iowa
+        - complementary [ref=e113]:
+          - paragraph [ref=e114]:
+            - strong [ref=e115]: Ready to start?
+            - link "Call (712) 792-5000" [ref=e116] [cursor=pointer]:
+              - /url: tel:+17127925000
+            - text: or stop by 1526 Le Clark Rd, Carroll, IA 51401.
+        - region [ref=e117]:
+          - heading "Quick answers" [level=2] [ref=e118]
+          - generic [ref=e119]:
+            - tab [ref=e121]:
+              - button "What can I get at Motor Inn Auto Group?" [ref=e122] [cursor=pointer]
+            - tab [ref=e124]:
+              - button "What should I choose?" [ref=e125] [cursor=pointer]
+            - tab [ref=e127]:
+              - button "Where is Motor Inn Auto Group located in Carroll, Iowa?" [ref=e128] [cursor=pointer]
+    - list [ref=e133]:
+      - listitem [ref=e134]:
+        - link "DealerOn" [ref=e135] [cursor=pointer]:
+          - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+          - img "DealerOn Logo" [ref=e136]
+      - listitem [ref=e137]:
+        - generic [ref=e138]:
+          - text: Copyright © 2026
+          - generic [ref=e139]:
+            - text: by
+            - link "DealerOn Home Page" [ref=e140] [cursor=pointer]:
+              - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+              - text: DealerOn
+          - generic [ref=e141]:
+            - text: "|"
+            - link "Sitemap" [ref=e142] [cursor=pointer]:
+              - /url: //www.motorinnautogroup.com/sitemap.aspx
+          - generic [ref=e143]:
+            - text: "|"
+            - link "Privacy" [ref=e144] [cursor=pointer]:
+              - /url: //www.motorinnautogroup.com/privacy.aspx
+          - generic [ref=e145]:
+            - text: "|"
+            - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e146] [cursor=pointer]:
+              - /url: https://www.toyota.com/recall/
+              - text: Safety Recalls & Service Campaigns
+          - generic [ref=e147]:
+            - text: "| Motor Inn Auto"
+            - generic [ref=e148]: "| 1526 Le Clark Road, Carroll, IA 51401"
+            - generic [ref=e149]: "| Sales: 712-792-5000"
+      - listitem

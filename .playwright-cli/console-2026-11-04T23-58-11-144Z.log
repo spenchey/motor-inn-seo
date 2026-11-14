@@ -1,0 +1,26 @@
+[     139ms] [LOG] proxyEvent enabled @ https://www.motorinnautogroup.com/vehicle-trim-levels-explained:31
+[     139ms] [LOG] Speculation rules supported @ https://www.motorinnautogroup.com/vehicle-trim-levels-explained:31
+[     139ms] [LOG] speculationRules enabled @ https://www.motorinnautogroup.com/vehicle-trim-levels-explained:31
+[     139ms] [LOG] webVitals enabled @ https://www.motorinnautogroup.com/vehicle-trim-levels-explained:31
+[     139ms] [LOG] Performance Hub initialized @ https://www.motorinnautogroup.com/vehicle-trim-levels-explained:31
+[     210ms] [WARNING] module is not defined @ https://www.motorinnautogroup.com/resources/components/dealerOnTrack/dealerOnTrack.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[     552ms] [LOG] DealerOnTrack Initialized @ https://www.motorinnautogroup.com/resources/components/dealerOnTrack/dealerOnTrack.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[     554ms] [LOG] Error Loading Chat Scripts, Platform Desktop Function Missing @ https://www.motorinnautogroup.com/resources/external/bootstrap/js/userAgent-detection.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[     854ms] [LOG] [do_googleAnalyticsV4] Container G-GXCRGYXF6N is already loaded, skipping. @ :83
+[     854ms] [LOG] [do_googleAnalyticsV4] Container G-423R5J010M is already loaded, skipping. @ :83
+[     854ms] [LOG] [do_googleAnalyticsV4] Skipping loading of container G-WQZWPCZEVL as it is owned by DealerOn. @ :75
+[     854ms] [LOG] [do_googleAnalyticsV4] Skipping loading of container G-D9PPMFLLDK as it is owned by DealerOn. @ :75
+[     854ms] [LOG] [do_googleAnalyticsV4] No containers in queue to load. @ :16
+[     859ms] [LOG] pfs 200 @ blob:https://www.motorinnautogroup.com/cc3ed294-3365-4b18-86bd-8a59f0041bcc:32
+[     859ms] [LOG] [do_googleTagManager] Enqueuing Google Tag Manager container: GTM-NK457DV @ :85
+[     859ms] [LOG] [do_googleTagManager] Enqueuing Google Tag Manager container: GTM-WZW24FP @ :85
+[     859ms] [LOG] [do_googleTagManager] Loading Google Tag Manager containers: GTM-NK457DV, GTM-WZW24FP @ :19
+[    1025ms] [LOG] jQuery is loaded @ https://us-central1-glo3d-c338b.cloudfunctions.net/script:179
+[    1474ms] [LOG] DealerOn Tagging (dotagging) Event Fired:  do.init @ https://www.googletagmanager.com/gtm.js?id=GTM-WBJPXB7:995
+[    1475ms] [LOG] DealerOn Tagging (dotagging) Event Fired:  do.pageview @ https://www.googletagmanager.com/gtm.js?id=GTM-WBJPXB7:995
+[    1476ms] [LOG] DealerOn Tagging (dotagging) Event Fired:  do.pageview @ https://www.googletagmanager.com/gtm.js?id=GTM-WBJPXB7:995
+[    1477ms] [LOG] DealerOn Tagging (dotagging) Event Fired:  do.pageview @ https://www.googletagmanager.com/gtm.js?id=GTM-WBJPXB7:995
+[    1477ms] [LOG] DealerOn Tagging (dotagging) Event Fired:  do.pageview @ https://www.googletagmanager.com/gtm.js?id=GTM-WBJPXB7:995
+[    1602ms] [LOG] requesting domain config from api @ https://tm.smedia.ca/analytics/script.js:3142
+[    1928ms] [LOG] sMedia: Included Script 'https://monolith-api.smedia.ca/api/gtm-cookie-replicator.js' @ https://tm.smedia.ca/analytics/script.js:1608
+[    2644ms] [WARNING] [Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications. @ https://connect.facebook.net/en_US/fbevents.js:205

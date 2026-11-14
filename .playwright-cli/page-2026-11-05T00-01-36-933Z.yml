@@ -1,0 +1,188 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link [ref=e9] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - img "Motor Inn Auto Carroll, IA" [ref=e10]
+          - list [ref=e12]:
+            - listitem
+            - listitem [ref=e13]: Sales 712-792-5000
+            - listitem [ref=e14]:
+              - list [ref=e15]:
+                - listitem
+                - listitem
+            - text:      
+            - listitem [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "SEARCH" [ref=e23] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e24]: 
+                    - text: SEARCH
+                - listitem [ref=e25]:
+                  - link " Service" [ref=e26] [cursor=pointer]:
+                    - /url: "#schedule-service"
+                    - generic [ref=e27]:
+                      - generic [ref=e28]: 
+                      - text: Service
+                - text: 
+                - listitem [ref=e29]:
+                  - link " Contact" [ref=e30] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/contactus.aspx
+                    - generic [ref=e31]:
+                      - generic [ref=e32]: 
+                      - text: Contact
+                - listitem [ref=e33]:
+                  - link "My Saved Vehicles" [ref=e35] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/mysavedvehicles
+                    - generic [ref=e36]:
+                      - generic [aria-hidden] [ref=e37]: 
+                      - text: Saved
+            - text:  
+        - text:    
+    - navigation [ref=e38]:
+      - navigation "Main" [ref=e39]:
+        - generic [ref=e41]:
+          - generic: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - generic [aria-hidden] [ref=e46]: 
+            - listitem [ref=e47]:
+              - button "New Vehicles" [ref=e48] [cursor=pointer]
+            - listitem [ref=e49]:
+              - button "Pre-Owned Vehicles" [ref=e50] [cursor=pointer]
+            - listitem [ref=e51]:
+              - button "Finance" [ref=e52] [cursor=pointer]
+            - listitem [ref=e53]:
+              - button "Service & Parts" [ref=e54] [cursor=pointer]
+            - listitem [ref=e55]:
+              - link "Contact Us" [ref=e56] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e57]:
+              - button "About Us" [ref=e58] [cursor=pointer]
+  - text: 
+  - generic [ref=e59]:
+    - generic [ref=e61]:
+      - heading "Used Trucks for Sale in Carroll, Iowa" [level=1] [ref=e63]
+      - generic [ref=e64]:
+        - complementary [ref=e65]:
+          - paragraph [ref=e66]: Toyota and Chevrolet used trucks side by side on one Carroll lot.
+        - paragraph [ref=e67]: Used trucks for sale in Carroll, Iowa sit on one lot at Motor Inn Auto Group, with Toyota and Chevrolet options together.
+        - heading "Which used truck fits my work?" [level=2] [ref=e68]
+        - paragraph [ref=e69]: "Match the truck to the job: light duty for daily driving and lighter loads, heavy duty for regular towing. Check the undercarriage and service history on any used truck."
+        - heading "Silverado vs F-150 vs Ram vs Toyota trucks" [level=2] [ref=e70]
+        - paragraph [ref=e71]: Each has tradeoffs. Ask for the exact rating by VIN, not the badge.
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - heading "Chevrolet Silverado 1500" [level=3] [ref=e74]
+            - paragraph [ref=e75]: Strong towing range and multiple engine choices.
+          - generic [ref=e76]:
+            - heading "Ford F-150" [level=3] [ref=e77]
+            - paragraph [ref=e78]: Very common in Iowa and widely supported for used parts.
+          - generic [ref=e79]:
+            - heading "Ram 1500" [level=3] [ref=e80]
+            - paragraph [ref=e81]: Coilspring rear ride quality on gravel roads.
+          - generic [ref=e82]:
+            - heading "Toyota Tundra and Tacoma" [level=3] [ref=e83]
+            - paragraph [ref=e84]: Long-term Toyota durability and local Toyota service.
+        - 'heading "Towing: what the numbers actually mean" [level=2] [ref=e85]'
+        - paragraph [ref=e86]: Towing capacity is what the truck pulls. Payload is what the truck carries. Check the door-jamb payload sticker and OEM towing chart.
+        - heading "See today's used truck inventory in Carroll" [level=2] [ref=e87]
+        - paragraph [ref=e88]: Every truck on the lot is listed below, updated daily from the live inventory feed.
+        - generic [ref=e89]: "DealerOn slot: live inventory widget (feeds from motorinnautogroup.com)."
+        - generic [ref=e90]:
+          - heading "Related pages and mirrors" [level=2] [ref=e91]
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - link "Contact Motor Inn Auto Group" [ref=e94] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e95]:
+              - link "Test drive in Carroll, Iowa" [ref=e96] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/testdrive.aspx
+            - listitem [ref=e97]:
+              - link "Trim levels explained" [ref=e98] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/vehicle-trim-levels-explained
+            - listitem [ref=e99]:
+              - link "Highlander vs. Grand Highlander" [ref=e100] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/highlander-vs-grand-highlander
+            - listitem [ref=e101]:
+              - link "Used trucks in Carroll, Iowa" [ref=e102] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks
+            - listitem [ref=e103]:
+              - link "Used trucks for towing in Iowa" [ref=e104] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks-towing-iowa
+        - complementary [ref=e105]:
+          - paragraph [ref=e106]:
+            - strong [ref=e107]: See a truck you like?
+            - link "Call (712) 792-5000" [ref=e108] [cursor=pointer]:
+              - /url: tel:+17127925000
+            - text: or stop by 114 N. Grant Road, Carroll.
+        - paragraph [ref=e110]:
+          - text: Browse
+          - link "used inventory" [ref=e111] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/used-inventory
+          - text: ","
+          - link "book a test drive" [ref=e112] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/testdrive.aspx
+          - text: ", or"
+          - link "contact the team" [ref=e113] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/contactus.aspx
+          - text: .
+        - paragraph [ref=e114]: "Sources: Chevrolet and Toyota OEM towing guides; Motor Inn Auto Group live inventory feed."
+        - region [ref=e115]:
+          - heading "Quick answers" [level=2] [ref=e116]
+          - tab [ref=e119]:
+            - button "Which used truck fits my work?" [ref=e120] [cursor=pointer]
+    - generic [ref=e123]:
+      - link [ref=e124] [cursor=pointer]:
+        - /url: https://vinindex.ai/dealers/motor-inn-auto?from=badge
+        - img "Motor Inn Auto AI-Ready status from VIN Index" [ref=e125]
+      - generic [ref=e126]:
+        - link "Browse Motor Inn Auto inventory" [ref=e127] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/inventory
+        - link "For AI agents (MCP)" [ref=e128] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/.well-known/mcp.json
+    - contentinfo [ref=e129]:
+      - list [ref=e133]:
+        - listitem [ref=e134]:
+          - link "DealerOn" [ref=e135] [cursor=pointer]:
+            - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+            - img "DealerOn Logo" [ref=e136]
+        - listitem [ref=e137]:
+          - generic [ref=e138]:
+            - text: Copyright © 2026
+            - generic [ref=e139]:
+              - text: by
+              - link "DealerOn Home Page" [ref=e140] [cursor=pointer]:
+                - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+                - text: DealerOn
+            - generic [ref=e141]:
+              - text: "|"
+              - link "Sitemap" [ref=e142] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/sitemap.aspx
+            - generic [ref=e143]:
+              - text: "|"
+              - link "Privacy" [ref=e144] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/privacy.aspx
+            - generic [ref=e145]:
+              - text: "|"
+              - link "AI-readable dealership information" [ref=e146] [cursor=pointer]:
+                - /url: https://ai.motorinnautogroup.com/llms.txt
+            - generic [ref=e147]:
+              - text: "|"
+              - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e148] [cursor=pointer]:
+                - /url: https://www.toyota.com/recall/
+                - text: Safety Recalls & Service Campaigns
+            - generic [ref=e149]:
+              - text: "| Motor Inn Auto"
+              - generic [ref=e150]: "| 1526 Le Clark Road, Carroll, IA 51401"
+              - generic [ref=e151]:
+                - text: "| Sales:"
+                - link "712-792-5000" [ref=e152] [cursor=pointer]:
+                  - /url: tel:712-792-5000
+        - listitem

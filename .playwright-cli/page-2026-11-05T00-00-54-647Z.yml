@@ -1,0 +1,222 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link [ref=e9] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - img "Motor Inn Auto Carroll, IA" [ref=e10]
+          - list [ref=e12]:
+            - listitem
+            - listitem [ref=e13]: Sales 712-792-5000
+            - listitem [ref=e14]:
+              - list [ref=e15]:
+                - listitem
+                - listitem
+            - text:      
+            - listitem [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "SEARCH" [ref=e23] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e24]: 
+                    - text: SEARCH
+                - listitem [ref=e25]:
+                  - link " Service" [ref=e26] [cursor=pointer]:
+                    - /url: "#schedule-service"
+                    - generic [ref=e27]:
+                      - generic [ref=e28]: 
+                      - text: Service
+                - text: 
+                - listitem [ref=e29]:
+                  - link " Contact" [ref=e30] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/contactus.aspx
+                    - generic [ref=e31]:
+                      - generic [ref=e32]: 
+                      - text: Contact
+                - listitem [ref=e33]:
+                  - link "My Saved Vehicles" [ref=e35] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/mysavedvehicles
+                    - generic [ref=e36]:
+                      - generic [aria-hidden] [ref=e37]: 
+                      - text: Saved
+            - text:  
+        - text:    
+    - navigation [ref=e38]:
+      - navigation "Main" [ref=e39]:
+        - generic [ref=e41]:
+          - generic: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - generic [aria-hidden] [ref=e46]: 
+            - listitem [ref=e47]:
+              - button "New Vehicles" [ref=e48] [cursor=pointer]
+            - listitem [ref=e49]:
+              - button "Pre-Owned Vehicles" [ref=e50] [cursor=pointer]
+            - listitem [ref=e51]:
+              - button "Finance" [ref=e52] [cursor=pointer]
+            - listitem [ref=e53]:
+              - button "Service & Parts" [ref=e54] [cursor=pointer]
+            - listitem [ref=e55]:
+              - link "Contact Us" [ref=e56] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e57]:
+              - button "About Us" [ref=e58] [cursor=pointer]
+  - text: 
+  - generic [ref=e59]:
+    - generic [ref=e61]:
+      - heading "Highlander vs. Grand Highlander" [level=1] [ref=e63]
+      - generic [ref=e64]:
+        - complementary [ref=e65]:
+          - paragraph [ref=e66]: Grand Highlander is the larger three-row SUV; Highlander is the more compact three-row option.
+        - heading "Which is bigger, the Highlander or the Grand Highlander?" [level=2] [ref=e67]
+        - paragraph [ref=e68]: The Grand Highlander is bigger — a stretched three-row family hauler with real room behind the third row.
+        - heading "How much bigger is the Grand Highlander?" [level=2] [ref=e69]
+        - paragraph [ref=e70]: Toyota lists it at 201.4 in. long versus 194.9 in. for Highlander. Max cargo room is 97.5 cu. ft. versus 84.3 cu. ft.
+        - heading "Which SUV should my family buy?" [level=2] [ref=e71]
+        - paragraph [ref=e72]: Choose Highlander if your third row is occasional. Choose Grand Highlander if adults or cargo ride in it often.
+        - heading "How much can they tow?" [level=2] [ref=e73]
+        - paragraph [ref=e74]: Toyota lists up to 5,000 lb towing capacity for both, with some configurations lower.
+        - heading "Do both come as hybrids?" [level=2] [ref=e75]
+        - paragraph [ref=e76]: Yes. Toyota offers hybrid versions of both models.
+        - table [ref=e78]:
+          - rowgroup [ref=e79]:
+            - row [ref=e80]:
+              - columnheader "Measure" [ref=e81]
+              - columnheader "Highlander" [ref=e82]
+              - columnheader "Grand Highlander" [ref=e83]
+          - rowgroup [ref=e84]:
+            - row [ref=e85]:
+              - rowheader "Overall length" [ref=e86]
+              - cell "194.9 in." [ref=e87]
+              - cell "201.4 in." [ref=e88]
+            - row [ref=e89]:
+              - rowheader "Wheelbase" [ref=e90]
+              - cell "112.2 in." [ref=e91]
+              - cell "116.1 in." [ref=e92]
+            - row [ref=e93]:
+              - rowheader "Cargo behind third row" [ref=e94]
+              - cell "16.0 cu. ft." [ref=e95]
+              - cell "20.6 cu. ft." [ref=e96]
+            - row [ref=e97]:
+              - rowheader "Cargo behind second row" [ref=e98]
+              - cell "48.4 cu. ft." [ref=e99]
+              - cell "57.9 cu. ft." [ref=e100]
+            - row [ref=e101]:
+              - rowheader "Max cargo" [ref=e102]
+              - cell "84.3 cu. ft." [ref=e103]
+              - cell "97.5 cu. ft." [ref=e104]
+            - row [ref=e105]:
+              - rowheader "Max towing" [ref=e106]
+              - cell "5,000 lb" [ref=e107]
+              - cell "5,000 lb gas/Hybrid MAX; 3,500 lb hybrid" [ref=e108]
+        - generic [ref=e109]:
+          - heading "Highlander vs. Grand Highlander FAQs" [level=2] [ref=e110]
+          - generic [ref=e111]:
+            - tab [ref=e112]:
+              - button "Is the Grand Highlander bigger?" [expanded] [ref=e113] [cursor=pointer]
+            - tabpanel [ref=e114]:
+              - paragraph [ref=e116]: Yes; it is the larger three-row SUV.
+          - tab [ref=e118]:
+            - button "How much bigger is the Grand Highlander?" [ref=e119] [cursor=pointer]
+          - tab [ref=e121]:
+            - button "Which one fits my family better?" [ref=e122] [cursor=pointer]
+          - tab [ref=e124]:
+            - button "How much can they tow?" [ref=e125] [cursor=pointer]
+        - paragraph [ref=e126]:
+          - text: "Source:"
+          - link "Toyota Highlander" [ref=e127] [cursor=pointer]:
+            - /url: https://www.toyota.com/highlander/
+          - text: and
+          - link "Toyota Grand Highlander" [ref=e128] [cursor=pointer]:
+            - /url: https://www.toyota.com/grandhighlander/
+          - text: .
+        - generic [ref=e129]:
+          - heading "Related pages and mirrors" [level=2] [ref=e130]
+          - list [ref=e131]:
+            - listitem [ref=e132]:
+              - link "Contact Motor Inn Auto Group" [ref=e133] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e134]:
+              - link "Test drive in Carroll, Iowa" [ref=e135] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/testdrive.aspx
+            - listitem [ref=e136]:
+              - link "Trim levels explained" [ref=e137] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/vehicle-trim-levels-explained
+            - listitem [ref=e138]:
+              - link "Highlander vs. Grand Highlander" [ref=e139] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/highlander-vs-grand-highlander
+            - listitem [ref=e140]:
+              - link "Used trucks in Carroll, Iowa" [ref=e141] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks
+            - listitem [ref=e142]:
+              - link "Used trucks for towing in Iowa" [ref=e143] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks-towing-iowa
+        - complementary [ref=e144]:
+          - paragraph [ref=e145]:
+            - strong [ref=e146]: Want to see both in person?
+            - link "Book a test drive" [ref=e147] [cursor=pointer]:
+              - /url: https://www.motorinnautogroup.com/testdrive.aspx
+            - text: or call
+            - link "(712) 792-5000" [ref=e148] [cursor=pointer]:
+              - /url: tel:+17127925000
+            - text: .
+        - paragraph [ref=e150]:
+          - text: Browse
+          - link "Toyota inventory" [ref=e151] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/new-toyota
+          - text: or
+          - link "contact the team" [ref=e152] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/contactus.aspx
+          - text: .
+    - generic [ref=e155]:
+      - link [ref=e156] [cursor=pointer]:
+        - /url: https://vinindex.ai/dealers/motor-inn-auto?from=badge
+        - img "Motor Inn Auto AI-Ready status from VIN Index" [ref=e157]
+      - generic [ref=e158]:
+        - link "Browse Motor Inn Auto inventory" [ref=e159] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/inventory
+        - link "For AI agents (MCP)" [ref=e160] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/.well-known/mcp.json
+    - contentinfo [ref=e161]:
+      - list [ref=e165]:
+        - listitem [ref=e166]:
+          - link "DealerOn" [ref=e167] [cursor=pointer]:
+            - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+            - img "DealerOn Logo" [ref=e168]
+        - listitem [ref=e169]:
+          - generic [ref=e170]:
+            - text: Copyright © 2026
+            - generic [ref=e171]:
+              - text: by
+              - link "DealerOn Home Page" [ref=e172] [cursor=pointer]:
+                - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+                - text: DealerOn
+            - generic [ref=e173]:
+              - text: "|"
+              - link "Sitemap" [ref=e174] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/sitemap.aspx
+            - generic [ref=e175]:
+              - text: "|"
+              - link "Privacy" [ref=e176] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/privacy.aspx
+            - generic [ref=e177]:
+              - text: "|"
+              - link "AI-readable dealership information" [ref=e178] [cursor=pointer]:
+                - /url: https://ai.motorinnautogroup.com/llms.txt
+            - generic [ref=e179]:
+              - text: "|"
+              - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e180] [cursor=pointer]:
+                - /url: https://www.toyota.com/recall/
+                - text: Safety Recalls & Service Campaigns
+            - generic [ref=e181]:
+              - text: "| Motor Inn Auto"
+              - generic [ref=e182]: "| 1526 Le Clark Road, Carroll, IA 51401"
+              - generic [ref=e183]:
+                - text: "| Sales:"
+                - link "712-792-5000" [ref=e184] [cursor=pointer]:
+                  - /url: tel:712-792-5000
+        - listitem

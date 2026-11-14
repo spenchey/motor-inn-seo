@@ -1,0 +1,20 @@
+[       9ms] [LOG] proxyEvent enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/contactus-money-page/index.html:30
+[       9ms] [LOG] Speculation rules supported @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/contactus-money-page/index.html:30
+[       9ms] [LOG] speculationRules enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/contactus-money-page/index.html:30
+[       9ms] [LOG] webVitals enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/contactus-money-page/index.html:30
+[       9ms] [LOG] Performance Hub initialized @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/contactus-money-page/index.html:30
+[      12ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/logos/transparent/Toyota.png:0
+[      12ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/static/dealer-32375/logo.png:0
+[      13ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/utilities/do_utility.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      13ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/dealeron.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      13ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/components/dealerOnTrack/dealerOnTrack.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      14ms] ReferenceError: DealerOnTrack is not defined
+    at http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/contactus-money-page/index.html:107:161
+[      49ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/logos/transparent/Toyota.png:0
+[      50ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/static/dealer-32375/logo.png:0
+[      51ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/taggbaa/dotagging.js?v=0412:0
+[      52ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/taggbaa/dotagging.js?v=0412:0
+[    1521ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/components/dealerOnTrack/dealerOnTrack.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[    1522ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/logos/DealerOn/DealerOn_darkgray.png:0
+[    1523ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/utilities/performanceHub/webVitalBundle.js?v=123:0
+[    2634ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/favicon.ico:0

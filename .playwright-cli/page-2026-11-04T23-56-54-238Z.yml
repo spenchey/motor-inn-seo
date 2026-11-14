@@ -1,0 +1,293 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link [ref=e9] [cursor=pointer]:
+                - /url: /
+                - img "Motor Inn Auto Carroll, IA" [ref=e10]
+          - list [ref=e12]:
+            - listitem
+            - listitem [ref=e13]: Sales 712-792-5000
+            - listitem [ref=e14]:
+              - list [ref=e15]:
+                - listitem
+                - listitem
+            - text:      
+            - listitem [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Search" [ref=e23] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e24]: 
+                    - text: Search
+                - listitem [ref=e25]:
+                  - link " Service" [ref=e26] [cursor=pointer]:
+                    - /url: "#schedule-service"
+                    - generic [ref=e27]:
+                      - generic [ref=e28]: 
+                      - text: Service
+                - text: 
+                - listitem [ref=e29]:
+                  - link " Contact" [ref=e30] [cursor=pointer]:
+                    - /url: /contactus.aspx
+                    - generic [ref=e31]:
+                      - generic [ref=e32]: 
+                      - text: Contact
+                - listitem [ref=e33]:
+                  - link "My Saved Vehicles" [ref=e35] [cursor=pointer]:
+                    - /url: /mysavedvehicles
+                    - generic [ref=e36]:
+                      - generic [aria-hidden] [ref=e37]: 
+                      - text: Saved
+            - text:  
+        - text:    
+    - navigation [ref=e38]:
+      - navigation "Main" [ref=e39]:
+        - generic [ref=e41]:
+          - generic: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: /
+                - generic [aria-hidden] [ref=e46]: 
+            - listitem [ref=e47]:
+              - button "New Vehicles" [ref=e48] [cursor=pointer]
+            - listitem [ref=e49]:
+              - button "Pre-Owned Vehicles" [ref=e50] [cursor=pointer]
+            - listitem [ref=e51]:
+              - button "Finance" [ref=e52] [cursor=pointer]
+            - listitem [ref=e53]:
+              - button "Service & Parts" [ref=e54] [cursor=pointer]
+            - listitem [ref=e55]:
+              - link "Contact Us" [ref=e56] [cursor=pointer]:
+                - /url: /contactus.aspx
+            - listitem [ref=e57]:
+              - button "About Us" [ref=e58] [cursor=pointer]
+  - text: 
+  - generic [ref=e59]:
+    - generic [ref=e61]:
+      - heading "Vehicle Trim Levels Explained | Carroll, IA" [level=1] [ref=e63]
+      - generic [ref=e65]:
+        - generic [ref=e68]:
+          - generic [ref=e69]:
+            - paragraph [ref=e70]: Part of car shopping is finding a vehicle that meets your needs. That’s why car manufacturers offer not only a wide array of models, but also various trim levels for each model. Selecting a trim level allows you to choose specific features and options that you might not necessarily find on the base model, whether you’re looking for more capabilities, sportier styling, or added refinement.
+            - img "A blue Ford F-150 pickup truck towing a trailer on a highway" [ref=e72]
+            - complementary [ref=e73]:
+              - paragraph [ref=e74]: Want to see the trims in person? Browse our live inventory by trim, or call the store and ask our team which one fits. One change per page, no pressure.
+            - heading "Car Trim Levels Explained" [level=1] [ref=e75]
+            - heading "What Do Car Trim Levels Mean?" [level=2] [ref=e76]
+            - paragraph [ref=e77]: A trim level is the equipment package a model comes in. Same truck or SUV, different features. Think engine options, seat fabric, screen size, safety tech. A base trim gets you the essentials. Higher trims add comfort and capability. Prices change with each step up, so we never quote them here. Check the live listing instead.
+            - paragraph [ref=e78]: "Example from our lot: a Toyota Tacoma SR5 and a Tacoma TRD Off-Road share the same body. The TRD adds off-road gear. Both are Tacomas. The trim is what separates them."
+            - 'heading "Trim Level vs Model: What''s the Difference?" [level=2] [ref=e79]'
+            - paragraph [ref=e80]: The model is the vehicle name. The trim is the version of that vehicle. A Silverado is a model. Silverado WT, LT, and High Country are trims. You pick the model first, then the trim that matches your budget and needs.
+            - paragraph [ref=e81]: "Why it matters: two shoppers can both say \"I drive a Silverado\" and have very different trucks. One hauls gravel. One commutes. The trim is where those differences live."
+            - heading "Toyota Trim Levels Explained (Tacoma, Highlander, Grand Highlander, RAV4)" [level=2] [ref=e82]
+            - paragraph [ref=e83]: Toyota trims run from work-ready to loaded. On our Carroll lot you'll see SR and SR5 on trucks, XLE and XSE on crossovers, Limited and Platinum at the top. TRD Sport and TRD Off-Road appear on Tacomas built for rougher ground.
+            - paragraph [ref=e84]: "Quick guide: SR/SR5 for work. TRD for trails and towing on rough roads. XLE/XSE for comfort with some style. Limited/Platinum for the most features."
+            - heading "Chevrolet Trim Levels Explained (Silverado, Colorado, Equinox, Blazer, Traverse)" [level=2] [ref=e85]
+            - paragraph [ref=e86]: Chevy trims follow a similar ladder. WT (Work Truck) is the base. LT adds comfort. Z71 brings off-road suspension. High Country and RS sit near the top. On SUVs you'll see 2LT and 3LT as equipment steps.
+            - paragraph [ref=e87]: Need a truck that tows the boat to Storm Lake? A Silverado Z71 or High Country handles it without breathing hard. WT covers the job site.
+            - heading "Toyota vs Chevrolet trim ladder — quick reference" [level=3] [ref=e88]
+            - table [ref=e90]:
+              - rowgroup [ref=e91]:
+                - row [ref=e92]:
+                  - columnheader "Level" [ref=e93]
+                  - columnheader "Toyota (examples)" [ref=e94]
+                  - columnheader "Chevrolet (examples)" [ref=e95]
+                  - columnheader "Best for" [ref=e96]
+              - rowgroup [ref=e97]:
+                - row [ref=e98]:
+                  - cell "Entry / work" [ref=e99]
+                  - cell "SR, SR5" [ref=e100]
+                  - cell "WT (Work Truck), 1LT" [ref=e101]
+                  - cell "Job sites, budgets, first truck" [ref=e102]
+                - row [ref=e103]:
+                  - cell "Comfort mid" [ref=e104]
+                  - cell "XLE, XSE" [ref=e105]
+                  - cell "LT, 2LT, 3LT, RS" [ref=e106]
+                  - cell "Daily driving with features" [ref=e107]
+                - row [ref=e108]:
+                  - cell "Off-road" [ref=e109]
+                  - cell "TRD Sport, TRD Off-Road" [ref=e110]
+                  - cell "Z71, Trail Boss" [ref=e111]
+                  - cell "Gravel, trails, towing on rough roads" [ref=e112]
+                - row [ref=e113]:
+                  - cell "Top" [ref=e114]
+                  - cell "Limited, Platinum, Capstone" [ref=e115]
+                  - cell "High Country, Premier" [ref=e116]
+                  - cell "Most features, luxury feel" [ref=e117]
+            - paragraph [ref=e118]: Examples are common equipment ladders, not availability promises — trims on the lot change as inventory turns.
+            - heading "Which Trim Is Right for Me?" [level=2] [ref=e119]
+            - paragraph [ref=e120]: Match the trim to how you use the vehicle. Towing or rough roads? Look at TRD Off-Road or Z71. Family hauler? XLE, Limited, LT, or High Country add the safety and comfort features that matter most. Watching the budget? SR, SR5, WT, and 1LT trims carry the essentials. City driving? Smaller trims on a RAV4 or Equinox keep it simple.
+            - paragraph [ref=e121]: Still unsure? Our team in Carroll will walk you through it. No pressure. Ask us which trim fits your week, not just the sticker.
+            - generic [ref=e122]:
+              - generic [ref=e125]:
+                - heading "Towing or rough roads?" [level=3] [ref=e126]
+                - paragraph [ref=e127]: Look at TRD Off-Road or Z71 — and ask us for real tow numbers on the exact unit.
+              - generic [ref=e130]:
+                - heading "Family hauler?" [level=3] [ref=e131]
+                - paragraph [ref=e132]: XLE, Limited, LT, or High Country add the safety and comfort features that matter most.
+              - generic [ref=e135]:
+                - heading "Watching the budget?" [level=3] [ref=e136]
+                - paragraph [ref=e137]: SR, SR5, WT, and 1LT trims carry the essentials — nothing you pay for twice.
+            - heading "Compare Trims on Our Lot" [level=2] [ref=e138]
+            - paragraph [ref=e139]: See the trims side by side on our live inventory pages. Stock changes daily, so the trims you see today may be gone tomorrow. Filter by model, then compare the trim notes on each listing.
+            - paragraph [ref=e140]: Our lot serves Carroll, Lake City, Denison, Audubon, Storm Lake, and Sac City. One visit, both brands, Toyota and Chevrolet under one roof.
+            - paragraph [ref=e141]:
+              - text: "Browse by brand:"
+              - link "New Toyota & Chevrolet inventory" [ref=e142] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/searchnew.aspx
+              - text: ·
+              - link "Used inventory" [ref=e143] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/searchused.aspx
+              - text: · or
+              - link "call (712) 792-5000" [ref=e144] [cursor=pointer]:
+                - /url: tel:+17127925000
+              - text: .
+            - complementary [ref=e145]:
+              - paragraph [ref=e146]:
+                - strong [ref=e147]: "Next step:"
+                - link "Browse inventory by trim" [ref=e148] [cursor=pointer]:
+                  - /url: https://www.motorinnautogroup.com/searchnewused.aspx
+                - text: or call the store and ask which trim fits your week.
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - heading "Motor Inn Auto" [level=3] [ref=e151]
+              - generic [ref=e152]: 1526 Le Clark Road Carroll, IA 51401
+              - link "Get Directions" [ref=e153] [cursor=pointer]:
+                - /url: /hours.aspx
+            - separator [ref=e154]
+            - link "New Trucks Inventory" [ref=e155] [cursor=pointer]:
+              - /url: /new-trucks
+            - link "Why Buy From Motor Inn" [ref=e156] [cursor=pointer]:
+              - /url: /aboutus.aspx
+            - link "Schedule A Test Drive" [ref=e157] [cursor=pointer]:
+              - /url: /testdrive.aspx
+            - separator [ref=e158]
+            - generic [ref=e159]:
+              - text: Sales
+              - link "<span class='callNowClass'>712-792-5000</span>" [ref=e160] [cursor=pointer]:
+                - /url: tel:7127925000
+                - text: 712-792-5000
+            - separator [ref=e161]
+            - generic [ref=e162]:
+              - generic [ref=e163]:
+                - link "Sales Hours " [ref=e165] [cursor=pointer]:
+                  - /url: "#hoursAccordionCollapseOne"
+                  - text: Sales Hours
+                  - generic [ref=e166]: 
+                - table [ref=e169]:
+                  - rowgroup [ref=e170]:
+                    - row [ref=e171]:
+                      - cell "Monday" [ref=e172]
+                      - cell "8:00AM - 5:30PM" [ref=e173]
+                    - row [ref=e174]:
+                      - cell "Tuesday" [ref=e175]
+                      - cell "8:00AM - 5:30PM" [ref=e176]
+                    - row [ref=e177]:
+                      - cell " Wednesday" [ref=e178]
+                      - cell "8:00AM - 5:30PM" [ref=e179]
+                    - row [ref=e180]:
+                      - cell "Thursday" [ref=e181]
+                      - cell "8:00AM - 7:00PM" [ref=e182]
+                    - row [ref=e183]:
+                      - cell "Friday" [ref=e184]
+                      - cell "8:00AM - 5:30PM" [ref=e185]
+                    - row [ref=e186]:
+                      - cell "Saturday" [ref=e187]
+                      - cell "8:00AM - 3:00PM" [ref=e188]
+                    - row [ref=e189]:
+                      - cell "Sunday" [ref=e190]
+                      - cell "Closed" [ref=e191]
+              - generic [ref=e192]:
+                - link "Service Hours " [ref=e194] [cursor=pointer]:
+                  - /url: "#hoursAccordionCollapseTwo"
+                  - text: Service Hours
+                  - generic [ref=e195]: 
+                - text: 
+              - generic [ref=e196]:
+                - link "Parts Hours " [ref=e198] [cursor=pointer]:
+                  - /url: "#hoursAccordionCollapseThree"
+                  - text: Parts Hours
+                  - generic [ref=e199]: 
+                - text: 
+              - text: 
+            - separator [ref=e200]
+            - generic [ref=e201]:
+              - heading "Contact Us" [level=2] [ref=e202]
+              - generic [ref=e203]:
+                - generic [ref=e204]: "*First Name:"
+                - textbox "*First Name:" [ref=e205]:
+                  - /placeholder: First Name
+              - generic [ref=e206]:
+                - generic [ref=e207]: "*Last Name:"
+                - textbox "*Last Name:" [ref=e208]:
+                  - /placeholder: Last Name
+              - generic [ref=e209]:
+                - generic [ref=e210]: "*E-Mail Address:"
+                - textbox "*E-Mail Address:" [ref=e211]:
+                  - /placeholder: E-Mail Address
+              - generic [ref=e212]:
+                - generic [ref=e213]: "*Phone:"
+                - textbox "*Phone:" [ref=e214]:
+                  - /placeholder: Phone Number
+              - generic [ref=e215]:
+                - generic [ref=e216]: "Comments:"
+                - textbox "Comments:" [ref=e217]:
+                  - /placeholder: Comments
+              - generic [ref=e218]:
+                - generic [ref=e220] [cursor=pointer]:
+                  - checkbox "By clicking this box, I agree to receive in-person or automated telemarketing calls and texts from Motor Inn Auto at the number I entered. I understand that my consent is not required for purchase." [ref=e221]
+                  - text: By clicking this box, I agree to receive in-person or automated telemarketing calls and texts from Motor Inn Auto at the number I entered. I understand that my consent is not required for purchase.
+                - button "Send" [ref=e222] [cursor=pointer]
+        - iframe [ref=e223]
+    - generic [ref=e226]:
+      - link [ref=e227] [cursor=pointer]:
+        - /url: https://vinindex.ai/dealers/motor-inn-auto?from=badge
+        - img "Motor Inn Auto AI-Ready status from VIN Index" [ref=e228]
+      - generic [ref=e229]:
+        - link "Browse Motor Inn Auto inventory" [ref=e230] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/inventory
+        - link "For AI agents (MCP)" [ref=e231] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/.well-known/mcp.json
+    - contentinfo [ref=e232]:
+      - list [ref=e236]:
+        - listitem [ref=e237]:
+          - link "DealerOn" [ref=e238] [cursor=pointer]:
+            - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+            - img "DealerOn Logo" [ref=e239]
+        - listitem [ref=e240]:
+          - generic [ref=e241]:
+            - text: Copyright © 2026
+            - generic [ref=e242]:
+              - text: by
+              - link "DealerOn Home Page" [ref=e243] [cursor=pointer]:
+                - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+                - text: DealerOn
+            - generic [ref=e244]:
+              - text: "|"
+              - link "Sitemap" [ref=e245] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/sitemap.aspx
+            - generic [ref=e246]:
+              - text: "|"
+              - link "Privacy" [ref=e247] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/privacy.aspx
+            - generic [ref=e248]:
+              - text: "|"
+              - link "AI-readable dealership information" [ref=e249] [cursor=pointer]:
+                - /url: https://ai.motorinnautogroup.com/llms.txt
+            - generic [ref=e250]:
+              - text: "|"
+              - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e251] [cursor=pointer]:
+                - /url: https://www.toyota.com/recall/
+                - text: Safety Recalls & Service Campaigns
+            - generic [ref=e252]:
+              - text: "| Motor Inn Auto"
+              - generic [ref=e253]: "| 1526 Le Clark Road, Carroll, IA 51401"
+              - generic [ref=e254]:
+                - text: "| Sales:"
+                - link "712-792-5000" [ref=e255] [cursor=pointer]:
+                  - /url: tel:712-792-5000
+        - listitem

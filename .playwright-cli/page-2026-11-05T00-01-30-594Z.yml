@@ -1,0 +1,216 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link [ref=e9] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - img "Motor Inn Auto Carroll, IA" [ref=e10]
+          - list [ref=e12]:
+            - listitem
+            - listitem [ref=e13]: Sales 712-792-5000
+            - listitem [ref=e14]:
+              - list [ref=e15]:
+                - listitem
+                - listitem
+            - text:      
+            - listitem [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "SEARCH" [ref=e23] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e24]: 
+                    - text: SEARCH
+                - listitem [ref=e25]:
+                  - link " Service" [ref=e26] [cursor=pointer]:
+                    - /url: "#schedule-service"
+                    - generic [ref=e27]:
+                      - generic [ref=e28]: 
+                      - text: Service
+                - text: 
+                - listitem [ref=e29]:
+                  - link " Contact" [ref=e30] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/contactus.aspx
+                    - generic [ref=e31]:
+                      - generic [ref=e32]: 
+                      - text: Contact
+                - listitem [ref=e33]:
+                  - link "My Saved Vehicles" [ref=e35] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/mysavedvehicles
+                    - generic [ref=e36]:
+                      - generic [aria-hidden] [ref=e37]: 
+                      - text: Saved
+            - text:  
+        - text:    
+    - navigation [ref=e38]:
+      - navigation "Main" [ref=e39]:
+        - generic [ref=e41]:
+          - generic: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - generic [aria-hidden] [ref=e46]: 
+            - listitem [ref=e47]:
+              - button "New Vehicles" [ref=e48] [cursor=pointer]
+            - listitem [ref=e49]:
+              - button "Pre-Owned Vehicles" [ref=e50] [cursor=pointer]
+            - listitem [ref=e51]:
+              - button "Finance" [ref=e52] [cursor=pointer]
+            - listitem [ref=e53]:
+              - button "Service & Parts" [ref=e54] [cursor=pointer]
+            - listitem [ref=e55]:
+              - link "Contact Us" [ref=e56] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e57]:
+              - button "About Us" [ref=e58] [cursor=pointer]
+  - text: 
+  - generic [ref=e59]:
+    - generic [ref=e61]:
+      - heading "Car Trim Levels Explained" [level=1] [ref=e63]
+      - generic [ref=e64]:
+        - complementary [ref=e65]:
+          - paragraph [ref=e66]: "A trim level is the equipment package a model comes in: engine, upholstery, tech, and package differences inside the same vehicle name."
+        - heading "What Does Car Trim Level Mean?" [level=2] [ref=e67]
+        - paragraph [ref=e68]: A trim level is the version a buyer selects within the model. A base trim gets the essentials; higher trims add comfort, capability, or technology.
+        - heading "What's the Difference Between Trim Level and Model?" [level=2] [ref=e69]
+        - paragraph [ref=e70]: The model is the vehicle name. The trim is the version of that vehicle, such as SR5, XLE, LT, or High Country.
+        - heading "Toyota Trim Levels Explained (Tacoma, Highlander, Grand Highlander, RAV4)" [level=2] [ref=e71]
+        - paragraph [ref=e72]: Toyota trims range from SR/SR5 work trucks to XLE/XSE family vehicles and Limited/Platinum loaded models. TRD Sport and TRD Off-Road appear on Tacomas built for rougher ground.
+        - heading "Chevrolet Trim Levels Explained (Silverado, Colorado, Equinox, Blazer, Traverse)" [level=2] [ref=e73]
+        - paragraph [ref=e74]: Chevrolet trims start at WT and 1LT, then step through LT, Z71, Trail Boss, High Country, and 2LT/3LT SUV versions.
+        - table [ref=e76]:
+          - rowgroup [ref=e77]:
+            - row [ref=e78]:
+              - columnheader "Level" [ref=e79]
+              - columnheader "Toyota examples" [ref=e80]
+              - columnheader "Chevrolet examples" [ref=e81]
+              - columnheader "Best for" [ref=e82]
+          - rowgroup [ref=e83]:
+            - row [ref=e84]:
+              - cell "Entry / work" [ref=e85]
+              - cell "SR, SR5" [ref=e86]
+              - cell "WT, 1LT" [ref=e87]
+              - cell "Job sites, budgets, first truck" [ref=e88]
+            - row [ref=e89]:
+              - cell "Comfort mid" [ref=e90]
+              - cell "XLE, XSE" [ref=e91]
+              - cell "LT, 2LT, 3LT" [ref=e92]
+              - cell "Daily driving with features" [ref=e93]
+            - row [ref=e94]:
+              - cell "Off-road" [ref=e95]
+              - cell "TRD Sport, TRD Off-Road" [ref=e96]
+              - cell "Z71, Trail Boss" [ref=e97]
+              - cell "Gravel, trails, towing on rough roads" [ref=e98]
+            - row [ref=e99]:
+              - cell "Top" [ref=e100]
+              - cell "Limited, Platinum, Capstone" [ref=e101]
+              - cell "High Country" [ref=e102]
+              - cell "Most features, luxury feel" [ref=e103]
+        - generic [ref=e104]:
+          - heading "Vehicle trim FAQs" [level=2] [ref=e105]
+          - generic [ref=e106]:
+            - tab [ref=e107]:
+              - button "What does a trim level mean on a vehicle?" [expanded] [ref=e108] [cursor=pointer]
+            - tabpanel [ref=e109]:
+              - paragraph [ref=e111]: A trim level is the equipment package a model comes in.
+          - tab [ref=e113]:
+            - button "How is trim different from model?" [ref=e114] [cursor=pointer]
+          - tab [ref=e116]:
+            - button "What does SEL mean in cars?" [ref=e117] [cursor=pointer]
+          - tab [ref=e119]:
+            - button "Which trim level uses synthetic upholstery material?" [ref=e120] [cursor=pointer]
+          - tab [ref=e122]:
+            - button "Which trims work best for towing or rough roads?" [ref=e123] [cursor=pointer]
+          - tab [ref=e125]:
+            - button "Which trims suit a family?" [ref=e126] [cursor=pointer]
+        - generic [ref=e127]:
+          - heading "Related pages and mirrors" [level=2] [ref=e128]
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - link "Contact Motor Inn Auto Group" [ref=e131] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e132]:
+              - link "Test drive in Carroll, Iowa" [ref=e133] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/testdrive.aspx
+            - listitem [ref=e134]:
+              - link "Trim levels explained" [ref=e135] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/vehicle-trim-levels-explained
+            - listitem [ref=e136]:
+              - link "Highlander vs. Grand Highlander" [ref=e137] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/highlander-vs-grand-highlander
+            - listitem [ref=e138]:
+              - link "Used trucks in Carroll, Iowa" [ref=e139] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks
+            - listitem [ref=e140]:
+              - link "Used trucks for towing in Iowa" [ref=e141] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks-towing-iowa
+        - complementary [ref=e142]:
+          - paragraph [ref=e143]:
+            - strong [ref=e144]: Compare trims on our lot.
+            - link "Browse new Toyota & Chevrolet inventory" [ref=e145] [cursor=pointer]:
+              - /url: https://www.motorinnautogroup.com/searchnew.aspx
+            - text: or call
+            - link "(712) 792-5000" [ref=e146] [cursor=pointer]:
+              - /url: tel:+17127925000
+            - text: .
+        - generic [ref=e147]:
+          - text: "Sources:"
+          - link "Toyota RAV4 mechanical specs" [ref=e148] [cursor=pointer]:
+            - /url: https://www.toyota.com/rav4/2026/features/mechanical_performance/
+          - text: ","
+          - link "Chevrolet Silverado 1500 specs" [ref=e149] [cursor=pointer]:
+            - /url: https://www.chevrolet.com/trucks/silverado/1500/
+          - text: ", and"
+          - link "Hyundai Santa Cruz specs" [ref=e150] [cursor=pointer]:
+            - /url: https://www.hyundaiusa.com/us/en/vehicles/santa-cruz
+          - text: .
+    - generic [ref=e153]:
+      - link [ref=e154] [cursor=pointer]:
+        - /url: https://vinindex.ai/dealers/motor-inn-auto?from=badge
+        - img "Motor Inn Auto AI-Ready status from VIN Index" [ref=e155]
+      - generic [ref=e156]:
+        - link "Browse Motor Inn Auto inventory" [ref=e157] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/inventory
+        - link "For AI agents (MCP)" [ref=e158] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/.well-known/mcp.json
+    - contentinfo [ref=e159]:
+      - list [ref=e163]:
+        - listitem [ref=e164]:
+          - link "DealerOn" [ref=e165] [cursor=pointer]:
+            - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+            - img "DealerOn Logo" [ref=e166]
+        - listitem [ref=e167]:
+          - generic [ref=e168]:
+            - text: Copyright © 2026
+            - generic [ref=e169]:
+              - text: by
+              - link "DealerOn Home Page" [ref=e170] [cursor=pointer]:
+                - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+                - text: DealerOn
+            - generic [ref=e171]:
+              - text: "|"
+              - link "Sitemap" [ref=e172] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/sitemap.aspx
+            - generic [ref=e173]:
+              - text: "|"
+              - link "Privacy" [ref=e174] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/privacy.aspx
+            - generic [ref=e175]:
+              - text: "|"
+              - link "AI-readable dealership information" [ref=e176] [cursor=pointer]:
+                - /url: https://ai.motorinnautogroup.com/llms.txt
+            - generic [ref=e177]:
+              - text: "|"
+              - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e178] [cursor=pointer]:
+                - /url: https://www.toyota.com/recall/
+                - text: Safety Recalls & Service Campaigns
+            - generic [ref=e179]:
+              - text: "| Motor Inn Auto"
+              - generic [ref=e180]: "| 1526 Le Clark Road, Carroll, IA 51401"
+              - generic [ref=e181]:
+                - text: "| Sales:"
+                - link "712-792-5000" [ref=e182] [cursor=pointer]:
+                  - /url: tel:712-792-5000
+        - listitem

@@ -1,0 +1,142 @@
+[      39ms] [LOG] proxyEvent enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/car-dealership-carroll-iowa/index.html:32
+[      39ms] [LOG] Speculation rules supported @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/car-dealership-carroll-iowa/index.html:32
+[      39ms] [LOG] speculationRules enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/car-dealership-carroll-iowa/index.html:32
+[      39ms] [LOG] webVitals enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/car-dealership-carroll-iowa/index.html:32
+[      39ms] [LOG] Performance Hub initialized @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/car-dealership-carroll-iowa/index.html:32
+[     174ms] [WARNING] module is not defined @ https://www.motorinnautogroup.com/resources/components/dealerOnTrack/dealerOnTrack.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[     547ms] [LOG] DealerOnTrack Initialized @ https://www.motorinnautogroup.com/resources/components/dealerOnTrack/dealerOnTrack.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[     548ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/comments:0
+[     548ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/comments: Error: 404 for endpoint /api/vhcliaa/translations/32375/comments
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     548ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/buttons:0
+[     548ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/buttons: Error: 404 for endpoint /api/vhcliaa/translations/32375/buttons
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     548ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/titles:0
+[     548ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/titles: Error: 404 for endpoint /api/vhcliaa/translations/32375/titles
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     548ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/labels:0
+[     548ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/labels: Error: 404 for endpoint /api/vhcliaa/translations/32375/labels
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/comments:0
+[     549ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/comments: Error: 404 for endpoint /api/vhcliaa/translations/32375/comments
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/buttons:0
+[     549ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/buttons: Error: 404 for endpoint /api/vhcliaa/translations/32375/buttons
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/titles:0
+[     549ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/titles: Error: 404 for endpoint /api/vhcliaa/translations/32375/titles
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/labels:0
+[     549ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/labels: Error: 404 for endpoint /api/vhcliaa/translations/32375/labels
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     549ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/comments:0
+[     549ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/comments: Error: 404 for endpoint /api/vhcliaa/translations/32375/comments
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     551ms] [LOG] Error Loading Chat Scripts, Platform Desktop Function Missing @ https://www.motorinnautogroup.com/resources/external/bootstrap/js/userAgent-detection.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[     551ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/buttons:0
+[     551ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/buttons: Error: 404 for endpoint /api/vhcliaa/translations/32375/buttons
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     551ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/prsnbaa/api/config/32375:0
+[     552ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/titles:0
+[     552ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/titles: Error: 404 for endpoint /api/vhcliaa/translations/32375/titles
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     552ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/translations/32375/labels:0
+[     552ms] [ERROR] Error: Error fetching translations from /api/vhcliaa/translations/32375/labels: Error: 404 for endpoint /api/vhcliaa/translations/32375/labels
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175941)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:175368) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     552ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/utilities/performanceHub/webVitalBundle.js?v=123:0
+[     552ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/config/get-all-toggles/32375:0
+[     552ms] [ERROR] Error: Error fetching toggles from /api/vhcliaa/config/get-all-toggles/32375: Error: 404 for endpoint /api/vhcliaa/config/get-all-toggles/32375
+    at a.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:122729)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:14:121732) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:13
+[     556ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/taggbaa/config/toggles/32375:0
+[     557ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/navbar-search/32375?host=127.0.0.1:4173&host=http://127.0.0.1:4173:0
+[     557ms] [ERROR] Error: Failed to fetch navbar search data: 404 <!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: 404 - Nothing matches the given URI.</p>
+    </body>
+</html>
+
+    at Ye.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:8:72487)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:8:71779) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:28
+[     557ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/navbar-search/32375?host=127.0.0.1:4173&host=http://127.0.0.1:4173:0
+[     557ms] [ERROR] Error: Failed to fetch navbar search data: 404 <!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: 404 - Nothing matches the given URI.</p>
+    </body>
+</html>
+
+    at Ye.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:8:72487)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:8:71779) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:28
+[     557ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/api/vhcliaa/navbar-search/32375?host=127.0.0.1:4173&host=http://127.0.0.1:4173:0
+[     557ms] [ERROR] Error: Failed to fetch navbar search data: 404 <!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Error response</title>
+    </head>
+    <body>
+        <h1>Error response</h1>
+        <p>Error code: 404</p>
+        <p>Message: File not found.</p>
+        <p>Error code explanation: 404 - Nothing matches the given URI.</p>
+    </body>
+</html>
+
+    at Ye.<anonymous> (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:8:72487)
+    at Generator.next (<anonymous>)
+    at a (https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:8:71779) @ https://www.motorinnautogroup.com/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:28
+[     590ms] [ERROR] Failed to load resource: the server responded with a status of 501 (Unsupported method ('POST')) @ http://127.0.0.1:4173/api/taggbaa/DataLayer/Init:0
+[     849ms] [LOG] pfs 200 @ blob:http://127.0.0.1:4173/9d52f64d-dbb4-4775-8ea0-8b8a1ff8ca2b:32
+[     850ms] [LOG] [do_googleTagManager] Enqueuing Google Tag Manager container: GTM-NK457DV @ :85
+[     850ms] [LOG] [do_googleTagManager] Enqueuing Google Tag Manager container: GTM-WZW24FP @ :85
+[     850ms] [LOG] [do_googleTagManager] Loading Google Tag Manager containers: GTM-NK457DV, GTM-WZW24FP @ :19
+[     852ms] [LOG] [do_googleAnalyticsV4] Enqueuing Google Analytics container: G-GXCRGYXF6N @ :86
+[     852ms] [LOG] [do_googleAnalyticsV4] Enqueuing Google Analytics container: G-423R5J010M @ :86
+[     852ms] [LOG] [do_googleAnalyticsV4] Skipping loading of container G-WQZWPCZEVL as it is owned by DealerOn. @ :75
+[     852ms] [LOG] [do_googleAnalyticsV4] Skipping loading of container G-D9PPMFLLDK as it is owned by DealerOn. @ :75
+[     852ms] [LOG] [do_googleAnalyticsV4] Loading Google Analytics containers: G-GXCRGYXF6N, G-423R5J010M @ :19
+[    1268ms] [LOG] requesting domain config from api @ https://tm.smedia.ca/analytics/script.js:3142
+[    4648ms] [WARNING] The resource https://www.motorinnautogroup.com/resources/utilities/do_utility.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/car-dealership-carroll-iowa/index.html:0

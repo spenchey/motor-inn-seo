@@ -1,0 +1,49 @@
+[      11ms] [LOG] proxyEvent enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:32
+[      11ms] [LOG] Speculation rules supported @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:32
+[      11ms] [LOG] speculationRules enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:32
+[      11ms] [LOG] webVitals enabled @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:32
+[      11ms] [LOG] Performance Hub initialized @ http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:32
+[      14ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/logos/transparent/Toyota.png:0
+[      14ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/static/dealer-32375/logo.png:0
+[      18ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/utilities/do_utility.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      18ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/dealeron.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      18ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/components/dealerOnTrack/dealerOnTrack.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      21ms] ReferenceError: DealerOnTrack is not defined
+    at http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:99:4
+[      20ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/external/jQuery/jquery-3.7.1.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      21ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/external/jQuery/ua-parser.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      22ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/global/dealeron.static.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      26ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/external/bootstrap/js/userAgent-detection.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      28ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/global/locationSort/js/locationSortInjection.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      28ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/external/bootstrap/js-v341/bootstrap.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      29ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/global/lead/formPhoneUtility.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      29ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/leadbaa/js/dealerOnLeadsBundle.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      30ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/external/jQuery/jquery.validate.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      31ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/utilities/do_utility.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      32ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/external/modernizr/modernizr.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      32ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/components/core/coreBundle.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      35ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/vhcliaa/components/navbarSearch/navbarSearchBundle.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      35ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/components/navigation/navigation.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      36ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/taggbaa/dotagging.js?v=0414:0
+[      37ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/utilities/webComponentRegistry/webComponentLoaderBundle.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      37ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/components/phoneNumbers/phoneNumberUtils.min.js?v=23.134.0+20261102.30.bbbf8652390b5ce306040b1cece1df0dd99fac01:0
+[      37ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/static/dealer-32375/logo.png:0
+[      38ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/logos/transparent/Toyota.png:0
+[     404ms] ReferenceError: $ is not defined
+    at http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:1333:4
+[     404ms] ReferenceError: $ is not defined
+    at http://127.0.0.1:4173/deliveries/site-packages/2026-11-04/motorinnautogroup/trim-levels-explained/index.html:1340:4
+[     427ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/assets/logos/DealerOn/DealerOn_darkgray.png:0
+[     429ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/prsnbaa/api/config/32375:0
+[     430ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/resources/utilities/performanceHub/webVitalBundle.js?v=123:0
+[     739ms] [LOG] pfs 200 @ blob:http://127.0.0.1:4173/5aea70e0-5d95-41f6-9292-26b8b64d8a03:32
+[     740ms] [LOG] [do_googleAnalyticsV4] Enqueuing Google Analytics container: G-GXCRGYXF6N @ :86
+[     740ms] [LOG] [do_googleAnalyticsV4] Enqueuing Google Analytics container: G-423R5J010M @ :86
+[     740ms] [LOG] [do_googleAnalyticsV4] Skipping loading of container G-WQZWPCZEVL as it is owned by DealerOn. @ :75
+[     740ms] [LOG] [do_googleAnalyticsV4] Skipping loading of container G-D9PPMFLLDK as it is owned by DealerOn. @ :75
+[     740ms] [LOG] [do_googleAnalyticsV4] Loading Google Analytics containers: G-GXCRGYXF6N, G-423R5J010M @ :19
+[     741ms] [LOG] [do_googleTagManager] Enqueuing Google Tag Manager container: GTM-NK457DV @ :85
+[     741ms] [LOG] [do_googleTagManager] Enqueuing Google Tag Manager container: GTM-WZW24FP @ :85
+[     741ms] [LOG] [do_googleTagManager] Loading Google Tag Manager containers: GTM-NK457DV, GTM-WZW24FP @ :19
+[    1347ms] [LOG] requesting domain config from api @ https://tm.smedia.ca/analytics/script.js:3142
+[    1683ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/favicon.ico:0

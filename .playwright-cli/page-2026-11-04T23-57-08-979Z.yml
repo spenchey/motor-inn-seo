@@ -1,0 +1,166 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link [ref=e9] [cursor=pointer]:
+                - /url: /
+                - img "Motor Inn Auto Carroll, IA" [ref=e10]
+          - list [ref=e12]:
+            - listitem
+            - listitem [ref=e13]: Sales 712-792-5000
+            - listitem [ref=e14]:
+              - list [ref=e15]:
+                - listitem
+                - listitem
+            - text:      
+            - listitem [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "Search" [ref=e23] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e24]: 
+                    - text: Search
+                - listitem [ref=e25]:
+                  - link " Service" [ref=e26] [cursor=pointer]:
+                    - /url: "#schedule-service"
+                    - generic [ref=e27]:
+                      - generic [ref=e28]: 
+                      - text: Service
+                - text: 
+                - listitem [ref=e29]:
+                  - link " Contact" [ref=e30] [cursor=pointer]:
+                    - /url: /contactus.aspx
+                    - generic [ref=e31]:
+                      - generic [ref=e32]: 
+                      - text: Contact
+                - listitem [ref=e33]:
+                  - link "My Saved Vehicles" [ref=e35] [cursor=pointer]:
+                    - /url: /mysavedvehicles
+                    - generic [ref=e36]:
+                      - generic [aria-hidden] [ref=e37]: 
+                      - text: Saved
+            - text:  
+        - text:    
+    - navigation [ref=e38]:
+      - navigation "Main" [ref=e39]:
+        - generic [ref=e41]:
+          - generic: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: /
+                - generic [aria-hidden] [ref=e46]: 
+            - listitem [ref=e47]:
+              - button "New Vehicles" [ref=e48] [cursor=pointer]
+            - listitem [ref=e49]:
+              - button "Pre-Owned Vehicles" [ref=e50] [cursor=pointer]
+            - listitem [ref=e51]:
+              - button "Finance" [ref=e52] [cursor=pointer]
+            - listitem [ref=e53]:
+              - button "Service & Parts" [ref=e54] [cursor=pointer]
+            - listitem [ref=e55]:
+              - link "Contact Us" [ref=e56] [cursor=pointer]:
+                - /url: /contactus.aspx
+            - listitem [ref=e57]:
+              - button "About Us" [ref=e58] [cursor=pointer]
+  - text: 
+  - generic [ref=e59]:
+    - generic [ref=e61]:
+      - heading "Contact Us" [level=1] [ref=e63]
+      - generic [ref=e66]:
+        - paragraph [ref=e70]: Are you ready for a test drive or have a question for our team? We're happy to help! If you'd like, there is a form you can also fill out at the bottom of this page! We look forward to working with you.
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - paragraph [ref=e73]: Fill out the form below and we'll contact you shortly.
+            - generic [ref=e74]:
+              - generic [ref=e76]:
+                - generic [ref=e77]: "*First Name"
+                - textbox "*First Name" [ref=e78]:
+                  - /placeholder: First Name
+              - generic [ref=e80]:
+                - generic [ref=e81]: "*Last Name"
+                - textbox "*Last Name" [ref=e82]:
+                  - /placeholder: Last Name
+              - generic [ref=e84]:
+                - generic [ref=e85]: "*E-Mail Address"
+                - textbox "*E-Mail Address" [ref=e86]:
+                  - /placeholder: Email Address
+              - generic [ref=e88]:
+                - generic [ref=e89]: "*Phone"
+                - textbox "*Phone" [ref=e90]:
+                  - /placeholder: Phone Number
+              - generic [ref=e92]:
+                - generic [ref=e93]: Comments
+                - textbox "Comments" [ref=e94]
+              - textbox [aria-hidden] [ref=e95]
+              - textbox [aria-hidden] [ref=e96]
+              - textbox [aria-hidden] [ref=e97]
+              - generic [ref=e99] [cursor=pointer]:
+                - checkbox "By clicking this box, I agree to receive in-person or automated telemarketing calls and texts from Motor Inn Auto at the number I entered. I understand that my consent is not required for purchase." [ref=e100]
+                - generic [ref=e101]: By clicking this box, I agree to receive in-person or automated telemarketing calls and texts from Motor Inn Auto at the number I entered. I understand that my consent is not required for purchase.
+              - button "Let's Talk" [ref=e103] [cursor=pointer]
+            - generic [ref=e104]: "*Required Fields"
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - generic [ref=e108]:
+                - heading "Phone" [level=3] [ref=e109]
+                - paragraph [ref=e110]:
+                  - strong [ref=e111]: "Sales:"
+                  - link "712-792-5000" [ref=e112] [cursor=pointer]:
+                    - /url: tel:7127925000
+              - separator [ref=e113]
+            - generic [ref=e114]:
+              - heading "Address" [level=3] [ref=e115]
+              - generic [ref=e116]: Motor Inn Auto 1526 Le Clark Road Carroll, IA 51401
+              - link " Hours and Directions" [ref=e117] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/hours.aspx
+    - generic [ref=e120]:
+      - link [ref=e121] [cursor=pointer]:
+        - /url: https://vinindex.ai/dealers/motor-inn-auto?from=badge
+        - img "Motor Inn Auto AI-Ready status from VIN Index" [ref=e122]
+      - generic [ref=e123]:
+        - link "Browse Motor Inn Auto inventory" [ref=e124] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/inventory
+        - link "For AI agents (MCP)" [ref=e125] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/.well-known/mcp.json
+    - contentinfo [ref=e126]:
+      - list [ref=e130]:
+        - listitem [ref=e131]:
+          - link "DealerOn" [ref=e132] [cursor=pointer]:
+            - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+            - img "DealerOn Logo" [ref=e133]
+        - listitem [ref=e134]:
+          - generic [ref=e135]:
+            - text: Copyright © 2026
+            - generic [ref=e136]:
+              - text: by
+              - link "DealerOn Home Page" [ref=e137] [cursor=pointer]:
+                - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+                - text: DealerOn
+            - generic [ref=e138]:
+              - text: "|"
+              - link "Sitemap" [ref=e139] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/sitemap.aspx
+            - generic [ref=e140]:
+              - text: "|"
+              - link "Privacy" [ref=e141] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/privacy.aspx
+            - generic [ref=e142]:
+              - text: "|"
+              - link "AI-readable dealership information" [ref=e143] [cursor=pointer]:
+                - /url: https://ai.motorinnautogroup.com/llms.txt
+            - generic [ref=e144]:
+              - text: "|"
+              - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e145] [cursor=pointer]:
+                - /url: https://www.toyota.com/recall/
+                - text: Safety Recalls & Service Campaigns
+            - generic [ref=e146]:
+              - text: "| Motor Inn Auto"
+              - generic [ref=e147]: "| 1526 Le Clark Road, Carroll, IA 51401"
+              - generic [ref=e148]:
+                - text: "| Sales:"
+                - link "712-792-5000" [ref=e149] [cursor=pointer]:
+                  - /url: tel:712-792-5000
+        - listitem

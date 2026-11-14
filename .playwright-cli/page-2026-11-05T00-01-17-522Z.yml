@@ -1,0 +1,167 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - list [ref=e7]:
+            - listitem [ref=e8]:
+              - link [ref=e9] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - img "Motor Inn Auto Carroll, IA" [ref=e10]
+          - list [ref=e12]:
+            - listitem
+            - listitem [ref=e13]: Sales 712-792-5000
+            - listitem [ref=e14]:
+              - list [ref=e15]:
+                - listitem
+                - listitem
+            - text:      
+            - listitem [ref=e16]:
+              - list [ref=e17]:
+                - listitem [ref=e18]:
+                  - button "SEARCH" [ref=e23] [cursor=pointer]:
+                    - generic [aria-hidden] [ref=e24]: 
+                    - text: SEARCH
+                - listitem [ref=e25]:
+                  - link " Service" [ref=e26] [cursor=pointer]:
+                    - /url: "#schedule-service"
+                    - generic [ref=e27]:
+                      - generic [ref=e28]: 
+                      - text: Service
+                - text: 
+                - listitem [ref=e29]:
+                  - link " Contact" [ref=e30] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/contactus.aspx
+                    - generic [ref=e31]:
+                      - generic [ref=e32]: 
+                      - text: Contact
+                - listitem [ref=e33]:
+                  - link "My Saved Vehicles" [ref=e35] [cursor=pointer]:
+                    - /url: https://www.motorinnautogroup.com/mysavedvehicles
+                    - generic [ref=e36]:
+                      - generic [aria-hidden] [ref=e37]: 
+                      - text: Saved
+            - text:  
+        - text:    
+    - navigation [ref=e38]:
+      - navigation "Main" [ref=e39]:
+        - generic [ref=e41]:
+          - generic: 
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "Home" [ref=e45] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/
+                - generic [aria-hidden] [ref=e46]: 
+            - listitem [ref=e47]:
+              - button "New Vehicles" [ref=e48] [cursor=pointer]
+            - listitem [ref=e49]:
+              - button "Pre-Owned Vehicles" [ref=e50] [cursor=pointer]
+            - listitem [ref=e51]:
+              - button "Finance" [ref=e52] [cursor=pointer]
+            - listitem [ref=e53]:
+              - button "Service & Parts" [ref=e54] [cursor=pointer]
+            - listitem [ref=e55]:
+              - link "Contact Us" [ref=e56] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e57]:
+              - button "About Us" [ref=e58] [cursor=pointer]
+  - text: 
+  - generic [ref=e59]:
+    - generic [ref=e61]:
+      - heading "Schedule a Test Drive in Carroll, Iowa" [level=1] [ref=e63]
+      - generic [ref=e64]:
+        - paragraph [ref=e65]:
+          - link "Book your test drive online" [ref=e66] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/testdrive.aspx
+          - text: or call
+          - link "(712) 792-5000" [ref=e67] [cursor=pointer]:
+            - /url: tel:+17127925000
+          - text: .
+        - heading "Where is Motor Inn Auto Group?" [level=2] [ref=e68]
+        - paragraph [ref=e69]: 1526 Le Clark Rd, Carroll, IA 51401.
+        - generic "What to know" [ref=e70]:
+          - generic [ref=e71]: Either Brand Toyota and Chevrolet, one trip
+          - generic [ref=e72]: Clear Contact Book online or call (712) 792-5000
+          - generic [ref=e73]: Local Inventory Current stock and used cross-brand options
+        - heading "How do I schedule my test drive?" [level=2] [ref=e74]
+        - paragraph [ref=e75]: Tell us the model, the day, and the time. We'll confirm and have it waiting.
+        - paragraph [ref=e76]:
+          - link "Book Your Test Drive" [ref=e77] [cursor=pointer]:
+            - /url: https://www.motorinnautogroup.com/testdrive.aspx
+        - generic [ref=e78]: "DealerOn slot: test-drive form embed (standard DealerOn test-drive module). Fallback: the call CTA below."
+        - generic [ref=e79]:
+          - heading "Related pages and mirrors" [level=2] [ref=e80]
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - link "Contact Motor Inn Auto Group" [ref=e83] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/contactus.aspx
+            - listitem [ref=e84]:
+              - link "Compare trim levels" [ref=e85] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/vehicle-trim-levels-explained
+            - listitem [ref=e86]:
+              - link "Highlander vs. Grand Highlander" [ref=e87] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/highlander-vs-grand-highlander
+            - listitem [ref=e88]:
+              - link "Used trucks in Carroll, Iowa" [ref=e89] [cursor=pointer]:
+                - /url: https://www.motorinnautogroup.com/used-trucks
+        - complementary [ref=e90]:
+          - paragraph [ref=e91]:
+            - strong [ref=e92]: Ready to start?
+            - link "Call (712) 792-5000" [ref=e93] [cursor=pointer]:
+              - /url: tel:+17127925000
+            - text: or stop by 1526 Le Clark Rd, Carroll, IA 51401.
+        - region [ref=e94]:
+          - heading "Quick answers" [level=2] [ref=e95]
+          - generic [ref=e96]:
+            - tab [ref=e98]:
+              - button "Where is Motor Inn Auto Group?" [ref=e99] [cursor=pointer]
+            - tab [ref=e101]:
+              - button "How do I schedule my test drive?" [ref=e102] [cursor=pointer]
+    - generic [ref=e105]:
+      - link [ref=e106] [cursor=pointer]:
+        - /url: https://vinindex.ai/dealers/motor-inn-auto?from=badge
+        - img "Motor Inn Auto AI-Ready status from VIN Index" [ref=e107]
+      - generic [ref=e108]:
+        - link "Browse Motor Inn Auto inventory" [ref=e109] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/inventory
+        - link "For AI agents (MCP)" [ref=e110] [cursor=pointer]:
+          - /url: https://motor-inn-auto.vinindex.ai/.well-known/mcp.json
+    - contentinfo [ref=e111]:
+      - list [ref=e115]:
+        - listitem [ref=e116]:
+          - link "DealerOn" [ref=e117] [cursor=pointer]:
+            - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+            - img "DealerOn Logo" [ref=e118]
+        - listitem [ref=e119]:
+          - generic [ref=e120]:
+            - text: Copyright © 2026
+            - generic [ref=e121]:
+              - text: by
+              - link "DealerOn Home Page" [ref=e122] [cursor=pointer]:
+                - /url: https://www.dealeron.com/do-info/?utm_source=dealersite&utm_medium=referral&utm_campaign=Client_Sites
+                - text: DealerOn
+            - generic [ref=e123]:
+              - text: "|"
+              - link "Sitemap" [ref=e124] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/sitemap.aspx
+            - generic [ref=e125]:
+              - text: "|"
+              - link "Privacy" [ref=e126] [cursor=pointer]:
+                - /url: //www.motorinnautogroup.com/privacy.aspx
+            - generic [ref=e127]:
+              - text: "|"
+              - link "AI-readable dealership information" [ref=e128] [cursor=pointer]:
+                - /url: https://ai.motorinnautogroup.com/llms.txt
+            - generic [ref=e129]:
+              - text: "|"
+              - link "Safety Recalls & Service Campaigns, Opens in a new tab" [ref=e130] [cursor=pointer]:
+                - /url: https://www.toyota.com/recall/
+                - text: Safety Recalls & Service Campaigns
+            - generic [ref=e131]:
+              - text: "| Motor Inn Auto"
+              - generic [ref=e132]: "| 1526 Le Clark Road, Carroll, IA 51401"
+              - generic [ref=e133]:
+                - text: "| Sales:"
+                - link "712-792-5000" [ref=e134] [cursor=pointer]:
+                  - /url: tel:712-792-5000
+        - listitem
