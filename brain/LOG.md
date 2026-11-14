@@ -229,3 +229,12 @@ All three wired into launchd; goal loop consumes artifacts.
    Remaining FAILs: none blocking; audit table in brain/reports/seo-hygiene-audit-2026-11-06.md.
 Preview index: 23/23 URLs verified 200 (3 sections).
 Backlog remaining after batch2: 25 pages (models+towns+comparisons phase2+service hubs).
+
+## 2026-11-14: long-tail answer pass r1 (s_chiriac 8+word GSC regex trick)
+Ran the ^(7+words)$ regex on all 3 properties 6mo -> 46 flagged queries (impr>=30 ctr<12%).
+Top: 'what is a trim level on a car' 116 impr; grand-vs-highlander size delta 69;
+heavy-vs-light-duty towing x2 (~150 impr combined).
+6 pages got 'Quick answer' blocks at top + FAQ schema pairs (93b01c9/5393281, pushed).
+Previews restaged; block verified live. Report: brain/reports/longtail-answers-2026-11-14.md.
+Remaining ~40 flagged queries -> future answer passes / new page angles; weekly gapscan
+cron catches new ones Mondays 10pm.
