@@ -1,45 +1,41 @@
 # REVIEW: highlander-vs-grand-highlander
-date: 2026-10-22
-research_sha: b3cf3b8
-## Draft
-<aside class="cta-box">
-<p><strong>Want to see both in person?</strong> Our Carroll lot (51401) usually has Highlanders and Grand Highlanders side by side. <a href="https://www.motorinnautogroup.com">Browse live inventory</a> or call the store.</p>
-</aside>
 
-<h1>Highlander vs. Grand Highlander</h1>
+Status: `draft-needs-owner-approval`
+Draft: `content/drafts/seo/highlander-vs-grand-highlander-draft.html`
 
-<h2>Which is bigger, the Highlander or the Grand Highlander?</h2>
-<p>The Grand Highlander is bigger — it's a stretched, three-row family hauler with real room behind the third row, while the standard Highlander is the more compact three-row SUV. That size gap is the whole reason Toyota built both.</p>
-<p>Shoppers searching "2024 Grand Highlander length" and "curb weight" (per our search data) are asking exactly this. Exact inch-by-inch numbers come straight from Toyota's spec sheets, and we verify each figure before it goes live: <a href="https://www.toyota.com/highlander/">toyota.com Highlander specs</a> and <a href="https://www.toyota.com/grandhighlander/">toyota.com Grand Highlander specs</a> [NEEDS-VERIFY exact length, wheelbase, and cargo figures from those pages before publish].</p>
+## Competitor gap and 10x result
 
-<h2>What's the size difference between the Highlander and Grand Highlander?</h2>
-<p>The Grand Highlander runs on a longer wheelbase and a longer body, which translates into more third-row legroom and more cargo space behind that third row.</p>
-<p>The practical difference shows up in daily use. Load a stroller and a cooler behind the third row of a standard Highlander and it's snug. Do the same in a Grand Highlander and there's room to spare. Adults can ride in the Grand Highlander's third row without their knees in the seatback in front. Full dimensions and cargo volumes: <a href="https://www.toyota.com/grandhighlander/">toyota.com Grand Highlander specs</a> [NEEDS-VERIFY].</p>
+The phase-1 audit found that the current page delays the answer, mixes model years, and makes unsourced comfort, inventory, fuel-economy, and price claims. The old package had duplicate IDs, malformed headings, and no computed deltas. This rewrite answers “yes” in sentence one, uses one model year, computes six useful differences, separates measurement from preference, removes availability promises, and keeps visible FAQ content aligned with schema.
 
-<h2>Do both the Highlander and Grand Highlander come as hybrids?</h2>
-<p>Yes — both offer Toyota's hybrid, and the Grand Highlander adds a hybrid max option for more power.</p>
-<p>That means you don't give up fuel economy by sizing up. Check current hybrid lineup details at <a href="https://www.toyota.com/highlander/">toyota.com Highlander</a> and <a href="https://www.toyota.com/grandhighlander/">toyota.com Grand Highlander</a> [NEEDS-VERIFY trim-level hybrid availability for model year in stock].</p>
+## Metadata
 
-<h2>Which SUV should my family buy, Highlander or Grand Highlander?</h2>
-<p>If three rows are occasional seats for kids, the standard Highlander is enough SUV. If the third row carries adults every week — carpool, grandparents, sports team — the Grand Highlander is worth the step up in size and price.</p>
-<p>Ask yourself one question: how often is the third row actually occupied? A couple times a month? Highlander. Every day? Grand Highlander. The cargo-behind-third-row difference matters just as much for families hauling gear to Storm Lake or Denison weekends.</p>
+- Title: `Highlander vs. Grand Highlander Size Comparison`
+- Meta description: `See exactly how much bigger the 2026 Grand Highlander is than the Highlander, including length, wheelbase, cargo room, and third-row space.`
+- Slug: `highlander-vs-grand-highlander`
+- Primary query: `is the grand highlander bigger than the highlander`
 
-<h2>How much can the Highlander and Grand Highlander tow?</h2>
-<p>Both are rated to tow, with the Grand Highlander's maximum generally higher — but exact poundage varies by engine and drivetrain, so we check Toyota's official numbers per configuration.</p>
-<p>Planning to tow a boat to Storm Lake or a trailer to the fields outside Carroll? Get the exact rating for the trim you're considering: <a href="https://www.toyota.com/towing-guide/">Toyota's official towing guide</a> [NEEDS-VERIFY per-trim tow ratings before publish].</p>
+## Internal-link plan and HTTP proof
 
-<h2>Where can I see both the Highlander and Grand Highlander near Carroll, Iowa?</h2>
-<p>At Motor Inn Auto Group in Carroll — we stock both models, often side by side on the lot.</p>
-<p>Serving Carroll (51401), Lake City, Denison, Audubon, Storm Lake, and Sac City. Sit in both third rows back to back. That comparison settles it faster than any spec sheet.</p>
+| Already-ranking source page | Proposed anchor | Target href | Proof (2026-11-15) |
+|---|---|---|---|
+| `/vehicle-trim-levels-explained` | `Highlander and Grand Highlander size comparison` | `https://www.motorinnautogroup.com/highlander-vs-grand-highlander` | curl `200` |
+| `/aboutus.aspx` | `compare Highlander and Grand Highlander dimensions` | `https://www.motorinnautogroup.com/highlander-vs-grand-highlander` | curl `200` |
+| `/car-maintenance-by-mileage` | `see the Highlander size differences` | `https://www.motorinnautogroup.com/highlander-vs-grand-highlander` | curl `200` |
 
-<aside class="cta-box">
-<p><strong>Want to compare them in person?</strong> <a href="https://www.motorinnautogroup.com">See our live Highlander and Grand Highlander inventory</a> or call the store. No pressure — bring the whole family and climb in both.</p>
-</aside>
-## Sources (from research)
-see brain/research/highlander-vs-grand-highlander/research.md
-## Needs-verify items
-(flagged inline above)
-## Questions for Spencer
-1. Voice OK?
-2. Any claim to soften?
-3. CTA right?
+Draft CTA href `https://www.motorinnautogroup.com/searchall.aspx` returned curl `200`.
+
+## Sources and every-number map
+
+- 2026 Highlander: 194.9-in. length, 112.2-in. wheelbase, 28.0-in. third-row legroom, 16.0/48.4/84.3-cu.-ft. cargo, and up-to-8 seating: https://www.toyota.com/highlander/features/dimensions/6953/6956/ (curl `200`)
+- 2026 Grand Highlander: 201.4-in. length, 116.1-in. wheelbase, 33.5-in. third-row legroom, 20.6/57.9/97.5-cu.-ft. cargo, and up-to-8 seating: https://www.toyota.com/grandhighlander/features/dimensions/6716/6724/6732/ (curl `200`; Toyota may roll the selector forward, so recheck model-year label at approval)
+- Computed deltas from those OEM values: 6.5 in., 3.9 in., 5.5 in., 4.6 cu. ft., 9.5 cu. ft., and 13.2 cu. ft.
+
+## NEEDS-VERIFY
+
+Count from pre-flight grep: **0**.
+
+## Approval questions for Spencer
+
+1. Do you want this rewrite kept strictly to size, or should a separately sourced powertrain/towing section return?
+2. Is “sit in both rows” acceptable advice without implying both models are currently in stock?
+3. Should the CTA remain all inventory until stable model filters are confirmed?
