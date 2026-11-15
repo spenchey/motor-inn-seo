@@ -274,3 +274,17 @@ cron catches new ones Mondays 10pm.
   + pre-flight line) and deployed byte-identical to writer profiles rory, rory-copy-seo,
   rory-ai-search, rory-compliance, rory-performance, rory-source-research.
 - Wave 2 re-run report: brain/reports/wave2-codex-adversarial-rerun-2026-11-15.md.
+
+## 2026-11-15: wave 2 fix pass complete - codex rerun5 PASS 6/6 (kanban t_8dcf4b3d)
+- Rounds 3-5 fixed the two remaining FAILs from rerun2: aboutus-augment-spirit-lake and
+  used-car-maintenance-mileage. All visible [NEEDS-VERIFY]/editor/workflow language removed
+  from page copy (open items live in the REVIEW packets); aboutus packet now maps the
+  712-792-5000 contact number and the inventory-scope answer to the live
+  aboutus.aspx / used-inventory pages (both fetched 2026-11-15); maintenance MotorHappy
+  answer is direct shopper guidance.
+- Codex adversarial rerun5 (HEAD d0c0e5b): **PASS - 6 packages x 5 checks, 30/30.**
+  Reports: brain/reports/wave2-codex-adversarial-rerun{3,4,5}-2026-11-15.md.
+- Adversarial QA gate (owner order) permanent: skill motorinn-seo-article-pipeline
+  "Adversarial QA gate (mandatory)" + pre-flight line, deployed to rory, rory-copy-seo,
+  rory-ai-search, rory-compliance, rory-performance, rory-source-research; rory-copy-seo
+  SOUL.md hook added 2026-11-15. No publish; owner review next.
