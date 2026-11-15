@@ -41,7 +41,9 @@ Draft inventory href `https://www.motorinnautogroup.com/searchused.aspx` returne
 
 ## NEEDS-VERIFY
 
-Count from pre-flight grep: **9**.
+Count from pre-flight grep: **9**. Round 4 (2026-11-15): the nine verification flags were moved off the visible page into this list; the page now carries shopper guidance only.
+
+Editorial note: the visible copy no longer repeats the flag text; items 1-9 above are the packet-side record of every unverified Spirit Lake fact.
 
 1. Whether “Motor Inn of Spirit Lake Inc” is the current legal or public-facing entity name.
 2. Approved relationship wording among that entity, Motor Inn Auto Group, and Carroll.

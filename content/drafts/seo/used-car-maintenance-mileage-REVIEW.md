@@ -35,11 +35,13 @@ Draft CTA href `https://www.motorinnautogroup.com/searchused.aspx` returned curl
 - Warning signs, structural rust, and mechanic review before buying: AAA Via, "How to Buy a Safe New or Used Car", https://mwg.aaa.com/via/car/how-buy-safe-car-new-used (curl `200`, fetched 2026-11-15)
 - De-icer corrosion of brake lines, fuel tanks, and underbody: AAA East Central rust release, https://news.eastcentral.aaa.com/news/releases-20170420-6059251 (curl `200`, fetched 2026-11-15)
 - No public lifespan number appears in the draft.
+- Dealership contact number 712-792-5000 shown on the page: Motor Inn Auto Group public contact number, per the live About Us page https://www.motorinnautogroup.com/aboutus.aspx (fetched 2026-11-15; the number appears in the page source).
 
 ## Wave 2 fix pass (2026-11-15)
 
 - On-page "Related guides" links repointed to live equivalents and re-verified curl `200`: `/2022-toyota-rav4-carroll-ia` and `/blog/heavy-duty-vs-light-duty-trucks` (both 2026-11-15).
 - MotorHappy section and inspection section rewritten in shopper voice; the four `[NEEDS-VERIFY]` flags remain unchanged.
+- Round 4 (2026-11-15): remaining on-page flag brackets rewritten as shopper guidance; the open items live in the NEEDS-VERIFY list above. The visible page now states only that MotorHappy guidance is unverified plus the maker-schedule fallback, and the 712-792-5000 mention is mapped in the source list above.
 
 ## NEEDS-VERIFY
 
