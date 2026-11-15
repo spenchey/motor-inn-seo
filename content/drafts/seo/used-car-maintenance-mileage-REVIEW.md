@@ -26,6 +26,8 @@ Draft CTA href `https://www.motorinnautogroup.com/searchused.aspx` returned curl
 
 ## Sources and every-number map
 
+- Central claim — no fixed breakdown mileage exists and maintenance cannot guarantee a lifespan: negative claim; no OEM publishes a breakdown deadline, and Toyota's own guidance tells owners to continue the guide's interval pattern instead of reaching a lifespan end point: https://support.toyota.com/s/article/My-maintenance-guide-7903?language=en_US. Also grounded in FTC used-car guidance below (condition and inspection, not one odometer number, decide).
+- FAQ "records and an inspection are stronger evidence than a seller's description": FTC independent-inspection guidance below.
 - The 60,000-, 90,000-, 100,000-, 150,000-, and 200,000-mile values are shopper-proposed review points from the query outline, not service recommendations. Toyota’s official schedule tool supports using the vehicle-specific factory schedule: https://www.toyota.com/owners/maintenance-schedule
 - Toyota explains that exact maintenance comes from its Warranty and Maintenance Guide and that intervals depend on the vehicle: https://support.toyota.com/s/article/How-often-should-I-ma-10042?language=en_US
 - Toyota guidance for maintenance beyond 120,000 miles says to continue the guide’s described interval pattern rather than use a universal end point: https://support.toyota.com/s/article/My-maintenance-guide-7903?language=en_US
