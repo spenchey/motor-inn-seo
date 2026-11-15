@@ -1,6 +1,11 @@
 # REVIEW: aboutus-augment-spirit-lake
 
 Status: `draft-needs-owner-approval`
+
+## Wave 2 fix pass (2026-11-15)
+
+- Editor/production language ("the page should," "do not copy," "avoid a blanket quality promise") rewritten in shopper voice; all `[NEEDS-VERIFY]` flags retained unchanged.
+- On-page "Related guides" links repointed to live equivalents and re-verified curl `200`: `/car-maintenance-by-mileage`, `/2022-toyota-rav4-carroll-ia` (both 2026-11-15).
 Draft: `content/drafts/seo/aboutus-augment-spirit-lake-draft.html`
 
 ## Competitor gap and augmentation decision

@@ -29,6 +29,12 @@ The draft’s only current-site href, `https://www.motorinnautogroup.com/searcha
 - 2026 RAV4 official overview/specifications: https://www.toyota.com/rav4/ and https://www.toyota.com/rav4/features/interior/ (both curl `200`)
 - 2026 power and capability facts: 226 hp FWD hybrid, 236 hp AWD hybrid, 8.1-in. LE clearance, 1,750-lb AWD LE towing, and 3,500-lb AWD XLE Premium towing: https://pressroom.toyota.com/the-next-adventure-begins-2026-rav4-arrives-this-winter/
 - 2026 upholstery by grade, including fabric, SofTex, and SofTex/synthetic suede: https://www.toyota.com/content/dam/toyota/brochures/pdf/2026/2026_rav4_brochure_20260612_142557.pdf and https://www.toyota.com/rav4/features/interior/
+- Demand/popularity evidence (added 2026-11-15 fix pass): Toyota Motor North America 2025 U.S. year-end sales results (January 5, 2026) state that the RAV4 recorded a best-ever annual sales year in 2025: https://pressroom.toyota.com/toyota-motor-north-america-reports-2025-u-s-sales-results/ (fetched 2026-11-15). Covers lead and popularity framing; resale/scarcity claims remain unmade.
+
+## Wave 2 fix pass (2026-11-15)
+
+- On-page "Related guides" link to used-car maintenance repointed to live `/car-maintenance-by-mileage` (curl `200`, 2026-11-15).
+- "this draft" production language rewritten in shopper voice; lead now carries the dated TMNA evidence.
 
 ## NEEDS-VERIFY
 

@@ -1,6 +1,11 @@
 # REVIEW: highlander-vs-grand-highlander
 
 Status: `draft-needs-owner-approval`
+
+## Wave 2 fix pass (2026-11-15)
+
+- Visible FAQ H3 aligned word-for-word with the schema question "How much third-row legroom does the Grand Highlander add?" (3/3 schema-to-visible match); answer kept substantively identical.
+- On-page "Related guides" links repointed to live equivalents and re-verified curl `200`: `/2022-toyota-rav4-carroll-ia`, `/car-maintenance-by-mileage` (both 2026-11-15).
 Draft: `content/drafts/seo/highlander-vs-grand-highlander-draft.html`
 
 ## Competitor gap and 10x result

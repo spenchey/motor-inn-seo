@@ -30,7 +30,15 @@ Draft CTA href proof: `https://www.motorinnautogroup.com/searchall.aspx` returne
 
 - 2026 RAV4 upholstery terminology and grade-level fabric/SofTex listings: https://www.toyota.com/rav4/features/interior/ (curl `200` on 2026-11-15)
 - 2026 RAV4 brochure, including SofTex and synthetic-suede wording: https://www.toyota.com/content/dam/toyota/brochures/pdf/2026/2026_rav4_brochure_20260612_142557.pdf
+- Trim/series as pre-packaged equipment levels (general definition): Kelley Blue Book values FAQ, https://www.kbb.com/faq/values/ (fetched 2026-11-15)
+- Used-vehicle trim confirmation via Buyers Guide, window sticker, and VIN: FTC, "Buying a Used Car From a Dealer", https://consumer.ftc.gov/articles/buying-used-car-dealer (fetched 2026-11-15)
+- Truck capability does not follow the trim name alone; configuration and labels rule: Ford RV and Trailer Towing Guide, https://www.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2026-Ford-RV-and-Trailer-Towing-Guide-v3.pdf (curl `200`)
 - Query evidence and impression counts used only in planning: `brain/reports/longtail-answers-2026-11-14.md`; no impression number appears in the public draft.
+
+## Wave 2 fix pass (2026-11-15)
+
+- On-page "Related guides" links repointed to live equivalents and re-verified curl `200`: `/2022-toyota-rav4-carroll-ia` and `/blog/heavy-duty-vs-light-duty-trucks` (both 2026-11-15).
+- "this draft" production phrase removed from the SofTex paragraph.
 
 ## NEEDS-VERIFY
 

@@ -29,7 +29,15 @@ Draft CTA href `https://www.motorinnautogroup.com/searchused.aspx` returned curl
 - The 60,000-, 90,000-, 100,000-, 150,000-, and 200,000-mile values are shopper-proposed review points from the query outline, not service recommendations. Toyota’s official schedule tool supports using the vehicle-specific factory schedule: https://www.toyota.com/owners/maintenance-schedule
 - Toyota explains that exact maintenance comes from its Warranty and Maintenance Guide and that intervals depend on the vehicle: https://support.toyota.com/s/article/How-often-should-I-ma-10042?language=en_US
 - Toyota guidance for maintenance beyond 120,000 miles says to continue the guide’s described interval pattern rather than use a universal end point: https://support.toyota.com/s/article/My-maintenance-guide-7903?language=en_US
+- Independent pre-purchase inspection, history-report limits, and recall checks: FTC, "Buying a Used Car From a Dealer", https://consumer.ftc.gov/articles/buying-used-car-dealer (fetched 2026-11-15)
+- Warning signs, structural rust, and mechanic review before buying: AAA Via, "How to Buy a Safe New or Used Car", https://mwg.aaa.com/via/car/how-buy-safe-car-new-used (curl `200`, fetched 2026-11-15)
+- De-icer corrosion of brake lines, fuel tanks, and underbody: AAA East Central rust release, https://news.eastcentral.aaa.com/news/releases-20170420-6059251 (curl `200`, fetched 2026-11-15)
 - No public lifespan number appears in the draft.
+
+## Wave 2 fix pass (2026-11-15)
+
+- On-page "Related guides" links repointed to live equivalents and re-verified curl `200`: `/2022-toyota-rav4-carroll-ia` and `/blog/heavy-duty-vs-light-duty-trucks` (both 2026-11-15).
+- MotorHappy section and inspection section rewritten in shopper voice; the four `[NEEDS-VERIFY]` flags remain unchanged.
 
 ## NEEDS-VERIFY
 

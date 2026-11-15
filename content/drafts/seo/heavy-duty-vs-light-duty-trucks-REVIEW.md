@@ -31,7 +31,13 @@ The only href placed in this draft, `https://www.motorinnautogroup.com/searchall
 - 2026 F-150: 13,500-lb maximum towing and 2,440-lb maximum payload: https://www.ford.com/trucks/f150/features/payload-trailering/ (curl `200`)
 - 2026 Super Duty: 40,000-lb maximum gooseneck towing and 8,000-lb maximum payload: https://www.ford.com/trucks/super-duty/2026/specs/ (curl `200`)
 - 2026 Ford tow guide: 10% conventional tongue load; 15% fifth-wheel/gooseneck pin load; payload/GAWR/GVWR qualifications: https://www.ford.com/content/dam/brand_ford/en_us/brand/towing/pdf/2026-Ford-RV-and-Trailer-Towing-Guide-v3.pdf (curl `200`)
-- Model-number families 150/1500, 250/2500, and 350/3500 are naming examples, not capability claims. No GM or Ram specification is stated in this draft.
+- Class naming (150/1500 vs 250/2500/350/3500): Chevrolet markets the Silverado 1500 separately from its Silverado HD line, whose page is titled "Heavy Duty Truck": https://www.chevrolet.com/trucks/silverado/1500 and https://www.chevrolet.com/trucks/silverado/2500hd-3500hd (both curl `200`, fetched 2026-11-15). Ford likewise separates F-150 from Super Duty naming in the sources above.
+- Daily-use comparison (turning circle, step-in, unloaded ride, parking): rewritten as configuration advice ("depend on ... so drive the exact configuration"), no longer an unmapped general claim.
+- Half-ton/three-quarter-ton/one-ton nicknames: hedged in copy ("not literal payload promises"); historical-nickname mapping not asserted beyond the hedged line.
+
+## Wave 2 fix pass (2026-11-15)
+
+- On-page "Related guides" links repointed to live equivalents and re-verified curl `200`: `/car-maintenance-by-mileage`, `/2022-toyota-rav4-carroll-ia` (both 2026-11-15).
 
 ## NEEDS-VERIFY
 
