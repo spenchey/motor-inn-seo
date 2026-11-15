@@ -265,3 +265,12 @@ cron catches new ones Mondays 10pm.
    with ChatGPT account" (server-side; unchanged from earlier backups) - explicit -m works.
 4. Codex adversarial review of the 6 wave2 pages launched (gpt-5.6-sol) ->
    brain/reports/wave2-codex-adversarial-2026-11-15.md (to be committed by the run).
+
+## 2026-11-15: codex adversarial QA gate made permanent (owner order)
+- Pipeline rule for every future page batch: build -> self-QA -> codex adversarial pass
+  (gpt-5.6-sol on work-macbook, report at brain/reports/<batch>-codex-adversarial-<date>.md)
+  -> fix -> codex re-run PASS -> only then owner review. No publish before PASS + Spencer.
+- Gate written into skill `motorinn-seo-article-pipeline` ("Adversarial QA gate (mandatory)"
+  + pre-flight line) and deployed byte-identical to writer profiles rory, rory-copy-seo,
+  rory-ai-search, rory-compliance, rory-performance, rory-source-research.
+- Wave 2 re-run report: brain/reports/wave2-codex-adversarial-rerun-2026-11-15.md.
