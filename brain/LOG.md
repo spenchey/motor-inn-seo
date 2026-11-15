@@ -248,3 +248,20 @@ cron catches new ones Mondays 10pm.
 - Status for all six pages: `draft-needs-owner-approval`.
 - No push, preview-server change, or nada-mini action.
 - Follow-up (rory-copy-seo, kanban t_0fa2999c): pushed origin main (de5e69b..345fc24), restaged previews on nada-mini (~/seo-previews/2026-11-04/2026-11-15 plus index links plus short-URL symlinks); all 6 pages verified HTTP 200 at http://100.112.147.69:8899/2026-11-15/<slug>/index.html
+
+
+## 2026-11-15 OWNER DECISIONS (Spencer, Slack) + codex repair
+1. Heavy-duty cluster: NEW PAGE stands (/heavy-duty-vs-light-duty-trucks); the blog post
+   stays untouched - no redirect, no canonical change. Package ready for his approval.
+2. aboutus.aspx: DO NOT TOUCH. The aboutus-augment package stays in the delivery dir as
+   reference only; no DealerOn instruction, no edit to the live page.
+3. codex on work-macbook repaired at the root: ai.codex.ollama-model-catalog-sync
+   regenerates ollama-launch-models.json every 5 min from the new upstream schema
+   (model_messages) which codex 0.167 cannot parse (missing base_instructions etc).
+   Patched the sync script to inject base_instructions (from instructions_template) +
+   5 required fields post-merge. Backup: refresh...sh.bak-jeeves-20261115; catalog backup
+   ollama-launch-models.json.bak-jeeves-20261115. Verified codex exec OK (gpt-5.6-sol,
+   glm-5.3-flash:cloud). Pre-existing: default model gpt-6.1-sol errors "not supported
+   with ChatGPT account" (server-side; unchanged from earlier backups) - explicit -m works.
+4. Codex adversarial review of the 6 wave2 pages launched (gpt-5.6-sol) ->
+   brain/reports/wave2-codex-adversarial-2026-11-15.md (to be committed by the run).
