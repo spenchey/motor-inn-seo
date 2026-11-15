@@ -238,3 +238,12 @@ heavy-vs-light-duty towing x2 (~150 impr combined).
 Previews restaged; block verified live. Report: brain/reports/longtail-answers-2026-11-14.md.
 Remaining ~40 flagged queries -> future answer passes / new page angles; weekly gapscan
 cron catches new ones Mondays 10pm.
+
+## 2026-11-15: Wave 2 run — Phase 4 QA + hygiene
+- Completed the owner-ordered six-page run, explicitly superseding the max-2-drafts rule for this week.
+- Commits: phase 1 `2490102`, phase 2 `5232dc0`, phase 3 `9f86f70`; phase 4 committed as `wave2 phase4: QA 390/1280 plus hygiene audit plus LOG`.
+- Playwright: 12/12 viewport renders PASS at 390px and 1280px; 0px horizontal overflow, headers rendered, 7/7 nav controls actionable, and 0 page errors. Offline DealerOn/CDN/tracker failures are retained as `EXTERNAL-NET` in QA JSON.
+- Hygiene: 6/6 PASS after fixing five short titles, adding three contextual sibling links per page, and completing the used-maintenance NAP name. The `/aboutus.aspx` canonical/og:url and no-H1 augmentation exception is documented in the audit.
+- Evidence: `deliveries/site-packages/2026-11-15/_qa/` and `brain/reports/seo-hygiene-audit-2026-11-15.md`.
+- Status for all six pages: `draft-needs-owner-approval`.
+- No push, preview-server change, or nada-mini action.
