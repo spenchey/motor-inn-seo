@@ -288,3 +288,19 @@ cron catches new ones Mondays 10pm.
   "Adversarial QA gate (mandatory)" + pre-flight line, deployed to rory, rory-copy-seo,
   rory-ai-search, rory-compliance, rory-performance, rory-source-research; rory-copy-seo
   SOUL.md hook added 2026-11-15. No publish; owner review next.
+
+
+## 2026-11-15 PUBLISH ORDER + READINESS (Spencer, Slack)
+Spencer order: put wave2 pages on the .ai mirrors; ask codex whether they are done
+correctly enough to be packaged for publish on the regular group site (www) as well.
+Codex verdict (brain/reports/wave2-publish-readiness-2026-11-15.md, commit 5d882b6):
+- LEG A mirrors: NOT-READY as-is. Content transformable; needs body-fragment extraction,
+  per-host catalog membership (group: aboutus-augment/trim/maintenance; Toyota:
+  highlander/rav4; Chevy: heavy-duty), site-filtered sitemap/llms/links/feed, host-aware
+  CTA, table tests, then deploy via deploy.sh.
+- LEG B www: NOT-READY. Missing per-page PLACEMENT.md, body-only + full-html fallbacks,
+  metadata-all.csv, README-DEALERON.md, EMAIL-DRAFT.md. Route facts: 2 in-place updates
+  (trim, highlander), 3 new pages (heavy-duty, rav4, maintenance), aboutus owner-frozen
+  (no touch).
+Next: build LEG A per change list -> owner review -> deploy; build LEG B package -> owner
+approval -> DealerOn handoff (www needs its own explicit owner go).
