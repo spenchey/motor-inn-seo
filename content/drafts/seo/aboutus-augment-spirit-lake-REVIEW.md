@@ -38,6 +38,8 @@ Draft inventory href `https://www.motorinnautogroup.com/searchused.aspx` returne
 - General used-inventory destination: https://www.motorinnautogroup.com/searchused.aspx (curl final `200`)
 - Query count and position exist only in the internal Phase-1 audit and do not appear in public copy: `brain/reports/wave2-audit-2026-11-15.md`.
 - No public-facing numeric Spirit Lake fact is asserted.
+- Contact number 712-792-5000 shown in the augmentation copy: Motor Inn Auto Group public contact number, per the live About Us page https://www.motorinnautogroup.com/aboutus.aspx (fetched 2026-11-15; the number appears in the page source).
+- FAQ answer that the general inventory page is not Spirit Lake-only: the live used-inventory page the copy links to, https://www.motorinnautogroup.com/used-inventory, presents the Carroll, IA 51401 dealership (dealer location labeled Carroll, IA in the page), fetched 2026-11-15; no Spirit Lake-only filter is presented on it (item 6 above stays open for any future filter).
 
 ## NEEDS-VERIFY
 
