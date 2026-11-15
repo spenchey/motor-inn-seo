@@ -304,3 +304,18 @@ Codex verdict (brain/reports/wave2-publish-readiness-2026-11-15.md, commit 5d882
   (no touch).
 Next: build LEG A per change list -> owner review -> deploy; build LEG B package -> owner
 approval -> DealerOn handoff (www needs its own explicit owner go).
+
+
+## 2026-11-15 MIRROR PUBLISH DONE (LEG A live; LEG B awaiting build+approval)
+- LEG A deployed: commits 57a69ef + d627706 on spenchey/ai-markdown-proxy (6 fragments,
+  per-host catalog, site-filtered discovery/sitemap/feed/search, table tests 119 green -
+  independently reverified on clean py3.13 venv), deploy.sh SSM rebuild complete,
+  /__health/full ok. Live matrix verified: group host serves aboutus-augment +
+  trim-levels + used-car-maintenance (+existing towing); Toyota host serves
+  highlander-vs-grand-highlander + toyota-rav4; Chevy host serves
+  heavy-duty-vs-light-duty-trucks. Cross-host 404s correct. No dealerOnTrack/Typekit
+  leakage in rendered pages; per-host sitemaps correct.
+- LEG B www: codex verdict NOT-READY (missing PLACEMENT.md x6, body-only + full-html
+  variants, metadata-all.csv, README-DEALERON.md, EMAIL-DRAFT.md). Route plan: 3 new pages
+  (heavy-duty, rav4, maintenance), 2 in-place updates on explicit approval (trim,
+  highlander), aboutus owner-frozen no-touch. Build next; www publish only on Spencer go.
