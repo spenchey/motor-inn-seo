@@ -247,3 +247,4 @@ cron catches new ones Mondays 10pm.
 - Evidence: `deliveries/site-packages/2026-11-15/_qa/` and `brain/reports/seo-hygiene-audit-2026-11-15.md`.
 - Status for all six pages: `draft-needs-owner-approval`.
 - No push, preview-server change, or nada-mini action.
+- Follow-up (rory-copy-seo, kanban t_0fa2999c): pushed origin main (de5e69b..345fc24), restaged previews on nada-mini (~/seo-previews/2026-11-04/2026-11-15 plus index links plus short-URL symlinks); all 6 pages verified HTTP 200 at http://100.112.147.69:8899/2026-11-15/<slug>/index.html
