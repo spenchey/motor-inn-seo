@@ -319,3 +319,19 @@ approval -> DealerOn handoff (www needs its own explicit owner go).
   variants, metadata-all.csv, README-DEALERON.md, EMAIL-DRAFT.md). Route plan: 3 new pages
   (heavy-duty, rav4, maintenance), 2 in-place updates on explicit approval (trim,
   highlander), aboutus owner-frozen no-touch. Build next; www publish only on Spencer go.
+
+
+## 2026-11-16 GBP OPS FIX (jeeves, at Spencer's direction in #automated-marketing)
+- GBP services LIVE on both listings via Business Information API (owner_oauth, locations.patch
+  updateMask=serviceItems, validateOnly first): primary 8 items, Chevrolet 7 (was 0).
+  Read-back verified; details content/drafts/gbp-services/services-live-2026-11-16.md.
+- OpenClaw cron gbp-structural-audit-weekly re-enabled; model cut over ollama2/qwen3.6 ->
+  glm-tf/GLM-5.3-Flash-EXL3 (spark-a664 :8888 verified 200 + live gen; nada-mini local ollama/ds4
+  endpoints are down and no longer on the job path). gbp-velocity-content-weekly re-enabled, same model.
+  Openclaw.json provider glm-tf added; defaults primary/fallbacks updated; backup
+  openclaw.json.bak-jeeves-glm-cutover-20261116. Next runs: velocity Thu 11-19 15:00, structural Mon 11-23 11:30 CT.
+- 11-16 run deliverables completed: gbp-structural-2026-11-16.md + -latest.md written+committed,
+  Slack posts to #seo-monitoring (1794885174.958679) and #automated-marketing (1794885175.282399),
+  email sent 21:16 CT via script exit 0 (message 1a1e7813ec700378, to Tony/David/hotmail cc Spencer,
+  3 attachments verified in SENT).
+- Mini local-ollama sysctl (iogpu.wired_limit_mb) now OPTIONAL - no job depends on it.
