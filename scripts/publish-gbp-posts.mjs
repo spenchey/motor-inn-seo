@@ -8,8 +8,8 @@
  *
  * Usage:
  *   node scripts/publish-gbp-posts.mjs [--dry-run] [--all] [--limit N]
- *   node scripts/publish-gbp-posts.mjs --list-pending
- *   node scripts/publish-gbp-posts.mjs --approve 1,3 --approved-by "Spencer"
+ *   node scripts/publish-gbp-posts.mjs --list-pending [--file NAME]
+ *   node scripts/publish-gbp-posts.mjs --approve 1,3 --approved-by "Spencer" [--file NAME]
  *
  * APPROVAL GATE (Spencer, 2026-11-17): nothing publishes without his OK. A
  * post publishes only if its block carries `**Approval:** approved ...`.
@@ -19,8 +19,14 @@
  *   --approve N,M    Mark post number(s) N,M in the newest drafts file as
  *                    approved. Run ONLY after Spencer himself approved.
  *                    Requires --approved-by "<name>" (audit trail in the file).
+ *   --file NAME      With --list-pending or --approve: use this drafts file
+ *                    (posts-week-of-YYYY-MM-DD.md) instead of the newest one.
  *
- *   --dry-run   Parse the newest drafts file and print the publish plan
+ * Publishing reads the newest drafts file plus every older drafts file that
+ * holds at least one approved post, so an approved post still publishes after
+ * a newer drafts file appears. Unapproved posts never publish from any file.
+ *
+ *   --dry-run   Parse the publishable drafts files and print the publish plan
  *               without calling Google. Exits 0 even without credentials.
  *   --all       Ignore the publish-date filter (default: only posts whose
  *               publish date is <= today America/Chicago are due).
@@ -93,7 +99,7 @@ function die(msg, code = 1) {
 }
 
 function parseArgs() {
-  const args = { dryRun: false, all: false, limit: Infinity, listPending: false, approve: null, approvedBy: null };
+  const args = { dryRun: false, all: false, limit: Infinity, listPending: false, approve: null, approvedBy: null, file: null };
   const argv = process.argv.slice(2);
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
@@ -107,6 +113,9 @@ function parseArgs() {
       args.approve = nums;
     } else if (a === '--approved-by') {
       args.approvedBy = (argv[++i] || '').trim();
+    } else if (a === '--file') {
+      args.file = (argv[++i] || '').trim();
+      if (!args.file) die('--file requires a drafts file name');
     }
     else if (a === '--limit') {
       const n = Number(argv[++i]);
@@ -126,14 +135,35 @@ function todayCentral() {
 // Draft parsing
 // ---------------------------------------------------------------------------
 
-function newestDraftFile() {
+const DRAFT_FILE_RE = /^posts-week-of-\d{4}-\d{2}-\d{2}\.md$/;
+
+function draftFiles() {
   if (!fs.existsSync(DRAFTS_DIR)) die(`drafts directory not found: ${DRAFTS_DIR}`);
-  const files = fs
-    .readdirSync(DRAFTS_DIR)
-    .filter((f) => /^posts-week-of-\d{4}-\d{2}-\d{2}\.md$/.test(f))
-    .sort();
+  const files = fs.readdirSync(DRAFTS_DIR).filter((f) => DRAFT_FILE_RE.test(f)).sort();
   if (files.length === 0) die(`no posts-week-of-*.md files under ${DRAFTS_DIR}`);
-  return path.join(DRAFTS_DIR, files[files.length - 1]);
+  return files.map((f) => path.join(DRAFTS_DIR, f));
+}
+
+function newestDraftFile() {
+  const files = draftFiles();
+  return files[files.length - 1];
+}
+
+// The newest file plus any older file holding an approved post. Older files
+// without an approval are not parsed, so old drafts cannot stop a run.
+function publishableDraftFiles() {
+  const files = draftFiles();
+  const newest = files[files.length - 1];
+  return files.filter(
+    (f) => f === newest || /^\*\*Approval:\*\*\s*approved\b/im.test(fs.readFileSync(f, 'utf8'))
+  );
+}
+
+function namedDraftFile(name) {
+  if (!DRAFT_FILE_RE.test(name)) die(`--file must look like posts-week-of-YYYY-MM-DD.md, got: ${name}`);
+  const file = path.join(DRAFTS_DIR, name);
+  if (!fs.existsSync(file)) die(`no such drafts file: ${name}`);
+  return file;
 }
 
 function field(block, name) {
@@ -469,6 +499,7 @@ function approvePosts(file, numbers, by) {
     } else die(`post ${n} has no **Publish date:** line to anchor the approval`);
     parts[idx] = block;
     done.push(n);
+    console.log(`  ${block.split('\n', 1)[0].replace(/^### /, '')}`);
   }
   fs.writeFileSync(file, parts.join(''));
   console.log(`approved post(s) ${done.join(',')} in ${path.basename(file)} (${by}). Nothing published; the next publisher run will publish due+approved posts.`);
@@ -476,8 +507,9 @@ function approvePosts(file, numbers, by) {
 
 async function main() {
   const args = parseArgs();
-  const draftFile = newestDraftFile();
-  const posts = parseDrafts(draftFile);
+  if (args.file && !args.listPending && !args.approve) die('--file works only with --list-pending or --approve');
+  const draftFile = args.file ? namedDraftFile(args.file) : newestDraftFile();
+  const selectedPosts = parseDrafts(draftFile);
   const ledger = loadLedger();
   const today = todayCentral();
 
@@ -485,8 +517,8 @@ async function main() {
   console.log(`today (America/Chicago): ${today}`);
 
   if (args.listPending) {
-    const pending = posts.filter((p) => !p.approved);
-    console.log(`PENDING-APPROVAL: ${pending.length} of ${posts.length} posts in ${path.basename(draftFile)}`);
+    const pending = selectedPosts.filter((p) => !p.approved);
+    console.log(`PENDING-APPROVAL: ${pending.length} of ${selectedPosts.length} posts in ${path.basename(draftFile)}`);
     for (const p of pending) {
       const snippet = p.copy.replace(/\s+/g, ' ').slice(0, 160);
       console.log(`${p.postNumber}. [${p.publishDate}] ${p.title} (CTA: ${p.ctaButton})\n   "${snippet}..."`);
@@ -500,6 +532,12 @@ async function main() {
     approvePosts(draftFile, args.approve, args.approvedBy);
     return;
   }
+
+  const sourceFiles = publishableDraftFiles();
+  const posts = sourceFiles
+    .flatMap((f) => parseDrafts(f))
+    .sort((a, b) => a.publishDate.localeCompare(b.publishDate));
+  console.log(`publish sources: ${sourceFiles.map((f) => path.basename(f)).join(', ')}`);
 
   if (args.dryRun) {
     const cfgSafe = loadConfigSafe();
