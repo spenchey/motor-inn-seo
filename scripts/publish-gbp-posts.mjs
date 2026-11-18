@@ -8,6 +8,17 @@
  *
  * Usage:
  *   node scripts/publish-gbp-posts.mjs [--dry-run] [--all] [--limit N]
+ *   node scripts/publish-gbp-posts.mjs --list-pending
+ *   node scripts/publish-gbp-posts.mjs --approve 1,3 --approved-by "Spencer"
+ *
+ * APPROVAL GATE (Spencer, 2026-11-17): nothing publishes without his OK. A
+ * post publishes only if its block carries `**Approval:** approved ...`.
+ * A missing or `pending` Approval field means NOT approved (fail-safe), so
+ * every pre-existing draft stays unpublished until approved.
+ *   --list-pending   Print the unapproved posts (Slack-ready); no Google calls.
+ *   --approve N,M    Mark post number(s) N,M in the newest drafts file as
+ *                    approved. Run ONLY after Spencer himself approved.
+ *                    Requires --approved-by "<name>" (audit trail in the file).
  *
  *   --dry-run   Parse the newest drafts file and print the publish plan
  *               without calling Google. Exits 0 even without credentials.
@@ -82,12 +93,21 @@ function die(msg, code = 1) {
 }
 
 function parseArgs() {
-  const args = { dryRun: false, all: false, limit: Infinity };
+  const args = { dryRun: false, all: false, limit: Infinity, listPending: false, approve: null, approvedBy: null };
   const argv = process.argv.slice(2);
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') args.dryRun = true;
     else if (a === '--all') args.all = true;
+    else if (a === '--list-pending') args.listPending = true;
+    else if (a === '--approve') {
+      const raw = argv[++i] || '';
+      const nums = raw.split(',').map((x) => Number(x.trim()));
+      if (!raw || nums.some((n) => !Number.isInteger(n) || n < 1)) die('--approve requires post numbers like 1,3');
+      args.approve = nums;
+    } else if (a === '--approved-by') {
+      args.approvedBy = (argv[++i] || '').trim();
+    }
     else if (a === '--limit') {
       const n = Number(argv[++i]);
       if (!Number.isInteger(n) || n < 1) die('--limit requires a positive integer');
@@ -128,9 +148,10 @@ function parseDrafts(file) {
   const posts = [];
   for (const chunk of chunks) {
     const headerLine = chunk.split('\n', 1)[0].trim();
-    const titleMatch = headerLine.match(/^Post\s+\d+:\s*(.+)$/);
+    const titleMatch = headerLine.match(/^Post\s+(\d+):\s*(.+)$/);
     if (!titleMatch) continue;
-    const title = titleMatch[1].trim();
+    const postNumber = Number(titleMatch[1]);
+    const title = titleMatch[2].trim();
     const publishDate = field(chunk, 'Publish date');
     const ctaButton = field(chunk, 'CTA button');
     const ctaLink = field(chunk, 'CTA link');
@@ -152,7 +173,10 @@ function parseDrafts(file) {
     if (cta.needsUrl && !/^https?:\/\//.test(ctaLink || '')) {
       die(`post "${title}" CTA "${ctaButton}" requires an http(s) **CTA link:**, got: ${ctaLink}`);
     }
-    posts.push({ weekMarker, title, publishDate, copy, ctaButton, ctaLink, cta });
+    // Approval gate: only an explicit "approved ..." value counts; absent = pending.
+    const approval = field(chunk, 'Approval');
+    const approved = /^approved\b/i.test(approval || '');
+    posts.push({ weekMarker, postNumber, title, publishDate, copy, ctaButton, ctaLink, cta, approval, approved });
   }
   if (posts.length === 0) die(`no "### Post N: title" blocks parsed from ${file}`);
   return posts;
@@ -398,7 +422,9 @@ async function createLocalPost(token, parent, post) {
 }
 
 function buildPlan(posts, ledger, locations, args, today) {
-  const due = posts.filter((p) => args.all || p.publishDate <= today);
+  const dueAll = posts.filter((p) => args.all || p.publishDate <= today);
+  const due = dueAll.filter((p) => p.approved); // approval gate
+  const unapprovedDue = dueAll.length - due.length;
   const plan = [];
   for (const post of due) {
     for (const loc of locations) {
@@ -408,12 +434,13 @@ function buildPlan(posts, ledger, locations, args, today) {
     }
   }
   const capped = plan.slice(0, args.limit === Infinity ? plan.length : args.limit);
-  return { due, plan, capped };
+  return { due, plan, capped, unapprovedDue };
 }
 
-function printPlan(posts, due, plan, capped, args) {
+function printPlan(posts, due, plan, capped, args, unapprovedDue = 0) {
   console.log(
-    `parsed ${posts.length} posts; ${due.length} due${args.all ? ' (--all)' : ''}; ` +
+    `parsed ${posts.length} posts; ${posts.filter((p) => p.approved).length} approved; ` +
+      `${unapprovedDue} due but NOT approved (skipped); ${due.length} due+approved${args.all ? ' (--all)' : ''}; ` +
       `${plan.length} unpublished; publishing ${capped.length} this run`
   );
   for (const item of capped) {
@@ -421,6 +448,30 @@ function printPlan(posts, due, plan, capped, args) {
       `  -> [${item.post.publishDate}] "${item.post.title}" (${item.post.cta.actionType}) @ ${item.loc}`
     );
   }
+}
+
+function approvePosts(file, numbers, by) {
+  const stamp = new Date().toLocaleString('en-CA', {
+    timeZone: 'America/Chicago', hour12: false, year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit',
+  }).replace(',', '');
+  const marker = `**Approval:** approved — ${by}, ${stamp} CT`;
+  const parts = fs.readFileSync(file, 'utf8').split(/^(?=### )/m);
+  const done = [];
+  for (const n of numbers) {
+    const idx = parts.findIndex((c) => new RegExp(`^### Post\\s+${n}:`).test(c));
+    if (idx < 0) die(`no "### Post ${n}:" block in ${file}`);
+    let block = parts[idx];
+    if (/^\*\*Approval:\*\*.*$/m.test(block)) {
+      block = block.replace(/^\*\*Approval:\*\*.*$/m, marker);
+    } else if (/^\*\*Publish date:\*\*.*$/m.test(block)) {
+      block = block.replace(/^(\*\*Publish date:\*\*.*)$/m, `$1\n${marker}`);
+    } else die(`post ${n} has no **Publish date:** line to anchor the approval`);
+    parts[idx] = block;
+    done.push(n);
+  }
+  fs.writeFileSync(file, parts.join(''));
+  console.log(`approved post(s) ${done.join(',')} in ${path.basename(file)} (${by}). Nothing published; the next publisher run will publish due+approved posts.`);
 }
 
 async function main() {
@@ -433,14 +484,31 @@ async function main() {
   console.log(`drafts file: ${draftFile}`);
   console.log(`today (America/Chicago): ${today}`);
 
+  if (args.listPending) {
+    const pending = posts.filter((p) => !p.approved);
+    console.log(`PENDING-APPROVAL: ${pending.length} of ${posts.length} posts in ${path.basename(draftFile)}`);
+    for (const p of pending) {
+      const snippet = p.copy.replace(/\s+/g, ' ').slice(0, 160);
+      console.log(`${p.postNumber}. [${p.publishDate}] ${p.title} (CTA: ${p.ctaButton})\n   "${snippet}..."`);
+    }
+    console.log('nothing published.');
+    return;
+  }
+
+  if (args.approve) {
+    if (!args.approvedBy) die('--approve requires --approved-by "<who approved>" (audit trail)');
+    approvePosts(draftFile, args.approve, args.approvedBy);
+    return;
+  }
+
   if (args.dryRun) {
     const cfgSafe = loadConfigSafe();
     const locations =
       Array.isArray(cfgSafe?.location_ids) && cfgSafe.location_ids.length > 0
         ? cfgSafe.location_ids
         : ['<unconfigured>'];
-    const { due, plan, capped } = buildPlan(posts, ledger, locations, args, today);
-    printPlan(posts, due, plan, capped, args);
+    const { due, plan, capped, unapprovedDue } = buildPlan(posts, ledger, locations, args, today);
+    printPlan(posts, due, plan, capped, args, unapprovedDue);
     if (!fs.existsSync(CREDS_FILE)) {
       console.log(
         `dry-run note: GBP credentials not configured at ${CREDS_FILE} — a real run would fail loud here.`
@@ -458,8 +526,8 @@ async function main() {
     await discoverAndDie(token);
   }
 
-  const { due, plan, capped } = buildPlan(posts, ledger, cfg.location_ids, args, today);
-  printPlan(posts, due, plan, capped, args);
+  const { due, plan, capped, unapprovedDue } = buildPlan(posts, ledger, cfg.location_ids, args, today);
+  printPlan(posts, due, plan, capped, args, unapprovedDue);
 
   if (capped.length === 0) {
     console.log('nothing to publish (no due posts outside the ledger) — done.');
@@ -468,6 +536,7 @@ async function main() {
 
   let published = 0;
   for (const item of capped) {
+    if (!item.post.approved) die(`refusing to publish unapproved post "${item.post.title}"`); // defense in depth
     const parent = normalizeParent(cfg.account_id, item.loc);
     const created = await createLocalPost(token, parent, item.post);
     ledger[item.key] = {
