@@ -1,0 +1,450 @@
+[
+  {
+    "check_id": "title-leads-other-city",
+    "title": "Home page title leads with another town",
+    "plain_english": "The page title that shows in Google starts with a different town's name instead of Carroll.",
+    "tier": 2,
+    "fix_type": "dealeron_request",
+    "owner": "rory-copy-seo",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the other town's name no longer leads the page title"
+    }
+  },
+  {
+    "check_id": "meta-noindex",
+    "title": "Page tells search engines not to list it",
+    "plain_english": "A page that should appear in Google carries a hidden instruction telling Google to leave it out.",
+    "tier": 1,
+    "fix_type": "dealeron_request",
+    "owner": "rory",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "meta_robots",
+      "assert": "index,follow"
+    }
+  },
+  {
+    "check_id": "canonical-wrong",
+    "title": "Page points search engines at a different page",
+    "plain_english": "A page tells Google that some other page is the real one, so this page may never be shown.",
+    "tier": 2,
+    "fix_type": "dealeron_request",
+    "owner": "rory",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the page names its own address as its preferred address"
+    }
+  },
+  {
+    "check_id": "schema-phone-mismatch",
+    "title": "Hidden business details carry a different phone number",
+    "plain_english": "The business details hidden in the page for Google show a phone number that differs from the approved main number, and the owner has to rule on it.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory-ai-search",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the hidden phone number matches a number the owner approved"
+    }
+  },
+  {
+    "check_id": "schema-name-mismatch",
+    "title": "Hidden business details use a different business name",
+    "plain_english": "The business name hidden in the page for Google is not the same on every site, so Google may treat them as different businesses.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory-ai-search",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the hidden business name matches the name the owner approved"
+    }
+  },
+  {
+    "check_id": "faq-schema-missing",
+    "title": "No question-and-answer markup on the page",
+    "plain_english": "The page has no hidden question-and-answer markup, so Google and AI assistants cannot easily lift answers from it.",
+    "tier": 3,
+    "fix_type": "dealeron_request",
+    "owner": "rory-ai-search",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the page carries question-and-answer markup"
+    }
+  },
+  {
+    "check_id": "unexpected-phone-on-page",
+    "title": "Page shows a phone number outside the approved list",
+    "plain_english": "A page shows a phone number that is not on the approved list, so the owner has to rule on whether it stays.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory-compliance",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the owner's ruling is recorded and the page matches it"
+    }
+  },
+  {
+    "check_id": "placeholder-page-indexed",
+    "title": "A blank platform placeholder page sits at a real page address",
+    "plain_english": "An address that should hold a real page is serving a blank placeholder page from the website platform.",
+    "tier": 2,
+    "fix_type": "dealeron_request",
+    "owner": "rory",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the address shows the real page, not the platform placeholder"
+    }
+  },
+  {
+    "check_id": "stale-offer-page",
+    "title": "An old offer page is still live",
+    "plain_english": "A page for an offer that has ended is still on the website where customers can find it.",
+    "tier": 3,
+    "fix_type": "dealeron_request",
+    "owner": "rory-compliance",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the old offer page is gone or points to the current offers page"
+    }
+  },
+  {
+    "check_id": "sitemap-missing",
+    "title": "No list of pages for search engines",
+    "plain_english": "The site does not offer search engines a list of its pages, so new pages may be found slowly.",
+    "tier": 2,
+    "fix_type": "dealeron_request",
+    "owner": "rory",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the site offers a list of its pages to search engines"
+    }
+  },
+  {
+    "check_id": "ai-bot-blocked",
+    "title": "An AI assistant's crawler is turned away",
+    "plain_english": "The site's access rules turn away a crawler that an AI assistant uses to read the site.",
+    "tier": 2,
+    "fix_type": "dealeron_request",
+    "owner": "rory-ai-search",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "no access rule turns away the named AI crawlers"
+    }
+  },
+  {
+    "check_id": "llms-txt-missing",
+    "title": "No plain guide file for AI assistants",
+    "plain_english": "The site has no short plain-language guide that points AI assistants to the right pages.",
+    "tier": 3,
+    "fix_type": "dealeron_request",
+    "owner": "rory-ai-search",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the site offers a plain guide file for AI assistants"
+    }
+  },
+  {
+    "check_id": "gbp-listing-closed",
+    "title": "A Google listing is marked permanently closed",
+    "plain_english": "One of our Google Business listings says the business is permanently closed, which can confuse customers and Google.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the listing no longer shows as permanently closed, or the owner has ruled to leave it"
+    }
+  },
+  {
+    "check_id": "gbp-duplicate-listing",
+    "title": "A duplicate Google listing exists",
+    "plain_english": "More than one Google listing exists for the same business at the same address, which splits reviews and confuses Google.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "only the intended listings remain for the address"
+    }
+  },
+  {
+    "check_id": "gbp-book-link-missing",
+    "title": "Google listing has no booking link",
+    "plain_english": "Our Google listing has no button that lets a customer book a visit online.",
+    "tier": 3,
+    "fix_type": "gbp_edit",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the listing shows a booking link that opens the right page"
+    }
+  },
+  {
+    "check_id": "gbp-photos-stale",
+    "title": "Google listing photos are very old",
+    "plain_english": "The main photos on our Google listing have not been refreshed in years.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "new photos are live on the listing"
+    }
+  },
+  {
+    "check_id": "gbp-posting-stalled",
+    "title": "Google Business posts have stopped going live",
+    "plain_english": "Posts have stopped reaching our Google listings, so customers see an old post as the newest.",
+    "tier": 2,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "a post dated this week is live on the listing"
+    }
+  },
+  {
+    "check_id": "review-pace-stalled",
+    "title": "No new Google reviews for weeks",
+    "plain_english": "A listing has gone weeks without a new customer review.",
+    "tier": 3,
+    "fix_type": "internal_repair",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the review count has risen and the newest review is recent"
+    }
+  },
+  {
+    "check_id": "citation-mismatch",
+    "title": "Directory listings disagree with our details",
+    "plain_english": "Some online directories show different business details from ours, which weakens trust with Google.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "citations",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the named directories match the approved business details"
+    }
+  },
+  {
+    "check_id": "job-prompt-retired-text",
+    "title": "A scheduled job still carries retired instructions",
+    "plain_english": "An automated job still follows instructions that were retired, such as an old phone number or an old machine name.",
+    "tier": 3,
+    "fix_type": "internal_repair",
+    "owner": "rory",
+    "surface": "job",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the job's instructions no longer contain the retired text"
+    }
+  },
+  {
+    "check_id": "audit-wrong-target",
+    "title": "An audit checks the wrong website",
+    "plain_english": "A weekly audit looks at a test website instead of our real dealership sites, so its results do not describe what customers see.",
+    "tier": 2,
+    "fix_type": "internal_repair",
+    "owner": "rory",
+    "surface": "job",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the audit reads the three real dealership sites"
+    }
+  },
+  {
+    "check_id": "zero-priced-inventory",
+    "title": "Vehicles listed with no price",
+    "plain_english": "Some vehicles are in our listings with a price of zero, so shoppers and AI assistants see no real price.",
+    "tier": 2,
+    "fix_type": "internal_repair",
+    "owner": "rory",
+    "surface": "feed",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "no vehicle in the feed has a zero price"
+    }
+  },
+  {
+    "check_id": "unmirrored-inventory",
+    "title": "Priced vehicles missing from the AI-readable copy",
+    "plain_english": "Some priced vehicles are not showing in the copy of our inventory that AI assistants read.",
+    "tier": 3,
+    "fix_type": "internal_repair",
+    "owner": "rory",
+    "surface": "feed",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "every priced vehicle appears in the AI-readable copy"
+    }
+  },
+  {
+    "check_id": "ai-answer-wrong-fact",
+    "title": "An AI assistant states a wrong fact about us",
+    "plain_english": "An AI assistant gave an answer about the dealership that contains a fact that is not true.",
+    "tier": 2,
+    "fix_type": "content_draft",
+    "owner": "rory-ai-search",
+    "surface": "ai-answer",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "a repeat of the same question returns the correct fact"
+    }
+  },
+  {
+    "check_id": "gbp-listing-phone-differs",
+    "title": "A Google listing carries its own phone number",
+    "plain_english": "A Google listing shows a phone number that differs from the main number, and the owner has to rule on which number it should show.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the listing shows the number the owner ruled on"
+    }
+  },
+  {
+    "check_id": "low-click-through",
+    "title": "Many search appearances but almost no clicks",
+    "plain_english": "The site appears in Google thousands of times but almost nobody clicks, so something about how it appears is turning people away.",
+    "tier": 2,
+    "fix_type": "dealeron_request",
+    "owner": "rory",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "clicks have risen against the same level of search appearances"
+    }
+  },
+  {
+    "check_id": "site-not-watched",
+    "title": "No scheduled check reads a site",
+    "plain_english": "No automated check reads one of our dealership sites, so a problem there could go unnoticed for weeks.",
+    "tier": 2,
+    "fix_type": "internal_repair",
+    "owner": "rory",
+    "surface": "job",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the weekly check file covers all three sites"
+    }
+  },
+  {
+    "check_id": "page-draft-unpublished",
+    "title": "Finished page drafts are not published",
+    "plain_english": "Pages that were drafted for the website have been waiting for months without going live.",
+    "tier": 2,
+    "fix_type": "content_draft",
+    "owner": "rory",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the drafted pages are live or the owner has declined them"
+    }
+  },
+  {
+    "check_id": "packet-awaiting-approval",
+    "title": "A ready request is waiting for the owner's OK",
+    "plain_english": "A finished request is waiting for the owner's approval before it can go to the website company.",
+    "tier": 2,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "job",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the owner has approved or declined the request"
+    }
+  },
+  {
+    "check_id": "gbp-post-tracking-missing",
+    "title": "Google Business posts cannot be tracked",
+    "plain_english": "Visits that come from our Google Business posts cannot be counted because the post links carry no tracking tag.",
+    "tier": 3,
+    "fix_type": "spencer_decision",
+    "owner": "rory",
+    "surface": "gbp",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "post links carry the agreed tracking tag"
+    }
+  },
+  {
+    "check_id": "ai-answer-test-too-loose",
+    "title": "The AI-answer check counts a competitor as us",
+    "plain_english": "The weekly check of AI answers can count a competitor named after our town as if it were us, so its results cannot be trusted.",
+    "tier": 3,
+    "fix_type": "internal_repair",
+    "owner": "rory-ai-search",
+    "surface": "job",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "manual",
+      "assert": "the check matches only our own business name and addresses"
+    }
+  },
+  {
+    "check_id": "key-page-http-error",
+    "title": "A key page does not load",
+    "plain_english": "An important page on our website is returning an error instead of loading for shoppers and search engines.",
+    "tier": 1,
+    "fix_type": "dealeron_request",
+    "owner": "rory",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "http_status",
+      "assert": "200"
+    }
+  }
+]

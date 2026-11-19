@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "note": "Every url and id comes from build/SA-02/expected-sites.json key_urls. needs_confirmation must match that file. Tripwire = exactly 3 per host. At most 12 per host.",
+  "max_urls_per_host": 12,
+  "hosts": {
+    "group": {
+      "host": "www.motorinnautogroup.com",
+      "urls": [
+        {"id": "home", "url": "https://www.motorinnautogroup.com/", "kind": "page", "tripwire": true, "faq": true, "needs_confirmation": false},
+        {"id": "robots", "url": "https://www.motorinnautogroup.com/robots.txt", "kind": "robots", "tripwire": true, "faq": false, "needs_confirmation": false},
+        {"id": "llms", "url": "https://www.motorinnautogroup.com/llms.txt", "kind": "llms", "tripwire": true, "faq": false, "needs_confirmation": false},
+        {"id": "sitemap", "url": "https://www.motorinnautogroup.com/", "kind": "sitemap", "tripwire": false, "faq": false, "needs_confirmation": true}
+      ]
+    },
+    "toyota": {
+      "host": "www.motorinntoyotaofcarroll.com",
+      "urls": [
+        {"id": "home", "url": "https://www.motorinntoyotaofcarroll.com/", "kind": "page", "tripwire": true, "faq": true, "needs_confirmation": false},
+        {"id": "searchnew", "url": "https://www.motorinntoyotaofcarroll.com/searchnew.aspx", "kind": "page", "tripwire": true, "faq": false, "needs_confirmation": false},
+        {"id": "service", "url": "https://www.motorinntoyotaofcarroll.com/service.aspx", "kind": "page", "tripwire": true, "faq": false, "needs_confirmation": true},
+        {"id": "robots", "url": "https://www.motorinntoyotaofcarroll.com/robots.txt", "kind": "robots", "tripwire": false, "faq": false, "needs_confirmation": false},
+        {"id": "llms", "url": "https://www.motorinntoyotaofcarroll.com/llms.txt", "kind": "llms", "tripwire": false, "faq": false, "needs_confirmation": false},
+        {"id": "sitemap", "url": "https://www.motorinntoyotaofcarroll.com/", "kind": "sitemap", "tripwire": false, "faq": false, "needs_confirmation": true}
+      ]
+    },
+    "chevy": {
+      "host": "www.motorinnofcarroll.com",
+      "urls": [
+        {"id": "home", "url": "https://www.motorinnofcarroll.com/", "kind": "page", "tripwire": true, "faq": true, "needs_confirmation": false},
+        {"id": "robots", "url": "https://www.motorinnofcarroll.com/robots.txt", "kind": "robots", "tripwire": true, "faq": false, "needs_confirmation": false},
+        {"id": "llms", "url": "https://www.motorinnofcarroll.com/llms.txt", "kind": "llms", "tripwire": true, "faq": false, "needs_confirmation": true},
+        {"id": "sitemap", "url": "https://www.motorinnofcarroll.com/", "kind": "sitemap", "tripwire": false, "faq": false, "needs_confirmation": true}
+      ]
+    }
+  }
+}

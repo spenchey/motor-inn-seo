@@ -15,3 +15,8 @@ audits/toolkit/*/run.log
 audits/toolkit/*/inspector-prompt.txt
 audits/toolkit/*/inspector-raw.txt
 audits/toolkit/*/inspector-stderr.log
+
+# SEO findings loop: live state stays on Mac mini 1 only (this repo is public)
+findings/*
+!findings/checks.json
+!findings/expected-sites.json
