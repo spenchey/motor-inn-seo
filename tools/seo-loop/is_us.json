@@ -1,0 +1,24 @@
+{
+  "_note": "The 'is this us' test, per gap plan 5.3. Hosts are matched exactly after removing a leading www. A source is ours only on an exact host. 'Carroll' alone never counts.",
+  "hosts": {
+    "motorinnautogroup.com": "group",
+    "motorinntoyotaofcarroll.com": "toyota",
+    "motorinnofcarroll.com": "chevy",
+    "ai.motorinnautogroup.com": "group",
+    "ai.motorinntoyotaofcarroll.com": "toyota",
+    "ai.motorinnofcarroll.com": "chevy"
+  },
+  "listing_urls": [],
+  "listing_urls_note": "Our own Google listing URLs go here as exact URLs. Empty until Spencer or the GBP skill supplies them. Not verified.",
+  "names": {
+    "Motor Inn Auto Group": "group",
+    "Motor Inn Toyota of Carroll": "toyota",
+    "Motor Inn of Carroll": "chevy",
+    "Motor Inn Toyota": "toyota",
+    "Motor Inn Chevrolet": "chevy"
+  },
+  "loose_name": "Motor Inn",
+  "town": "Carroll",
+  "rival_keywords": ["auto", "motors", "motor", "chevrolet", "chevy", "toyota", "ford", "buick", "gmc", "ram", "chrysler", "dodge", "jeep", "dealer", "dealership", "sales", "tire", "tires", "collision", "body", "repair", "service", "parts"],
+  "confusion_words": ["motel", "hotel", "lodging", "rooms", "vacancy", "overnight"]
+}

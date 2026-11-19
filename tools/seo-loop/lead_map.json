@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "status": "unverified: nothing in this file has been checked against GA4 or the CRM yet",
+  "how_to_fill": "Run a read-only metadata pull (GA4 Data API metadata call for property 364125348, and a read-only list of distinct CRM lead source names with counts only). Replace an \"unverified\" value with a JSON list of the exact names seen. Do not type a name from memory.",
+  "ga4_channel": {
+    "value": "unverified",
+    "note": "The exact session channel group value that means unpaid search. The plan says Organic Search; the pull must confirm the name the property uses."
+  },
+  "site_split": {
+    "value": "unverified",
+    "note": "Whether property 364125348 separates the three sites cleanly by hostname. Set to \"verified\" only after the pull shows it does. The exported CSV carries one site label per row: group, toyota or chevy."
+  },
+  "parts": {
+    "form_leads": {
+      "ga4_events": "unverified",
+      "note": "The pull must list the GA4 key events that fire when a lead form is submitted, one list per site if they differ."
+    },
+    "phone_taps": {
+      "ga4_events": "unverified",
+      "note": "The pull must list the GA4 events that fire on a click-to-call tap."
+    },
+    "service_bookings": {
+      "ga4_events": "unverified",
+      "note": "The pull must list the events that fire when the shared Xtime scheduler is started, and confirm the launching page is recorded so each booking is credited to the right site."
+    }
+  },
+  "crm_check": {
+    "crm_sources": "unverified",
+    "note": "The agreed list of CRM source names that mean website organic. A local read-only script must list the distinct source names (counts only) so Spencer can agree the list."
+  },
+  "engagement_actions": {
+    "ga4_events": "unverified",
+    "note": "The GA4 events behind the executive report's engagement figure (4,899 for October). Shown apart from leads and never added to them. The pull must confirm which events make up that figure."
+  }
+}

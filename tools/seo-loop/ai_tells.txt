@@ -1,0 +1,42 @@
+# Stock AI-writing phrases. One per line. Matching ignores case; a trailing word ending is allowed.
+# These produce warnings only, never failures.
+delve
+tapestry
+in today's fast-paced world
+in the ever-evolving
+ever-evolving
+navigate the landscape
+game-changer
+game changer
+unlock the
+elevate your
+seamless
+robust
+it's important to note
+it is important to note
+not just
+look no further
+whether you're
+whether you are
+embark on a journey
+testament to
+in the realm of
+leverage
+cutting-edge
+state-of-the-art
+at the end of the day
+i hope this helps
+let me know if
+in conclusion
+furthermore
+moreover
+dive into
+plethora
+myriad
+comprehensive guide
+one-stop shop
+take it to the next level
+beacon of
+rich tapestry
+stands out as
+when it comes to

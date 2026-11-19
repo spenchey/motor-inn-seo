@@ -1,0 +1,15 @@
+{
+  "note": "One-time backlog map: keyword phrases in old report text fold onto check IDs. Check IDs must exist in checks.json. Each rule gives the site and target the old finding was about.",
+  "rules": [
+    {"check_id": "title-leads-other-city", "site": "chevy", "target": "/", "phrases": ["leads with lake city", "title leads with another city", "title starts with a neighbouring town"]},
+    {"check_id": "title-leads-other-city", "site": "toyota", "target": "/service-center", "phrases": ["service center title leads with another city"]},
+    {"check_id": "faq-schema-missing", "site": "group", "target": "/service", "phrases": ["no faq schema", "missing faq markup", "no faq markup", "faqpage is absent"]},
+    {"check_id": "meta-noindex", "site": "toyota", "target": "/new-inventory", "phrases": ["new inventory page is noindex", "noindex on new inventory"]},
+    {"check_id": "schema-phone-mismatch", "site": "toyota", "target": "/contact-us", "phrases": ["schema telephone does not match", "wrong phone in schema"]},
+    {"check_id": "sitemap-missing", "site": "chevy", "target": "/sitemap.xml", "phrases": ["sitemap not found", "no sitemap"]},
+    {"check_id": "llms-txt-missing", "site": "group", "target": "/llms.txt", "phrases": ["llms.txt guide file is missing", "no llms.txt"]},
+    {"check_id": "canonical-wrong", "site": "chevy", "target": "/inventory/used", "phrases": ["used inventory canonical points to the filtered"]},
+    {"check_id": "gbp-listing-phone-differs", "site": "gbp-chevy", "target": "listing-carroll-chevrolet", "phrases": ["listing phone differs", "different phone from the combined listing"]},
+    {"check_id": "zero-priced-inventory", "site": "mirror", "target": "unit-0001", "phrases": ["zero price", "zero-priced unit"]}
+  ]
+}

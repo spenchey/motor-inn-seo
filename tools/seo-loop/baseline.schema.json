@@ -1,0 +1,24 @@
+{
+  "not_verified": "not verified",
+  "metric_fields": ["value", "window", "source", "pulled_at"],
+  "sites": ["group", "toyota", "chevy"],
+  "listings": ["gbp-toyota", "gbp-chevy", "gbp-group"],
+  "site_metrics": [
+    "gsc_clicks_28d",
+    "gsc_impressions_28d",
+    "gsc_ctr_28d",
+    "gsc_position_28d",
+    "ga4_organic_sessions_28d",
+    "organic_leads"
+  ],
+  "listing_metrics": ["review_count", "newest_review_date", "rating", "actions_28d"],
+  "top_level_metrics": ["organic_leads_total", "ai_answers"],
+  "input_files": {
+    "gsc.json": ["gsc_clicks_28d", "gsc_impressions_28d", "gsc_ctr_28d", "gsc_position_28d"],
+    "ga4.json": ["ga4_organic_sessions_28d"],
+    "gbp.json": ["review_count", "newest_review_date", "rating", "actions_28d"],
+    "leads.json": ["organic_leads", "organic_leads_total"],
+    "ai_answers.json": ["ai_answers"]
+  },
+  "input_layout": "Each input file is a JSON object keyed by entity: a site name, a listing name, or \"all\" for top-level metrics. Each entity maps metric names to metric objects {value, window, source, pulled_at}."
+}

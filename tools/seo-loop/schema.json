@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "description": "One row of register.jsonl (one SEO finding). register.py loads every allowed value, the field order and the required lists from this file, so the two cannot disagree.",
+  "field_order": [
+    "id", "fingerprint", "site", "brand", "tier", "title", "observed", "expected",
+    "first_seen", "last_seen", "seen_count", "age_days", "owner", "fix_type", "status",
+    "next_action", "next_action_owner", "next_action_due", "approval", "sent", "verify",
+    "verified", "sources", "check_id", "surface", "target", "regressions", "failed_fix_attempts", "waiting_since", "overdue_since"
+  ],
+  "fields": {
+    "id": {"type": "string", "pattern": "^F-<site>-<check_id>-<6 hex of fingerprint>$", "note": "Derived. Never typed by hand."},
+    "fingerprint": {"type": "string", "note": "sha1 hex of 'site|surface|check_id|normalised target'."},
+    "site": {"type": "string", "enum": "site"},
+    "brand": {"type": "string", "enum": "brand"},
+    "tier": {"type": "integer", "enum": "tier", "note": "1 blocks crawling or showing of a money page; 2 indexed but cannot rank or convert; 3 slow-burn; 4 cosmetic."},
+    "title": {"type": "string", "note": "Plain English. A reworded title never creates a second row."},
+    "observed": {"type": "string", "note": "Exact current value. Updated on re-sighting."},
+    "expected": {"type": "string", "note": "Exact wanted value."},
+    "first_seen": {"type": "string", "format": "YYYY-MM-DD", "note": "Never changes."},
+    "last_seen": {"type": "string", "format": "YYYY-MM-DD"},
+    "seen_count": {"type": "integer", "minimum": 1},
+    "age_days": {"type": "integer", "minimum": 0, "note": "today minus first_seen, recomputed on every write and on render; never reset by a re-sighting."},
+    "owner": {"type": "string", "note": "One agent name from section 2 of the gap plan."},
+    "fix_type": {"type": "string", "enum": "fix_type"},
+    "status": {"type": "string", "enum": "status"},
+    "next_action": {"type": "string", "note": "Required unless status is an end state."},
+    "next_action_owner": {"type": "string", "note": "Required unless status is an end state."},
+    "next_action_due": {"type": "string", "format": "YYYY-MM-DD", "note": "Required unless status is an end state."},
+    "approval": {
+      "type": "object|null",
+      "keys": ["decision", "approved_hash", "by", "where", "when", "quote", "quote_source", "recorded_by"],
+      "note": "Written only by 'register.py approve', once per action. approved_hash is the sha256 of title|target|expected at approval time; sent is refused if it no longer matches. A fix approval is recorded only while the row is waiting_spencer, with a time that is not in the future and not before waiting_since. where must be exactly chat or slack_dm. decision is fix or wont_fix: sent needs fix, wont_fix needs wont_fix, and one never authorizes the other. by must be Spencer; recorded_by must be coordinator; quote_source must be own_message; Cleared (null) on every move into reopened and on every move out of sent or verify_pending except sent to verify_pending and verify_pending to verified_fixed; approve is refused on verified_fixed."
+    },
+    "sent": {"type": "object|null", "keys": ["at", "sent_at", "how"], "note": "When and how the request left. at is the date, sent_at the exact ISO-8601 moment. Required for verified_fixed; reads count only if dated on or after sent.at. Set on every move into sent."},
+    "verify": {"type": "object|null", "keys": ["type", "url", "assert"], "note": "Machine rule. type is one of verify_type."},
+    "verified": {
+      "type": "object|null",
+      "keys": ["at", "evidence_path", "passes"],
+      "note": "passes is a list of {at: ISO-8601 timestamp, passed: true, evidence_path, evidence_sha256, by?}; by is coordinator on reads recorded for a manual rule. verified_fixed needs two passing reads dated on or after sent.sent_at, each with an evidence path, at least 24 hours apart; on a manual rule every read must come from record-manual-check. Cleared on every move into sent, and on a move from sent or verify_pending into reopened or blocked. record-read works only in sent or verify_pending."
+    },
+    "sources": {"type": "array<string>", "note": "Report paths that sighted the finding."},
+    "check_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$"},
+    "surface": {"type": "string", "note": "Where it was seen, for example web, gbp, feed, ai-answer."},
+    "target": {"type": "string", "note": "Normalised target (URL: lower-cased path, no query, no fragment, no trailing slash; or a listing ID)."},
+    "regressions": {"type": "integer", "minimum": 0},
+    "failed_fix_attempts": {"type": "integer", "minimum": 0},
+    "waiting_since": {"type": "string|null", "format": "ISO-8601", "note": "Set on each move into waiting_spencer (and when set-expected changes the wording of a waiting row). A fix approval may not be dated earlier than this."},
+    "overdue_since": {"type": "string|null", "format": "ISO-8601", "note": "Set by flag_overdue on a sent or verify_pending row with no conclusive result 14 days after sent.sent_at. Status and approval are kept; the row appears in asks. Cleared on any move except sent to verify_pending."}
+  },
+  "required": [
+    "id", "fingerprint", "site", "brand", "tier", "title", "observed", "expected",
+    "first_seen", "last_seen", "seen_count", "age_days", "owner", "fix_type", "status",
+    "sources", "check_id", "surface", "target", "regressions", "failed_fix_attempts"
+  ],
+  "nullable": ["approval", "sent", "verify", "verified", "waiting_since", "overdue_since"],
+  "required_unless_end_state": ["next_action", "next_action_owner", "next_action_due"],
+  "end_states": ["verified_fixed", "wont_fix"],
+  "enums": {
+    "site": ["group", "toyota", "chevy", "gbp-toyota", "gbp-chevy", "gbp-group", "mirror", "all"],
+    "brand": ["toyota", "chevrolet", "both"],
+    "tier": [1, 2, 3, 4],
+    "fix_type": ["dealeron_request", "gbp_edit", "content_draft", "spencer_decision", "internal_repair"],
+    "status": ["new", "triaged", "packet_ready", "waiting_spencer", "sent", "verify_pending", "verified_fixed", "reopened", "wont_fix", "blocked"],
+    "verify_type": ["meta_robots", "title_contains", "title_not_contains", "html_contains", "html_not_contains", "jsonld_equals", "http_status", "gbp_field_equals", "title_leads_with", "manual"],
+    "approval_decision": ["fix", "wont_fix"]
+  },
+  "approval_rules": {
+    "approver": "Spencer",
+    "recorded_by": "coordinator",
+    "quote_source": "own_message",
+    "allowed_where": ["chat", "slack_dm"]
+  },
+  "verification_rules": {
+    "passes_required": 2,
+    "min_hours_apart": 24,
+    "overdue_days": 14,
+    "evidence_dir": "evidence",
+    "note": "Each pass stores evidence_path (relative, under the register's evidence/ folder) and evidence_sha256. validate fails a pass whose file is missing or whose hash differs."
+  },
+  "fail_twice_limit": 2
+}

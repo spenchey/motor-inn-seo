@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-18",
+  "source": "review/01_CURRENT_STATE.md section 7 (read 2026-11-18); review/03a_AMENDMENTS.md corrected fact 4",
+  "brand_facts_ref": "BRAND-FACTS.json (the facts file the plan names; not part of this package)",
+  "approved_main_phone": "712-792-5000",
+  "notes": [
+    "Title rules and schema names are NOT approved rulings. The audit records what the sites show today; each rule is marked needs_confirmation until Spencer approves it.",
+    "Every number in observed_phones is a question for Spencer, not a finding. None is called wrong here.",
+    "Key URLs use only addresses the audit names. A slot with no named address uses the home page and carries needs_confirmation true."
+  ],
+  "sites": {
+    "group": {
+      "base_url": "https://www.motorinnautogroup.com/",
+      "brand": "both",
+      "title_rule": {
+        "must_contain": "Carroll",
+        "must_not_lead_with": ["Lake City", "Audubon", "Arcadia", "Coon Rapids"],
+        "observed_home_title": "New & Used Toyota & Chevrolet Vehicles in Carroll, IA | Motor Inn Auto Group",
+        "basis": "built from the audit's title observations in section 7; not an approved rule",
+        "needs_confirmation": true
+      },
+      "schema_name": {
+        "expected": "Motor Inn Auto",
+        "basis": "the name the site shows on 2026-11-18; Spencer has not chosen one (audit 8.11 lists three different names)",
+        "needs_confirmation": true
+      },
+      "approved_main_phone": "712-792-5000",
+      "ai_mirror_llms_url": "https://ai.motorinnautogroup.com/llms.txt",
+      "key_urls": [
+        {"id": "home", "url": "https://www.motorinnautogroup.com/", "what": "home page", "needs_confirmation": false},
+        {"id": "robots", "url": "https://www.motorinnautogroup.com/robots.txt", "what": "site access rules", "needs_confirmation": false},
+        {"id": "llms", "url": "https://www.motorinnautogroup.com/llms.txt", "what": "guide file for AI assistants (200 on 11/18)", "needs_confirmation": false},
+        {"id": "sitemap", "url": "https://www.motorinnautogroup.com/", "what": "sitemap address (200, 271 URLs on 11/18; address not named in the audit)", "needs_confirmation": true}
+      ],
+      "tripwire": ["home", "robots", "llms"],
+      "observed_phones": [
+        {"number": "866-804-3714", "seen_on": ["page text"], "flagged_by_first_screen_dry_run": true, "review_state": "pending-spencer"},
+        {"number": "877-775-6741", "seen_on": ["page text"], "flagged_by_first_screen_dry_run": false, "review_state": "pending-spencer"}
+      ]
+    },
+    "toyota": {
+      "base_url": "https://www.motorinntoyotaofcarroll.com/",
+      "brand": "toyota",
+      "title_rule": {
+        "must_contain": "Carroll",
+        "must_not_lead_with": ["Lake City", "Audubon", "Arcadia", "Coon Rapids"],
+        "observed_home_title": "Toyota Dealership in Carroll IA | Serving Carroll and Glidden | ...",
+        "basis": "built from the audit's title observations in section 7; not an approved rule",
+        "needs_confirmation": true
+      },
+      "schema_name": {
+        "expected": "Motor Inn Toyota Of Carroll",
+        "basis": "the name the site shows on 2026-11-18; Spencer has not chosen one (audit 8.11 lists three different names)",
+        "needs_confirmation": true
+      },
+      "approved_main_phone": "712-792-5000",
+      "ai_mirror_llms_url": "https://ai.motorinntoyotaofcarroll.com/llms.txt",
+      "key_urls": [
+        {"id": "home", "url": "https://www.motorinntoyotaofcarroll.com/", "what": "home page (noindex fixed)", "needs_confirmation": false},
+        {"id": "searchnew", "url": "https://www.motorinntoyotaofcarroll.com/searchnew.aspx", "what": "new inventory page (noindex fixed)", "needs_confirmation": false},
+        {"id": "service", "url": "https://www.motorinntoyotaofcarroll.com/service.aspx", "what": "serves a placeholder page today; the real service page address is UNVERIFIED", "needs_confirmation": true},
+        {"id": "robots", "url": "https://www.motorinntoyotaofcarroll.com/robots.txt", "what": "site access rules (sampled only)", "needs_confirmation": false},
+        {"id": "llms", "url": "https://www.motorinntoyotaofcarroll.com/llms.txt", "what": "guide file for AI assistants (200, 20 KB on 11/18)", "needs_confirmation": false},
+        {"id": "sitemap", "url": "https://www.motorinntoyotaofcarroll.com/", "what": "sitemap address (listed in the access rules; address not named in the audit)", "needs_confirmation": true}
+      ],
+      "tripwire": ["home", "searchnew", "service"],
+      "observed_phones": [
+        {"number": "712-513-1061", "seen_on": ["page text", "schema"], "flagged_by_first_screen_dry_run": true, "review_state": "pending-spencer"},
+        {"number": "712-513-1068", "seen_on": ["page text", "schema"], "flagged_by_first_screen_dry_run": true, "review_state": "pending-spencer"},
+        {"number": "712-513-1035", "seen_on": ["page text", "schema"], "flagged_by_first_screen_dry_run": true, "review_state": "pending-spencer"},
+        {"number": "712-513-1075", "seen_on": ["page text"], "flagged_by_first_screen_dry_run": true, "review_state": "pending-spencer"}
+      ]
+    },
+    "chevy": {
+      "base_url": "https://www.motorinnofcarroll.com/",
+      "brand": "chevrolet",
+      "title_rule": {
+        "must_contain": "Carroll",
+        "must_not_lead_with": ["Lake City", "Audubon", "Arcadia", "Coon Rapids"],
+        "observed_home_title": "Lake City Chevrolet Dealer in Carroll IA | Audubon Arcadia Coon Rapids Chevrolet Dealership Iowa",
+        "basis": "built from the audit's title observations in section 7; not an approved rule",
+        "needs_confirmation": true
+      },
+      "schema_name": {
+        "expected": "Motor Inn of Carroll",
+        "basis": "the name the site shows on 2026-11-18; Spencer has not chosen one (audit 8.11 lists three different names)",
+        "needs_confirmation": true
+      },
+      "approved_main_phone": "712-792-5000",
+      "ai_mirror_llms_url": "https://ai.motorinnofcarroll.com/llms.txt",
+      "key_urls": [
+        {"id": "home", "url": "https://www.motorinnofcarroll.com/", "what": "home page", "needs_confirmation": false},
+        {"id": "robots", "url": "https://www.motorinnofcarroll.com/robots.txt", "what": "site access rules (sampled only)", "needs_confirmation": false},
+        {"id": "llms", "url": "https://www.motorinnofcarroll.com/llms.txt", "what": "guide file for AI assistants (not fetched in the audit)", "needs_confirmation": true},
+        {"id": "sitemap", "url": "https://www.motorinnofcarroll.com/", "what": "sitemap address (not fetched in the audit; address not named)", "needs_confirmation": true}
+      ],
+      "tripwire": ["home", "robots", "llms"],
+      "observed_phones": [
+        {"number": "877-775-6741", "seen_on": ["page text", "schema"], "flagged_by_first_screen_dry_run": false, "review_state": "pending-spencer"},
+        {"number": "877-733-5984", "seen_on": ["page text", "schema"], "flagged_by_first_screen_dry_run": false, "review_state": "pending-spencer"}
+      ]
+    }
+  },
+  "listings": {
+    "combined": {"label": "Combined Google listing", "phone": "712-792-5000", "matches_approved_main": true, "read": "GBP skill records, API-verified 2026-10-15"},
+    "chevrolet": {"label": "Carroll Chevrolet Google listing", "observed_phones": [{"number": "712-882-7802", "seen_on": ["gbp listing"], "review_state": "pending-spencer"}], "read": "GBP skill records, API-verified 2026-10-15"},
+    "spirit-lake": {"label": "Spirit Lake Google listing", "observed_phones": [{"number": "712-336-2701", "seen_on": ["gbp listing"], "review_state": "pending-spencer"}], "read": "GBP skill records, API-verified 2026-10-15"}
+  }
+}

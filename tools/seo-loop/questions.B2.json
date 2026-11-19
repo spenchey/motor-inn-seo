@@ -1,0 +1,255 @@
+{
+ "baseline_id": "B2",
+ "status": "proposed, needs Spencer's OK",
+ "built_on": "B1 (15 questions word for word)",
+ "entity_probe": {
+  "id": "E0",
+  "group": "Entity probe",
+  "brand": "group",
+  "department": "all",
+  "text": "What is Motor Inn in Carroll, Iowa?",
+  "b1": true
+ },
+ "questions": [
+  {
+   "id": "Q1",
+   "group": "Toyota sales",
+   "brand": "toyota",
+   "department": "sales",
+   "text": "What is the best Toyota dealership near Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q16",
+   "group": "Toyota sales",
+   "brand": "toyota",
+   "department": "sales",
+   "text": "Does anyone near Carroll, Iowa have a new Toyota Tacoma in stock?",
+   "b1": false
+  },
+  {
+   "id": "Q17",
+   "group": "Toyota sales",
+   "brand": "toyota",
+   "department": "sales",
+   "text": "Where can I find a new Toyota RAV4 near Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q18",
+   "group": "Toyota sales",
+   "brand": "toyota",
+   "department": "sales",
+   "text": "Where can I lease a Toyota near Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q6",
+   "group": "Toyota service",
+   "brand": "toyota",
+   "department": "service",
+   "text": "Where can I get my Toyota serviced in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q19",
+   "group": "Toyota service",
+   "brand": "toyota",
+   "department": "service",
+   "text": "Where can I get Toyota recall work done near Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q20",
+   "group": "Toyota service",
+   "brand": "toyota",
+   "department": "service",
+   "text": "How do I book a Toyota oil change in Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q2",
+   "group": "Chevrolet sales",
+   "brand": "chevy",
+   "department": "sales",
+   "text": "Where can I buy a new Chevrolet truck near Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q21",
+   "group": "Chevrolet sales",
+   "brand": "chevy",
+   "department": "sales",
+   "text": "Who is the best place to buy a Chevrolet Silverado near Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q22",
+   "group": "Chevrolet sales",
+   "brand": "chevy",
+   "department": "sales",
+   "text": "Is there a Chevrolet dealer in Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q23",
+   "group": "Chevrolet sales",
+   "brand": "chevy",
+   "department": "sales",
+   "text": "Where can I buy a new Chevrolet Equinox or Traverse near Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q24",
+   "group": "Chevrolet service",
+   "brand": "chevy",
+   "department": "service",
+   "text": "Where can I get my Chevy truck serviced in Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q25",
+   "group": "Chevrolet service",
+   "brand": "chevy",
+   "department": "service",
+   "text": "Where can I get GM warranty work done near Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q26",
+   "group": "Chevrolet service",
+   "brand": "chevy",
+   "department": "service",
+   "text": "Who services diesel trucks in Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q3",
+   "group": "Used and trade-in",
+   "brand": "group",
+   "department": "sales",
+   "text": "Where can I buy a used pickup truck in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q4",
+   "group": "Used and trade-in",
+   "brand": "group",
+   "department": "sales",
+   "text": "Where can I trade in my car in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q27",
+   "group": "Used and trade-in",
+   "brand": "group",
+   "department": "sales",
+   "text": "Where can I find a used SUV under $20,000 in Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q5",
+   "group": "Service, any make",
+   "brand": "group",
+   "department": "service",
+   "text": "My check engine light just came on. Who can look at my car in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q7",
+   "group": "Service, any make",
+   "brand": "group",
+   "department": "service",
+   "text": "How much does an oil change cost in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q8",
+   "group": "Service, any make",
+   "brand": "group",
+   "department": "service",
+   "text": "Who can put on new tires and do an alignment in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q9",
+   "group": "Parts",
+   "brand": "group",
+   "department": "parts",
+   "text": "Where can I buy auto parts in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q10",
+   "group": "Parts",
+   "brand": "group",
+   "department": "parts",
+   "text": "Where can I get genuine Toyota or Chevrolet parts in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q11",
+   "group": "Body shop",
+   "brand": "group",
+   "department": "body shop",
+   "text": "Where is the best auto body shop in Carroll, Iowa?",
+   "b1": true
+  },
+  {
+   "id": "Q12",
+   "group": "Body shop",
+   "brand": "group",
+   "department": "body shop",
+   "text": "I was rear-ended. Who does collision repair in Carroll, Iowa, and about what does it cost?",
+   "b1": true
+  },
+  {
+   "id": "Q28",
+   "group": "Store facts",
+   "brand": "group",
+   "department": "all",
+   "text": "Is Motor Inn in Carroll, Iowa open on Saturday?",
+   "b1": false
+  },
+  {
+   "id": "Q29",
+   "group": "Store facts",
+   "brand": "group",
+   "department": "all",
+   "text": "What is the phone number for Motor Inn in Carroll, Iowa?",
+   "b1": false
+  },
+  {
+   "id": "Q30",
+   "group": "Store facts",
+   "brand": "group",
+   "department": "all",
+   "text": "What brands does Motor Inn in Carroll, Iowa sell?",
+   "b1": false
+  },
+  {
+   "id": "Q13",
+   "group": "Brand and comparison",
+   "brand": "group",
+   "department": "all",
+   "text": "How do the car dealerships in Carroll, Iowa compare?",
+   "b1": true
+  },
+  {
+   "id": "Q14",
+   "group": "Brand and comparison",
+   "brand": "group",
+   "department": "sales",
+   "text": "Is Motor Inn in Carroll, Iowa a good place to buy a car?",
+   "b1": true
+  },
+  {
+   "id": "Q15",
+   "group": "Brand and comparison",
+   "brand": "group",
+   "department": "service",
+   "text": "Is the Motor Inn service department in Carroll, Iowa any good?",
+   "b1": true
+  }
+ ]
+}
