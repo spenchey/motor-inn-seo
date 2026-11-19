@@ -11,6 +11,7 @@ Note: the Nov 10–27 block lives in `posts-week-of-2026-10-29.md` and is alread
 ### Post 1: The Second Cold Snap Is The One That Strands People
 **Type:** update
 **Publish date:** 2026-12-01
+**Approval:** approved — Spencer, 2026-11-18 14:28 CT
 **Target keyword:** car battery replacement Carroll IA
 
 **Copy:**
@@ -26,10 +27,11 @@ The first cold morning gets the attention; the second one gets the cars. Batteri
 ### Post 2: The Gift On The Lift Beats The Gift In The Box
 **Type:** update
 **Publish date:** 2026-12-08
+**Approval:** approved — Spencer, 2026-11-18 14:49 CT
 **Target keyword:** vehicle service gift Carroll Iowa
 
 **Copy:**
-December asks a question about every errand: is it done yet? The one that cannot wait for the wrapping is the car. An inspection-and-fix visit this week means the holiday driving happens in a vehicle that has already been looked at — belts, coolant, tires and the heater all confirmed on paper. Then the season is about the people in the seats, not the gauge cluster. Beat the rush: the bays fill the week before Christmas, and the cars that come in early are the ones that leave early.
+December asks a question about every errand: is it done yet? The one that cannot wait for the wrapping is the car. An inspection-and-fix visit this week means the holiday driving happens in a vehicle that has already been looked at — belts, coolant, tires and the heater all confirmed on paper. Then the season is about the people in the seats, not the gauge cluster. Book before the holiday travel starts, and the car is ready before the trip is.
 
 **CTA button:** Book Appointment
 **CTA link:** https://www.motorinnautogroup.com/service
@@ -41,25 +43,27 @@ December asks a question about every errand: is it done yet? The one that cannot
 ### Post 3: The Trade Number Does Not Care What Month The Tax Year Thinks It Is
 **Type:** update
 **Publish date:** 2026-12-15
+**Approval:** pending
 **Target keyword:** trade in before year end Iowa
 
 **Copy:**
-Year-end has a way of turning maybe into math. If the vehicle has been the family's open question, the trade appraisal is free, in writing, and good whether the next vehicle comes from us or not — some years the honest answer is keep it, and we say so. But December is when the value of a clean, known trade is at its peak against the new arrivals filling the row. Thirty minutes, a number on paper, and the decision made with facts instead of guesses. The new year starts simpler either way.
+Year-end has a way of turning maybe into math. If the vehicle has been the family's open question, start with a trade appraisal. Some years the honest answer is keep it, and we say so. Thirty minutes, a real number, and the decision made with facts instead of guesses. The new year starts simpler either way.
 
 **CTA button:** Learn More
-**CTA link:** https://www.motorinnautogroup.com/trade-in
+**CTA link:** https://www.motorinnautogroup.com/trade.aspx
 
 **Image:** Appraiser noting readings on a tablet beside a trade-in pickup, December lot and year-end banners behind.
 
 ---
 
-### Post 4: Winter Tires Are Not A Upgrade. They Are A Different Friction.
+### Post 4: Winter Tires Are Not An Upgrade. They Are A Different Friction.
 **Type:** update
 **Publish date:** 2026-12-20
+**Approval:** approved — Spencer, 2026-11-18 14:49 CT
 **Target keyword:** winter tires Carroll Iowa
 
 **Copy:**
-The question is not whether all-seasons work — it is what they stop doing under seven inches of snow. The squint test: pull to any stoplight and look at the last two inches of tread. Bars under 4/32 lose their bite on packed snow, and Iowa gives packed snow for months, not days. Our desk will measure all four corners, show the reading against the wear chart, and quote a mounted-and-balanced set on the spot when it is time. No upsell on tires with life left; the number speaks for itself.
+The question is not whether all-seasons work — it is what they stop doing under seven inches of snow. The squint test: pull to any stoplight and look at the last two inches of tread. Tread under 4/32 loses its bite on packed snow, and Iowa gives packed snow for months, not days. Our desk will measure all four corners, show the reading against the wear chart, and quote a mounted-and-balanced set on the spot when it is time. No upsell on tires with life left; the number speaks for itself.
 
 **CTA button:** Call Now
 **CTA link:** tel:7127925000
@@ -71,10 +75,11 @@ The question is not whether all-seasons work — it is what they stop doing unde
 ### Post 5: The Week Between Christmas And New Years Is Quiet On Purpose
 **Type:** update
 **Publish date:** 2026-12-28
+**Approval:** approved — Spencer, 2026-11-18 15:17 CT
 **Target keyword:** used cars Carroll Iowa year end
 
 **Copy:**
-The lots are empty, the coffee is on, and the year-end paperwork is the easiest it will be all year. Every vehicle on the used row went through our shop before listing, priced with the doc fee stated up front — the same straight answer in the quiet week as the busy one. If the driveway has lacked a second vehicle all winter, an hour this week closes the question before January. Bring the license, bring the questions; nobody here works on pressure.
+The showroom is quiet, the coffee is on, and the year-end paperwork is the easiest it will be all year. Every vehicle on the used row went through our shop before listing, priced with the doc fee stated up front — the same straight answer in the quiet week as the busy one. If the driveway has lacked a second vehicle all winter, an hour this week closes the question before January. Bring the license, bring the questions; nobody here works on pressure.
 
 **CTA button:** Browse Inventory
 **CTA link:** https://www.motorinnautogroup.com/used-inventory
@@ -86,6 +91,7 @@ The lots are empty, the coffee is on, and the year-end paperwork is the easiest 
 ### Post 6: Stocked Shelves, Waiting Wipers
 **Type:** update
 **Publish date:** 2026-12-22
+**Approval:** approved — Spencer, 2026-11-18 14:28 CT
 **Target keyword:** parts counter Carroll Iowa
 
 **Copy:**
