@@ -271,13 +271,33 @@ def same_page(a: str, b: str) -> bool:
     return ha is not None and ha == hb
 
 
+# A soft 404: the server says 200 but the page is a not-found page. Matches
+# "page/file not found", "404 not found", "error 404", "404 error" in the title.
+# A bare "404" is NOT matched, so a model number such as "Model 404" is safe.
+_NOT_FOUND_RE = re.compile(
+    r"\b(page|file)\s+not\s+found\b|\b404\s+not\s+found\b|\berror\s+404\b|\b404\s+error\b",
+    re.IGNORECASE)
+
+
+def _canonical_is_404(href: str) -> bool:
+    try:
+        path = urllib.parse.urlsplit(href).path
+    except ValueError:
+        return False
+    return path.lower().rstrip("/").endswith("/404.aspx")
+
+
 def identity_problem(rule: dict, page, final_url: str) -> str:
     """Why this page does not prove it is the rule's page, or "" when it does:
     its canonical URL equals the rule URL (every canonical tag, at least one),
-    or a title_leads_with literal leads its title."""
+    or a title_leads_with literal leads its title. A page that calls itself a
+    not-found page (title, or a /404.aspx canonical) never proves identity,
+    even at HTTP 200 with a canonical pointing at itself."""
     ref = rule.get("url") or ""
     if page is None:
         return "page could not be read"
+    if _NOT_FOUND_RE.search(page.title or "") or any(_canonical_is_404(c) for c in page.canonicals):
+        return "the page looks like a not-found page"
     if page.canonicals and all(same_page(urllib.parse.urljoin(final_url or ref, c), ref)
                                for c in page.canonicals):
         return ""
