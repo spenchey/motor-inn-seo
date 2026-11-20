@@ -230,14 +230,178 @@ def read_ledger(path, month, allow_missing_or_empty=False):
     return total, ai
 
 
-def spent_this_month(ledger_path, usage_path, month):
-    """Ledger spend plus our own fixed usage file, for `month`."""
-    t, a = read_ledger(ledger_path, month)
+# ---- account spend as Mac mini 2 really records it (formats copied, not invented) ----
+# Two folders written by the DealerVault runtime on Mac mini 2, both named for a UTC day:
+#   dataforseo-provider-usage/YYYY-MM-DD.json   one receipt a day, from the free account-usage call
+#   dataforseo-costs/YYYY-MM-DD.jsonl           one line per governed paid call
+# `--ledger` is a folder that holds a copy of both. This script never writes there.
+PROVIDER_USAGE_CONTRACT = "motorinn-dataforseo-provider-usage.v1"
+PROVIDER_USAGE_SOURCE = "dataforseo_account_usage"
+RECEIPT_DIR = "dataforseo-provider-usage"
+GOVERNED_DIR = "dataforseo-costs"
+
+
+def _money(v):
+    """A plain finite number of zero or more (not text, not true/false), else None."""
+    if isinstance(v, bool) or not isinstance(v, (int, float)):
+        return None
+    v = float(v)
+    if not math.isfinite(v) or v < 0:
+        return None
+    return v
+
+
+def _opt_money(obj, key, what):
+    """A field the owner's code reads with a default of 0: absent is 0, present must be a plain number."""
+    if key not in obj:
+        return 0.0
+    v = _money(obj[key])
+    if v is None:
+        raise GuardError("%s has an unreadable '%s'; refusing to spend" % (what, key))
+    return v
+
+
+def _day_files(folder, suffix, what):
+    """{date: path} for the day-named files in `folder`. Refuses a missing, unreadable or empty folder."""
+    try:
+        names = sorted(os.listdir(folder))
+    except OSError:
+        raise GuardError("%s folder is missing or unreadable (%s); refusing to spend"
+                         % (what, os.path.basename(os.path.normpath(folder)) or folder))
+    found = {}
+    for n in names:
+        if n.startswith(".") or not n.endswith(suffix):
+            continue
+        stem = n[:-len(suffix)]
+        try:
+            day = datetime.date.fromisoformat(stem)
+        except ValueError:
+            day = None
+        if day is None or day.isoformat() != stem:
+            raise GuardError("%s file %s is not named for a date; refusing to spend" % (what, n))
+        path = os.path.join(folder, n)
+        if not os.path.isfile(path):
+            raise GuardError("%s %s is not a file; refusing to spend" % (what, n))
+        found[day] = path
+    if not found:
+        raise GuardError("%s folder has no files; refusing to spend" % what)
+    return found
+
+
+def _read_text(path, what):
+    try:
+        with open(path, "r", encoding="utf-8") as fh:
+            return fh.read()
+    except (OSError, UnicodeDecodeError) as exc:
+        raise GuardError("%s unreadable (%s); refusing to spend" % (what, exc.__class__.__name__))
+
+
+def read_receipt(path, day):
+    """Read one daily receipt. Returns (actual, floor, ledger_at_reconciliation, account_hash_or_None)."""
+    what = "receipt %s" % day.isoformat()
+    try:
+        obj = json.loads(_read_text(path, what))
+    except ValueError:
+        raise GuardError("%s is not valid JSON; refusing to spend" % what)
+    if not isinstance(obj, dict):
+        raise GuardError("%s is not an object; refusing to spend" % what)
+    if obj.get("contractVersion") != PROVIDER_USAGE_CONTRACT:
+        raise GuardError("%s has an unknown contractVersion; refusing to spend" % what)
+    if obj.get("source") != PROVIDER_USAGE_SOURCE:
+        raise GuardError("%s has an unknown source; refusing to spend" % what)
+    if obj.get("usageDate") != day.isoformat():
+        raise GuardError("%s usageDate does not match its file name; refusing to spend" % what)
+    actual = _money(obj.get("actualCostUsd"))
+    if actual is None:
+        raise GuardError("%s has an actualCostUsd that is not a plain number of zero or more; refusing to spend"
+                         % what)
+    floor = _opt_money(obj, "budgetFloorUsd", what)
+    at = _opt_money(obj, "ledgerSpentAtReconciliationUsd", what)
+    h = obj.get("accountIdHash")
+    if h is not None and (not isinstance(h, str) or len(h) != 64 or any(c not in "0123456789abcdef" for c in h)):
+        raise GuardError("%s has an unreadable accountIdHash; refusing to spend" % what)
+    return actual, floor, at, h
+
+
+def read_governed_day(path, day):
+    """Sum actualCostUsd over one governed-ledger day file. Any line that cannot be read refuses."""
+    what = "governed ledger %s" % day.isoformat()
+    total = 0.0
+    for n, ln in enumerate(_read_text(path, what).splitlines(), 1):
+        if not ln.strip():
+            continue
+        try:
+            obj = json.loads(ln)
+        except ValueError:
+            raise GuardError("%s line %d is not valid JSON; refusing to spend" % (what, n))
+        c = _money(obj.get("actualCostUsd")) if isinstance(obj, dict) else None
+        if c is None:
+            raise GuardError("%s line %d has no plain actualCostUsd of zero or more; refusing to spend" % (what, n))
+        total += c
+    return total
+
+
+def day_spend(ledger_total, receipt):
+    """One UTC day's account spend. The owner's own formula (dataforseo_costs.spent_today), unchanged.
+
+    The receipt is one snapshot taken once a day; governed calls recorded after it are added on top;
+    never less than the governed ledger itself. With no receipt only the governed ledger is known.
+    """
+    if receipt is None:
+        return ledger_total
+    actual, floor, at, _h = receipt
+    later_local = max(0.0, ledger_total - at)
+    baseline = max(actual, floor)
+    return max(ledger_total, baseline + later_local)
+
+
+def outside_spend(mirror_dir, today):
+    """Month-to-date account spend from the copied Mac mini 2 folders, summed over UTC days.
+
+    Refuses when either folder is missing, unreadable or empty, when any day from the 1st to the day
+    before `today` has no receipt (a missing day is never read as zero), or when any file of the month
+    cannot be fully understood. Files of other months are not read.
+    """
+    receipts = _day_files(os.path.join(mirror_dir, RECEIPT_DIR), ".json", "provider-usage receipt")
+    governed = _day_files(os.path.join(mirror_dir, GOVERNED_DIR), ".jsonl", "governed ledger")
+    month = today.strftime("%Y-%m")
+    first = today.replace(day=1)
+    missing = []
+    d = first
+    while d < today:
+        if d not in receipts:
+            missing.append(d.isoformat())
+        d += datetime.timedelta(days=1)
+    if missing:
+        raise GuardError("no provider-usage receipt for %d day(s) this month (%s); a missing day is not zero; "
+                         "refusing to spend" % (len(missing), ", ".join(missing[:6]) + (", ..." if len(missing) > 6 else "")))
+    total = 0.0
+    hashes = set()
+    for day in sorted(set(receipts) | set(governed)):
+        if day.strftime("%Y-%m") != month:
+            continue
+        rec = read_receipt(receipts[day], day) if day in receipts else None
+        if rec is not None and rec[3]:
+            hashes.add(rec[3])
+        led = read_governed_day(governed[day], day) if day in governed else 0.0
+        total += day_spend(led, rec)
+    if len(hashes) > 1:
+        raise GuardError("receipts this month name more than one account; refusing to spend")
+    return total
+
+
+def spent_this_month(mirror_dir, usage_path, today):
+    """(total, ai) month-to-date for the month of `today`.
+
+    Outside spend (every DataForSEO user on the account; receipts carry no purpose, so all of it also
+    counts toward the AI ceiling) plus our own fixed usage file. Our own calls can show up in both a later
+    receipt and the usage file: that counts them twice, which is safe and over-cautious.
+    """
+    outside = outside_spend(mirror_dir, today)
+    own_t = own_a = 0.0
     if usage_path:
-        t2, a2 = read_ledger(usage_path, month, allow_missing_or_empty=True)
-        t += t2
-        a += a2
-    return t, a
+        own_t, own_a = read_ledger(usage_path, today.strftime("%Y-%m"), allow_missing_or_empty=True)
+    return outside + own_t, outside + own_a
 
 
 def record_usage(usage_path, today, platform_name, qid, cost, note=None):
@@ -513,7 +677,9 @@ def run(args, out=None):
     is_us = load_is_us(args.is_us)
     questions = load_questions(args.questions)
     cfg = validate_config(load_json(args.config))
-    today = datetime.date.fromisoformat(args.today) if args.today else datetime.date.today()
+    # The account's days are UTC days (receipts and governed ledger files are named that way).
+    today = (datetime.date.fromisoformat(args.today) if args.today
+             else datetime.datetime.now(datetime.timezone.utc).date())
     month = today.strftime("%Y-%m")
     now = time.time()
     cache_dir = os.path.join(args.out, "cache")
@@ -529,7 +695,7 @@ def run(args, out=None):
     ledger_total = ledger_ai = None
     ledger_problem = None
     try:
-        ledger_total, ledger_ai = spent_this_month(args.ledger, usage_path, month)
+        ledger_total, ledger_ai = spent_this_month(args.ledger, usage_path, today)
     except GuardError as exc:
         ledger_problem = str(exc)
 
@@ -587,7 +753,7 @@ def run(args, out=None):
                 cost = float(p["est_cost_usd"])
                 try:
                     # Re-read everything each call: other runs and a crash leave their spend in the files.
-                    t_now, a_now = spent_this_month(args.ledger, usage_path, month)
+                    t_now, a_now = spent_this_month(args.ledger, usage_path, today)
                     check_spend(t_now, a_now, cost, cfg)
                 except GuardError as exc:
                     refused = True
@@ -638,12 +804,14 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description="Record whether AI search answers cite or mention Motor Inn.")
     ap.add_argument("--questions", required=True, help="questions JSON (questions.B2.json)")
     ap.add_argument("--config", required=True, help="config JSON: location, credential_env, platforms")
-    ap.add_argument("--ledger", required=True, help="DataForSEO usage ledger (read only; must be non-empty and fully readable)")
+    ap.add_argument("--ledger", required=True,
+                    help="folder holding a copy of Mac mini 2's dataforseo-provider-usage/ and dataforseo-costs/ "
+                         "(read only; a missing, empty or unreadable folder or a missing day refuses)")
     ap.add_argument("--out", required=True, help="output folder (results and cache)")
     ap.add_argument("--dry-run", action="store_true", help="print planned calls and cost; open no socket")
     ap.add_argument("--fixtures", help="folder of saved responses; no network call is made")
     ap.add_argument("--is-us", help="override is_us.json")
-    ap.add_argument("--today", help="YYYY-MM-DD (default: today)")
+    ap.add_argument("--today", help="YYYY-MM-DD (default: today, UTC)")
     args = ap.parse_args(argv)
     try:
         return run(args)
