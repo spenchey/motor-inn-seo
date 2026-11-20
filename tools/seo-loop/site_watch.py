@@ -498,9 +498,19 @@ def analyze_page(col: Collector, site: str, site_cfg: dict, url: str, final_url:
 
     # JSON-LD
     biz = [n for n in page["nodes"] if any(t.lower() in BUSINESS_TYPES for t in _types(n))]
+    # Department entries ("Sales", "Service", "Parts") are nested under a business node's
+    # "department" key. They are not the business name, so the name check skips them.
+    # The phone check below still reads every business node, departments included.
+    dept_ids = set()
+    for n in page["nodes"]:
+        d = n.get("department")
+        for x in (d if isinstance(d, list) else [d]):
+            if isinstance(x, dict):
+                dept_ids.add(id(x))
+    named_biz = [n for n in biz if id(n) not in dept_ids]
     exp_name = site_cfg.get("schema_name", {}).get("expected")
     if exp_name:
-        bad = sorted({str(n["name"]).strip() for n in biz
+        bad = sorted({str(n["name"]).strip() for n in named_biz
                       if isinstance(n.get("name"), str) and n["name"].strip().casefold() != exp_name.casefold()})
         if bad:
             col.add("schema-name-mismatch", site, url,
