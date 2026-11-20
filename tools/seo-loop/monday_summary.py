@@ -25,6 +25,10 @@ WINDOW_DAYS = 7
 
 GSC = "Google Search Console"
 GA = "Google Analytics"
+LEADS = "our own lead count"
+GBP = "Google Business reviews and activity"
+AI = "AI answers"
+LISTINGS = ("gbp-toyota", "gbp-chevy", "gbp-group")
 
 SITE_NAMES = {
     "group": "the Motor Inn group site",
@@ -130,6 +134,49 @@ def _leads_number(block):
     if isinstance(value, bool) or not isinstance(value, (int, float)):
         return None
     return value
+
+
+def _metric_ok(metric) -> bool:
+    """True when a metric object carries a real value (not missing, not 'not verified')."""
+    if not isinstance(metric, dict):
+        return False
+    value = metric.get("value")
+    if value is None or isinstance(value, bool):
+        return False
+    if isinstance(value, str) and value.strip().lower() in ("", NOT_VERIFIED):
+        return False
+    return True
+
+
+def _unverified_sources(block, gsc, leads) -> list:
+    """Plain names of every source with a metric that is missing or not verified."""
+    out = []
+    if any(v is None for v in gsc.values()):
+        out.append(GSC)
+    sites = block.get("sites") if isinstance(block, dict) else None
+    if isinstance(sites, dict):
+        ga_metrics = [m.get("ga4_organic_sessions_28d") for m in sites.values()
+                      if isinstance(m, dict) and "ga4_organic_sessions_28d" in m]
+        if any(not _metric_ok(m) for m in ga_metrics):
+            out.append(GA)
+    if leads is None:
+        out.append(LEADS)
+    listings = block.get("listings") if isinstance(block, dict) else None
+    if not isinstance(listings, dict):
+        listings = {}
+    gbp_bad = False
+    for name in LISTINGS:
+        entry = listings.get(name)
+        if not isinstance(entry, dict) or not entry:
+            gbp_bad = True
+            continue
+        if any(not _metric_ok(m) for m in entry.values()):
+            gbp_bad = True
+    if gbp_bad:
+        out.append(GBP)
+    if not (isinstance(block, dict) and _metric_ok(block.get("ai_answers"))):
+        out.append(AI)
+    return out
 
 
 def _fmt(value) -> str:
@@ -276,20 +323,26 @@ def build_message(rows, baselines, previous, today, week_start=None) -> str:
         verdict = "Nothing urgent; the team is working through open items."
     else:
         verdict = "All clear."
+    no_numbers = all(v is None for v in gsc.values()) and leads is None
+    if no_numbers and rows:
+        if tier1_open:
+            verdict += " The traffic and lead numbers are not available yet."
+        elif ask_rows:
+            verdict = "The traffic and lead numbers are not available yet, and a few things need your answer."
+        elif n_open:
+            verdict = "The traffic and lead numbers are not available yet; the team is working through open items."
+        else:
+            verdict = "The traffic and lead numbers are not available yet, so this cannot be called all clear."
     verdict += _trend(gsc["group"], prev_group)
 
-    not_verified = []
-    if any(v is None for v in gsc.values()):
-        not_verified.append(GSC)
-    if leads is None:
-        not_verified.append(GA)
+    not_verified = _unverified_sources(baselines, gsc, leads)
 
     def build(max_words: int) -> str:
         lines = ["Motor Inn search, week of %s. %s" % (_date_label(label_day), verdict)]
         lines.append(
             "Clicks over 28 days from %s: group %s, Toyota site %s, Chevrolet site %s. "
             "Organic leads from %s: %s."
-            % (GSC, _fmt(gsc["group"]), _fmt(gsc["toyota"]), _fmt(gsc["chevy"]), GA, _fmt(leads)))
+            % (GSC, _fmt(gsc["group"]), _fmt(gsc["toyota"]), _fmt(gsc["chevy"]), LEADS, _fmt(leads)))
         lines.append("Fixed and confirmed on the live site since last week: %d." % fixed_n)
         if n_open:
             lines.append("New this week: %d. Open now: %d. Oldest open problem: %d %s."
