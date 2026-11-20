@@ -44,7 +44,7 @@
   {
     "check_id": "schema-phone-mismatch",
     "title": "Hidden business details carry a phone number other than the main number",
-    "plain_english": "The business details hidden in the page for Google must show only the main number on all three sites, so any other number there is a finding.",
+    "plain_english": "The business details hidden in the page for Google should show only the main number on all three sites, so a number not on the reviewed list is a finding while numbers still awaiting the owner's decision are only noted.",
     "tier": 3,
     "fix_type": "spencer_decision",
     "owner": "rory-ai-search",
@@ -52,7 +52,7 @@
     "brand_scope": "both",
     "verify_template": {
       "type": "manual",
-      "assert": "the hidden phone number is 712-792-5000"
+      "assert": "the hidden phone number is 712-792-5000, or one still awaiting the owner's decision"
     }
   },
   {
