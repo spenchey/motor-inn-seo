@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-20",
   "source": "review/01_CURRENT_STATE.md section 7 (read 2026-11-18); review/03a_AMENDMENTS.md corrected fact 4",
   "brand_facts_ref": "BRAND-FACTS.json (the facts file the plan names; not part of this package)",
   "approved_main_phone": "712-792-5000",
   "notes": [
     "Title rules and schema names are NOT approved rulings. The audit records what the sites show today; each rule is marked needs_confirmation until Spencer approves it.",
-    "Every number in observed_phones is a question for Spencer, not a finding. None is called wrong here.",
+    "Every number in observed_phones marked pending-spencer is a question for Spencer, not a finding. None is called wrong here. A number marked closed-location belongs to a store that no longer exists, so it is a finding wherever it appears.",
     "Key URLs use only addresses the audit names. A slot with no named address uses the home page and carries needs_confirmation true."
   ],
   "sites": {
@@ -105,6 +105,6 @@
   "listings": {
     "combined": {"label": "Combined Google listing", "phone": "712-792-5000", "matches_approved_main": true, "read": "GBP skill records, API-verified 2026-10-15"},
     "chevrolet": {"label": "Carroll Chevrolet Google listing", "observed_phones": [{"number": "712-882-7802", "seen_on": ["gbp listing"], "review_state": "pending-spencer"}], "read": "GBP skill records, API-verified 2026-10-15"},
-    "spirit-lake": {"label": "Spirit Lake Google listing", "observed_phones": [{"number": "712-336-2701", "seen_on": ["gbp listing"], "review_state": "pending-spencer"}], "read": "GBP skill records, API-verified 2026-10-15"}
+    "spirit-lake": {"label": "Spirit Lake Google listing", "observed_phones": [{"number": "712-336-2701", "seen_on": ["gbp listing"], "review_state": "closed-location", "closed_by_owner": "2026-11-19", "google_closure_requested": "2026-11-20", "google_review": "pending"}], "read": "GBP skill records, API-verified 2026-10-15; store closed per owner 2026-11-19, Google permanently-closed request sent 2026-11-20"}
   }
 }
