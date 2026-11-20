@@ -11,20 +11,33 @@
  *   node scripts/publish-gbp-posts.mjs --list-pending [--file NAME]
  *   node scripts/publish-gbp-posts.mjs --approve 1,3 --approved-by "Spencer" [--file NAME]
  *
- * APPROVAL GATE (Spencer, 2026-11-17): nothing publishes without his OK. A
- * post publishes only if its block carries `**Approval:** approved ...`.
- * A missing or `pending` Approval field means NOT approved (fail-safe), so
- * every pre-existing draft stays unpublished until approved.
- *   --list-pending   Print the unapproved posts (Slack-ready); no Google calls.
- *   --approve N,M    Mark post number(s) N,M in the newest drafts file as
- *                    approved. Run ONLY after Spencer himself approved.
- *                    Requires --approved-by "<name>" (audit trail in the file).
+ * APPROVAL GATE (Spencer, 2026-11-17): nothing publishes without his OK.
+ * APPROVAL LOCK (Spencer, 2026-11-20): an approval covers the exact wording
+ * Spencer saw. A post publishes only if BOTH:
+ *   1. its header (above **Copy:**) carries `**Approval:** approved ...`, and
+ *   2. the approvals lock holds an entry for that drafts file + post number
+ *      whose fingerprint matches what would be sent now (title, publish date,
+ *      copy, CTA type and link). Any later edit, even one character, stops it.
+ * The lock lives OUTSIDE the repo (default
+ * ~/.config/motor-inn-seo/gbp-approvals.json, override GBP_APPROVALS_FILE),
+ * so agents editing or committing the drafts folder never touch it. A missing
+ * lock means nothing publishes. A malformed lock stops the run.
+ *   --list-pending   Print the posts that cannot publish and why; no Google calls.
+ *   --approve N,M    Mark post number(s) N,M approved and record their exact
+ *                    wording in the lock. Run ONLY after Spencer himself
+ *                    approved that wording in chat. Requires --approved-by.
+ *   --approved-at "YYYY-MM-DD HH:MM"  With --approve: the Central time the
+ *                    approval was given (default: now).
+ *   --check-approvals  Report approved posts whose lock is missing or no longer
+ *                    matches; exit 3 if any are still unpublished. No Google calls.
  *   --file NAME      With --list-pending or --approve: use this drafts file
  *                    (posts-week-of-YYYY-MM-DD.md) instead of the newest one.
  *
  * Publishing reads the newest drafts file plus every older drafts file that
- * holds at least one approved post, so an approved post still publishes after
- * a newer drafts file appears. Unapproved posts never publish from any file.
+ * has a lock entry or an approval line. Posts that match publish; a real run
+ * then exits 3 (loud) if any approved, unpublished post was held by the lock.
+ *
+ * Test overrides: GBP_DRAFTS_DIR, GBP_LEDGER_FILE, GBP_APPROVALS_FILE.
  *
  *   --dry-run   Parse the publishable drafts files and print the publish plan
  *               without calling Google. Exits 0 even without credentials.
@@ -67,8 +80,11 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const REPO_ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
-const DRAFTS_DIR = path.join(REPO_ROOT, 'content', 'drafts', 'gbp-posts');
-const LEDGER_FILE = path.join(DRAFTS_DIR, 'published-state.json');
+const DRAFTS_DIR = process.env.GBP_DRAFTS_DIR || path.join(REPO_ROOT, 'content', 'drafts', 'gbp-posts');
+const LEDGER_FILE = process.env.GBP_LEDGER_FILE || path.join(DRAFTS_DIR, 'published-state.json');
+const APPROVALS_FILE =
+  process.env.GBP_APPROVALS_FILE ||
+  path.join(os.homedir(), '.config', 'motor-inn-seo', 'gbp-approvals.json');
 const CREDS_FILE =
   process.env.GBP_CREDS_FILE ||
   path.join(os.homedir(), '.config', 'google-business-profile', 'credentials.json');
@@ -99,13 +115,21 @@ function die(msg, code = 1) {
 }
 
 function parseArgs() {
-  const args = { dryRun: false, all: false, limit: Infinity, listPending: false, approve: null, approvedBy: null, file: null };
+  const args = {
+    dryRun: false, all: false, limit: Infinity, listPending: false, checkApprovals: false,
+    approve: null, approvedBy: null, approvedAt: null, file: null,
+  };
   const argv = process.argv.slice(2);
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--dry-run') args.dryRun = true;
     else if (a === '--all') args.all = true;
     else if (a === '--list-pending') args.listPending = true;
+    else if (a === '--check-approvals') args.checkApprovals = true;
+    else if (a === '--approved-at') {
+      args.approvedAt = (argv[++i] || '').trim();
+      if (!/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}$/.test(args.approvedAt)) die('--approved-at must look like "YYYY-MM-DD HH:MM" (Central time)');
+    }
     else if (a === '--approve') {
       const raw = argv[++i] || '';
       const nums = raw.split(',').map((x) => Number(x.trim()));
@@ -149,13 +173,19 @@ function newestDraftFile() {
   return files[files.length - 1];
 }
 
-// The newest file plus any older file holding an approved post. Older files
-// without an approval are not parsed, so old drafts cannot stop a run.
-function publishableDraftFiles() {
+// The newest file plus any older file that has a lock entry or an approval
+// line. Older files with neither are not parsed, so old drafts cannot stop a
+// run. Files with an approval line but no lock are parsed so the mismatch is
+// reported, never silently dropped.
+function publishableDraftFiles(lock) {
   const files = draftFiles();
   const newest = files[files.length - 1];
+  const locked = new Set(Object.values(lock).map((e) => e.file));
   return files.filter(
-    (f) => f === newest || /^\*\*Approval:\*\*\s*approved\b/im.test(fs.readFileSync(f, 'utf8'))
+    (f) =>
+      f === newest ||
+      locked.has(path.basename(f)) ||
+      /^\*\*Approval:\*\*\s*approved\b/im.test(fs.readFileSync(f, 'utf8'))
   );
 }
 
@@ -203,10 +233,17 @@ function parseDrafts(file) {
     if (cta.needsUrl && !/^https?:\/\//.test(ctaLink || '')) {
       die(`post "${title}" CTA "${ctaButton}" requires an http(s) **CTA link:**, got: ${ctaLink}`);
     }
-    // Approval gate: only an explicit "approved ..." value counts; absent = pending.
-    const approval = field(chunk, 'Approval');
-    const approved = /^approved\b/i.test(approval || '');
-    posts.push({ weekMarker, postNumber, title, publishDate, copy, ctaButton, ctaLink, cta, approval, approved });
+    // Approval line: read from the header only (above **Copy:**), so an
+    // "**Approval:** approved" line pasted into the copy never counts.
+    // Only an explicit "approved ..." value counts; absent = pending.
+    const head = chunk.split(/^\*\*Copy:\*\*/m, 1)[0];
+    const approval = field(head, 'Approval');
+    const lineApproved = /^approved\b/i.test(approval || '');
+    // `approved` stays false until applyLock() confirms the exact wording.
+    posts.push({
+      file: path.basename(file), weekMarker, postNumber, title, publishDate, copy, ctaButton, ctaLink, cta,
+      approval, lineApproved, approved: false, lockState: 'unchecked',
+    });
   }
   if (posts.length === 0) die(`no "### Post N: title" blocks parsed from ${file}`);
   return posts;
@@ -231,6 +268,120 @@ function saveLedger(ledger) {
 
 function ledgerKey(post, locationId) {
   return `${post.weekMarker}::${post.title}::${locationId}`;
+}
+
+// ---------------------------------------------------------------------------
+// Approval lock: an approval is bound to the exact wording that was approved
+// ---------------------------------------------------------------------------
+
+function lockKey(post) {
+  return `${post.file}::post-${post.postNumber}`;
+}
+
+// Exactly what reaches Google, plus the title and the schedule.
+function approvedContent(post) {
+  return { title: post.title, publishDate: post.publishDate, localPost: buildLocalPost(post) };
+}
+
+function canonical(v) {
+  if (Array.isArray(v)) return `[${v.map(canonical).join(',')}]`;
+  if (v && typeof v === 'object') {
+    return `{${Object.keys(v).sort().map((k) => `${JSON.stringify(k)}:${canonical(v[k])}`).join(',')}}`;
+  }
+  return JSON.stringify(v);
+}
+
+function fingerprint(post) {
+  return crypto.createHash('sha256').update(canonical(approvedContent(post))).digest('hex');
+}
+
+// Returns {} when the lock file does not exist (nothing can publish).
+// Dies on a malformed lock: a broken lock must never be read as "no changes".
+function loadApprovals() {
+  if (!fs.existsSync(APPROVALS_FILE)) return {};
+  let lock;
+  try {
+    lock = JSON.parse(fs.readFileSync(APPROVALS_FILE, 'utf8'));
+  } catch (err) {
+    die(`approvals lock is not valid JSON: ${APPROVALS_FILE} (${err.message}). Nothing published.`);
+  }
+  if (!lock || typeof lock !== 'object' || Array.isArray(lock)) {
+    die(`approvals lock ${APPROVALS_FILE} must be a JSON object. Nothing published.`);
+  }
+  for (const [k, e] of Object.entries(lock)) {
+    if (!e || typeof e !== 'object' || !/^[0-9a-f]{64}$/.test(e.sha256 || '') || !e.file || !e.content) {
+      die(`approvals lock entry "${k}" in ${APPROVALS_FILE} is malformed. Nothing published.`);
+    }
+  }
+  return lock;
+}
+
+function saveApprovals(lock) {
+  fs.mkdirSync(path.dirname(APPROVALS_FILE), { recursive: true });
+  const tmp = `${APPROVALS_FILE}.tmp-${process.pid}`;
+  fs.writeFileSync(tmp, JSON.stringify(lock, null, 2) + '\n', { mode: 0o600 });
+  fs.renameSync(tmp, APPROVALS_FILE);
+}
+
+// Sets post.lockState ('match' | 'no-lock' | 'changed') and post.approved.
+function applyLock(posts, lock) {
+  for (const p of posts) {
+    const entry = lock[lockKey(p)];
+    if (!entry) p.lockState = 'no-lock';
+    else if (entry.sha256 === fingerprint(p)) p.lockState = 'match';
+    else p.lockState = 'changed';
+    p.approved = p.lineApproved && p.lockState === 'match';
+  }
+  return posts;
+}
+
+// First difference between two strings, with a little context either side.
+function firstDiff(a, b) {
+  a = String(a ?? '');
+  b = String(b ?? '');
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  const from = Math.max(0, i - 40);
+  return { approved: a.slice(from, i + 60), now: b.slice(from, i + 60) };
+}
+
+function describeChange(post, lock) {
+  const entry = lock[lockKey(post)];
+  if (!entry) return 'no lock entry: this wording was never recorded as approved';
+  const was = entry.content;
+  const now = approvedContent(post);
+  const pairs = [
+    ['title', was.title, now.title],
+    ['publish date', was.publishDate, now.publishDate],
+    ['copy', was.localPost?.summary, now.localPost.summary],
+    ['CTA type', was.localPost?.callToAction?.actionType, now.localPost.callToAction.actionType],
+    ['CTA link', was.localPost?.callToAction?.url, now.localPost.callToAction.url],
+  ];
+  const changed = pairs.filter(([, x, y]) => (x ?? null) !== (y ?? null));
+  if (changed.length === 0) return 'wording changed since approval';
+  return changed
+    .map(([name, x, y]) => {
+      const d = firstDiff(x, y);
+      return `${name} changed since approval\n       approved: "${d.approved}"\n       now:      "${d.now}"`;
+    })
+    .join('\n     ');
+}
+
+// Approved-line posts the lock is holding back that are not yet published at
+// every location. These are the ones a person must look at.
+function lockProblems(posts, ledger, locations) {
+  return posts.filter(
+    (p) => p.lineApproved && !p.approved && locations.some((loc) => !ledger[ledgerKey(p, loc)])
+  );
+}
+
+function reportLockProblems(problems, lock) {
+  if (problems.length === 0) return;
+  console.log(`APPROVAL LOCK: ${problems.length} approved post(s) held back because the wording does not match what was approved:`);
+  for (const p of problems) {
+    console.log(`  - ${p.file} post ${p.postNumber} [${p.publishDate}] "${p.title}"\n     ${describeChange(p, lock)}`);
+  }
+  console.log('  To publish, Spencer must approve the current wording in chat, then run --approve for it.');
 }
 
 // ---------------------------------------------------------------------------
@@ -453,7 +604,7 @@ async function createLocalPost(token, parent, post) {
 
 function buildPlan(posts, ledger, locations, args, today) {
   const dueAll = posts.filter((p) => args.all || p.publishDate <= today);
-  const due = dueAll.filter((p) => p.approved); // approval gate
+  const due = dueAll.filter((p) => p.approved); // approval gate: line + exact-wording lock
   const unapprovedDue = dueAll.length - due.length;
   const plan = [];
   for (const post of due) {
@@ -469,7 +620,7 @@ function buildPlan(posts, ledger, locations, args, today) {
 
 function printPlan(posts, due, plan, capped, args, unapprovedDue = 0) {
   console.log(
-    `parsed ${posts.length} posts; ${posts.filter((p) => p.approved).length} approved; ` +
+    `parsed ${posts.length} posts; ${posts.filter((p) => p.approved).length} approved (wording locked); ` +
       `${unapprovedDue} due but NOT approved (skipped); ${due.length} due+approved${args.all ? ' (--all)' : ''}; ` +
       `${plan.length} unpublished; publishing ${capped.length} this run`
   );
@@ -480,48 +631,86 @@ function printPlan(posts, due, plan, capped, args, unapprovedDue = 0) {
   }
 }
 
-function approvePosts(file, numbers, by) {
-  const stamp = new Date().toLocaleString('en-CA', {
-    timeZone: 'America/Chicago', hour12: false, year: 'numeric', month: '2-digit', day: '2-digit',
-    hour: '2-digit', minute: '2-digit',
-  }).replace(',', '');
+function approvePosts(file, numbers, by, at) {
+  const stamp =
+    at ||
+    new Date().toLocaleString('en-CA', {
+      timeZone: 'America/Chicago', hour12: false, year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit',
+    }).replace(',', '');
   const marker = `**Approval:** approved — ${by}, ${stamp} CT`;
+  // Check every requested post parses before writing anything.
+  const before = parseDrafts(file);
+  for (const n of numbers) {
+    if (before.filter((p) => p.postNumber === n).length !== 1) {
+      die(`expected exactly one "### Post ${n}:" block in ${file}`);
+    }
+  }
   const parts = fs.readFileSync(file, 'utf8').split(/^(?=### )/m);
-  const done = [];
   for (const n of numbers) {
     const idx = parts.findIndex((c) => new RegExp(`^### Post\\s+${n}:`).test(c));
-    if (idx < 0) die(`no "### Post ${n}:" block in ${file}`);
     let block = parts[idx];
-    if (/^\*\*Approval:\*\*.*$/m.test(block)) {
-      block = block.replace(/^\*\*Approval:\*\*.*$/m, marker);
-    } else if (/^\*\*Publish date:\*\*.*$/m.test(block)) {
-      block = block.replace(/^(\*\*Publish date:\*\*.*)$/m, `$1\n${marker}`);
+    // Only touch the header (above **Copy:**), never the copy itself.
+    const cut = block.search(/^\*\*Copy:\*\*/m);
+    let head = cut < 0 ? block : block.slice(0, cut);
+    const rest = cut < 0 ? '' : block.slice(cut);
+    if (/^\*\*Approval:\*\*.*$/m.test(head)) {
+      head = head.replace(/^\*\*Approval:\*\*.*$/m, marker);
+    } else if (/^\*\*Publish date:\*\*.*$/m.test(head)) {
+      head = head.replace(/^(\*\*Publish date:\*\*.*)$/m, `$1\n${marker}`);
     } else die(`post ${n} has no **Publish date:** line to anchor the approval`);
-    parts[idx] = block;
-    done.push(n);
-    console.log(`  ${block.split('\n', 1)[0].replace(/^### /, '')}`);
+    parts[idx] = head + rest;
   }
   fs.writeFileSync(file, parts.join(''));
-  console.log(`approved post(s) ${done.join(',')} in ${path.basename(file)} (${by}). Nothing published; the next publisher run will publish due+approved posts.`);
+
+  // Record the exact wording now in the file. The drafts file is written
+  // first, so a failure here leaves the post unpublishable (fail-safe).
+  const lock = loadApprovals();
+  const posts = parseDrafts(file);
+  const recordedAt = new Date().toISOString();
+  for (const n of numbers) {
+    const p = posts.find((x) => x.postNumber === n);
+    const key = lockKey(p);
+    const sha256 = fingerprint(p);
+    const prior = lock[key];
+    lock[key] = {
+      file: p.file, postNumber: p.postNumber, sha256, approvedBy: by, approvedAt: `${stamp} CT`, recordedAt,
+      content: approvedContent(p),
+    };
+    const note = prior && prior.sha256 !== sha256 ? ' (replaces an approval of different wording)' : '';
+    console.log(`  post ${n} [${p.publishDate}] "${p.title}" locked ${sha256.slice(0, 12)}${note}`);
+  }
+  saveApprovals(lock);
+  console.log(
+    `approved post(s) ${numbers.join(',')} in ${path.basename(file)} (${by}); exact wording locked in ${APPROVALS_FILE}. ` +
+      'Nothing published; the next publisher run will publish due+approved posts.'
+  );
 }
 
 async function main() {
   const args = parseArgs();
   if (args.file && !args.listPending && !args.approve) die('--file works only with --list-pending or --approve');
+  if (args.approvedAt && !args.approve) die('--approved-at works only with --approve');
   const draftFile = args.file ? namedDraftFile(args.file) : newestDraftFile();
-  const selectedPosts = parseDrafts(draftFile);
+  const lock = loadApprovals(); // dies loud on a malformed lock
+  const selectedPosts = applyLock(parseDrafts(draftFile), lock);
   const ledger = loadLedger();
   const today = todayCentral();
 
   console.log(`drafts file: ${draftFile}`);
   console.log(`today (America/Chicago): ${today}`);
+  console.log(
+    `approvals lock: ${APPROVALS_FILE} (${Object.keys(lock).length} entr${Object.keys(lock).length === 1 ? 'y' : 'ies'}` +
+      `${fs.existsSync(APPROVALS_FILE) ? '' : ', file not found: nothing can publish'})`
+  );
 
   if (args.listPending) {
     const pending = selectedPosts.filter((p) => !p.approved);
     console.log(`PENDING-APPROVAL: ${pending.length} of ${selectedPosts.length} posts in ${path.basename(draftFile)}`);
     for (const p of pending) {
       const snippet = p.copy.replace(/\s+/g, ' ').slice(0, 160);
-      console.log(`${p.postNumber}. [${p.publishDate}] ${p.title} (CTA: ${p.ctaButton})\n   "${snippet}..."`);
+      const why = p.lineApproved ? ` (held: ${p.lockState === 'changed' ? 'wording changed since approval' : 'approved wording not locked'})` : '';
+      console.log(`${p.postNumber}. [${p.publishDate}] ${p.title} (CTA: ${p.ctaButton})${why}\n   "${snippet}..."`);
     }
     console.log('nothing published.');
     return;
@@ -529,24 +718,33 @@ async function main() {
 
   if (args.approve) {
     if (!args.approvedBy) die('--approve requires --approved-by "<who approved>" (audit trail)');
-    approvePosts(draftFile, args.approve, args.approvedBy);
+    approvePosts(draftFile, args.approve, args.approvedBy, args.approvedAt);
     return;
   }
 
-  const sourceFiles = publishableDraftFiles();
-  const posts = sourceFiles
-    .flatMap((f) => parseDrafts(f))
-    .sort((a, b) => a.publishDate.localeCompare(b.publishDate));
+  const sourceFiles = publishableDraftFiles(lock);
+  const posts = applyLock(
+    sourceFiles.flatMap((f) => parseDrafts(f)),
+    lock
+  ).sort((a, b) => a.publishDate.localeCompare(b.publishDate));
   console.log(`publish sources: ${sourceFiles.map((f) => path.basename(f)).join(', ')}`);
 
-  if (args.dryRun) {
+  if (args.dryRun || args.checkApprovals) {
     const cfgSafe = loadConfigSafe();
     const locations =
       Array.isArray(cfgSafe?.location_ids) && cfgSafe.location_ids.length > 0
         ? cfgSafe.location_ids
         : ['<unconfigured>'];
+    const problems = lockProblems(posts, ledger, locations);
+    if (args.checkApprovals) {
+      reportLockProblems(problems, lock);
+      if (problems.length > 0) die(`${problems.length} approved post(s) held by the approval lock`, 3);
+      console.log(`approval lock OK: every approved, unpublished post matches its approved wording. Nothing published.`);
+      return;
+    }
     const { due, plan, capped, unapprovedDue } = buildPlan(posts, ledger, locations, args, today);
     printPlan(posts, due, plan, capped, args, unapprovedDue);
+    reportLockProblems(problems, lock);
     if (!fs.existsSync(CREDS_FILE)) {
       console.log(
         `dry-run note: GBP credentials not configured at ${CREDS_FILE} — a real run would fail loud here.`
@@ -566,15 +764,28 @@ async function main() {
 
   const { due, plan, capped, unapprovedDue } = buildPlan(posts, ledger, cfg.location_ids, args, today);
   printPlan(posts, due, plan, capped, args, unapprovedDue);
+  const problems = lockProblems(posts, ledger, cfg.location_ids);
+  reportLockProblems(problems, lock);
+  const failIfHeld = () => {
+    if (problems.length > 0) die(`${problems.length} approved post(s) held by the approval lock (see above)`, 3);
+  };
 
   if (capped.length === 0) {
-    console.log('nothing to publish (no due posts outside the ledger) — done.');
+    console.log('nothing to publish (no due posts outside the ledger).');
+    failIfHeld();
+    console.log('done.');
     return;
   }
 
   let published = 0;
   for (const item of capped) {
-    if (!item.post.approved) die(`refusing to publish unapproved post "${item.post.title}"`); // defense in depth
+    // Defense in depth: re-read the lock and re-check the exact wording right
+    // before each call to Google.
+    if (!item.post.approved) die(`refusing to publish unapproved post "${item.post.title}"`);
+    const entry = loadApprovals()[lockKey(item.post)];
+    if (!entry || entry.sha256 !== fingerprint(item.post)) {
+      die(`refusing to publish "${item.post.title}": wording does not match the approved wording`);
+    }
     const parent = normalizeParent(cfg.account_id, item.loc);
     const created = await createLocalPost(token, parent, item.post);
     ledger[item.key] = {
@@ -589,7 +800,9 @@ async function main() {
     console.log(`published "${item.post.title}" -> ${created.name || '?'}`);
     if (created.searchUrl) console.log(`  live URL: ${created.searchUrl}`);
   }
-  console.log(`done — published ${published} post(s); ledger: ${LEDGER_FILE}`);
+  console.log(`published ${published} post(s); ledger: ${LEDGER_FILE}`);
+  failIfHeld();
+  console.log('done.');
 }
 
 // Non-fatal config peek for dry-run planning only.
