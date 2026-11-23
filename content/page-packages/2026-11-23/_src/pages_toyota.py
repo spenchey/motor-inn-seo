@@ -113,7 +113,7 @@ Toyota site. The intent is to find a new Toyota dealer, so it routes to the Toyo
         "slug": "toyota-tacoma-tundra-for-sale-carroll-iowa",
         "store": "toyota",
         "path": "/toyota-tacoma-tundra-for-sale-carroll-iowa",
-        "status": "NEW page. The Toyota site has model research pages (/toyota-tacoma, /2026-toyota-tundra.html) but no 'for sale' shopping page. An unpublished content/ready-design/toyota-tacoma-carroll-iowa.html draft exists without a set canonical; see the routing note.",
+        "status": "NEW page. The Toyota site has model research pages (/toyota-tacoma, /2026-toyota-tundra.html) but no 'for sale' shopping page. The earlier group-site Tacoma draft was retired on 2026-11-23 and now lives at content/ready-design/_retired/2026-11-23/toyota-tacoma-carroll-iowa.html; see the routing note.",
         "tier": "ready-now",
         "queries": [
             "toyota tacoma for sale", "toyota tundra for sale",

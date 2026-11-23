@@ -2,7 +2,7 @@
 
 - **Site:** www.motorinntoyotaofcarroll.com (Motor Inn Toyota of Carroll)
 - **URL:** https://www.motorinntoyotaofcarroll.com/toyota-tacoma-tundra-for-sale-carroll-iowa
-- **Status:** NEW page. The Toyota site has model research pages (/toyota-tacoma, /2026-toyota-tundra.html) but no 'for sale' shopping page. An unpublished content/ready-design/toyota-tacoma-carroll-iowa.html draft exists without a set canonical; see the routing note.
+- **Status:** NEW page. The Toyota site has model research pages (/toyota-tacoma, /2026-toyota-tundra.html) but no 'for sale' shopping page. The earlier group-site Tacoma draft was retired on 2026-11-23 and now lives at content/ready-design/_retired/2026-11-23/toyota-tacoma-carroll-iowa.html; see the routing note.
 - **Intent tier:** ready-now
 - **H1:** Toyota Tacoma and Tundra for Sale in Carroll, Iowa
 - **Primary query:** toyota tacoma for sale
