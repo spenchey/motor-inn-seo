@@ -1,0 +1,42 @@
+# Obvious negative keywords
+jobs
+job openings
+salary
+recall
+recalls
+diy repair
+diy car repair
+how to fix
+car problems
+engine repair
+oil change
+tire rotation
+battery replacement
+brake repair
+towing
+tire shop
+auto body shop
+body shop
+wrecker
+insurance
+rental car
+loaner car
+financing calculator
+calculator
+reviews
+forum
+reddit
+wiki
+definition
+meaning
+vs
+versus
+difference
+comparison
+trim levels
+body styles
+drivetrain
+maintenance schedule
+mileage
+service center
+parts department
