@@ -10,7 +10,7 @@ Motor Inn Chevrolet of Carroll is at 1526 Le Clark Road, Carroll, IA 51401. The 
 
 ## Is Motor Inn of Carroll a Chevrolet dealer?
 
-Yes. Motor Inn of Carroll is the Chevrolet store of Motor Inn Auto Group, a family-owned dealership group in Carroll. The store also goes by Motor Inn Chevrolet of Carroll, and both names refer to the same dealership at 1526 Le Clark Road. [About Motor Inn of Carroll](https://www.motorinnofcarroll.com/aboutus.aspx).
+Yes. Motor Inn of Carroll is the Chevrolet store of Motor Inn Auto Group, a dealership group in Carroll that has been family-owned for more than 75 years. The store also goes by Motor Inn Chevrolet of Carroll, and both names refer to the same dealership at 1526 Le Clark Road. [About Motor Inn of Carroll](https://www.motorinnofcarroll.com/aboutus.aspx).
 
 ## Which new Chevrolet models can I shop in Carroll?
 

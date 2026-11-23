@@ -4,6 +4,7 @@ G = "https://www.motorinnautogroup.com"
 T = "https://www.motorinntoyotaofcarroll.com"
 
 TOYOTA_SOURCES = [
+    "Years in business ('family-owned for more than 75 years'): Spencer decision 2026-11-23, matching owner notes '75+' (content/ready-design-OWNER-NOTES.md).",
     "Address, store name: Toyota contact page (.firecrawl/motorinntoyotaofcarroll.com-contactus.aspx.md), 'Motor Inn Toyota Of Carroll, 1526 Le Clark Road, Carroll, IA 51401'.",
     "Phone (712) 792-5000: required on customer-facing Toyota copy (brief + brain/STATE.md ruling 2026-11-02). The 712-513-xxxx numbers on the Toyota contact page look like tracking numbers and are not printed. 522-2526 is never used.",
     "'Just off West US Highway 30': group homepage snippet (.firecrawl/nap-audit/20261029/_ap_uest.json).",
@@ -38,7 +39,7 @@ Motor Inn Toyota of Carroll is a Toyota dealer in west-central Iowa, at 1526 Le 
 """,
         "sections": [
             ("Where are Toyota dealers in Iowa?", f"""
-Toyota dealers are spread across Iowa. In west-central Iowa, Motor Inn Toyota of Carroll sits on Le Clark Road in Carroll, just off US Highway 30. Shoppers from across the area come here for new Toyotas, Certified Pre-Owned vehicles and service.
+Toyota dealers are spread across Iowa. In west-central Iowa, Motor Inn Toyota of Carroll sits on Le Clark Road in Carroll, just off US Highway 30. Motor Inn has been family-owned for more than 75 years. Shoppers from across the area come here for new Toyotas, Certified Pre-Owned vehicles and service.
 """),
             ("Is there a Toyota dealership near me?", f"""
 If you live in or around Carroll, Motor Inn Toyota of Carroll is your local Toyota dealership. We also have pages for nearby towns:
@@ -106,7 +107,7 @@ Toyota site. The intent is to find a new Toyota dealer, so it routes to the Toyo
             "'where can i find toyota service centers in iowa with weekend hours?' (55 impressions) is NOT answered with weekend service hours, because the repo has no source for service hours. Service hours are left to the hours page.",
             "The page makes no statement about other dealers beyond 'Toyota dealers are spread across Iowa'. No competitor is named, and there is no closest/only claim.",
         ],
-        "ai_summary": "Motor Inn Toyota of Carroll is a Toyota dealer in west-central Iowa at 1526 Le Clark Road, Carroll, Iowa 51401, just off West US Highway 30, phone (712) 792-5000. It sells new Toyotas and Toyota Certified Pre-Owned vehicles, runs a Toyota service center, appraises trade-ins without an appointment, and is part of Motor Inn Auto Group with Motor Inn Chevrolet of Carroll at the same address.",
+        "ai_summary": "Motor Inn Toyota of Carroll is a Toyota dealer in west-central Iowa at 1526 Le Clark Road, Carroll, Iowa 51401, just off West US Highway 30, phone (712) 792-5000. It sells new Toyotas and Toyota Certified Pre-Owned vehicles, runs a Toyota service center, appraises trade-ins without an appointment, and is part of Motor Inn Auto Group, family-owned for more than 75 years, with Motor Inn Chevrolet of Carroll at the same address.",
     },
     {
         "slug": "toyota-tacoma-tundra-for-sale-carroll-iowa",
@@ -175,7 +176,7 @@ Toyota site. These are new-Toyota truck shopping queries.
 
 **Used intent excluded:** "used toyota tacoma" (79 impressions) is used intent, which the routing rule sends to the group site, so it is not targeted here. The used section on this page is a support cross-link only.
 
-**Conflict with an earlier draft:** content/ready-design/toyota-tacoma-carroll-iowa.html covers Tacoma-in-Carroll on the group site. Under the 2026-11-23 rule, new-Toyota model intent belongs on the Toyota site, so don't publish both.
+**Conflict with an earlier draft:** content/ready-design/toyota-tacoma-carroll-iowa.html covers Tacoma-in-Carroll on the group site. Under the 2026-11-23 rule, new-Toyota model intent belongs on the Toyota site. That draft was retired on 2026-11-23 (moved to content/ready-design/_retired/2026-11-23/).
 """,
         "notes": [OEM_NOTE, FILTER_NOTE,
                   "The 2027 Tacoma TRD Pro blog link is described only as 'our post'. Its reservation content wasn't verified."],

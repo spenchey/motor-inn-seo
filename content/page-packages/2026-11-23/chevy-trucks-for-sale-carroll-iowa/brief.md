@@ -2,7 +2,7 @@
 
 - **Site:** www.motorinnofcarroll.com (Motor Inn Chevrolet of Carroll)
 - **URL:** https://www.motorinnofcarroll.com/chevy-trucks-for-sale-carroll-iowa
-- **Status:** NEW page on the Chevy site. Supersedes the routing of the unpublished content/ready-design/chevy-trucks-carroll-iowa.html draft, which canonicalizes to the group site.
+- **Status:** NEW page on the Chevy site. Supersedes the routing of the unpublished content/ready-design/chevy-trucks-carroll-iowa.html draft, which canonicalizes to the group site. That draft was retired 2026-11-23.
 - **Intent tier:** ready-now
 - **H1:** Chevy Trucks for Sale in Carroll, Iowa
 - **Primary query:** chevrolet truck for sale
@@ -12,7 +12,7 @@
 
 Chevrolet site. These are new-Chevrolet truck shopping queries. Brandless and used truck queries ("trucks for sale near me" 52, "used chevy silverado for sale" 35, "used chevy colorado for sale" 19) are NOT targeted here. Under the routing rule they belong to the group site's existing /used-trucks page. The used section on this page is a support cross-link only.
 
-**Conflict with an earlier draft:** content/ready-design/chevy-trucks-carroll-iowa.html targets the same intent with a group-site canonical. Under the 2026-11-23 routing rule, brand-specific intent goes to the brand site. Recommendation: don't publish the group-site draft too, or the two pages will compete for the same queries.
+**Conflict with an earlier draft:** content/ready-design/chevy-trucks-carroll-iowa.html targets the same intent with a group-site canonical. Under the 2026-11-23 routing rule, brand-specific intent goes to the brand site. That draft was retired on 2026-11-23 (moved to content/ready-design/_retired/2026-11-23/). Its built copy is still in deliveries/site-packages/2026-11-05/motorinnautogroup/chevy-trucks-carroll-iowa/, so remove it from that batch before the batch goes to DealerOn.
 
 ## Source evidence (GSC, 12 months ending 2026-11-22)
 
@@ -73,6 +73,7 @@ Each H2 and FAQ question follows a real GSC query. Rows marked DERIVED are conve
 
 ## Fact sources used in copy
 
+- Years in business ('family-owned for more than 75 years'): Spencer decision 2026-11-23, matching owner notes '75+' (content/ready-design-OWNER-NOTES.md).
 - Address: Chevy contact page (.firecrawl/motorinnofcarroll.com-contactus.aspx.md) lists 'Motor Inn of Carroll, 1526 Le Clark Rd, Carroll, IA 51401'.
 - Phone (712) 792-5000: brain/STATE.md ruling 2026-11-02. The 877-775-6741 / 877-733-5984 numbers on the Chevy contact page look like call-tracking numbers and are not printed.
 - 'Motor Inn Chevrolet of Carroll' name, 'just off West US Highway 30': group homepage snippet (.firecrawl/nap-audit/20261029/_ap_uest.json).

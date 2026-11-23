@@ -8,7 +8,7 @@ Motor Inn Auto Group is a car dealership at 1526 Le Clark Road in Carroll, Iowa,
 
 ## Which car dealerships are in Carroll, Iowa?
 
-Motor Inn Auto Group is the Toyota and Chevrolet dealership group on Le Clark Road in Carroll. It is family-owned and runs two franchised stores under one roof, so you don't have to drive across town to compare brands.
+Motor Inn Auto Group is the Toyota and Chevrolet dealership group on Le Clark Road in Carroll. It has been family-owned for more than 75 years and runs two franchised stores under one roof, so you don't have to drive across town to compare brands.
 
 If you're comparing Carroll car dealerships, start with three questions. Do they carry the brand you want? Can they take your trade and handle financing in the same visit? Can they service the vehicle after you buy it? At Motor Inn the answer to all three is yes.
 

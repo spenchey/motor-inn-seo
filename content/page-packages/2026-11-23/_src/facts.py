@@ -37,8 +37,10 @@ HOURS_SCHEMA = [
 #  - test drive: no license/insurance talk; "at your convenience", no time promise
 #  - Chevrolet certified service
 # Voice DNA (brain/VOICE-DNA.md): family-owned; serves Denison, Audubon, Storm Lake, Sac City.
-# Years in business deliberately omitted: homepage says "over 85 years", owner notes say "75+",
-# 2026-10 pages say "since 1934" -> conflict, flagged in the plan.
+YEARS = "more than 75 years"
+# src: Spencer decision 2026-11-23 ("75 years"), matching the owner-verified "75+ years" in
+#      content/ready-design-OWNER-NOTES.md (2026-10-23). Supersedes the homepage's "over 85 years" and the
+#      2026-10 pages' "since 1934" (flagged in the plan for DealerOn to align).
 
 AREA_TOWNS = "Denison, Audubon, Jefferson, Storm Lake and Sac City"
 # src: brain/VOICE-DNA.md (Denison, Audubon, Storm Lake, Sac City); Toyota-site sitemap has

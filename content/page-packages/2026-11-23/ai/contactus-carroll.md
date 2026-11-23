@@ -1,6 +1,6 @@
 # Car Dealerships in Carroll, Iowa: Motor Inn Auto Group
 
-> Motor Inn Auto Group is a family-owned car dealership at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. Two franchised stores share the address: Motor Inn Toyota of Carroll and Motor Inn Chevrolet of Carroll. It sells new Toyota and Chevrolet vehicles and used vehicles of any brand, offers walk-in trade appraisals, arranges financing through a lender network, and provides factory service.
+> Motor Inn Auto Group is a car dealership, family-owned for more than 75 years, at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. Two franchised stores share the address: Motor Inn Toyota of Carroll and Motor Inn Chevrolet of Carroll. It sells new Toyota and Chevrolet vehicles and used vehicles of any brand, offers walk-in trade appraisals, arranges financing through a lender network, and provides factory service.
 
 - Canonical page: https://www.motorinnautogroup.com/contactus.aspx
 

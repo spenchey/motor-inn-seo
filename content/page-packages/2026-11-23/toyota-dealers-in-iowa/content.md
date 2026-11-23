@@ -6,7 +6,7 @@ Motor Inn Toyota of Carroll is a Toyota dealer in west-central Iowa, at 1526 Le 
 
 ## Where are Toyota dealers in Iowa?
 
-Toyota dealers are spread across Iowa. In west-central Iowa, Motor Inn Toyota of Carroll sits on Le Clark Road in Carroll, just off US Highway 30. Shoppers from across the area come here for new Toyotas, Certified Pre-Owned vehicles and service.
+Toyota dealers are spread across Iowa. In west-central Iowa, Motor Inn Toyota of Carroll sits on Le Clark Road in Carroll, just off US Highway 30. Motor Inn has been family-owned for more than 75 years. Shoppers from across the area come here for new Toyotas, Certified Pre-Owned vehicles and service.
 
 ## Is there a Toyota dealership near me?
 

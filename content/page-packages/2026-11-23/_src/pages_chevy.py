@@ -4,6 +4,7 @@ G = "https://www.motorinnautogroup.com"
 C = "https://www.motorinnofcarroll.com"
 
 CHEVY_SOURCES = [
+    "Years in business ('family-owned for more than 75 years'): Spencer decision 2026-11-23, matching owner notes '75+' (content/ready-design-OWNER-NOTES.md).",
     "Address: Chevy contact page (.firecrawl/motorinnofcarroll.com-contactus.aspx.md) lists 'Motor Inn of Carroll, 1526 Le Clark Rd, Carroll, IA 51401'.",
     "Phone (712) 792-5000: brain/STATE.md ruling 2026-11-02. The 877-775-6741 / 877-733-5984 numbers on the Chevy contact page look like call-tracking numbers and are not printed.",
     "'Motor Inn Chevrolet of Carroll' name, 'just off West US Highway 30': group homepage snippet (.firecrawl/nap-audit/20261029/_ap_uest.json).",
@@ -45,7 +46,7 @@ Motor Inn Chevrolet of Carroll is a Chevrolet dealer at 1526 Le Clark Road in Ca
 Motor Inn Chevrolet of Carroll is at 1526 Le Clark Road, Carroll, IA 51401. The store shares its address with Motor Inn Toyota of Carroll, so you can compare a Chevy and a Toyota on the same visit. [Get hours and directions]({C}/hours.aspx).
 """),
             ("Is Motor Inn of Carroll a Chevrolet dealer?", f"""
-Yes. Motor Inn of Carroll is the Chevrolet store of Motor Inn Auto Group, a family-owned dealership group in Carroll. The store also goes by Motor Inn Chevrolet of Carroll, and both names refer to the same dealership at 1526 Le Clark Road. [About Motor Inn of Carroll]({C}/aboutus.aspx).
+Yes. Motor Inn of Carroll is the Chevrolet store of Motor Inn Auto Group, a dealership group in Carroll that has been family-owned for more than 75 years. The store also goes by Motor Inn Chevrolet of Carroll, and both names refer to the same dealership at 1526 Le Clark Road. [About Motor Inn of Carroll]({C}/aboutus.aspx).
 """),
             ("Which new Chevrolet models can I shop in Carroll?", f"""
 In Carroll you can shop the current Chevrolet lineup: Colorado and Silverado trucks, SUVs from the Trax to the Suburban, and the Equinox EV and Blazer EV. The [new Chevrolet inventory search]({C}/searchnew.aspx) shows what's on the lot, and each model has its own page:
@@ -122,10 +123,10 @@ Chevrolet site (motorinnofcarroll.com). Every query here is Chevrolet-specific d
         "notes": [
             "The store's legal name ('Motor Inn of Carroll L.L.C.') appears only in searcher queries, never in repo facts, so the copy uses 'Motor Inn of Carroll' and 'Motor Inn Chevrolet of Carroll', which both appear on the live sites.",
             "brain/STATE.md (2026-09-23) notes that the Chevy store has no distinct GBP listing surfaced by name. This page helps, but a Chevy GBP entity fix would help more.",
-            "Spirit Lake, Estherville, Algona and Monona Chevy queries are left out on purpose (see the plan's gaps section).",
+            "Spirit Lake, Estherville, Algona and Monona queries are dropped: Motor Inn is Carroll only, with no store there (Spencer, 2026-11-23).",
             OEM_NOTE,
         ],
-        "ai_summary": "Motor Inn Chevrolet of Carroll (also known as Motor Inn of Carroll) is a Chevrolet dealer at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. It is part of Motor Inn Auto Group and shares its address with Motor Inn Toyota of Carroll. It sells new Chevrolet trucks, SUVs and EVs and used vehicles, appraises trade-ins without an appointment, arranges financing through a lender network, and has a Chevrolet certified service department.",
+        "ai_summary": "Motor Inn Chevrolet of Carroll (also known as Motor Inn of Carroll) is a Chevrolet dealer at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. It is part of Motor Inn Auto Group, family-owned for more than 75 years, and shares its address with Motor Inn Toyota of Carroll. It sells new Chevrolet trucks, SUVs and EVs and used vehicles, appraises trade-ins without an appointment, arranges financing through a lender network, and has a Chevrolet certified service department.",
     },
     {
         "slug": "chevy-suvs-for-sale-carroll-iowa",
@@ -286,7 +287,7 @@ This model gets its own page because it is the largest single-model cluster in t
         "slug": "chevy-trucks-for-sale-carroll-iowa",
         "store": "chevy",
         "path": "/chevy-trucks-for-sale-carroll-iowa",
-        "status": "NEW page on the Chevy site. Supersedes the routing of the unpublished content/ready-design/chevy-trucks-carroll-iowa.html draft, which canonicalizes to the group site.",
+        "status": "NEW page on the Chevy site. Supersedes the routing of the unpublished content/ready-design/chevy-trucks-carroll-iowa.html draft, which canonicalizes to the group site. That draft was retired 2026-11-23.",
         "tier": "ready-now",
         "queries": [
             "chevrolet truck for sale", "chevy truck for sale near me", "silverado lease deals near me",
@@ -362,7 +363,7 @@ Yes, when one is on the lot. The [used inventory search]({C}/searchused.aspx) an
         "routing": """
 Chevrolet site. These are new-Chevrolet truck shopping queries. Brandless and used truck queries ("trucks for sale near me" 52, "used chevy silverado for sale" 35, "used chevy colorado for sale" 19) are NOT targeted here. Under the routing rule they belong to the group site's existing /used-trucks page. The used section on this page is a support cross-link only.
 
-**Conflict with an earlier draft:** content/ready-design/chevy-trucks-carroll-iowa.html targets the same intent with a group-site canonical. Under the 2026-11-23 routing rule, brand-specific intent goes to the brand site. Recommendation: don't publish the group-site draft too, or the two pages will compete for the same queries.
+**Conflict with an earlier draft:** content/ready-design/chevy-trucks-carroll-iowa.html targets the same intent with a group-site canonical. Under the 2026-11-23 routing rule, brand-specific intent goes to the brand site. That draft was retired on 2026-11-23 (moved to content/ready-design/_retired/2026-11-23/). Its built copy is still in deliveries/site-packages/2026-11-05/motorinnautogroup/chevy-trucks-carroll-iowa/, so remove it from that batch before the batch goes to DealerOn.
 """,
         "notes": [LEASE_NOTE, OEM_NOTE, FILTER_NOTE + " The HD filter uses the live model name 'Silverado 2500 HD' (with a space), which Codex confirmed returns results on 2026-11-23.",
                   "'ZR2' is used only as an example of a trim the shopper can ask about. No claim is made about stock."],

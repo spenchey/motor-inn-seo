@@ -16,7 +16,7 @@ Toyota site. These are new-Toyota truck shopping queries.
 
 **Used intent excluded:** "used toyota tacoma" (79 impressions) is used intent, which the routing rule sends to the group site, so it is not targeted here. The used section on this page is a support cross-link only.
 
-**Conflict with an earlier draft:** content/ready-design/toyota-tacoma-carroll-iowa.html covers Tacoma-in-Carroll on the group site. Under the 2026-11-23 rule, new-Toyota model intent belongs on the Toyota site, so don't publish both.
+**Conflict with an earlier draft:** content/ready-design/toyota-tacoma-carroll-iowa.html covers Tacoma-in-Carroll on the group site. Under the 2026-11-23 rule, new-Toyota model intent belongs on the Toyota site. That draft was retired on 2026-11-23 (moved to content/ready-design/_retired/2026-11-23/).
 
 ## Source evidence (GSC, 12 months ending 2026-11-22)
 
@@ -69,6 +69,7 @@ Each H2 and FAQ question follows a real GSC query. Rows marked DERIVED are conve
 
 ## Fact sources used in copy
 
+- Years in business ('family-owned for more than 75 years'): Spencer decision 2026-11-23, matching owner notes '75+' (content/ready-design-OWNER-NOTES.md).
 - Address, store name: Toyota contact page (.firecrawl/motorinntoyotaofcarroll.com-contactus.aspx.md), 'Motor Inn Toyota Of Carroll, 1526 Le Clark Road, Carroll, IA 51401'.
 - Phone (712) 792-5000: required on customer-facing Toyota copy (brief + brain/STATE.md ruling 2026-11-02). The 712-513-xxxx numbers on the Toyota contact page look like tracking numbers and are not printed. 522-2526 is never used.
 - 'Just off West US Highway 30': group homepage snippet (.firecrawl/nap-audit/20261029/_ap_uest.json).

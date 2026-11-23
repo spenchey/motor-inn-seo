@@ -80,6 +80,7 @@ Each H2 and FAQ question follows a real GSC query. Rows marked DERIVED are conve
 
 ## Fact sources used in copy
 
+- Years in business ('family-owned for more than 75 years'): Spencer decision 2026-11-23, matching owner notes '75+' (content/ready-design-OWNER-NOTES.md).
 - Address, phone: group contact page (.firecrawl/motorinnautogroup.com-contact-us.md); phone ruling brain/STATE.md 2026-11-02.
 - Hours, walk-in trade appraisal, lender-network financing, test-drive framing, Chevrolet certified: content/ready-design-OWNER-NOTES.md (owner answers 2026-10-23).
 - 'Just off West US Highway 30', store names: group homepage snippet in .firecrawl/nap-audit/20261029/_ap_uest.json.

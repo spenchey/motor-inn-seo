@@ -1,6 +1,6 @@
 # Chevy Dealer in Carroll, Iowa: Motor Inn Chevrolet of Carroll
 
-> Motor Inn Chevrolet of Carroll (also known as Motor Inn of Carroll) is a Chevrolet dealer at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. It is part of Motor Inn Auto Group and shares its address with Motor Inn Toyota of Carroll. It sells new Chevrolet trucks, SUVs and EVs and used vehicles, appraises trade-ins without an appointment, arranges financing through a lender network, and has a Chevrolet certified service department.
+> Motor Inn Chevrolet of Carroll (also known as Motor Inn of Carroll) is a Chevrolet dealer at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. It is part of Motor Inn Auto Group, family-owned for more than 75 years, and shares its address with Motor Inn Toyota of Carroll. It sells new Chevrolet trucks, SUVs and EVs and used vehicles, appraises trade-ins without an appointment, arranges financing through a lender network, and has a Chevrolet certified service department.
 
 - Canonical page: https://www.motorinnofcarroll.com/chevy-dealer-carroll-iowa
 

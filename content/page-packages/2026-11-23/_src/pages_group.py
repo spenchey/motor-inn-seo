@@ -5,6 +5,7 @@ T = "https://www.motorinntoyotaofcarroll.com"
 C = "https://www.motorinnofcarroll.com"
 
 COMMON_SOURCES = [
+    "Years in business ('family-owned for more than 75 years'): Spencer decision 2026-11-23, matching owner notes '75+' (content/ready-design-OWNER-NOTES.md).",
     "Address, phone: group contact page (.firecrawl/motorinnautogroup.com-contact-us.md); phone ruling brain/STATE.md 2026-11-02.",
     "Hours, walk-in trade appraisal, lender-network financing, test-drive framing, Chevrolet certified: content/ready-design-OWNER-NOTES.md (owner answers 2026-10-23).",
     "'Just off West US Highway 30', store names: group homepage snippet in .firecrawl/nap-audit/20261029/_ap_uest.json.",
@@ -21,7 +22,7 @@ PAGES = [
         "ship_plan": [
             "Cycle 1: the content block only (sections + FAQ + visit block), placed below the form, plus the FAQPage/AutoDealer JSON-LD. Leave the title, meta and H1 unchanged.",
             "Cycle 2 (after 2-4 weeks of GSC readings): switch the title and meta to the meta.md versions, then promote the H1.",
-            "Separately, as a DealerOn case: canonical or 301 decision for /car-dealerships-carroll-iowa and /car-dealerships-in-carroll-iowa.html (Spencer's call).",
+            "Separately, as its own DealerOn request, AFTER the cycle-1 block is live on /contactus.aspx: 301 /car-dealerships-carroll-iowa and /car-dealerships-in-carroll-iowa.html to /contactus.aspx (decided 2026-11-23). Then update any internal links pointing at those two URLs.",
         ],
         "tier": "ready-now",
         "queries": [
@@ -43,7 +44,7 @@ Motor Inn Auto Group is a car dealership at 1526 Le Clark Road in Carroll, Iowa,
 """,
         "sections": [
             ("Which car dealerships are in Carroll, Iowa?", f"""
-Motor Inn Auto Group is the Toyota and Chevrolet dealership group on Le Clark Road in Carroll. It is family-owned and runs two franchised stores under one roof, so you don't have to drive across town to compare brands.
+Motor Inn Auto Group is the Toyota and Chevrolet dealership group on Le Clark Road in Carroll. It has been family-owned for more than 75 years and runs two franchised stores under one roof, so you don't have to drive across town to compare brands.
 
 If you're comparing Carroll car dealerships, start with three questions. Do they carry the brand you want? Can they take your trade and handle financing in the same visit? Can they service the vehicle after you buy it? At Motor Inn the answer to all three is yes.
 """),
@@ -109,17 +110,19 @@ Group site. "Car dealerships Carroll Iowa" is cross-brand, general-dealership in
 1. /contactus.aspx (live; receives the ranking contact traffic). **Recommended owner.**
 2. /car-dealerships-carroll-iowa (live; its 2026-10 approved refresh prints the banned 522-2526 number).
 3. /car-dealerships-in-carroll-iowa.html (live; duplicate).
-4. content/ready-design/contactus-money-page.html (unpublished draft for the same /contactus.aspx page, same H1).
+4. content/ready-design/contactus-money-page.html (unpublished draft for the same page; retired 2026-11-23).
 
-Spencer to decide: (a) whether 2 and 3 get a canonical or 301 to /contactus.aspx; (b) which copy ships on /contactus.aspx, this package or the ready-design draft. Recommended: this package, because it carries the 12-month evidence and current house rules. Don't ship both.
+**Decided (2026-11-23, Spencer delegated the call):**
+- (a) **301** both /car-dealerships-carroll-iowa and /car-dealerships-in-carroll-iowa.html to /contactus.aspx. A canonical tag is only a hint, and Google tends to ignore it between pages that aren't near-duplicates. A content page and a contact page aren't, so a canonical would likely leave the duplicates competing. A 301 consolidates them for certain and also retires the 2026-10 copy that prints the banned 522-2526.
+- (b) This package ships on /contactus.aspx. The ready-design contactus draft is retired (moved to content/ready-design/_retired/2026-11-23/).
 """,
         "notes": [
             "This content block goes BELOW the existing contact form. Keep the form as the first thing on the page: it is the #1 lead page (brain/STATE.md, 7,166 key events in 28 days).",
             "/Contactus/Carroll 301s to /contactus.aspx (checked 2026-11-23). Internal links and GBP should point at /contactus.aspx directly, with no UTM variants (see brain/reports/gsc-cannibalization-2026-11-03.md).",
-            "Years in business were left out on purpose: the homepage says 'over 85 years', the owner notes say '75+', and the 2026-10 pages say 'since 1934'. Pick one and it can go in the first section.",
+            "Years in business: 'family-owned for more than 75 years' per Spencer's 2026-11-23 decision (owner notes: 75+). The live homepage still says 'over 85 years'; ask DealerOn to align it as a separate one-issue request.",
             "Hours are owner-verified sales hours. Service hours are left to the hours page.",
         ],
-        "ai_summary": "Motor Inn Auto Group is a family-owned car dealership at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. Two franchised stores share the address: Motor Inn Toyota of Carroll and Motor Inn Chevrolet of Carroll. It sells new Toyota and Chevrolet vehicles and used vehicles of any brand, offers walk-in trade appraisals, arranges financing through a lender network, and provides factory service.",
+        "ai_summary": "Motor Inn Auto Group is a car dealership, family-owned for more than 75 years, at 1526 Le Clark Road, Carroll, Iowa 51401, phone (712) 792-5000. Two franchised stores share the address: Motor Inn Toyota of Carroll and Motor Inn Chevrolet of Carroll. It sells new Toyota and Chevrolet vehicles and used vehicles of any brand, offers walk-in trade appraisals, arranges financing through a lender network, and provides factory service.",
     },
     {
         "slug": "used-cars-carroll-iowa",

@@ -1,6 +1,6 @@
 # Toyota Dealer in West-Central Iowa: Motor Inn Toyota of Carroll
 
-> Motor Inn Toyota of Carroll is a Toyota dealer in west-central Iowa at 1526 Le Clark Road, Carroll, Iowa 51401, just off West US Highway 30, phone (712) 792-5000. It sells new Toyotas and Toyota Certified Pre-Owned vehicles, runs a Toyota service center, appraises trade-ins without an appointment, and is part of Motor Inn Auto Group with Motor Inn Chevrolet of Carroll at the same address.
+> Motor Inn Toyota of Carroll is a Toyota dealer in west-central Iowa at 1526 Le Clark Road, Carroll, Iowa 51401, just off West US Highway 30, phone (712) 792-5000. It sells new Toyotas and Toyota Certified Pre-Owned vehicles, runs a Toyota service center, appraises trade-ins without an appointment, and is part of Motor Inn Auto Group, family-owned for more than 75 years, with Motor Inn Chevrolet of Carroll at the same address.
 
 - Canonical page: https://www.motorinntoyotaofcarroll.com/toyota-dealers-in-iowa
 

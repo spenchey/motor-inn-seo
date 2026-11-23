@@ -25,7 +25,7 @@ BANNED = ["unleash", "elevate", "seamless", "journey", "discover the difference"
           "bad credit", "buick", "gmc", "needs-verify", "lowest price", "best price", "#1", "number one",
           "guarantee", "522-2526", "522 2526", "will have the", "already knows", "ready when you arrive",
           "offers are posted", "does not post fixed numbers", "request one online", "or use the [test drive page]", "target ai host", "not deployed", "ai-markdown-proxy", "hybrid powertrain", "lists all of them", "?type=used"]
-ALLOWED_NUM = {"1526", "51401", "712", "792", "5000", "30", "20,000", "15,000", "20K", "1500", "2500HD",
+ALLOWED_NUM = {"1526", "51401", "712", "792", "5000", "30", "20,000", "15,000", "75", "20K", "1500", "2500HD",
                "3500HD", "2500", "2027", "150", "2", "8:00", "5:30", "7:00", "3:00", "4", "1"}
 FILES = ["brief.md", "content.md", "faq.md", "meta.md", "schema.json"]
 

@@ -97,6 +97,7 @@ Each H2 and FAQ question follows a real GSC query. Rows marked DERIVED are conve
 
 ## Fact sources used in copy
 
+- Years in business ('family-owned for more than 75 years'): Spencer decision 2026-11-23, matching owner notes '75+' (content/ready-design-OWNER-NOTES.md).
 - Address: Chevy contact page (.firecrawl/motorinnofcarroll.com-contactus.aspx.md) lists 'Motor Inn of Carroll, 1526 Le Clark Rd, Carroll, IA 51401'.
 - Phone (712) 792-5000: brain/STATE.md ruling 2026-11-02. The 877-775-6741 / 877-733-5984 numbers on the Chevy contact page look like call-tracking numbers and are not printed.
 - 'Motor Inn Chevrolet of Carroll' name, 'just off West US Highway 30': group homepage snippet (.firecrawl/nap-audit/20261029/_ap_uest.json).
@@ -109,5 +110,5 @@ Each H2 and FAQ question follows a real GSC query. Rows marked DERIVED are conve
 
 - The store's legal name ('Motor Inn of Carroll L.L.C.') appears only in searcher queries, never in repo facts, so the copy uses 'Motor Inn of Carroll' and 'Motor Inn Chevrolet of Carroll', which both appear on the live sites.
 - brain/STATE.md (2026-09-23) notes that the Chevy store has no distinct GBP listing surfaced by name. This page helps, but a Chevy GBP entity fix would help more.
-- Spirit Lake, Estherville, Algona and Monona Chevy queries are left out on purpose (see the plan's gaps section).
+- Spirit Lake, Estherville, Algona and Monona queries are dropped: Motor Inn is Carroll only, with no store there (Spencer, 2026-11-23).
 - Vehicle descriptions are kept qualitative (two-row vs three-row, gas vs electric, light vs heavy duty) with no specs. Spot-check the wording against chevrolet.com before handoff.
