@@ -1,0 +1,108 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motorinntoyotaofcarroll.com/toyota-tacoma-tundra-for-sale-carroll-iowa#webpage",
+      "url": "https://www.motorinntoyotaofcarroll.com/toyota-tacoma-tundra-for-sale-carroll-iowa",
+      "name": "Tacoma & Tundra for Sale in Carroll, IA | Motor Inn Toyota",
+      "description": "Shop the Toyota Tacoma and Tundra, new and used, at Motor Inn Toyota of Carroll, 1526 Le Clark Road, Carroll, Iowa. Test drives: (712) 792-5000.",
+      "inLanguage": "en-US",
+      "about": {
+        "@id": "https://www.motorinntoyotaofcarroll.com/#dealer"
+      },
+      "publisher": {
+        "@id": "https://www.motorinntoyotaofcarroll.com/#dealer"
+      }
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://www.motorinntoyotaofcarroll.com/#dealer",
+      "name": "Motor Inn Toyota of Carroll",
+      "url": "https://www.motorinntoyotaofcarroll.com/",
+      "telephone": "+1-712-792-5000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1526 Le Clark Road",
+        "addressLocality": "Carroll",
+        "addressRegion": "IA",
+        "postalCode": "51401",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Toyota"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Carroll, Iowa"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Motor Inn Auto Group",
+        "url": "https://www.motorinnautogroup.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinntoyotaofcarroll.com/toyota-tacoma-tundra-for-sale-carroll-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I find a Toyota Tacoma for sale near Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Toyota of Carroll sells the new Toyota Tacoma at 1526 Le Clark Road in Carroll, Iowa. Inventory changes, so the Tacoma search on motorinntoyotaofcarroll.com shows what is on the lot today. The phone number is (712) 792-5000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a Toyota Tundra for sale in Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Toyota of Carroll sells the new Toyota Tundra, including the available i-FORCE MAX powertrain, at 1526 Le Clark Road in Carroll, Iowa. To find a specific trim such as a TRD Pro, call the sales team at (712) 792-5000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the Toyota Tacoma and Tundra?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Toyota Tacoma is a midsize pickup, and the Toyota Tundra is a full-size pickup built for bigger towing and hauling jobs. Motor Inn Toyota of Carroll in Carroll, Iowa, sells both and can set up a back-to-back test drive."
+          }
+        }
+      ]
+    }
+  ]
+}

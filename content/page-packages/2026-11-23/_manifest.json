@@ -1,0 +1,83 @@
+[
+  {
+    "slug": "contactus-carroll",
+    "site": "www.motorinnautogroup.com",
+    "ai_mirror_target": "ai.motorinnautogroup.com (group mirror)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinnautogroup.com/contactus.aspx",
+    "status": "IN-PLACE content block for the existing live contact page /contactus",
+    "impressions_12mo": 7379
+  },
+  {
+    "slug": "used-cars-carroll-iowa",
+    "site": "www.motorinnautogroup.com",
+    "ai_mirror_target": "ai.motorinnautogroup.com (group mirror)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinnautogroup.com/used-cars-carroll-iowa",
+    "status": "IN-PLACE refresh of the existing live URL /used-cars-carroll-iowa",
+    "impressions_12mo": 2569
+  },
+  {
+    "slug": "chevy-dealer-carroll-iowa",
+    "site": "www.motorinnofcarroll.com",
+    "ai_mirror_target": "Chevy-host mirror (per-host catalog, spenchey/ai-markdown-proxy)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinnofcarroll.com/chevy-dealer-carroll-iowa",
+    "status": "NEW page",
+    "impressions_12mo": 13633
+  },
+  {
+    "slug": "chevy-suvs-for-sale-carroll-iowa",
+    "site": "www.motorinnofcarroll.com",
+    "ai_mirror_target": "Chevy-host mirror (per-host catalog, spenchey/ai-markdown-proxy)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinnofcarroll.com/chevy-suvs-for-sale-carroll-iowa",
+    "status": "NEW page (the Chevy site has model pages but no SUV shopping page)",
+    "impressions_12mo": 6593
+  },
+  {
+    "slug": "chevy-blazer-for-sale-carroll-iowa",
+    "site": "www.motorinnofcarroll.com",
+    "ai_mirror_target": "Chevy-host mirror (per-host catalog, spenchey/ai-markdown-proxy)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinnofcarroll.com/chevy-blazer-for-sale-carroll-iowa",
+    "status": "NEW page (the Chevy site has year-model pages /2026-chevrolet-blazer and /2026-chevrolet-blazer-ev but no shopping or 'for sale' page)",
+    "impressions_12mo": 2731
+  },
+  {
+    "slug": "chevy-trucks-for-sale-carroll-iowa",
+    "site": "www.motorinnofcarroll.com",
+    "ai_mirror_target": "Chevy-host mirror (per-host catalog, spenchey/ai-markdown-proxy)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinnofcarroll.com/chevy-trucks-for-sale-carroll-iowa",
+    "status": "NEW page on the Chevy site",
+    "impressions_12mo": 1586
+  },
+  {
+    "slug": "toyota-dealers-in-iowa",
+    "site": "www.motorinntoyotaofcarroll.com",
+    "ai_mirror_target": "Toyota-host mirror (per-host catalog, spenchey/ai-markdown-proxy)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinntoyotaofcarroll.com/toyota-dealers-in-iowa",
+    "status": "NEW page",
+    "impressions_12mo": 2831
+  },
+  {
+    "slug": "toyota-tacoma-tundra-for-sale-carroll-iowa",
+    "site": "www.motorinntoyotaofcarroll.com",
+    "ai_mirror_target": "Toyota-host mirror (per-host catalog, spenchey/ai-markdown-proxy)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinntoyotaofcarroll.com/toyota-tacoma-tundra-for-sale-carroll-iowa",
+    "status": "NEW page",
+    "impressions_12mo": 473
+  },
+  {
+    "slug": "toyota-sequoia-sienna-for-sale-carroll-iowa",
+    "site": "www.motorinntoyotaofcarroll.com",
+    "ai_mirror_target": "Toyota-host mirror (per-host catalog, spenchey/ai-markdown-proxy)",
+    "ai_status": "draft, not deployed",
+    "url": "https://www.motorinntoyotaofcarroll.com/toyota-sequoia-sienna-for-sale-carroll-iowa",
+    "status": "NEW page",
+    "impressions_12mo": 311
+  }
+]

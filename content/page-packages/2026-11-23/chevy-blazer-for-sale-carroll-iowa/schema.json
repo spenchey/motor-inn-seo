@@ -1,0 +1,117 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motorinnofcarroll.com/chevy-blazer-for-sale-carroll-iowa#webpage",
+      "url": "https://www.motorinnofcarroll.com/chevy-blazer-for-sale-carroll-iowa",
+      "name": "Chevy Blazer for Sale in Carroll, IA | Motor Inn of Carroll",
+      "description": "Find a Chevy Blazer or Blazer EV for sale at Motor Inn Chevrolet of Carroll, 1526 Le Clark Road, Carroll, Iowa. Test drives and offers: (712) 792-5000.",
+      "inLanguage": "en-US",
+      "about": {
+        "@id": "https://www.motorinnofcarroll.com/#dealer"
+      },
+      "publisher": {
+        "@id": "https://www.motorinnofcarroll.com/#dealer"
+      }
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://www.motorinnofcarroll.com/#dealer",
+      "name": "Motor Inn Chevrolet of Carroll",
+      "url": "https://www.motorinnofcarroll.com/",
+      "telephone": "+1-712-792-5000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1526 Le Clark Road",
+        "addressLocality": "Carroll",
+        "addressRegion": "IA",
+        "postalCode": "51401",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Chevrolet"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Carroll, Iowa"
+      },
+      "alternateName": "Motor Inn of Carroll",
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Motor Inn Auto Group",
+        "url": "https://www.motorinnautogroup.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinnofcarroll.com/chevy-blazer-for-sale-carroll-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I find a Chevy Blazer for sale near Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Chevrolet of Carroll sells the new Chevrolet Blazer and Blazer EV at 1526 Le Clark Road in Carroll, Iowa. Inventory changes, so the Blazer search on motorinnofcarroll.com shows what is on the lot today. The phone number is (712) 792-5000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between the Chevy Blazer and the Blazer EV?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The Chevrolet Blazer is a gas-powered two-row SUV, and the Blazer EV is an all-electric two-row SUV. Motor Inn Chevrolet of Carroll in Carroll, Iowa, sells both and can set up a test drive of either one."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get Chevy Blazer lease prices near me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Chevrolet of Carroll in Carroll, Iowa, gives current Blazer and Blazer EV lease options by phone at (712) 792-5000. Lease prices come from factory programs that change, so this page does not quote a lease price."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I test drive a Chevy Blazer in Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Chevrolet of Carroll schedules Blazer and Blazer EV test drives at 1526 Le Clark Road in Carroll, Iowa. Call (712) 792-5000, and the team will confirm which Blazer is available and set a time."
+          }
+        }
+      ]
+    }
+  ]
+}
