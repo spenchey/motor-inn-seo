@@ -1,1 +1,2 @@
-Original raw GSC evidence stayed local due to a Glyph permission failure. Evidence source: pipeline/cache/gsc-ebe12c9ada14b64a0e7109947605c9fda56519dd29dc75342cd69bd0b4e74383.json.
+Local raw source files kept for review because remote copy failed. Source data is safe and readable.
+Original raw source files: ads/gsc-keywords-12mo.json, ads/gsc-page-request-repro.json.
