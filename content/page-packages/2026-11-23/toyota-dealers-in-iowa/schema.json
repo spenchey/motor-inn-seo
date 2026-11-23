@@ -1,0 +1,124 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motorinntoyotaofcarroll.com/toyota-dealers-in-iowa#webpage",
+      "url": "https://www.motorinntoyotaofcarroll.com/toyota-dealers-in-iowa",
+      "name": "Toyota Dealer in Iowa | Motor Inn Toyota of Carroll",
+      "description": "Looking for a Toyota dealer in Iowa? Motor Inn Toyota of Carroll is at 1526 Le Clark Road, Carroll, off US 30. New, Certified, service. (712) 792-5000.",
+      "inLanguage": "en-US",
+      "about": {
+        "@id": "https://www.motorinntoyotaofcarroll.com/#dealer"
+      },
+      "publisher": {
+        "@id": "https://www.motorinntoyotaofcarroll.com/#dealer"
+      }
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://www.motorinntoyotaofcarroll.com/#dealer",
+      "name": "Motor Inn Toyota of Carroll",
+      "url": "https://www.motorinntoyotaofcarroll.com/",
+      "telephone": "+1-712-792-5000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1526 Le Clark Road",
+        "addressLocality": "Carroll",
+        "addressRegion": "IA",
+        "postalCode": "51401",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Toyota"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Carroll, Iowa"
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "Motor Inn Auto Group",
+        "url": "https://www.motorinnautogroup.com/"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinntoyotaofcarroll.com/toyota-dealers-in-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where is a Toyota dealer in west-central Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Toyota of Carroll is a Toyota dealer at 1526 Le Clark Road in Carroll, Iowa, just off West US Highway 30. It sells new and Certified Pre-Owned Toyotas and services Toyota vehicles. The phone number is (712) 792-5000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a Toyota dealership in Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Toyota of Carroll is a Toyota dealership at 1526 Le Clark Road, Carroll, IA 51401. It shares that address with Motor Inn Chevrolet of Carroll, and both are part of Motor Inn Auto Group."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I get Toyota service near Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Toyota of Carroll has a Toyota service center at 1526 Le Clark Road in Carroll, Iowa. Service can be scheduled online at motorinntoyotaofcarroll.com or by calling (712) 792-5000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Motor Inn Toyota of Carroll sell Certified Pre-Owned Toyotas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Toyota of Carroll in Carroll, Iowa, sells Toyota Certified Pre-Owned vehicles as well as new Toyotas and used vehicles of other brands. Current certified inventory is listed on motorinntoyotaofcarroll.com."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I trade in my car at the Toyota dealer in Carroll without an appointment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Toyota of Carroll appraises trade-ins on a walk-in basis, so no appointment is needed. Shoppers can also start a trade value online at motorinntoyotaofcarroll.com before they visit."
+          }
+        }
+      ]
+    }
+  ]
+}

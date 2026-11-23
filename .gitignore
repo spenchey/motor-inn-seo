@@ -20,3 +20,8 @@ audits/toolkit/*/inspector-stderr.log
 findings/*
 !findings/checks.json
 !findings/expected-sites.json
+
+# 2026-11-23 DealerOn handoff: live-page captures, unzipped pages (in the zip) and QA screenshots stay local
+deliveries/dealeron-handoff-2026-11-23/_chrome/
+deliveries/dealeron-handoff-2026-11-23/pages/
+deliveries/dealeron-handoff-2026-11-23/_qa/*.png

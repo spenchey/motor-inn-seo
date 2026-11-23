@@ -1,0 +1,240 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.motorinnautogroup.com/used-cars-carroll-iowa#webpage",
+      "url": "https://www.motorinnautogroup.com/used-cars-carroll-iowa",
+      "name": "Used Cars for Sale in Carroll, Iowa | Motor Inn Auto Group",
+      "description": "Used cars, trucks and SUVs of every brand at Motor Inn Auto Group, 1526 Le Clark Road, Carroll, Iowa. Walk-in trade appraisals. Call (712) 792-5000.",
+      "inLanguage": "en-US",
+      "about": {
+        "@id": "https://www.motorinnautogroup.com/#dealer"
+      },
+      "publisher": {
+        "@id": "https://www.motorinnautogroup.com/#dealer"
+      }
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://www.motorinnautogroup.com/#dealer",
+      "name": "Motor Inn Auto Group",
+      "url": "https://www.motorinnautogroup.com/",
+      "telephone": "+1-712-792-5000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1526 Le Clark Road",
+        "addressLocality": "Carroll",
+        "addressRegion": "IA",
+        "postalCode": "51401",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Toyota"
+        },
+        {
+          "@type": "Brand",
+          "name": "Chevrolet"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Carroll, Iowa"
+      },
+      "department": [
+        {
+          "@id": "https://www.motorinntoyotaofcarroll.com/#dealer"
+        },
+        {
+          "@id": "https://www.motorinnofcarroll.com/#dealer"
+        }
+      ]
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://www.motorinntoyotaofcarroll.com/#dealer",
+      "name": "Motor Inn Toyota of Carroll",
+      "url": "https://www.motorinntoyotaofcarroll.com/",
+      "telephone": "+1-712-792-5000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1526 Le Clark Road",
+        "addressLocality": "Carroll",
+        "addressRegion": "IA",
+        "postalCode": "51401",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Toyota"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Carroll, Iowa"
+      }
+    },
+    {
+      "@type": "AutoDealer",
+      "@id": "https://www.motorinnofcarroll.com/#dealer",
+      "name": "Motor Inn Chevrolet of Carroll",
+      "url": "https://www.motorinnofcarroll.com/",
+      "telephone": "+1-712-792-5000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1526 Le Clark Road",
+        "addressLocality": "Carroll",
+        "addressRegion": "IA",
+        "postalCode": "51401",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:30"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Thursday"
+          ],
+          "opens": "08:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "brand": [
+        {
+          "@type": "Brand",
+          "name": "Chevrolet"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Carroll, Iowa"
+      },
+      "alternateName": "Motor Inn of Carroll"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.motorinnautogroup.com/used-cars-carroll-iowa#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where can I find used cars for sale in Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Auto Group sells used cars, trucks and SUVs at 1526 Le Clark Road in Carroll, Iowa, just off West US Highway 30. The used inventory includes more brands than Toyota and Chevrolet, depending on trade-ins. The live used inventory search on motorinnautogroup.com shows what is on the lot today."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a Carroll used car dealer take trade-ins without an appointment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Auto Group in Carroll, Iowa, appraises trade-ins on a walk-in basis, so no appointment is needed. Shoppers can also start a trade value online before they visit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I get financing on a used car in Carroll, Iowa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Auto Group in Carroll works with a network of lenders to finance used vehicles as well as new ones. Shoppers can bring a payment range, and the team will go through the options with them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I find a used car under $20,000 in Carroll?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Motor Inn Auto Group in Carroll, Iowa, has price-filtered used searches for vehicles under $20,000 and under $15,000 on motorinnautogroup.com. Those searches update as inventory changes. To check a specific vehicle, call (712) 792-5000."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there used car dealerships in Carroll, IA?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Motor Inn Auto Group sells used cars, trucks and SUVs of every brand at 1526 Le Clark Road in Carroll, Iowa. Because it is also a franchised Toyota and Chevrolet dealership, factory service for both brands is on site. The phone number is (712) 792-5000."
+          }
+        }
+      ]
+    }
+  ]
+}
