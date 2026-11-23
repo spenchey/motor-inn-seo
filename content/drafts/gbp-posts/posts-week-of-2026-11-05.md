@@ -43,7 +43,7 @@ December asks a question about every errand: is it done yet? The one that cannot
 ### Post 3: The Trade Number Does Not Care What Month The Tax Year Thinks It Is
 **Type:** update
 **Publish date:** 2026-12-15
-**Approval:** pending
+**Approval:** approved — Spencer, 2026-11-20 11:03 CT
 **Target keyword:** trade in before year end Iowa
 
 **Copy:**

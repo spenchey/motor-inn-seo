@@ -1,49 +1,98 @@
-# GBP Structural Audit — 2026-11-16 (completed by jeeves from Rory's run)
+# GBP Structural Audit — 2026-11-23
 
-Note: Rory's 11:30 run delivered findings but hit its iteration ceiling before writing the report file, Slack posts, and email. This file is that run's findings, finalized. Delivery completed 2026-11-16 by jeeves.
+## Executive Summary
+- **What changed or matters most this week:** Review momentum is the strong suit — the primary listing hit **270 reviews / 4.6**, with the best week since tracking began (**9 new reviews Nov 16–22**, vs 4 the week prior) and 14 in November so far. Owner posts are fresh and local (four new posts Oct 29 + one Oct 22, all service/trade-themed, one linking the used row for Black Friday week). Every structural fix on the list, though, is the same list as last week: photo gallery still stuck in 2020/2021 era, no Book online CTA while Champion Ford shows one, and the Buick listing has now been "Permanently closed" for roughly three months.
+- **Biggest risk or opportunity:** Opportunity — reviews and posts prove the account is active and the team responds fast; the profiles look alive. Risk — the two things shoppers actually *click* (recent photos, one-tap booking) are the two things still missing, and Coleman/Spirit Lake Ford keeps widening the photo-recency gap (Sep 2026 vs our ~2020/21 public carousel).
+- **What should be done next:** One 30-minute GBP admin session fixes the three standing items at once: upload the first 4-photo batch (plan attached), add the booking link to the service appointment page, and publish description V2. Second: reply to the single unanswered review (Jason Lhotka, Nov 22, 2 stars) — it is the only open one and reply lag has been 0–6 days all year.
+- **Spencer decision needed?** Yes, one: the standing Buick listing call — reopen/merge the "Permanently closed" Buick at Motor Inn listing (792-6275) or let it ride. Plus ~15 minutes to approve the photo batch; everything else is execution, not decisions.
 
-## What was delivered to disk on nada-mini (verified)
-- `~/motor-inn-seo/audits/gbp-structural/gbp-research-2026-11-16.json` — EXA research, 33,726 bytes, script exit 0
-- `~/motor-inn-seo/audits/gbp-structural/reviews-pull-2026-11-16.json` — GBP API v4 pull via `velocity-pull.js` (owner_oauth), 147,774 bytes
-- `~/motor-inn-seo/audits/gbp-structural/scrapes-2026-11-16/` — signed-out Maps scrapes (combined, Chevrolet, parts/service sub-listings, Buick, Macke)
+---
 
-## Core findings (all source-backed from today's pulls/scrapes)
+## Categories
+Signed-out Maps, 2026-11-23 (combined listing scrape + Champion scrape):
 
-**Reviews (GBP API, authoritative)**
-- Primary Toyota+Chevrolet listing (...817758): **261 total, 4.6** — up from 252 on 10-26 (+9 since Oct 27). Weekly velocity W41→W46: 5 → 8 → 6 → 4 → 1 → 4. Nov MTD: 5. Reply coverage last-20: **20/20, lag 0–6 days.** Healthy.
-- Chevrolet listing (...902964): **37 / 4.8, zero new reviews since Aug 28** — the drought is now ~11 weeks. Reply coverage fine (no recent reviews to answer). Process fix (ask at delivery) still owed.
+| Category | Motor Inn (primary) | Champion Ford |
+|----------|--------------------|---------------|
+| Toyota dealer | **Primary** | — |
+| Chevrolet dealer | Secondary (nested Chevrolet listing, "Floor 1") | — |
+| Car dealer | Secondary | — |
+| Car finance and loan company | Secondary | — |
+| Car leasing service | Secondary | — |
+| Truck dealer | Secondary | — |
+| Used car dealer | Secondary | — |
+| Used truck dealer | Secondary | — |
+| Ford dealer | — | Primary |
+| Lincoln dealer | — | Secondary |
 
-**Public-listing scrapes (signed-out, 2026-11-16)**
-- Combined listing: 4.6, Toyota dealer, owner post live (Thanksgiving service, dated Oct 29) — fresher than last audit's Oct 8 post. Phone (712) 792-5000 correct; xtime.com + motorinnautogroup.com links present.
-- Chevrolet listing: 4.8, nested "Floor 1" under combined; **no Book online CTA** (About tab: accessibility only).
-- **Buick listing still "Permanently closed"** ("Buick at MOTOR INN OF CARROLL, L.L.C.", 792-6275) — ~12th documented week. Macke's live 5.0 Buick listing remains the contrast.
-- Duplicate shell "Motor Inn Auto Group" (888-698-6447, no reviews) still present; the 5.0(1) auto-repair listing also surfaces.
-- Sub-listings seen: Chevrolet Parts (882-7492), Chevrolet Service (882-7925), Toyota Parts (387-7059) — all zero reviews.
+Sub-listings visible under our campus: Chevrolet Service, Chevrolet Parts (Auto parts store), Toyota Service, Toyota Parts. Buick listing separate ("Permanently closed"). Category set unchanged vs last week; no competitor category gains observed in the scrape. Macke/Wittrock/Okoboji listings were not re-scraped this week (browser-run skipped; no category drift reported by the public data we did capture).
 
-**Photo gallery floors (photo-viewer probe)**
-- Motor Inn combined: **Oct 2020 (4th straight audit unchanged)**; Chevrolet: May 2023; Chevrolet Parts: Feb 2022 (prior).
-- Competitors: Coleman/Spirit Lake Ford CDJR **Sep 2026 (best)**, Fort Dodge Sep 2026, Wilson May 2026, Choice Nov 2025, Rick Collins / Toyota of Des Moines Oct 2025, Okoboji Dec 2022, Wittrock Jan 2023, Champion Oct 2018, Macke Nov 2021.
-- The carried 4-week / 36-photo upload plan (`content/drafts/gbp-photos/photo-plan-2026-10-12.md`) has still not visibly landed. Week 1 batch reissued a fourth time.
+### Missing Categories (Prioritized)
+- P1: none — all mapped brand/service categories relevant to Motor Inn are present on the pair of listings.
+- P2: none new.
+- P3: Buick dealer — exists only on the "Permanently closed" Buick at Motor Inn listing. If that listing is reopened/merged (Spencer decision, standing ~12 weeks), the Buick category returns to live search surfaces. No action possible without that decision.
 
-**Attributes / posts**
-- Book online: only Okoboji Motor Co. has it (About tab confirmed: entrance/parking/restroom/seating + "Book online"). Motor Inn, Champion, Wittrock, Coleman, Macke, Choice: none visible. Our `serviceappmt.aspx` 301→`service-appmt` resolves 200 at `service-locations.html` — the CTA target exists; admin config still not done.
-- Competitor owner posts live: Coleman (2026 Pacifica, Nov 3–30), Wilson (pre-owned Highlander $32,483, Nov 10–30), Macke (Silverado lease $379/mo). Our Thanksgiving service post is the only local service-angle post — good.
+## Attributes
+| Attribute | Motor Inn | Champion Ford |
+|-----------|-----------|---------------|
+| Wheelchair accessible entrance | Yes | Yes |
+| Wheelchair accessible parking lot | Yes | Yes |
+| Service booking link (Book online / appointment URL) | **No** (site link present; GBP booking CTA not configured) | Yes (deep link to service-appointment page) |
 
-**Services / description**
-- Signed-out Maps exposes no services blocks on any listing this run (limits noted in report scope). Drafted service descriptions (2026-08-17) still match the live site; description Version 2 still pending the same admin pass as the Book online CTA.
+(Okoboji Motor Co. remains the only area listing with Google's native "Book online"; per 11-16 About-tab check — unchanged.)
 
-## Infrastructure findings (new, actionable)
-1. **The OpenClaw cron `gbp-structural-audit-weekly` is `enabled: false` and its last *successful* run was 2026-07-27.** Tonight's manual `cron run` failed with `EmbeddedAttemptSessionTakeoverError` after 4 model connection errors. The Monday 11:30 audit has effectively not been running on schedule since July — audits on 8-17, 10-12, 10-19, 10-26 were manual/ad-hoc.
-2. **Local Spark was down end-to-end:** `ollama2` provider (100.75.67.104:11434) refusing connections; Mini's local ollama was v0.24 (too old for `qwen3.6:35b-a3b`, which needs ≥0.32.4). I upgraded Homebrew ollama to 0.40.16, restarted the LaunchAgent, and **pulled qwen3.6:35b-a3b (23 GB) successfully** — but generation 500s: "model requires 21.5 GiB, only 11.3 GiB available" on the 16 GB Mini. Fix needs `sudo sysctl iogpu.wired_limit_mb≈13800` (passwordless sudo not configured; interactive `osascript` admin attempts from the cron context all failed). **Recommend Spencer run that one sysctl (or add SUDO_PASSWORD to the rory .env) — then the local model works.** Until then the ds4 provider (100.98.90.106:8000) is also refused, so agent runs should use a reachable provider.
-3. The canary (`google-reviews-gbp-canary.sh`, every 15 min) is green: `OK auth=owner_oauth total_reviews=261`.
+### Missing Attributes (Prioritized)
+- **Table stakes:** none — accessibility attributes match Champion.
+- **Strong rec:** booking/appointment CTA. Ranking impact: low-medium; **CTR impact: yes** — Champion's "book service appointment" button is a one-tap path our profile lacks even though `service-locations` resolves 200. Fix is admin config, not a website change.
 
-## Not completed this run
-- The formatted report file `gbp-structural-2026-11-16.md` / `-latest.md`, dated draft files, git commit/push, Slack posts (#seo-monitoring C0AC3BP5XPF, #automated-marketing C0AGB08UY9W), and the email via `send-gbp-structural-email.sh` were **not** finished — the run hit its iteration ceiling while working the ollama VRAM issue. The email has therefore **not** been confirmed sent (exit 0 not achieved); treat delivery as pending, per the fail-loud rule.
+## Services
+| Service area | Motor Inn | Notes |
+|---|---|---|
+| Sales (new + used, Toyota & Chevrolet) | 8 service items live since 11-16 API push | Read-back verified then; no drift signal this week |
+| Service / parts / test drive / financing / trade appraisal | covered by the 8 items | Chevrolet listing carries 7 (same minus test drive) |
 
-**Spencer decision needed:** (1) run `sudo sysctl iogpu.wired_limit_mb=13800` on nada-mini (or provision SUDO_PASSWORD) so local Spark fits in 16 GB; (2) re-enable the OpenClaw job `gbp-structural-audit-weekly` or tell me to keep running it manually; (3) the standing Buick reopen/merge + duplicate-shell claim decisions remain open, and the Chevrolet review-ask process fix is now ~11 weeks overdue.
+### Services Missing from GBP
+- None known. Site-to-GBP cross-check clean: every site service surface (`/service`, `/trade-in`, `/used-inventory`, sales) maps to a live GBP service item.
 
-## Addendum — completed after the run (jeeves, 2026-11-16 ~21:00)
+### Services Needing Better Descriptions
+- None new. Public Maps again did not render service descriptions (Google limitation, noted every week); the 2026-11-16 API-pushed descriptions are the record and already meet the 40–60 word quality bar. Draft folder: `content/drafts/gbp-services/services-2026-11-23.md` (no-change note).
 
-- Services are now live on both listings via the GBP API (owner_oauth, locations.patch updateMask=serviceItems): 8 on the primary (Service Center, Parts Center, Schedule Service, New/Used Vehicle Sales, Schedule Test Drive, Auto Financing, Trade Appraisal) and 7 on the Chevrolet listing, which previously had none. Read-back verified; see content/drafts/gbp-services/services-live-2026-11-16.md.
-- Job infrastructure fixed: OpenClaw gbp-structural-audit-weekly re-enabled with model glm-tf/GLM-5.3-Flash-EXL3 (dead local-ollama route removed); gbp-velocity-content-weekly re-enabled too. Next scheduled runs: velocity Thu 11-19 15:00, structural Mon 11-23 11:30. No manual runs needed.
-- The ollama2/qwen VRAM question no longer blocks this job: it runs on the GLM endpoint that is verified up (HTTP 200 + live generation). Mini local-ollama tuning (sudo sysctl iogpu.wired_limit_mb) remains optional for other jobs, not this one.
+## Description
+| Business | Public desc visible? | Notes |
+|----------|---------------------|-------|
+| Motor Inn | Not exposed (signed-out) | 3 approved drafts waiting since 08-17; V2 recommended |
+| Champion Ford | Not exposed | — |
+
+### Current Motor Inn Description
+Not retrievable via public scrape this week (unchanged limitation). Last confirmed state predates the 08-17 drafts.
+
+### Recommendation
+**Rewrite — pending the same admin session as the booking link.** Versions live at `content/drafts/gbp-description/description-2026-08-17.md` (V1 keyword / **V2 conversion — recommended** / V3 trust) with a no-change addendum from today (`description-2026-11-23.md`). No new versions written; do not stack duplicates.
+
+## Photos
+| Metric | Motor Inn (combined) | Champion Ford | Best area practice |
+|--------|---------------------|---------------|--------------------|
+| Public count (header) | 67 | 13 | — |
+| Dated bylines in carousel | mostly Oct 2020 / 2018; newest visible Sep 2021 | Oct 2018 era | Coleman Sep 2026 |
+| Nov 2026 uploads observed | 0 visible | 0 | — |
+
+(The "Jul 2026" date seen in raw data is a viewer metadata stamp, not a photo byline; treated as noise.)
+
+### Upload Plan Summary
+**4 photos/week × 4 weeks = 16** — survival cadence, one sitting each. Full shot list: `content/drafts/gbp-photos/photo-plan-2026-11-23.md`. Week 1 due Fri 11-27: entrance, service drive, waiting area, one winter unit. Approval required before upload (standing rule). This is the 8th consecutive week the photo gap is the top item — if the batch lands once, subsequent weeks get easier because the habit exists.
+
+## Review health (context for the week)
+- Primary: 270 @ 4.6 (+9 WoW, best week on record); Nov MTD 14; W47 velocity 9 vs W46 4.
+- Reply coverage: 19/20 of recent reviews; **one open: Jason Lhotka 2★ Nov 22** (service inspection complaint mentioning Nathan positively — reply drafts itself).
+- Chevrolet listing: 37 @ 4.8, drought now ~12 weeks (no new review since Aug 28). Process fix (ask at delivery) still owed — carry.
+- Review themes to mine for posts/replies: Kyle G. named 3× in recent 5★s; body shop (Matt) praised; "no pressure" recurs. Nate (service) positive in the Nov 22 2★ text itself.
+
+## Action Items (This Week)
+1. **One GBP admin session (~30 min):** upload photo batch week 1 (4 photos) + set booking link to the service appointment page + publish description V2. Highest leverage per minute spent; kills three standing P1/P2s at once.
+2. **Reply to the Nov 22 2-star (Jason Lhotka)** — only open review; keep the <1-week reply streak intact.
+3. **Spencer decision — Buick listing:** reopen/merge "Buick at MOTOR INN OF CARROLL" (permanently closed ~3 months, phone 792-6275) or formally drop it. Also still open from prior weeks: Chevrolet review-ask process fix (12-week drought) and duplicate-shell cleanup; none block this week's items.
+
+## Sources
+- `scrapes-2026-11-23/` (signed-out Maps: combined, Chevrolet tree, Champion Ford)
+- `reviews-pull-2026-11-23.json` (GBP API v4, owner_oauth — authoritative counts/replies)
+- EXA research: `gbp-research-2026-11-23.json` (local-pack inputs = relevance/distance/prominence; attributes feed AI summaries; category hygiene per SearchLab dealer study — no new mandatory-category findings vs prior weeks)
+- Prior audit: `gbp-structural-2026-11-16.md`
