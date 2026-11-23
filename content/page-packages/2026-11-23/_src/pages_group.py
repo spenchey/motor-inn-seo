@@ -22,7 +22,7 @@ PAGES = [
         "ship_plan": [
             "Cycle 1: the content block only (sections + FAQ + visit block), placed below the form, plus the FAQPage/AutoDealer JSON-LD. Leave the title, meta and H1 unchanged.",
             "Cycle 2 (after 2-4 weeks of GSC readings): switch the title and meta to the meta.md versions, then promote the H1.",
-            "Separately, as its own DealerOn request, AFTER the cycle-1 block is live on /contactus.aspx: 301 /car-dealerships-carroll-iowa and /car-dealerships-in-carroll-iowa.html to /contactus.aspx (decided 2026-11-23). Then update any internal links pointing at those two URLs.",
+            "Separately, as its own DealerOn request, AFTER the cycle-1 block is live on /contactus.aspx: 301 /car-dealerships-carroll-iowa, /car-dealerships-in-carroll-iowa.html and /car-dealership-carroll-iowa to /contactus.aspx (decided 2026-11-23). Then update any internal links pointing at those three URLs.",
         ],
         "tier": "ready-now",
         "queries": [
@@ -110,10 +110,11 @@ Group site. "Car dealerships Carroll Iowa" is cross-brand, general-dealership in
 1. /contactus.aspx (live; receives the ranking contact traffic). **Recommended owner.**
 2. /car-dealerships-carroll-iowa (live; its 2026-10 approved refresh prints the banned 522-2526 number).
 3. /car-dealerships-in-carroll-iowa.html (live; duplicate).
+5. /car-dealership-carroll-iowa (live; published by DealerOn from the 2026-11-06 handoff; found 2026-11-23).
 4. content/ready-design/contactus-money-page.html (unpublished draft for the same page; retired 2026-11-23).
 
 **Decided (2026-11-23, Spencer delegated the call):**
-- (a) **301** both /car-dealerships-carroll-iowa and /car-dealerships-in-carroll-iowa.html to /contactus.aspx. A canonical tag is only a hint, and Google tends to ignore it between pages that aren't near-duplicates. A content page and a contact page aren't, so a canonical would likely leave the duplicates competing. A 301 consolidates them for certain and also retires the 2026-10 copy that prints the banned 522-2526.
+- (a) **301** /car-dealerships-carroll-iowa, /car-dealerships-in-carroll-iowa.html and /car-dealership-carroll-iowa to /contactus.aspx. Spencer added the third, the singular URL published by DealerOn from the 2026-11-06 handoff. A canonical tag is only a hint, and Google tends to ignore it between pages that aren't near-duplicates. A content page and a contact page aren't, so a canonical would likely leave the duplicates competing. A 301 consolidates them for certain and also retires the 2026-10 copy that prints the banned 522-2526.
 - (b) This package ships on /contactus.aspx. The ready-design contactus draft is retired (moved to content/ready-design/_retired/2026-11-23/).
 """,
         "notes": [
