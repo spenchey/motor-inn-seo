@@ -335,3 +335,15 @@ approval -> DealerOn handoff (www needs its own explicit owner go).
   email sent 21:16 CT via script exit 0 (message 1a1e7813ec700378, to Tony/David/hotmail cc Spencer,
   3 attachments verified in SENT).
 - Mini local-ollama sysctl (iogpu.wired_limit_mb) now OPTIONAL - no job depends on it.
+
+## 2026-11-23: Inkling-2-Mini-Derisked LIVE on fa5a + GSC->Ads keyword package
+1. Inkling-2-Mini-Derisked (Blackfrost) deployed on fa5a per vendor SERVE.md:
+   vllm/vllm-openai:inkling-2-mini, port 8895, 262k ctx, dspark spec-decode x7.
+   Readiness VERIFIED: startup complete + real completion w/ reasoning + content.
+   Endpoint http://100.67.25.103:8895/v1 (fa5a tailnet; no auth - internal only).
+   Weights ~/inkling-derisked (20.2GB via aria2), container restart unless-stopped.
+2. Ads package (googlewaqas workflow) from 12mo GSC x3 properties (10,636 queries):
+   ads/gsc-ads-package-2026-11-22/ - 206 ready-now + 210 researching tiers,
+   40 exact-match keywords (~962 monthly clicks available), 8 ad groups w/ searcher-word
+   ads, negatives.txt. NO campaigns created - awaiting Spencer go to build in Ads.
+   Top opp: [carroll iowa car dealerships] 203 clk/mo pos 10.3.
