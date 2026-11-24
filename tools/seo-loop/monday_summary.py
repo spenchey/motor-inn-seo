@@ -25,8 +25,9 @@ WINDOW_DAYS = 7
 AI_VISITS_MAX_AGE_DAYS = 8  # AI visit numbers whose data ended longer ago than this are stale
 
 GSC = "Google Search Console"
-GA = "Google Analytics"
-LEADS = "our own lead count"
+GA = "Google Analytics visits by site"
+LEADS = "organic lead count"
+CRM = "our CRM website leads"
 GBP = "Google Business reviews and activity"
 AI = "AI answers"
 AI_VISITS = "AI assistant visits"
@@ -138,6 +139,45 @@ def _leads_number(block):
     return value
 
 
+def _crm_number(block):
+    """Website leads the CRM logged in the same period (a check line, never the headline)."""
+    try:
+        metric = block["crm_website_leads"]
+    except (KeyError, TypeError):
+        return None
+    value = metric.get("value") if isinstance(metric, dict) else None
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    return value
+
+
+_WINDOW = re.compile(r"^(\d{4})-(\d{2})-(\d{2})\.\.(\d{4})-(\d{2})-(\d{2})$")
+
+
+def _window_label(block, key: str) -> str:
+    """' (November 1 to November 22)' from a metric window, or '' when it is missing or odd."""
+    try:
+        win = block[key]["window"]
+        m = _WINDOW.match(win)
+        a = _dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        b = _dt.date(int(m.group(4)), int(m.group(5)), int(m.group(6)))
+    except (KeyError, TypeError, AttributeError, ValueError):
+        return ""
+    return " (%s to %s)" % (_date_label(a), _date_label(b))
+
+
+def _site_leads_missing(block) -> bool:
+    """True when the Toyota or Chevrolet organic lead number is not verified."""
+    sites = block.get("sites") if isinstance(block, dict) else None
+    sites = sites if isinstance(sites, dict) else {}
+    for name in ("toyota", "chevy"):
+        entry = sites.get(name)
+        metric = entry.get("organic_leads") if isinstance(entry, dict) else None
+        if not _metric_ok(metric):
+            return True
+    return False
+
+
 def _metric_ok(metric) -> bool:
     """True when a metric object carries a real value (not missing, not 'not verified')."""
     if not isinstance(metric, dict):
@@ -163,6 +203,8 @@ def _unverified_sources(block, gsc, leads, today) -> list:
             out.append(GA)
     if leads is None:
         out.append(LEADS)
+    if _crm_number(block) is None:
+        out.append(CRM)
     listings = block.get("listings") if isinstance(block, dict) else None
     if not isinstance(listings, dict):
         listings = {}
@@ -189,12 +231,12 @@ def _ai_metric(block):
     return block.get("ai_answers") if isinstance(block, dict) else None
 
 
-_WINDOW = re.compile(r"(\d{4}-\d{2}-\d{2})\.\.(\d{4}-\d{2}-\d{2})")
+_RANGE = re.compile(r"(\d{4}-\d{2}-\d{2})\.\.(\d{4}-\d{2}-\d{2})")
 
 
 def _window_dates(window):
     """(start, end) dates for a window written as YYYY-MM-DD..YYYY-MM-DD, else None."""
-    m = _WINDOW.fullmatch(window.strip()) if isinstance(window, str) else None
+    m = _RANGE.fullmatch(window.strip()) if isinstance(window, str) else None
     if not m:
         return None
     try:
@@ -204,7 +246,7 @@ def _window_dates(window):
     return (start, end) if start <= end else None
 
 
-def _window_label(start, end) -> str:
+def _range_label(start, end) -> str:
     """Nov 1\u201323, or Oct 28\u2013Nov 3 when the window crosses a month."""
     first = "%s %d" % (MONTHS[start.month - 1][:3], start.day)
     if start == end:
@@ -221,7 +263,7 @@ def _ai_line(block) -> str:
     if not _metric_ok(metric) or not isinstance(value, (int, float)):
         return "%s: %s." % (AI, NOT_VERIFIED)
     dates = _window_dates(metric.get("window"))
-    window = _window_label(*dates) if dates else "window not stated"
+    window = _range_label(*dates) if dates else "window not stated"
     return "%s: %s (%s)." % (AI, _fmt(value), window)
 
 
@@ -251,7 +293,7 @@ def _ai_referrals_line(baselines, today) -> str:
     visits, leads = counts
     return "AI assistants sent %d %s, %d %s (forms + calls), %s." % (
         visits, "visit" if visits == 1 else "visits",
-        leads, "lead" if leads == 1 else "leads", _window_label(start, end))
+        leads, "lead" if leads == 1 else "leads", _range_label(start, end))
 
 
 def _fmt(value) -> str:
@@ -296,6 +338,8 @@ def _clean(text, known_check_ids):
     if not isinstance(text, str) or not text.strip():
         return None
     text = _plain_dates(" ".join(text.split()))
+    # an ordinary three-word phrase, not a slug, so the slug guard below must not drop the whole line
+    text = text.replace("question-and-answer", "question and answer")
     if _has_private_detail(text):
         return None
     # Our one phone number is allowed; hide it from the slug guard, then restore it.
@@ -364,7 +408,7 @@ def _last_pass_date(row: dict):
     return best
 
 
-def build_message(rows, baselines, previous, today, week_start=None) -> str:
+def build_message(rows, baselines, previous, today, week_start=None, note=None) -> str:
     window_start = today - _dt.timedelta(days=WINDOW_DAYS - 1)
     label_day = week_start if week_start is not None else window_start
     known_ids = sorted({r.get("check_id") for r in rows if isinstance(r.get("check_id"), str)})
@@ -381,7 +425,13 @@ def build_message(rows, baselines, previous, today, week_start=None) -> str:
             if d is not None and window_start <= d <= today:
                 fixed_n += 1
 
-    ask_rows = register.asks(rows, 3, today)
+    # Tier 1 asks come first (the runbook says tier 1 at once), then fix packets waiting for Spencer,
+    # then the other asks; never more than three.
+    every_ask = register.asks(rows, len(rows), today)
+    first = [r for r in every_ask if r.get("tier") == 1]
+    packet_asks = [r for r in every_ask if r not in first
+                   and r.get("status") == "waiting_spencer" and r.get("fix_type") == "dealeron_request"]
+    ask_rows = (first + packet_asks + [r for r in every_ask if r not in first and r not in packet_asks])[:3]
     tier1_open = any(r.get("tier") == 1 for r in open_rows)
 
     gsc = {k: _metric_number(baselines, k, "gsc_clicks_28d") for k in ("group", "toyota", "chevy")}
@@ -415,11 +465,24 @@ def build_message(rows, baselines, previous, today, week_start=None) -> str:
     def build(max_words: int) -> str:
         lines = ["Motor Inn search, week of %s. %s" % (_date_label(label_day), verdict)]
         lines.append(
-            "Clicks over 28 days from %s: group %s, Toyota site %s, Chevrolet site %s. "
-            "Organic leads from %s: %s."
-            % (GSC, _fmt(gsc["group"]), _fmt(gsc["toyota"]), _fmt(gsc["chevy"]), LEADS, _fmt(leads)))
+            "Clicks over 28 days from %s: group %s, Toyota site %s, Chevrolet site %s."
+            % (GSC, _fmt(gsc["group"]), _fmt(gsc["toyota"]), _fmt(gsc["chevy"])))
+        site_note = " Toyota and Chevrolet sites: not verified." if (leads is not None and _site_leads_missing(baselines)) else ""
+        lines.append(
+            "Organic leads from Google search, counted as form sends and phone taps in Google Analytics: %s%s.%s"
+            % (_fmt(leads), _window_label(baselines, "organic_leads_total") if leads is not None else "", site_note))
+        crm = _crm_number(baselines)
+        if crm is None:
+            lines.append("Check against our CRM: %s." % NOT_VERIFIED)
+        else:
+            lines.append(
+                "Check against our CRM: %s website leads%s from our own sites, from any source, "
+                "so this is a ceiling for organic leads, not a count of them."
+                % (_fmt(crm), _window_label(baselines, "crm_website_leads")))
         lines.append(_ai_line(baselines))
         lines.append(_ai_referrals_line(baselines, today))
+        if note:
+            lines.append(note)
         lines.append("Fixed and confirmed on the live site since last week: %d." % fixed_n)
         if n_open:
             lines.append("New this week: %d. Open now: %d. Oldest open problem: %d %s."
@@ -457,6 +520,38 @@ def build_message(rows, baselines, previous, today, week_start=None) -> str:
     return text
 
 
+_MONTH_FILE = re.compile(r"^(\d{4})-(0[1-9]|1[0-2])\.json$")
+
+
+def _load_baselines_with_fallback(path: str):
+    """Load the month's baselines file. When this month's file does not exist yet, use the newest
+    earlier month in the same folder and say so in the note. Returns (data, note or None)."""
+    if os.path.exists(path):
+        return _load_json(path, "baselines file"), None
+    folder = os.path.dirname(os.path.abspath(path))
+    want = _MONTH_FILE.match(os.path.basename(path))
+    if not want:
+        return _load_json(path, "baselines file"), None  # raises the usual refusal
+    this = (int(want.group(1)), int(want.group(2)))
+    best = None
+    try:
+        names = os.listdir(folder)
+    except OSError:
+        names = []
+    for name in names:
+        m = _MONTH_FILE.match(name)
+        if m and (int(m.group(1)), int(m.group(2))) < this:
+            key = (int(m.group(1)), int(m.group(2)))
+            if best is None or key > best[0]:
+                best = (key, name)
+    if best is None:
+        return _load_json(path, "baselines file"), None  # nothing earlier either: usual refusal
+    data = _load_json(os.path.join(folder, best[1]), "earlier baselines file")
+    note = ("The numbers above come from the %s %d file; the %s %d file has not been built yet."
+            % (MONTHS[best[0][1] - 1], best[0][0], MONTHS[this[1] - 1], this[0]))
+    return data, note
+
+
 # ---------------------------------------------------------------------------
 # Command line
 # ---------------------------------------------------------------------------
@@ -479,9 +574,9 @@ def main(argv=None, out=None) -> int:
         today = register.resolve_today(args.today)
         week_start = register.parse_date(args.week_start, "--week-start") if args.week_start else None
         rows = _load_register(args.register)
-        baselines = _load_json(args.baselines, "baselines file")
+        baselines, note = _load_baselines_with_fallback(args.baselines)
         previous = _load_json(args.previous_baselines, "earlier baselines file") if args.previous_baselines else None
-        text = build_message(rows, baselines, previous, today, week_start)
+        text = build_message(rows, baselines, previous, today, week_start, note)
     except SummaryError as exc:
         sys.stderr.write("%s\n" % exc)
         return 1

@@ -1,0 +1,11 @@
+{
+  "month": "2026-11",
+  "sites": {
+    "group": {"gsc_clicks_28d": {"value": 1840, "window": "2026-10-21..2026-11-17", "source": "gsc", "pulled_at": "2026-11-18T06:00:00Z"}, "ga4_organic_sessions_28d": "not verified"},
+    "toyota": {"gsc_clicks_28d": {"value": 1100, "window": "2026-10-21..2026-11-17", "source": "gsc", "pulled_at": "2026-11-18T06:00:00Z"}},
+    "chevy": {"gsc_clicks_28d": {"value": 740, "window": "2026-10-21..2026-11-17", "source": "gsc", "pulled_at": "2026-11-18T06:00:00Z"}}
+  },
+  "listings": {"gbp-toyota": {"review_count": "not verified"}, "gbp-chevy": {"review_count": "not verified"}, "gbp-group": {"review_count": "not verified"}},
+  "organic_leads_total": "not verified",
+  "ai_answers": "not verified"
+}

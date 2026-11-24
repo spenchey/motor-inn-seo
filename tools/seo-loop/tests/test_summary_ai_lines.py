@@ -67,7 +67,7 @@ class AiLineTests(unittest.TestCase):
         self.assertEqual(rc, 0)
         self.assertEqual(len([ln for ln in out.splitlines() if ln.startswith("AI answers:")]), 1)
         self.assertIn("AI answers: not verified.", out)
-        self.assertIn("Not verified this week: AI answers, AI assistant visits.", out)
+        self.assertIn("Not verified this week: our CRM website leads, AI answers, AI assistant visits.", out)
         self.scan(out)
 
     def test_ai_assistant_visits_line_with_block(self):
