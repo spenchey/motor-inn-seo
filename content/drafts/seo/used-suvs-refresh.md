@@ -9,7 +9,7 @@ status: draft-needs-owner-approval
 research_sha: audits/audit-2026-11-23.md (GA4 week Nov 9-15, 2026)
 date: 2026-11-24
 page_action: refresh-existing (replace the custom content section of the live /used-suvs page; keep the inventory listings module as-is)
-editorial_round: 5 (one-obvious-next-step restructure after codex adversarial r4 FAIL: single phone CTA early + repeated once; sections declarative)
+editorial_round: 6 (two one-line fixes after codex adversarial r5 FAIL: lowest-priced claim reworded to link label; competing test-drive CTA made declarative)
 ---
 
 # Used SUVs and Crossovers for Sale in Carroll, IA

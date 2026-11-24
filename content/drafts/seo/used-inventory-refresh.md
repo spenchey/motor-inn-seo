@@ -9,7 +9,7 @@ status: draft-needs-owner-approval
 research_sha: audits/audit-2026-11-23.md (GSC/GA4 week Nov 9-15, 2026)
 date: 2026-11-24
 page_action: refresh-existing (replace the custom content section of the live /used-inventory page; keep the inventory listings module as-is)
-editorial_round: 5 (one-obvious-next-step restructure after codex adversarial r4 FAIL: single phone CTA early + repeated once; sections declarative)
+editorial_round: 6 (two one-line fixes after codex adversarial r5 FAIL: lowest-priced claim reworded to link label; competing test-drive CTA made declarative)
 ---
 
 # Used Cars, SUVs and Trucks in Carroll, IA
@@ -26,7 +26,7 @@ Two used vehicles drew the most site views the week of November 9-15, 2026. Both
 
 ## How can I set a budget before I visit?
 
-The [vehicles under $20,000](/under-20k.html) list shows the lowest-priced used vehicles in one place, and the [payment calculator](/paymentcalc.aspx) tests a monthly range. Figures on a particular vehicle come from a call about that unit.
+The [vehicles under $20,000](/under-20k.html) list groups the used vehicles priced under $20,000 in one place, and the [payment calculator](/paymentcalc.aspx) tests a monthly range. Figures on a particular vehicle come from a call about that unit.
 
 ## What about my current vehicle?
 

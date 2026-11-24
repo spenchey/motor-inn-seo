@@ -9,7 +9,7 @@ status: draft-needs-owner-approval
 research_sha: brain/ai-visibility/ai-vis-2026-11-23.md; brain/competitor-read-2026-09-23.md; audits/audit-2026-11-23.md
 date: 2026-11-24
 page_action: new-page (URL returned 404 on 2026-11-24; distinct from /used-cars-carroll-iowa (inventory intent, wave-1 draft) and /used-inventory (live SRP): this page answers the dealer-choice question)
-editorial_round: 5 (one-obvious-next-step restructure after codex adversarial r4 FAIL: single phone CTA early + repeated once; sections declarative)
+editorial_round: 6 (two one-line fixes after codex adversarial r5 FAIL: lowest-priced claim reworded to link label; competing test-drive CTA made declarative)
 ---
 
 # Used Car Dealer in Carroll, Iowa
@@ -36,4 +36,4 @@ The same questions work at every store. A straight answer on paper is easy to co
 
 ## How do I look at a vehicle in person?
 
-Call 712-792-5000 and name the vehicle on the [used inventory list](/used-inventory), or use the [test-drive scheduling form](/testdrive.aspx?type=Used). [Hours and directions](/hours.aspx) are on the site for drivers coming from Lake City, Denison, Audubon, Storm Lake or Sac City.
+Call 712-792-5000 and name the vehicle on the [used inventory list](/used-inventory). A [test-drive scheduling form](/testdrive.aspx?type=Used) is on the site, and [hours and directions](/hours.aspx) are there for drivers coming from Lake City, Denison, Audubon, Storm Lake or Sac City.

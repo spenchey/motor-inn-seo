@@ -9,7 +9,7 @@ status: draft-needs-owner-approval
 research_sha: brain/reports/gsc-cannibalization-2026-11-03.md; audits/audit-2026-11-23.md; brain/ai-visibility/ai-vis-2026-11-23.md
 date: 2026-11-24
 page_action: refresh-existing (rewrite of the live page's custom content to correct the published phone number and founding year - both defects quoted in the REVIEW packet - and to sharpen the page for 'car dealerships carroll iowa')
-editorial_round: 5 (one-obvious-next-step restructure after codex adversarial r4 FAIL: single phone CTA early + repeated once; sections declarative)
+editorial_round: 6 (two one-line fixes after codex adversarial r5 FAIL: lowest-priced claim reworded to link label; competing test-drive CTA made declarative)
 ---
 
 # Car Dealerships in Carroll, Iowa
