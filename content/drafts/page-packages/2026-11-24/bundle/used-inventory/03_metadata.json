@@ -7,7 +7,7 @@
   "placement": "Existing page /used-inventory: replace the custom intro/content section only; leave the DealerOn inventory listings module untouched.",
   "target_query": "used cars carroll iowa",
   "source_file": "used-inventory-refresh.md",
-  "source_sha256": "0602bb7159c4013ec9519c40ce29875198daa685d7590ba2a476509ed27579e9",
+  "source_sha256": "af770a4aee331561a09b334a5c3126e4dae15b5f093df3f81ab6a9ccd88061a0",
   "gate": {
     "passed": true,
     "rules": [

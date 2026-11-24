@@ -7,7 +7,7 @@
   "placement": "Existing page /car-dealerships-carroll-iowa: full replacement of the custom content region; corrects the phone number and founding year currently published there (details in the REVIEW packet).",
   "target_query": "car dealerships carroll iowa",
   "source_file": "car-dealerships-carroll-iowa-refresh.md",
-  "source_sha256": "c6e525ff3aceb59eb54a2e54786cd74599fd6acab46aef58ac1dd4b99b506b0f",
+  "source_sha256": "7630e7f8ac66eefc7a8ee14e83607d638781f7b9836258e0d19bcf63b3582d03",
   "gate": {
     "passed": true,
     "rules": [

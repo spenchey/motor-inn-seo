@@ -7,7 +7,7 @@
   "placement": "Existing page /used-suvs: replace the custom intro/content section only; leave the DealerOn inventory listings module untouched.",
   "target_query": "used suvs carroll iowa",
   "source_file": "used-suvs-refresh.md",
-  "source_sha256": "1fa7e3ed0d3f4039a7794fdc85b8c6aea2d9d4a8864d11c2514516cacf87477e",
+  "source_sha256": "28eccb2ed6c5179227705973a3d30848f61174fdc7b5fb18f55c8806e3c4a31e",
   "gate": {
     "passed": true,
     "rules": [

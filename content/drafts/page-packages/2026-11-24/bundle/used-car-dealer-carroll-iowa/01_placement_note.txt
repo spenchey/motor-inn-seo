@@ -16,7 +16,7 @@ What to publish
 
 Page quality gate: PASS (7 of 7 rules)
   [PASS] answer_first_40: The first 40 words carry a number.
-  [PASS] question_heading: Question heading found: "What used vehicles are in stock right now?".
+  [PASS] question_heading: Question heading found: "What used vehicles are in stock?".
   [PASS] no_needs_fact: No [NEEDS FACT] markers.
   [PASS] phone_number: Only 712-792-5000 appears.
   [PASS] no_banned_wording: No aging or popularity wording.

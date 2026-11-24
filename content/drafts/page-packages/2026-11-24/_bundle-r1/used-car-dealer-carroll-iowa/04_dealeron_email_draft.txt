@@ -1,0 +1,19 @@
+DRAFT: needs Spencer's OK in chat
+Subject: New page to publish: Used Car Dealer in Carroll, Iowa | Motor Inn Auto Group
+
+Hello DealerOn team,
+
+Please add one new page to the Motor Inn (Toyota and Chevrolet) website.
+
+- Page title: Used Car Dealer in Carroll, Iowa | Motor Inn Auto Group
+- Placement: New page at /used-car-dealer-carroll-iowa (returned 404 on 2026-11-24). Confirm the URL with DealerOn before publishing.
+- URL slug: used-car-dealer-carroll-iowa
+- Meta title: Used Car Dealer in Carroll, Iowa | Motor Inn Auto Group
+- Meta description: Used car dealer in Carroll, Iowa: used cars, trucks and SUVs at Motor Inn Auto Group, 1526 Le Clark Rd, with service on the same lot. 712-792-5000.
+- Body: paste-ready HTML in the file 02_fragment.html
+
+Please reply with the live page address once it is published so we can check it.
+
+Thank you,
+Motor Inn, Carroll, Iowa
+712-792-5000

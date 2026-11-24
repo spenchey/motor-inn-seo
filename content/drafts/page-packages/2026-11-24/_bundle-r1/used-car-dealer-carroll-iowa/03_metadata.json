@@ -1,0 +1,53 @@
+{
+  "slug": "used-car-dealer-carroll-iowa",
+  "brand": "both",
+  "title": "Used Car Dealer in Carroll, Iowa | Motor Inn Auto Group",
+  "meta_title": "Used Car Dealer in Carroll, Iowa | Motor Inn Auto Group",
+  "meta_description": "Used car dealer in Carroll, Iowa: used cars, trucks and SUVs at Motor Inn Auto Group, 1526 Le Clark Rd, with service on the same lot. 712-792-5000.",
+  "placement": "New page at /used-car-dealer-carroll-iowa (returned 404 on 2026-11-24). Confirm the URL with DealerOn before publishing.",
+  "target_query": "used car dealer carroll iowa",
+  "source_file": "used-car-dealer-carroll-iowa.md",
+  "source_sha256": "c7f693845f30521fa45bb2d563fd8155f605683b9262313f90065f59f913fff5",
+  "gate": {
+    "passed": true,
+    "rules": [
+      {
+        "rule": "answer_first_40",
+        "passed": true,
+        "reason": "The first 40 words carry a number."
+      },
+      {
+        "rule": "question_heading",
+        "passed": true,
+        "reason": "Question heading found: \"What used vehicles are in stock right now?\"."
+      },
+      {
+        "rule": "no_needs_fact",
+        "passed": true,
+        "reason": "No [NEEDS FACT] markers."
+      },
+      {
+        "rule": "phone_number",
+        "passed": true,
+        "reason": "Only 712-792-5000 appears."
+      },
+      {
+        "rule": "no_banned_wording",
+        "passed": true,
+        "reason": "No aging or popularity wording."
+      },
+      {
+        "rule": "make_wall",
+        "passed": true,
+        "reason": "Brand is 'both'; make wall not applied (owner reads that the two makes stay apart)."
+      },
+      {
+        "rule": "title_superlative",
+        "passed": true,
+        "reason": "Title has no 'best' or 'top'."
+      }
+    ],
+    "warnings": []
+  },
+  "status": "draft, needs Spencer's OK in chat"
+}

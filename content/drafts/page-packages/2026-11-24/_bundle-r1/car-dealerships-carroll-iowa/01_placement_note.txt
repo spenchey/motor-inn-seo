@@ -1,0 +1,27 @@
+PLACEMENT NOTE (draft, for review)
+
+Page title: Car Dealerships in Carroll, Iowa | Motor Inn Auto Group
+Make: Motor Inn (Toyota and Chevrolet)
+Suggested URL slug: car-dealerships-carroll-iowa
+Shopper question this page answers: car dealerships carroll iowa
+
+Where it goes on the DealerOn site
+Existing page /car-dealerships-carroll-iowa: full replacement of the custom content region; corrects the phone number and founding year currently published there (details in the REVIEW packet).
+
+What to publish
+- Body: the paste-ready HTML in 02_fragment.html
+- Meta title: Car Dealerships in Carroll, Iowa | Motor Inn Auto Group
+- Meta description: Comparing car dealerships in Carroll, Iowa? Motor Inn Auto Group is the local Toyota and Chevrolet store at 1526 Le Clark Rd. Call 712-792-5000.
+- Details also in 03_metadata.json
+
+Page quality gate: PASS (7 of 7 rules)
+  [PASS] answer_first_40: The first 40 words carry a number.
+  [PASS] question_heading: Question heading found: "What should I compare between Carroll car dealerships?".
+  [PASS] no_needs_fact: No [NEEDS FACT] markers.
+  [PASS] phone_number: Only 712-792-5000 appears.
+  [PASS] no_banned_wording: No aging or popularity wording.
+  [PASS] make_wall: Brand is 'both'; make wall not applied (owner reads that the two makes stay apart).
+  [PASS] title_superlative: Title has no 'best' or 'top'.
+Warnings (style only, human read still needed): none
+
+Nothing in this folder has been published. Spencer approves in chat first.

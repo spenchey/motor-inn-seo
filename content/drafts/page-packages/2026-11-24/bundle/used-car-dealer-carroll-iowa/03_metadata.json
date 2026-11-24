@@ -7,7 +7,7 @@
   "placement": "New page at /used-car-dealer-carroll-iowa (returned 404 on 2026-11-24). Confirm the URL with DealerOn before publishing.",
   "target_query": "used car dealer carroll iowa",
   "source_file": "used-car-dealer-carroll-iowa.md",
-  "source_sha256": "c7f693845f30521fa45bb2d563fd8155f605683b9262313f90065f59f913fff5",
+  "source_sha256": "4ac679086c123d6124323edb3a951acec4243768e9888ad1deb3032f5bdddf6f",
   "gate": {
     "passed": true,
     "rules": [
@@ -19,7 +19,7 @@
       {
         "rule": "question_heading",
         "passed": true,
-        "reason": "Question heading found: \"What used vehicles are in stock right now?\"."
+        "reason": "Question heading found: \"What used vehicles are in stock?\"."
       },
       {
         "rule": "no_needs_fact",

@@ -1,0 +1,19 @@
+DRAFT: needs Spencer's OK in chat
+Subject: New page to publish: Used SUVs for Sale in Carroll, IA | Motor Inn Auto Group
+
+Hello DealerOn team,
+
+Please add one new page to the Motor Inn (Toyota and Chevrolet) website.
+
+- Page title: Used SUVs for Sale in Carroll, IA | Motor Inn Auto Group
+- Placement: Existing page /used-suvs: replace the custom intro/content section only; leave the DealerOn inventory listings module untouched.
+- URL slug: used-suvs
+- Meta title: Used SUVs for Sale in Carroll, IA | Motor Inn Auto Group
+- Meta description: Used SUVs and crossovers for sale in Carroll, IA. Compare the current list at Motor Inn Auto Group and set up a test drive. Call 712-792-5000.
+- Body: paste-ready HTML in the file 02_fragment.html
+
+Please reply with the live page address once it is published so we can check it.
+
+Thank you,
+Motor Inn, Carroll, Iowa
+712-792-5000

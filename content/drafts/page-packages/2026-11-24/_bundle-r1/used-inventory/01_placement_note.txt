@@ -1,0 +1,27 @@
+PLACEMENT NOTE (draft, for review)
+
+Page title: Used Cars, SUVs and Trucks in Carroll, IA | Motor Inn
+Make: Motor Inn (Toyota and Chevrolet)
+Suggested URL slug: used-inventory
+Shopper question this page answers: used cars carroll iowa
+
+Where it goes on the DealerOn site
+Existing page /used-inventory: replace the custom intro/content section only; leave the DealerOn inventory listings module untouched.
+
+What to publish
+- Body: the paste-ready HTML in 02_fragment.html
+- Meta title: Used Cars, SUVs and Trucks in Carroll, IA | Motor Inn
+- Meta description: Shop used cars, SUVs and trucks in Carroll, IA at Motor Inn Auto Group. See the current list, narrow by body style, and call 712-792-5000.
+- Details also in 03_metadata.json
+
+Page quality gate: PASS (7 of 7 rules)
+  [PASS] answer_first_40: The first 40 words carry a number.
+  [PASS] question_heading: Question heading found: "How do I narrow this list to the right used vehicle?".
+  [PASS] no_needs_fact: No [NEEDS FACT] markers.
+  [PASS] phone_number: Only 712-792-5000 appears.
+  [PASS] no_banned_wording: No aging or popularity wording.
+  [PASS] make_wall: Brand is 'both'; make wall not applied (owner reads that the two makes stay apart).
+  [PASS] title_superlative: Title has no 'best' or 'top'.
+Warnings (style only, human read still needed): none
+
+Nothing in this folder has been published. Spencer approves in chat first.
