@@ -347,3 +347,19 @@ approval -> DealerOn handoff (www needs its own explicit owner go).
    40 exact-match keywords (~962 monthly clicks available), 8 ad groups w/ searcher-word
    ads, negatives.txt. NO campaigns created - awaiting Spencer go to build in Ads.
    Top opp: [carroll iowa car dealerships] 203 clk/mo pos 10.3.
+
+## 2026-11-24 MOT-3708 SEO batch (rory-copy-seo, kanban t_4e3e51a8) - used-inventory refresh + Carroll cluster
+Direction: Spencer in #sales on the 2026-11-23 weekly synthesis (Linear MOT-3708).
+- 4 drafts on branch seo/mot3708-used-carroll-2026-11-24: /used-inventory refresh, /used-suvs refresh,
+  /car-dealerships-carroll-iowa refresh (corrects live phone + '1934' defects),
+  NEW /used-car-dealer-carroll-iowa. Drafts only; nothing published or sent.
+- QA trail: r1 page_gate PASS (352b0cd) -> r2 codex editorial fixes (e504aa9) ->
+  codex adversarial FAIL r2 - unsupported claims, VOICE-DNA, 16 broken link occurrences
+  (brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md, 310f652) ->
+  r3 fixes: claims cut, links replaced with re-fetched 200 URLs, short-sentence pass,
+  fresh-eyes reader (GLM-5.3-Flash, spark-a664) 17 findings / 11 fixed / 6 left -> page_gate PASS x4.
+- HARD LESSON: r2 REVIEW packets claimed outbound links verified 200 without a fresh fetch; r3 re-fetched
+  every href end-to-end. Never assert verification that was not run end-to-end.
+- Package: content/drafts/page-packages/2026-11-24/ (PACKAGE-SUMMARY.md, package-meta.json, per-page bundles,
+  r1/r2 preserved). Folded into wave-2 queue (F-all-page-draft-unpublished-f6f160/-7c7f82), no duplication.
+- Awaiting: codex adversarial re-run PASS on r3, then owner review. Nothing live without Spencer.

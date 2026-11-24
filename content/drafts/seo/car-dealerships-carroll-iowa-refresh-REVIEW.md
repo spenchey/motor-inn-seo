@@ -35,8 +35,17 @@ Inbound FROM ranking pages (anchors for DealerOn): /car-dealership-carroll-iowa 
 ## [NEEDS-VERIFY] list
 1. [NEEDS-VERIFY: DealerOn confirms the replacement publishes over the whole custom region, including the footer CTA that currently carries the wrong phone number.]
 
+
+## Round 3 fixes (2026-11-24, after codex adversarial FAIL round 2)
+Round-2 adversarial report: brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md (verdict FAIL, all 4 pages). Fixes applied in round-3 draft (editorial_round: 3):
+- Links: the round-2 link-verification claim was WRONG (see used-inventory REVIEW). /new-toyota, /new-chevrolets.html, /used-trucks, /used-suvs, /finance-locations.html return 404. Round 3 uses /searchnew.aspx?Make=Toyota, /searchnew.aspx?Make=Chevrolet, /searchused.aspx?BodyStyle=Truck, /searchused.aspx?BodyStyle=SUV, /finance.aspx - re-fetched 2026-11-24, final HTTP 200.
+- Claims cut (codex-quoted): "Ask and we can walk you through both." (staff-process promise); "Shoppers regularly weigh a new Silverado against a used one..." (unsourced shopper-behavior claim); "For payment ranges, the finance pages and a call... get you numbers to weigh before you decide anything." - all rewritten or removed.
+- Voice: the 50-word inventory-comparison sentence split; "This page helps you compare..." meta line rewritten as shopper talk; "One visit covers more ground than a single-brand stop." (unsourced superiority claim) cut; "the short list" framing rewritten (all fresh-eyes).
+- page_gate.py round 3: PASS (exit 0), 2026-11-24.
+- NOTE: this page's round-3 copy keeps the phone/1937 corrections from round 1 (the live page's 712-522-2526 and "since 1934" defects).
+
 ## Fresh-eyes reader
-(filled after the pass; see PACKAGE.md / adversarial report)
+fresh-eyes reader (GLM-5.3-Flash on spark-a664:8888, brief+draft only, 2026-11-24): 17 findings across the batch, 11 fixed, 6 left (see used-inventory REVIEW for the six).
 
 ## 3 approval questions for Spencer
 1. Approve the rewrite as the corrected replacement for the live plural page (fixes the phone and the year)?

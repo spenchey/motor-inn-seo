@@ -36,8 +36,16 @@ Inbound FROM already-ranking pages (for the DealerOn request, anchors chosen): /
 1. [NEEDS-VERIFY: re-verify the two VDP URLs return 200 on the day DealerOn publishes; swap to whatever the current top used VDPs are at publish time.]
 2. [NEEDS-VERIFY: synthesis says 16 clicks/572 impr pos 9.3; audit table says 12/580 pos 10.9 - same page, different pulls. Confirm which GSC pull is canonical before quoting externally.]
 
+
+## Round 3 fixes (2026-11-24, after codex adversarial FAIL round 2)
+Round-2 adversarial report: brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md (verdict FAIL, all 4 pages). Fixes applied in round-3 draft (editorial_round: 3):
+- Links: the round-2 claim above that all outbound links were verified HTTP 200 on 2026-11-24 was WRONG (never re-fetched after a local edit pass). /used-suvs, /used-crossovers, /used-trucks, /used-vans and /under-20000 all return 404. Round 3 uses verified live URLs, each re-fetched 2026-11-24 with final HTTP 200: /searchused.aspx?BodyStyle=Car|SUV|Crossover|Truck|Van and /under-20k.html. Lesson: never assert link verification that was not run end to end.
+- Claims cut (codex-quoted): "Tell us what caught your eye and we will point you at the closest match we can find." and "We will tell you what to bring and when to come by." - unsourced staff-process promises, removed.
+- Voice: long sentences split; the defensive "two single vehicles, not the whole list" and the stale-link maintenance line were removed (fresh-eyes); next steps consolidated to open-the-vehicle-page / call 712-792-5000.
+- page_gate.py round 3: PASS (exit 0), 2026-11-24.
+
 ## Fresh-eyes reader
-(filled after the pass; see PACKAGE.md / adversarial report)
+fresh-eyes reader (GLM-5.3-Flash on spark-a664:8888, brief+draft only, 2026-11-24): 17 findings across the batch, 11 fixed, 6 left - the dated "most-viewed" H2 and VDP section stay pending owner question 2 below; test-drive anchors on the shared form keep house link style; comparison-criteria framing is the stated purpose of the cluster page.
 
 ## 3 approval questions for Spencer
 1. Copy OK as the replacement custom section on /used-inventory (listings module untouched)?

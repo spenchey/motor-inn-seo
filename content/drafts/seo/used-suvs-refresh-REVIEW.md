@@ -32,8 +32,16 @@ Inbound FROM ranking pages (anchors for DealerOn): /used-inventory refresh (this
 1. [NEEDS-VERIFY: confirm the live VDP price disclaimer shows the price including the $180 doc fee exactly as the brand kit states before the doc-fee sentence ships.]
 2. [NEEDS-VERIFY: re-verify the two VDP URLs return 200 at publish time.]
 
+
+## Round 3 fixes (2026-11-24, after codex adversarial FAIL round 2)
+Round-2 adversarial report: brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md (verdict FAIL, all 4 pages). Fixes applied in round-3 draft (editorial_round: 3):
+- Links: the round-2 link-verification claim was WRONG (see used-inventory REVIEW, same cause). /under-20000 and /new-suvs return 404. Round 3 uses /under-20k.html and /searchnew.aspx?BodyStyle=SUV - re-fetched 2026-11-24, final HTTP 200.
+- Claims cut (codex-quoted): the vehicle-class generalizations ("Compact crossovers handle commuting and tight parking", "Midsize SUVs add second-row room", the three-row/towing sentence) and "Iowa winters make all-wheel drive a common request." - rewritten as shopper-situation questions with no demand or class claims. "driveline" removed.
+- Voice: long sentences split; "in whatever mix is in stock" hedge replaced with a direct line plus a call path (fresh-eyes); editorial tag on the four-question checklist trimmed (fresh-eyes).
+- page_gate.py round 3: PASS (exit 0), 2026-11-24.
+
 ## Fresh-eyes reader
-(filled after the pass; see PACKAGE.md / adversarial report)
+fresh-eyes reader (GLM-5.3-Flash on spark-a664:8888, brief+draft only, 2026-11-24): 17 findings across the batch, 11 fixed, 6 left (see used-inventory REVIEW for the six).
 
 ## 3 approval questions for Spencer
 1. Copy OK as the replacement custom section on /used-suvs?

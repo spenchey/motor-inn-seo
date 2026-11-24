@@ -35,8 +35,16 @@ Inbound FROM ranking pages (anchors for DealerOn): /used-inventory refresh ancho
 2. [NEEDS-VERIFY: confirm live VDP price disclaimer wording matches the $180-doc-fee sentence.]
 3. [NEEDS-VERIFY: re-verify both VDP URLs at publish time.]
 
+
+## Round 3 fixes (2026-11-24, after codex adversarial FAIL round 2)
+Round-2 adversarial report: brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md (verdict FAIL, all 4 pages). Fixes applied in round-3 draft (editorial_round: 3):
+- Links: the round-2 link-verification claim was WRONG (see used-inventory REVIEW). /used-suvs, /used-trucks, /used-vans, /under-20000 return 404. Round 3 uses /searchused.aspx?BodyStyle=SUV|Truck|Van and /under-20k.html - re-fetched 2026-11-24, final HTTP 200.
+- Claims cut (codex-quoted): "A dealership handles more of the purchase in one place." and "An independent lot can sell you a vehicle; most cannot service it." - the dealership-vs-independent comparison section was rewritten as "What does buying from Motor Inn include?" (only sourced capabilities, no comparison).
+- Voice: long sentences split; "the whole purchase" softened to "the purchase happens on one lot"; editor-caveat and sermon lines trimmed (fresh-eyes).
+- page_gate.py round 3: PASS (exit 0), 2026-11-24.
+
 ## Fresh-eyes reader
-(filled after the pass; see PACKAGE.md / adversarial report)
+fresh-eyes reader (GLM-5.3-Flash on spark-a664:8888, brief+draft only, 2026-11-24): 17 findings across the batch, 11 fixed, 6 left (see used-inventory REVIEW for the six).
 
 ## 3 approval questions for Spencer
 1. Approve this as the new used-side dealer-choice page?
