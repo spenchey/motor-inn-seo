@@ -9,8 +9,8 @@
     "surface": "web",
     "brand_scope": "both",
     "verify_template": {
-      "type": "html_not_contains",
-      "assert": "last chance at a gas-only Camry"
+      "type": "manual",
+      "assert": "the flagged wording is gone from the live page"
     }
   }
 ]

@@ -22,6 +22,7 @@ NOT_VERIFIED = "not verified"
 NOTHING = "Nothing needs you this week."
 WORD_LIMIT = 299
 WINDOW_DAYS = 7
+AI_VISITS_MAX_AGE_DAYS = 8  # AI visit numbers whose data ended longer ago than this are stale
 
 GSC = "Google Search Console"
 GA = "Google Analytics"
@@ -149,7 +150,7 @@ def _metric_ok(metric) -> bool:
     return True
 
 
-def _unverified_sources(block, gsc, leads) -> list:
+def _unverified_sources(block, gsc, leads, today) -> list:
     """Plain names of every source with a metric that is missing or not verified."""
     out = []
     if any(v is None for v in gsc.values()):
@@ -175,52 +176,82 @@ def _unverified_sources(block, gsc, leads) -> list:
             gbp_bad = True
     if gbp_bad:
         out.append(GBP)
-    if not _metric_ok(_ai_metric(block)):
+    ai_metric = _ai_metric(block)
+    if not _metric_ok(ai_metric) or not isinstance(ai_metric.get("value"), (int, float)):
         out.append(AI)
+    if _ai_referrals_line(block, today).startswith(AI_VISITS):
+        out.append(AI_VISITS)
     return out
 
 
 def _ai_metric(block):
-    """The AI-answers metric: the block itself, or its "total" entry when it also holds one block per engine."""
-    ai = block.get("ai_answers") if isinstance(block, dict) else None
-    if isinstance(ai, dict) and "value" not in ai and isinstance(ai.get("total"), dict):
-        ai = ai["total"]
-    return ai
+    """The AI-answers metric as written by the baseline reader: {value, window, source, pulled_at}."""
+    return block.get("ai_answers") if isinstance(block, dict) else None
+
+
+_WINDOW = re.compile(r"(\d{4}-\d{2}-\d{2})\.\.(\d{4}-\d{2}-\d{2})")
+
+
+def _window_dates(window):
+    """(start, end) dates for a window written as YYYY-MM-DD..YYYY-MM-DD, else None."""
+    m = _WINDOW.fullmatch(window.strip()) if isinstance(window, str) else None
+    if not m:
+        return None
+    try:
+        start, end = _dt.date.fromisoformat(m.group(1)), _dt.date.fromisoformat(m.group(2))
+    except ValueError:
+        return None
+    return (start, end) if start <= end else None
+
+
+def _window_label(start, end) -> str:
+    """Nov 1\u201323, or Oct 28\u2013Nov 3 when the window crosses a month."""
+    first = "%s %d" % (MONTHS[start.month - 1][:3], start.day)
+    if start == end:
+        return first
+    if (start.year, start.month) == (end.year, end.month):
+        return "%s\u2013%d" % (first, end.day)
+    return "%s\u2013%s %d" % (first, MONTHS[end.month - 1][:3], end.day)
 
 
 def _ai_line(block) -> str:
-    """One plain line on how often the AI assistants named us. Only words we write ourselves reach the note."""
+    """One plain line on the AI answers number. We do not know what the number counts, so we only repeat it."""
     metric = _ai_metric(block)
-    if not _metric_ok(metric):
+    value = metric.get("value") if isinstance(metric, dict) else None
+    if not _metric_ok(metric) or not isinstance(value, (int, float)):
         return "%s: %s." % (AI, NOT_VERIFIED)
-    named, seen = metric.get("named"), metric.get("observed")
-    if all(isinstance(n, int) and not isinstance(n, bool) and n >= 0 for n in (named, seen)) and seen > 0 and named <= seen:
-        return "%s: named in %d of %d observed answers." % (AI, named, seen)
-    value = metric.get("value")
-    if isinstance(value, (int, float)) and not isinstance(value, bool):
-        return "%s: named in %s observed %s." % (AI, _fmt(value), _plural(int(value), "answer", "answers"))
-    return "%s: %s." % (AI, NOT_VERIFIED)
+    dates = _window_dates(metric.get("window"))
+    window = _window_label(*dates) if dates else "window not stated"
+    return "%s: %s (%s)." % (AI, _fmt(value), window)
 
 
-def _ai_referrals_line(baselines) -> str:
+def _ai_referrals_line(baselines, today) -> str:
     """One plain line on visits and leads that AI assistants sent, from the newest month in the block."""
+    not_verified = "%s: %s." % (AI_VISITS, NOT_VERIFIED)
     block = baselines.get("ai_referrals") if isinstance(baselines, dict) else None
     months = sorted(k for k in block if isinstance(k, str) and re.fullmatch(r"\d{4}-(0[1-9]|1[0-2])", k)) \
         if isinstance(block, dict) else []
-    if months:
-        entry = block[months[-1]]
-        counts = []
-        for key in ("sessions", "leads"):
-            metric = entry.get(key) if isinstance(entry, dict) else None
-            value = metric.get("value") if isinstance(metric, dict) else None
-            ok = _metric_ok(metric) and isinstance(value, (int, float)) and float(value) == int(value) and value >= 0
-            counts.append(int(value) if ok else None)
-        if None not in counts:
-            visits, leads = counts
-            return "AI assistants sent %d %s, %d %s in %s." % (
-                visits, "visit" if visits == 1 else "visits",
-                leads, "lead" if leads == 1 else "leads", MONTHS[int(months[-1][5:]) - 1])
-    return "%s: %s." % (AI_VISITS, NOT_VERIFIED)
+    if not months:
+        return not_verified
+    entry = block[months[-1]]
+    counts, windows = [], []
+    for key in ("sessions", "leads"):
+        metric = entry.get(key) if isinstance(entry, dict) else None
+        value = metric.get("value") if isinstance(metric, dict) else None
+        ok = _metric_ok(metric) and isinstance(value, (int, float)) and float(value) == int(value) and value >= 0
+        counts.append(int(value) if ok else None)
+        windows.append(_window_dates(metric.get("window")) if ok else None)
+    if None in counts or None in windows or windows[0] != windows[1]:
+        return not_verified
+    start, end = windows[0]
+    if end > today:
+        return not_verified
+    if (today - end).days > AI_VISITS_MAX_AGE_DAYS:
+        return "%s: %s (stale)." % (AI_VISITS, NOT_VERIFIED)
+    visits, leads = counts
+    return "AI assistants sent %d %s, %d %s (forms + calls), %s." % (
+        visits, "visit" if visits == 1 else "visits",
+        leads, "lead" if leads == 1 else "leads", _window_label(start, end))
 
 
 def _fmt(value) -> str:
@@ -379,7 +410,7 @@ def build_message(rows, baselines, previous, today, week_start=None) -> str:
             verdict = "The traffic and lead numbers are not available yet, so this cannot be called all clear."
     verdict += _trend(gsc["group"], prev_group)
 
-    not_verified = _unverified_sources(baselines, gsc, leads)
+    not_verified = _unverified_sources(baselines, gsc, leads, today)
 
     def build(max_words: int) -> str:
         lines = ["Motor Inn search, week of %s. %s" % (_date_label(label_day), verdict)]
@@ -388,7 +419,7 @@ def build_message(rows, baselines, previous, today, week_start=None) -> str:
             "Organic leads from %s: %s."
             % (GSC, _fmt(gsc["group"]), _fmt(gsc["toyota"]), _fmt(gsc["chevy"]), LEADS, _fmt(leads)))
         lines.append(_ai_line(baselines))
-        lines.append(_ai_referrals_line(baselines))
+        lines.append(_ai_referrals_line(baselines, today))
         lines.append("Fixed and confirmed on the live site since last week: %d." % fixed_n)
         if n_open:
             lines.append("New this week: %d. Open now: %d. Oldest open problem: %d %s."

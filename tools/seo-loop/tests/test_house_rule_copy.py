@@ -54,9 +54,10 @@ class HouseRuleCopyTests(unittest.TestCase):
         self.assertIn(e["owner"], OWNERS)
         self.assertIn(e["tier"], register.TIERS)
         self.assertIn(e["fix_type"], register.FIX_TYPES)
-        self.assertEqual(e["verify_template"]["type"], "html_not_contains")
+        # the catalog template is generic: it carries no one-page literal (each finding brings its own rule)
+        self.assertEqual(e["verify_template"]["type"], "manual")
         self.assertIn(e["verify_template"]["type"], register.VERIFY_TYPES)
-        self.assertEqual(e["verify_template"]["assert"], "last chance at a gas-only Camry")
+        self.assertNotIn("camry", json.dumps(e).lower())
         merged = [c for c in load(CHECKS) if c["check_id"] == "house-rule-copy"]
         self.assertEqual(merged, [e])
 
@@ -94,11 +95,22 @@ class HouseRuleCopyTests(unittest.TestCase):
         self.assertEqual(register.validate_rows(rows, base_dir=self.dir), [])
         self.assertFalse(os.path.exists(self.inbox) and os.path.getsize(self.inbox) > 0)
 
-    def test_catalog_template_alone_gives_the_same_rule(self):
+    def test_catalog_template_alone_gives_a_manual_rule(self):
         e = self.entry()
         rule = ingest_reports.verify_for(e, "https://example.test/p")
-        self.assertEqual(rule, {"type": "html_not_contains", "url": "https://example.test/p",
-                                "assert": "last chance at a gas-only Camry"})
+        self.assertEqual(rule, {"type": "manual", "url": "https://example.test/p",
+                                "assert": e["verify_template"]["assert"]})
+        self.assertEqual(ingest_reports.expected_for(e), e["verify_template"]["assert"])
+
+    def test_candidate_rule_is_testable_and_catalog_text_is_not_a_machine_rule(self):
+        import verify_fix
+        (line,) = [ln for ln in open(CAND, encoding="utf-8").read().splitlines() if ln.strip()]
+        c = json.loads(line)
+        self.assertTrue(verify_fix.rule_is_testable(c["verify"], c["observed"]))
+        self.assertFalse(verify_fix.rule_is_testable(c["verify"], "a different page text"))
+        self.assertEqual(ingest_reports.expected_for(c), c["expected"])
+        rule = ingest_reports.verify_for(self.entry(), c["target"], c["verify"])
+        self.assertEqual(rule, c["verify"])
 
     def test_candidate_never_crosses_makes(self):
         (line,) = [ln for ln in open(CAND, encoding="utf-8").read().splitlines() if ln.strip()]

@@ -138,7 +138,7 @@ def pull_month(month, run, today=None, pulled_at=None):
     """
     start, end = month_window(month, today)
     window = "%s..%s" % (start.isoformat(), end.isoformat())
-    pulled_at = pulled_at or datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    pulled_at = pulled_at or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     s, e = start.isoformat(), end.isoformat()
 
     def metric(value):
@@ -176,6 +176,10 @@ def pull_month(month, run, today=None, pulled_at=None):
         if name_for(row.get("sessionSource")):
             p = _clean_path(row.get("landingPagePlusQueryString"))
             pages[p] = pages.get(p, 0) + _num(row.get("sessions"))
+    # A lead needs a visit: whichever way an event row was matched, never report more
+    # leads than visits for one assistant.
+    for v in by_source.values():
+        v["leads"] = min(v["leads"], v["sessions"])
     top = sorted(pages.items(), key=lambda kv: (-kv[1], kv[0]))[:TOP_PAGES]
     return {
         "sessions": metric(sum(v["sessions"] for v in by_source.values())),
@@ -193,15 +197,39 @@ def _metric_value(block, key):
     return None
 
 
+_MON = ("Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec")
+
+
+def window_label(window):
+    """'2026-11-01..2026-11-23' becomes 'Nov 1\u201323'; None when it is not written that way."""
+    m = re.fullmatch(r"(\d{4}-\d{2}-\d{2})\.\.(\d{4}-\d{2}-\d{2})", window.strip()) \
+        if isinstance(window, str) else None
+    if not m:
+        return None
+    try:
+        start, end = datetime.date.fromisoformat(m.group(1)), datetime.date.fromisoformat(m.group(2))
+    except ValueError:
+        return None
+    if start > end:
+        return None
+    first = "%s %d" % (_MON[start.month - 1], start.day)
+    if start == end:
+        return first
+    if (start.year, start.month) == (end.year, end.month):
+        return "%s\u2013%d" % (first, end.day)
+    return "%s\u2013%s %d" % (first, _MON[end.month - 1], end.day)
+
+
 def summary_line(month, block):
-    """One plain sentence for the Monday summary."""
+    """One plain sentence for the Monday summary (same wording as monday_summary.py)."""
     label = datetime.date(int(month[:4]), int(month[5:]), 1).strftime("%B")
     sessions, leads = _metric_value(block, "sessions"), _metric_value(block, "leads")
     if sessions is None or leads is None:
         return "AI assistant visits for %s: not verified." % label
-    return "AI assistants sent %d %s, %d %s in %s." % (
+    when = window_label(block["sessions"].get("window")) or label
+    return "AI assistants sent %d %s, %d %s (forms + calls), %s." % (
         sessions, "visit" if sessions == 1 else "visits",
-        leads, "lead" if leads == 1 else "leads", label)
+        leads, "lead" if leads == 1 else "leads", when)
 
 
 def load_json(path):
@@ -230,6 +258,10 @@ def merge_block(doc, month, block):
 def write_atomic(path, payload):
     out_dir = os.path.dirname(os.path.abspath(path))
     os.makedirs(out_dir, exist_ok=True)
+    try:
+        mode = os.stat(path).st_mode & 0o7777  # keep the file's own mode when replacing it
+    except OSError:
+        mode = 0o644  # new file
     fd, tmp = tempfile.mkstemp(prefix=".ai-referrals-", suffix=".tmp", dir=out_dir)
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as fh:
@@ -237,6 +269,7 @@ def write_atomic(path, payload):
             fh.write("\n")
             fh.flush()
             os.fsync(fh.fileno())
+        os.chmod(tmp, mode)
         os.replace(tmp, path)
     except BaseException:
         try:

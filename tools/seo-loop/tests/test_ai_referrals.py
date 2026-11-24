@@ -116,15 +116,54 @@ class Pull(unittest.TestCase):
 class Summary(unittest.TestCase):
     def test_line(self):
         b = ar.pull_month("2026-11", fake_run(), TODAY)
-        self.assertEqual(ar.summary_line("2026-11", b), "AI assistants sent 7 visits, 4 leads in November.")
+        self.assertEqual(ar.summary_line("2026-11", b),
+                         "AI assistants sent 7 visits, 4 leads (forms + calls), Nov 1\u201323.")
 
     def test_singular(self):
         blk = {"sessions": {"value": 1}, "leads": {"value": 1}}
-        self.assertEqual(ar.summary_line("2026-10", blk), "AI assistants sent 1 visit, 1 lead in October.")
+        self.assertEqual(ar.summary_line("2026-10", blk), "AI assistants sent 1 visit, 1 lead (forms + calls), October.")
+        blk = {"sessions": {"value": 1, "window": "2026-10-01..2026-10-31"}, "leads": {"value": 1}}
+        self.assertEqual(ar.summary_line("2026-10", blk),
+                         "AI assistants sent 1 visit, 1 lead (forms + calls), Oct 1\u201331.")
 
     def test_not_verified(self):
         blk = {"sessions": ar.NOT_VERIFIED, "leads": ar.NOT_VERIFIED}
         self.assertIn("not verified", ar.summary_line("2026-10", blk))
+
+
+class Fixes(unittest.TestCase):
+    def test_leads_never_exceed_visits_for_an_assistant(self):
+        def run(start, end, dims, metrics):
+            if dims == ["sessionSource", "sessionMedium"]:
+                return [{"sessionSource": "newbot", "sessionMedium": "ai-assistant", "sessions": 1},
+                        {"sessionSource": "newbot", "sessionMedium": "web", "sessions": 5}]
+            if dims == ["sessionSource", "eventName"]:
+                return [{"sessionSource": "newbot", "eventName": "asc_click_to_call", "eventCount": 4}]
+            return []
+        b = ar.pull_month("2026-10", run, TODAY, "2026-11-24T06:00:00Z")
+        self.assertEqual(b["by_source"]["other_ai"], {"sessions": 1, "leads": 1})
+        self.assertEqual(b["leads"]["value"], 1)
+        self.assertLessEqual(b["leads"]["value"], b["sessions"]["value"])
+
+    def test_pulled_at_is_utc_and_not_deprecated_call(self):
+        import warnings
+        with warnings.catch_warnings():
+            warnings.simplefilter("error")
+            b = ar.pull_month("2026-10", lambda *a: [], TODAY)
+        self.assertRegex(b["sessions"]["pulled_at"], r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
+
+    def test_write_keeps_existing_mode_and_uses_0644_for_new(self):
+        with tempfile.TemporaryDirectory() as d:
+            new = os.path.join(d, "new.json")
+            ar.write_atomic(new, {"a": 1})
+            self.assertEqual(os.stat(new).st_mode & 0o777, 0o644)
+            old = os.path.join(d, "old.json")
+            with open(old, "w") as fh:
+                fh.write("{}")
+            os.chmod(old, 0o640)
+            ar.write_atomic(old, {"a": 2})
+            self.assertEqual(os.stat(old).st_mode & 0o777, 0o640)
+            self.assertEqual(json.load(open(old)), {"a": 2})
 
 
 class Main(unittest.TestCase):

@@ -11,5 +11,5 @@
     "gbp-group": {"review_count": {"value": 95, "window": "w", "source": "gbp", "pulled_at": "2026-11-18T06:00:00Z"}}
   },
   "organic_leads_total": {"value": 37, "window": "w", "source": "leads", "pulled_at": "2026-11-18T06:00:00Z"},
-  "ai_answers": {"total": {"value": 3, "named": 3, "observed": 12, "window": "2026-11-16..2026-11-22", "source": "ai-scan", "pulled_at": "2026-11-23T06:40:00Z"}, "chatgpt": {"value": 2, "named": 2, "observed": 6, "window": "2026-11-16..2026-11-22", "source": "ai-scan", "pulled_at": "2026-11-23T06:40:00Z"}}
+  "ai_answers": {"value": 3, "window": "2026-11-16..2026-11-22", "source": "ai-scan", "pulled_at": "2026-11-23T06:40:00Z"}
 }
