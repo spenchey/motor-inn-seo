@@ -1,0 +1,1 @@
+No patches are needed here. The external staging validator for the check catalog passes unmodified with this repo's catalog, because the `house-rule-copy` template is a manual rule (the one-page wording lives on each finding's own rule). The two earlier patches, which allowed a machine rule for it, were removed.

@@ -1,0 +1,51 @@
+{
+  "month": "2026-11",
+  "sites": {
+    "group": {
+      "gsc_clicks_28d": {
+        "value": 1840,
+        "window": "2026-10-21..2026-11-17",
+        "source": "gsc",
+        "pulled_at": "2026-11-18T06:00:00Z"
+      },
+      "organic_leads": {
+        "value": 37,
+        "window": "2026-10-21..2026-11-17",
+        "source": "ga4",
+        "pulled_at": "2026-11-18T06:00:00Z"
+      }
+    },
+    "toyota": {
+      "gsc_clicks_28d": {
+        "value": 1100,
+        "window": "2026-10-21..2026-11-17",
+        "source": "gsc",
+        "pulled_at": "2026-11-18T06:00:00Z"
+      },
+      "organic_leads": "not verified"
+    },
+    "chevy": {
+      "gsc_clicks_28d": {
+        "value": 740,
+        "window": "2026-10-21..2026-11-17",
+        "source": "gsc",
+        "pulled_at": "2026-11-18T06:00:00Z"
+      },
+      "organic_leads": "not verified"
+    }
+  },
+  "listings": {},
+  "organic_leads_total": {
+    "value": 37,
+    "window": "2026-10-21..2026-11-17",
+    "source": "ga4",
+    "pulled_at": "2026-11-18T06:00:00Z"
+  },
+  "ai_answers": "not verified",
+  "crm_website_leads": {
+    "value": 12,
+    "window": "2026-10-21..2026-11-17",
+    "source": "crm",
+    "pulled_at": "2026-11-18T06:00:00Z"
+  }
+}
