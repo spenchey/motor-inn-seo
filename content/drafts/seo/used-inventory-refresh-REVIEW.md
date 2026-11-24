@@ -52,3 +52,5 @@ fresh-eyes reader (GLM-5.3-Flash on spark-a664:8888, brief+draft only, 2026-11-2
 1. Copy OK as the replacement custom section on /used-inventory (listings module untouched)?
 2. Keep or cut the 'most-viewed this week' sentence naming the two VDPs? (Keeps the page concrete; ages fast.)
 3. OK for the DealerOn request to also add the three inbound links listed above from the maintenance and trim-levels pages?
+
+Round-5 update (codex adversarial r4 FAIL - one-obvious-next-step rule only; claims/links/meta passed): each page restructured to a single phone CTA, early and repeated once; all other sections made declarative with inline links.

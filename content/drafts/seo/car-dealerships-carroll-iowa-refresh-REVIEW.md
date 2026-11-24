@@ -52,3 +52,5 @@ fresh-eyes reader (GLM-5.3-Flash on spark-a664:8888, brief+draft only, 2026-11-2
 1. Approve the rewrite as the corrected replacement for the live plural page (fixes the phone and the year)?
 2. The draft names no competitors, only the comparison checklist. Is that the call you want, or do you want Champion Ford/Choice Auto named?
 3. Fold this into the same DealerOn ask as the wave-2 Leg B package (F-all-page-draft-unpublished-f6f160 / -7c7f82), or send as its own correction ask given the wrong phone number is live now?
+
+Round-5 update (codex adversarial r4 FAIL - one-obvious-next-step rule only; claims/links/meta passed): each page restructured to a single phone CTA, early and repeated once; all other sections made declarative with inline links.

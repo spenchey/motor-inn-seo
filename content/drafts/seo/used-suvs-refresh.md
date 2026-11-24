@@ -9,33 +9,31 @@ status: draft-needs-owner-approval
 research_sha: audits/audit-2026-11-23.md (GA4 week Nov 9-15, 2026)
 date: 2026-11-24
 page_action: refresh-existing (replace the custom content section of the live /used-suvs page; keep the inventory listings module as-is)
-editorial_round: 4 (revised after codex adversarial r3 rerun FAIL: VDP href fix, process-claim alignment, long-sentence splits)
+editorial_round: 5 (one-obvious-next-step restructure after codex adversarial r4 FAIL: single phone CTA early + repeated once; sections declarative)
 ---
 
 # Used SUVs and Crossovers for Sale in Carroll, IA
 
-This page lists the used SUVs and crossovers at Motor Inn Auto Group, 1526 Le Clark Road in Carroll, Iowa. Open any vehicle card for that unit's listed price and details. Or call 712-792-5000 and tell us how many seats and how much cargo room you need.
+This page lists the used SUVs and crossovers at Motor Inn Auto Group, 1526 Le Clark Road in Carroll, Iowa. Each vehicle card carries that unit's listed price and details. For a question about seats, cargo room or drive type, call 712-792-5000.
 
 ## Which used SUV size fits your household?
 
-Match the SUV to what it carries most days. Two people, mostly commuting? Start with the compact crossovers. Kids and gear? Look at the midsize models. Six or more people, or a trailer to pull? Look at the three-row SUVs.
-
-Once you know the size, open the listings in that class above. Compare the seating, cargo and feature details on each vehicle page.
+What the SUV carries most days picks the size. Two people, mostly commuting: the compact crossovers. Kids and gear: the midsize models. Six or more people, or a trailer to pull: the three-row SUVs. The listings above show the seating, cargo and feature details on each vehicle page.
 
 ## Are there hybrid or all-wheel-drive used SUVs in stock?
 
-The list above shows the units on the lot today. Two used SUVs drew the most site views the week of November 9-15, 2026. One was a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831). The other was a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101). Want a specific drive type or a hybrid? Call 712-792-5000 and ask what is on the lot.
+The list above shows the units on the lot today. Two used SUVs drew the most site views the week of November 9-15, 2026. One was a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831). The other was a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101).
 
 ## What should I check on a used SUV before I buy?
 
-Ask four things about the exact unit. Its mileage and service records. Its vehicle history report. How the tires and brakes measure. And the full price in writing. The price shown on our vehicle pages includes the $180 doc fee. The number you see is the number you start from.
+Four things cover the exact unit. Its mileage and service records. Its vehicle history report. How the tires and brakes measure. And the full price in writing. The price shown on our vehicle pages includes the $180 doc fee. The number you see is the number you start from.
 
 That short list works at any dealership.
 
 ## How do I line up a test drive?
 
-Choose the SUV from the list. Then [schedule a used-SUV test drive](/testdrive.aspx?type=Used) or call Motor Inn Auto Group at 712-792-5000 and name the vehicle.
+The [test-drive scheduling form](/testdrive.aspx?type=Used) handles it online. Or call 712-792-5000 and name the SUV you want to drive.
 
 ## What if my budget has a firm ceiling?
 
-Start with the [vehicles under $20,000](/under-20k.html) list and the [payment calculator](/paymentcalc.aspx). Then call 712-792-5000 about a monthly range for a specific unit. Your current vehicle can be part of that number. The [trade-in page](/trade.aspx) explains how trade figures work here.
+The [vehicles under $20,000](/under-20k.html) list and the [payment calculator](/paymentcalc.aspx) cover the numbers side. The [trade-in page](/trade.aspx) explains how a current vehicle factors into them.

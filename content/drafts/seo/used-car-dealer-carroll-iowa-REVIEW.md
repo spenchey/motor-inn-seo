@@ -52,3 +52,5 @@ fresh-eyes reader (GLM-5.3-Flash on spark-a664:8888, brief+draft only, 2026-11-2
 1. Approve this as the new used-side dealer-choice page?
 2. 'How is a dealership different from an independent used lot?' answers without naming rivals - keep that framing?
 3. Want an FAQPage JSON-LD derived from the five question H2s at build time (as the wave-2 pages carried), or is the plain DealerOn page enough?
+
+Round-5 update (codex adversarial r4 FAIL - one-obvious-next-step rule only; claims/links/meta passed): each page restructured to a single phone CTA, early and repeated once; all other sections made declarative with inline links.

@@ -9,16 +9,16 @@ status: draft-needs-owner-approval
 research_sha: audits/audit-2026-11-23.md (GSC/GA4 week Nov 9-15, 2026)
 date: 2026-11-24
 page_action: refresh-existing (replace the custom content section of the live /used-inventory page; keep the inventory listings module as-is)
-editorial_round: 4 (revised after codex adversarial r3 rerun FAIL: VDP href fix, process-claim alignment, long-sentence splits)
+editorial_round: 5 (one-obvious-next-step restructure after codex adversarial r4 FAIL: single phone CTA early + repeated once; sections declarative)
 ---
 
 # Used Cars, SUVs and Trucks in Carroll, IA
 
-This page lists the used cars, SUVs and trucks at Motor Inn Auto Group, 1526 Le Clark Road in Carroll, Iowa. Open any vehicle card for that unit's listed price and details. Or call 712-792-5000 and tell us what the vehicle needs to do.
+This page lists the used cars, SUVs and trucks at Motor Inn Auto Group, 1526 Le Clark Road in Carroll, Iowa. Each vehicle card carries that unit's listed price and details. For a question about any unit, call 712-792-5000.
 
 ## How do I narrow this list to the right used vehicle?
 
-Start with the job the vehicle has to do. Then narrow by body style. Commuting or first car: begin with [used cars](/searchused.aspx?BodyStyle=Car). Family or cargo room: look at [used SUVs](/searchused.aspx?BodyStyle=SUV) and [used crossovers](/searchused.aspx?BodyStyle=Crossover). Work, towing or weekend projects: browse [used trucks](/searchused.aspx?BodyStyle=Truck). Moving people: see [used vans](/searchused.aspx?BodyStyle=Van). When one looks right, open its vehicle page.
+The job the vehicle has to do picks the body style. Commuting or first car points to the [used cars](/searchused.aspx?BodyStyle=Car) list. Family or cargo room points to [used SUVs](/searchused.aspx?BodyStyle=SUV) and [used crossovers](/searchused.aspx?BodyStyle=Crossover). Work, towing or weekend projects points to [used trucks](/searchused.aspx?BodyStyle=Truck). Moving people points to [used vans](/searchused.aspx?BodyStyle=Van). Each entry opens a vehicle page with that unit's details.
 
 ## Which used vehicles drew the most site views November 9-15, 2026?
 
@@ -26,7 +26,7 @@ Two used vehicles drew the most site views the week of November 9-15, 2026. Both
 
 ## How can I set a budget before I visit?
 
-Start with the [vehicles under $20,000](/under-20k.html) list. Then try the [payment calculator](/paymentcalc.aspx) to test a monthly range on your own. For figures on a particular vehicle, call 712-792-5000.
+The [vehicles under $20,000](/under-20k.html) list shows the lowest-priced used vehicles in one place, and the [payment calculator](/paymentcalc.aspx) tests a monthly range. Figures on a particular vehicle come from a call about that unit.
 
 ## What about my current vehicle?
 
@@ -34,4 +34,4 @@ The [trade-in page](/trade.aspx) explains how trade-in figures work here.
 
 ## How do I set up a test drive?
 
-Pick the vehicle from the list. Then [schedule a used-vehicle test drive](/testdrive.aspx?type=Used) or call Motor Inn Auto Group at 712-792-5000 and name the vehicle.
+The [test-drive scheduling form](/testdrive.aspx?type=Used) handles it online. Or call 712-792-5000 and name the vehicle you want to drive.
