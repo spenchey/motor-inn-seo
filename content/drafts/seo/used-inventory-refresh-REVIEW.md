@@ -21,7 +21,7 @@ Must not say: days-on-lot or popularity pressure ('selling fast', 'won't last', 
 Needs checking first: the two VDP links at publish time (inventory turns); whether the 'most-viewed' line stays in the refresh or is stripped to age-proof the copy.
 
 ## Internal-link plan
-Outbound in draft (all verified HTTP 200 on 2026-11-24): /used-cars, /used-suvs, /used-crossovers, /used-trucks, /used-vans, /under-20000, /paymentcalc.aspx, /finance-locations.html, /trade.aspx, /testdrive.aspx?type=Used, plus the two VDPs.
+Outbound in draft (each re-fetched 2026-11-24, final HTTP 200): /searchused.aspx?BodyStyle=Car, ?BodyStyle=SUV, ?BodyStyle=Crossover, ?BodyStyle=Truck, ?BodyStyle=Van, /under-20k.html, /paymentcalc.aspx, /trade.aspx, /testdrive.aspx?type=Used, plus the two named VDPs.
 VDP link anchors: '2017 Toyota RAV4 Hybrid XLE', '2024 Toyota Grand Highlander Hybrid MAX Platinum'.
 Inbound FROM already-ranking pages (for the DealerOn request, anchors chosen): /car-maintenance-by-mileage (pos 8.0, 938 impr/wk) anchor 'shop used vehicles in Carroll' -> /used-inventory; /vehicle-trim-levels-explained (pos 8.5, 1,676 impr/wk) anchor 'compare live used inventory by trim' -> /used-inventory; /car-dealerships-carroll-iowa (cluster page, refreshed in this batch) anchor 'used inventory' -> /used-inventory.
 
@@ -38,6 +38,7 @@ Inbound FROM already-ranking pages (for the DealerOn request, anchors chosen): /
 
 
 ## Round 3 fixes (2026-11-24, after codex adversarial FAIL round 2)
+Round-3.5 update (codex adversarial r3 rerun FAIL, report brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-r3-2026-11-24.md): broken Grand Highlander VDP href fixed (plus-encoding), three process-claim phrasings cut or aligned to packet-mapped wording, the four long sentences split, and this Internal-link plan section rewritten to the verified round-3 URLs (it previously still listed the 404 routes).
 Round-2 adversarial report: brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md (verdict FAIL, all 4 pages). Fixes applied in round-3 draft (editorial_round: 3):
 - Links: the round-2 claim above that all outbound links were verified HTTP 200 on 2026-11-24 was WRONG (never re-fetched after a local edit pass). /used-suvs, /used-crossovers, /used-trucks, /used-vans and /under-20000 all return 404. Round 3 uses verified live URLs, each re-fetched 2026-11-24 with final HTTP 200: /searchused.aspx?BodyStyle=Car|SUV|Crossover|Truck|Van and /under-20k.html. Lesson: never assert link verification that was not run end to end.
 - Claims cut (codex-quoted): "Tell us what caught your eye and we will point you at the closest match we can find." and "We will tell you what to bring and when to come by." - unsourced staff-process promises, removed.

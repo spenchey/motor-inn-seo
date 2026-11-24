@@ -9,7 +9,7 @@ status: draft-needs-owner-approval
 research_sha: audits/audit-2026-11-23.md (GSC/GA4 week Nov 9-15, 2026)
 date: 2026-11-24
 page_action: refresh-existing (replace the custom content section of the live /used-inventory page; keep the inventory listings module as-is)
-editorial_round: 3 (revised after codex adversarial FAIL 2026-11-24: unsupported claims cut, VOICE-DNA short-sentence pass, 16 broken link occurrences fixed to verified URLs)
+editorial_round: 4 (revised after codex adversarial r3 rerun FAIL: VDP href fix, process-claim alignment, long-sentence splits)
 ---
 
 # Used Cars, SUVs and Trucks in Carroll, IA
@@ -22,7 +22,7 @@ Start with the job the vehicle has to do. Then narrow by body style. Commuting o
 
 ## Which used vehicles drew the most site views November 9-15, 2026?
 
-The most-viewed used vehicles on our site that week were both Toyotas: a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831) and a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101).
+Two used vehicles drew the most site views the week of November 9-15, 2026. Both were Toyotas: a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831) and a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101).
 
 ## How can I set a budget before I visit?
 
@@ -30,7 +30,7 @@ Start with the [vehicles under $20,000](/under-20k.html) list. Then try the [pay
 
 ## What about my current vehicle?
 
-The [trade-in page](/trade.aspx) explains how trade-in figures work here. You can also bring the vehicle with you when you visit.
+The [trade-in page](/trade.aspx) explains how trade-in figures work here.
 
 ## How do I set up a test drive?
 

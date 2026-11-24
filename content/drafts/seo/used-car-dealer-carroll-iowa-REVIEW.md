@@ -21,8 +21,9 @@ Must not say: 'best', '#1', rival names with verdicts, reconditioning/inspection
 Needs checking first: DealerOn confirmation that /used-car-dealer-carroll-iowa is the slug they will build (BRAND-FACTS.json: never invent a landing URL; use the URL DealerOn confirms); doc-fee sentence verified against the live VDP disclaimer; VDP link freshness at publish.
 
 ## Internal-link plan
-Outbound (200 on 2026-11-24): /used-inventory, /used-cars, /used-suvs, /used-trucks, /used-vans, /under-20000, two VDPs, /trade.aspx, /finance-locations.html, /paymentcalc.aspx, /testdrive.aspx?type=Used, /hours.aspx.
-Inbound FROM ranking pages (anchors for DealerOn): /used-inventory refresh anchor 'what to ask a used car dealer' -> new page; /car-dealer-comparison-carroll-iowa.html (1,592s avg engagement) anchor 'used car dealer in Carroll' -> new page; /car-maintenance-by-mileage anchor not pitched here to avoid over-linking one source page (it already links the used-inventory refresh).
+Outbound in draft (each re-fetched 2026-11-24, final HTTP 200): /used-inventory, /searchused.aspx?BodyStyle=Car, ?BodyStyle=SUV, ?BodyStyle=Truck, ?BodyStyle=Van, /under-20k.html, the two named VDPs, /trade.aspx, /paymentcalc.aspx, /testdrive.aspx?type=Used, /hours.aspx.
+VDP link anchors: '2017 Toyota RAV4 Hybrid XLE', '2024 Toyota Grand Highlander Hybrid MAX Platinum'.
+Inbound FROM already-ranking pages (for the DealerOn request, anchors chosen): /used-inventory (refreshed in this batch) anchor 'used car dealer in Carroll' -> /used-car-dealer-carroll-iowa once the new page is live.
 
 ## Sources
 - brain/ai-visibility/ai-vis-2026-11-23.md (0/4 gap, rival citations - evidence only, rivals not named in the customer copy)
@@ -37,6 +38,7 @@ Inbound FROM ranking pages (anchors for DealerOn): /used-inventory refresh ancho
 
 
 ## Round 3 fixes (2026-11-24, after codex adversarial FAIL round 2)
+Round-3.5 update (codex adversarial r3 rerun FAIL, report brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-r3-2026-11-24.md): broken Grand Highlander VDP href fixed (plus-encoding), three process-claim phrasings cut or aligned to packet-mapped wording, the four long sentences split, and this Internal-link plan section rewritten to the verified round-3 URLs (it previously still listed the 404 routes).
 Round-2 adversarial report: brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md (verdict FAIL, all 4 pages). Fixes applied in round-3 draft (editorial_round: 3):
 - Links: the round-2 link-verification claim was WRONG (see used-inventory REVIEW). /used-suvs, /used-trucks, /used-vans, /under-20000 return 404. Round 3 uses /searchused.aspx?BodyStyle=SUV|Truck|Van and /under-20k.html - re-fetched 2026-11-24, final HTTP 200.
 - Claims cut (codex-quoted): "A dealership handles more of the purchase in one place." and "An independent lot can sell you a vehicle; most cannot service it." - the dealership-vs-independent comparison section was rewritten as "What does buying from Motor Inn include?" (only sourced capabilities, no comparison).

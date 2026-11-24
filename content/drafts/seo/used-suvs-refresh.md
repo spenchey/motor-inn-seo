@@ -9,7 +9,7 @@ status: draft-needs-owner-approval
 research_sha: audits/audit-2026-11-23.md (GA4 week Nov 9-15, 2026)
 date: 2026-11-24
 page_action: refresh-existing (replace the custom content section of the live /used-suvs page; keep the inventory listings module as-is)
-editorial_round: 3 (revised after codex adversarial FAIL 2026-11-24: unsupported claims cut, VOICE-DNA short-sentence pass, 16 broken link occurrences fixed to verified URLs)
+editorial_round: 4 (revised after codex adversarial r3 rerun FAIL: VDP href fix, process-claim alignment, long-sentence splits)
 ---
 
 # Used SUVs and Crossovers for Sale in Carroll, IA
@@ -24,17 +24,17 @@ Once you know the size, open the listings in that class above. Compare the seati
 
 ## Are there hybrid or all-wheel-drive used SUVs in stock?
 
-The list above shows the units on the lot today. Two used SUVs drew the most site views the week of November 9-15, 2026: a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831) and a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101). Want a specific drive type or a hybrid? Call 712-792-5000 and ask what is on the lot.
+The list above shows the units on the lot today. Two used SUVs drew the most site views the week of November 9-15, 2026. One was a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831). The other was a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101). Want a specific drive type or a hybrid? Call 712-792-5000 and ask what is on the lot.
 
 ## What should I check on a used SUV before I buy?
 
-Ask four things about the exact unit: its mileage and service records, its vehicle history report, how the tires and brakes measure, and the full price in writing. The price shown on our vehicle pages includes the $180 doc fee. The number you see is the number you start from.
+Ask four things about the exact unit. Its mileage and service records. Its vehicle history report. How the tires and brakes measure. And the full price in writing. The price shown on our vehicle pages includes the $180 doc fee. The number you see is the number you start from.
 
 That short list works at any dealership.
 
 ## How do I line up a test drive?
 
-Choose the SUV from the list. Then [schedule a used-SUV test drive](/testdrive.aspx?type=Used) or call Motor Inn Auto Group at 712-792-5000 and name the vehicle. Deciding between sizes? Ask to drive two back to back.
+Choose the SUV from the list. Then [schedule a used-SUV test drive](/testdrive.aspx?type=Used) or call Motor Inn Auto Group at 712-792-5000 and name the vehicle.
 
 ## What if my budget has a firm ceiling?
 

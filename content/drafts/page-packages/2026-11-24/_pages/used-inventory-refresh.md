@@ -22,7 +22,7 @@ Start with the job the vehicle has to do. Then narrow by body style. Commuting o
 
 ## Which used vehicles drew the most site views November 9-15, 2026?
 
-The most-viewed used vehicles on our site that week were both Toyotas: a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831) and a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101).
+Two used vehicles drew the most site views the week of November 9-15, 2026. Both were Toyotas: a [2017 Toyota RAV4 Hybrid XLE](/used-Carroll-2017-Toyota-RAV4+Hybrid-XLE-JTMRJREV6HD099831) and a [2024 Toyota Grand Highlander Hybrid MAX Platinum](/used-Carroll-2024-Toyota-Grand+Highlander-Hybrid+MAX+Platinum-5TDADAB57RS001101).
 
 ## How can I set a budget before I visit?
 
@@ -30,7 +30,7 @@ Start with the [vehicles under $20,000](/under-20k.html) list. Then try the [pay
 
 ## What about my current vehicle?
 
-The [trade-in page](/trade.aspx) explains how trade-in figures work here. You can also bring the vehicle with you when you visit.
+The [trade-in page](/trade.aspx) explains how trade-in figures work here.
 
 ## How do I set up a test drive?
 

@@ -9,7 +9,7 @@ status: draft-needs-owner-approval
 research_sha: brain/reports/gsc-cannibalization-2026-11-03.md; audits/audit-2026-11-23.md; brain/ai-visibility/ai-vis-2026-11-23.md
 date: 2026-11-24
 page_action: refresh-existing (rewrite of the live page's custom content to correct the published phone number and founding year - both defects quoted in the REVIEW packet - and to sharpen the page for 'car dealerships carroll iowa')
-editorial_round: 3 (revised after codex adversarial FAIL 2026-11-24: unsupported claims cut, VOICE-DNA short-sentence pass, 16 broken link occurrences fixed to verified URLs)
+editorial_round: 4 (revised after codex adversarial r3 rerun FAIL: VDP href fix, process-claim alignment, long-sentence splits)
 ---
 
 # Car Dealerships in Carroll, Iowa
@@ -18,7 +18,7 @@ Carroll, Iowa has several car dealerships within a few miles of each other. Moto
 
 ## What should I compare between Carroll car dealerships?
 
-Compare four things at any Carroll dealership: whether the store has the vehicle you want listed today, whether it services what it sells on the same lot, whether it will put a trade figure in writing, and whether the full price, including fees, is clear before you drive over. How a store answers those four tells you most of what you need to know.
+Compare four things at any Carroll dealership. Does it have the vehicle you want listed today? Does it service what it sells on the same lot? Will it put a trade figure in writing? Is the full price, including fees, clear before you drive over? How a store answers those four tells you most of what you need to know.
 
 Brand coverage matters too. Motor Inn lists new Toyotas and new Chevrolets, plus used vehicles across brands.
 

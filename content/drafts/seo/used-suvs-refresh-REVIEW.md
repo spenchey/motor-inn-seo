@@ -20,8 +20,9 @@ Must not say: specific towing/payload numbers for an unnamed unit, condition or 
 Needs checking first: doc-fee sentence against the exact live VDP price disclaimer DealerOn renders (confirm the site really shows price including the $180 doc fee, not +fee); VDP link freshness at publish.
 
 ## Internal-link plan
-Outbound (all 200 on 2026-11-24): the two VDPs, /new-suvs, /under-20000, /paymentcalc.aspx, /finance-locations.html, /trade.aspx, /testdrive.aspx?type=Used.
-Inbound FROM ranking pages (anchors for DealerOn): /used-inventory refresh (this batch) anchors 'used SUVs' / 'used crossovers'; /car-dealerships-carroll-iowa refresh (this batch) anchor 'used SUVs'; /vehicle-trim-levels-explained anchor 'compare used SUV trims on the lot' -> /used-suvs.
+Outbound in draft (each re-fetched 2026-11-24, final HTTP 200): the two named VDPs, /testdrive.aspx?type=Used, /under-20k.html, /paymentcalc.aspx, /trade.aspx.
+VDP link anchors: '2017 Toyota RAV4 Hybrid XLE', '2024 Toyota Grand Highlander Hybrid MAX Platinum'.
+Inbound FROM already-ranking pages (for the DealerOn request, anchors chosen): /car-dealerships-carroll-iowa (cluster page, refreshed in this batch) anchor 'used SUVs' -> /used-suvs.
 
 ## Sources
 - findings/reports/digital-synthesis-2026-11-23.md; audits/audit-2026-11-23.md; brain/STATE.md
@@ -34,6 +35,7 @@ Inbound FROM ranking pages (anchors for DealerOn): /used-inventory refresh (this
 
 
 ## Round 3 fixes (2026-11-24, after codex adversarial FAIL round 2)
+Round-3.5 update (codex adversarial r3 rerun FAIL, report brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-r3-2026-11-24.md): broken Grand Highlander VDP href fixed (plus-encoding), three process-claim phrasings cut or aligned to packet-mapped wording, the four long sentences split, and this Internal-link plan section rewritten to the verified round-3 URLs (it previously still listed the 404 routes).
 Round-2 adversarial report: brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md (verdict FAIL, all 4 pages). Fixes applied in round-3 draft (editorial_round: 3):
 - Links: the round-2 link-verification claim was WRONG (see used-inventory REVIEW, same cause). /under-20000 and /new-suvs return 404. Round 3 uses /under-20k.html and /searchnew.aspx?BodyStyle=SUV - re-fetched 2026-11-24, final HTTP 200.
 - Claims cut (codex-quoted): the vehicle-class generalizations ("Compact crossovers handle commuting and tight parking", "Midsize SUVs add second-row room", the three-row/towing sentence) and "Iowa winters make all-wheel drive a common request." - rewritten as shopper-situation questions with no demand or class claims. "driveline" removed.

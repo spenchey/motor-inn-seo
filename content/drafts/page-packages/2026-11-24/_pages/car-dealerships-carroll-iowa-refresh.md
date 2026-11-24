@@ -18,7 +18,7 @@ Carroll, Iowa has several car dealerships within a few miles of each other. Moto
 
 ## What should I compare between Carroll car dealerships?
 
-Compare four things at any Carroll dealership: whether the store has the vehicle you want listed today, whether it services what it sells on the same lot, whether it will put a trade figure in writing, and whether the full price, including fees, is clear before you drive over. How a store answers those four tells you most of what you need to know.
+Compare four things at any Carroll dealership. Does it have the vehicle you want listed today? Does it service what it sells on the same lot? Will it put a trade figure in writing? Is the full price, including fees, clear before you drive over? How a store answers those four tells you most of what you need to know.
 
 Brand coverage matters too. Motor Inn lists new Toyotas and new Chevrolets, plus used vehicles across brands.
 
