@@ -47,7 +47,9 @@ Python is `/usr/bin/python3` (version 3.9). Every script is run with `-I`, which
 | `ingest_reports.py` | Reads the structured findings block at the end of each report, and the Monday full watch file (passed with `--candidates`). Prose is ignored. Known problems go into the register; unknown items go to the inbox, at most ten a run. It never reads the review pull files. | Monday at 12:50 | The register and the inbox | rory |
 | `packet.py` | Writes ready-to-approve packets from register rows: DealerOn requests (at most five items each), Google listing edits, content drafts and Spencer decisions. Sends nothing. | By hand, when a row is ready for an ask | One folder per packet in `findings/packets/`, each starting with "DRAFT: needs Spencer's OK in chat" | rory |
 | `verify_fix.py` | Reads the live page for each row that was sent. Marks a row proven only after two passes, at least a day apart. A fix that is not in place by day 14 reopens the row. A network error is "not observed" and changes nothing. | Daily at 13:10 | The register, and evidence files | rory |
-| `monday_summary.py` | Writes the Monday note to a file: a one-line verdict, the numbers with their sources, what was fixed, what is open, at most three asks, and what is waiting on DealerOn. It has no sending code. | Monday at 13:00 | A text file in `findings/summaries/` | rory |
+| `monday_summary.py` | Writes the Monday note to a file: a one-line verdict, the numbers with their sources, what was fixed, what is open, at most three asks, and what is waiting on DealerOn. It has no sending code. | Run by `send_monday_summary.py` | Printed text | rory |
+| `monday_refresh.py` | Read-only and free. Pulls organic leads from Google Analytics, 28-day clicks from Search Console and a counts-only own-website lead count from the landed CRM capture, rebuilds this month's baselines file with `baseline.py`, then adds AI-assistant visits for this month and last month with `ai_referrals.py`. A reader that fails leaves "not verified", never 0, and is logged. On a Monday that is the 1st it refreshes last month. `--dry-run` prints the plan. Settings (reader paths) come from `findings/seo-loop.config.json`, which is never in git. | Monday at 06:50 | `findings/baselines/<yyyy-mm>.json`, log `findings/logs/monday-refresh.log` | rory |
+| `send_monday_summary.py` | Renders the summary, saves `findings/summaries/summary-<date>.txt`, and sends it to Spencer as a Slack DM with the sender the price-drop job already uses (the user id and the sender path come from the same config file). Sends only on a real Monday unless `--force`. If the render fails it sends "SEO summary failed this week, see summary.log". If the DM fails it logs loudly to `findings/logs/summary.log` and exits 1. `--dry-run` does everything but the Slack call and never looks up a token. Refuses a second send the same day. | Monday at 13:00 | A Slack DM, the saved text file, `.dm-sent-<date>` | rory |
 | `baseline.py` | Puts the monthly numbers into the baseline file. A missing number is written as "not verified". Nothing is estimated. | Once a month, by hand, once the input files exist | `findings/baselines/<yyyy-mm>.json` | rory-performance |
 | `ai_answers.py` | Asks the fixed question set (30 questions) through the paid search provider and records whether Motor Inn was cited, mentioned or absent. Refuses to run if the spend limit would be passed. | Only after Spencer approves the question set, and dry run first | Raw answers (cached 7 days) and a usage file | rory-ai-search |
 
@@ -133,7 +135,7 @@ Some rules cannot be read by a script (their verify type is `manual`). A person 
 
 ## 7. Pausing the loop
 
-To pause everything, add `#PAUSED ` to the front of each active line in Mac mini 1's schedule. The six lines are the daily tripwire, the daily tripwire ingest, the Monday full watch, the Monday ingest, the Monday summary and the daily fix checker. Save a copy of the schedule before editing it, in `_backups/`.
+To pause everything, add `#PAUSED ` to the front of each active line in Mac mini 1's schedule. The lines are the daily tripwire, the daily tripwire ingest, the Monday full watch, the Monday ingest, the Monday refresh (06:50), the Monday summary delivery (13:00) and the daily fix checker. Save a copy of the schedule before editing it, in `_backups/`.
 
 To pause one piece only, change only that line.
 
@@ -155,7 +157,8 @@ Pausing does not undo anything. Rows keep their status. A paused fix checker mea
 | A command seems to hang | The register lock waits silently for another run that is writing. No message is printed. | Wait for the other run to finish. Check the running processes before doing anything else. Do not delete the lock file. If nothing is running after ten minutes, the coordinator decides. |
 | Ingest says "not ingested" for a report | The report has no findings block, the block is malformed, or the report has no usable date (see section 4b). | Nothing from that report is recorded. The report's owner fixes the job that writes it. |
 | Inbox reaches its limit, and an "inbox over cap" finding appears | More unmatched items than the weekly limit. | Rory maps or drops each inbox item this week. |
-| Summary script exits with an error | An input file is missing or unreadable. | The schedule's redirect creates the file before the script runs, so a failed run can leave an empty file in `summaries/`. Treat a zero-byte summary as no summary. The coordinator reads the register directly for the Monday note. |
+| Summary script exits with an error | An input file is missing or unreadable. | `send_monday_summary.py` writes no summary file on a failed render and sends Spencer the one-line failure notice. The reason is in `findings/logs/summary.log`. The coordinator reads the register directly for the Monday note. |
+| "DM NOT SENT" in `summary.log` | The Slack call failed, or the config or sender file is missing. | Fix the cause, then run `send_monday_summary.py --force`. Nothing was sent. |
 | A number in the summary says "not verified" | The source file for that number was missing or incomplete. | Fix the source and rebuild the baseline. Never type a number in by hand. |
 | `ai_answers.py` refuses with the spend limit | Running it would pass $25 total or $15 for AI answers this month. | Stop until next month or until Spencer raises the limit in chat. |
 | Packet refused | The packet breaks a rule (for example, a Toyota row names a Chevrolet offer, or a phone number other than 712-792-5000 appears in our wording). | Fix the row or the wording and run again. A refused packet writes nothing. |
@@ -171,7 +174,7 @@ These are gaps in this build. Each one must be closed, or Spencer must accept it
 3. **Baseline inputs.** `baseline.py` needs the search, analytics, listing and lead files pulled by other jobs. Those pulls are not built here.
 4. **Organic-lead definition** needs Spencer's OK (decision 2 in the gap plan).
 5. **`REGISTER.md`** is refreshed by hand on Mondays until a scheduled step exists.
-6. **Monday note** is a file only. Sending it to Spencer is a separate go-live step that needs his OK.
+6. **Monday note** is sent to Spencer as a Slack DM at 13:00 on Mondays (his OK, 2026-11-24), after the 06:50 refresh. The numbers are only as fresh as that refresh. Search Console for the Chevrolet site stays "not verified" until the service account has Full access on that property.
 7. **Same-day tier 1 delivery is not built.** A tier 1 finding (for example, a noindex on a money page) reaches the register on the morning of the tripwire run, but nothing alerts Spencer that day. Until he approves an alert in chat, tier 1 rows appear only in the register and in the Monday summary. Do not turn on any alert before his OK.
 
 ## 11. First-time setup on Mac mini 1 (before anything is unpaused)
@@ -182,7 +185,8 @@ These are gaps in this build. Each one must be closed, or Spencer must accept it
    - `site_watch.py` and `urls.json`
    - `ingest_reports.py` and `map_rules.json`
    - `verify_fix.py`
-   - `monday_summary.py`
+   - `monday_summary.py`, `monday_refresh.py` and `send_monday_summary.py`
+   - `findings/seo-loop.config.json` (never in git): `slack_user_id`, `slack_sender_path`, and optionally `ga4_cli`, `gsc_cli`, `gsc_python`, `crm_db`
    - `packet.py` and its `templates/` folder
    - `baseline.py` and `baseline.schema.json`
    - `ai_answers.py`, `questions.B2.json` and `is_us.json` (do not schedule until Spencer approves the question set and the spend source is fixed)
