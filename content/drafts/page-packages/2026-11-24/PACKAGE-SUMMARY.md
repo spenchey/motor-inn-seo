@@ -26,7 +26,7 @@ Folded into the wave-2 queue (register rows F-all-page-draft-unpublished-f6f160 
 1. Round 1: drafts + page_gate PASS (commit 352b0cd).
 2. Round 2: codex editorial review + adversarial FAIL (claims, voice, 16 broken link occurrences — report brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-2026-11-24.md, commit 310f652).
 3. Round 3: unsupported claims cut (every cut quoted in the REVIEW packets), broken links replaced with verified live URLs (each re-fetched 2026-11-24), VOICE-DNA short-sentence pass, fresh-eyes reader (GLM-5.3-Flash): 17 findings, 11 fixed, 6 left (documented in used-inventory-refresh-REVIEW.md). page_gate PASS x4.
-4. Codex adversarial re-run on round 3: <PENDING — fill with report path and verdict before this goes to Spencer>.
+4. Codex adversarial re-runs on work-macbook (gpt-5.6-sol codex exec): r3 FAIL, r4 FAIL, r5 FAIL -> fixes applied each round -> r6 PASS, 4 of 4 pages, all checks (brain/reports/mot3708-used-carroll-2026-11-24-codex-adversarial-r6-2026-11-24.md, commit cd46f78). Batch ready for owner review.
 
 ## Decisions Spencer owns (3 per page, in each REVIEW packet)
 1. Copy OK for the live page replacement (listings module untouched)?

@@ -363,3 +363,5 @@ Direction: Spencer in #sales on the 2026-11-23 weekly synthesis (Linear MOT-3708
 - Package: content/drafts/page-packages/2026-11-24/ (PACKAGE-SUMMARY.md, package-meta.json, per-page bundles,
   r1/r2 preserved). Folded into wave-2 queue (F-all-page-draft-unpublished-f6f160/-7c7f82), no duplication.
 - Awaiting: codex adversarial re-run PASS on r3, then owner review. Nothing live without Spencer.
+
+Update 2026-11-24: adversarial gate CLOSED - r6 report PASS 4/4 (cd46f78). Package ready for Spencer owner review. Nothing published or sent.
