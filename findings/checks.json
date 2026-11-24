@@ -446,5 +446,19 @@
       "type": "http_status",
       "assert": "200"
     }
+  },
+  {
+    "check_id": "house-rule-copy",
+    "title": "Page wording breaks a house rule",
+    "plain_english": "A page on our website uses wording our own house rules do not allow, such as an urgency line, so it needs new wording.",
+    "tier": 3,
+    "fix_type": "dealeron_request",
+    "owner": "rory-compliance",
+    "surface": "web",
+    "brand_scope": "both",
+    "verify_template": {
+      "type": "html_not_contains",
+      "assert": "last chance at a gas-only Camry"
+    }
   }
 ]

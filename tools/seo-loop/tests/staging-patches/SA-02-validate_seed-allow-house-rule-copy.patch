@@ -1,0 +1,12 @@
+--- SA-02/validate_seed.py	2026-11-20 12:08:43
++++ SA-02-A3/validate_seed.py	2026-11-23 14:14:53
+@@ -36,7 +36,8 @@
+     "citation-mismatch", "job-prompt-retired-text", "audit-wrong-target", "zero-priced-inventory",
+     "unmirrored-inventory", "ai-answer-wrong-fact", "key-page-http-error",
+ ]
+-LITERAL_TEMPLATES = (("meta_robots", "index,follow"), ("http_status", "200"))
++LITERAL_TEMPLATES = (("meta_robots", "index,follow"), ("http_status", "200"),
++                    ("html_not_contains", "last chance at a gas-only Camry"))
+ CHECK_FIELDS = ["check_id", "title", "plain_english", "tier", "fix_type", "owner", "surface", "brand_scope",
+                 "verify_template"]
+ PENDING_LABEL = "pending-spencer"

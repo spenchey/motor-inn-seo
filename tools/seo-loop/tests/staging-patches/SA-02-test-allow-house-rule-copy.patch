@@ -1,0 +1,16 @@
+--- SA-02/tests/test_seed.py	2026-11-20 12:12:44
++++ SA-02-A3/tests/test_seed.py	2026-11-23 14:14:36
+@@ -132,8 +132,12 @@
+     def test_non_manual_templates_are_literals(self):
+         literal = re.compile(r"^[A-Za-z0-9,;=:._-]+$")
+         non_manual = [c for c in CHECK_LIST if c["verify_template"]["type"] != "manual"]
+-        self.assertEqual(sorted(c["check_id"] for c in non_manual), ["key-page-http-error", "meta-noindex"])
++        self.assertEqual(sorted(c["check_id"] for c in non_manual), ["house-rule-copy", "key-page-http-error", "meta-noindex"])
+         for c in non_manual:
++            if c["check_id"] == "house-rule-copy":  # a phrase match, so its literal is a sentence fragment
++                self.assertEqual(c["verify_template"]["type"], "html_not_contains")
++                self.assertGreater(len(c["verify_template"]["assert"].split()), 2)
++                continue
+             a = c["verify_template"]["assert"]
+             self.assertRegex(a, literal)
+             self.assertNotIn(" ", a)

@@ -1,0 +1,115 @@
+{
+ "month": "2026-11",
+ "sites": {
+  "group": {
+   "gsc_clicks_28d": {
+    "value": 1840,
+    "window": "w",
+    "source": "gsc",
+    "pulled_at": "2026-11-18T06:00:00Z"
+   },
+   "ga4_organic_sessions_28d": {
+    "value": 900,
+    "window": "w",
+    "source": "ga4",
+    "pulled_at": "2026-11-18T06:00:00Z"
+   }
+  },
+  "toyota": {
+   "gsc_clicks_28d": {
+    "value": 1100,
+    "window": "w",
+    "source": "gsc",
+    "pulled_at": "2026-11-18T06:00:00Z"
+   }
+  },
+  "chevy": {
+   "gsc_clicks_28d": {
+    "value": 740,
+    "window": "w",
+    "source": "gsc",
+    "pulled_at": "2026-11-18T06:00:00Z"
+   }
+  }
+ },
+ "listings": {
+  "gbp-toyota": {
+   "review_count": {
+    "value": 210,
+    "window": "w",
+    "source": "gbp",
+    "pulled_at": "2026-11-18T06:00:00Z"
+   }
+  },
+  "gbp-chevy": {
+   "review_count": {
+    "value": 180,
+    "window": "w",
+    "source": "gbp",
+    "pulled_at": "2026-11-18T06:00:00Z"
+   }
+  },
+  "gbp-group": {
+   "review_count": {
+    "value": 95,
+    "window": "w",
+    "source": "gbp",
+    "pulled_at": "2026-11-18T06:00:00Z"
+   }
+  }
+ },
+ "organic_leads_total": {
+  "value": 37,
+  "window": "w",
+  "source": "leads",
+  "pulled_at": "2026-11-18T06:00:00Z"
+ },
+ "ai_answers": {
+  "total": {
+   "value": 3,
+   "named": 3,
+   "observed": 12,
+   "window": "2026-11-16..2026-11-22",
+   "source": "ai-scan",
+   "pulled_at": "2026-11-23T06:40:00Z"
+  },
+  "chatgpt": {
+   "value": 2,
+   "named": 2,
+   "observed": 6,
+   "window": "2026-11-16..2026-11-22",
+   "source": "ai-scan",
+   "pulled_at": "2026-11-23T06:40:00Z"
+  }
+ },
+ "ai_referrals": {
+  "2026-10": {
+   "sessions": {
+    "value": 2,
+    "window": "2026-11-01..2026-11-23",
+    "source": "ga4:ai_referrals",
+    "pulled_at": "2026-11-24T06:00:00Z"
+   },
+   "leads": {
+    "value": 1,
+    "window": "2026-11-01..2026-11-23",
+    "source": "ga4:ai_referrals",
+    "pulled_at": "2026-11-24T06:00:00Z"
+   }
+  },
+  "2026-11": {
+   "sessions": {
+    "value": 7,
+    "window": "2026-11-01..2026-11-23",
+    "source": "ga4:ai_referrals",
+    "pulled_at": "2026-11-24T06:00:00Z"
+   },
+   "leads": {
+    "value": 4,
+    "window": "2026-11-01..2026-11-23",
+    "source": "ga4:ai_referrals",
+    "pulled_at": "2026-11-24T06:00:00Z"
+   }
+  }
+ }
+}

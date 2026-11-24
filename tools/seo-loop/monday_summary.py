@@ -28,6 +28,7 @@ GA = "Google Analytics"
 LEADS = "our own lead count"
 GBP = "Google Business reviews and activity"
 AI = "AI answers"
+AI_VISITS = "AI assistant visits"
 LISTINGS = ("gbp-toyota", "gbp-chevy", "gbp-group")
 
 SITE_NAMES = {
@@ -174,9 +175,52 @@ def _unverified_sources(block, gsc, leads) -> list:
             gbp_bad = True
     if gbp_bad:
         out.append(GBP)
-    if not (isinstance(block, dict) and _metric_ok(block.get("ai_answers"))):
+    if not _metric_ok(_ai_metric(block)):
         out.append(AI)
     return out
+
+
+def _ai_metric(block):
+    """The AI-answers metric: the block itself, or its "total" entry when it also holds one block per engine."""
+    ai = block.get("ai_answers") if isinstance(block, dict) else None
+    if isinstance(ai, dict) and "value" not in ai and isinstance(ai.get("total"), dict):
+        ai = ai["total"]
+    return ai
+
+
+def _ai_line(block) -> str:
+    """One plain line on how often the AI assistants named us. Only words we write ourselves reach the note."""
+    metric = _ai_metric(block)
+    if not _metric_ok(metric):
+        return "%s: %s." % (AI, NOT_VERIFIED)
+    named, seen = metric.get("named"), metric.get("observed")
+    if all(isinstance(n, int) and not isinstance(n, bool) and n >= 0 for n in (named, seen)) and seen > 0 and named <= seen:
+        return "%s: named in %d of %d observed answers." % (AI, named, seen)
+    value = metric.get("value")
+    if isinstance(value, (int, float)) and not isinstance(value, bool):
+        return "%s: named in %s observed %s." % (AI, _fmt(value), _plural(int(value), "answer", "answers"))
+    return "%s: %s." % (AI, NOT_VERIFIED)
+
+
+def _ai_referrals_line(baselines) -> str:
+    """One plain line on visits and leads that AI assistants sent, from the newest month in the block."""
+    block = baselines.get("ai_referrals") if isinstance(baselines, dict) else None
+    months = sorted(k for k in block if isinstance(k, str) and re.fullmatch(r"\d{4}-(0[1-9]|1[0-2])", k)) \
+        if isinstance(block, dict) else []
+    if months:
+        entry = block[months[-1]]
+        counts = []
+        for key in ("sessions", "leads"):
+            metric = entry.get(key) if isinstance(entry, dict) else None
+            value = metric.get("value") if isinstance(metric, dict) else None
+            ok = _metric_ok(metric) and isinstance(value, (int, float)) and float(value) == int(value) and value >= 0
+            counts.append(int(value) if ok else None)
+        if None not in counts:
+            visits, leads = counts
+            return "AI assistants sent %d %s, %d %s in %s." % (
+                visits, "visit" if visits == 1 else "visits",
+                leads, "lead" if leads == 1 else "leads", MONTHS[int(months[-1][5:]) - 1])
+    return "%s: %s." % (AI_VISITS, NOT_VERIFIED)
 
 
 def _fmt(value) -> str:
@@ -343,6 +387,8 @@ def build_message(rows, baselines, previous, today, week_start=None) -> str:
             "Clicks over 28 days from %s: group %s, Toyota site %s, Chevrolet site %s. "
             "Organic leads from %s: %s."
             % (GSC, _fmt(gsc["group"]), _fmt(gsc["toyota"]), _fmt(gsc["chevy"]), LEADS, _fmt(leads)))
+        lines.append(_ai_line(baselines))
+        lines.append(_ai_referrals_line(baselines))
         lines.append("Fixed and confirmed on the live site since last week: %d." % fixed_n)
         if n_open:
             lines.append("New this week: %d. Open now: %d. Oldest open problem: %d %s."
