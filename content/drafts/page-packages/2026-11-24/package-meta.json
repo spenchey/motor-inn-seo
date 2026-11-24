@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "used-inventory-refresh.md": {
+      "brand": "both",
+      "placement": "Existing page /used-inventory: replace the custom intro/content section only; leave the DealerOn inventory listings module untouched.",
+      "meta_title": "Used Cars, SUVs and Trucks in Carroll, IA | Motor Inn",
+      "meta_description": "Shop used cars, SUVs and trucks in Carroll, IA at Motor Inn Auto Group. See the current list, narrow by body style, and call 712-792-5000.",
+      "slug": "used-inventory",
+      "target_query": "used cars carroll iowa"
+    },
+    "used-suvs-refresh.md": {
+      "brand": "both",
+      "placement": "Existing page /used-suvs: replace the custom intro/content section only; leave the DealerOn inventory listings module untouched.",
+      "meta_title": "Used SUVs for Sale in Carroll, IA | Motor Inn Auto Group",
+      "meta_description": "Used SUVs and crossovers for sale in Carroll, IA. Compare the current list at Motor Inn Auto Group and set up a test drive. Call 712-792-5000.",
+      "slug": "used-suvs",
+      "target_query": "used suvs carroll iowa"
+    },
+    "car-dealerships-carroll-iowa-refresh.md": {
+      "brand": "both",
+      "placement": "Existing page /car-dealerships-carroll-iowa: full replacement of the custom content region; corrects the phone number and founding year currently published there (details in the REVIEW packet).",
+      "meta_title": "Car Dealerships in Carroll, Iowa | Motor Inn Auto Group",
+      "meta_description": "Comparing car dealerships in Carroll, Iowa? Motor Inn Auto Group is the local Toyota and Chevrolet store at 1526 Le Clark Rd. Call 712-792-5000.",
+      "slug": "car-dealerships-carroll-iowa",
+      "target_query": "car dealerships carroll iowa"
+    },
+    "used-car-dealer-carroll-iowa.md": {
+      "brand": "both",
+      "placement": "New page at /used-car-dealer-carroll-iowa (returned 404 on 2026-11-24). Confirm the URL with DealerOn before publishing.",
+      "meta_title": "Used Car Dealer in Carroll, Iowa | Motor Inn Auto Group",
+      "meta_description": "Used car dealer in Carroll, Iowa: used cars, trucks and SUVs at Motor Inn Auto Group, 1526 Le Clark Rd, with service on the same lot. 712-792-5000.",
+      "slug": "used-car-dealer-carroll-iowa",
+      "target_query": "used car dealer carroll iowa"
+    }
+  }
+}
