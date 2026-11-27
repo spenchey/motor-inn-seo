@@ -285,5 +285,19 @@
     "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CIHM0ogKEL7AvuPHktuVXg",
     "state": "PROCESSING",
     "publishDate": "2026-11-25"
+  },
+  "posts-week-of-2026-11-23::Buy 3 Tires, Get the 4th for $1 Through Nov 30::locations/14730652758503817758": {
+    "publishedAt": "2026-11-25T15:07:14.032Z",
+    "name": "accounts/115596490921363748880/locations/14730652758503817758/localPosts/5834824489211333768",
+    "searchUrl": "https://local.google.com/place?id=9445609159222270316&use=posts&lpsid=CAIQACoeChxtc3BfaDpJbWdzU2hZLWxJZzZqWGRIYnlKUkZ3",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-25"
+  },
+  "posts-week-of-2026-11-23::Buy 3 Tires, Get the 4th for $1 Through Nov 30::locations/2099693230539902964": {
+    "publishedAt": "2026-11-25T15:07:14.404Z",
+    "name": "accounts/115596490921363748880/locations/2099693230539902964/localPosts/4741978651332867696",
+    "searchUrl": "https://local.google.com/place?id=1693888427034485426&use=posts&lpsid=CAIQACoeChxtc3BfaDp6ZHltMDdibU5IcTNkdzk4RERSOWlR",
+    "state": "PROCESSING",
+    "publishDate": "2026-11-25"
   }
 }
